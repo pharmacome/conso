@@ -9,7 +9,7 @@ entities in the HBP terminology:
 
 1. Identifier
 2. Label
-3. PMIDs
+3. References
 4. Description
 
 ### synonyms.tsv
