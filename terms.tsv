@@ -1,5 +1,5 @@
 Identifier	Label	References	Description
-00001	Microtubule-binding Region	pmid:18500754	The motif in the MAPT protein where microtubule binding repeats
+00001	Microtubule-binding Region	pmid:18500754, pmid:2516729	The motif in the MAPT protein where microtubule binding repeats
 00002	Microtubule-binding Region 1	pmid:18500754	The motif in the MAPT protein at position 569_591
 00002	Microtubule-binding Region 2	pmid:18500754	The motif in the MAPT protein at position 592_621
 00002	Microtubule-binding Region 3	pmid:18500754	The motif in the MAPT protein at position 623_653
