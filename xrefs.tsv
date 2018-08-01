@@ -1,5 +1,5 @@
-HBP Identifier	Database	Database Identifier
-00002	BEL	p(HGNC:MAPT, frag(569_591))
-00003	BEL	p(HGNC:MAPT, frag(592_621))
-00004	BEL	p(HGNC:MAPT, frag(623_653))
-00005	BEL	p(HGNC:MAPT, frag(654_685))
+Identifier	Database	Database Identifier
+HBP00002	BEL	p(HGNC:MAPT, frag(569_591))
+HBP00003	BEL	p(HGNC:MAPT, frag(592_621))
+HBP00004	BEL	p(HGNC:MAPT, frag(623_653))
+HBP00005	BEL	p(HGNC:MAPT, frag(654_685))
