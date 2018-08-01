@@ -1,6 +1,6 @@
 Identifier	Label	References	Description
-00001	Microtubule-binding Region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
-00002	tubulin-binding Repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
-00003	tubulin-binding Repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
-00004	tubulin-binding Repeat 3	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
-00005	tubulin-binding Repeat 4	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
+HBP00001	Microtubule-binding Region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
+HBP00002	tubulin-binding Repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
+HBP00003	tubulin-binding Repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
+HBP00004	tubulin-binding Repeat 3	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
+HBP00005	tubulin-binding Repeat 4	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
