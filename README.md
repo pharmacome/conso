@@ -9,7 +9,7 @@ entities in the HBP terminology:
 
 1. Identifier
 2. Label
-3. References
+3. References (comma separated)
 4. Description
 
 ### synonyms.tsv
@@ -28,3 +28,14 @@ other databases that have listed this equivalent entity:
 1. HBP Identifier
 2. Database
 3. Identifier
+
+## Contributing
+
+Contributions are welcome. Please submit pull requests to 
+https://github.com/pharmacome/terminology/edit/master/README.md
+
+Tips:
+
+- When adding a new term, make sure that the entry has a new and unique identifier that follows 
+  the regular expression `^HBP\d{5}$`
+- References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, `pmc:PMC1234`, etc.)
