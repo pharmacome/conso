@@ -1,4 +1,9 @@
-# Human Brain Pharmacome Terminology
+# Human Brain Pharmacome Terminology [![Build Status](https://travis-ci.com/pharmacome/terminology.svg?branch=master)](https://travis-ci.com/pharmacome/terminology)
+
+<p align="center">
+  <a href="#contents">Contents</a> •
+  <a href="#contributing">Contributing</a>
+</p>
 
 ## Contents
 
@@ -31,8 +36,7 @@ other databases that have listed this equivalent entity:
 
 ## Contributing
 
-Contributions are welcome. Please submit pull requests to 
-https://github.com/pharmacome/terminology/edit/master/README.md
+Contributions are welcome! Please submit all pull requests to https://github.com/pharmacome/terminology.
 
 Tips:
 
