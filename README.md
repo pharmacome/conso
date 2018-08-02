@@ -1,4 +1,17 @@
-# Human Brain Pharmacome Terminology [![Build Status](https://travis-ci.com/pharmacome/terminology.svg?branch=master)](https://travis-ci.com/pharmacome/terminology)
+<h1 align="center">
+  <br>
+  Terminology
+  <a href="https://travis-ci.com/pharmacome/terminology">
+    <img src="https://travis-ci.com/pharmacome/terminology.svg?branch=master"
+         alt="Travis CI">
+  </a>
+  <br>
+</h1>
+
+<p align="center">
+This is a terminology for the Human Brain Pharmacome (HBP) project, containing terms representing the molecular biology
+relevant to neurodegenerative disease.
+</p>
 
 <p align="center">
   <a href="#contents">Contents</a> •
