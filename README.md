@@ -55,4 +55,5 @@ Tips:
 
 - When adding a new term, make sure that the entry has a new and unique identifier that follows 
   the regular expression `^HBP\d{5}$`
+- Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but *hyperphosphorylation* is not)
 - References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, `pmc:PMC1234`, etc.)
