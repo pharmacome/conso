@@ -1,8 +1,8 @@
 Identifier	Label	References	Description
-HBP00001	Microtubule-binding Region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
-HBP00002	tubulin-binding Repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
-HBP00003	tubulin-binding Repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
-HBP00004	tubulin-binding Repeat 3	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
-HBP00005	tubulin-binding Repeat 4	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
+HBP00001	microtubule-binding Region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
+HBP00002	tubulin-binding repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
+HBP00003	tubulin-binding repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
+HBP00004	tubulin-binding repeat 3	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
+HBP00005	tubulin-binding repeat 4	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
 HBP00006	Tau aggregates	pmc:PMC2633703	Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated
-HBP00007	Hyperphosphorylation	pmid:22710920	An excessive phosphorylation (see GO:0006468)
+HBP00007	hyperphosphorylation	pmid:22710920	An excessive phosphorylation (see GO:0006468)
