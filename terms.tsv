@@ -8,3 +8,4 @@ HBP00006	Tau aggregates	pmc:PMC2633703	Tau (MAPT) in its aggregated form (as Pai
 HBP00007	hyperphosphorylation	pmid:22710920	An excessive phosphorylation (see GO:0006468)
 HBP00008	GAL80TS	pmid:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL80TS)  
 HBP00009	Tau oligomers	pmid:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
+HBP00010	LY293002	pmid:21329734	a specific PI3-kinase inhibitor 
