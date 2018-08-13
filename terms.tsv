@@ -1,4 +1,4 @@
-Identifier	Label	References	Description
+﻿Identifier	Label	References	Description
 HBP00001	microtubule-binding region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
 HBP00002	tubulin-binding repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
 HBP00003	tubulin-binding repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
@@ -10,3 +10,4 @@ HBP00008	GAL80TS	pmid:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL8
 HBP00009	Tau oligomers	pmid:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
 HBP00010	LY293002	pmid:21329734	a specific PI3-kinase inhibitor 
 HBP00011	LPLI	pmid:20333643	Low-power laser irradiation (LPLI) is a non-damage physical therapy
+HBP00012	Chronic cerebral hypoperfusion	pmid24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
