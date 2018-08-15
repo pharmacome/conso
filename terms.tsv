@@ -1,4 +1,4 @@
-﻿Identifier	Label	References	Description
+Identifier	Label	References	Description
 HBP00001	microtubule-binding region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
 HBP00002	tubulin-binding repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
 HBP00003	tubulin-binding repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
@@ -14,5 +14,3 @@ HBP00012	Chronic cerebral hypoperfusion	pmid24575038	Chronic cerebral hypoperfus
 HBP00013	Mori Fructus ethanol extract	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
 HBP00014	tunneling nanotubes	pmid:27809932	filamentous-actin-containing membranous structures that bridge and connect cells
 HBP00015	amyloidogenesis 	pmid:24653673	production of amyloid
-
-
