@@ -17,3 +17,6 @@ HBP00015	amyloidogenesis 	pmid:24653673	production of amyloid
 HBP00016	alpha-synuclein aggregates	pmid:23254192	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
 HBP00017	huntingtin aggregates	pmid:12747895	huntingtin (HTT) protein fragments aggregations
 HBP00018	amyloid-beta aggregates	pmid:23484434	aggregation of amyloid-beta fragments of the APP protein
+HBP00019	SEN-1269	pmid:23484434	A tau aggregation inhibitor
+HBP00020	MLS000034832	pmid:23484434	A tau aggregation inhibitor
+HBP00021	caprospinol	pmid:23484434	A tau aggregation inhibitor
