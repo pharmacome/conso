@@ -3,7 +3,7 @@ Keyword=HBP
 NameString=HBP
 DomainString=Other
 VersionString=20180816
-CreatedDateTime=2018-08-16T16:12:37
+CreatedDateTime=2018-08-16T16:44:10
 DescriptionString=Human Brain Pharmacome Terminology.
 
 [Author]
@@ -37,3 +37,6 @@ HBP00015|ABCGMOPR
 HBP00016|ABCGMOPR
 HBP00017|ABCGMOPR
 HBP00018|ABCGMOPR
+HBP00019|ABCGMOPR
+HBP00020|ABCGMOPR
+HBP00021|ABCGMOPR
