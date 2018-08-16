@@ -57,3 +57,9 @@ Tips:
   the regular expression `^HBP\d{5}$`
 - Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but *hyperphosphorylation* is not)
 - References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, `pmc:PMC1234`, etc.)
+
+## Exports
+
+### BEL Namespace
+
+The latest BEL namespace can be found at https://raw.githubusercontent.com/pharmacome/terminology/master/export/hbp.belns.
