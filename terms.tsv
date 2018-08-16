@@ -14,5 +14,6 @@ HBP00012	Chronic cerebral hypoperfusion	pmid24575038	Chronic cerebral hypoperfus
 HBP00013	Mori Fructus ethanol extract	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
 HBP00014	tunneling nanotubes	pmid:27809932	filamentous-actin-containing membranous structures that bridge and connect cells
 HBP00015	amyloidogenesis 	pmid:24653673	production of amyloid
-HBP00016 	alpha-synuclein aggregates 	pmid:23254192 	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
-HBP00017 	huntingtin aggregates 	pmid:12747895 	huntingtin (HTT) protein fragments aggregations
+HBP00016	alpha-synuclein aggregates	pmid:23254192	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
+HBP00017	huntingtin aggregates	pmid:12747895	huntingtin (HTT) protein fragments aggregations
+HBP00018	amyloid-beta aggregates	pmid:23484434	aggregation of amyloid-beta fragments of the APP protein
