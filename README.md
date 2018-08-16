@@ -15,7 +15,8 @@ relevant to neurodegenerative disease.
 
 <p align="center">
   <a href="#contents">Contents</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="#contributing">Contributing</a> •
+  <a href="#exports">Exports</a>
 </p>
 
 ## Contents
