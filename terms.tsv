@@ -17,6 +17,17 @@ HBP00015	amyloidogenesis 	pmid:24653673	production of amyloid
 HBP00016	alpha-synuclein aggregates	pmid:23254192	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
 HBP00017	huntingtin aggregates	pmid:12747895	huntingtin (HTT) protein fragments aggregations
 HBP00018	amyloid-beta aggregates	pmid:23484434	aggregation of amyloid-beta fragments of the APP protein
-HBP00019	SEN-1269	pmid:23484434	A tau aggregation inhibitor
-HBP00020	MLS000034832	pmid:23484434	A tau aggregation inhibitor
-HBP00021	caprospinol	pmid:23484434	A tau aggregation inhibitor
+HBP00019  APP C-terminally truncated carboxyl-terminal fragments  pmid:15491160 C-terminally truncated carboxyl-terminal fragments (CTFs) of APP
+HBP00020  A2B5 antigen  pmid:14976144 A2B5 antigen is a cell surface ganglioside epitope expressed on developing thymic epithelial cells, oligodendrocyte progenitors, and neuroendocrine cells.
+HBP00021  neutral sphingomyelinase  pmid:19519303 Sphingomyelin phosphodiesterase (EC 3.1.4.12, also known as neutral sphingomyelinase, sphingomyelinase, or SMase) is a hydrolase enzyme that is involved in sphingolipid metabolism reactions.
+HBP00022  Neurodegeneration pmid:20202123 Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes.
+HBP00023  amyloid-beta derived diffusible ligands pmid:19188609 soluble oligomeric forms of the amyloid beta peptide known as amyloid-derived diffusible ligands (ADDLs) are the toxic species responsible for neurodegeneration associated with Alzheimer's disease.
+HBP00024  Hyperamylinemia pmid:23794448 increased secretion of the pancreatic hormone amylin
+HBP00025  APOE e4 pmid:22701550 APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158).
+HBP00026  N-AcGIP pmid:18234983 N-AcGIP is agonist of GIP
+HBP00027  Pro3-GIP  pmid:18234983 Pro3-GIP is agonist of GIP
+HBP00028  PI3K-Akt signaling pathway  pmid:22013558 PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG.
+HBP00029  Neurodegeneration pmid:12387894 Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons.
+HBP00030  SecPS2NT  pmid:10078972 Don't know how to describe it properly
+HBP00031  Argyrophilic Grain Disease  pmid:15658002 Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians. 
+HBP00032  granulovacuolar degeneration  pmid:17455299 Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles.
