@@ -6,8 +6,8 @@ HBP00004	tubulin-binding repeat 3	pmid:18500754	position 623_653 of canonical is
 HBP00005	tubulin-binding repeat 4	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
 HBP00006	Tau aggregates	pmc:PMC2633703	Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated
 HBP00007	hyperphosphorylation	pmid:22710920	An excessive phosphorylation (see GO:0006468)
-HBP00008	GAL80TS	pmid:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL80TS)  
-HBP00009	Tau oligomers	pmid:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
+HBP00008	GAL80TS	pmc:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL80TS)  
+HBP00009	Tau oligomers	pmc:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
 HBP00010	LY293002	pmid:21329734	a specific PI3-kinase inhibitor 
 HBP00011	LPLI	pmid:20333643	Low-power laser irradiation (LPLI) is a non-damage physical therapy
 HBP00012	Chronic cerebral hypoperfusion	pmid24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
