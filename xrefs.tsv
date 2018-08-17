@@ -6,4 +6,4 @@ HBP00005	BEL	p(HGNC:MAPT, frag(654_685))
 HBP00019	pubchem.compound	46835756
 HBP00020	pubchem.compound	647821
 HBP00021	drugbank	DB05263
-HBP00039	BEL	p(MGI:Lama1, frag("2719_2730"))
+HBP00039	BEL	p(MGI:Lama1, frag(2719_2730))
