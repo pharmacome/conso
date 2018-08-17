@@ -31,8 +31,9 @@ HBP00029	Hyperamylinemia	pmid:23794448	increased secretion of the pancreatic hor
 HBP00030	APOE e4	pmid:22701550	APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158).
 HBP00031	N-AcGIP	pmid:18234983	N-AcGIP is agonist of GIP
 HBP00032	Pro3-GIP	pmid:18234983	Pro3-GIP is agonist of GIP
-HBP00033	Neurodegeneration	pmid:12387894	Neurodegeneration is the progreHBP00033	PI3K-Akt signaling pathwayssive loss of structure or function of neurons, including death of neurons.
-HBP00034	Argyrophilic Grain Disease	pmid:15658002	Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians. 
-HBP00035	granulovacuolar degeneration	pmid:17455299	Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles.
-HBP00036	mitochondrial dysfunction	pmid:19885299	mitochondria function disorder
-HBP00037	amyloid-beta fibrils	pmid:19158505	Insoluble fibrous protein aggregates exhibiting beta sheet structure.
+HBP00033	PI3K-Akt signaling pathway	pmid:22013558	PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG.
+HBP00034	Neurodegeneration	pmid:12387894	Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons.
+HBP00035	Argyrophilic Grain Disease	pmid:15658002	Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians. 
+HBP00036	granulovacuolar degeneration	pmid:17455299	Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles.
+HBP00037	mitochondrial dysfunction	pmid:19885299	mitochondria function disorder
+HBP00038	amyloid-beta fibrils	pmid:19158505	Insoluble fibrous protein aggregates exhibiting beta sheet structure.
