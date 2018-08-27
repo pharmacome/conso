@@ -42,3 +42,18 @@ HBP00040	Notch intracellular domain	pmid:20883690	Notch intracellular domain is 
 HBP00041	YENPTY endocytosis motif (APP)	pmid:18650430	YENTY is the endocytosis motif of Amyloid precursor protein.
 HBP00042	sAPP-beta	pmid:21606494	Soluble amyloid precursor protein
 HBP00043	growth factor	pmid:14678766	A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes.
+HBP00044	3R tau	pmid:23407988	Tau isoforms containing 3 tubulin binding repeats
+HBP00045	4R tau	pmid:23407988	Tau isoforms containing 4 tubulin binding repeats
+HBP00046	VQIINK motif	pmid:17493042	A hexapeptide motif located in the R2, that promotes the formation of PHF
+HBP00047	VQIVYK motif 	pmid:17493042	A hexapeptide motif located in the R3, that promotes the formation of PHF
+HBP00048	ghost tangles	pmid:23407988, pmid:8431763		Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity.
+HBP00049	pretangles		pmid:23407988, pmid:24612177	Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles.		
+HBP00050	projection domain	pmid:17493042, pmid:28386764	Corresponding roughly to the N-terminal part of the tau molecule, consisting mainly of acidic residues and containing two distinct alternatively spliced N-terminal inserts.
+HBP00051	RAC1b	pmid:22142809	A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer.
+HBP00052	AP-2 complex	pmid:27260836	A heterotetrameric adapter protein complex involved in cargo-internalization during clathrin-mediated endocytosis. Composed of alpha and beta subunits (large adaptins), mu and minor adaptins mu and sigma.
+HBP00053	Tau isoform F (441 aa)	pmid:17493042	Longest tau isoform in human brain, most commonly used as the conventional tau.
+HBP00054	Tau isoform Fetal-tau (352 aa)	pmid:17493042	Human fetal tau isoform.
+HBP00055	Tau isoform B (381 aa)	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00056	Tau isoform D (383 aa)	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00057	Tau isoform C (410 aa)	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00058	Tau isoform E (412 aa)	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
