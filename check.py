@@ -18,8 +18,14 @@ def get_terms() -> Iterable[str]:
         _ = next(reader)  # skip the header
 
         for i, line in enumerate(reader, start=1):
-            if len(line) != 4:
+            if line[-1].endswith('\t') or line[-1].endswith(' '):
+                raise Exception(f'Trailing whitespace on line {i}')
+
+            if len(line) < 4:
                 raise Exception(f'terms.csv: Not enough fields (only found {len(line)}) on line {i}: {line}')
+
+            if len(line) > 4:
+                raise Exception(f'terms.csv: Too many fields (found {len(line)}) on line {i}: {line}')
 
             if any(not column for column in line):
                 raise Exception(f'terms.csv: Missing entries on line {i}: {line}')
