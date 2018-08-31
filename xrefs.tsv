@@ -1,4 +1,5 @@
 Identifier	Database	Database Identifier
+HBP00001	interpro	IPR001084
 HBP00002	BEL	p(HGNC:MAPT, frag(569_591))
 HBP00003	BEL	p(HGNC:MAPT, frag(592_621))
 HBP00004	BEL	p(HGNC:MAPT, frag(623_653))
