@@ -71,3 +71,4 @@ HBP00069	C31	pmid:21214928	a fragment containing the last 31 amino acids of APP 
 HBP00070	Jcasp	pmid:21214928	Additional gamma-cleavage further generates the fragment (called Jcasp) containing the region between gamma- and caspase-cleavage sites
 HBP00071	AICD	pmid:21214928	APP intracellular domain
 HBP00072	p83	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
+HBP00073	APP processing	pmid:21214928	Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)
