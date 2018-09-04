@@ -67,7 +67,7 @@ HBP00065	APP770	pmid:21214928	the APP gene is located on chromosome 21 in humans
 HBP00066	gamma-secretase	pmid:25565961	gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)
 HBP00067	sAPP-alpha	pmid:22491325	soluble amyloid precursor protein-alpha
 HBP00068	Excitotoxicity	pmid:19343058	Excitotoxicity is defined as cell death resulting from the toxic actions of excitatory amino acids
-HBP00069	C31	pmid:21214928	It is also possible that APP betaCTF’s cytotoxic effect is actually mediated by the end products of gamma- and/or caspase-cleavage including APP intracellular domain (AICD), C31 and Jcasp which are cytotoxic
-HBP00070	Jcasp	pmid:21214928	It is also possible that APP betaCTF’s cytotoxic effect is actually mediated by the end products of gamma- and/or caspase-cleavage including APP intracellular domain (AICD), C31 and Jcasp which are cytotoxic
+HBP00069	C31	pmid:21214928	a fragment containing the last 31 amino acids of APP (called C31)
+HBP00070	Jcasp	pmid:21214928	Additional gamma-cleavage further generates the fragment (called Jcasp) containing the region between gamma- and caspase-cleavage sites
 HBP00071	AICD	pmid:21214928	APP intracellular domain
 HBP00072	p83	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
