@@ -70,3 +70,4 @@ HBP00068	Excitotoxicity	pmid:19343058	Excitotoxicity is defined as cell death re
 HBP00069	C31	pmid:21214928	It is also possible that APP betaCTF’s cytotoxic effect is actually mediated by the end products of gamma- and/or caspase-cleavage including APP intracellular domain (AICD), C31 and Jcasp which are cytotoxic
 HBP00070	Jcasp	pmid:21214928	It is also possible that APP betaCTF’s cytotoxic effect is actually mediated by the end products of gamma- and/or caspase-cleavage including APP intracellular domain (AICD), C31 and Jcasp which are cytotoxic
 HBP00071	AICD	pmid:21214928	APP intracellular domain
+HBP00072	p83	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
