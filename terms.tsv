@@ -72,3 +72,4 @@ HBP00070	Jcasp	pmid:21214928	Additional gamma-cleavage further generates the fra
 HBP00071	AICD	pmid:21214928	APP intracellular domain
 HBP00072	p83	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
 HBP00073	APP processing	pmid:21214928	Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)
+HBP00074	AβOs	pmid:24685176	soluble Aβ oligomers
