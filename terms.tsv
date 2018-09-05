@@ -75,3 +75,4 @@ HBP00073	APP processing	pmid:21214928	Any protein maturation process achieved by
 HBP00074	AβOs	pmid:24685176	soluble Aβ oligomers
 HBP00075	LMW amyloid oligomers	pmid:18723507	The formation of AβOs starts from alterations in the conformation of monomeric Aβ, resulting in low molecular weight (LMW) dimers and trimers, followed by aggregation to soluble spherical oligomers consisted of 12–24 monomers.
 HBP00076	amyloid-beta 40 oligomers	pmid:21209907	Amyloid-beta oligomers composed specifically of amyloid-beta 40
+HBP00077	alternative splicing of APP gene	pmid:22122372	The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition (see:GO:0000380)
