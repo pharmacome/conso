@@ -78,3 +78,5 @@ HBP00076	amyloid-beta 40 oligomers	pmid:21209907	Amyloid-beta oligomers composed
 HBP00077	alternative splicing of APP gene	pmid:22122372	The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition (see:GO:0000380)
 HBP00078	E1 domain	pmid:21574595	The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization
 HBP00079	E2 domain	pmid:21574595	The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization
+HBP00080	P3 peptide	pmid:22137428	Cleavage by α-secretase yields the nonamyloidogenic soluble 3-kDa peptide (p3) that does not form amyloid fibrils, whereas cleavage by β-secretase yields the amyloidogenic form Aβ1–40 or the longer, more fibrillogenic Aβ1–42
+HBP00081	C99	pmid:22122372	a membrane associated C-terminal fragment consisting of 99 amino acids (C99)
