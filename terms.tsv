@@ -73,3 +73,4 @@ HBP00071	AICD	pmid:21214928	APP intracellular domain
 HBP00072	p83	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
 HBP00073	APP processing	pmid:21214928	Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)
 HBP00074	AβOs	pmid:24685176	soluble Aβ oligomers
+HBP00075	LMW amyloid oligomers	pmid:18723507	The formation of AβOs starts from alterations in the conformation of monomeric Aβ, resulting in low molecular weight (LMW) dimers and trimers, followed by aggregation to soluble spherical oligomers consisted of 12–24 monomers.
