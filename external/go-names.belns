@@ -1,8 +1,8 @@
 [Namespace]
 Keyword=go
 NameString=Gene Ontology
-VersionString=20180828
-CreatedDateTime=2018-08-28T09:50:40
+VersionString=20180906
+CreatedDateTime=2018-09-06T15:13:08
 QueryValueURL=http://identifiers.org/go/
 
 [Author]

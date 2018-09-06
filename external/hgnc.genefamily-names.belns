@@ -1,0 +1,1152 @@
+[Namespace]
+Keyword=hgnc.genefamily
+NameString=gfam
+VersionString=20180906
+CreatedDateTime=2018-09-06T15:12:55
+QueryValueURL=http://identifiers.org/hgnc.genefamily/
+
+[Author]
+NameString=cthoyt
+CopyrightString=Other/Proprietary
+
+[Citation]
+NameString=None
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+m6A methyltransferase complex|G
+1-acylglycerol-3-phosphate O-acyltransferases|G
+14-3-3 phospho-serine/phospho-threonine binding proteins|G
+18S ribosomal RNAs|G
+28S ribosomal RNAs|G
+45S pre-ribosomal RNAs|G
+5'-nucleotidases|G
+5-hydroxytryptamine receptors, G protein-coupled|G
+5-hydroxytryptamine receptors, ionotropic|G
+5.8S ribosomal RNAs|G
+5FMC ribosome biogenesis complex|G
+5S ribosomal RNAs|G
+6-phosphofructo-2-kinases/fructose-2,6-biphosphatases|G
+7D cadherins|G
+7TM orphan receptors|G
+A-kinase anchoring proteins|G
+AAA ATPases|G
+ADAM metallopeptidase domain containing|G
+ADAM metallopeptidases with thrombospondin type 1 motif|G
+ADAMTS like|G
+AF4/FMR2 family|G
+AGC family kinases|G
+ANP32 acidic nuclear phosphoproteins|G
+ARF GTPase family|G
+ASAP complex|G
+AT-rich interaction domain containing|G
+ATAC complex|G
+ATP binding cassette subfamily A|G
+ATP binding cassette subfamily B|G
+ATP binding cassette subfamily C|G
+ATP binding cassette subfamily D|G
+ATP binding cassette subfamily E|G
+ATP binding cassette subfamily F|G
+ATP binding cassette subfamily G|G
+ATPase H+/K+ transporting|G
+ATPase Na+/K+ transporting subunits|G
+ATPase copper transporting|G
+ATPase orphan transporters|G
+ATPase phospholipid transporting|G
+ATPases Ca2+ transporting|G
+Abhydrolase domain containing|G
+Abl family tyrosine kinases|G
+Acid phosphatases|G
+Acid sensing ion channel subunits|G
+Actin related protein 2/3 complex|G
+Actin related proteins|G
+Actinins|G
+Actins|G
+Activating leukocyte immunoglobulin like receptors|G
+Acyl-CoA dehydrogenase family|G
+Acyl-CoA synthetase family|G
+Acyl-CoA thioesterases|G
+Adenosine deaminase family|G
+Adenosine deaminases acting on RNA|G
+Adenosine receptors|G
+Adenylate cyclases|G
+Adenylate kinases|G
+Adhesion G protein-coupled receptors, subfamily A|G
+Adhesion G protein-coupled receptors, subfamily B|G
+Adhesion G protein-coupled receptors, subfamily C|G
+Adhesion G protein-coupled receptors, subfamily D|G
+Adhesion G protein-coupled receptors, subfamily E|G
+Adhesion G protein-coupled receptors, subfamily F|G
+Adhesion G protein-coupled receptors, subfamily G|G
+Adhesion G protein-coupled receptors, subfamily L|G
+Adhesion G protein-coupled receptors, subfamily V|G
+Adiponectin receptors|G
+Adrenoceptors|G
+Ajuba family|G
+Alcohol dehydrogenases|G
+Aldehyde dehydrogenases|G
+Aldo-keto reductases|G
+Alkaline ceramidases|G
+Alkaline phosphatases|G
+Alkylation repair homologs|G
+Alpha 1,4-glycosyltransferases|G
+Alpha arrestins|G
+Alpha catenins|G
+Alpha-1,2-glucosyltransferases|G
+Alpha-1,3-glucosyltransferases|G
+Alpha-L-fucosidases|G
+Aminoacyl tRNA synthetases, Class I|G
+Aminoacyl tRNA synthetases, Class II|G
+Aminopeptidases|G
+Anaphase promoting complex|G
+Angiopoietin like|G
+Angiotensin receptors|G
+Ankyrin repeat domain containing|G
+Annexins|G
+Anoctamins|G
+Apolipoprotein B mRNA editing enzyme catalytic subunits|G
+Apolipoproteins|G
+Apoptosome|G
+Aquaporins|G
+Arachidonate lipoxygenases|G
+ArfGAPs|G
+Arginine vasopressin and oxytocin receptors|G
+Argonaute/PIWI family|G
+Armadillo repeat containing|G
+Armadillo-like helical domain containing|G
+Arylacetamide deacetylase family|G
+Arylamine N-acetyltransferases|G
+Astacins|G
+Ataxins|G
+Atypical chemokine receptors|G
+Atypical dual specificity phosphatases|G
+Autophagy related|G
+Axonemal dynein assembly factors|G
+B9 domain containing|G
+BAF complex|G
+BAR-PH domain containing|G
+BBSome|G
+BCH domain containing|G
+BCL2 associated athanogene family|G
+BCL2 family|G
+BCL2 homology region 3 (BH3) only|G
+BEACH domain containing|G
+BEN domain containing|G
+BLOC-1 related complex|G
+BPI fold containing|G
+BRCA1 A complex|G
+BRCA1 B complex|G
+BRCA1 C complex|G
+BRICHOS domain containing|G
+BRISC complex|G
+BTB domain containing|G
+BTG/Tob family|G
+Baculoviral IAP repeat containing|G
+Bardet-Biedl syndrome associated|G
+Basic helix-loop-helix proteins|G
+Basic leucine zipper proteins|G
+Beaded filament structural proteins|G
+Bestrophins|G
+Beta 3-glycosyltransferases|G
+Beta 4-glycosyltransferases|G
+Beta catenins|G
+Beta-1,3-glucuronyltransferases|G
+Beta-gamma crystallin domain containing|G
+Beta-gamma crystallins|G
+Biogenesis of lysosomal organelles complex 1|G
+Biogenesis of lysosomal organelles complex 2|G
+Biogenesis of lysosomal organelles complex 3|G
+Bisphosphoglycerate phosphatases|G
+Blood group antigens|G
+Bombesin receptors|G
+Bone morphogenetic proteins|G
+Bradykinin receptors|G
+Brain expressed X-linked family|G
+Bromodomain containing|G
+Bromodomain containing, BET|G
+Butyrophilins|G
+C-C motif chemokine receptors|G
+C-X-3-C motif chemokine receptors|G
+C-X-C motif chemokine receptors|G
+C-type lectin domain containing|G
+C1-set domain containing|G
+C1q and TNF related|G
+C1q domain containing|G
+C2 and RasGAP domain containing|G
+C2 and WW domain containing|G
+C2 domain containing|G
+C2 domain containing phospholipases|G
+C2 domain containing protein kinases|G
+C2 tensin-type domain containing|G
+C2-set domain containing|G
+C3 and PZP like, alpha-2-macroglobulin domain containing|G
+CAP and C-type lectin domain containing|G
+CAP superfamily|G
+CBM complex|G
+CCAAT/enhancer binding proteins|G
+CCC complex|G
+CCR4-NOT transcription complex|G
+CD molecules|G
+CDC like kinases|G
+CDC14 phosphatases|G
+CDC42 effector proteins|G
+CDGSH iron sulfur domain containing|G
+CELSR cadherins|G
+CERS class homeoboxes|G
+CKLF like MARVEL transmembrane domain containing|G
+COMM domain containing|G
+COP9 signalosome|G
+CORVET complex|G
+CST complex|G
+CTAGE family|G
+CTD family phosphatases|G
+CTLH complex|G
+CUT class homeoboxes and pseudogenes|G
+CYR61/CTGF/NOV matricellular proteins|G
+Cadherin related|G
+Calcitonin receptors|G
+Calcium channel auxiliary gamma subunits|G
+Calcium homeostasis modulators|G
+Calcium sensing receptors|G
+Calcium voltage-gated channel alpha1 subunits|G
+Calcium voltage-gated channel auxiliary alpha2delta subunits|G
+Calcium voltage-gated channel auxiliary beta subunits|G
+Calmodulin dependent protein kinases|G
+Calpains|G
+Cannabinoid receptors|G
+Canonical high mobility group|G
+Carbonic anhydrases|G
+Carboxylesterases|G
+Carcinoembryonic antigen related cell adhesion molecule family|G
+Cas scaffold proteins|G
+Caspase recruitment domain containing|G
+Caspases|G
+Cathepsins|G
+Cation channels sperm associated|G
+Cavins|G
+Chaperonins|G
+Charged multivesicular body proteins|G
+Checkpoint clamp complex|G
+Chemerin receptor|G
+Chemokine ligands|G
+Chitinases|G
+Chloride channel accessory|G
+Chloride channels, ATP-gated CFTR|G
+Chloride intracellular channels|G
+Chloride voltage-gated channels|G
+Cholecystokinin receptors|G
+Cholinergic receptors muscarinic|G
+Cholinergic receptors nicotinic subunits|G
+Chromatin accessibility complex|G
+Chromobox family|G
+Chromosomal passenger complex|G
+Cilia and flagella associated|G
+Ciliogenesis and planar polarity effector complex|G
+Clarins|G
+Class II Cys-based phosphatases|G
+Class III Cys-based CDC25 phosphatases|G
+Classical BAR domain containing|G
+Classical arrestins|G
+Clathrin subunits|G
+Clathrin/coatomer adaptor, adaptin-like, N-terminal domain containing|G
+Claudins|G
+Cleavage stimulation factor subunits|G
+Clustered protocadherins|G
+Cohesin complex|G
+Collagen beta(1-O)galactosyltransferases|G
+Collagen proteoglycans|G
+Collagens|G
+Collectins|G
+Complement component GPCRs|G
+Complement system activation components|G
+Complement system regulators and receptors|G
+Components of oligomeric golgi complex|G
+Condensin I subunits|G
+Condensin II subunits|G
+Constitutive centromere associated network|G
+Copines|G
+Cornified envelope precursor family|G
+Coronins|G
+Corticotropin releasing hormone receptors|G
+Crumbs complex|G
+Csk family tyrosine kinases|G
+Cullins|G
+Cyclic nucleotide gated channels|G
+Cyclin dependent kinases|G
+Cyclins|G
+Cyclophilin peptidylprolyl isomerases|G
+Cystatins, type 1|G
+Cystatins, type 2|G
+Cystatins, type 3|G
+Cystatins, type 4|G
+Cysteine rich secretory protein family|G
+Cytochrome P450 family 1|G
+Cytochrome P450 family 11|G
+Cytochrome P450 family 17|G
+Cytochrome P450 family 19|G
+Cytochrome P450 family 2|G
+Cytochrome P450 family 20|G
+Cytochrome P450 family 21|G
+Cytochrome P450 family 24|G
+Cytochrome P450 family 26|G
+Cytochrome P450 family 27|G
+Cytochrome P450 family 3|G
+Cytochrome P450 family 39|G
+Cytochrome P450 family 4|G
+Cytochrome P450 family 46|G
+Cytochrome P450 family 5|G
+Cytochrome P450 family 51|G
+Cytochrome P450 family 7|G
+Cytochrome P450 family 8|G
+Cytochrome b561|G
+Cytoplasmic transfer RNAs|G
+Cytosolic iron-sulfur assembly components|G
+DAN family|G
+DASH family|G
+DAZ RNA binding protein family|G
+DDB1 and CUL4 associated factors|G
+DEAD-box helicases|G
+DEAH-box helicases|G
+DENN/MADD domain containing|G
+DNA glycosylases|G
+DNA helicases|G
+DNA ligases|G
+DNA polymerases|G
+DNA transposon derived genes|G
+DNAJ (HSP40) heat shock proteins|G
+DOCK C2 domain containing|G
+Deafness associated genes|G
+Death associated protein kinases|G
+Death effector domain containing|G
+Death inducing signaling complex|G
+Defensins, alpha|G
+Defensins, beta|G
+Desmosomal cadherins|G
+Desumoylating isopeptidases|G
+Diacylglycerol O-acyltransferase 2 family|G
+Diacylglycerol kinases|G
+Dishevelled segment polarity proteins|G
+Dolichyl D-mannosyl phosphate dependent mannosyltransferases|G
+Dopamine receptors|G
+Doublecortin superfamily|G
+Dynactin|G
+Dynein regulatory complex|G
+Dyneins, axonemal|G
+Dyneins, cytoplasmic|G
+E2F transcription factors|G
+EF-hand domain containing|G
+EMI domain containing|G
+EMSY complex|G
+ENAH/VASPs|G
+EPH receptors|G
+ERCC excision repair associated|G
+ESCRT-0|G
+ESCRT-I|G
+ESCRT-II|G
+ESCRT-III|G
+ESCRT-III associated factors|G
+ESCRT-IV|G
+ETS transcription factor family|G
+EYA transcriptional coactivator and phosphatases|G
+Elongator acetyltransferase complex|G
+Elongin complex|G
+Endogenous ligands|G
+Endosome-associated recycling protein (EARP) complex|G
+Endothelin receptors|G
+Engulfment and cell motility proteins|G
+Enolases|G
+Envelope ERV derived genes|G
+Ephrins|G
+Erb-b2 receptor tyrosine kinases|G
+Erythrocyte membrane protein band 4.1|G
+Eukaryotic translation initiation factor 3|G
+Exocyst complex|G
+Exon junction complex|G
+Exonucleases|G
+Exosome complex|G
+Exostosin glycosyltransferase family|G
+Exportins|G
+Extended synaptotagmins|G
+F-BAR domain containing|G
+F-box and WD repeat domain containing|G
+F-box and leucine rich repeat proteins|G
+F-boxes other|G
+F2R receptors|G
+FA complementation groups|G
+FASTK mitochondrial RNA binding family|G
+FERM domain containing|G
+FKBP prolyl isomerases|G
+Fascins|G
+Fatty acid binding protein family|G
+Fatty acid desaturases|G
+Fatty acid hydroxylase domain containing|G
+Ferlin family|G
+Fermitins|G
+Ferritin subunits|G
+Fes family tyrosine kinases|G
+Fibrinogen C domain containing|G
+Fibronectin type III domain containing|G
+Fibulins|G
+Flotillins|G
+Forkhead boxes|G
+Formyl peptide receptors|G
+Fos transcription factor family|G
+Free fatty acid receptors|G
+Fructose-1,6-bisphosphatases|G
+Fucosyltransferases|G
+G protein subunits alpha, group i|G
+G protein subunits alpha, group q|G
+G protein subunits alpha, group s|G
+G protein subunits beta|G
+G protein subunits gamma|G
+G protein-coupled bile acid receptor|G
+G protein-coupled estrogen receptor|G
+G protein-coupled receptors, Class A orphans|G
+G protein-coupled receptors, Class C orphans|G
+G protein-coupled receptors, Class F frizzled|G
+G-patch domain containing|G
+GATA zinc finger domain containing|G
+GATOR1 subcomplex|G
+GATOR2 subcomplex|G
+GBAF complex|G
+GCN5 related N-acetyltransferases|G
+GDNF family ligands|G
+GINS complex|G
+GLIPR family|G
+GOLD domain containing|G
+GPN-loop GTPases|G
+GRAM domain containing|G
+GTPases, IMAP|G
+Gag like LTR retrotransposon derived genes|G
+Galactosidases alpha|G
+Galanin receptors|G
+Galectins|G
+Gamma-aminobutyric acid type A receptor subunits|G
+Gamma-aminobutyric acid type B receptor subunits|G
+Gamma-glutamyltransferases|G
+Gap junction proteins|G
+Gasdermins|G
+Gelsolin/villins|G
+Gemins|G
+General transcription factors|G
+Gla domain containing|G
+Glucagon receptor family|G
+Glucosaminyl (N-acetyl) transferases/xylosyltransferases|G
+Glucose 6-phosphatases, catalytic|G
+Glutamate ionotropic receptor AMPA type subunits|G
+Glutamate ionotropic receptor NMDA type subunits|G
+Glutamate ionotropic receptor delta type subunits|G
+Glutamate ionotropic receptor kainate type subunits|G
+Glutamate metabotropic receptors|G
+Glutamine amidotransferase like class 1 domain containing|G
+Glutaredoxin domain containing|G
+Glycerol kinases|G
+Glycerol-3-phosphate acyltransferases|G
+Glycine receptors|G
+Glycogen phosphorylases|G
+Glycoprotein hormone receptors|G
+Glycoside hydrolase family 31|G
+Glycosyl transferases group 1 domain containing|G
+Glycosyltransferase family 2|G
+Glycosyltransferase family 6|G
+Glycosyltransferase family 8|G
+Glycosyltransferase family 90|G
+Glypicans|G
+Golgi associated retrograde protein (GARP) complex|G
+Golgi associated, gamma adaptin ear containing, ARF binding proteins|G
+Gonadotropin releasing hormone receptors|G
+Granins|G
+Granule associated serine proteases of immune defence|G
+Growth hormone family|G
+Guanylate cyclase receptors|G
+Guanylate cyclases, soluble|G
+H/ACA ribonucleoprotein complex|G
+HAD Asp-based non-protein phosphatases|G
+HAD Asp-based protein phosphatases|G
+HAUS augmin like complex|G
+HNF class homeoboxes|G
+HOPS complex|G
+HOXL subclass homeoboxes|G
+HRAS like suppressor family|G
+Haloacid dehalogenase like hydrolase domain containing|G
+Heat shock 70kDa proteins|G
+Heat shock 90kDa proteins|G
+Hedgehog signaling molecule family|G
+Helix-turn-helix CENPB type domain containing|G
+Hemoglobin subunits|G
+Heparanases|G
+Heparin binding growth factor family|G
+Histamine receptors|G
+Histatins and statherin|G
+Histocompatibility complex|G
+Histone deacetylases, class I|G
+Histone deacetylases, class IIA|G
+Histone deacetylases, class IIB|G
+Histone deacetylases, class IV|G
+Histones|G
+Homer scaffold proteins|G
+Hyalectan proteoglycans|G
+Hydrogen voltage gated channels|G
+Hydroxy-carboxylic acid receptors|G
+Hypocretin receptors|G
+I-BAR domain containing|G
+I-set domain containing|G
+INHAT complex|G
+INO80 complex|G
+IZUMO family|G
+Ig-like cell adhesion molecule family|G
+IgCAM CXADR-related subfamily|G
+IgLON cell adhesion molecules|G
+Immunoglobulin heavy (IGH) orphons|G
+Immunoglobulin heavy locus at 14q32.33|G
+Immunoglobulin kappa (IGK) orphons|G
+Immunoglobulin kappa locus at 2p11.2|G
+Immunoglobulin lambda (IGL) orphons|G
+Immunoglobulin lambda locus at 22q11.2|G
+Immunoglobulin like domain containing|G
+Importins|G
+Inhibitory leukocyte immunoglobulin like receptors|G
+Inositol 1,4,5-triphosphate receptors|G
+Insulin like growth factor binding proteins|G
+Integrator complex|G
+Integrin alpha subunits|G
+Integrin beta subunits|G
+Interferon induced transmembrane proteins|G
+Interferon receptors|G
+Interferons|G
+Interleukin 6 type cytokine family|G
+Interleukin receptors|G
+Interleukins|G
+Intermediate filament family orphans|G
+Intermediate filaments Type III|G
+Intermediate filaments Type IV|G
+Intraflagellar transport proteins|G
+Iron (II) and 2-oxoglutarate dependent oxygenases|G
+Jak family tyrosine kinases|G
+Jun transcription factor family|G
+Junctophilins|G
+KEOPS complex|G
+KICSTOR complex|G
+KN motif and ankyrin repeat domain containing|G
+KNL1 complex|G
+Kallikreins|G
+Kelch like|G
+Keratin associated proteins|G
+Keratins, type I|G
+Keratins, type II|G
+Killer cell immunoglobulin like receptors|G
+Killer cell lectin like receptors|G
+Kinesins|G
+Kleisins|G
+Kruppel like factors|G
+L ribosomal proteins|G
+LEM domain containing|G
+LHFPL tetraspan proteins|G
+LIM class homeoboxes|G
+LIM domain containing|G
+LIM zinc finger domain containing|G
+LIMK/TESK kinase family|G
+LSm proteins|G
+LY6/PLAUR domain containing|G
+LYR motif containing|G
+La ribonucleoprotein domain containing|G
+Laminin subunits|G
+Lamins|G
+Late cornified envelope proteins|G
+Latent transforming growth factor beta binding proteins|G
+Leucine zipper tumor suppressor family|G
+Leukotriene receptors|G
+Linear ubiquitin chain assembly complex|G
+Lipases|G
+Lipid phosphatases|G
+Lipins|G
+Lipocalins|G
+Long non-coding RNAs (published)|G
+Long pentraxins|G
+Low density lipoprotein receptors|G
+Lysine acetyltransferases|G
+Lysine demethylases|G
+Lysine methyltransferases|G
+Lysophosphatidic acid receptors|G
+Lysozymes, c-type|G
+Lysozymes, g-type|G
+M1 metallopeptidases|G
+M10 matrix metallopeptidases|G
+M13 metallopeptidases|G
+M14 carboxypeptidases|G
+M16 metallopeptidases|G
+M3 metallopeptidases|G
+MADS box family|G
+MAGE family|G
+MAP kinase phosphatases|G
+MARVEL domain containing|G
+MAX dimerization proteins|G
+MBT domain containing|G
+MCM family|G
+MIA family|G
+MINDY deubiquitinases|G
+MIS12 kinetochore complex|G
+MJD deubiquinating enzymes|G
+MKS complex|G
+MOB kinase activators|G
+MPP10 subcomplex|G
+MRH domain containing|G
+MRN complex|G
+MSL histone acetyltransferase complex|G
+MTOR complex 1|G
+MTOR complex 2|G
+MYST type domain containing lysine acetyltransferases|G
+Maestro heat like repeat containing|G
+Major cadherins|G
+Mannosidases alpha class 1|G
+Mannosidases alpha class 2|G
+Mannosidases endo-alpha|G
+Mannosidases type beta|G
+Mannosyl-glycoprotein N-acetylglucosaminyltransferases|G
+Matrilins|G
+Mediator complex|G
+Melanin concentrating hormone receptors|G
+Melanocortin receptors|G
+Melatonin receptors|G
+Membrane associated guanylate kinases|G
+Membrane associated progesterone receptor family|G
+Membrane associated ring-CH-type fingers|G
+Membrane bound O-acyltransferases|G
+Membrane spanning 4-domains|G
+Metallothioneins|G
+Methyl-CpG binding domain containing|G
+Methyltransferase like|G
+MicroRNAs|G
+Microsomal glutathione S-transferases|G
+Minor histocompatibility antigens|G
+Minor spliceosome|G
+Miro like atypical Rho GTPases|G
+Mitochondrial coiled-coil-helix-coiled-coil-helix domain containing proteins|G
+Mitochondrial complex I assembly complex|G
+Mitochondrial complex II: succinate dehydrogenase subunits|G
+Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits|G
+Mitochondrial complex IV: cytochrome c oxidase subunits|G
+Mitochondrial complex V: ATP synthase subunits|G
+Mitochondrial respiratory chain complex assembly factors|G
+Mitochondrial ribosomal proteins|G
+Mitochondrially encoded ribosomal RNAs|G
+Mitochondrially encoded tRNAs|G
+Mitogen-activated protein kinase kinase kinase kinases|G
+Mitogen-activated protein kinase kinase kinases|G
+Mitogen-activated protein kinase kinases|G
+Mitogen-activated protein kinase-activated protein kinases|G
+Mitogen-activated protein kinases|G
+Mucins|G
+Multiple C2 and transmembrane domain containing|G
+MutL homologs|G
+MutS homologs|G
+My-T-BRC complex|G
+Myb/SANT domain containing|G
+Myocardin family|G
+Myocyte enhancer factor 2 proteins|G
+Myogenic regulatory family|G
+Myosin binding proteins|G
+Myosin heavy chains|G
+Myosin light chains|G
+Myosin phosphatase targeting family|G
+Myosins, class I|G
+Myosins, class III|G
+Myosins, class IX|G
+Myosins, class V|G
+Myosins, class VI|G
+Myosins, class VII|G
+Myosins, class X|G
+Myosins, class XIX|G
+Myosins, class XV|G
+Myosins, class XVI|G
+Myosins, class XVIII|G
+Myotubularins|G
+Myozenins|G
+N(alpha)-acetyltransferase subunits|G
+N-BAR domain containing|G
+N-terminal EF-hand calcium binding proteins|G
+NADH:ubiquinone oxidoreductase core subunits|G
+NADH:ubiquinone oxidoreductase supernumerary subunits|G
+NBPF members|G
+NDC80 kinetochore complex|G
+NF-kappa B complex subunits|G
+NKL subclass homeoboxes and pseudogenes|G
+NLR family|G
+NME/NM23 family|G
+NOP2/Sun RNA methyltransferase family|G
+NPHP complex|G
+NSL histone acetyltransferase complex|G
+NSP adaptor proteins|G
+NT-C2 domain containing|G
+NTC associated proteins|G
+NURF complex|G
+Na+/K+ transporting ATPase interacting|G
+Netrins|G
+Neuraminidases|G
+Neuregulins|G
+Neurexins|G
+Neuroligins|G
+Neuromedin U receptors|G
+Neuropeptide receptors|G
+Neurotensin receptors|G
+Neurotrophins|G
+NineTeen complex|G
+Non-canonical high mobility group|G
+Non-canonical poly(A) polymerases|G
+Non-clustered protocadherins|G
+NuRD complex|G
+Nuclear exosome targeting complex|G
+Nuclear factors of activated T-cells|G
+Nuclear hormone receptors|G
+Nuclear-encoded mitochondrial transfer RNAs|G
+Nucleoporins|G
+Nucleoredoxin family|G
+Nucleotide excision repair|G
+NudC family|G
+Nudix hydrolase family|G
+O-linked N-acetylglucosaminyltransferases|G
+OOSP family|G
+ORAI calcium release-activated calcium modulators|G
+OTU domain containing|G
+Olfactory receptors, family 1|G
+Olfactory receptors, family 10|G
+Olfactory receptors, family 11|G
+Olfactory receptors, family 12|G
+Olfactory receptors, family 13|G
+Olfactory receptors, family 14|G
+Olfactory receptors, family 2|G
+Olfactory receptors, family 3|G
+Olfactory receptors, family 4|G
+Olfactory receptors, family 5|G
+Olfactory receptors, family 51|G
+Olfactory receptors, family 52|G
+Olfactory receptors, family 55|G
+Olfactory receptors, family 56|G
+Olfactory receptors, family 6|G
+Olfactory receptors, family 7|G
+Olfactory receptors, family 8|G
+Olfactory receptors, family 9|G
+Oligosaccharyltransferase complex subunits|G
+Opioid receptors|G
+Opsin receptors|G
+Origin recognition complex|G
+Oxoglutarate receptor|G
+Oxysterol binding proteins|G
+P-TEFb complex|G
+P2Y receptors|G
+PAR bZIP family|G
+PATE family|G
+PBAF complex|G
+PDZ domain containing|G
+PHD finger proteins|G
+PI4KA lipid kinase complex|G
+PIK3C3 complex subunits|G
+POTE ankyrin domain containing|G
+POU class homeoboxes and pseudogenes|G
+PR/SET domain family|G
+PRAME family|G
+PRD class homeoboxes and pseudogenes|G
+PRELI domain containing|G
+PROS class homeoboxes|G
+PTEN protein phosphatases|G
+PTF1 complex|G
+PTK2 family tyrosine kinases|G
+PTK6 family tyrosine kinases|G
+PWWP domain containing|G
+PX-BAR domain containing|G
+Paf1/RNA polymerase II complex|G
+Paired boxes|G
+Pannexins|G
+Pappalysins|G
+Paraneoplastic Ma antigens|G
+Paraoxonases|G
+Parathyroid hormone receptors|G
+Parkinson disease associated genes|G
+Parvins|G
+Parvulins|G
+Patatin like phospholipase domain containing|G
+Pellino E3 ubiquitin protein ligases|G
+Peptide receptors|G
+Peptidoglycan recognition proteins|G
+Peptidyl arginine deiminases|G
+Perilipins|G
+Peroxins|G
+Peroxiredoxins|G
+Phosphatase and actin regulators|G
+Phosphatidylinositol 3-kinase subunits|G
+Phosphatidylinositol glycan anchor biosynthesis|G
+Phosphatidylinositol transfer proteins|G
+Phosphodiesterases|G
+Phosphoglycerate mutases|G
+Phosphoinositide phosphatases|G
+Phospholipases|G
+Phospholipid phosphatase related|G
+Phospholipid phosphatases|G
+Phospholipid scramblases|G
+Piwi-interacting RNA clusters|G
+Plakins|G
+Plakophilins|G
+Platelet activating factor receptor|G
+Pleckstrin homology domain containing|G
+Plexins|G
+Poly(ADP-ribose) polymerases|G
+Polycomb group ring fingers|G
+Polycomb repressive complex 2|G
+Polypeptide N-acetylgalactosaminyltransferases|G
+Potassium calcium-activated channel subfamily M regulatory beta subunits|G
+Potassium calcium-activated channels|G
+Potassium sodium-activated channel subfamily T|G
+Potassium two pore domain channel subfamily K|G
+Potassium voltage-gated channel regulatory subunits|G
+Potassium voltage-gated channel subfamily J|G
+Potassium voltage-gated channels|G
+Prefoldin subunits|G
+Pregnancy specific glycoproteins|G
+Prenyltransferase alpha subunit repeat containing|G
+Prickle planar cell polarity proteins|G
+Progestin and adipoQ receptor family|G
+Prokineticin receptors|G
+Proline rich and Gla domain containing|G
+Proline rich proteins|G
+Proprotein convertase subtilisin/kexin family|G
+Prostaglandin receptors|G
+Proteasome|G
+Protein arginine methyltransferases|G
+Protein disulfide isomerases|G
+Protein phosphatase 1 regulatory subunits|G
+Protein phosphatase 2 modulatory subunits|G
+Protein phosphatase 2 regulatory subunits|G
+Protein phosphatase 2 scaffold subunits|G
+Protein phosphatase 3 regulatory subunits|G
+Protein phosphatase 4 regulatory subunits|G
+Protein phosphatase 6 regulatory subunits|G
+Protein phosphatase catalytic subunits|G
+Protein phosphatases|G
+Protein phosphatases, Mg2+/Mn2+ dependent|G
+Protein tyrosine phosphatases type IVA|G
+Protein tyrosine phosphatases, non-receptor type|G
+Protein tyrosine phosphatases, receptor type|G
+Proteoglycans|G
+Pseudoautosomal region 1|G
+Pseudoautosomal region 2|G
+Pumilio homology domain containing|G
+Purinergic receptors P2X|G
+Purinosome|G
+Pyrin and HIN domain family|G
+Pyrin domain containing|G
+Pyruvate dehydrogenase complex|G
+R2TP complex|G
+RAB like GTPases|G
+RAB, member RAS oncogene GTPases|G
+RAB11 binding domain containing|G
+RAF family|G
+RAN family GTPases|G
+RAS type GTPase family|G
+RBR E3 ubiquitin ligases|G
+RELT family|G
+RGK type GTPase family|G
+RNA binding motif containing|G
+RNA helicases|G
+RNA polymerase subunits|G
+RNA pseudouridylate synthase domain containing|G
+RNAs, 7SL, cytoplasmic|G
+RNAs, Ro-associated Y|G
+Ragulator complex|G
+Ras association domain family|G
+RecQ like helicases|G
+Receptor (G protein-coupled) activity modifying proteins|G
+Receptor accessory proteins|G
+Receptor transporter proteins|G
+Receptor tyrosine kinases|G
+Regulating synaptic membrane exocytosis family|G
+Regulators of G-protein signaling|G
+Regulatory factor X family|G
+Relaxin family peptide receptors|G
+Repulsive guidance molecule family|G
+Retriever complex|G
+Retrotransposon Gag like|G
+Rho GTPase activating proteins|G
+Rho family GTPases|G
+Rho guanine nucleotide exchange factors|G
+Rhomboid family|G
+Ribonuclease A family|G
+Ribosomal 45S RNA clusters|G
+Ribosomal 45S rRNA genes outside of clusters|G
+Ring finger proteins|G
+Ripoptosome|G
+Roco domain containing|G
+Ryanodine receptors|G
+S ribosomal proteins|G
+S100 calcium binding proteins|G
+S100 fused type protein family|G
+SAGA complex|G
+SAM and SH3 domain containing|G
+SCAN domain containing|G
+SCF complex|G
+SCY1 like pseudokinases|G
+SEC14 family|G
+SET complex|G
+SET domain containing|G
+SF3a complex|G
+SF3b complex|G
+SH2 domain containing|G
+SIBLING family|G
+SIN3 histone deacetylase complex subunits|G
+SINE class homeoboxes|G
+SKI transcriptional corepressors|G
+SMAD family|G
+SMC5-6 protein complex|G
+SMN complex|G
+SNAG transcriptional repressors|G
+SNAP complex|G
+SNAREs|G
+SPARC family|G
+SPOUT methyltransferase domain containing|G
+SRCAP complex|G
+SRY-boxes|G
+STEAP family|G
+STRIPAK complex|G
+STT3 oligosaccharyltransferase catalytic subunits|G
+SUMO specific peptidases|G
+Scavenger receptor cysteine rich domain containing|G
+Scavenger receptors|G
+Schlafen family|G
+Scribble complex|G
+Secreted frizzled-related proteins|G
+Secretoglobins|G
+Secretory carrier membrane proteins|G
+Selectins|G
+Selenoproteins|G
+Semaphorins|G
+Septins|G
+Serine and arginine rich splicing factors|G
+Serine peptidase inhibitors, Kazal type|G
+Serine proteases|G
+Serine/threonine phosphatases|G
+Serpin peptidase inhibitors|G
+Seven-beta-strand methyltransferase motif containing|G
+Shelterin complex|G
+Shieldin complex|G
+Shisa family members|G
+Short chain dehydrogenase/reductase superfamily|G
+Short pentraxins|G
+Sialic acid binding Ig like lectins|G
+Sialyltransferases|G
+Sideroflexins|G
+Signal regulatory proteins|G
+Signal transduction and activation of RNA metabolism family|G
+Sirtuins|G
+Ski2 like RNA helicases|G
+Slingshot protein phosphatases|G
+Sm spliceosomal proteins|G
+Small Cajal body-specific RNAs|G
+Small G protein signaling modulators|G
+Small NF90 (ILF3) associated RNAs|G
+Small heat shock proteins|G
+Small leucine rich repeat proteoglycans|G
+Small nuclear RNAs|G
+Small nucleolar RNAs, C/D box|G
+Small nucleolar RNAs, H/ACA box|G
+Small proline rich proteins|G
+Sodium channels epithelial|G
+Sodium leak channels, non selective|G
+Sodium voltage-gated channel alpha subunits|G
+Sodium voltage-gated channel beta subunits|G
+Soluble glutathione S-transferases|G
+Solute carriers|G
+Somatostatin receptors|G
+Sorting nexins|G
+Sp transcription factors|G
+Spectrin repeat containing nuclear envelope family|G
+Spectrins|G
+Speedy/RINGO cell cycle regulator family|G
+Sphingosine 1-phosphate receptors|G
+Sphingosine-1-phosphate phosphatases|G
+Spindlin family|G
+Spliceosomal A complex|G
+Spliceosomal B complex|G
+Spliceosomal Bact complex|G
+Spliceosomal C complex|G
+Spliceosomal E complex|G
+Spliceosomal P complex|G
+Src family tyrosine kinases|G
+StAR related lipid transfer domain containing|G
+Stathmins|G
+Sterile alpha motif domain containing|G
+Structural maintenance of chromosomes proteins|G
+Succinate receptor|G
+Sugar phosphatases|G
+Sulfatases|G
+Sulfotransferases, cytosolic|G
+Sulfotransferases, membrane bound|G
+Super elongation complex|G
+Suppressors of cytokine signaling|G
+Sushi domain containing|G
+Syk family tyrosine kinases|G
+Synapsins|G
+Synaptogyrins|G
+Synaptophysins|G
+Synaptotagmin like tandem C2 proteins|G
+Synaptotagmins|G
+Syndecans|G
+Syntaxins|G
+T cell receptor alpha locus at 14q11.2|G
+T cell receptor beta (TRB) orphons|G
+T cell receptor beta locus at 7q34|G
+T cell receptor delta locus at 14q11.2|G
+T cell receptor gamma locus at 7p14|G
+T-boxes|G
+TALE class homeoboxes and pseudogenes|G
+TCF/LEF transcription factor family|G
+TEA domain transcription factors|G
+THAP domain containing|G
+THO complex|G
+TIM22 complex|G
+TIM23 complex|G
+TIR domain containing|G
+TLC domain containing|G
+TNF receptor associated factors|G
+TNK family tyrosine kinases|G
+TOG domain containing|G
+TSC complex|G
+TTT complex|G
+Tachykinin receptors|G
+Taste 1 receptors|G
+Taste 2 receptors|G
+Tec family tyrosine kinases|G
+Tectonic proteins|G
+Tektins|G
+Terminal nucleotidyltransferases|G
+Tetraspan junctional complex superfamily|G
+Tetraspanins|G
+Tetratricopeptide repeat domain containing|G
+Tissue inhibitor of metallopeptidases|G
+Toll like receptors|G
+Topoisomerases|G
+Trace amine receptors|G
+Trafficking protein particle complex|G
+Transcribed pseudogenes with published function|G
+Transcription and export complex 2|G
+Transcription elongation factor A like family|G
+Transcription factor Dp family|G
+Transferrins|G
+Transglutaminases|G
+Transient receptor potential cation channels|G
+Translocase of outer mitochondrial membrane complex|G
+Transmembrane 9 superfamily members|G
+Transmembrane BAX inhibitor motif containing|G
+Transmembrane and coiled-coil domain containing|G
+Transmembrane channel likes|G
+Transmembrane p24 trafficking proteins|G
+Trinucleotide repeat containing|G
+Tripartite motif containing|G
+Tropomodulins|G
+Tropomyosins|G
+Troponin complex subunits|G
+Tubulin polymerization promoting proteins|G
+Tubulin tyrosine ligase family|G
+Tubulins|G
+Tudor domain containing|G
+Tumor necrosis factor receptor superfamily|G
+Tumor necrosis factor superfamily|G
+Two pore segment channels|G
+Type 1 receptor serine/threonine kinases|G
+Type 2 receptor serine/threonine kinases|G
+Type I classical cadherins|G
+Type II classical cadherins|G
+U-box domain containing|G
+U1 small nucleolar ribonucleoprotein|G
+U11/U12 di-snRNP|G
+U2 small nucleolar ribonucleoprotein|G
+U4/U6 small nucleolar ribonucleoprotein|G
+U5 small nucleolar ribonucleoprotein|G
+UBX domain containing|G
+UDP glucuronosyltransferases|G
+UDP-N-acetylglucosaminyltransferase subunits|G
+UDP-glucose ceramide glucosyltransferases|G
+UDP-glucose glycoprotein glucosyltransferases|G
+UNC13 homologs|G
+UPF1 like RNA helicases|G
+USH2 complex|G
+UTPa subcomplex|G
+UTPb subcomplex|G
+UTPc subcomplex|G
+Ubiquilin family|G
+Ubiquitin C-terminal hydrolases|G
+Ubiquitin conjugating enzymes E2|G
+Ubiquitin like modifier activating enzymes|G
+Ubiquitin protein ligase E3 component n-recognins|G
+Ubiquitin specific peptidase like|G
+Ubiquitin specific peptidases|G
+V-set domain containing|G
+V-type ATPases|G
+VEGF family|G
+VPS9 domain containing|G
+Vanins|G
+Variable charge X/Y family|G
+Vasoactive intestinal peptide receptor family|G
+Vault RNAs|G
+Vesicle associated membrane proteins|G
+Vestigial like family|G
+Voltage dependent anion channels|G
+Volume regulated anion channel subunits|G
+Vomeronasal receptors|G
+WAP four-disulfide core domain containing|G
+WASH complex|G
+WBP1/VOPP1 family|G
+WD repeat domain containing|G
+WIPI family|G
+WRAD complex|G
+WTAP complex|G
+Wiskott-Aldrich Syndrome protein family|G
+Wnt family|G
+X-C motif chemokine receptors|G
+X-linked mental retardation|G
+XK related family|G
+Xeroderma pigmentosum complementation groups|G
+Y box binding proteins|G
+YEATS domain containing|G
+YIP family|G
+Yip1 domain containing|G
+Yippee like family|G
+ZF class homeoboxes and pseudogenes|G
+ZYG11 cell cycle regulator family|G
+Zinc activated channels|G
+Zinc fingers|G
+Zinc fingers 3CxxC-type|G
+Zinc fingers AN1-type|G
+Zinc fingers BED-type|G
+Zinc fingers C2H2-type|G
+Zinc fingers C2H2C-type|G
+Zinc fingers C2HC-type|G
+Zinc fingers CCCH-type|G
+Zinc fingers CCHC-type|G
+Zinc fingers CW-type|G
+Zinc fingers CXXC-type|G
+Zinc fingers DBF-type|G
+Zinc fingers DHHC-type|G
+Zinc fingers FYVE-type|G
+Zinc fingers GRF-type|G
+Zinc fingers HIT-type|G
+Zinc fingers MIZ-type|G
+Zinc fingers MYM-type|G
+Zinc fingers MYND-type|G
+Zinc fingers PARP-type|G
+Zinc fingers RANBP2-type|G
+Zinc fingers SWIM-type|G
+Zinc fingers ZZ-type|G
+Zinc fingers matrin-type|G
+Zona pellucida glycoproteins|G
+Zyxin family|G
+eNoSC complex|G
+interferon induced transmembrane protein domain containing|G
+mitochondrial RNase P complex|G
+p120 catenin family|G
+tRNA methyltransferases|G
+tRNA splicing ligase complex|G
+tRNA-splicing endonuclease subunits|G
+tri-snRP complex|G

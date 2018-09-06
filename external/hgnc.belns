@@ -1,8 +1,8 @@
 [Namespace]
 Keyword=hgnc
 NameString=HGNC
-VersionString=20180828
-CreatedDateTime=2018-08-28T09:50:21
+VersionString=20180906
+CreatedDateTime=2018-09-06T15:13:20
 QueryValueURL=http://identifiers.org/hgnc/
 
 [Author]
