@@ -84,3 +84,4 @@ HBP00082	aMCI	pmid:18986241	amnestic Mild Cognitive Impairement is a cognitive d
 HBP00083	mdMCI	pmid:18986241	multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is associated with more than one cognitive domain
 HBP00084	Tau isoform A (316 aa)	pmid:18986241	Human brain tau isoform, derived from alternative splicing.
 HBP00085	Tau C3	pmid:18986241	Tau epitope cleaved at aspartic acid(421).
+HBP00086	Tau MN423	omid:18986241	Tau epitope truncated at glutamic acid(391).
