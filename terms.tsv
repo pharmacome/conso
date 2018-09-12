@@ -86,3 +86,4 @@ HBP00084	Tau isoform A (316 aa)	pmid:18986241	Human brain tau isoform, derived f
 HBP00085	Tau C3	pmid:18986241	Tau epitope cleaved at aspartic acid(421).
 HBP00086	Tau MN423	omid:18986241	Tau epitope truncated at glutamic acid(391).
 HBP00087	granular tau oligomers	pmid:28420982	When the oligomer lengthens, it adapts a beta-sheet structure and transforms into a detergent-insoluble aggregate with granular appearance under Atomic Force Microscopy (AFM)
+HBP00088	Tau fibrils	pmid:28420982	As these granular tau oligomers fuse together, they form tau fibrils, which ultimately form NFTs
