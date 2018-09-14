@@ -94,3 +94,8 @@ HBP00092	alpha-synuclein fibrils	PMID:19892735	fibrillar aggregates of alpha-syn
 HBP00093	alpha-synuclein oligomers	PMID:17374364	oligomeric aggregates of alpha-synuclein
 HBP00094	CLR01	PMID:23183235	the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein
 HBP00095	prefibrillar α-synuclein oligomers	PMID:27075649	 prefibrillar oligomers formed at early stages of α-syn assembly
+HBP00096  GA-AGE	pmid:16630055, pmid:15221334	Glyceraldehyde-derived (GA) advanced glycation end-products
+HBP00097  TGM2 Isoform 3 (349 aa) pmid:12578227	Short isoform of tissue transglutaminase
+HBP00098  KXGS motif	pmid:17304350, pmid:21215781	Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly.
+HBP00099  Corticobasal Degeneration	pmid:22057784	Late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques.
+HBP00100  paired helical filaments	pmid:22496370, pmid:1706519   Component of NFT, consisting in a helical arrangement of tau protomers.
