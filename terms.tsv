@@ -99,3 +99,5 @@ HBP00097	TGM2 Isoform 3 (349 aa)	pmid:12578227	Short isoform of tissue transglut
 HBP00098	KXGS motif	pmid:17304350, pmid:21215781	Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly
 HBP00099	Corticobasal Degeneration	pmid:22057784	CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques
 HBP00100	paired helical filaments	pmid:22496370, pmid:1706519 	Component of NFT, consisting in a helical arrangement of tau protomers
+HBP00101	straight filaments	pmid:16566606, pmid:28678775	Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers
+HBP00102	Alz50	pmid:16566606, pmid:8955115	Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation
