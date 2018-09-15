@@ -101,3 +101,8 @@ HBP00099	Corticobasal Degeneration	pmid:22057784	CBD is a late-onset neurodegene
 HBP00100	paired helical filaments	pmid:22496370, pmid:1706519 	Component of NFT, consisting in a helical arrangement of tau protomers
 HBP00101	straight filaments	pmid:16566606, pmid:28678775	Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers
 HBP00102	Alz50	pmid:16566606, pmid:8955115	Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation
+HBP00103	O-GlcNAcylation	pmid:16630055	A non-canonical glycosylation involving the attachment of single O-linked N-acetylglucosamine (O-GlcNAc) moieties to serine and threonine residues of cytoplasmic, nuclear, and mitochondrial proteins
+HBP00104	glycation	pmid:26655600	The non-enzymatic reaction between the electrophilic carbonyl groups of a reducing sugar and the free amino groups of tau amino acids (especially of basic lysine or arginine residues) leading to the formation of  a ketoamine (Amadori product), an intermediate of AGE synthesis.
+HBP00105	nitration	pmid:16566606	Incorporation of a nitrogen dioxide (NO2) group in tyrosine residues (mostly) of proteins forming 3-nitrotyrosine (3-NT). A biomarker of cell, tissue and systemic nitrosative stress.
+HBP00106	polyamination	pmid:25974414	The reaction of polyamination by transglutaminases (TGs) involves a glutamine (Q) as acyl donor and a lysine (K) as acyl acceptor. It generates a (gamma)-glutamyl-(epsilon)-lysine isopeptide bond that causes protein cross-linking
+HBP00107	formylation	pmid:21210655	The addition of a formyl functional group usually at the epsilon amino group of Lys residues
