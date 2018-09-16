@@ -106,3 +106,12 @@ HBP00104	glycation	pmid:26655600	The non-enzymatic reaction between the electrop
 HBP00105	nitration	pmid:16566606	Incorporation of a nitrogen dioxide (NO2) group in tyrosine residues (mostly) of proteins forming 3-nitrotyrosine (3-NT). A biomarker of cell, tissue and systemic nitrosative stress.
 HBP00106	polyamination	pmid:25974414	The reaction of polyamination by transglutaminases (TGs) involves a glutamine (Q) as acyl donor and a lysine (K) as acyl acceptor. It generates a (gamma)-glutamyl-(epsilon)-lysine isopeptide bond that causes protein cross-linking
 HBP00107	formylation	pmid:21210655	The addition of a formyl functional group usually at the epsilon amino group of Lys residues
+HBP00108	Syndecan Family	pmid:15241784	IterPro:IPR001050
+HBP00109	Bacterial invasion	pmid:15241784	The process of bacteria invading a cell
+HBP00110	dopamine homeostasis	pmid:26325389	Dopmine secrete in a homeostatic way
+HBP00111	PINK1-Park pathway	pmid:26182419	The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287
+HBP00112	Glutamate excitotoxicity	pmid:10196525	The excitotoxicity of Glutamate
+HBP00113	mitochondrial homeostasis	pmid:25478815	The interplay between mitophagy and mitochondrial biogenesis.
+HBP00114	ER mitochondria interorganellar crosstalk	pmid:25478815	reference:PMID: 22577383 
+HBP00115	Mitochondrial pathway	pmid:23313576	reference:PMID: 22399422
+HBP00116	oxidative protein folding	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
