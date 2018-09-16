@@ -130,4 +130,6 @@ HBP00128	clec-65	pmid:25896323	the nematode homologus of Clec65
 HBP00129	clec-4	pmid:25896323	the nematode homologus of Clec4
 HBP00130	lys-2	pmid:25896323	the nematode homologus of Lys2
 HBP00130	abf-2	pmid:25896323	the nematode homologus of Abf2
-
+HBP00131	exotoxin A	pmid:25274306	exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease. 
+HBP00132	mitochondrial DAMPs	pmid:20203610	mitochondrial damage-associated molecular patterns 
+HBP00133	IκB kinase	pmid:19880420	The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation.
