@@ -115,3 +115,19 @@ HBP00113	mitochondrial homeostasis	pmid:25478815	The interplay between mitophagy
 HBP00114	ER mitochondria interorganellar crosstalk	pmid:25478815	reference:PMID: 22577383 
 HBP00115	Mitochondrial pathway	pmid:23313576	reference:PMID: 22399422
 HBP00116	oxidative protein folding	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
+HBP00117	mitochondrial motility	pmid:25565208	The motility of mitochondria
+HBP00118	TIM/TOM complex	pmid:25565208	The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA.
+HBP00119	mitochondrial aggregation	pmid:25591737	The aggregation of mitochondria
+HBP00120	mevalonate pathway	pmid:24695221	The mevalonate pathway, also known as the isoprenoid pathway or HMG-CoA reductase pathway is an essential metabolic pathway present in eukaryotes, archaea, and some bacteria
+HBP00121	Dopaminergic cell groups	pmid:24695221	UBERON:dopaminergic cell groups
+HBP00122	mitochondrial precursor protein	pmid:26192197	The precursor protein of mitochondria
+HBP00123	PDR-1	pmid:26430570	the nematode homologs of Parkin
+HBP00124	PINK-1	pmid:26430570	the nematode homologs of PINK1
+HBP00125	skn-1	pmid:25896323	the nematode homologus of Skn1
+HBP00126	ced-9	pmid:25896323	the nematode homologus of Bcl-2
+HBP00127	lgg-1	pmid:25896323	the nematode homologus of Lgg1
+HBP00128	clec-65	pmid:25896323	the nematode homologus of Clec65
+HBP00129	clec-4	pmid:25896323	the nematode homologus of Clec4
+HBP00130	lys-2	pmid:25896323	the nematode homologus of Lys2
+HBP00130	abf-2	pmid:25896323	the nematode homologus of Abf2
+
