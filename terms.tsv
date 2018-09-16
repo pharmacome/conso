@@ -133,3 +133,34 @@ HBP00130	abf-2	pmid:25896323	the nematode homologus of Abf2
 HBP00131	exotoxin A	pmid:25274306	exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease. 
 HBP00132	mitochondrial DAMPs	pmid:20203610	mitochondrial damage-associated molecular patterns 
 HBP00133	IκB kinase	pmid:19880420	The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation.
+HBP00134	non-shivering thermogenesis	pmid:16224498	Nonshivering thermogenesis was originally defined as a cold-induced increase in heat production not associated with the muscle activity of shivering. Recent research shows it to be a metabolic process located primarily in brown adipose tissue and controlled by the activity of the sympathetic nervous supply of this tissue.PMID: 6722594
+HBP00135	hsp-16	pmid:22700657	the nematode homologus of hsp16
+HBP00136	heat shock proteins	pmid:15280428	Heat shock proteins (HSP) are a family of proteins that are produced by cells in response to exposure to stressful conditions. They were first described in relation to heat shock,
+HBP00137	high-calorie diets	pmid:10412986	Diets with high calorie.
+HBP00138	proteotoxicity	pmid:24149988	To function, proteins must undergo a folding process that gives them the proper three dimensional structure. Numerous genetic and biochemical observations suggest that proteins that fail to fold properly impair cell function. This process, also referred to as proteotoxicity, is particularly important to the fate of non-renewable cells of long-lived organisms in which malfolded proteins (proteotoxins) can exert their deleterious influence over extended periods of time.reference:Proteotoxicity and Aging
+HBP00139	ss20399075	pmid:15122513	A SNP located within the 3' UTR of FGF20, is significantly associated with PD risk
+HBP00140	Alpha-synuclein Oligomerization	pmid:21296890	The formation of alpha-synuclein oligmer
+HBP00141	D6S253	pmid:9560156	A microsatellite markers for Alzheimer’s and Parkinson’s Diseases
+HBP00142	D6S305	pmid:9560156	A microsatellite markers for Alzheimer’s and Parkinson’s Diseases
+HBP00143	MTHFR,TT+AA	pmid:17914182	In Parkinson's Disease, TT+AA is more frequent in MTHFR gene.
+HBP00144	CAG repeats	pmid:22782013	CAG repeats in genes.
+HBP00145	Gastrointestinal dysfunctions	pmid:24467967	The function of gastrotestine disorder.
+HBP00146	olfactory epithelium	pmid:22691461	UBERON:olfactory epithelium
+HBP00147	nasal cycle	pmid:23569018	The nasal cycle is the often unnoticed alternating partial congestion and decongestion of the nasal cavities in humans and other animals. It is a physiological congestion of the nasal concha, also called the nasal turbinate, due to selective activation of one half of the autonomic nervous system by the hypothalamus.
+HBP00148	hyposmia	pmid:23933572	Hyposmia is a reduced ability to smell and to detect odors.Hyposmia might be a very early sign of Parkinson's disease. Hyposmia is also an early and almost universal finding in Alzheimer's disease and dementia with Lewy bodies. Lifelong hyposmia could be caused by Kallmann syndrome.
+HBP00149	FMR1,(55-200 CGG)	pmid:24332449	A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein. 
+HBP00150	pof14	pmid:17016471	a new member of the F-box family, Pof14, which forms a canonical
+HBP00151	Neuroglia	pmid:19248803	MeSH Unique ID: D009457
+HBP00152	GDNF Family	pmid:10383122	The GDNF family of ligands (GFL) consists of four neurotrophic factors: glial cell line-derived neurotrophic factor (GDNF), neurturin (NRTN), artemin (ARTN), and persephin (PSPN). GFLs have been shown to play a role in a number of biological processes including cell survival, neurite outgrowth, cell differentiation and cell migration. In particular signalling by GDNF promotes the survival of dopaminergic neurons.
+HBP00153	Motor Neurons	pmid:10383122	MeSH Unique ID: D009046
+HBP00154	noradrenergic neuron	pmid:10383122	Cell:"noradrenergic neuron"
+HBP00155	midbrain dopaminergic neuron	pmid:10383122	Cell:"midbrain dopaminergic neuron"
+HBP00156	Neutrites	pmid:23872421	A neurite or neuronal process refers to any projection from the cell body of a neuron.
+HBP00157	GRB10,BPS domain	pmid:25268761	BPS domain of protein GRB10
+HBP00158	common fragile site (CFS)	pmid:12874785	A chromosomal fragile site is a specific heritable point on a chromosome that tends to form a gap or constriction and may tend to break when the cell is exposed to partial replication stress.Based on their frequency, fragile sites are classified as "common" or "rare".To date, more than 120 fragile sites have been identified in the human genome.
+HBP00159	PARK7-alpha helices	pmid:18707128 The alpja helices of PARK7 protein
+HBP00160	cleaved PINK1	pmid:21138942	The cleaved part of Protein PINK1 
+HBP00161	neurovascular unit	pmid:25136294	The brain hyperaemia, or coupling, is accomplished by a group of cells, closely related to each other; called neurovascular unit (NVU). The neurovascular unit is composed by neurones, astrocytes, endothelial cells of blood-brain barrier (BBB), myocytes, pericytes and extracellular matrix components. reference:PMID: 24629161
+HBP00162	Muscles	pmid:21151955	MeSH Unique ID: D009132
+HBP00163	Neural Stem Cell	pmid:22357600	MeSH Unique ID: D058953
+	
