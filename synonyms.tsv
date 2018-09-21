@@ -1,36 +1,36 @@
 Identifier	Synonym	Reference
-HBP00001	MTBR
-HBP00002	MTBR R1
-HBP00002	R1
-HBP00003	MTBR R2
-HBP00003	R2
-HBP00004	MTBR R3
-HBP00004	R3
-HBP00005	MTBR R4
-HBP00005	R4
-HBP00011	Low-power laser irradiation
-HBP00012	CCH
-HBP00013	ME
-HBP00014	membrane nanotube
-HBP00014	TNT
+HBP00001	MTBR	?
+HBP00002	MTBR R1	?
+HBP00002	R1	?
+HBP00003	MTBR R2	?
+HBP00003	R2	?
+HBP00004	MTBR R3	?
+HBP00004	R3	?
+HBP00005	MTBR R4	?
+HBP00005	R4	?
+HBP00011	Low-power laser irradiation	?
+HBP00012	CCH	?
+HBP00013	ME	?
+HBP00014	membrane nanotube	?
+HBP00014	TNT	?
 HBP00028	ADDL	pmid:16712494
-HBP00035	AGD
-HBP00036	GVD
-HBP00041	YENPTY
-HBP00042	soluble amyloid precursor protein
-HBP00050	MAP2/Tau projection
-HBP00053	microtubule-associated protein tau isoform 2
-HBP00053	2N4R
-HBP00054	microtubule-associated protein tau isoform 4
-HBP00054	0N3R
-HBP00055	microtubule-associated protein tau isoform 7
-HBP00055	1N3R
-HBP00056	microtubule-associated protein tau isoform 3
-HBP00056	0N4R
-HBP00057	microtubule-associated protein tau isoform 8
-HBP00057	2N3R
-HBP00058	microtubule-associated protein tau isoform 5
-HBP00058	1N4R
-HBP00059	SEC-R
+HBP00035	AGD	?
+HBP00036	GVD	?
+HBP00041	YENPTY	?
+HBP00042	soluble amyloid precursor protein	?
+HBP00050	MAP2/Tau projection	?
+HBP00053	microtubule-associated protein tau isoform 2	?
+HBP00053	2N4R	?
+HBP00054	microtubule-associated protein tau isoform 4	?
+HBP00054	0N3R	?
+HBP00055	microtubule-associated protein tau isoform 7	?
+HBP00055	1N3R	?
+HBP00056	microtubule-associated protein tau isoform 3	?
+HBP00056	0N4R	?
+HBP00057	microtubule-associated protein tau isoform 8	?
+HBP00057	2N3R	?
+HBP00058	microtubule-associated protein tau isoform 5	?
+HBP00058	1N4R	?
+HBP00059	SEC-R	?
 HBP00166	PRD	pmid:26789759
 HBP00166	P domain	pmid:8068626
