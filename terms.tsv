@@ -112,7 +112,7 @@ HBP00110	dopamine homeostasis	pmid:26325389	Dopmine secrete in a homeostatic way
 HBP00111	PINK1-Park pathway	pmid:26182419	The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287
 HBP00112	Glutamate excitotoxicity	pmid:10196525	The excitotoxicity of Glutamate
 HBP00113	mitochondrial homeostasis	pmid:25478815	The interplay between mitophagy and mitochondrial biogenesis.
-HBP00114	ER mitochondria interorganellar crosstalk	pmid:25478815	reference:PMID: 22577383 
+HBP00114	ER mitochondria interorganellar crosstalk	pmid:25478815	reference:PMID: 22577383
 HBP00115	Mitochondrial pathway	pmid:23313576	reference:PMID: 22399422
 HBP00116	oxidative protein folding	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
 HBP00117	mitochondrial motility	pmid:25565208	The motility of mitochondria
@@ -130,8 +130,8 @@ HBP00128	clec-65	pmid:25896323	the nematode homologus of Clec65
 HBP00129	clec-4	pmid:25896323	the nematode homologus of Clec4
 HBP00130	lys-2	pmid:25896323	the nematode homologus of Lys2
 HBP00130	abf-2	pmid:25896323	the nematode homologus of Abf2
-HBP00131	exotoxin A	pmid:25274306	exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease. 
-HBP00132	mitochondrial DAMPs	pmid:20203610	mitochondrial damage-associated molecular patterns 
+HBP00131	exotoxin A	pmid:25274306	exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease.
+HBP00132	mitochondrial DAMPs	pmid:20203610	mitochondrial damage-associated molecular patterns
 HBP00133	IκB kinase	pmid:19880420	The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation.
 HBP00134	non-shivering thermogenesis	pmid:16224498	Nonshivering thermogenesis was originally defined as a cold-induced increase in heat production not associated with the muscle activity of shivering. Recent research shows it to be a metabolic process located primarily in brown adipose tissue and controlled by the activity of the sympathetic nervous supply of this tissue.PMID: 6722594
 HBP00135	hsp-16	pmid:22700657	the nematode homologus of hsp16
@@ -148,7 +148,7 @@ HBP00145	Gastrointestinal dysfunctions	pmid:24467967	The function of gastrotesti
 HBP00146	olfactory epithelium	pmid:22691461	UBERON:olfactory epithelium
 HBP00147	nasal cycle	pmid:23569018	The nasal cycle is the often unnoticed alternating partial congestion and decongestion of the nasal cavities in humans and other animals. It is a physiological congestion of the nasal concha, also called the nasal turbinate, due to selective activation of one half of the autonomic nervous system by the hypothalamus.
 HBP00148	hyposmia	pmid:23933572	Hyposmia is a reduced ability to smell and to detect odors.Hyposmia might be a very early sign of Parkinson's disease. Hyposmia is also an early and almost universal finding in Alzheimer's disease and dementia with Lewy bodies. Lifelong hyposmia could be caused by Kallmann syndrome.
-HBP00149	FMR1,(55-200 CGG)	pmid:24332449	A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein. 
+HBP00149	FMR1,(55-200 CGG)	pmid:24332449	A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein.
 HBP00150	pof14	pmid:17016471	a new member of the F-box family, Pof14, which forms a canonical
 HBP00151	Neuroglia	pmid:19248803	MeSH Unique ID: D009457
 HBP00152	GDNF Family	pmid:10383122	The GDNF family of ligands (GFL) consists of four neurotrophic factors: glial cell line-derived neurotrophic factor (GDNF), neurturin (NRTN), artemin (ARTN), and persephin (PSPN). GFLs have been shown to play a role in a number of biological processes including cell survival, neurite outgrowth, cell differentiation and cell migration. In particular signalling by GDNF promotes the survival of dopaminergic neurons.
@@ -159,7 +159,7 @@ HBP00156	Neurites	pmid:23872421	A neurite or neuronal process refers to any proj
 HBP00157	GRB10,BPS domain	pmid:25268761	BPS domain of protein GRB10
 HBP00158	common fragile site	pmid:12874785	A chromosomal fragile site is a specific heritable point on a chromosome that tends to form a gap or constriction and may tend to break when the cell is exposed to partial replication stress.Based on their frequency, fragile sites are classified as common or rare.To date, more than 120 fragile sites have been identified in the human genome.
 HBP00159	PARK7-alpha helices	pmid:18707128	The alpja helices of PARK7 protein
-HBP00160	cleaved PINK1	pmid:21138942	The cleaved part of Protein PINK1 
+HBP00160	cleaved PINK1	pmid:21138942	The cleaved part of Protein PINK1
 HBP00161	neurovascular unit	pmid:25136294	The brain hyperaemia, or coupling, is accomplished by a group of cells, closely related to each other; called neurovascular unit (NVU). The neurovascular unit is composed by neurones, astrocytes, endothelial cells of blood-brain barrier (BBB), myocytes, pericytes and extracellular matrix components. reference:PMID: 24629161
 HBP00162	Muscles	pmid:21151955	MeSH Unique ID: D009132
 HBP00163	Neural Stem Cell	pmid:22357600	MeSH Unique ID: D058953
