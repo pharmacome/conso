@@ -1,5 +1,5 @@
 Identifier	Label	References	Description
-HBP00001	microtubule-binding region	pmid:18500754, pmid:2516729,  	The motif in the MAPT protein where microtubule binding repeats
+HBP00001	microtubule-binding region	pmid:18500754, pmid:2516729  	The motif in the MAPT protein where microtubule binding repeats
 HBP00002	tubulin-binding repeat 1	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
 HBP00003	tubulin-binding repeat 2	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
 HBP00004	tubulin-binding repeat 3	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
@@ -10,7 +10,7 @@ HBP00008	GAL80TS	pmc:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL80
 HBP00009	Tau oligomers	pmc:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
 HBP00010	LY293002	pmid:21329734	a specific PI3-kinase inhibitor
 HBP00011	LPLI	pmid:20333643	Low-power laser irradiation (LPLI) is a non-damage physical therapy
-HBP00012	Chronic cerebral hypoperfusion	pmid24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
+HBP00012	Chronic cerebral hypoperfusion	pmid:24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
 HBP00013	Mori Fructus ethanol extract	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
 HBP00014	tunneling nanotubes	pmid:27809932	filamentous-actin-containing membranous structures that bridge and connect cells
 HBP00015	amyloidogenesis 	pmid:24653673	production of amyloid
@@ -84,16 +84,16 @@ HBP00082	aMCI	pmid:18986241	amnestic Mild Cognitive Impairement is a cognitive d
 HBP00083	mdMCI	pmid:18986241	multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is associated with more than one cognitive domain
 HBP00084	Tau isoform A (316 aa)	pmid:18986241	Human brain tau isoform, derived from alternative splicing.
 HBP00085	Tau C3	pmid:18986241	Tau epitope cleaved at aspartic acid(421).
-HBP00086	Tau MN423	omid:18986241	Tau epitope truncated at glutamic acid(391).
+HBP00086	Tau MN423	pmid:18986241	Tau epitope truncated at glutamic acid(391).
 HBP00087	granular tau oligomers	pmid:28420982	When the oligomer lengthens, it adapts a beta-sheet structure and transforms into a detergent-insoluble aggregate with granular appearance under Atomic Force Microscopy (AFM)
 HBP00088	Tau fibrils	pmid:28420982	As these granular tau oligomers fuse together, they form tau fibrils, which ultimately form NFTs
 HBP00089	dense core plaques	pmid:17680701	Dense-core plaques are fibrillar deposits of Abeta, showing all the classical properties of amyloid including beta-sheet secondary structure, while diffuse plaques are amorphous deposits
 HBP00090	Tau annular protofibrils	pmid:28420982	A handful of proteins implicated in neurodegenerative diseases have been found to produce pore-like amyloid structures known as annular protofibrils (APFs)
 HBP00091	TOC1	pmid:22817713	monoclonal antibody, named TOC1 (tau oligomeric complex 1), which selectively labels tau dimers and oligomers, but does not label filaments
-HBP00092	alpha-synuclein fibrils	PMID:19892735	fibrillar aggregates of alpha-synuclein, found in Lewy bodies
-HBP00093	alpha-synuclein oligomers	PMID:17374364	oligomeric aggregates of alpha-synuclein
-HBP00094	CLR01	PMID:23183235	the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein
-HBP00095	prefibrillar α-synuclein oligomers	PMID:27075649	 prefibrillar oligomers formed at early stages of α-syn assembly
+HBP00092	alpha-synuclein fibrils	pmid:19892735	fibrillar aggregates of alpha-synuclein, found in Lewy bodies
+HBP00093	alpha-synuclein oligomers	pmid:17374364	oligomeric aggregates of alpha-synuclein
+HBP00094	CLR01	pmid:23183235	the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein
+HBP00095	prefibrillar α-synuclein oligomers	pmid:27075649	 prefibrillar oligomers formed at early stages of α-syn assembly
 HBP00096	GA-AGE	pmid: 16630055, pmid:15221334	Glyceraldehyde-derived (GA) advanced glycation end products
 HBP00097	TGM2 Isoform 3 (349 aa)	pmid:12578227	Short isoform of tissue transglutaminase
 HBP00098	KXGS motif	pmid:17304350, pmid:21215781	Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly
@@ -112,8 +112,8 @@ HBP00110	dopamine homeostasis	pmid:26325389	Dopmine secrete in a homeostatic way
 HBP00111	PINK1-Park pathway	pmid:26182419	The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287
 HBP00112	Glutamate excitotoxicity	pmid:10196525	The excitotoxicity of Glutamate
 HBP00113	mitochondrial homeostasis	pmid:25478815	The interplay between mitophagy and mitochondrial biogenesis.
-HBP00114	ER mitochondria interorganellar crosstalk	pmid:25478815	reference:PMID: 22577383
-HBP00115	Mitochondrial pathway	pmid:23313576	reference:PMID: 22399422
+HBP00114	ER mitochondria interorganellar crosstalk	pmid:25478815	reference:pmid: 22577383
+HBP00115	Mitochondrial pathway	pmid:23313576	reference:pmid: 22399422
 HBP00116	oxidative protein folding	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
 HBP00117	mitochondrial motility	pmid:25565208	The motility of mitochondria
 HBP00118	TIM/TOM complex	pmid:25565208	The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA.
