@@ -50,6 +50,15 @@ def get_terms() -> Iterable[str]:
 
             # last_number = current_number
 
+            references = line[2].split(',')
+            references_split = [reference.strip().split(':') for reference in references]
+
+            if any(len(x) != 2 for x in references_split):
+                raise Exception(f'terms.csv, line {i}: missing reference {references_split}')
+
+            if any(source not in {'pmc', 'pmid', 'doi'} for source, reference in references_split):
+                raise Exception(f'terms.csv, line {i} : invalid reference type (note: always use lowercase pmid, pmc, etc.): {references_split}')
+
             yield term
 
 
