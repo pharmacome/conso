@@ -1,0 +1,187 @@
+[Namespace]
+Keyword=HBP
+NameString=Human Brain Pharmacome Terminology
+DomainString=Other
+VersionString=20180921
+CreatedDateTime=2018-09-21T14:08:20
+DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
+
+[Author]
+NameString=Charles Tapley Hoyt
+CopyrightString=CC0 1.0 Universal
+
+[Citation]
+NameString=HBP
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+3R tau|ABCGMOPR
+4R tau|ABCGMOPR
+A2B5 antigen|ABCGMOPR
+AG73|ABCGMOPR
+AICD|ABCGMOPR
+AP-2 complex|ABCGMOPR
+APOE e4|ABCGMOPR
+APP C-terminally truncated carboxyl-terminal fragments|ABCGMOPR
+APP processing|ABCGMOPR
+APP695|ABCGMOPR
+APP751|ABCGMOPR
+APP770|ABCGMOPR
+Alpha-synuclein Oligomerization|ABCGMOPR
+Alz50|ABCGMOPR
+Argyrophilic Grain Disease|ABCGMOPR
+AβOs|ABCGMOPR
+Bacterial invasion|ABCGMOPR
+C31|ABCGMOPR
+C99|ABCGMOPR
+CAG repeats|ABCGMOPR
+CLR01|ABCGMOPR
+Chronic cerebral hypoperfusion|ABCGMOPR
+Corticobasal Degeneration|ABCGMOPR
+D6S253|ABCGMOPR
+D6S305|ABCGMOPR
+Dopaminergic cell groups|ABCGMOPR
+E1 domain|ABCGMOPR
+E2 domain|ABCGMOPR
+ER mitochondria interorganellar crosstalk|ABCGMOPR
+Excitotoxicity|ABCGMOPR
+FMR1,(55-200 CGG)|ABCGMOPR
+GA-AGE|ABCGMOPR
+GAL80TS|ABCGMOPR
+GDNF Family|ABCGMOPR
+GRB10,BPS domain|ABCGMOPR
+Gastrointestinal dysfunctions|ABCGMOPR
+Glutamate excitotoxicity|ABCGMOPR
+Hyperamylinemia|ABCGMOPR
+IκB kinase|ABCGMOPR
+Jcasp|ABCGMOPR
+KXGS motif|ABCGMOPR
+LMW amyloid oligomers|ABCGMOPR
+LPLI|ABCGMOPR
+LY293002|ABCGMOPR
+MLS000034832|ABCGMOPR
+MTHFR,TT+AA|ABCGMOPR
+Mitochondrial pathway|ABCGMOPR
+Mori Fructus ethanol extract|ABCGMOPR
+Motor Neurons|ABCGMOPR
+Muscles|ABCGMOPR
+N-AcGIP|ABCGMOPR
+Neural Stem Cell|ABCGMOPR
+Neurites|ABCGMOPR
+Neurodegeneration|ABCGMOPR
+Neuroglia|ABCGMOPR
+Notch intracellular domain|ABCGMOPR
+O-GlcNAcylation|ABCGMOPR
+P3 peptide|ABCGMOPR
+PARK7-alpha helices|ABCGMOPR
+PDR-1|ABCGMOPR
+PI3K-Akt signaling pathway|ABCGMOPR
+PINK-1|ABCGMOPR
+PINK1-Park pathway|ABCGMOPR
+Pars Compacta|ABCGMOPR
+Pro3-GIP|ABCGMOPR
+RAC1b|ABCGMOPR
+SEN-1269|ABCGMOPR
+Serpin-enzyme complex receptor|ABCGMOPR
+Syndecan Family|ABCGMOPR
+TGM2 Isoform 3 (349 aa)|ABCGMOPR
+TIM/TOM complex|ABCGMOPR
+TOC1|ABCGMOPR
+Tau C3|ABCGMOPR
+Tau MN423|ABCGMOPR
+Tau aggregates|ABCGMOPR
+Tau annular protofibrils|ABCGMOPR
+Tau fibrils|ABCGMOPR
+Tau isoform A (316 aa)|ABCGMOPR
+Tau isoform B (381 aa)|ABCGMOPR
+Tau isoform C (410 aa)|ABCGMOPR
+Tau isoform D (383 aa)|ABCGMOPR
+Tau isoform E (412 aa)|ABCGMOPR
+Tau isoform F (441 aa)|ABCGMOPR
+Tau isoform Fetal-tau (352 aa)|ABCGMOPR
+Tau oligomers|ABCGMOPR
+VQIINK motif|ABCGMOPR
+VQIVYK motif|ABCGMOPR
+Ventral Tegmental Area|ABCGMOPR
+YENPTY endocytosis motif (APP)|ABCGMOPR
+aMCI|ABCGMOPR
+abf-2|ABCGMOPR
+alpha-synuclein aggregates|ABCGMOPR
+alpha-synuclein fibrils|ABCGMOPR
+alpha-synuclein oligomers|ABCGMOPR
+alternative splicing of APP gene|ABCGMOPR
+amyloid-beta 40 oligomers|ABCGMOPR
+amyloid-beta 42 oligomers|ABCGMOPR
+amyloid-beta aggregates|ABCGMOPR
+amyloid-beta derived diffusible ligands|ABCGMOPR
+amyloid-beta fibrils|ABCGMOPR
+amyloid-beta oligomers|ABCGMOPR
+amyloidogenesis|ABCGMOPR
+caprospinol|ABCGMOPR
+ced-9|ABCGMOPR
+cleaved PINK1|ABCGMOPR
+clec-4|ABCGMOPR
+clec-65|ABCGMOPR
+common fragile site|ABCGMOPR
+dense core plaques|ABCGMOPR
+dopamine homeostasis|ABCGMOPR
+exotoxin A|ABCGMOPR
+formylation|ABCGMOPR
+gamma-secretase|ABCGMOPR
+ghost tangles|ABCGMOPR
+glycation|ABCGMOPR
+granular tau oligomers|ABCGMOPR
+granulovacuolar degeneration|ABCGMOPR
+growth factor|ABCGMOPR
+heat shock proteins|ABCGMOPR
+high-calorie diets|ABCGMOPR
+hsp-16|ABCGMOPR
+huntingtin aggregates|ABCGMOPR
+hyperphosphorylation|ABCGMOPR
+hyposmia|ABCGMOPR
+lgg-1|ABCGMOPR
+lys-2|ABCGMOPR
+mdMCI|ABCGMOPR
+mevalonate pathway|ABCGMOPR
+microtubule-binding region|ABCGMOPR
+midbrain dopaminergic neuron|ABCGMOPR
+mitochondrial DAMPs|ABCGMOPR
+mitochondrial aggregation|ABCGMOPR
+mitochondrial dysfunction|ABCGMOPR
+mitochondrial homeostasis|ABCGMOPR
+mitochondrial motility|ABCGMOPR
+mitochondrial precursor protein|ABCGMOPR
+nasal cycle|ABCGMOPR
+neurite retraction|ABCGMOPR
+neuroinflammation|ABCGMOPR
+neurotoxicity|ABCGMOPR
+neurovascular unit|ABCGMOPR
+neutral sphingomyelinase|ABCGMOPR
+nitration|ABCGMOPR
+non-shivering thermogenesis|ABCGMOPR
+noradrenergic neuron|ABCGMOPR
+olfactory epithelium|ABCGMOPR
+oxidative protein folding|ABCGMOPR
+p83|ABCGMOPR
+paired helical filaments|ABCGMOPR
+pof14|ABCGMOPR
+polyamination|ABCGMOPR
+prefibrillar α-synuclein oligomers|ABCGMOPR
+pretangles|ABCGMOPR
+projection domain|ABCGMOPR
+proline-rich domain|ABCGMOPR
+proteotoxicity|ABCGMOPR
+sAPP-alpha|ABCGMOPR
+sAPP-beta|ABCGMOPR
+skn-1|ABCGMOPR
+ss20399075|ABCGMOPR
+straight filaments|ABCGMOPR
+tubulin-binding repeat 1|ABCGMOPR
+tubulin-binding repeat 2|ABCGMOPR
+tubulin-binding repeat 3|ABCGMOPR
+tubulin-binding repeat 4|ABCGMOPR
+tunneling nanotubes|ABCGMOPR
