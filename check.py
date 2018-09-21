@@ -19,7 +19,12 @@ def get_terms() -> Iterable[str]:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
+        last_number = 0
+
         for i, line in enumerate(reader, start=1):
+            if not line:
+                continue
+
             if line[-1].endswith('\t') or line[-1].endswith(' '):
                 raise Exception(f'terms.csv: Trailing whitespace on line {i}')
 
@@ -39,8 +44,11 @@ def get_terms() -> Iterable[str]:
             if match is None:
                 raise Exception(f'terms.csv: Invalid identifier chosen on line {i}: {line}')
 
-            if i != int(match.groups()[0]):
+            current_number = int(match.groups()[0])
+            if i != current_number:  # current_number <= last_number:
                 raise Exception(f'terms.csv: Indexing scheme broken on line {i}: {term}')
+
+            # last_number = current_number
 
             yield term
 
@@ -52,7 +60,7 @@ def check_cross_referenced_file(path: str, expected_size: int, terms: Set[str]):
 
         for i, line in enumerate(reader):
             if len(line) != expected_size:
-                raise Exception(f'{path}: Not enough fields (only found {len(line)}) on line {i}: {line}')
+                raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
 
             if any(not column for column in line):
                 raise Exception(f'{path}: Missing entries on line {i}: {line}')
@@ -67,7 +75,7 @@ def main():
     """Run the check on the terms, synonyms, and xrefs."""
     terms = set(get_terms())
 
-    check_cross_referenced_file('synonyms.tsv', 2, terms)
+    check_cross_referenced_file('synonyms.tsv', 3, terms)
     check_cross_referenced_file('xrefs.tsv', 3, terms)
 
     sys.exit(0)
