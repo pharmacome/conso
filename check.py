@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+"""A script to check the sanctity of the HBP resources."""
+
 import csv
 import os
 import re
@@ -19,7 +21,7 @@ def get_terms() -> Iterable[str]:
 
         for i, line in enumerate(reader, start=1):
             if line[-1].endswith('\t') or line[-1].endswith(' '):
-                raise Exception(f'Trailing whitespace on line {i}')
+                raise Exception(f'terms.csv: Trailing whitespace on line {i}')
 
             if len(line) < 4:
                 raise Exception(f'terms.csv: Not enough fields (only found {len(line)}) on line {i}: {line}')
