@@ -3,7 +3,7 @@ Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
 VersionString=20181015
-CreatedDateTime=2018-10-15T14:32:33
+CreatedDateTime=2018-10-15T15:20:44
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -34,12 +34,14 @@ APP751|ABCGMOPR
 APP770|ABCGMOPR
 Alpha-synuclein Oligomerization|ABCGMOPR
 Alz50|ABCGMOPR
+Amylin Antagonist AC253|ABCGMOPR
 Argyrophilic Grain Disease|ABCGMOPR
 AβOs|ABCGMOPR
 Bacterial invasion|ABCGMOPR
 C31|ABCGMOPR
 C99|ABCGMOPR
 CAG repeats|ABCGMOPR
+CDK5R1 p25|ABCGMOPR
 CLR01|ABCGMOPR
 Chronic cerebral hypoperfusion|ABCGMOPR
 Corticobasal Degeneration|ABCGMOPR
