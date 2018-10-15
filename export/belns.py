@@ -16,18 +16,21 @@ OUTPUT_NAME_FILE_PATH = os.path.join(HERE, 'hbp-names.belns')
 
 
 def _get_terms() -> List[str]:
-    return [line[0] for line in _get_lines() if line]
+    return [line[0] for line in _get_lines()]
 
 
 def _get_labels() -> List[str]:
-    return [line[1] for line in _get_lines() if line]
+    return [line[1] for line in _get_lines()]
 
 
 def _get_lines() -> List[str]:
     with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        yield from reader
+        for line in reader:
+            if not line or line[1] == 'WITHDRAWN':
+                continue
+            yield line
 
 
 def _write_namespace(path, values: Iterable[str]):

@@ -19,8 +19,6 @@ def get_terms() -> Iterable[str]:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
-        last_number = 0
-
         for i, line in enumerate(reader, start=1):
             if not line:
                 continue
@@ -28,17 +26,7 @@ def get_terms() -> Iterable[str]:
             if line[-1].endswith('\t') or line[-1].endswith(' '):
                 raise Exception(f'terms.csv: Trailing whitespace on line {i}')
 
-            if len(line) < 4:
-                raise Exception(f'terms.csv: Not enough fields (only found {len(line)}) on line {i}: {line}')
-
-            if len(line) > 4:
-                raise Exception(f'terms.csv: Too many fields (found {len(line)}) on line {i}: {line}')
-
-            if any(not column for column in line):
-                raise Exception(f'terms.csv: Missing entries on line {i}: {line}')
-
             term = line[0]
-
             match = HBP_IDENTIFIER.match(term)
 
             if match is None:
@@ -48,7 +36,21 @@ def get_terms() -> Iterable[str]:
             if i != current_number:  # current_number <= last_number:
                 raise Exception(f'terms.csv: Indexing scheme broken on line {i}: {term}')
 
-            # last_number = current_number
+            if len(line) < 4:
+                raise Exception(f'terms.csv: Not enough fields (only found {len(line)}) on line {i}: {line}')
+
+            if len(line) > 4:
+                raise Exception(f'terms.csv: Too many fields (found {len(line)}) on line {i}: {line}')
+
+            if line[1] == 'WITHDRAWN':
+                print(f'{term} was withdrawn')
+                if line[2] != '.' or line[3] != '.':
+                    raise Exception(f'terms.csv: Wrong formatting for withdrawn term line {i}: '
+                                    f'Use periods as placeholders.')
+                continue
+
+            if any(not column for column in line):
+                raise Exception(f'terms.csv: Missing entries on line {i}: {line}')
 
             references = line[2].split(',')
             references_split = [reference.strip().split(':') for reference in references]
@@ -57,7 +59,8 @@ def get_terms() -> Iterable[str]:
                 raise Exception(f'terms.csv, line {i}: missing reference {references_split}')
 
             if any(source not in {'pmc', 'pmid', 'doi'} for source, reference in references_split):
-                raise Exception(f'terms.csv, line {i} : invalid reference type (note: always use lowercase pmid, pmc, etc.): {references_split}')
+                raise Exception(
+                    f'terms.csv, line {i} : invalid reference type (note: always use lowercase pmid, pmc, etc.): {references_split}')
 
             yield term
 
