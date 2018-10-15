@@ -16,11 +16,11 @@ OUTPUT_NAME_FILE_PATH = os.path.join(HERE, 'hbp-names.belns')
 
 
 def _get_terms() -> List[str]:
-    return [line[0] for line in _get_lines()]
+    return [line[0] for line in _get_lines() if line]
 
 
 def _get_labels() -> List[str]:
-    return [line[1] for line in _get_lines()]
+    return [line[1] for line in _get_lines() if line]
 
 
 def _get_lines() -> List[str]:
