@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20180921
-CreatedDateTime=2018-09-21T14:08:20
+VersionString=20181015
+CreatedDateTime=2018-10-15T14:32:33
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -19,6 +19,7 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
+310-helix|ABCGMOPR
 3R tau|ABCGMOPR
 4R tau|ABCGMOPR
 A2B5 antigen|ABCGMOPR
@@ -141,6 +142,7 @@ heat shock proteins|ABCGMOPR
 high-calorie diets|ABCGMOPR
 hsp-16|ABCGMOPR
 huntingtin aggregates|ABCGMOPR
+hydrophobic pocket of actin|ABCGMOPR
 hyperphosphorylation|ABCGMOPR
 hyposmia|ABCGMOPR
 lgg-1|ABCGMOPR
