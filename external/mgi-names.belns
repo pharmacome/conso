@@ -1,8 +1,9 @@
 [Namespace]
-Keyword=MGI
-NameString=mgi
+Keyword=mgi
+NameString=Mouse Genome Database
 VersionString=20181021
-CreatedDateTime=2018-10-21T21:27:03
+CreatedDateTime=2018-10-21T22:40:09
+QueryValueURL=http://identifiers.org/mgi/
 
 [Author]
 NameString=cthoyt
