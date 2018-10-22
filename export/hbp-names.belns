@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181015
-CreatedDateTime=2018-10-15T15:20:44
+VersionString=20181022
+CreatedDateTime=2018-10-22T13:03:11
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -32,6 +32,7 @@ APP processing|ABCGMOPR
 APP695|ABCGMOPR
 APP751|ABCGMOPR
 APP770|ABCGMOPR
+Abeta*56|ABCGMOPR
 Alpha-synuclein Oligomerization|ABCGMOPR
 Alz50|ABCGMOPR
 Amylin Antagonist AC253|ABCGMOPR
@@ -85,6 +86,7 @@ PDR-1|ABCGMOPR
 PI3K-Akt signaling pathway|ABCGMOPR
 PINK-1|ABCGMOPR
 PINK1-Park pathway|ABCGMOPR
+PTI-125|ABCGMOPR
 Pars Compacta|ABCGMOPR
 Pro3-GIP|ABCGMOPR
 RAC1b|ABCGMOPR
@@ -113,6 +115,8 @@ Ventral Tegmental Area|ABCGMOPR
 YENPTY endocytosis motif (APP)|ABCGMOPR
 aMCI|ABCGMOPR
 abf-2|ABCGMOPR
+alpha-4 beta-2 nAChR|ABCGMOPR
+alpha-7 beta-2 nAChR|ABCGMOPR
 alpha-synuclein aggregates|ABCGMOPR
 alpha-synuclein fibrils|ABCGMOPR
 alpha-synuclein oligomers|ABCGMOPR
@@ -124,6 +128,7 @@ amyloid-beta derived diffusible ligands|ABCGMOPR
 amyloid-beta fibrils|ABCGMOPR
 amyloid-beta oligomers|ABCGMOPR
 amyloidogenesis|ABCGMOPR
+beta-2-containing nAChR|ABCGMOPR
 caprospinol|ABCGMOPR
 ced-9|ABCGMOPR
 cleaved PINK1|ABCGMOPR

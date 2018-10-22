@@ -1,0 +1,950 @@
+format-version: 1.2
+date: 22:10:2018 16:46
+
+[Term]
+id: HBP:HBP00001
+name: microtubule-binding region
+synonym: "MTBR" EXACT []
+xref: pmid:18500754
+xref: pmid:2516729
+xref: interpro:IPR001084
+
+[Term]
+id: HBP:HBP00002
+name: tubulin-binding repeat 1
+synonym: "MTBR R1" EXACT []
+synonym: "R1" EXACT []
+xref: pmid:18500754
+xref: BEL:"p(HGNC:MAPT, frag(569_591))"
+
+[Term]
+id: HBP:HBP00003
+name: tubulin-binding repeat 2
+synonym: "MTBR R2" EXACT []
+synonym: "R2" EXACT []
+xref: pmid:18500754
+xref: BEL:"p(HGNC:MAPT, frag(592_621))"
+
+[Term]
+id: HBP:HBP00004
+name: tubulin-binding repeat 3
+synonym: "MTBR R3" EXACT []
+synonym: "R3" EXACT []
+xref: pmid:18500754
+xref: BEL:"p(HGNC:MAPT, frag(623_653))"
+
+[Term]
+id: HBP:HBP00005
+name: tubulin-binding repeat 4
+synonym: "MTBR R4" EXACT []
+synonym: "R4" EXACT []
+xref: pmid:18500754
+xref: BEL:"p(HGNC:MAPT, frag(654_685))"
+
+[Term]
+id: HBP:HBP00006
+name: Tau aggregates
+xref: pmc:PMC2633703
+
+[Term]
+id: HBP:HBP00007
+name: hyperphosphorylation
+xref: pmid:22710920
+
+[Term]
+id: HBP:HBP00008
+name: GAL80TS
+xref: pmc:PMC3073608
+
+[Term]
+id: HBP:HBP00009
+name: Tau oligomers
+xref: pmc:PMC4828294
+
+[Term]
+id: HBP:HBP00010
+name: LY293002
+xref: pmid:21329734
+
+[Term]
+id: HBP:HBP00011
+name: LPLI
+synonym: "Low-power laser irradiation" EXACT []
+xref: pmid:20333643
+
+[Term]
+id: HBP:HBP00012
+name: Chronic cerebral hypoperfusion
+synonym: "CCH" EXACT []
+xref: pmid:24575038
+
+[Term]
+id: HBP:HBP00013
+name: Mori Fructus ethanol extract
+synonym: "ME" EXACT []
+xref: pmid:26068423
+
+[Term]
+id: HBP:HBP00014
+name: tunneling nanotubes
+synonym: "membrane nanotube" EXACT []
+synonym: "TNT" EXACT []
+xref: pmid:27809932
+
+[Term]
+id: HBP:HBP00015
+name: amyloidogenesis 
+xref: pmid:24653673
+
+[Term]
+id: HBP:HBP00016
+name: alpha-synuclein aggregates
+xref: pmid:23254192
+
+[Term]
+id: HBP:HBP00017
+name: huntingtin aggregates
+xref: pmid:12747895
+
+[Term]
+id: HBP:HBP00018
+name: amyloid-beta aggregates
+xref: pmid:23484434
+
+[Term]
+id: HBP:HBP00019
+name: SEN-1269
+xref: pmid:23484434
+xref: pubchem.compound:46835756
+
+[Term]
+id: HBP:HBP00020
+name: MLS000034832
+xref: pmid:23484434
+xref: pubchem.compound:647821
+
+[Term]
+id: HBP:HBP00021
+name: caprospinol
+xref: pmid:23484434
+xref: drugbank:DB05263
+
+[Term]
+id: HBP:HBP00022
+name: amyloid-beta oligomers
+xref: pmid:24918635
+xref: pmid:29196815
+
+[Term]
+id: HBP:HBP00023
+name: amyloid-beta 42 oligomers
+xref: pmid:24918635
+
+[Term]
+id: HBP:HBP00024
+name: APP C-terminally truncated carboxyl-terminal fragments
+xref: pmid:15491160
+
+[Term]
+id: HBP:HBP00025
+name: A2B5 antigen
+xref: pmid:1497614
+
+[Term]
+id: HBP:HBP00026
+name: neutral sphingomyelinase
+xref: pmid:19519303
+
+[Term]
+id: HBP:HBP00027
+name: Neurodegeneration
+xref: pmid:20202123
+xref: pmid:12387894
+
+[Term]
+id: HBP:HBP00028
+name: amyloid-beta derived diffusible ligands
+synonym: "ADDL" EXACT []
+xref: pmid:19188609
+
+[Term]
+id: HBP:HBP00029
+name: Hyperamylinemia
+xref: pmid:23794448
+
+[Term]
+id: HBP:HBP00030
+name: APOE e4
+xref: pmid:22701550
+
+[Term]
+id: HBP:HBP00031
+name: N-AcGIP
+xref: pmid:18234983
+
+[Term]
+id: HBP:HBP00032
+name: Pro3-GIP
+xref: pmid:18234983
+
+[Term]
+id: HBP:HBP00033
+name: PI3K-Akt signaling pathway
+xref: pmid:22013558
+
+[Term]
+id: HBP:HBP00035
+name: Argyrophilic Grain Disease
+synonym: "AGD" EXACT []
+xref: pmid:15658002
+
+[Term]
+id: HBP:HBP00036
+name: granulovacuolar degeneration
+synonym: "GVD" EXACT []
+xref: pmid:17455299
+
+[Term]
+id: HBP:HBP00037
+name: mitochondrial dysfunction
+xref: pmid:19885299
+
+[Term]
+id: HBP:HBP00038
+name: amyloid-beta fibrils
+xref: pmid:19158505
+
+[Term]
+id: HBP:HBP00039
+name: AG73
+xref: pmid:20615691
+xref: BEL:"p(MGI:Lama1, frag(2719_2730))"
+
+[Term]
+id: HBP:HBP00040
+name: Notch intracellular domain
+xref: pmid:20883690
+
+[Term]
+id: HBP:HBP00041
+name: YENPTY endocytosis motif (APP)
+synonym: "YENPTY" EXACT []
+xref: pmid:18650430
+
+[Term]
+id: HBP:HBP00042
+name: sAPP-beta
+synonym: "soluble amyloid precursor protein" EXACT []
+xref: pmid:21606494
+
+[Term]
+id: HBP:HBP00043
+name: growth factor
+xref: pmid:14678766
+
+[Term]
+id: HBP:HBP00044
+name: 3R tau
+xref: pmid:23407988
+
+[Term]
+id: HBP:HBP00045
+name: 4R tau
+xref: pmid:23407988
+
+[Term]
+id: HBP:HBP00046
+name: VQIINK motif
+synonym: "PHF6* " EXACT []
+xref: pmid:17493042
+
+[Term]
+id: HBP:HBP00047
+name: VQIVYK motif 
+synonym: "PHF6" EXACT []
+xref: pmid:17493042
+
+[Term]
+id: HBP:HBP00048
+name: ghost tangles
+xref: pmid:23407988
+xref: pmid:8431763
+
+[Term]
+id: HBP:HBP00049
+name: pretangles
+xref: pmid:23407988
+xref: pmid:24612177
+
+[Term]
+id: HBP:HBP00050
+name: projection domain
+synonym: "MAP2/Tau projection" EXACT []
+xref: pmid:17493042
+xref: pmid:28386764
+xref: interpro:IPR013588
+
+[Term]
+id: HBP:HBP00051
+name: RAC1b
+xref: pmid:22142809
+
+[Term]
+id: HBP:HBP00052
+name: AP-2 complex
+xref: pmid:27260836
+xref: go:GO:0030122
+
+[Term]
+id: HBP:HBP00053
+name: Tau isoform F (441 aa)
+synonym: "microtubule-associated protein tau isoform 2" EXACT []
+synonym: "2N4R" EXACT []
+synonym: "htau40" EXACT []
+xref: pmid:17493042
+xref: ncbiprotein:NP_005901
+
+[Term]
+id: HBP:HBP00054
+name: Tau isoform Fetal-tau (352 aa)
+synonym: "microtubule-associated protein tau isoform 4" EXACT []
+synonym: "0N3R" EXACT []
+synonym: "htau23" EXACT []
+xref: pmid:17493042
+xref: ncbiprotein:NP_058525
+
+[Term]
+id: HBP:HBP00055
+name: Tau isoform B (381 aa)
+synonym: "microtubule-associated protein tau isoform 7" EXACT []
+synonym: "1N3R" EXACT []
+xref: pmid:17493042
+xref: ncbiprotein:NP_001190180
+
+[Term]
+id: HBP:HBP00056
+name: Tau isoform D (383 aa)
+synonym: "microtubule-associated protein tau isoform 3" EXACT []
+synonym: "0N4R" EXACT []
+xref: pmid:17493042
+xref: ncbiprotein:NP_058518
+
+[Term]
+id: HBP:HBP00057
+name: Tau isoform C (410 aa)
+synonym: "microtubule-associated protein tau isoform 8" EXACT []
+synonym: "2N3R" EXACT []
+xref: pmid:17493042
+xref: ncbiprotein:NP_001190181
+
+[Term]
+id: HBP:HBP00058
+name: Tau isoform E (412 aa)
+synonym: "microtubule-associated protein tau isoform 5" EXACT []
+synonym: "1N4R" EXACT []
+xref: pmid:17493042
+xref: ncbiprotein:NP_001116539
+
+[Term]
+id: HBP:HBP00059
+name: Serpin-enzyme complex receptor
+synonym: "SEC-R" EXACT []
+xref: pmid:15160835
+
+[Term]
+id: HBP:HBP00060
+name: neuroinflammation
+xref: pmid:26306439
+xref: go:GO:0150076
+
+[Term]
+id: HBP:HBP00061
+name: neurotoxicity
+xref: pmid:18440072
+
+[Term]
+id: HBP:HBP00062
+name: neurite retraction
+xref: pmid:19022228
+
+[Term]
+id: HBP:HBP00063
+name: APP695
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00064
+name: APP751
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00065
+name: APP770
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00066
+name: gamma-secretase
+xref: pmid:25565961
+xref: FPLX:Gamma_secretase
+
+[Term]
+id: HBP:HBP00067
+name: sAPP-alpha
+xref: pmid:22491325
+
+[Term]
+id: HBP:HBP00068
+name: Excitotoxicity
+xref: pmid:19343058
+
+[Term]
+id: HBP:HBP00069
+name: C31
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00070
+name: Jcasp
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00071
+name: AICD
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00072
+name: p83
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00073
+name: APP processing
+xref: pmid:21214928
+
+[Term]
+id: HBP:HBP00074
+name: AβOs
+xref: pmid:24685176
+
+[Term]
+id: HBP:HBP00075
+name: LMW amyloid oligomers
+xref: pmid:18723507
+
+[Term]
+id: HBP:HBP00076
+name: amyloid-beta 40 oligomers
+xref: pmid:21209907
+
+[Term]
+id: HBP:HBP00077
+name: alternative splicing of APP gene
+xref: pmid:22122372
+
+[Term]
+id: HBP:HBP00078
+name: E1 domain
+xref: pmid:21574595
+
+[Term]
+id: HBP:HBP00079
+name: E2 domain
+xref: pmid:21574595
+
+[Term]
+id: HBP:HBP00080
+name: P3 peptide
+xref: pmid:22137428
+
+[Term]
+id: HBP:HBP00081
+name: C99
+xref: pmid:22122372
+
+[Term]
+id: HBP:HBP00082
+name: aMCI
+xref: pmid:18986241
+
+[Term]
+id: HBP:HBP00083
+name: mdMCI
+xref: pmid:18986241
+
+[Term]
+id: HBP:HBP00084
+name: Tau isoform A (316 aa)
+xref: pmid:18986241
+
+[Term]
+id: HBP:HBP00085
+name: Tau C3
+xref: pmid:18986241
+
+[Term]
+id: HBP:HBP00086
+name: Tau MN423
+xref: pmid:18986241
+
+[Term]
+id: HBP:HBP00087
+name: granular tau oligomers
+xref: pmid:28420982
+
+[Term]
+id: HBP:HBP00088
+name: Tau fibrils
+xref: pmid:28420982
+
+[Term]
+id: HBP:HBP00089
+name: dense core plaques
+xref: pmid:17680701
+
+[Term]
+id: HBP:HBP00090
+name: Tau annular protofibrils
+xref: pmid:28420982
+
+[Term]
+id: HBP:HBP00091
+name: TOC1
+xref: pmid:22817713
+
+[Term]
+id: HBP:HBP00092
+name: alpha-synuclein fibrils
+xref: pmid:19892735
+
+[Term]
+id: HBP:HBP00093
+name: alpha-synuclein oligomers
+xref: pmid:17374364
+
+[Term]
+id: HBP:HBP00094
+name: CLR01
+xref: pmid:23183235
+
+[Term]
+id: HBP:HBP00095
+name: prefibrillar α-synuclein oligomers
+xref: pmid:27075649
+
+[Term]
+id: HBP:HBP00096
+name: GA-AGE
+xref: pmid: 16630055
+xref: pmid:15221334
+
+[Term]
+id: HBP:HBP00097
+name: TGM2 Isoform 3 (349 aa)
+xref: pmid:12578227
+
+[Term]
+id: HBP:HBP00098
+name: KXGS motif
+xref: pmid:17304350
+xref: pmid:21215781
+
+[Term]
+id: HBP:HBP00099
+name: Corticobasal Degeneration
+xref: pmid:22057784
+
+[Term]
+id: HBP:HBP00100
+name: paired helical filaments
+xref: pmid:22496370
+xref: pmid:1706519
+
+[Term]
+id: HBP:HBP00101
+name: straight filaments
+xref: pmid:16566606
+xref: pmid:28678775
+
+[Term]
+id: HBP:HBP00102
+name: Alz50
+xref: pmid:16566606
+xref: pmid:8955115
+
+[Term]
+id: HBP:HBP00103
+name: O-GlcNAcylation
+xref: pmid:16630055
+
+[Term]
+id: HBP:HBP00104
+name: glycation
+xref: pmid:26655600
+
+[Term]
+id: HBP:HBP00105
+name: nitration
+xref: pmid:16566606
+
+[Term]
+id: HBP:HBP00106
+name: polyamination
+xref: pmid:25974414
+
+[Term]
+id: HBP:HBP00107
+name: formylation
+xref: pmid:21210655
+
+[Term]
+id: HBP:HBP00108
+name: Syndecan Family
+xref: pmid:15241784
+
+[Term]
+id: HBP:HBP00109
+name: Bacterial invasion
+xref: pmid:15241784
+
+[Term]
+id: HBP:HBP00110
+name: dopamine homeostasis
+xref: pmid:26325389
+
+[Term]
+id: HBP:HBP00111
+name: PINK1-Park pathway
+xref: pmid:26182419
+
+[Term]
+id: HBP:HBP00112
+name: Glutamate excitotoxicity
+xref: pmid:10196525
+
+[Term]
+id: HBP:HBP00113
+name: mitochondrial homeostasis
+xref: pmid:25478815
+
+[Term]
+id: HBP:HBP00114
+name: ER mitochondria interorganellar crosstalk
+xref: pmid:25478815
+
+[Term]
+id: HBP:HBP00115
+name: Mitochondrial pathway
+xref: pmid:23313576
+
+[Term]
+id: HBP:HBP00116
+name: oxidative protein folding
+xref: pmid:26004228
+
+[Term]
+id: HBP:HBP00117
+name: mitochondrial motility
+xref: pmid:25565208
+
+[Term]
+id: HBP:HBP00118
+name: TIM/TOM complex
+xref: pmid:25565208
+
+[Term]
+id: HBP:HBP00119
+name: mitochondrial aggregation
+xref: pmid:25591737
+
+[Term]
+id: HBP:HBP00120
+name: mevalonate pathway
+xref: pmid:24695221
+
+[Term]
+id: HBP:HBP00121
+name: Dopaminergic cell groups
+xref: pmid:24695221
+
+[Term]
+id: HBP:HBP00122
+name: mitochondrial precursor protein
+xref: pmid:26192197
+
+[Term]
+id: HBP:HBP00123
+name: PDR-1
+xref: pmid:26430570
+
+[Term]
+id: HBP:HBP00124
+name: PINK-1
+xref: pmid:26430570
+
+[Term]
+id: HBP:HBP00125
+name: skn-1
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00126
+name: ced-9
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00127
+name: lgg-1
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00128
+name: clec-65
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00129
+name: clec-4
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00131
+name: exotoxin A
+xref: pmid:25274306
+
+[Term]
+id: HBP:HBP00132
+name: mitochondrial DAMPs
+xref: pmid:20203610
+
+[Term]
+id: HBP:HBP00133
+name: IκB kinase
+xref: pmid:19880420
+
+[Term]
+id: HBP:HBP00134
+name: non-shivering thermogenesis
+xref: pmid:16224498
+
+[Term]
+id: HBP:HBP00135
+name: hsp-16
+xref: pmid:22700657
+
+[Term]
+id: HBP:HBP00136
+name: heat shock proteins
+xref: pmid:15280428
+
+[Term]
+id: HBP:HBP00137
+name: high-calorie diets
+xref: pmid:10412986
+
+[Term]
+id: HBP:HBP00138
+name: proteotoxicity
+xref: pmid:24149988
+
+[Term]
+id: HBP:HBP00139
+name: ss20399075
+xref: pmid:15122513
+
+[Term]
+id: HBP:HBP00140
+name: Alpha-synuclein Oligomerization
+xref: pmid:21296890
+
+[Term]
+id: HBP:HBP00141
+name: D6S253
+xref: pmid:9560156
+
+[Term]
+id: HBP:HBP00142
+name: D6S305
+xref: pmid:9560156
+
+[Term]
+id: HBP:HBP00143
+name: MTHFR,TT+AA
+xref: pmid:17914182
+
+[Term]
+id: HBP:HBP00144
+name: CAG repeats
+xref: pmid:22782013
+
+[Term]
+id: HBP:HBP00145
+name: Gastrointestinal dysfunctions
+xref: pmid:24467967
+
+[Term]
+id: HBP:HBP00146
+name: olfactory epithelium
+xref: pmid:22691461
+
+[Term]
+id: HBP:HBP00147
+name: nasal cycle
+xref: pmid:23569018
+
+[Term]
+id: HBP:HBP00148
+name: hyposmia
+xref: pmid:23933572
+
+[Term]
+id: HBP:HBP00149
+name: FMR1,(55-200 CGG)
+xref: pmid:24332449
+
+[Term]
+id: HBP:HBP00150
+name: pof14
+xref: pmid:17016471
+
+[Term]
+id: HBP:HBP00151
+name: Neuroglia
+xref: pmid:19248803
+
+[Term]
+id: HBP:HBP00152
+name: GDNF Family
+xref: pmid:10383122
+
+[Term]
+id: HBP:HBP00153
+name: Motor Neurons
+xref: pmid:10383122
+
+[Term]
+id: HBP:HBP00154
+name: noradrenergic neuron
+xref: pmid:10383122
+
+[Term]
+id: HBP:HBP00155
+name: midbrain dopaminergic neuron
+xref: pmid:10383122
+
+[Term]
+id: HBP:HBP00156
+name: Neurites
+xref: pmid:23872421
+
+[Term]
+id: HBP:HBP00157
+name: GRB10,BPS domain
+xref: pmid:25268761
+
+[Term]
+id: HBP:HBP00158
+name: common fragile site
+xref: pmid:12874785
+
+[Term]
+id: HBP:HBP00159
+name: PARK7-alpha helices
+xref: pmid:18707128
+
+[Term]
+id: HBP:HBP00160
+name: cleaved PINK1
+xref: pmid:21138942
+
+[Term]
+id: HBP:HBP00161
+name: neurovascular unit
+xref: pmid:25136294
+
+[Term]
+id: HBP:HBP00162
+name: Muscles
+xref: pmid:21151955
+
+[Term]
+id: HBP:HBP00163
+name: Neural Stem Cell
+xref: pmid:22357600
+
+[Term]
+id: HBP:HBP00164
+name: Ventral Tegmental Area
+xref: pmid:16190884
+
+[Term]
+id: HBP:HBP00165
+name: Pars Compacta
+xref: pmid:16190884
+
+[Term]
+id: HBP:HBP00166
+name: proline-rich domain
+synonym: "PRD" EXACT []
+synonym: "P domain" EXACT []
+xref: pmid:25974414
+xref: pmid:8068626
+xref: pmid:9190213
+
+[Term]
+id: HBP:HBP00167
+name: lys-2
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00168
+name: abf-2
+xref: pmid:25896323
+
+[Term]
+id: HBP:HBP00169
+name: hydrophobic pocket of actin
+xref: pmid:21314430
+
+[Term]
+id: HBP:HBP00170
+name: 310-helix
+xref: pmid:12761385
+
+[Term]
+id: HBP:HBP00171
+name: Amylin Antagonist AC253
+xref: pmid:22500019
+
+[Term]
+id: HBP:HBP00172
+name: CDK5R1 p25
+xref: pmid:10830966
+xref: BEL:"p(HGNC:CDK5R1, frag(99_307))"
+
+[Term]
+id: HBP:HBP00173
+name: PTI-125
+xref: pmid:28438486
+
+[Term]
+id: HBP:HBP00174
+name: alpha-4 beta-2 nAChR
+xref: pmid:24828779
+
+[Term]
+id: HBP:HBP00175
+name: alpha-7 beta-2 nAChR
+xref: pmid:27179601
+
+[Term]
+id: HBP:HBP00176
+name: beta-2-containing nAChR
+xref: pmid:24828779
+
+[Term]
+id: HBP:HBP00177
+name: Abeta*56
+xref: pmid:16541076
+
