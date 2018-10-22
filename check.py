@@ -62,6 +62,9 @@ def get_terms() -> Iterable[str]:
                 raise Exception(
                     f'terms.csv, line {i} : invalid reference type (note: always use lowercase pmid, pmc, etc.): {references_split}')
 
+            if '"' in line[3]:
+                raise Exception(f'terms.csv, line {i}: can not use double quote in description column')
+
             yield term
 
 
