@@ -22,11 +22,15 @@ class Reference:
     ns: str
     id: str
 
+    def __str__(self):
+        return f'{self.ns}:{self.id}'
+
 
 @dataclass
 class Synonym:
     name: str
     status: str
+    references: Optional[List[str]] = None
 
 
 class Term:
@@ -36,6 +40,7 @@ class Term:
                  term_id: Reference,
                  name: str,
                  description: str,
+                 references: List[Reference],
                  relationships: Optional[Mapping] = None,
                  synonyms: Optional[List[Synonym]] = None,
                  xrefs: Optional[List[Reference]] = None
@@ -43,6 +48,7 @@ class Term:
         self.term_id = term_id
         self.name = name
         self.description = description
+        self.references = references
 
         self.synonyms = synonyms or []
         self.xrefs = xrefs or []
@@ -53,10 +59,11 @@ class Term:
         obo_str = f'''[Term]
 id: {self.term_id.ns}:{self.term_id.id}
 name: {self.name}
+def: "{self.description}" [{', '.join(map(str,self.references))}]
 '''
-
         for synonym in self.synonyms:
-            obo_str += f'synonym: "{synonym.name}" {synonym.status} []\n'
+            synonym_references_string = ', '.join(synonym.references)
+            obo_str += f'synonym: "{synonym.name}" {synonym.status} [{synonym_references_string}]\n'
 
         for xref in self.xrefs:
             if xref.ns == 'BEL':
@@ -86,7 +93,7 @@ def get_obo_terms() -> List[Term]:
             hbp_id: Term(
                 term_id=Reference(HBP, hbp_id),
                 name=label,
-                xrefs=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
+                references=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
                 description=description
             )
 
@@ -97,8 +104,13 @@ def get_obo_terms() -> List[Term]:
     with open(SYNONYMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        for hbp_id, synonym, reference in reader:
-            terms[hbp_id].synonyms.append(Synonym(synonym, 'EXACT'))
+        for hbp_id, synonym, references in reader:
+            references = (
+                [r.strip() for r in references.split(',')]
+                if references and references != '?' else
+                []
+            )
+            terms[hbp_id].synonyms.append(Synonym(synonym, 'EXACT', references))
 
     with open(XREFS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
