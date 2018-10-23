@@ -9,8 +9,8 @@ The latest BEL namespace can be found at https://raw.githubusercontent.com/pharm
 
 Below are instructions on how to update the BEL namespace.
 
-1. Change into the `/export` directory with `cd export`
-2. Generate a new namespace with `python3 belns.py` 
+1. Change into the ``/export`` directory with ``cd export``
+2. Generate a new namespace with ``python3 belns.py` `
 3. Commit to GitHub and use the commit hash to build a new URL for BEL documents following the form of: https://raw.githubusercontent.com/pharmacome/terminology/{HASH GOES HERE}/export/hbp.belns
 
 Open Biomedical Ontology (OBO)
@@ -19,5 +19,5 @@ The latest OBO file can be found at https://raw.githubusercontent.com/pharmacome
 
 Below are instructions on how to update the OBO file.
 
-1. Change into the `/export` directory with `cd export`
-2. Generate a new OBO file with `python3 obo.py`
+1. Change into the ``/export`` directory with ``cd export``
+2. Generate a new OBO file with ``python3 obo.py``
