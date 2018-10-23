@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:10:2018 10:49
+date: 23:10:2018 11:10
 
 [Term]
 id: HBP:HBP00001
@@ -384,7 +384,7 @@ def: "the APP gene is located on chromosome 21 in humans with three major isofor
 id: HBP:HBP00066
 name: gamma-secretase
 def: "gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)" [pmid:25565961]
-xref: FPLX:Gamma_secretase
+xref: fplx:Gamma_secretase
 
 [Term]
 id: HBP:HBP00067
@@ -943,4 +943,5 @@ def: "56 kDa soluble amyloid-β (Aβ) assembly" [pmid:16541076]
 id: HBP:HBP00178
 name: protein aggregates
 def: "Aggregates of proteins or fragments of proteins" [pmc:PMC2633703, pmid:23254192, pmid:12747895, pmid:23484434]
+xref: sbo:SBO:0000543
 

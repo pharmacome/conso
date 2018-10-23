@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181022
-CreatedDateTime=2018-10-22T13:03:11
+VersionString=20181023
+CreatedDateTime=2018-10-23T11:10:43
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -183,6 +183,7 @@ prefibrillar α-synuclein oligomers|ABCGMOPR
 pretangles|ABCGMOPR
 projection domain|ABCGMOPR
 proline-rich domain|ABCGMOPR
+protein aggregates|ABCGMOPR
 proteotoxicity|ABCGMOPR
 sAPP-alpha|ABCGMOPR
 sAPP-beta|ABCGMOPR
