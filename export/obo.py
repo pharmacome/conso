@@ -20,20 +20,20 @@ RELATIONS_PATH = os.path.join(HERE, os.pardir, 'relations.tsv')
 
 @dataclass
 class Reference:
-    ns: str
-    id: str
+    namespace: str
+    identifier: str
     name: Optional[str] = None
 
     def __str__(self):
         if self.name:
-            return f'{self.ns}:{self.id} ! {self.name}'
-        return f'{self.ns}:{self.id}'
+            return f'{self.namespace}:{self.identifier} ! {self.name}'
+        return f'{self.namespace}:{self.identifier}'
 
 
 @dataclass
 class Synonym:
     name: str
-    status: str
+    specificity: str
     references: Optional[List[str]] = None
 
 
@@ -41,18 +41,16 @@ class Term:
     """Represents a term in OBO."""
 
     def __init__(self,
-                 term_id: Reference,
-                 name: str,
+                 reference: Reference,
                  description: str,
-                 references: List[Reference],
+                 provenance: List[Reference],
                  relationships: Optional[Mapping[str, List[Reference]]] = None,
                  synonyms: Optional[List[Synonym]] = None,
                  xrefs: Optional[List[Reference]] = None
                  ) -> None:
-        self.term_id = term_id
-        self.name = name
+        self.reference = reference
         self.description = description
-        self.references = references
+        self.provenance = provenance
 
         self.synonyms = synonyms or []
         self.xrefs = xrefs or []
@@ -61,19 +59,19 @@ class Term:
     def to_obo(self) -> str:
         """Convert this term to an OBO entry."""
         obo_str = f'''[Term]
-id: {self.term_id.ns}:{self.term_id.id}
-name: {self.name}
-def: "{self.description}" [{', '.join(map(str,self.references))}]
+id: {self.reference.namespace}:{self.reference.identifier}
+name: {self.reference.name}
+def: "{self.description}" [{', '.join(map(str,self.provenance))}]
 '''
         for synonym in self.synonyms:
             synonym_references_string = ', '.join(synonym.references)
-            obo_str += f'synonym: "{synonym.name}" {synonym.status} [{synonym_references_string}]\n'
+            obo_str += f'synonym: "{synonym.name}" {synonym.specificity} [{synonym_references_string}]\n'
 
         for xref in self.xrefs:
-            if xref.ns == 'BEL':
-                entry = f'BEL:"{xref.id}"'
+            if xref.namespace == 'BEL':
+                entry = f'BEL:"{xref.identifier}"'
             else:
-                entry = f'{xref.ns}:{xref.id}'
+                entry = str(xref)
 
             obo_str += f'xref: {entry}\n'
 
@@ -94,14 +92,13 @@ def get_obo_terms() -> List[Term]:
         _ = next(reader)  # skip the header
 
         terms = {
-            hbp_id: Term(
-                term_id=Reference(HBP, hbp_id, label),
-                name=label,
-                references=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
-                description=description
+            hbp_identifier: Term(
+                reference=Reference(namespace=HBP, identifier=hbp_identifier, name=name),
+                provenance=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
+                description=description,
             )
-            for hbp_id, label, references, description in reader
-            if label != 'WITHDRAWN'
+            for hbp_identifier, name, references, description in reader
+            if name != 'WITHDRAWN'
         }
 
     with open(SYNONYMS_PATH) as file:
@@ -127,7 +124,7 @@ def get_obo_terms() -> List[Term]:
     with open(RELATIONS_PATH) as file:
         reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
         _ = next(reader)  # skip the header
-        for line, (source_ns, source_id, source_label, relation, target_ns, target_id, target_label) in reader:
+        for line, (source_ns, source_id, source_name, relation, target_ns, target_id, target_name) in reader:
             if relation not in {'is_a', }:
                 print(f'can not handle line {line}')
                 continue
@@ -138,7 +135,7 @@ def get_obo_terms() -> List[Term]:
 
             if relation not in terms[source_id].relationships:
                 terms[source_id].relationships[relation] = []
-            terms[source_id].relationships[relation].append(Reference(target_ns, target_id, target_label))
+            terms[source_id].relationships[relation].append(Reference(target_ns, target_id, target_name))
 
     return list(terms.values())
 
@@ -149,6 +146,7 @@ def dump_obo_terms(terms: List[Term], file: TextIO):
 
     print('format-version: 1.2', file=file)
     print(f'date: {date_str}', file=file)
+    print('auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py')
     print('', file=file)
 
     for term in terms:

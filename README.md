@@ -58,11 +58,11 @@ relations between terms in the HBP terminology:
 
 1. Source Namespace
 2. Source Identifier
-3. Source Label
+3. Source Name
 4. Relationship (e.g., ``is_a``, ``part_of``, etc.)
 5. Target Namespace
 6. Target Identifier
-7. Target Label
+7. Target Name
 
 ## Contributing
 
