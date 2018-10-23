@@ -1,11 +1,11 @@
 format-version: 1.2
-date: 23:10:2018 10:48
+date: 23:10:2018 10:49
 
 [Term]
 id: HBP:HBP00001
 name: microtubule-binding region
 def: "The motif in the MAPT protein where microtubule binding repeats" [pmid:18500754, pmid:2516729]
-synonym: "MTBR" NARROW []
+synonym: "MTBR" EXACT []
 xref: interpro:IPR001084
 
 [Term]
