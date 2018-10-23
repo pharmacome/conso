@@ -60,7 +60,9 @@ def get_terms() -> Iterable[str]:
 
             if any(source not in {'pmc', 'pmid', 'doi'} for source, reference in references_split):
                 raise Exception(
-                    f'terms.csv, line {i} : invalid reference type (note: always use lowercase pmid, pmc, etc.): {references_split}')
+                    f'terms.csv, line {i} : invalid reference type '
+                    f'(note: always use lowercase pmid, pmc, etc.): {references_split}'
+                )
 
             if '"' in line[3]:
                 raise Exception(f'terms.csv, line {i}: can not use double quote in description column')
@@ -68,13 +70,13 @@ def get_terms() -> Iterable[str]:
             yield term
 
 
-def check_cross_referenced_file(path: str, expected_size: int, terms: Set[str]):
+def check_xrefs_file(path: str, terms: Set[str]):
     with open(os.path.join(HERE, path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
-        for i, line in enumerate(reader):
-            if len(line) != expected_size:
+        for i, line in enumerate(reader, start=2):
+            if len(line) != 3:
                 raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
 
             if any(not column for column in line):
@@ -86,12 +88,58 @@ def check_cross_referenced_file(path: str, expected_size: int, terms: Set[str]):
                 raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
 
 
+ALLOWED_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
+
+
+def check_synonyms_file(path: str, terms: Set[str]):
+    with open(os.path.join(HERE, path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+
+        for i, line in enumerate(reader, start=2):
+            if len(line) != 4:
+                raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
+
+            if any(not column for column in line):
+                raise Exception(f'{path}: Missing entries on line {i}: {line}')
+
+            term = line[0]
+            if term not in terms:
+                raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
+
+            specificity = line[3]
+            if specificity not in ALLOWED_SYNONYM_TYPES:
+                raise Exception(f'{path}: Invalid specificity on line {i}: {specificity}')
+
+
+def check_relations_file(path: str, terms: Set[str]):
+    with open(os.path.join(HERE, path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+
+        for i, line in enumerate(reader, start=2):
+            if len(line) != 7:
+                raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
+
+            if any(not column for column in line):
+                raise Exception(f'{path}: Missing entries on line {i}: {line}')
+
+            source_identifier = line[1]
+            if source_identifier not in terms:
+                raise Exception(f'{path}: Invalid source identifier on line {i}: {source_identifier}')
+
+            target_identifier = line[5]
+            if target_identifier not in terms:
+                raise Exception(f'{path}: Invalid target identifier on line {i}: {target_identifier}')
+
+
 def main():
     """Run the check on the terms, synonyms, and xrefs."""
     terms = set(get_terms())
 
-    check_cross_referenced_file('synonyms.tsv', 3, terms)
-    check_cross_referenced_file('xrefs.tsv', 3, terms)
+    check_synonyms_file('synonyms.tsv', terms)
+    check_xrefs_file('xrefs.tsv', terms)
+    check_relations_file('relations.tsv', terms)
 
     sys.exit(0)
 

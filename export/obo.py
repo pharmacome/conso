@@ -107,13 +107,16 @@ def get_obo_terms() -> List[Term]:
     with open(SYNONYMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        for hbp_id, synonym, references in reader:
+        for hbp_id, synonym, references, specificity in reader:
             references = (
                 [r.strip() for r in references.split(',')]
                 if references and references != '?' else
                 []
             )
-            terms[hbp_id].synonyms.append(Synonym(synonym, 'EXACT', references))
+            specificity = (
+                'EXACT' if specificity == '?' else specificity
+            )
+            terms[hbp_id].synonyms.append(Synonym(synonym, specificity, references))
 
     with open(XREFS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
