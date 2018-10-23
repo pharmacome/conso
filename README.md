@@ -23,22 +23,24 @@ relevant to neurodegenerative disease.
 
 ### terms.tsv
 
-This tab-separated values file contains 4 columns describing 
+This tab-separated values file contains four columns describing 
 entities in the HBP terminology:
 
 1. Identifier
 2. Label
-3. References (comma separated)
-4. Description
+3. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
+4. Description (no double quote characters allowed)
 
 ### synonyms.tsv
 
-This tab-separated values contains two columns describing synonyms
+This tab-separated values contains four columns describing synonyms
 for terms in the HBP terminology:
 
 1. Identifier
 2. Synonym
-3. References (comma separated)
+3. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
+4. Specificity (one of ``EXACT``, ``BROAD``, ``NARROW``, or ``RELATED``. 
+   See: https://owlcollab.github.io/oboformat/doc/GO.format.obo-1_4.html)
 
 ### xrefs.tsv
 
@@ -46,17 +48,21 @@ This tab-separated values file contains three columns describing
 other databases that have listed this equivalent entity:
 
 1. HBP Identifier
-2. Database
+2. Database (preferred using identifiers.org)
 3. Identifier
 
 ### relations.tsv
 
-This tab-separated values file contains three columns describing
+This tab-separated values file describes
 relations between terms in the HBP terminology:
 
-1. Source term HBP Identifier
-2. Relationship
-3. Target term HBP Identifier
+1. Source Namespace
+2. Source Identifier
+3. Source Label
+4. Relationship (e.g., ``is_a``, ``part_of``, etc.)
+5. Target Namespace
+6. Target Identifier
+7. Target Label
 
 ## Contributing
 
