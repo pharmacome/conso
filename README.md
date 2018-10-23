@@ -38,6 +38,7 @@ for terms in the HBP terminology:
 
 1. Identifier
 2. Synonym
+3. References (comma separated)
 
 ### xrefs.tsv
 
@@ -47,6 +48,15 @@ other databases that have listed this equivalent entity:
 1. HBP Identifier
 2. Database
 3. Identifier
+
+### relations.tsv
+
+This tab-separated values file contains three columns describing
+relations between terms in the HBP terminology:
+
+1. Source term HBP Identifier
+2. Relationship
+3. Target term HBP Identifier
 
 ## Contributing
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:10:2018 16:58
+date: 23:10:2018 10:26
 
 [Term]
 id: HBP:HBP00001
@@ -44,6 +44,7 @@ xref: BEL:"p(HGNC:MAPT, frag(654_685))"
 id: HBP:HBP00006
 name: Tau aggregates
 def: "Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated" [pmc:PMC2633703]
+is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00007
@@ -99,16 +100,19 @@ def: "production of amyloid" [pmid:24653673]
 id: HBP:HBP00016
 name: alpha-synuclein aggregates
 def: "alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies" [pmid:23254192]
+is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00017
 name: huntingtin aggregates
 def: "huntingtin (HTT) protein fragments aggregations" [pmid:12747895]
+is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00018
 name: amyloid-beta aggregates
 def: "aggregation of amyloid-beta fragments of the APP protein" [pmid:23484434]
+is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00019
@@ -934,4 +938,9 @@ def: "The β2 subunit can couple with non-α4 subunits, including α2, α3 and �
 id: HBP:HBP00177
 name: Abeta*56
 def: "56 kDa soluble amyloid-β (Aβ) assembly" [pmid:16541076]
+
+[Term]
+id: HBP:HBP00178
+name: protein aggregates
+def: "Aggregates of proteins or fragments of proteins" [pmc:PMC2633703, pmid:23254192, pmid:12747895, pmid:23484434]
 

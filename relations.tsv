@@ -1,0 +1,5 @@
+Source Namespace	Source Identifier	Source Name	Relation	Target Namespace	Target Identifier	Target Name
+HBP	HBP00006	Tau aggregates	is_a	HBP	HBP00178	protein aggregates
+HBP	HBP00016	alpha-synuclein aggregates	is_a	HBP	HBP00178	protein aggregates
+HBP	HBP00017	huntingtin aggregates	is_a	HBP	HBP00178	protein aggregates
+HBP	HBP00018	amyloid-beta aggregates	is_a	HBP	HBP00178	protein aggregates

@@ -15,14 +15,18 @@ HBP = 'HBP'
 TERMS_PATH = os.path.join(HERE, os.pardir, 'terms.tsv')
 SYNONYMS_PATH = os.path.join(HERE, os.pardir, 'synonyms.tsv')
 XREFS_PATH = os.path.join(HERE, os.pardir, 'xrefs.tsv')
+RELATIONS_PATH = os.path.join(HERE, os.pardir, 'relations.tsv')
 
 
 @dataclass
 class Reference:
     ns: str
     id: str
+    name: Optional[str] = None
 
     def __str__(self):
+        if self.name:
+            return f'{self.ns}:{self.id} ! {self.name}'
         return f'{self.ns}:{self.id}'
 
 
@@ -41,7 +45,7 @@ class Term:
                  name: str,
                  description: str,
                  references: List[Reference],
-                 relationships: Optional[Mapping] = None,
+                 relationships: Optional[Mapping[str, List[Reference]]] = None,
                  synonyms: Optional[List[Synonym]] = None,
                  xrefs: Optional[List[Reference]] = None
                  ) -> None:
@@ -73,9 +77,9 @@ def: "{self.description}" [{', '.join(map(str,self.references))}]
 
             obo_str += f'xref: {entry}\n'
 
-        for relationship_type, rel_entries in self.relationships.items():
-            for ref in rel_entries:
-                obo_str += '%s: %s:%s\n' % (relationship_type, ref.ns, ref.id)
+        for relationship, references in self.relationships.items():
+            for reference in references:
+                obo_str += f'{relationship}: {reference}\n'
 
         return obo_str
 
@@ -91,12 +95,11 @@ def get_obo_terms() -> List[Term]:
 
         terms = {
             hbp_id: Term(
-                term_id=Reference(HBP, hbp_id),
+                term_id=Reference(HBP, hbp_id, label),
                 name=label,
                 references=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
                 description=description
             )
-
             for hbp_id, label, references, description in reader
             if label != 'WITHDRAWN'
         }
@@ -117,6 +120,22 @@ def get_obo_terms() -> List[Term]:
         _ = next(reader)  # skip the header
         for hbp_id, database, identifier in reader:
             terms[hbp_id].xrefs.append(Reference(database, identifier))
+
+    with open(RELATIONS_PATH) as file:
+        reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
+        _ = next(reader)  # skip the header
+        for line, (source_ns, source_id, source_label, relation, target_ns, target_id, target_label) in reader:
+            if relation not in {'is_a', }:
+                print(f'can not handle line {line}')
+                continue
+
+            if source_ns != HBP or target_ns != HBP:
+                print(f'can not currently handle line {line} becuase not using HBP namespace')
+                continue
+
+            if relation not in terms[source_id].relationships:
+                terms[source_id].relationships[relation] = []
+            terms[source_id].relationships[relation].append(Reference(target_ns, target_id, target_label))
 
     return list(terms.values())
 
