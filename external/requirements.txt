@@ -1,16 +1,17 @@
+bio2bel
 bio2bel_chebi
 bio2bel_drugbank
 bio2bel_entrez
 bio2bel_expasy
--e git+https://github.com/bio2bel/flybase.git
+-e git+https://github.com/bio2bel/flybase.git#egg=bio2bel_flybase
 bio2bel_go
 bio2bel_hgnc
 bio2bel_interpro
 bio2bel_kegg
--e git+https://github.com/bio2bel/mesh.git
--e git+https://github.com/bio2bel/mgi.git
+-e git+https://github.com/bio2bel/mesh.git#egg=bio2bel_mesh
+-e git+https://github.com/bio2bel/mgi.git#egg=bio2bel_mgi
 bio2bel_mirbase
 bio2bel_pfam
--e git+https://github.com/bio2bel/rgd.git
+-e git+https://github.com/bio2bel/rgd.git#egg=bio2bel_rgd
 bio2bel_uniprot
 bio2bel_wikipathways
