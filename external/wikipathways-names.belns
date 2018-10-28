@@ -1,0 +1,458 @@
+[Namespace]
+Keyword=wikipathways
+NameString=WikiPathways
+VersionString=20181028
+CreatedDateTime=2018-10-28T17:55:19
+QueryValueURL=http://identifiers.org/wikipathways/
+
+[Author]
+NameString=cthoyt
+CopyrightString=Other/Proprietary
+
+[Citation]
+NameString=None
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+4-hydroxytamoxifen, Dexamethasone, and Retinoic Acids Regulation of p27 Expression|B
+ACE Inhibitor Pathway|B
+AGE/RAGE pathway|B
+AMP-activated Protein Kinase (AMPK) Signaling|B
+ATM Signaling Network in Development and Disease|B
+ATM Signaling Pathway|B
+ATR Signaling|B
+Acetylcholine Synthesis|B
+Acrylamide Biotransformation and Exposure Biomarkers|B
+Adipogenesis|B
+Aflatoxin B1 metabolism|B
+Alanine and aspartate metabolism|B
+Allograft Rejection|B
+Alpha 6 Beta 4 signaling pathway|B
+Alzheimers Disease|B
+Amino Acid metabolism|B
+Amino acid conjugation of benzoic acid|B
+Amplification and Expansion of Oncogenic Pathways as Metastatic Traits|B
+Amyotrophic lateral sclerosis (ALS)|B
+Androgen receptor signaling pathway|B
+Angiogenesis|B
+Angiopoietin Like Protein 8 Regulatory Pathway|B
+ApoE and miR-146 in inflammation and atherosclerosis|B
+Apoptosis|B
+Apoptosis Modulation and Signaling|B
+Apoptosis Modulation by HSP70|B
+Apoptosis-related network due to altered Notch3 in ovarian cancer|B
+Arachidonate Epoxygenase / Epoxide Hydrolase|B
+Arrhythmogenic Right Ventricular Cardiomyopathy|B
+Aryl Hydrocarbon Receptor|B
+Aryl Hydrocarbon Receptor Pathway|B
+Arylamine metabolism|B
+Association Between Physico-Chemical Features and Toxicity Associated Pathways|B
+B Cell Receptor Signaling Pathway|B
+BDNF-TrkB Signaling|B
+BMP Signaling Pathway in Eyelid Development|B
+BMP2-WNT4-FOXO1 Pathway in Human Primary Endometrial Stromal Cell Differentiation|B
+Benzene metabolism|B
+Benzo(a)pyrene metabolism|B
+Biogenic Amine Synthesis|B
+Biosynthesis and regeneration of tetrahydrobiopterin (BH4) and catabolism of phenylalanine, including diseases|B
+Bladder Cancer|B
+Blood Clotting Cascade|B
+Bone Morphogenic Protein (BMP) Signalling and Regulation|B
+Brain-Derived Neurotrophic Factor (BDNF) signaling pathway|B
+Breast cancer pathway|B
+Butyrate-induced histone acetylation|B
+Caffeine and Theobromine metabolism|B
+Calcium Regulation in the Cardiac Cell|B
+Caloric restriction and aging|B
+Cannabinoid receptor signaling|B
+Canonical  and Non-canonical Notch signaling|B
+Canonical and Non-Canonical TGF-B signaling|B
+Cardiac Hypertrophic Response|B
+Cardiac Progenitor Differentiation|B
+Catalytic cycle of mammalian Flavin-containing MonoOxygenases (FMOs)|B
+Cell Cycle|B
+Cell Differentiation - Index|B
+Cell Differentiation - Index expanded|B
+Cell-type Dependent Selectivity of CCK2R Signaling|B
+Chemokine signaling pathway|B
+Cholesterol Biosynthesis|B
+Chromosomal and microsatellite instability in colorectal cancer|B
+Circadian rythm related genes|B
+Cocaine metabolism|B
+Codeine and Morphine Metabolism|B
+Colchicine Metabolic Pathway|B
+Common Pathways Underlying Drug Addiction|B
+Complement Activation|B
+Complement and Coagulation Cascades|B
+Composition of Lipid Particles|B
+Constitutive Androstane Receptor Pathway|B
+Copper homeostasis|B
+Cori Cycle|B
+Corticotropin-releasing hormone signaling pathway|B
+Cytokines and Inflammatory Response|B
+Cytoplasmic Ribosomal Proteins|B
+Cytosine methylation|B
+DDX1 as a regulatory component of the Drosha microprocessor|B
+DNA Damage Response|B
+DNA Damage Response (only ATM dependent)|B
+DNA IR-Double Strand Breaks (DSBs) and cellular response via ATM|B
+DNA IR-damage and cellular response via ATR|B
+DNA Replication|B
+Degradation pathway of sphingolipids, including diseases|B
+Deregulation of Rab and Rab Effector Genes in Bladder Cancer|B
+Development and heterogeneity of the ILC family|B
+Development of pulmonary dendritic cells and macrophage subsets|B
+Diclofenac Metabolic Pathway|B
+Differentiation Pathway|B
+Differentiation of white and brown adipocyte|B
+Dopamine metabolism|B
+Dopaminergic Neurogenesis|B
+Drug Induction of Bile Acid Pathway|B
+Dual hijack model of Vif in HIV infection|B
+EBV LMP1 signaling|B
+EDA Signalling in Hair Follicle Development|B
+EGF/EGFR Signaling Pathway|B
+EMT in colorectal cancer|B
+EPO Receptor Signaling|B
+ERK Pathway in Huntington's Disease|B
+ESC Pluripotency Pathways|B
+EV release from cardiac cells and their functional effects|B
+Ebola Virus Pathway on Host|B
+Ectoderm Differentiation|B
+Effects of Nitric Oxide|B
+Eicosanoid Synthesis|B
+Electron Transport Chain|B
+Endochondral Ossification|B
+Endoderm Differentiation|B
+Endometrial cancer|B
+Endothelin Pathways|B
+Energy Metabolism|B
+ErbB Signaling Pathway|B
+Estrogen Receptor Pathway|B
+Estrogen metabolism|B
+Estrogen signaling pathway|B
+Ethanol effects on histone modifications|B
+Eukaryotic Transcription Initiation|B
+Evolocumab Mechanism|B
+Exercise-induced Circadian Regulation|B
+Extracellular vesicle-mediated signaling in recipient cells|B
+FTO Obesity Variant Mechanism|B
+Factors and pathways affecting insulin-like growth factor (IGF1)-Akt signaling|B
+Farnesoid X Receptor  Pathway|B
+Fas Ligand (FasL) pathway and Stress induction of Heat Shock Proteins (HSP) regulation|B
+Fatty Acid Beta Oxidation|B
+Fatty Acid Biosynthesis|B
+Fatty Acid Omega Oxidation|B
+Felbamate Metabolism|B
+Fibrin Complement Receptor 3 Signaling Pathway|B
+Fluoropyrimidine Activity|B
+Focal Adhesion|B
+Focal Adhesion-PI3K-Akt-mTOR-signaling pathway|B
+Folate Metabolism|B
+Folate-Alcohol and Cancer Pathway Hypotheses|B
+Follicle Stimulating Hormone (FSH) signaling pathway|B
+G Protein Signaling Pathways|B
+G1 to S cell cycle control|B
+G13 Signaling Pathway|B
+GABA receptor Signaling|B
+GPCRs, Class A Rhodopsin-like|B
+GPCRs, Class B Secretin-like|B
+GPCRs, Class C Metabotropic glutamate, pheromone|B
+GPCRs, Other|B
+GPR40 Pathway|B
+Ganglio Sphingolipid Metabolism|B
+Gastric Cancer Network 1|B
+Gastric Cancer Network 2|B
+Gastric acid production|B
+Gene regulatory network modelling somitogenesis|B
+Glial Cell Differentiation|B
+Globo Sphingolipid Metabolism|B
+Glucocorticoid and Mineralcorticoid Metabolism|B
+Glucose Homeostasis|B
+Glucuronidation|B
+Glutathione metabolism|B
+Glycerophospholipid Biosynthetic Pathway|B
+Glycogen Metabolism|B
+Glycolysis and Gluconeogenesis|B
+Gut-Liver Indole Metabolism|B
+H19 action Rb-E2F1 signaling and CDK-β-catenin activity|B
+HIF1A and PPARG regulation of glycolysis|B
+Hair Follicle Development: Cytodifferentiation (Part 3 of 3)|B
+Heart Development|B
+Hedgehog Signaling Pathway|B
+Hematopoietic Stem Cell Differentiation|B
+Hematopoietic Stem Cell Gene Regulation by GABP alpha/beta Complex|B
+Heme Biosynthesis|B
+Hepatitis C and Hepatocellular Carcinoma|B
+Hereditary leiomyomatosis and renal cell carcinoma pathway|B
+Heroin metabolism|B
+Hfe effect on hepcidin production|B
+Histone Modifications|B
+Homologous recombination|B
+Hormonal control of Pubertal Growth Spurt|B
+Human Complement System|B
+Human Thyroid Stimulating Hormone (TSH) signaling pathway|B
+Hypertrophy Model|B
+Hypothesized Pathways in Pathogenesis of Cardiovascular Disease|B
+Hypothetical Craniofacial Development Pathway|B
+Hypoxia-mediated EMT and Stemness|B
+ID signaling pathway|B
+IL-1 signaling pathway|B
+IL-2 Signaling Pathway|B
+IL-3 Signaling Pathway|B
+IL-4 Signaling Pathway|B
+IL-5 Signaling Pathway|B
+IL-6 signaling pathway|B
+IL-7 Signaling Pathway|B
+IL-9 Signaling Pathway|B
+IL1 and megakaryocytes in obesity|B
+IL17 signaling pathway|B
+Imatinib and Chronic Myeloid Leukemia|B
+Inflammatory Response Pathway|B
+Influenza A virus infection|B
+Initiation of transcription and translation elongation at the HIV-1 LTR|B
+Insulin Signaling|B
+Insulin signalling in human adipocytes (diabetic condition)|B
+Insulin signalling in human adipocytes (normal condition)|B
+Integrated Breast Cancer Pathway|B
+Integrated Cancer Pathway|B
+Integrin-mediated Cell Adhesion|B
+Interactome of polycomb repressive complex 2 (PRC2)|B
+Interferon type I signaling pathways|B
+Interleukin-1 Induced Activation of NF-kappa-B|B
+Interleukin-11 Signaling Pathway|B
+Irinotecan Pathway|B
+Iron metabolism in placenta|B
+Kennedy pathway from Sphingolipids|B
+Kit receptor signaling pathway|B
+Leptin Insulin Overlap|B
+Leptin and adiponectin|B
+Leptin signaling pathway|B
+Lidocaine metabolism|B
+Lipid Metabolism Pathway|B
+Liver X Receptor Pathway|B
+LncRNA involvement in canonical Wnt signaling and colorectal cancer|B
+LncRNA-mediated mechanisms of therapeutic resistance|B
+Lung fibrosis|B
+MAPK  and NFkB Signalling Pathways Inhibited by Yersinia YopJ|B
+MAPK Cascade|B
+MAPK Signaling Pathway|B
+MECP2 and Associated Rett Syndrome|B
+MET in type 1 papillary renal cell carcinoma|B
+MFAP5-mediated ovarian cancer cell motility and invasiveness|B
+Macrophage markers|B
+Matrix Metalloproteinases|B
+Melatonin metabolism and effects|B
+Mesodermal Commitment Pathway|B
+Metabolism of Spingolipids in ER and Golgi apparatus|B
+Metabolism of Tetrahydrocannabinol (THC)|B
+Metapathway biotransformation Phase I and II|B
+Metastatic brain tumor|B
+Methionine De Novo and Salvage Pathway|B
+Methylation Pathways|B
+Mevalonate pathway|B
+MicroRNAs in cardiomyocyte hypertrophy|B
+Microglia Pathogen Phagocytosis Pathway|B
+Mismatch repair|B
+Mitochondrial Gene Expression|B
+Mitochondrial LC-Fatty Acid Beta-Oxidation|B
+Monoamine GPCRs|B
+Monoamine Transport|B
+Myometrial Relaxation and Contraction Pathways|B
+NAD Biosynthesis II (from tryptophan)|B
+NAD metabolism, sirtuins and aging|B
+NAD+ biosynthetic pathways|B
+NAD+ metabolism|B
+NLR Proteins|B
+NO/cGMP/PKG mediated Neuroprotection|B
+NOTCH1 regulation of human endothelial cell calcification|B
+NRF2 pathway|B
+Nanomaterial induced apoptosis|B
+Nanoparticle triggered autophagic cell death|B
+Nanoparticle triggered regulated necrosis|B
+Nanoparticle-mediated activation of receptor signaling|B
+Neural Crest Differentiation|B
+Neurotransmitter Disorders|B
+Nicotine Activity on Chromaffin Cells|B
+Nicotine Activity on Dopaminergic Neurons|B
+Nicotine Metabolism|B
+Non-homologous end joining|B
+Non-small cell lung cancer|B
+Notch Signaling Pathway|B
+Nuclear Receptors|B
+Nuclear Receptors in Lipid Metabolism and Toxicity|B
+Nucleotide GPCRs|B
+Nucleotide Metabolism|B
+Nucleotide-binding Oligomerization Domain (NOD) pathway|B
+Oncostatin M Signaling Pathway|B
+One Carbon Metabolism|B
+One carbon donor|B
+One carbon metabolism and related pathways|B
+Osteoblast Signaling|B
+Osteoclast Signaling|B
+Osteopontin Signaling|B
+Ovarian Infertility Genes|B
+Overview of nanoparticle effects|B
+Oxidation by Cytochrome P450|B
+Oxidative Damage|B
+Oxidative Stress|B
+Oxidative phosphorylation|B
+Oxytocin signaling|B
+PDGF Pathway|B
+PDGFR-beta pathway|B
+PI3K-AKT-mTOR signaling pathway and therapeutic opportunities|B
+PI3K-Akt Signaling Pathway|B
+PI3K/AKT/mTOR - VitD3 Signalling|B
+PPAR Alpha Pathway|B
+PPAR signaling pathway|B
+PTF1A related regulatory pathway|B
+Pancreatic adenocarcinoma pathway|B
+Parkin-Ubiquitin Proteasomal System pathway|B
+Parkinsons Disease Pathway|B
+Pathogenic Escherichia coli infection|B
+Pathways Affected in Adenoid Cystic Carcinoma|B
+Pathways in clear cell renal cell carcinoma|B
+Pentose Phosphate Pathway|B
+Peptide GPCRs|B
+Peroxisomal beta-oxidation of tetracosanoyl-CoA|B
+Phase I biotransformations, non P450|B
+Phosphodiesterases in neuronal function|B
+Photodynamic therapy-induced AP-1 survival signaling.|B
+Photodynamic therapy-induced HIF-1 survival signaling|B
+Photodynamic therapy-induced NF-kB survival signaling|B
+Photodynamic therapy-induced NFE2L2 (NRF2) survival signaling|B
+Photodynamic therapy-induced unfolded protein response|B
+Physiological and Pathological Hypertrophy  of the Heart|B
+Polyol Pathway|B
+Prader-Willi and Angelman Syndrome|B
+Pregnane X Receptor pathway|B
+Preimplantation Embryo|B
+Primary Focal Segmental Glomerulosclerosis FSGS|B
+Prion disease pathway|B
+Prolactin Signaling Pathway|B
+Proprotein convertase subtilisin/kexin type 9 (PCSK9) mediated LDL receptor degradation|B
+Prostaglandin Synthesis and Regulation|B
+Proteasome Degradation|B
+Purine metabolism|B
+Pyrimidine metabolism|B
+RAC1/PAK1/p38/MMP2 Pathway|B
+RANKL/RANK (Receptor activator of NFKB (ligand)) Signaling Pathway|B
+RIG-I-like Receptor Signaling|B
+RNA interference|B
+RalA downstream regulated genes|B
+Ras Signaling|B
+Regulation of Actin Cytoskeleton|B
+Regulation of Apoptosis by Parathyroid Hormone-related Protein|B
+Regulation of Microtubule Cytoskeleton|B
+Regulation of Wnt/B-catenin Signaling by Small Molecule Compounds|B
+Regulation of sister chromatid separation at the metaphase-anaphase transition|B
+Regulation of toll-like receptor signaling pathway|B
+Retinoblastoma (RB) in Cancer|B
+Robo4 and VEGF Signaling Pathways Crosstalk|B
+Role of Osx and miRNAs in tooth development|B
+SCFA and skeletal muscle substrate metabolism|B
+SREBF and miR33 in cholesterol and lipid homeostasis|B
+SRF and miRs in Smooth Muscle Differentiation and Proliferation|B
+Secretion of Hydrochloric Acid in Parietal Cells|B
+Selenium Metabolism and Selenoproteins|B
+Selenium Micronutrient Network|B
+Senescence and Autophagy in Cancer|B
+Serotonin Receptor 2 and ELK-SRF/GATA4 signaling|B
+Serotonin Receptor 2 and STAT3 Signaling|B
+Serotonin Receptor 4/6/7 and NR3C Signaling|B
+Serotonin Transporter Activity|B
+Serotonin and anxiety|B
+Serotonin and anxiety-related events|B
+Signal Transduction of S1P Receptor|B
+Signaling Pathways in Glioblastoma|B
+Signaling of Hepatocyte Growth Factor Receptor|B
+Simplified Depiction of MYD88 Distinct Input-Output Pathway|B
+Simplified Interaction Map Between LOXL4 and Oxidative Stress Pathway|B
+Small Ligand GPCRs|B
+Somatroph axis (GH) and its relationship to dietary restriction and aging|B
+Sphingolipid Metabolism|B
+Spinal Cord Injury|B
+Splicing factor NOVA regulated synaptic proteins|B
+Statin Pathway|B
+Steroid Biosynthesis|B
+Sterol Regulatory Element-Binding Proteins (SREBP) signalling|B
+Striated Muscle Contraction|B
+Structural Pathway of Interleukin 1 (IL-1)|B
+Sudden Infant Death Syndrome (SIDS) Susceptibility Pathways|B
+Sulfation Biotransformation Reaction|B
+Sulindac Metabolic Pathway|B
+Synaptic Vesicle Pathway|B
+Synthesis and Degradation of Ketone Bodies|B
+T-Cell Receptor and Co-stimulatory Signaling|B
+T-Cell antigen Receptor (TCR)  Signaling Pathway|B
+T-Cell antigen Receptor (TCR) pathway during Staphylococcus aureus infection|B
+TCA Cycle|B
+TCA Cycle Nutrient Utilization and Invasiveness of Ovarian Cancer|B
+TCA Cycle and Deficiency of Pyruvate Dehydrogenase complex (PDHc)|B
+TFs Regulate miRNAs related to cardiac hypertrophy|B
+TGF-B Signaling in Thyroid Cells for Epithelial-Mesenchymal Transition|B
+TGF-beta Receptor Signaling|B
+TGF-beta Signaling Pathway|B
+TLR4 Signaling and Tolerance|B
+TNF alpha Signaling Pathway|B
+TNF related weak inducer of apoptosis (TWEAK) Signaling Pathway|B
+TP53 Network|B
+TYROBP Causal Network|B
+Tamoxifen metabolism|B
+TarBasePathway|B
+Target Of Rapamycin (TOR) Signaling|B
+Tgif disruption of Shh signaling|B
+The human immune response to tuberculosis|B
+Thymic Stromal LymphoPoietin (TSLP) Signaling Pathway|B
+Thyroxine (Thyroid Hormone) Production|B
+Toll-like Receptor Signaling|B
+Toll-like Receptor Signaling Pathway|B
+Trans-sulfuration and one carbon metabolism|B
+Trans-sulfuration pathway|B
+Transcription factor regulation in adipogenesis|B
+Transcriptional activation by NRF2|B
+Transcriptional cascade regulating adipogenesis|B
+Translation Factors|B
+Triacylglyceride Synthesis|B
+Tryptophan catabolism leading to NAD+ production|B
+Tryptophan metabolism|B
+Tumor suppressor activity of SMARCB1|B
+Type 2 papillary renal cell carcinoma|B
+Type II diabetes mellitus|B
+Type II interferon signaling (IFNG)|B
+Type III interferon signaling|B
+Ultraconserved region 339 modulation of tumor suppressor microRNAs in cancer|B
+Urea cycle and metabolism of amino groups|B
+VEGFA-VEGFR2 Signaling Pathway|B
+Valproic acid pathway|B
+Vitamin A and Carotenoid Metabolism|B
+Vitamin B12 Metabolism|B
+Vitamin B6-dependent and responsive disorders|B
+Vitamin D Metabolism|B
+Vitamin D Receptor Pathway|B
+White fat cell differentiation|B
+Wnt Signaling Pathway|B
+Wnt Signaling Pathway and Pluripotency|B
+Wnt Signaling in Kidney Disease|B
+Wnt/beta-catenin Signaling Pathway in Leukemia|B
+Zinc homeostasis|B
+eIF5A regulation in response to inhibition of the nuclear export system|B
+mRNA Processing|B
+miR-148a/miR-31/FIH1/HIF1α-Notch signaling in glioblastoma|B
+miR-222 in Exercise-Induced Cardiac Growth|B
+miR-509-3p alteration of YAP1/ECM axis|B
+miR-517 relationship with ARCN1 and USP1|B
+miRNA Biogenesis|B
+miRNA Regulation of DNA Damage Response|B
+miRNA regulation of p53 pathway in prostate cancer|B
+miRNA regulation of prostate cancer signaling pathways|B
+miRNA targets in ECM and membrane receptors|B
+miRNAs involved in DNA damage response|B
+miRs in Muscle Cell Differentiation|B
+mir-124 predicted interactions with cell cycle and differentiation|B
+mir34a and TGIF2 in osteoclastogenesis|B
+p38 MAPK Signaling Pathway|B
