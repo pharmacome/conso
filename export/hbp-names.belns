@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181023
-CreatedDateTime=2018-10-23T11:10:43
+VersionString=20181029
+CreatedDateTime=2018-10-29T10:43:49
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -29,6 +29,7 @@ AP-2 complex|ABCGMOPR
 APOE e4|ABCGMOPR
 APP C-terminally truncated carboxyl-terminal fragments|ABCGMOPR
 APP processing|ABCGMOPR
+APP, ACR|ABCGMOPR
 APP695|ABCGMOPR
 APP751|ABCGMOPR
 APP770|ABCGMOPR
@@ -37,13 +38,16 @@ Alpha-synuclein Oligomerization|ABCGMOPR
 Alz50|ABCGMOPR
 Amylin Antagonist AC253|ABCGMOPR
 Argyrophilic Grain Disease|ABCGMOPR
+Astrogliosis|ABCGMOPR
 AβOs|ABCGMOPR
 Bacterial invasion|ABCGMOPR
 C31|ABCGMOPR
 C99|ABCGMOPR
 CAG repeats|ABCGMOPR
 CDK5R1 p25|ABCGMOPR
+CK1 superfamily|ABCGMOPR
 CLR01|ABCGMOPR
+CRL4 complex|ABCGMOPR
 Chronic cerebral hypoperfusion|ABCGMOPR
 Corticobasal Degeneration|ABCGMOPR
 D6S253|ABCGMOPR
@@ -58,6 +62,7 @@ GA-AGE|ABCGMOPR
 GAL80TS|ABCGMOPR
 GDNF Family|ABCGMOPR
 GRB10,BPS domain|ABCGMOPR
+GVD bodies|ABCGMOPR
 Gastrointestinal dysfunctions|ABCGMOPR
 Glutamate excitotoxicity|ABCGMOPR
 Hyperamylinemia|ABCGMOPR
@@ -69,6 +74,7 @@ LPLI|ABCGMOPR
 LY293002|ABCGMOPR
 MLS000034832|ABCGMOPR
 MTHFR,TT+AA|ABCGMOPR
+Microgliosis|ABCGMOPR
 Mitochondrial pathway|ABCGMOPR
 Mori Fructus ethanol extract|ABCGMOPR
 Motor Neurons|ABCGMOPR
@@ -115,7 +121,9 @@ Ventral Tegmental Area|ABCGMOPR
 YENPTY endocytosis motif (APP)|ABCGMOPR
 aMCI|ABCGMOPR
 abf-2|ABCGMOPR
+advanced glycation end product|ABCGMOPR
 alpha-4 beta-2 nAChR|ABCGMOPR
+alpha-6-containing nAChR|ABCGMOPR
 alpha-7 beta-2 nAChR|ABCGMOPR
 alpha-synuclein aggregates|ABCGMOPR
 alpha-synuclein fibrils|ABCGMOPR
@@ -128,6 +136,7 @@ amyloid-beta derived diffusible ligands|ABCGMOPR
 amyloid-beta fibrils|ABCGMOPR
 amyloid-beta oligomers|ABCGMOPR
 amyloidogenesis|ABCGMOPR
+assembly domain|ABCGMOPR
 beta-2-containing nAChR|ABCGMOPR
 caprospinol|ABCGMOPR
 ced-9|ABCGMOPR
@@ -135,6 +144,7 @@ cleaved PINK1|ABCGMOPR
 clec-4|ABCGMOPR
 clec-65|ABCGMOPR
 common fragile site|ABCGMOPR
+cystein-dependent auto-acetylation|ABCGMOPR
 dense core plaques|ABCGMOPR
 dopamine homeostasis|ABCGMOPR
 exotoxin A|ABCGMOPR
@@ -153,6 +163,7 @@ hydrophobic pocket of actin|ABCGMOPR
 hyperphosphorylation|ABCGMOPR
 hyposmia|ABCGMOPR
 lgg-1|ABCGMOPR
+long-term potentiation|ABCGMOPR
 lys-2|ABCGMOPR
 mdMCI|ABCGMOPR
 mevalonate pathway|ABCGMOPR
@@ -177,19 +188,24 @@ olfactory epithelium|ABCGMOPR
 oxidative protein folding|ABCGMOPR
 p83|ABCGMOPR
 paired helical filaments|ABCGMOPR
+phosphatase-activating domain|ABCGMOPR
 pof14|ABCGMOPR
 polyamination|ABCGMOPR
 prefibrillar α-synuclein oligomers|ABCGMOPR
 pretangles|ABCGMOPR
 projection domain|ABCGMOPR
 proline-rich domain|ABCGMOPR
+proline-rich region 1|ABCGMOPR
+proline-rich region 2|ABCGMOPR
 protein aggregates|ABCGMOPR
 proteotoxicity|ABCGMOPR
 sAPP-alpha|ABCGMOPR
 sAPP-beta|ABCGMOPR
+sAPP-gamma|ABCGMOPR
 skn-1|ABCGMOPR
 ss20399075|ABCGMOPR
 straight filaments|ABCGMOPR
+tubulin detyrosination|ABCGMOPR
 tubulin-binding repeat 1|ABCGMOPR
 tubulin-binding repeat 2|ABCGMOPR
 tubulin-binding repeat 3|ABCGMOPR

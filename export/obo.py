@@ -146,7 +146,7 @@ def dump_obo_terms(terms: List[Term], file: TextIO):
 
     print('format-version: 1.2', file=file)
     print(f'date: {date_str}', file=file)
-    print('auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py')
+    print('auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py', file=file)
     print('', file=file)
 
     for term in terms:

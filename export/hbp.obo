@@ -1,5 +1,6 @@
 format-version: 1.2
-date: 23:10:2018 11:10
+date: 29:10:2018 10:43
+auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
 id: HBP:HBP00001
@@ -944,4 +945,84 @@ id: HBP:HBP00178
 name: protein aggregates
 def: "Aggregates of proteins or fragments of proteins" [pmc:PMC2633703, pmid:23254192, pmid:12747895, pmid:23484434]
 xref: sbo:SBO:0000543
+
+[Term]
+id: HBP:HBP00179
+name: sAPP-gamma
+def: "results from the cleavage of beta APP by gamma-secretase" [pmid:12105112]
+
+[Term]
+id: HBP:HBP00180
+name: alpha-6-containing nAChR
+def: "alpha6-containing receptors, which in brain occur as heteropentamers with beta2 and beta3 and are especially enriched in presynaptic nerve terminals in striatum (Champtiaux et al.,2002)" [pmid:28445721, pmid:19498417]
+
+[Term]
+id: HBP:HBP00181
+name: phosphatase-activating domain
+def: "Tau domain located in the N-terminal region encompassing residues 2-18. It activates phosphatase PP1 which dephosphorylates Ser9 in GSK3Beta and leads to its activation. In normal tau, both NTD and CTD are folded back in proximity to each other forming a 'paper-clip' conformation, which masks the PAD. Phosphorylation in the AT8 epitope, disrupts this normal conformational state, exposing the PAD by moving away the terminal domains." [pmid:26671985, pmid:28413156]
+
+[Term]
+id: HBP:HBP00182
+name: cystein-dependent auto-acetylation
+def: "Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines." [pmid:28002468, pmid:27383765]
+
+[Term]
+id: HBP:HBP00183
+name: GVD bodies
+def: "Pathological hallmarks of Alzheimer Disease, consisting in intraneuronal accumulations of large membrane-bound vacuoles. Associated with the late stages of disease progression, they were also shown to be immunopositive or GSK3Beta and SYK (Spleen Tyrosine Kinase)." [pmid:26501932]
+
+[Term]
+id: HBP:HBP00184
+name: advanced glycation end product
+def: "Advanced glycation end products (AGEs) are the production of Maillard reaction between carbohydrates and proteins. They cause neurotoxicity via production of ROS followed by an increase in expression of APP and amyloid beta. Recent analysis implicates them in tau phosphorylation." [pmid:28176663]
+
+[Term]
+id: HBP:HBP00185
+name: long-term potentiation
+def: "A long lasting enhancement in synaptic transmission between two neurons, most commonly studied in the synapse between the Schaffer collateral axons of the CA3 neurons and the CA1 pyramidal neurons of the hippocampus. Alongside the LTD (long-term depression) represent the two mechanisms of memory formation and storage. Impairment of this process in AD is caused by soluble oligmoeric amyloid beta." [pmid:27041503]
+
+[Term]
+id: HBP:HBP00186
+name: proline-rich region 1
+def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
+
+[Term]
+id: HBP:HBP00187
+name: proline-rich region 2
+def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
+
+[Term]
+id: HBP:HBP00188
+name: assembly domain
+def: "Tau assembly domain consists of the second part of the proline-rich region (PR2), MTBR and CTD, corresponding to residues 199-441 of the canonical tau isoform." [pmid:21757739]
+
+[Term]
+id: HBP:HBP00189
+name: CRL4 complex
+def: "Cullin-RING E3 ubiquitin ligase complex 4, consisting of CUL4(A,B), DDB1 and CRBN." [pmid:27325702]
+
+[Term]
+id: HBP:HBP00190
+name: APP, ACR
+def: "Cytosolic region of APP, responsible for interacting with E3 ubiquitin ligases among other proteins." [pmid:27325702]
+
+[Term]
+id: HBP:HBP00191
+name: tubulin detyrosination
+def: "Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus. Promoted by Tau truncation in the Gln124 residue." [pmid:25974414]
+
+[Term]
+id: HBP:HBP00192
+name: Microgliosis
+def: "An intense reaction of microglia following CNS insult, characterized by active proliferation and retracted cellular processes. In AD, accumulation of Abeta can be a possible cause of such physiological phenomenon, as microglia is seen surrounding senile plaques. Abeta interaction with microglial pattern recognition receptors (PRRs) leads to NLRP3 inflammasome activation, production of toxic NOS and ROS and release of proinflammatory cytokines." [pmid:29121589]
+
+[Term]
+id: HBP:HBP00193
+name: Astrogliosis
+def: "Morphological and functional changes observed in astrocytes in the context of their physiological response to CNS trauma or injury caused by ischemia, stroke, autoimmune disorders and neurodegeneration." [pmid:29121589]
+
+[Term]
+id: HBP:HBP00194
+name: CK1 superfamily
+def: "The CK1 group of eukaryotic protein kinases are composed of seven CK1 isoforms (CK1α, CK1α2, CK1δ, CK1ε, CK1γ1, CK1γ2, and CK1γ3), two Tau–tubulin kinase isoforms (TTBK1 and TTBK2), and three VRK isoforms (VRK1, VRK2, and VRK3)" [pmid:25673844]
 
