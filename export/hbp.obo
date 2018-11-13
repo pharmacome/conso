@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:10:2018 10:43
+date: 13:11:2018 09:52
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -1025,4 +1025,474 @@ def: "Morphological and functional changes observed in astrocytes in the context
 id: HBP:HBP00194
 name: CK1 superfamily
 def: "The CK1 group of eukaryotic protein kinases are composed of seven CK1 isoforms (CK1α, CK1α2, CK1δ, CK1ε, CK1γ1, CK1γ2, and CK1γ3), two Tau–tubulin kinase isoforms (TTBK1 and TTBK2), and three VRK isoforms (VRK1, VRK2, and VRK3)" [pmid:25673844]
+
+[Term]
+id: HBP:HBP00195
+name: alpha-4-containing nAChR
+def: "nAChRs that bind radiolabeled nicotine with the highest afﬁnity contain a4 subunits (a4*-nAChR)" [pmid:21787755]
+
+[Term]
+id: HBP:HBP00196
+name: alpha-4 beta-4 nAChR
+def: "a4 subunits can also assemble with b4 subunits to form a4b4-nAChRs that have comparably high nicotine afﬁnity" [pmid:21787755]
+
+[Term]
+id: HBP:HBP00197
+name: alpha-7-containing nAChR
+def: "Another prominent nAChR subtype found in vertebrate central and autonomic nervous systems contains a7 subunits." [pmid:21787755]
+
+[Term]
+id: HBP:HBP00198
+name: alpha-Bungarotoxin 
+def: "Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake)." [pmid:21787755]
+
+[Term]
+id: HBP:HBP00199
+name: alpha-3 beta-2 nAChR
+def: "nAChRs containing the a3b2 subunit interface" [pmid:21787755]
+
+[Term]
+id: HBP:HBP00200
+name: kappa-Bungarotoxin
+def: "kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)" [pmid:21787755, pmid:3359187]
+
+[Term]
+id: HBP:HBP00201
+name: VU10010
+def: "highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233, pmid:18059262]
+
+[Term]
+id: HBP:HBP00202
+name: VU0456940
+def: "M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one" [pmid:24511233]
+
+[Term]
+id: HBP:HBP00203
+name: VU0152099
+def: "selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233]
+
+[Term]
+id: HBP:HBP00204
+name: VU0029767
+def: "selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" [pmid:24590577]
+
+[Term]
+id: HBP:HBP00205
+name: VU0090157
+def: "selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" [pmid:24590577]
+
+[Term]
+id: HBP:HBP00206
+name: VU0184670
+def: "M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" [pmid:24590577]
+
+[Term]
+id: HBP:HBP00207
+name: 2-Bromohexadecanoic acid
+def: "Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death." [pmid:18096814]
+
+[Term]
+id: HBP:HBP00208
+name: 20 S Proteasome
+def: "The catalytic core of the 26 S proteasome system, responsible for tau degradation" [pmid:17954934, pmid:19145068]
+
+[Term]
+id: HBP:HBP00209
+name: 3-3 dityrosine cross-linking
+def: "An oxidation product consisting of covalent ortho-ortho coupling between two tyrosine residues formed as a conseguence to UV irradiation, gamma-irradiation, aging, exposure to oxygen free radicals, nitrogen dioxide, peroxynitrite, and lipid hydroperoxides.  ROS catalyzed by Cu ions are involved in the generation of these cross-links in amyloid beta oligomers to which they provide stability. Also involved in the stabilization of tau PHF. A potential biomarker of oxidative stress in AD." [pmid:16566606, pmid: 24351276]
+
+[Term]
+id: HBP:HBP00210
+name: Braak_Stage I
+def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping." [pmid:28176663, pmid:7566337]
+
+[Term]
+id: HBP:HBP00211
+name: Braak_Stage II
+def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping." [pmid:28176663, pmid:7566337]
+
+[Term]
+id: HBP:HBP00212
+name: Braak_Stage III
+def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage III is characterised by the destruction of the external principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads." [pmid:7566337]
+
+[Term]
+id: HBP:HBP00213
+name: Braak_Stage IV
+def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage IV is characterised by the destruction of the internal principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads. The destruction of entorhinal cellular layers interferes with the normal transfer of information between neocortex and hippocampus, manifesting as cognitive impairment and subtle personality changes." [pmid:7566337]
+
+[Term]
+id: HBP:HBP00214
+name: Braak_Stage V
+def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD." [pmid:28176663, pmid:7566337]
+
+[Term]
+id: HBP:HBP00215
+name: Braak_Stage VI
+def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD." [pmid:7566337]
+
+[Term]
+id: HBP:HBP00216
+name: CagA peptide
+def: "A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation" [pmid:23666762, pmid:19966800]
+
+[Term]
+id: HBP:HBP00217
+name: MARK4 isoform 2 (688 aa)
+def: "Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation." [pmid:16973293]
+
+[Term]
+id: HBP:HBP00218
+name: NP_001387.2:p.Arg205del
+def: "Loss of function mutant of DYRK1A isoform 1" [pmid:28167836]
+
+[Term]
+id: HBP:HBP00219
+name: NP_001387.2:p.Glu239del
+def: "Loss of function mutant of DYRK1A isoform 1" [pmid:28167837]
+
+[Term]
+id: HBP:HBP00220
+name: PrP106-126
+def: "Prion protein fragment 106-126. This peptide increases membrane microviscosity, intracellular Ca2+ concentration and cell migration in circulating leucocytes, and oxygen production in monocytes and neutrophils. It also induces apoptotic cell death and impairment of L-type voltage-sensitive calcium channel activity in the GH3 cell lines. PrP (106–126) stimulates leucocyte migration in a dose-dependent manner. Inhibits tau phosphorylaton at Ser262. Seq = KTNMKHMAGAAAAGAVVGGLG" [pmid:22692785]
+
+[Term]
+id: HBP:HBP00221
+name: Purkinje cell layer of cerebellar cortex
+def: "The Purkinje cell layer lies just underneath the molecular layer of the cerebellar cortex. It contains the neuronal cell bodies of the Purkinje cells that are arranged side by side in a single layer. Candelabrum interneurons are vertically oriented between the Purkinje cells. Purkinje neurons are inhibitory and provide the output of the cerebellar cortex through axons that project into the white matter. Extensive dendritic trees from the Purkinje cells extend upward in a single plane into the molecular layer where they synapse with parallel fibers of granule cells." [pmid:29221819]
+
+[Term]
+id: HBP:HBP00222
+name: Tau antibody, AGG5759
+def: "Tau antibody with specificity for pSer262" [pmid:23666762]
+
+[Term]
+id: HBP:HBP00223
+name: Tau antibody, Tau-13
+def: "Tau murine monoclonal antibody with specificity for pSer262" [pmid:23666762]
+
+[Term]
+id: HBP:HBP00224
+name: Tau epitope, 12E8
+def: "Tau epitope consisting of pSer262 and pSer356" [pmid:22156579]
+
+[Term]
+id: HBP:HBP00225
+name: Tau epitope, AT180
+def: "Tau epitope consisting of pThr231" [pmid:22833681]
+
+[Term]
+id: HBP:HBP00226
+name: Tau epitope, AT8
+def: "Tau epitope consisting of pSer202, pThr205, pSer208, pSer199" [pmid:18239272]
+
+[Term]
+id: HBP:HBP00227
+name: Tau epitope, CP13
+def: "Tau epitope consisting of pSer202" [pmid:25331948]
+
+[Term]
+id: HBP:HBP00228
+name: Tau epitope, PHF1
+def: "Tau epitope consisting of pSer396, pSer404" [pmid:22156579]
+
+[Term]
+id: HBP:HBP00229
+name: dystrophic neurite
+def: "Dysfunctional axons and terminals that accumulate the β-site amyloid precursor protein (APP) cleaving enzyme (BACE1) required for Aβ generation." [pmid:28877763]
+
+[Term]
+id: HBP:HBP00230
+name: granular layer of cerebellar cortex
+def: "The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer" [pmid:29221819]
+
+[Term]
+id: HBP:HBP00231
+name: molecular layer of cerebellar cortex
+def: "The molecular layer is the outermost layer of the cerebellar cortex. It contains the parallel fibers of the granule cells, interneurons such as stellate and basket cells, and the dendrites of the underlying Purkinje cells" [pmid:29221819]
+
+[Term]
+id: HBP:HBP00232
+name: Kalirin 7
+def: "Isoform of KALRN protein" [pmid:27796283]
+
+[Term]
+id: HBP:HBP00233
+name: 4R tauopathy
+def: "Tauopathies characterized by a relatively higher presence of the 4R tau isoforms, such as Alzheimers Disease and Corticobasal Degeneration" [pmid:21427723]
+
+[Term]
+id: HBP:HBP00234
+name: ACY-1215
+def: "Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells." [pmid:24844691]
+
+[Term]
+id: HBP:HBP00235
+name: APOE e3
+def: "Interacts with tubulin binding repeat 1" [pmid:26751493]
+
+[Term]
+id: HBP:HBP00236
+name: BAY61-3606
+def: "A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity" [pmid:25331948]
+
+[Term]
+id: HBP:HBP00237
+name: Biphenyl-4-yl-acrylohydroxamoc acids
+def: "Chemical compund group acting as inhibitors of HDAC family proteins." [pmid:26890116]
+
+[Term]
+id: HBP:HBP00238
+name: Brodmann (1909) area 36
+def: "Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. With its medial boundary corresponding approximately to the rhinal sulcus it is located primarily in the fusiform gyrus. Cytoarchitecturally it is bounded laterally and caudally by the inferior temporal area 20, medially by the perirhinal area 35 and rostrally by the temporopolar area 38 (H) (Brodmann-1909). Together with Brodmann area 35, it comprises the perirhinal cortex." [pmid:23407988]
+
+[Term]
+id: HBP:HBP00239
+name: C-30-27
+def: "PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition" [pmid:25672970]
+
+[Term]
+id: HBP:HBP00240
+name: C646
+def: "Inhibitor of EP300 acetylase" [pmid:20869593]
+
+[Term]
+id: HBP:HBP00241
+name: CA1 field of hippocampus
+def: "Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals." [pmid:23407988]
+
+[Term]
+id: HBP:HBP00242
+name: CA2 field of hippocampus
+def: "Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus" [pmid:23407988]
+
+[Term]
+id: HBP:HBP00243
+name: CA3 field of hippocampus
+def: "Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers." [pmid:23407988]
+
+[Term]
+id: HBP:HBP00244
+name: CA4 field of hippocampus
+def: "The last of four regions in the cornu ammonis of the hippocampus and is also part of the hilus of the dentate gyrus. This area contains mostly mossy cells that receive inputs from the dentate gyrus and pyramidal cells in the CA3 region and also projects back to the dentate gyrus." [pmid:23407988]
+
+[Term]
+id: HBP:HBP00245
+name: CGP3466B
+def: "Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD" [pmid:29559585]
+
+[Term]
+id: HBP:HBP00246
+name: CM-414
+def: "A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity." [pmid:27550730]
+
+[Term]
+id: HBP:HBP00247
+name: DAPK, basic loop (BL) motif
+def: "A structural motif of DAPK (Death-Associated Protein Kinase) positively regulating the kinase activity." [pmid:27133022]
+
+[Term]
+id: HBP:HBP00248
+name: Histone H3
+def: "One of the five main histone proteins of chromatin structure, acetylation at Lys 9 was positively linked with the transcriptional activation of various genes involved in neuro-regeneration following peripheral axonal injury, among which BDNF." [pmid:24686445]
+
+[Term]
+id: HBP:HBP00249
+name: ID-8
+def: "Inhibitor of GSK3Beta and DYRK1 kinases" [pmid:28884684]
+
+[Term]
+id: HBP:HBP00250
+name: LDN-193594
+def: "A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation" [pmid:23737518]
+
+[Term]
+id: HBP:HBP00251
+name: LDN-193665
+def: "A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b" [pmid:23737518]
+
+[Term]
+id: HBP:HBP00252
+name: LDN-213843
+def: "Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases" [pmid:23737518]
+
+[Term]
+id: HBP:HBP00253
+name: Long-Term Depression
+def: "A gradual weakening of neuronal synaptic connections lasting hours or longer following a long patterned stimulus. Along with LTP (long term potentiation) is one of the main mechanisms of memory formation, more specifically of spatial memory. The mechanism involves an interplay of NMDA and AMPA glutamate receptors, with minimal intracellular calcium levels triggering a cellular cascade leading to the removal of the latter and an overall decrease of the glutammate receptors in the postsynaptic neurons, thus weakening the synapse." [pmid:22833681]
+
+[Term]
+id: HBP:HBP00254
+name: Pathological Tau Spreading
+def: "Pathological spreading pattern of tau into defined anatomycally interconnected brain regions during the progression of tauopathy." [pmid:29540553]
+
+[Term]
+id: HBP:HBP00255
+name: PrPSc
+def: "PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types." [pmid:22692785, pmid:29414853]
+
+[Term]
+id: HBP:HBP00256
+name: Tau Protein Secondary Structure, Turn
+def: "A turn-like structure formed in tau as a conseguence of the phosphorylation of only Ser202 and Thr205 residues, protects against aggregation." [pmid:28784767]
+
+[Term]
+id: HBP:HBP00257
+name: Tau antibody, RG7345
+def: "RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron." [pmid:26751493, pmid:10967355]
+
+[Term]
+id: HBP:HBP00258
+name: RGFP966
+def: "Selective inhibitor of HDAC3" [pmid:28771976]
+
+[Term]
+id: HBP:HBP00259
+name: SL-327
+def: "Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A" [pmid:24401760]
+
+[Term]
+id: HBP:HBP00260
+name: Spinocerebellar Ataxia 11
+def: "Spinocerebellar ataxia type 11 (SCA11) is characterized by progressive cerebellar ataxia and abnormal eye signs (jerky pursuit, horizontal and vertical nystagmus). Caused by mutations in the TTBK2 (Tau Tubulin Kinase 2) gene, is inherited in an autosomal dominant manner." [pmid:21548880]
+
+[Term]
+id: HBP:HBP00261
+name: ST7612AA1
+def: "A thiol derivative, pan-HDAC inhibitor" [pmid:27917100]
+
+[Term]
+id: HBP:HBP00262
+name: Tau antibody, AGG5759
+def: "Rabbit polyclonal antibody against tau pSer262, AstraZeneca" [pmid:23666762]
+
+[Term]
+id: HBP:HBP00263
+name: Tau epitope, AD2
+def: "Tau epitope consisting of pThr396 and pSer404" [pmid:11943212]
+
+[Term]
+id: HBP:HBP00264
+name: Tau epitope, AP422
+def: "Tau epitope consisting of pSer422" [pmid:11943212]
+
+[Term]
+id: HBP:HBP00265
+name: Tau epitope, AT100
+def: "Tau epitope consisting of pSer212 and pThr214" [pmid:22833681]
+
+[Term]
+id: HBP:HBP00266
+name: Tau epitope, AT270
+def: "Tau epitope consisting of pThr181" [pmid:11943212]
+
+[Term]
+id: HBP:HBP00267
+name: Thiamet G
+def: "Inhibitor of O-GlcNAcase (OGA)" [pmid:22833681]
+
+[Term]
+id: HBP:HBP00268
+name: Thioflavin S
+def: "Dye binding to PHF used in AD diagnostics" [pmid:7667312]
+
+[Term]
+id: HBP:HBP00269
+name: Trithiocarbonates
+def: "Chemical compound group of susbtrate competitive selective HDAC6 inhibitors" [pmid:18558669]
+
+[Term]
+id: HBP:HBP00270
+name: Tubacin
+def: "Inhibitor of HDAC6" [pmid:23487739]
+
+[Term]
+id: HBP:HBP00271
+name: Tubastatin A
+def: "Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load" [pmid:24844691]
+
+[Term]
+id: HBP:HBP00272
+name: USP14 Aptamer
+def: "Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme." [pmid:26041011]
+
+[Term]
+id: HBP:HBP00273
+name: cholinergic neuron
+def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." [pmid:29221819]
+
+[Term]
+id: HBP:HBP00274
+name: cerebral cortex
+def: "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex." [pmid:29221819]
+
+[Term]
+id: HBP:HBP00275
+name: crebinostat
+def: "Inhibitor of HDAC6" [pmid:25546293]
+
+[Term]
+id: HBP:HBP00276
+name: diaminothiazole
+def: "Compound class with kinase inhibition properties, specifically for CDK5 and GSK3Beta" [pmid:23737518]
+
+[Term]
+id: HBP:HBP00277
+name: entorhinal cortex layer 2
+def: "Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex." [pmid:27798139]
+
+[Term]
+id: HBP:HBP00278
+name: granular layer of cerebellar cortex
+def: "The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer." [pmid:29221819]
+
+[Term]
+id: HBP:HBP00279
+name: indirubin
+def: "A powerful inhibitor of GSK3B" [pmid:11013232]
+
+[Term]
+id: HBP:HBP00280
+name: isocarboxazide
+def: "Inhibitor of tau aggregation" [pmid:26751493]
+
+[Term]
+id: HBP:HBP00281
+name: isopentanyladenine
+def: "Inhibitor of CKD5 activity" [pmid:8726973]
+
+[Term]
+id: HBP:HBP00282
+name: maitotoxin
+def: "Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former" [pmid:10537045]
+
+[Term]
+id: HBP:HBP00283
+name: olomoucine
+def: "Inhibitor of CKD5 activity" [pmid:8726973]
+
+[Term]
+id: HBP:HBP00284
+name: oxazolidinedione
+def: "Inhibitor of tau aggregation" [pmid:26751493]
+
+[Term]
+id: HBP:HBP00285
+name: sudoxicam
+def: "Inhibitor of tau aggregation" [pmid:26751493]
+
+[Term]
+id: HBP:HBP00286
+name: thiohydantoin
+def: "Inhibitor of tau aggregation" [pmid:26751493]
+
+[Term]
+id: HBP:HBP00287
+name: thioxooxazolidine
+def: "Inhibitor of tau aggregation" [pmid:26751493]
+
+[Term]
+id: HBP:HBP00288
+name: tideglusib
+def: "Irreversibly inhibits GSK3B activity" [pmid:22102280]
 

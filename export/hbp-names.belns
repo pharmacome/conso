@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181029
-CreatedDateTime=2018-10-29T10:43:49
+VersionString=20181113
+CreatedDateTime=2018-11-13T09:52:13
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -19,13 +19,19 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
+2-Bromohexadecanoic acid|ABCGMOPR
+20 S Proteasome|ABCGMOPR
+3-3 dityrosine cross-linking|ABCGMOPR
 310-helix|ABCGMOPR
 3R tau|ABCGMOPR
 4R tau|ABCGMOPR
+4R tauopathy|ABCGMOPR
 A2B5 antigen|ABCGMOPR
+ACY-1215|ABCGMOPR
 AG73|ABCGMOPR
 AICD|ABCGMOPR
 AP-2 complex|ABCGMOPR
+APOE e3|ABCGMOPR
 APOE e4|ABCGMOPR
 APP C-terminally truncated carboxyl-terminal fragments|ABCGMOPR
 APP processing|ABCGMOPR
@@ -40,18 +46,37 @@ Amylin Antagonist AC253|ABCGMOPR
 Argyrophilic Grain Disease|ABCGMOPR
 Astrogliosis|ABCGMOPR
 AβOs|ABCGMOPR
+BAY61-3606|ABCGMOPR
 Bacterial invasion|ABCGMOPR
+Biphenyl-4-yl-acrylohydroxamoc acids|ABCGMOPR
+Braak_Stage I|ABCGMOPR
+Braak_Stage II|ABCGMOPR
+Braak_Stage III|ABCGMOPR
+Braak_Stage IV|ABCGMOPR
+Braak_Stage V|ABCGMOPR
+Braak_Stage VI|ABCGMOPR
+Brodmann (1909) area 36|ABCGMOPR
+C-30-27|ABCGMOPR
 C31|ABCGMOPR
+C646|ABCGMOPR
 C99|ABCGMOPR
+CA1 field of hippocampus|ABCGMOPR
+CA2 field of hippocampus|ABCGMOPR
+CA3 field of hippocampus|ABCGMOPR
+CA4 field of hippocampus|ABCGMOPR
 CAG repeats|ABCGMOPR
 CDK5R1 p25|ABCGMOPR
+CGP3466B|ABCGMOPR
 CK1 superfamily|ABCGMOPR
 CLR01|ABCGMOPR
+CM-414|ABCGMOPR
 CRL4 complex|ABCGMOPR
+CagA peptide|ABCGMOPR
 Chronic cerebral hypoperfusion|ABCGMOPR
 Corticobasal Degeneration|ABCGMOPR
 D6S253|ABCGMOPR
 D6S305|ABCGMOPR
+DAPK, basic loop (BL) motif|ABCGMOPR
 Dopaminergic cell groups|ABCGMOPR
 E1 domain|ABCGMOPR
 E2 domain|ABCGMOPR
@@ -65,13 +90,21 @@ GRB10,BPS domain|ABCGMOPR
 GVD bodies|ABCGMOPR
 Gastrointestinal dysfunctions|ABCGMOPR
 Glutamate excitotoxicity|ABCGMOPR
+Histone H3|ABCGMOPR
 Hyperamylinemia|ABCGMOPR
+ID-8|ABCGMOPR
 IκB kinase|ABCGMOPR
 Jcasp|ABCGMOPR
 KXGS motif|ABCGMOPR
+Kalirin 7|ABCGMOPR
+LDN-193594|ABCGMOPR
+LDN-193665|ABCGMOPR
+LDN-213843|ABCGMOPR
 LMW amyloid oligomers|ABCGMOPR
 LPLI|ABCGMOPR
 LY293002|ABCGMOPR
+Long-Term Depression|ABCGMOPR
+MARK4 isoform 2 (688 aa)|ABCGMOPR
 MLS000034832|ABCGMOPR
 MTHFR,TT+AA|ABCGMOPR
 Microgliosis|ABCGMOPR
@@ -80,6 +113,8 @@ Mori Fructus ethanol extract|ABCGMOPR
 Motor Neurons|ABCGMOPR
 Muscles|ABCGMOPR
 N-AcGIP|ABCGMOPR
+NP_001387.2:p.Arg205del|ABCGMOPR
+NP_001387.2:p.Glu239del|ABCGMOPR
 Neural Stem Cell|ABCGMOPR
 Neurites|ABCGMOPR
 Neurodegeneration|ABCGMOPR
@@ -94,18 +129,39 @@ PINK-1|ABCGMOPR
 PINK1-Park pathway|ABCGMOPR
 PTI-125|ABCGMOPR
 Pars Compacta|ABCGMOPR
+Pathological Tau Spreading|ABCGMOPR
+PrP106-126|ABCGMOPR
+PrPSc|ABCGMOPR
 Pro3-GIP|ABCGMOPR
+Purkinje cell layer of cerebellar cortex|ABCGMOPR
 RAC1b|ABCGMOPR
+RGFP966|ABCGMOPR
 SEN-1269|ABCGMOPR
+SL-327|ABCGMOPR
+ST7612AA1|ABCGMOPR
 Serpin-enzyme complex receptor|ABCGMOPR
+Spinocerebellar Ataxia 11|ABCGMOPR
 Syndecan Family|ABCGMOPR
 TGM2 Isoform 3 (349 aa)|ABCGMOPR
 TIM/TOM complex|ABCGMOPR
 TOC1|ABCGMOPR
 Tau C3|ABCGMOPR
 Tau MN423|ABCGMOPR
+Tau Protein Secondary Structure, Turn|ABCGMOPR
 Tau aggregates|ABCGMOPR
 Tau annular protofibrils|ABCGMOPR
+Tau antibody, AGG5759|ABCGMOPR
+Tau antibody, RG7345|ABCGMOPR
+Tau antibody, Tau-13|ABCGMOPR
+Tau epitope, 12E8|ABCGMOPR
+Tau epitope, AD2|ABCGMOPR
+Tau epitope, AP422|ABCGMOPR
+Tau epitope, AT100|ABCGMOPR
+Tau epitope, AT180|ABCGMOPR
+Tau epitope, AT270|ABCGMOPR
+Tau epitope, AT8|ABCGMOPR
+Tau epitope, CP13|ABCGMOPR
+Tau epitope, PHF1|ABCGMOPR
 Tau fibrils|ABCGMOPR
 Tau isoform A (316 aa)|ABCGMOPR
 Tau isoform B (381 aa)|ABCGMOPR
@@ -115,16 +171,33 @@ Tau isoform E (412 aa)|ABCGMOPR
 Tau isoform F (441 aa)|ABCGMOPR
 Tau isoform Fetal-tau (352 aa)|ABCGMOPR
 Tau oligomers|ABCGMOPR
+Thiamet G|ABCGMOPR
+Thioflavin S|ABCGMOPR
+Trithiocarbonates|ABCGMOPR
+Tubacin|ABCGMOPR
+Tubastatin A|ABCGMOPR
+USP14 Aptamer|ABCGMOPR
 VQIINK motif|ABCGMOPR
 VQIVYK motif|ABCGMOPR
+VU0029767|ABCGMOPR
+VU0090157|ABCGMOPR
+VU0152099|ABCGMOPR
+VU0184670|ABCGMOPR
+VU0456940|ABCGMOPR
+VU10010|ABCGMOPR
 Ventral Tegmental Area|ABCGMOPR
 YENPTY endocytosis motif (APP)|ABCGMOPR
 aMCI|ABCGMOPR
 abf-2|ABCGMOPR
 advanced glycation end product|ABCGMOPR
+alpha-3 beta-2 nAChR|ABCGMOPR
 alpha-4 beta-2 nAChR|ABCGMOPR
+alpha-4 beta-4 nAChR|ABCGMOPR
+alpha-4-containing nAChR|ABCGMOPR
 alpha-6-containing nAChR|ABCGMOPR
 alpha-7 beta-2 nAChR|ABCGMOPR
+alpha-7-containing nAChR|ABCGMOPR
+alpha-Bungarotoxin|ABCGMOPR
 alpha-synuclein aggregates|ABCGMOPR
 alpha-synuclein fibrils|ABCGMOPR
 alpha-synuclein oligomers|ABCGMOPR
@@ -140,18 +213,25 @@ assembly domain|ABCGMOPR
 beta-2-containing nAChR|ABCGMOPR
 caprospinol|ABCGMOPR
 ced-9|ABCGMOPR
+cerebral cortex|ABCGMOPR
+cholinergic neuron|ABCGMOPR
 cleaved PINK1|ABCGMOPR
 clec-4|ABCGMOPR
 clec-65|ABCGMOPR
 common fragile site|ABCGMOPR
+crebinostat|ABCGMOPR
 cystein-dependent auto-acetylation|ABCGMOPR
 dense core plaques|ABCGMOPR
+diaminothiazole|ABCGMOPR
 dopamine homeostasis|ABCGMOPR
+dystrophic neurite|ABCGMOPR
+entorhinal cortex layer 2|ABCGMOPR
 exotoxin A|ABCGMOPR
 formylation|ABCGMOPR
 gamma-secretase|ABCGMOPR
 ghost tangles|ABCGMOPR
 glycation|ABCGMOPR
+granular layer of cerebellar cortex|ABCGMOPR
 granular tau oligomers|ABCGMOPR
 granulovacuolar degeneration|ABCGMOPR
 growth factor|ABCGMOPR
@@ -162,9 +242,14 @@ huntingtin aggregates|ABCGMOPR
 hydrophobic pocket of actin|ABCGMOPR
 hyperphosphorylation|ABCGMOPR
 hyposmia|ABCGMOPR
+indirubin|ABCGMOPR
+isocarboxazide|ABCGMOPR
+isopentanyladenine|ABCGMOPR
+kappa-Bungarotoxin|ABCGMOPR
 lgg-1|ABCGMOPR
 long-term potentiation|ABCGMOPR
 lys-2|ABCGMOPR
+maitotoxin|ABCGMOPR
 mdMCI|ABCGMOPR
 mevalonate pathway|ABCGMOPR
 microtubule-binding region|ABCGMOPR
@@ -175,6 +260,7 @@ mitochondrial dysfunction|ABCGMOPR
 mitochondrial homeostasis|ABCGMOPR
 mitochondrial motility|ABCGMOPR
 mitochondrial precursor protein|ABCGMOPR
+molecular layer of cerebellar cortex|ABCGMOPR
 nasal cycle|ABCGMOPR
 neurite retraction|ABCGMOPR
 neuroinflammation|ABCGMOPR
@@ -185,6 +271,8 @@ nitration|ABCGMOPR
 non-shivering thermogenesis|ABCGMOPR
 noradrenergic neuron|ABCGMOPR
 olfactory epithelium|ABCGMOPR
+olomoucine|ABCGMOPR
+oxazolidinedione|ABCGMOPR
 oxidative protein folding|ABCGMOPR
 p83|ABCGMOPR
 paired helical filaments|ABCGMOPR
@@ -205,6 +293,10 @@ sAPP-gamma|ABCGMOPR
 skn-1|ABCGMOPR
 ss20399075|ABCGMOPR
 straight filaments|ABCGMOPR
+sudoxicam|ABCGMOPR
+thiohydantoin|ABCGMOPR
+thioxooxazolidine|ABCGMOPR
+tideglusib|ABCGMOPR
 tubulin detyrosination|ABCGMOPR
 tubulin-binding repeat 1|ABCGMOPR
 tubulin-binding repeat 2|ABCGMOPR
