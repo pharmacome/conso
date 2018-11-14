@@ -1,7 +1,10 @@
 External Namespaces
 ===================
-This directory contains namespaces generated from Bio2BEL packages.
+This directory contains namespaces generated from Bio2BEL packages. For an 
+example of how they're used, see the [BEL Template](https://github.com/pharmacome/curation/blob/master/template.bel).
 
+Updating
+--------
 1. (Optional) Install additional Bio2BEL packages. This can be quickly
    done using the included ``requirements.txt`` file:
 
