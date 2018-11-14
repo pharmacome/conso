@@ -136,12 +136,14 @@ def _check_relations_file_helper(path, reader, terms: Set[str]):
         if any(not column for column in line):
             raise Exception(f'{path}: Missing entries on line {i}: {line}')
 
+        source_namespace = line[0]
         source_identifier = line[1]
-        if source_identifier not in terms:
+        if source_namespace == 'HBP' and source_identifier not in terms:
             raise Exception(f'{path}: Invalid source identifier on line {i}: {source_identifier}')
 
+        target_namespace = line[4]
         target_identifier = line[5]
-        if target_identifier not in terms:
+        if target_namespace == 'HBP' and target_identifier not in terms:
             raise Exception(f'{path}: Invalid target identifier on line {i}: {target_identifier}')
 
 
