@@ -10,16 +10,16 @@ HBP	HBP00017	huntingtin aggregates	is_a	HBP	HBP00178	protein aggregates
 HBP	HBP00018	amyloid-beta aggregates	is_a	HBP	HBP00178	protein aggregates
 HBP	HBP00046	VQIINK motif	part_of	HBP	HBP00003	tubulin-binding repeat 2
 HBP	HBP00047	VQIVYK motif	part_of	HBP	HBP00004	tubulin-binding repeat 3
-HBP	HBP00048	ghost tangles	is_a	GO	0097418	neurofibrillary tangle
-HBP	HBP00049	pretangles	is_a	GO	0097418	neurofibrillary tangle
+HBP	HBP00048	ghost tangles	is_a	GO	GO:0097418	neurofibrillary tangle
+HBP	HBP00049	pretangles	is_a	GO	GO:0097418	neurofibrillary tangle
 HBP	HBP00053	Tau isoform F (441 aa)	is_a	HBP	HBP00045	4R tau
 HBP	HBP00055	Tau isoform B (381 aa)	is_a	HBP	HBP00044	3R tau
 HBP	HBP00056	Tau isoform D (383 aa)	is_a	HBP	HBP00045	4R tau
 HBP	HBP00057	Tau isoform C (410 aa)	is_a	HBP	HBP00044	3R tau
 HBP	HBP00058	Tau isoform E (412 aa)	is_a	HBP	HBP00045	4R tau
 HBP	HBP00099	Corticobasal Degeneration	is_a	HBP	HBP00233	4R tauopathy
-HBP	HBP00100	paired helical filaments	part_of	GO	0097418	neurofibrillary tangle
-HBP	HBP00101	straight filaments	part_of	GO	0097418	neurofibrillary tangle
+HBP	HBP00100	paired helical filaments	part_of	GO	GO:0097418	neurofibrillary tangle
+HBP	HBP00101	straight filaments	part_of	GO	GO:0097418	neurofibrillary tangle
 HBP	HBP00186	proline-rich region 1	part_of	HBP	HBP00166	proline-rich domain
 HBP	HBP00186	proline-rich region 1	part_of	HBP	HBP00050	projection domain
 HBP	HBP00187	proline-rich region 2	part_of	HBP	HBP00166	proline-rich domain
