@@ -287,12 +287,12 @@ HBP00285	sudoxicam	pmid:26751493	Inhibitor of tau aggregation
 HBP00286	thiohydantoin	pmid:26751493	Inhibitor of tau aggregation
 HBP00287	thioxooxazolidine	pmid:26751493	Inhibitor of tau aggregation
 HBP00288	tideglusib	pmid:22102280	Irreversibly inhibits GSK3B activity
-HBP00289	Tau antibody, 6C5	pmid:23202806	human monoclonal antibody that targets tau epitope 125-131
-HBP00290	Tau antibody, HT7	pmid:23202806	mouse monoclonal antibody that targets tau epitope 159-163
+HBP00289	Tau antibody, 6C5	pmid:28408124	human monoclonal antibody that targets tau epitope 125-131
+HBP00290	Tau antibody, HT7	pmid:28408124	mouse monoclonal antibody that targets tau epitope 159-163
 HBP00291	6-O-sulfated heparin	pmid:24878958	During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)
 HBP00292	2-O-sulfated heparin	pmid:24878958	During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)
 HBP00293	sonicated tau fibrils	pmid:29686391	To make sonicated fibril samples, fibrillized protein was sonicated using a MiSonix Sonicator 4000 (QSonica, LLC) at 50% amplitude for 60 1 s pulses
-HBP00294	Tau antibody, 40E8	pmid:23202806	human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)
-HBP00295	Tau antibody, pS396	pmid:23202806	rabbit polyclonal antibody that targets tau pS396
-HBP00296	Tau antibody, 4E4	pmid:23202806	human monoclonal antibody that targets tau epitope 385-395
-HBP00297	Tau antibody, Tau46	pmid:23202806	mouse monoclonal antibody that targets tau epitope 404-441
+HBP00294	Tau antibody, 40E8	pmid:28408124	human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)
+HBP00295	Tau antibody, pS396	pmid:28408124	rabbit polyclonal antibody that targets tau pS396
+HBP00296	Tau antibody, 4E4	pmid:28408124	human monoclonal antibody that targets tau epitope 385-395
+HBP00297	Tau antibody, Tau46	pmid:28408124	mouse monoclonal antibody that targets tau epitope 404-441
