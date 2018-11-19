@@ -311,3 +311,5 @@ HBP00309	S 24795	pmid:18187166, pmid:18265960, pmid:18034231	A partial agonist a
 HBP00310	GTS-21	pmid:25514383	GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent.
 HBP00311	alpha-4 alpha-5 beta-2 nAChR	pmid:19721446	nAChR subtype found in cortex, hippocampus and neostriatum
 HBP00312	alpha-3 beta-4 nAChR	pmid:19721446	nAChR subtype found in hippocampus, pineal gland and cerebellum
+HBP00313	alpha-3 beta-3 beta-4 nAChR	pmid:19721446	nAChR subtype found in habenula and interpeduncular nucleus
+HBP00314	alpha-6 beta-2 beta-3 nAChR	pmid:19721446	nAChR subtype found in locus coeruleus, substantia nigra and neostriatum
