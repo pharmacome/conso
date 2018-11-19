@@ -308,3 +308,4 @@ HBP00306	detyrosination	pmid:25974414	Detyrosination is a form of posttranslatio
 HBP00307	Tau antibody	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Antibodies for the Tau protein (HGNC:MAPT)
 HBP00308	Tau epitope	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)
 HBP00309	S 24795	pmid:18187166, pmid:18265960, pmid:18034231	A partial agonist at α7 nAChR
+HBP00310	GTS-21	pmid:25514383	GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent.
