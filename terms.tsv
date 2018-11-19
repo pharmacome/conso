@@ -307,3 +307,4 @@ HBP00305	polysumoylation	pmid:12506199	A post-translational modification consist
 HBP00306	detyrosination	pmid:25974414	Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus.
 HBP00307	Tau antibody	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Antibodies for the Tau protein (HGNC:MAPT)
 HBP00308	Tau epitope	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)
+HBP00309	S 24795	pmid:18187166, pmid:18265960, pmid:18034231	A partial agonist at α7 nAChR
