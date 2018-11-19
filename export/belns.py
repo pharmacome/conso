@@ -10,9 +10,9 @@ from pybel.resources import write_namespace
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
 
-TERMS_PATH = os.path.abspath(os.path.join(os.pardir, 'terms.tsv'))
-OUTPUT_FILE_PATH = os.path.join(HERE, 'hbp.belns')
-OUTPUT_NAME_FILE_PATH = os.path.join(HERE, 'hbp-names.belns')
+TERMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'terms.tsv'))
+OUTPUT_FILE_PATH = os.path.abspath(os.path.join(HERE, 'hbp.belns'))
+OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(HERE, 'hbp-names.belns'))
 
 
 def _get_terms() -> List[str]:
