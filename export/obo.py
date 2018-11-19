@@ -12,10 +12,15 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 HBP = 'HBP'
 
-TERMS_PATH = os.path.join(HERE, os.pardir, 'terms.tsv')
-SYNONYMS_PATH = os.path.join(HERE, os.pardir, 'synonyms.tsv')
-XREFS_PATH = os.path.join(HERE, os.pardir, 'xrefs.tsv')
-RELATIONS_PATH = os.path.join(HERE, os.pardir, 'relations.tsv')
+TERMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'terms.tsv'))
+SYNONYMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'synonyms.tsv'))
+XREFS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'xrefs.tsv'))
+RELATIONS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'relations.tsv'))
+
+INVERSE_RELATIONS = {
+    'is_a': 'inverse_is_a',
+    'part_of': 'has_part',
+}
 
 
 @dataclass
@@ -125,13 +130,17 @@ def get_obo_terms() -> List[Term]:
         reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
         _ = next(reader)  # skip the header
         for line, (source_ns, source_id, source_name, relation, target_ns, target_id, target_name) in reader:
-            if relation not in {'is_a', }:
-                print(f'can not handle line {line}')
+            if relation not in {'is_a', 'part_of'}:
+                print(f'{RELATIONS_PATH} can not handle line {line} because unhandled relation: {relation}')
                 continue
 
-            if source_ns != HBP or target_ns != HBP:
-                print(f'can not currently handle line {line} becuase not using HBP namespace')
+            if source_ns != HBP and target_ns != HBP:
+                print(f'{RELATIONS_PATH}: skipping line {line} because neither entity is from HBP')
                 continue
+
+            if source_ns != HBP:
+                relation = INVERSE_RELATIONS[relation]
+                source_ns, source_id, source_name, target_ns, target_id, target_name = target_ns, target_id, target_name, source_ns, source_id, source_name
 
             if relation not in terms[source_id].relationships:
                 terms[source_id].relationships[relation] = []
