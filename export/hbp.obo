@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:11:2018 09:52
+date: 19:11:2018 10:27
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -8,6 +8,7 @@ name: microtubule-binding region
 def: "The motif in the MAPT protein where microtubule binding repeats" [pmid:18500754, pmid:2516729]
 synonym: "MTBR" EXACT []
 xref: interpro:IPR001084
+part_of: HBP:HBP00188 ! assembly domain
 
 [Term]
 id: HBP:HBP00002
@@ -16,6 +17,7 @@ def: "position 569_591 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R1" EXACT []
 synonym: "R1" EXACT []
 xref: BEL:"p(HGNC:MAPT, frag(569_591))"
+part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00003
@@ -24,6 +26,7 @@ def: "position 592_621 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R2" EXACT []
 synonym: "R2" EXACT []
 xref: BEL:"p(HGNC:MAPT, frag(592_621))"
+part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00004
@@ -32,6 +35,7 @@ def: "position 623_653 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R3" EXACT []
 synonym: "R3" EXACT []
 xref: BEL:"p(HGNC:MAPT, frag(623_653))"
+part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00005
@@ -40,6 +44,7 @@ def: "position 654_685 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R4" EXACT []
 synonym: "R4" EXACT []
 xref: BEL:"p(HGNC:MAPT, frag(654_685))"
+part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00006
@@ -259,22 +264,26 @@ id: HBP:HBP00046
 name: VQIINK motif
 def: "A hexapeptide motif located in the R2, that promotes the formation of PHF" [pmid:17493042]
 synonym: "PHF6* " EXACT [pmid:25775228]
+part_of: HBP:HBP00003 ! tubulin-binding repeat 2
 
 [Term]
 id: HBP:HBP00047
 name: VQIVYK motif 
 def: "A hexapeptide motif located in the R3, that promotes the formation of PHF" [pmid:17493042]
 synonym: "PHF6" EXACT [pmid:25775228]
+part_of: HBP:HBP00004 ! tubulin-binding repeat 3
 
 [Term]
 id: HBP:HBP00048
 name: ghost tangles
 def: "Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity." [pmid:23407988, pmid:8431763]
+is_a: GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00049
 name: pretangles
 def: "Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles." [pmid:23407988, pmid:24612177]
+is_a: GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00050
@@ -302,6 +311,7 @@ synonym: "microtubule-associated protein tau isoform 2" EXACT []
 synonym: "2N4R" EXACT []
 synonym: "htau40" EXACT [pmid:19226187]
 xref: ncbiprotein:NP_005901
+is_a: HBP:HBP00045 ! 4R tau
 
 [Term]
 id: HBP:HBP00054
@@ -319,6 +329,7 @@ def: "Human brain tau isoform, derived from alternative splicing." [pmid:1749304
 synonym: "microtubule-associated protein tau isoform 7" EXACT []
 synonym: "1N3R" EXACT []
 xref: ncbiprotein:NP_001190180
+is_a: HBP:HBP00044 ! 3R tau
 
 [Term]
 id: HBP:HBP00056
@@ -327,6 +338,7 @@ def: "Human brain tau isoform, derived from alternative splicing." [pmid:1749304
 synonym: "microtubule-associated protein tau isoform 3" EXACT []
 synonym: "0N4R" EXACT []
 xref: ncbiprotein:NP_058518
+is_a: HBP:HBP00045 ! 4R tau
 
 [Term]
 id: HBP:HBP00057
@@ -335,6 +347,7 @@ def: "Human brain tau isoform, derived from alternative splicing." [pmid:1749304
 synonym: "microtubule-associated protein tau isoform 8" EXACT []
 synonym: "2N3R" EXACT []
 xref: ncbiprotein:NP_001190181
+is_a: HBP:HBP00044 ! 3R tau
 
 [Term]
 id: HBP:HBP00058
@@ -343,6 +356,7 @@ def: "Human brain tau isoform, derived from alternative splicing." [pmid:1749304
 synonym: "microtubule-associated protein tau isoform 5" EXACT []
 synonym: "1N4R" EXACT []
 xref: ncbiprotein:NP_001116539
+is_a: HBP:HBP00045 ! 4R tau
 
 [Term]
 id: HBP:HBP00059
@@ -551,16 +565,19 @@ def: "Conserved Tau phosphorylation motif. Part of the microtubule-binding regio
 id: HBP:HBP00099
 name: Corticobasal Degeneration
 def: "CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques" [pmid:22057784]
+is_a: HBP:HBP00233 ! 4R tauopathy
 
 [Term]
 id: HBP:HBP00100
 name: paired helical filaments
 def: "Component of NFT, consisting in a helical arrangement of tau protomers" [pmid:22496370, pmid:1706519]
+part_of: GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00101
 name: straight filaments
 def: "Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers" [pmid:16566606, pmid:28678775]
+part_of: GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00102
@@ -985,11 +1002,15 @@ def: "A long lasting enhancement in synaptic transmission between two neurons, m
 id: HBP:HBP00186
 name: proline-rich region 1
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
+part_of: HBP:HBP00166 ! proline-rich domain
+part_of: HBP:HBP00050 ! projection domain
 
 [Term]
 id: HBP:HBP00187
 name: proline-rich region 2
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
+part_of: HBP:HBP00166 ! proline-rich domain
+part_of: HBP:HBP00188 ! assembly domain
 
 [Term]
 id: HBP:HBP00188
@@ -1165,11 +1186,13 @@ def: "The Purkinje cell layer lies just underneath the molecular layer of the ce
 id: HBP:HBP00222
 name: Tau antibody, AGG5759
 def: "Tau antibody with specificity for pSer262" [pmid:23666762]
+is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00223
 name: Tau antibody, Tau-13
 def: "Tau murine monoclonal antibody with specificity for pSer262" [pmid:23666762]
+is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00224
@@ -1225,6 +1248,7 @@ def: "Tauopathies characterized by a relatively higher presence of the 4R tau is
 id: HBP:HBP00234
 name: ACY-1215
 def: "Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells." [pmid:24844691]
+inverse_is_a: MESH:D000544 ! Alzheimer Disease
 
 [Term]
 id: HBP:HBP00235
@@ -1305,16 +1329,19 @@ def: "Inhibitor of GSK3Beta and DYRK1 kinases" [pmid:28884684]
 id: HBP:HBP00250
 name: LDN-193594
 def: "A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation" [pmid:23737518]
+is_a: HBP:HBP00276 ! diaminothiazole
 
 [Term]
 id: HBP:HBP00251
 name: LDN-193665
 def: "A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b" [pmid:23737518]
+is_a: HBP:HBP00277 ! diaminothiazole
 
 [Term]
 id: HBP:HBP00252
 name: LDN-213843
 def: "Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases" [pmid:23737518]
+is_a: HBP:HBP00278 ! diaminothiazole
 
 [Term]
 id: HBP:HBP00253
@@ -1340,6 +1367,7 @@ def: "A turn-like structure formed in tau as a conseguence of the phosphorylatio
 id: HBP:HBP00257
 name: Tau antibody, RG7345
 def: "RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron." [pmid:26751493, pmid:10967355]
+is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00258
@@ -1365,26 +1393,31 @@ def: "A thiol derivative, pan-HDAC inhibitor" [pmid:27917100]
 id: HBP:HBP00262
 name: Tau antibody, AGG5759
 def: "Rabbit polyclonal antibody against tau pSer262, AstraZeneca" [pmid:23666762]
+is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00263
 name: Tau epitope, AD2
 def: "Tau epitope consisting of pThr396 and pSer404" [pmid:11943212]
+is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00264
 name: Tau epitope, AP422
 def: "Tau epitope consisting of pSer422" [pmid:11943212]
+is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00265
 name: Tau epitope, AT100
 def: "Tau epitope consisting of pSer212 and pThr214" [pmid:22833681]
+is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00266
 name: Tau epitope, AT270
 def: "Tau epitope consisting of pThr181" [pmid:11943212]
+is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00267
@@ -1495,4 +1528,112 @@ def: "Inhibitor of tau aggregation" [pmid:26751493]
 id: HBP:HBP00288
 name: tideglusib
 def: "Irreversibly inhibits GSK3B activity" [pmid:22102280]
+
+[Term]
+id: HBP:HBP00289
+name: Tau antibody, 6C5
+def: "human monoclonal antibody that targets tau epitope 125-131" [pmid:28408124]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00290
+name: Tau antibody, HT7
+def: "mouse monoclonal antibody that targets tau epitope 159-163" [pmid:28408124]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00291
+name: 6-O-sulfated heparin
+def: "During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)" [pmid:24878958]
+
+[Term]
+id: HBP:HBP00292
+name: 2-O-sulfated heparin
+def: "During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)" [pmid:24878958]
+
+[Term]
+id: HBP:HBP00293
+name: sonicated tau fibrils
+def: "To make sonicated fibril samples, fibrillized protein was sonicated using a MiSonix Sonicator 4000 (QSonica, LLC) at 50% amplitude for 60 1 s pulses" [pmid:29686391]
+
+[Term]
+id: HBP:HBP00294
+name: Tau antibody, 40E8
+def: "human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)" [pmid:28408124]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00295
+name: Tau antibody, pS396
+def: "rabbit polyclonal antibody that targets tau pS396" [pmid:28408124]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00296
+name: Tau antibody, 4E4
+def: "human monoclonal antibody that targets tau epitope 385-395" [pmid:28408124]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00297
+name: Tau antibody, Tau46
+def: "mouse monoclonal antibody that targets tau epitope 404-441" [pmid:28408124]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00298
+name: cis p-tau
+def: "The cis conformation of phosphorylated tau is considered to be the main pathogenic tau agent associated with AD neurological impairments. PIN1, a peptidyl-prolyl-cis-transe isomerase, catalizes the rotation of the peptidic bond directly before proline residues inducing a conversion toward the trans conformation, therefore reducing the presence of the pathogenic cis tau isomers." [pmid:23157676, pmid:25628064]
+
+[Term]
+id: HBP:HBP00299
+name: MPT0G211
+def: "MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells." [pmid:29844403]
+
+[Term]
+id: HBP:HBP00300
+name: peripheral nervous system injury
+def: "PNS injuries initiate a signaling cascade that induces neuroregeneration. This cascade involves activation of ERK, subsequently leading to the activation of PCAF (KAT2B), which in turn mediates histone 3 acetylation, paving the way for transcriptional activation of the key genes in the regeneration program." [pmid:24686445]
+
+[Term]
+id: HBP:HBP00301
+name: Tau antibody, TNT1
+def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00302
+name: Tau antibody, TNT2
+def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
+is_a: HBP:HBP00307 ! Tau antibody
+
+[Term]
+id: HBP:HBP00303
+name: 8-nitro-cGMP
+def: "One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers." [pmid:28213625, pmid:27601475]
+
+[Term]
+id: HBP:HBP00304
+name: Tau dimers
+def: "A key intermediate product of tau oligomerization to PHF and NFT formation, they consist of covalently linked antiparallel tau monomers presenting disulfide cross links between cystein residues." [pmid:27373205, pmid:10899437]
+
+[Term]
+id: HBP:HBP00305
+name: polysumoylation
+def: "A post-translational modification consisting on the addition and covalent bonding of multiple SUMO (small ubiquitin-like modifiers) proteins to lysine residues of target proteins, mediating a wide range of physiological functions. Polysumoylation of APP was found to reduce the generation of amyloid beta peptides, while mono or under-sumoylation enhance Ab generation." [pmid:12506199]
+
+[Term]
+id: HBP:HBP00306
+name: detyrosination
+def: "Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus." [pmid:25974414]
+
+[Term]
+id: HBP:HBP00307
+name: Tau antibody
+def: "Antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
+
+[Term]
+id: HBP:HBP00308
+name: Tau epitope
+def: "Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
 

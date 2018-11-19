@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181113
-CreatedDateTime=2018-11-13T09:52:13
+VersionString=20181119
+CreatedDateTime=2018-11-19T10:27:58
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -20,12 +20,15 @@ CacheableFlag=yes
 
 [Values]
 2-Bromohexadecanoic acid|ABCGMOPR
+2-O-sulfated heparin|ABCGMOPR
 20 S Proteasome|ABCGMOPR
 3-3 dityrosine cross-linking|ABCGMOPR
 310-helix|ABCGMOPR
 3R tau|ABCGMOPR
 4R tau|ABCGMOPR
 4R tauopathy|ABCGMOPR
+6-O-sulfated heparin|ABCGMOPR
+8-nitro-cGMP|ABCGMOPR
 A2B5 antigen|ABCGMOPR
 ACY-1215|ABCGMOPR
 AG73|ABCGMOPR
@@ -106,6 +109,7 @@ LY293002|ABCGMOPR
 Long-Term Depression|ABCGMOPR
 MARK4 isoform 2 (688 aa)|ABCGMOPR
 MLS000034832|ABCGMOPR
+MPT0G211|ABCGMOPR
 MTHFR,TT+AA|ABCGMOPR
 Microgliosis|ABCGMOPR
 Mitochondrial pathway|ABCGMOPR
@@ -150,9 +154,20 @@ Tau MN423|ABCGMOPR
 Tau Protein Secondary Structure, Turn|ABCGMOPR
 Tau aggregates|ABCGMOPR
 Tau annular protofibrils|ABCGMOPR
+Tau antibody|ABCGMOPR
+Tau antibody, 40E8|ABCGMOPR
+Tau antibody, 4E4|ABCGMOPR
+Tau antibody, 6C5|ABCGMOPR
 Tau antibody, AGG5759|ABCGMOPR
+Tau antibody, HT7|ABCGMOPR
 Tau antibody, RG7345|ABCGMOPR
+Tau antibody, TNT1|ABCGMOPR
+Tau antibody, TNT2|ABCGMOPR
 Tau antibody, Tau-13|ABCGMOPR
+Tau antibody, Tau46|ABCGMOPR
+Tau antibody, pS396|ABCGMOPR
+Tau dimers|ABCGMOPR
+Tau epitope|ABCGMOPR
 Tau epitope, 12E8|ABCGMOPR
 Tau epitope, AD2|ABCGMOPR
 Tau epitope, AP422|ABCGMOPR
@@ -215,6 +230,7 @@ caprospinol|ABCGMOPR
 ced-9|ABCGMOPR
 cerebral cortex|ABCGMOPR
 cholinergic neuron|ABCGMOPR
+cis p-tau|ABCGMOPR
 cleaved PINK1|ABCGMOPR
 clec-4|ABCGMOPR
 clec-65|ABCGMOPR
@@ -222,6 +238,7 @@ common fragile site|ABCGMOPR
 crebinostat|ABCGMOPR
 cystein-dependent auto-acetylation|ABCGMOPR
 dense core plaques|ABCGMOPR
+detyrosination|ABCGMOPR
 diaminothiazole|ABCGMOPR
 dopamine homeostasis|ABCGMOPR
 dystrophic neurite|ABCGMOPR
@@ -276,9 +293,11 @@ oxazolidinedione|ABCGMOPR
 oxidative protein folding|ABCGMOPR
 p83|ABCGMOPR
 paired helical filaments|ABCGMOPR
+peripheral nervous system injury|ABCGMOPR
 phosphatase-activating domain|ABCGMOPR
 pof14|ABCGMOPR
 polyamination|ABCGMOPR
+polysumoylation|ABCGMOPR
 prefibrillar α-synuclein oligomers|ABCGMOPR
 pretangles|ABCGMOPR
 projection domain|ABCGMOPR
@@ -291,6 +310,7 @@ sAPP-alpha|ABCGMOPR
 sAPP-beta|ABCGMOPR
 sAPP-gamma|ABCGMOPR
 skn-1|ABCGMOPR
+sonicated tau fibrils|ABCGMOPR
 ss20399075|ABCGMOPR
 straight filaments|ABCGMOPR
 sudoxicam|ABCGMOPR
