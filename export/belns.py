@@ -55,8 +55,8 @@ def _write_namespace(path, values: Iterable[str], namespace_version: Optional[st
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('--version', help='sum the integers (default: find the max)')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--version')
     args = parser.parse_args()
 
     _write_namespace(OUTPUT_FILE_PATH, _get_terms(), namespace_version=args.version)
