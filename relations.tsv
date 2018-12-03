@@ -44,3 +44,4 @@ HBP	HBP00263	Tau epitope, AD2	is_a	HBP	HBP00307	Tau epitope
 HBP	HBP00264	Tau epitope, AP422	is_a	HBP	HBP00307	Tau epitope
 HBP	HBP00265	Tau epitope, AT100	is_a	HBP	HBP00307	Tau epitope
 HBP	HBP00266	Tau epitope, AT270	is_a	HBP	HBP00307	Tau epitope
+HBP	HBP00310	GTS-21	has_metabolite	HBP	HBP00319	4-OH-GTS-21
