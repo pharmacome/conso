@@ -1,318 +1,318 @@
-Identifier	Name	Type	References	Description
-HBP00001	microtubule-binding region	domain	pmid:18500754, pmid:2516729	The motif in the MAPT protein where microtubule binding repeats
-HBP00002	tubulin-binding repeat 1	domain	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
-HBP00003	tubulin-binding repeat 2	domain	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
-HBP00004	tubulin-binding repeat 3	domain	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
-HBP00005	tubulin-binding repeat 4	domain	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
-HBP00006	Tau aggregates	cellular component	pmc:PMC2633703	Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated
-HBP00007	hyperphosphorylation	post-translational modification	pmid:22710920	An excessive phosphorylation (see GO:0006468)
-HBP00008	GAL80TS	exposure	pmc:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL80TS)
-HBP00009	Tau oligomers	cellular component	pmc:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
-HBP00010	LY293002	chemical	pmid:21329734	a specific PI3-kinase inhibitor
-HBP00011	LPLI	exposure	pmid:20333643	Low-power laser irradiation (LPLI) is a non-damage physical therapy
-HBP00012	Chronic cerebral hypoperfusion	pathology	pmid:24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
-HBP00013	Mori Fructus ethanol extract	chemical	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
-HBP00014	tunneling nanotubes	cellular component	pmid:27809932	filamentous-actin-containing membranous structures that bridge and connect cells
-HBP00015	amyloidogenesis	biological process	pmid:24653673	production of amyloid
-HBP00016	alpha-synuclein aggregates	cellular component	pmid:23254192	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
-HBP00017	huntingtin aggregates	cellular component	pmid:12747895	huntingtin (HTT) protein fragments aggregations
-HBP00018	amyloid-beta aggregates	cellular component	pmid:23484434	aggregation of amyloid-beta fragments of the APP protein
-HBP00019	SEN-1269	chemical	pmid:23484434	A tau aggregation inhibitor
-HBP00020	MLS000034832	chemical	pmid:23484434	A tau aggregation inhibitor
-HBP00021	caprospinol	chemical	pmid:23484434	A tau aggregation inhibitor
-HBP00022	amyloid-beta oligomers	cellular component	pmid:24918635, pmid:29196815	Small aggregates of amyloid-beta
-HBP00023	amyloid-beta 42 oligomers	cellular component	pmid:24918635	Amyloid-beta oligomers composed specifically of amyloid-beta 42
-HBP00024	APP C-terminally truncated carboxyl-terminal fragments	protein fragment	pmid:15491160	C-terminally truncated carboxyl-terminal fragments (CTFs) of APP
-HBP00025	A2B5 antigen	epitope	pmid:1497614	A2B5 antigen is a cell surface ganglioside epitope expressed on developing thymic epithelial cells, oligodendrocyte progenitors, and neuroendocrine cells.
-HBP00026	neutral sphingomyelinase	enzyme class	pmid:19519303	Sphingomyelin phosphodiesterase (EC 3.1.4.12, also known as neutral sphingomyelinase, sphingomyelinase, or SMase) is a hydrolase enzyme that is involved in sphingolipid metabolism reactions.
-HBP00027	Neurodegeneration	pathology	pmid:20202123,pmid:12387894	Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes.
-HBP00028	amyloid-beta derived diffusible ligands	cellular component	pmid:19188609	soluble oligomeric forms of the amyloid beta peptide known as amyloid-derived diffusible ligands (ADDLs) are the toxic species responsible for neurodegeneration associated with Alzheimer's disease.
-HBP00029	Hyperamylinemia	pathology	pmid:23794448	increased secretion of the pancreatic hormone amylin
-HBP00030	APOE e4	variant	pmid:22701550	APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158).
-HBP00031	N-AcGIP	chemical	pmid:18234983	N-AcGIP is agonist of GIP
-HBP00032	Pro3-GIP	chemical	pmid:18234983	Pro3-GIP is agonist of GIP
-HBP00033	PI3K-Akt signaling pathway	pathway	pmid:22013558	PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG.
-HBP00034	WITHDRAWN	.	.	.
-HBP00035	Argyrophilic Grain Disease	pathology	pmid:15658002	Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians.
-HBP00036	granulovacuolar degeneration	pathology	pmid:17455299	Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles.
-HBP00037	mitochondrial dysfunction	pathology	pmid:19885299	mitochondria function disorder
-HBP00038	amyloid-beta fibrils	cellular component	pmid:19158505	Insoluble fibrous protein aggregates exhibiting beta sheet structure.
-HBP00039	AG73	protein fragment	pmid:20615691	a peptide derived from mouse laminin alpha 1 protein (seq:RKRLQVQLSIRT, chain:2719–2730)
-HBP00040	Notch intracellular domain	domain	pmid:20883690	Notch intracellular domain is the intracellular region of notch receptor.
-HBP00041	YENPTY endocytosis motif (APP)	motif	pmid:18650430	YENTY is the endocytosis motif of Amyloid precursor protein.
-HBP00042	sAPP-beta	protein	pmid:21606494	Soluble amyloid precursor protein
-HBP00043	growth factor	?	pmid:14678766	A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes.
-HBP00044	3R tau	isoform	pmid:23407988	Tau isoforms containing 3 tubulin binding repeats
-HBP00045	4R tau	isoform	pmid:23407988	Tau isoforms containing 4 tubulin binding repeats
-HBP00046	VQIINK motif	motif	pmid:17493042	A hexapeptide motif located in the R2, that promotes the formation of PHF
-HBP00047	VQIVYK motif	motif	pmid:17493042	A hexapeptide motif located in the R3, that promotes the formation of PHF
-HBP00048	ghost tangles	cellular component	pmid:23407988,pmid:8431763	Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity.
-HBP00049	pretangles	cellular component	pmid:23407988, pmid:24612177	Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles.
-HBP00050	projection domain	domain	pmid:17493042, pmid:28386764	Corresponding roughly to the N-terminal part of the tau molecule, consisting mainly of acidic residues and containing two distinct alternatively spliced N-terminal inserts.
-HBP00051	RAC1b	isoform	pmid:22142809	A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer.
-HBP00052	AP-2 complex	protein complex	pmid:27260836	A heterotetrameric adapter protein complex involved in cargo-internalization during clathrin-mediated endocytosis. Composed of alpha and beta subunits (large adaptins), mu and sigma subunits (minor adaptins).
-HBP00053	Tau isoform F (441 aa)	isoform	pmid:17493042	Longest tau isoform in human brain, most commonly used as the conventional tau.
-HBP00054	Tau isoform Fetal-tau (352 aa)	isoform	pmid:17493042	Human fetal tau isoform.
-HBP00055	Tau isoform B (381 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
-HBP00056	Tau isoform D (383 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
-HBP00057	Tau isoform C (410 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
-HBP00058	Tau isoform E (412 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
-HBP00059	Serpin-enzyme complex receptor	?	pmid:15160835, pmid:2160076	?
-HBP00060	neuroinflammation	pathology	pmid:26306439	inflammatory response in the brain and nervous tissue.
-HBP00061	neurotoxicity	pathology	pmid:18440072	happens when a biological, physical or chemical agent cause any adverse effect on the structure and function of the nerves system.
-HBP00062	neurite retraction	pathology	pmid:19022228	when the neurite is unable it outgrow and extend
-HBP00063	APP695	isoform	pmid:21214928	the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)
-HBP00064	APP751	isoform	pmid:21214928	the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)
-HBP00065	APP770	isoform	pmid:21214928	the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)
-HBP00066	gamma-secretase	protein complex	pmid:25565961	gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)
-HBP00067	sAPP-alpha	protein	pmid:22491325	soluble amyloid precursor protein-alpha
-HBP00068	Excitotoxicity	pathology	pmid:19343058	Excitotoxicity is defined as cell death resulting from the toxic actions of excitatory amino acids
-HBP00069	C31	protein fragment	pmid:21214928	a fragment containing the last 31 amino acids of APP (called C31)
-HBP00070	Jcasp	protein fragment	pmid:21214928	Additional gamma-cleavage further generates the fragment (called Jcasp) containing the region between gamma- and caspase-cleavage sites
-HBP00071	AICD	domain	pmid:21214928	APP intracellular domain
-HBP00072	p83	protein fragment	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
-HBP00073	APP processing	biological process	pmid:21214928	Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)
-HBP00074	AβOs	cellular component	pmid:24685176	soluble Aβ oligomers
-HBP00075	LMW amyloid oligomers	cellular component	pmid:18723507	The formation of AβOs starts from alterations in the conformation of monomeric Aβ, resulting in low molecular weight (LMW) dimers and trimers, followed by aggregation to soluble spherical oligomers consisted of 12–24 monomers.
-HBP00076	amyloid-beta 40 oligomers	cellular component	pmid:21209907	Amyloid-beta oligomers composed specifically of amyloid-beta 40
-HBP00077	alternative splicing of APP gene	biological process	pmid:22122372	The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition (see:GO:0000380)
-HBP00078	E1 domain	domain	pmid:21574595	The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization
-HBP00079	E2 domain	domain	pmid:21574595	The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization
-HBP00080	P3 peptide	protein fragment	pmid:22137428	Cleavage by α-secretase yields the nonamyloidogenic soluble 3-kDa peptide (p3) that does not form amyloid fibrils, whereas cleavage by β-secretase yields the amyloidogenic form Aβ1–40 or the longer, more fibrillogenic Aβ1–42
-HBP00081	C99	protein fragment	pmid:22122372	a membrane associated C-terminal fragment consisting of 99 amino acids (C99)
-HBP00082	aMCI	pathology	pmid:18986241	amnestic Mild Cognitive Impairement is a cognitive dysfunction that is associated with memory deficits
-HBP00083	mdMCI	pathology	pmid:18986241	multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is associated with more than one cognitive domain
-HBP00084	Tau isoform A (316 aa)	isoform	pmid:18986241	Human brain tau isoform, derived from alternative splicing.
-HBP00085	Tau C3	epitope	pmid:18986241	Tau epitope cleaved at aspartic acid(421).
-HBP00086	Tau MN423	epitope	pmid:18986241	Tau epitope truncated at glutamic acid(391).
-HBP00087	granular tau oligomers	cellular component	pmid:28420982	When the oligomer lengthens, it adapts a beta-sheet structure and transforms into a detergent-insoluble aggregate with granular appearance under Atomic Force Microscopy (AFM)
-HBP00088	Tau fibrils	cellular component	pmid:28420982	As these granular tau oligomers fuse together, they form tau fibrils, which ultimately form NFTs
-HBP00089	dense core plaques	cellular component	pmid:17680701	Dense-core plaques are fibrillar deposits of Abeta, showing all the classical properties of amyloid including beta-sheet secondary structure, while diffuse plaques are amorphous deposits
-HBP00090	Tau annular protofibrils	cellular component	pmid:28420982	A handful of proteins implicated in neurodegenerative diseases have been found to produce pore-like amyloid structures known as annular protofibrils (APFs)
-HBP00091	TOC1	antibody	pmid:22817713	monoclonal antibody, named TOC1 (tau oligomeric complex 1), which selectively labels tau dimers and oligomers, but does not label filaments
-HBP00092	alpha-synuclein fibrils	cellular component	pmid:19892735	fibrillar aggregates of alpha-synuclein, found in Lewy bodies
-HBP00093	alpha-synuclein oligomers	cellular component	pmid:17374364	oligomeric aggregates of alpha-synuclein
-HBP00094	CLR01	protein	pmid:23183235	the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein
-HBP00095	prefibrillar α-synuclein oligomers	cellular component	pmid:27075649	 prefibrillar oligomers formed at early stages of α-syn assembly
-HBP00096	GA-AGE	?	pmid:16630055, pmid:15221334	Glyceraldehyde-derived (GA) advanced glycation end products
-HBP00097	TGM2 Isoform 3 (349 aa)	isoform	pmid:12578227	Short isoform of tissue transglutaminase
-HBP00098	KXGS motif	motif	pmid:17304350, pmid:21215781	Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly
-HBP00099	Corticobasal Degeneration	pathology	pmid:22057784	CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques
-HBP00100	paired helical filaments	cellular component	pmid:22496370, pmid:1706519 	Component of NFT, consisting in a helical arrangement of tau protomers
-HBP00101	straight filaments	cellular component	pmid:16566606, pmid:28678775	Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers
-HBP00102	Alz50	antibody	pmid:16566606, pmid:8955115	Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation
-HBP00103	O-GlcNAcylation	post-translational modification	pmid:16630055	A non-canonical glycosylation involving the attachment of single O-linked N-acetylglucosamine (O-GlcNAc) moieties to serine and threonine residues of cytoplasmic, nuclear, and mitochondrial proteins
-HBP00104	glycation	post-translational modification	pmid:26655600	The non-enzymatic reaction between the electrophilic carbonyl groups of a reducing sugar and the free amino groups of tau amino acids (especially of basic lysine or arginine residues) leading to the formation of  a ketoamine (Amadori product), an intermediate of AGE synthesis.
-HBP00105	nitration	post-translational modification	pmid:16566606	Incorporation of a nitrogen dioxide (NO2) group in tyrosine residues (mostly) of proteins forming 3-nitrotyrosine (3-NT). A biomarker of cell, tissue and systemic nitrosative stress.
-HBP00106	polyamination	post-translational modification	pmid:25974414	The reaction of polyamination by transglutaminases (TGs) involves a glutamine (Q) as acyl donor and a lysine (K) as acyl acceptor. It generates a (gamma)-glutamyl-(epsilon)-lysine isopeptide bond that causes protein cross-linking
-HBP00107	formylation	post-translational modification	pmid:21210655	The addition of a formyl functional group usually at the epsilon amino group of Lys residues
-HBP00108	Syndecan Family	protein family	pmid:15241784	IterPro:IPR001050
-HBP00109	Bacterial invasion	biological process	pmid:15241784	The process of bacteria invading a cell
-HBP00110	dopamine homeostasis	biological process	pmid:26325389	Dopmine secrete in a homeostatic way
-HBP00111	PINK1-Park pathway	pathway	pmid:26182419	The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287
-HBP00112	Glutamate excitotoxicity	biological process	pmid:10196525	The excitotoxicity of Glutamate
-HBP00113	mitochondrial homeostasis	biological process	pmid:25478815	The interplay between mitophagy and mitochondrial biogenesis.
-HBP00114	ER mitochondria interorganellar crosstalk	biological process	pmid:25478815	reference:pmid: 22577383
-HBP00115	Mitochondrial	pathway	pmid:23313576	reference:pmid: 22399422
-HBP00116	oxidative protein folding	biological process	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
-HBP00117	mitochondrial motility	biological process	pmid:25565208	The motility of mitochondria
-HBP00118	TIM/TOM complex	protein complex	pmid:25565208	The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA.
-HBP00119	mitochondrial aggregation	biological process	pmid:25591737	The aggregation of mitochondria
-HBP00120	mevalonate pathway	pathway	pmid:24695221	The mevalonate pathway, also known as the isoprenoid pathway or HMG-CoA reductase pathway is an essential metabolic pathway present in eukaryotes, archaea, and some bacteria
-HBP00121	Dopaminergic cell groups	anatomy	pmid:24695221	UBERON:dopaminergic cell groups
-HBP00122	mitochondrial precursor protein	protein	pmid:26192197	The precursor protein of mitochondria
-HBP00123	PDR-1	protein	pmid:26430570	the nematode homologs of Parkin
-HBP00124	PINK-1	protein	pmid:26430570	the nematode homologs of PINK1
-HBP00125	skn-1	protein	pmid:25896323	the nematode homologus of Skn1
-HBP00126	ced-9	protein	pmid:25896323	the nematode homologus of Bcl-2
-HBP00127	lgg-1	protein	pmid:25896323	the nematode homologus of Lgg1
-HBP00128	clec-65	protein	pmid:25896323	the nematode homologus of Clec65
-HBP00129	clec-4	protein	pmid:25896323	the nematode homologus of Clec4
-HBP00130	WITHDRAWN	.	.	.
-HBP00131	exotoxin A	chemical	pmid:25274306	exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease.
-HBP00132	mitochondrial DAMPs	?	pmid:20203610	mitochondrial damage-associated molecular patterns
-HBP00133	IκB kinase	protein complex	pmid:19880420	The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation.
-HBP00134	non-shivering thermogenesis	?	pmid:16224498	Nonshivering thermogenesis was originally defined as a cold-induced increase in heat production not associated with the muscle activity of shivering. Recent research shows it to be a metabolic process located primarily in brown adipose tissue and controlled by the activity of the sympathetic nervous supply of this tissue.PMID: 6722594
-HBP00135	hsp-16	protein	pmid:22700657	the nematode homologus of hsp16
-HBP00136	heat shock proteins	protein family	pmid:15280428	Heat shock proteins (HSP) are a family of proteins that are produced by cells in response to exposure to stressful conditions. They were first described in relation to heat shock,
-HBP00137	high-calorie diets	exposure	pmid:10412986	Diets with high calorie.
-HBP00138	proteotoxicity	pathology	pmid:24149988	To function, proteins must undergo a folding process that gives them the proper three dimensional structure. Numerous genetic and biochemical observations suggest that proteins that fail to fold properly impair cell function. This process, also referred to as proteotoxicity, is particularly important to the fate of non-renewable cells of long-lived organisms in which malfolded proteins (proteotoxins) can exert their deleterious influence over extended periods of time.reference:Proteotoxicity and Aging
-HBP00139	ss20399075	variant	pmid:15122513	A SNP located within the 3' UTR of FGF20, is significantly associated with PD risk
-HBP00140	Alpha-synuclein Oligomerization	biological process	pmid:21296890	The formation of alpha-synuclein oligmer
-HBP00141	D6S253	?	pmid:9560156	A microsatellite markers for Alzheimer’s and Parkinson’s Diseases
-HBP00142	D6S305	?	pmid:9560156	A microsatellite markers for Alzheimer’s and Parkinson’s Diseases
-HBP00143	MTHFR,TT+AA	?	pmid:17914182	In Parkinson's Disease, TT+AA is more frequent in MTHFR gene.
-HBP00144	CAG repeats	motif	pmid:22782013	CAG repeats in genes.
-HBP00145	Gastrointestinal dysfunctions	pathology	pmid:24467967	The function of gastrotestine disorder.
-HBP00146	olfactory epithelium	anatomy	pmid:22691461	UBERON:olfactory epithelium
-HBP00147	nasal cycle	?	pmid:23569018	The nasal cycle is the often unnoticed alternating partial congestion and decongestion of the nasal cavities in humans and other animals. It is a physiological congestion of the nasal concha, also called the nasal turbinate, due to selective activation of one half of the autonomic nervous system by the hypothalamus.
-HBP00148	hyposmia	pathology	pmid:23933572	Hyposmia is a reduced ability to smell and to detect odors.Hyposmia might be a very early sign of Parkinson's disease. Hyposmia is also an early and almost universal finding in Alzheimer's disease and dementia with Lewy bodies. Lifelong hyposmia could be caused by Kallmann syndrome.
-HBP00149	FMR1,(55-200 CGG)	variant	pmid:24332449	A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein.
-HBP00150	pof14	?	pmid:17016471	a new member of the F-box family, Pof14, which forms a canonical
-HBP00151	Neuroglia	anatomy	pmid:19248803	MeSH Unique ID: D009457
-HBP00152	GDNF Family	chemical class	pmid:10383122	The GDNF family of ligands (GFL) consists of four neurotrophic factors: glial cell line-derived neurotrophic factor (GDNF), neurturin (NRTN), artemin (ARTN), and persephin (PSPN). GFLs have been shown to play a role in a number of biological processes including cell survival, neurite outgrowth, cell differentiation and cell migration. In particular signalling by GDNF promotes the survival of dopaminergic neurons.
-HBP00153	Motor Neurons	anatomy	pmid:10383122	MeSH Unique ID: D009046
-HBP00154	noradrenergic neuron	anatomy	pmid:10383122	Cell:noradrenergic neuron
-HBP00155	midbrain dopaminergic neuron	anatomy	pmid:10383122	Cell:midbrain dopaminergic neuron
-HBP00156	Neurites	anatomy	pmid:23872421	A neurite or neuronal process refers to any projection from the cell body of a neuron.
-HBP00157	GRB10,BPS domain	domain	pmid:25268761	BPS domain of protein GRB10
-HBP00158	common fragile site	cellular component	pmid:12874785	A chromosomal fragile site is a specific heritable point on a chromosome that tends to form a gap or constriction and may tend to break when the cell is exposed to partial replication stress.Based on their frequency, fragile sites are classified as common or rare.To date, more than 120 fragile sites have been identified in the human genome.
-HBP00159	PARK7-alpha helices	domain	pmid:18707128	The alpha helices of PARK7 protein
-HBP00160	cleaved PINK1	protein fragment	pmid:21138942	The cleaved part of Protein PINK1
-HBP00161	neurovascular unit	anatomy	pmid:25136294	The brain hyperaemia, or coupling, is accomplished by a group of cells, closely related to each other; called neurovascular unit (NVU). The neurovascular unit is composed by neurones, astrocytes, endothelial cells of blood-brain barrier (BBB), myocytes, pericytes and extracellular matrix components. reference:PMID: 24629161
-HBP00162	Muscles	anatomy	pmid:21151955	MeSH Unique ID: D009132
-HBP00163	Neural Stem Cell	anatomy	pmid:22357600	MeSH Unique ID: D058953
-HBP00164	Ventral Tegmental Area	anatomy	pmid:16190884	MeSH Unique ID: D017557
-HBP00165	Pars Compacta	anatomy	pmid:16190884	MeSH Unique ID: D065842
-HBP00166	proline-rich domain	domain	pmid:25974414, pmid:8068626, pmid:9190213	Correspounding to residues I151 to Q244 of the 441 aa tau isoform, separated into P1 and P2. Possible role in tau's functional stabilization through the reported intramolecular interaction of P2 with R1, R2 and R4 from the microtubule-binding region
-HBP00167	lys-2	protein	pmid:25896323	the nematode homologus of Lys2
-HBP00168	abf-2	protein	pmid:25896323	the nematode homologus of Abf2
-HBP00169	hydrophobic pocket of actin	domain	pmid:21314430	 The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament
-HBP00170	310-helix	motif	pmid:12761385	The 310-helix is the fourth most common type of secondary structure in proteins after α-helices, β-sheets, and reverse turns (Barlow and Thornton 1988). Approximately 15%–20% of all helices in protein structures are 310-helices, which are commonly found as N- or C-terminal extensions to an α-helix (Barlow and Thornton 1988). 310-Helices in proteins are typically only three to five residues long compared with a mean of 10–12 residues for α-helices (Richardson and Richardson 1988)
-HBP00171	Amylin Antagonist AC253	peptide	pmid:22500019	Amino Acid Sequence: Ac-Leu-Gly-Arg-Leu-Ser-Gln-Glu-Leu-His-Arg-Leu-Gln-Thr-Tyr-Pro-Arg-Thr-Asn-Thr-Gly-Ser-Asn-Thr-Tyr-NH2
-HBP00172	CDK5R1 p25	protein	pmid:10830966	The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment
-HBP00173	PTI-125	chemical	pmid:28438486	PTI-125 is a small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies
-HBP00174	alpha-4 beta-2 nAChR	protein complex	pmid:24828779	In addition to nAChRs forming from different subunit assemblages, stoichiometric study has shown that α4β2 nAChRs can form as either (α4)3(β2)2 or (α4)2(β2)3, the latter having a greater affinity for both nicotine and Ach
-HBP00175	alpha-7 beta-2 nAChR	protein complex	pmid:27179601	Accumulating evidence demonstrates that these α7 and β2 nAChR subunits can co-assemble to form functional α7β2 nAChRs in heterologous expression systems, and also under natural conditions in the brain (Figure 1)
-HBP00176	beta-2-containing nAChR	protein complex	pmid:24828779	The β2 subunit can couple with non-α4 subunits, including α2, α3 and α6 subunits to form functionally distinct nAChRs, but these receptors are much less densely expressed in the central nervous system relative to α4β2* nAChRs (*indicating potential assemblage of β2 subunits with non-α4 subunits)
-HBP00177	Abeta*56	cellular component	pmid:16541076	56 kDa soluble amyloid-β (Aβ) assembly
-HBP00178	protein aggregates	cellular component	pmc:PMC2633703,pmid:23254192,pmid:12747895,pmid:23484434	Aggregates of proteins or fragments of proteins
-HBP00179	sAPP-gamma	protein fragment	pmid:12105112	results from the cleavage of beta APP by gamma-secretase
-HBP00180	alpha-6-containing nAChR	protein complex	pmid:28445721, pmid:19498417	alpha6-containing receptors, which in brain occur as heteropentamers with beta2 and beta3 and are especially enriched in presynaptic nerve terminals in striatum (Champtiaux et al.,2002)
-HBP00181	phosphatase-activating domain	domain	pmid:26671985, pmid:28413156	Tau domain located in the N-terminal region encompassing residues 2-18. It activates phosphatase PP1 which dephosphorylates Ser9 in GSK3Beta and leads to its activation. In normal tau, both NTD and CTD are folded back in proximity to each other forming a 'paper-clip' conformation, which masks the PAD. Phosphorylation in the AT8 epitope, disrupts this normal conformational state, exposing the PAD by moving away the terminal domains.
-HBP00182	cystein-dependent auto-acetylation	biological process	pmid:28002468, pmid:27383765	Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines.
-HBP00183	GVD bodies	cellular component	pmid:26501932	Pathological hallmarks of Alzheimer Disease, consisting in intraneuronal accumulations of large membrane-bound vacuoles. Associated with the late stages of disease progression, they were also shown to be immunopositive or GSK3Beta and SYK (Spleen Tyrosine Kinase).
-HBP00184	advanced glycation end product	chemical class	pmid:28176663	Advanced glycation end products (AGEs) are the production of Maillard reaction between carbohydrates and proteins. They cause neurotoxicity via production of ROS followed by an increase in expression of APP and amyloid beta. Recent analysis implicates them in tau phosphorylation.
-HBP00185	long-term potentiation	?	pmid:27041503	A long lasting enhancement in synaptic transmission between two neurons, most commonly studied in the synapse between the Schaffer collateral axons of the CA3 neurons and the CA1 pyramidal neurons of the hippocampus. Alongside the LTD (long-term depression) represent the two mechanisms of memory formation and storage. Impairment of this process in AD is caused by soluble oligmoeric amyloid beta.
-HBP00186	proline-rich region 1	domain	pmid:21757739	Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin.
-HBP00187	proline-rich region 2	domain	pmid:21757739	Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin.
-HBP00188	assembly domain	domain	pmid:21757739	Tau assembly domain consists of the second part of the proline-rich region (PR2), MTBR and CTD, corresponding to residues 199-441 of the canonical tau isoform.
-HBP00189	CRL4 complex	protein complex	pmid:27325702	Cullin-RING E3 ubiquitin ligase complex 4, consisting of CUL4(A,B), DDB1 and CRBN.
-HBP00190	APP, ACR	domain	pmid:27325702	Cytosolic region of APP, responsible for interacting with E3 ubiquitin ligases among other proteins.
-HBP00191	tubulin detyrosination	post-translational modification	pmid:25974414	Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus. Promoted by Tau truncation in the Gln124 residue.
-HBP00192	Microgliosis	biological process	pmid:29121589	An intense reaction of microglia following CNS insult, characterized by active proliferation and retracted cellular processes. In AD, accumulation of Abeta can be a possible cause of such physiological phenomenon, as microglia is seen surrounding senile plaques. Abeta interaction with microglial pattern recognition receptors (PRRs) leads to NLRP3 inflammasome activation, production of toxic NOS and ROS and release of proinflammatory cytokines.
-HBP00193	Astrogliosis	biological process	pmid:29121589	Morphological and functional changes observed in astrocytes in the context of their physiological response to CNS trauma or injury caused by ischemia, stroke, autoimmune disorders and neurodegeneration.
-HBP00194	CK1 superfamily	protein family	pmid:25673844	The CK1 group of eukaryotic protein kinases are composed of seven CK1 isoforms (CK1α, CK1α2, CK1δ, CK1ε, CK1γ1, CK1γ2, and CK1γ3), two Tau–tubulin kinase isoforms (TTBK1 and TTBK2), and three VRK isoforms (VRK1, VRK2, and VRK3)
-HBP00195	alpha-4-containing nAChR	protein complex	pmid:21787755	nAChRs that bind radiolabeled nicotine with the highest afﬁnity contain a4 subunits (a4*-nAChR)
-HBP00196	alpha-4 beta-4 nAChR	protein complex	pmid:21787755	a4 subunits can also assemble with b4 subunits to form a4b4-nAChRs that have comparably high nicotine afﬁnity
-HBP00197	alpha-7-containing nAChR	protein complex	pmid:21787755	Another prominent nAChR subtype found in vertebrate central and autonomic nervous systems contains a7 subunits.
-HBP00198	alpha-Bungarotoxin	chemical	pmid:21787755	Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake).
-HBP00199	alpha-3 beta-2 nAChR	protein complex	pmid:21787755	nAChRs containing the a3b2 subunit interface
-HBP00200	kappa-Bungarotoxin	chemical	pmid:21787755, pmid:3359187	kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)
-HBP00201	VU10010	chemical	pmid:24511233, pmid:18059262	highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide
-HBP00202	VU0456940	chemical	pmid:24511233	M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one
-HBP00203	VU0152099	chemical	pmid:24511233	selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide
-HBP00204	VU0029767	chemical	pmid:24590577	selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide
-HBP00205	VU0090157	chemical	pmid:24590577	selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate
-HBP00206	VU0184670	chemical	pmid:24590577	M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride
-HBP00207	2-Bromohexadecanoic acid	chemical	pmid:18096814	Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death.
-HBP00208	20 S Proteasome	protein complex	pmid:17954934, pmid:19145068	The catalytic core of the 26 S proteasome system, responsible for tau degradation
-HBP00209	3-3 dityrosine cross-linking	?	pmid:16566606, pmid: 24351276	An oxidation product consisting of covalent ortho-ortho coupling between two tyrosine residues formed as a conseguence to UV irradiation, gamma-irradiation, aging, exposure to oxygen free radicals, nitrogen dioxide, peroxynitrite, and lipid hydroperoxides.  ROS catalyzed by Cu ions are involved in the generation of these cross-links in amyloid beta oligomers to which they provide stability. Also involved in the stabilization of tau PHF. A potential biomarker of oxidative stress in AD.
-HBP00210	Braak_Stage I	?	pmid:28176663, pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping.
-HBP00211	Braak_Stage II	?	pmid:28176663, pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping.
-HBP00212	Braak_Stage III	?	pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage III is characterised by the destruction of the external principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads.
-HBP00213	Braak_Stage IV	?	pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage IV is characterised by the destruction of the internal principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads. The destruction of entorhinal cellular layers interferes with the normal transfer of information between neocortex and hippocampus, manifesting as cognitive impairment and subtle personality changes.
-HBP00214	Braak_Stage V	?	pmid:28176663, pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD.
-HBP00215	Braak_Stage VI	?	pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD.
-HBP00216	CagA peptide	peptide	pmid:23666762, pmid:19966800	A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation
-HBP00217	MARK4 isoform 2 (688 aa)	isoform	pmid:16973293	Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation.
-HBP00218	NP_001387.2:p.Arg205del	variant	pmid:28167836	Loss of function mutant of DYRK1A isoform 1
-HBP00219	NP_001387.2:p.Glu239del	variant	pmid:28167837	Loss of function mutant of DYRK1A isoform 1
-HBP00220	PrP106-126	protein fragment	pmid:22692785	Prion protein fragment 106-126. This peptide increases membrane microviscosity, intracellular Ca2+ concentration and cell migration in circulating leucocytes, and oxygen production in monocytes and neutrophils. It also induces apoptotic cell death and impairment of L-type voltage-sensitive calcium channel activity in the GH3 cell lines. PrP (106–126) stimulates leucocyte migration in a dose-dependent manner. Inhibits tau phosphorylaton at Ser262. Seq = KTNMKHMAGAAAAGAVVGGLG
-HBP00221	Purkinje cell layer of cerebellar cortex	anatomy	pmid:29221819	The Purkinje cell layer lies just underneath the molecular layer of the cerebellar cortex. It contains the neuronal cell bodies of the Purkinje cells that are arranged side by side in a single layer. Candelabrum interneurons are vertically oriented between the Purkinje cells. Purkinje neurons are inhibitory and provide the output of the cerebellar cortex through axons that project into the white matter. Extensive dendritic trees from the Purkinje cells extend upward in a single plane into the molecular layer where they synapse with parallel fibers of granule cells.
-HBP00222	Tau antibody, AGG5759	antibody	pmid:23666762	Tau antibody with specificity for pSer262
-HBP00223	Tau antibody, Tau-13	antibody	pmid:23666762	Tau murine monoclonal antibody with specificity for pSer262
-HBP00224	Tau epitope, 12E8	epitope	pmid:22156579	Tau epitope consisting of pSer262 and pSer356
-HBP00225	Tau epitope, AT180	epitope	pmid:22833681	Tau epitope consisting of pThr231
-HBP00226	Tau epitope, AT8	epitope	pmid:18239272	Tau epitope consisting of pSer202, pThr205, pSer208, pSer199
-HBP00227	Tau epitope, CP13	epitope	pmid:25331948	Tau epitope consisting of pSer202
-HBP00228	Tau epitope, PHF1	epitope	pmid:22156579	Tau epitope consisting of pSer396, pSer404
-HBP00229	dystrophic neurite	?	pmid:28877763	Dysfunctional axons and terminals that accumulate the β-site amyloid precursor protein (APP) cleaving enzyme (BACE1) required for Aβ generation.
-HBP00230	granular layer of cerebellar cortex	anatomy	pmid:29221819	The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer
-HBP00231	molecular layer of cerebellar cortex	anatomy	pmid:29221819	The molecular layer is the outermost layer of the cerebellar cortex. It contains the parallel fibers of the granule cells, interneurons such as stellate and basket cells, and the dendrites of the underlying Purkinje cells
-HBP00232	Kalirin 7	isoform	pmid:27796283	Isoform of KALRN protein
-HBP00233	4R tauopathy	pathology	pmid:21427723	Tauopathies characterized by a relatively higher presence of the 4R tau isoforms, such as Alzheimers Disease and Corticobasal Degeneration
-HBP00234	ACY-1215	chemical	pmid:24844691	Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells.
-HBP00235	APOE e3	variant	pmid:26751493	Interacts with tubulin binding repeat 1
-HBP00236	BAY61-3606	chemical	pmid:25331948	A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity
-HBP00237	Biphenyl-4-yl-acrylohydroxamoc acids	chemical class	pmid:26890116	Chemical compund group acting as inhibitors of HDAC family proteins.
-HBP00238	Brodmann (1909) area 36	anatomy	pmid:23407988	Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. With its medial boundary corresponding approximately to the rhinal sulcus it is located primarily in the fusiform gyrus. Cytoarchitecturally it is bounded laterally and caudally by the inferior temporal area 20, medially by the perirhinal area 35 and rostrally by the temporopolar area 38 (H) (Brodmann-1909). Together with Brodmann area 35, it comprises the perirhinal cortex.
-HBP00239	C-30-27	chemical	pmid:25672970	PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition
-HBP00240	C646	chemical	pmid:20869593	Inhibitor of EP300 acetylase
-HBP00241	CA1 field of hippocampus	anatomy	pmid:23407988	Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals.
-HBP00242	CA2 field of hippocampus	anatomy	pmid:23407988	Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus
-HBP00243	CA3 field of hippocampus	anatomy	pmid:23407988	Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers.
-HBP00244	CA4 field of hippocampus	anatomy	pmid:23407988	The last of four regions in the cornu ammonis of the hippocampus and is also part of the hilus of the dentate gyrus. This area contains mostly mossy cells that receive inputs from the dentate gyrus and pyramidal cells in the CA3 region and also projects back to the dentate gyrus.
-HBP00245	CGP3466B	chemical	pmid:29559585	Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD
-HBP00246	CM-414	chemical	pmid:27550730	A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity.
-HBP00247	DAPK, basic loop (BL) motif	motif	pmid:27133022	A structural motif of DAPK (Death-Associated Protein Kinase) positively regulating the kinase activity.
-HBP00248	Histone H3	protein	pmid:24686445	One of the five main histone proteins of chromatin structure, acetylation at Lys 9 was positively linked with the transcriptional activation of various genes involved in neuro-regeneration following peripheral axonal injury, among which BDNF.
-HBP00249	ID-8	chemical	pmid:28884684	Inhibitor of GSK3Beta and DYRK1 kinases
-HBP00250	LDN-193594	chemical	pmid:23737518	A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation
-HBP00251	LDN-193665	chemical	pmid:23737518	A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b
-HBP00252	LDN-213843	chemical	pmid:23737518	Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases
-HBP00253	Long-Term Depression	pathology	pmid:22833681	A gradual weakening of neuronal synaptic connections lasting hours or longer following a long patterned stimulus. Along with LTP (long term potentiation) is one of the main mechanisms of memory formation, more specifically of spatial memory. The mechanism involves an interplay of NMDA and AMPA glutamate receptors, with minimal intracellular calcium levels triggering a cellular cascade leading to the removal of the latter and an overall decrease of the glutammate receptors in the postsynaptic neurons, thus weakening the synapse.
-HBP00254	Pathological Tau Spreading	pathology	pmid:29540553	Pathological spreading pattern of tau into defined anatomycally interconnected brain regions during the progression of tauopathy.
-HBP00255	PrPSc	isoform	pmid:22692785, pmid:29414853	PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types.
-HBP00256	Tau Protein Secondary Structure, Turn	?	pmid:28784767	A turn-like structure formed in tau as a conseguence of the phosphorylation of only Ser202 and Thr205 residues, protects against aggregation.
-HBP00257	Tau antibody, RG7345	antibody	pmid:26751493, pmid:10967355	RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron.
-HBP00258	RGFP966	chemical	pmid:28771976	Selective inhibitor of HDAC3
-HBP00259	SL-327	chemical	pmid:24401760	Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A
-HBP00260	Spinocerebellar Ataxia 11	pathology	pmid:21548880	Spinocerebellar ataxia type 11 (SCA11) is characterized by progressive cerebellar ataxia and abnormal eye signs (jerky pursuit, horizontal and vertical nystagmus). Caused by mutations in the TTBK2 (Tau Tubulin Kinase 2) gene, is inherited in an autosomal dominant manner.
-HBP00261	ST7612AA1	chemical	pmid:27917100	A thiol derivative, pan-HDAC inhibitor
-HBP00262	Tau antibody, AGG5759	antibody	pmid:23666762	Rabbit polyclonal antibody against tau pSer262, AstraZeneca
-HBP00263	Tau epitope, AD2	epitope	pmid:11943212	Tau epitope consisting of pThr396 and pSer404
-HBP00264	Tau epitope, AP422	epitope	pmid:11943212	Tau epitope consisting of pSer422
-HBP00265	Tau epitope, AT100	epitope	pmid:22833681	Tau epitope consisting of pSer212 and pThr214
-HBP00266	Tau epitope, AT270	epitope	pmid:11943212	Tau epitope consisting of pThr181
-HBP00267	Thiamet G	chemical	pmid:22833681	Inhibitor of O-GlcNAcase (OGA)
-HBP00268	Thioflavin S	chemical	pmid:7667312	Dye binding to PHF used in AD diagnostics
-HBP00269	Trithiocarbonates	chemical class	pmid:18558669	Chemical compound group of susbtrate competitive selective HDAC6 inhibitors
-HBP00270	Tubacin	chemical	pmid:23487739	Inhibitor of HDAC6
-HBP00271	Tubastatin A	chemical	pmid:24844691	Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load
-HBP00272	USP14 Aptamer	chemical	pmid:26041011	Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme.
-HBP00273	cholinergic neuron	anatomy	pmid:29221819	A neuron that uses acetylcholine as a vesicular neurotransmitter.
-HBP00274	cerebral cortex	anatomy	pmid:29221819	The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex.
-HBP00275	crebinostat	chemical	pmid:25546293	Inhibitor of HDAC6
-HBP00276	diaminothiazole	chemical class	pmid:23737518	Compound class with kinase inhibition properties, specifically for CDK5 and GSK3Beta
-HBP00277	entorhinal cortex layer 2	anatomy	pmid:27798139	Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex.
-HBP00278	granular layer of cerebellar cortex	anatomy	pmid:29221819	The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer.
-HBP00279	indirubin	chemical	pmid:11013232	A powerful inhibitor of GSK3B
-HBP00280	isocarboxazide	chemical	pmid:26751493	Inhibitor of tau aggregation
-HBP00281	isopentanyladenine	chemical	pmid:8726973	Inhibitor of CKD5 activity
-HBP00282	maitotoxin	chemical	pmid:10537045	Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former
-HBP00283	olomoucine	chemical	pmid:8726973	Inhibitor of CKD5 activity
-HBP00284	oxazolidinedione	chemical	pmid:26751493	Inhibitor of tau aggregation
-HBP00285	sudoxicam	chemical	pmid:26751493	Inhibitor of tau aggregation
-HBP00286	thiohydantoin	chemical	pmid:26751493	Inhibitor of tau aggregation
-HBP00287	thioxooxazolidine	chemical	pmid:26751493	Inhibitor of tau aggregation
-HBP00288	tideglusib	chemical	pmid:22102280	Irreversibly inhibits GSK3B activity
-HBP00289	Tau antibody, 6C5	antibody	pmid:28408124	human monoclonal antibody that targets tau epitope 125-131
-HBP00290	Tau antibody, HT7	antibody	pmid:28408124	mouse monoclonal antibody that targets tau epitope 159-163
-HBP00291	6-O-sulfated heparin	?	pmid:24878958	During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)
-HBP00292	2-O-sulfated heparin	?	pmid:24878958	During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)
-HBP00293	sonicated tau fibrils	cellular component	pmid:29686391	To make sonicated fibril samples, fibrillized protein was sonicated using a MiSonix Sonicator 4000 (QSonica, LLC) at 50% amplitude for 60 1 s pulses
-HBP00294	Tau antibody, 40E8	antibody	pmid:28408124	human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)
-HBP00295	Tau antibody, pS396	antibody	pmid:28408124	rabbit polyclonal antibody that targets tau pS396
-HBP00296	Tau antibody, 4E4	antibody	pmid:28408124	human monoclonal antibody that targets tau epitope 385-395
-HBP00297	Tau antibody, Tau46	antibody	pmid:28408124	mouse monoclonal antibody that targets tau epitope 404-441
-HBP00298	cis p-tau	protein	pmid:23157676, pmid:25628064	The cis conformation of phosphorylated tau is considered to be the main pathogenic tau agent associated with AD neurological impairments. PIN1, a peptidyl-prolyl-cis-transe isomerase, catalizes the rotation of the peptidic bond directly before proline residues inducing a conversion toward the trans conformation, therefore reducing the presence of the pathogenic cis tau isomers.
-HBP00299	MPT0G211	chemical	pmid:29844403	MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells.
-HBP00300	peripheral nervous system injury	pathology	pmid:24686445	PNS injuries initiate a signaling cascade that induces neuroregeneration. This cascade involves activation of ERK, subsequently leading to the activation of PCAF (KAT2B), which in turn mediates histone 3 acetylation, paving the way for transcriptional activation of the key genes in the regeneration program.
-HBP00301	Tau antibody, TNT1	antibody	pmid:27260838	Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau
-HBP00302	Tau antibody, TNT2	antibody	pmid:27260838	Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau
-HBP00303	8-nitro-cGMP	chemical	pmid:28213625, pmid:27601475	One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers.
-HBP00304	Tau dimers	cellular component	pmid:27373205, pmid:10899437	A key intermediate product of tau oligomerization to PHF and NFT formation, they consist of covalently linked antiparallel tau monomers presenting disulfide cross links between cystein residues.
-HBP00305	polysumoylation	post-translational modification	pmid:12506199	A post-translational modification consisting on the addition and covalent bonding of multiple SUMO (small ubiquitin-like modifiers) proteins to lysine residues of target proteins, mediating a wide range of physiological functions. Polysumoylation of APP was found to reduce the generation of amyloid beta peptides, while mono or under-sumoylation enhance Ab generation.
-HBP00306	detyrosination	post-translational modification	pmid:25974414	Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus.
-HBP00307	Tau antibody	antibody	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Antibodies for the Tau protein (HGNC:MAPT)
-HBP00308	Tau epitope	epitope	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)
-HBP00309	S 24795	chemical	pmid:18187166, pmid:18265960, pmid:18034231	A partial agonist at α7 nAChR
-HBP00310	GTS-21	chemical	pmid:25514383	GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent.
-HBP00311	alpha-4 alpha-5 beta-2 nAChR	protein complex	pmid:19721446	nAChR subtype found in cortex, hippocampus and neostriatum
-HBP00312	alpha-3 beta-4 nAChR	protein complex	pmid:19721446	nAChR subtype found in hippocampus, pineal gland and cerebellum
-HBP00313	alpha-3 beta-3 beta-4 nAChR	protein complex	pmid:19721446	nAChR subtype found in habenula and interpeduncular nucleus
-HBP00314	alpha-6 beta-2 beta-3 nAChR	protein complex	pmid:19721446	nAChR subtype found in locus coeruleus, substantia nigra and neostriatum
-HBP00315	alpha-2 beta-2 nAChR	protein complex	pmid:19721446	nAChR subtype found in interpeduncular nucleus
-HBP00316	alpha-6 alpha-4 beta-2 beta-3 nAChR	protein complex	pmid:19721446	nAChR subtype found in neostriatum
-HBP00317	protein aggregation	biological process	pmid:11831622	Protein aggregation occurs in vivo as a result of improper folding or misfolding
+Identifier	Author	Name	Type	References	Description
+HBP00001	Charlie	microtubule-binding region	domain	pmid:18500754, pmid:2516729	The motif in the MAPT protein where microtubule binding repeats
+HBP00002	Kristian	tubulin-binding repeat 1	domain	pmid:18500754	position 569_591 of canonical isoform of MAPT protein
+HBP00003	Kristian	tubulin-binding repeat 2	domain	pmid:18500754	position 592_621 of canonical isoform of MAPT protein
+HBP00004	Kristian	tubulin-binding repeat 3	domain	pmid:18500754	position 623_653 of canonical isoform of MAPT protein
+HBP00005	Kristian	tubulin-binding repeat 4	domain	pmid:18500754	position 654_685 of canonical isoform of MAPT protein
+HBP00006	Charlie	Tau aggregates	cellular component	pmc:PMC2633703	Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated
+HBP00007	Charlie	hyperphosphorylation	post-translational modification	pmid:22710920	An excessive phosphorylation (see GO:0006468)
+HBP00008	Sandra	GAL80TS	exposure	pmc:PMC3073608	temperature-sensitive allele of GAL80 (tub-GAL80TS)
+HBP00009	Sandra	Tau oligomers	cellular component	pmc:PMC4828294	CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)
+HBP00010	Rana	LY293002	chemical	pmid:21329734	a specific PI3-kinase inhibitor
+HBP00011	Rana	LPLI	exposure	pmid:20333643	Low-power laser irradiation (LPLI) is a non-damage physical therapy
+HBP00012	Rana	Chronic cerebral hypoperfusion	pathology	pmid:24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
+HBP00013	Rana	Mori Fructus ethanol extract	chemical	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
+HBP00014	Rana	tunneling nanotubes	cellular component	pmid:27809932	filamentous-actin-containing membranous structures that bridge and connect cells
+HBP00015	Rana	amyloidogenesis	biological process	pmid:24653673	production of amyloid
+HBP00016	Charlie	alpha-synuclein aggregates	cellular component	pmid:23254192	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
+HBP00017	Charlie	huntingtin aggregates	cellular component	pmid:12747895	huntingtin (HTT) protein fragments aggregations
+HBP00018	Charlie	amyloid-beta aggregates	cellular component	pmid:23484434	aggregation of amyloid-beta fragments of the APP protein
+HBP00019	Charlie	SEN-1269	chemical	pmid:23484434	A tau aggregation inhibitor
+HBP00020	Charlie	MLS000034832	chemical	pmid:23484434	A tau aggregation inhibitor
+HBP00021	Charlie	caprospinol	chemical	pmid:23484434	A tau aggregation inhibitor
+HBP00022	Charlie	amyloid-beta oligomers	cellular component	pmid:24918635, pmid:29196815	Small aggregates of amyloid-beta
+HBP00023	Charlie	amyloid-beta 42 oligomers	cellular component	pmid:24918635	Amyloid-beta oligomers composed specifically of amyloid-beta 42
+HBP00024	Lingling	APP C-terminally truncated carboxyl-terminal fragments	protein fragment	pmid:15491160	C-terminally truncated carboxyl-terminal fragments (CTFs) of APP
+HBP00025	Lingling	A2B5 antigen	epitope	pmid:1497614	A2B5 antigen is a cell surface ganglioside epitope expressed on developing thymic epithelial cells, oligodendrocyte progenitors, and neuroendocrine cells.
+HBP00026	Lingling	neutral sphingomyelinase	enzyme class	pmid:19519303	Sphingomyelin phosphodiesterase (EC 3.1.4.12, also known as neutral sphingomyelinase, sphingomyelinase, or SMase) is a hydrolase enzyme that is involved in sphingolipid metabolism reactions.
+HBP00027	Lingling	Neurodegeneration	pathology	pmid:20202123,pmid:12387894	Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes.
+HBP00028	Lingling	amyloid-beta derived diffusible ligands	cellular component	pmid:19188609	soluble oligomeric forms of the amyloid beta peptide known as amyloid-derived diffusible ligands (ADDLs) are the toxic species responsible for neurodegeneration associated with Alzheimer's disease.
+HBP00029	Lingling	Hyperamylinemia	pathology	pmid:23794448	increased secretion of the pancreatic hormone amylin
+HBP00030	Lingling	APOE e4	variant	pmid:22701550	APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158).
+HBP00031	Lingling	N-AcGIP	chemical	pmid:18234983	N-AcGIP is agonist of GIP
+HBP00032	Lingling	Pro3-GIP	chemical	pmid:18234983	Pro3-GIP is agonist of GIP
+HBP00033	Lingling	PI3K-Akt signaling pathway	pathway	pmid:22013558	PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG.
+HBP00034	Lingling	WITHDRAWN	.	.	.
+HBP00035	Lingling	Argyrophilic Grain Disease	pathology	pmid:15658002	Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians.
+HBP00036	Lingling	granulovacuolar degeneration	pathology	pmid:17455299	Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles.
+HBP00037	Lingling	mitochondrial dysfunction	pathology	pmid:19885299	mitochondria function disorder
+HBP00038	Charlie	amyloid-beta fibrils	cellular component	pmid:19158505	Insoluble fibrous protein aggregates exhibiting beta sheet structure.
+HBP00039	Rana	AG73	protein fragment	pmid:20615691	a peptide derived from mouse laminin alpha 1 protein (seq:RKRLQVQLSIRT, chain:2719–2730)
+HBP00040	Lingling	Notch intracellular domain	domain	pmid:20883690	Notch intracellular domain is the intracellular region of notch receptor.
+HBP00041	Lingling	YENPTY endocytosis motif (APP)	motif	pmid:18650430	YENTY is the endocytosis motif of Amyloid precursor protein.
+HBP00042	Lingling	sAPP-beta	protein	pmid:21606494	Soluble amyloid precursor protein
+HBP00043	Lingling	growth factor	?	pmid:14678766	A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes.
+HBP00044	Kristian	3R tau	isoform	pmid:23407988	Tau isoforms containing 3 tubulin binding repeats
+HBP00045	Kristian	4R tau	isoform	pmid:23407988	Tau isoforms containing 4 tubulin binding repeats
+HBP00046	Kristian	VQIINK motif	motif	pmid:17493042	A hexapeptide motif located in the R2, that promotes the formation of PHF
+HBP00047	Kristian	VQIVYK motif	motif	pmid:17493042	A hexapeptide motif located in the R3, that promotes the formation of PHF
+HBP00048	Kristian	ghost tangles	cellular component	pmid:23407988,pmid:8431763	Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity.
+HBP00049	Kristian	pretangles	cellular component	pmid:23407988, pmid:24612177	Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles.
+HBP00050	Kristian	projection domain	domain	pmid:17493042, pmid:28386764	Corresponding roughly to the N-terminal part of the tau molecule, consisting mainly of acidic residues and containing two distinct alternatively spliced N-terminal inserts.
+HBP00051	Kristian	RAC1b	isoform	pmid:22142809	A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer.
+HBP00052	Kristian	AP-2 complex	protein complex	pmid:27260836	A heterotetrameric adapter protein complex involved in cargo-internalization during clathrin-mediated endocytosis. Composed of alpha and beta subunits (large adaptins), mu and sigma subunits (minor adaptins).
+HBP00053	Kristian	Tau isoform F (441 aa)	isoform	pmid:17493042	Longest tau isoform in human brain, most commonly used as the conventional tau.
+HBP00054	Kristian	Tau isoform Fetal-tau (352 aa)	isoform	pmid:17493042	Human fetal tau isoform.
+HBP00055	Kristian	Tau isoform B (381 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00056	Kristian	Tau isoform D (383 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00057	Kristian	Tau isoform C (410 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00058	Kristian	Tau isoform E (412 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
+HBP00059	Lingling	Serpin-enzyme complex receptor	?	pmid:15160835, pmid:2160076	?
+HBP00060	Rana	neuroinflammation	pathology	pmid:26306439	inflammatory response in the brain and nervous tissue.
+HBP00061	Rana	neurotoxicity	pathology	pmid:18440072	happens when a biological, physical or chemical agent cause any adverse effect on the structure and function of the nerves system.
+HBP00062	Rana	neurite retraction	pathology	pmid:19022228	when the neurite is unable it outgrow and extend
+HBP00063	Sandra	APP695	isoform	pmid:21214928	the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)
+HBP00064	Sandra	APP751	isoform	pmid:21214928	the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)
+HBP00065	Sandra	APP770	isoform	pmid:21214928	the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)
+HBP00066	Sandra	gamma-secretase	protein complex	pmid:25565961	gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)
+HBP00067	Sandra	sAPP-alpha	protein	pmid:22491325	soluble amyloid precursor protein-alpha
+HBP00068	Sandra	Excitotoxicity	pathology	pmid:19343058	Excitotoxicity is defined as cell death resulting from the toxic actions of excitatory amino acids
+HBP00069	Sandra	C31	protein fragment	pmid:21214928	a fragment containing the last 31 amino acids of APP (called C31)
+HBP00070	Sandra	Jcasp	protein fragment	pmid:21214928	Additional gamma-cleavage further generates the fragment (called Jcasp) containing the region between gamma- and caspase-cleavage sites
+HBP00071	Sandra	AICD	domain	pmid:21214928	APP intracellular domain
+HBP00072	Sandra	p83	protein fragment	pmid:21214928	APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively
+HBP00073	Sandra	APP processing	biological process	pmid:21214928	Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)
+HBP00074	Esther	AβOs	cellular component	pmid:24685176	soluble Aβ oligomers
+HBP00075	Esther	LMW amyloid oligomers	cellular component	pmid:18723507	The formation of AβOs starts from alterations in the conformation of monomeric Aβ, resulting in low molecular weight (LMW) dimers and trimers, followed by aggregation to soluble spherical oligomers consisted of 12–24 monomers.
+HBP00076	Esther	amyloid-beta 40 oligomers	cellular component	pmid:21209907	Amyloid-beta oligomers composed specifically of amyloid-beta 40
+HBP00077	Sandra	alternative splicing of APP gene	biological process	pmid:22122372	The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition (see:GO:0000380)
+HBP00078	Sandra	E1 domain	domain	pmid:21574595	The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization
+HBP00079	Sandra	E2 domain	domain	pmid:21574595	The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization
+HBP00080	Sandra	P3 peptide	protein fragment	pmid:22137428	Cleavage by α-secretase yields the nonamyloidogenic soluble 3-kDa peptide (p3) that does not form amyloid fibrils, whereas cleavage by β-secretase yields the amyloidogenic form Aβ1–40 or the longer, more fibrillogenic Aβ1–42
+HBP00081	Sandra	C99	protein fragment	pmid:22122372	a membrane associated C-terminal fragment consisting of 99 amino acids (C99)
+HBP00082	Rana	aMCI	pathology	pmid:18986241	amnestic Mild Cognitive Impairement is a cognitive dysfunction that is associated with memory deficits
+HBP00083	Rana	mdMCI	pathology	pmid:18986241	multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is associated with more than one cognitive domain
+HBP00084	Rana	Tau isoform A (316 aa)	isoform	pmid:18986241	Human brain tau isoform, derived from alternative splicing.
+HBP00085	Rana	Tau C3	epitope	pmid:18986241	Tau epitope cleaved at aspartic acid(421).
+HBP00086	Rana	Tau MN423	epitope	pmid:18986241	Tau epitope truncated at glutamic acid(391).
+HBP00087	Sandra	granular tau oligomers	cellular component	pmid:28420982	When the oligomer lengthens, it adapts a beta-sheet structure and transforms into a detergent-insoluble aggregate with granular appearance under Atomic Force Microscopy (AFM)
+HBP00088	Sandra	Tau fibrils	cellular component	pmid:28420982	As these granular tau oligomers fuse together, they form tau fibrils, which ultimately form NFTs
+HBP00089	Sandra	dense core plaques	cellular component	pmid:17680701	Dense-core plaques are fibrillar deposits of Abeta, showing all the classical properties of amyloid including beta-sheet secondary structure, while diffuse plaques are amorphous deposits
+HBP00090	Sandra	Tau annular protofibrils	cellular component	pmid:28420982	A handful of proteins implicated in neurodegenerative diseases have been found to produce pore-like amyloid structures known as annular protofibrils (APFs)
+HBP00091	Sandra	TOC1	antibody	pmid:22817713	monoclonal antibody, named TOC1 (tau oligomeric complex 1), which selectively labels tau dimers and oligomers, but does not label filaments
+HBP00092	Esther	alpha-synuclein fibrils	cellular component	pmid:19892735	fibrillar aggregates of alpha-synuclein, found in Lewy bodies
+HBP00093	Esther	alpha-synuclein oligomers	cellular component	pmid:17374364	oligomeric aggregates of alpha-synuclein
+HBP00094	Esther	CLR01	protein	pmid:23183235	the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein
+HBP00095	Esther	prefibrillar α-synuclein oligomers	cellular component	pmid:27075649	 prefibrillar oligomers formed at early stages of α-syn assembly
+HBP00096	Kristian	GA-AGE	?	pmid:16630055, pmid:15221334	Glyceraldehyde-derived (GA) advanced glycation end products
+HBP00097	Kristian	TGM2 Isoform 3 (349 aa)	isoform	pmid:12578227	Short isoform of tissue transglutaminase
+HBP00098	Kristian	KXGS motif	motif	pmid:17304350, pmid:21215781	Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly
+HBP00099	Kristian	Corticobasal Degeneration	pathology	pmid:22057784	CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques
+HBP00100	Kristian	paired helical filaments	cellular component	pmid:22496370, pmid:1706519 	Component of NFT, consisting in a helical arrangement of tau protomers
+HBP00101	Kristian	straight filaments	cellular component	pmid:16566606, pmid:28678775	Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers
+HBP00102	Kristian	Alz50	antibody	pmid:16566606, pmid:8955115	Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation
+HBP00103	Kristian	O-GlcNAcylation	post-translational modification	pmid:16630055	A non-canonical glycosylation involving the attachment of single O-linked N-acetylglucosamine (O-GlcNAc) moieties to serine and threonine residues of cytoplasmic, nuclear, and mitochondrial proteins
+HBP00104	Kristian	glycation	post-translational modification	pmid:26655600	The non-enzymatic reaction between the electrophilic carbonyl groups of a reducing sugar and the free amino groups of tau amino acids (especially of basic lysine or arginine residues) leading to the formation of  a ketoamine (Amadori product), an intermediate of AGE synthesis.
+HBP00105	Kristian	nitration	post-translational modification	pmid:16566606	Incorporation of a nitrogen dioxide (NO2) group in tyrosine residues (mostly) of proteins forming 3-nitrotyrosine (3-NT). A biomarker of cell, tissue and systemic nitrosative stress.
+HBP00106	Kristian	polyamination	post-translational modification	pmid:25974414	The reaction of polyamination by transglutaminases (TGs) involves a glutamine (Q) as acyl donor and a lysine (K) as acyl acceptor. It generates a (gamma)-glutamyl-(epsilon)-lysine isopeptide bond that causes protein cross-linking
+HBP00107	Kristian	formylation	post-translational modification	pmid:21210655	The addition of a formyl functional group usually at the epsilon amino group of Lys residues
+HBP00108	Lingling	Syndecan Family	protein family	pmid:15241784	IterPro:IPR001050
+HBP00109	Lingling	Bacterial invasion	biological process	pmid:15241784	The process of bacteria invading a cell
+HBP00110	Lingling	dopamine homeostasis	biological process	pmid:26325389	Dopmine secrete in a homeostatic way
+HBP00111	Lingling	PINK1-Park pathway	pathway	pmid:26182419	The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287
+HBP00112	Lingling	Glutamate excitotoxicity	biological process	pmid:10196525	The excitotoxicity of Glutamate
+HBP00113	Lingling	mitochondrial homeostasis	biological process	pmid:25478815	The interplay between mitophagy and mitochondrial biogenesis.
+HBP00114	Lingling	ER mitochondria interorganellar crosstalk	biological process	pmid:25478815	reference:pmid: 22577383
+HBP00115	Lingling	Mitochondrial	pathway	pmid:23313576	reference:pmid: 22399422
+HBP00116	Lingling	oxidative protein folding	biological process	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
+HBP00117	Lingling	mitochondrial motility	biological process	pmid:25565208	The motility of mitochondria
+HBP00118	Lingling	TIM/TOM complex	protein complex	pmid:25565208	The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA.
+HBP00119	Lingling	mitochondrial aggregation	biological process	pmid:25591737	The aggregation of mitochondria
+HBP00120	Lingling	mevalonate pathway	pathway	pmid:24695221	The mevalonate pathway, also known as the isoprenoid pathway or HMG-CoA reductase pathway is an essential metabolic pathway present in eukaryotes, archaea, and some bacteria
+HBP00121	Lingling	Dopaminergic cell groups	anatomy	pmid:24695221	UBERON:dopaminergic cell groups
+HBP00122	Lingling	mitochondrial precursor protein	protein	pmid:26192197	The precursor protein of mitochondria
+HBP00123	Lingling	PDR-1	protein	pmid:26430570	the nematode homologs of Parkin
+HBP00124	Lingling	PINK-1	protein	pmid:26430570	the nematode homologs of PINK1
+HBP00125	Lingling	skn-1	protein	pmid:25896323	the nematode homologus of Skn1
+HBP00126	Lingling	ced-9	protein	pmid:25896323	the nematode homologus of Bcl-2
+HBP00127	Lingling	lgg-1	protein	pmid:25896323	the nematode homologus of Lgg1
+HBP00128	Lingling	clec-65	protein	pmid:25896323	the nematode homologus of Clec65
+HBP00129	Lingling	clec-4	protein	pmid:25896323	the nematode homologus of Clec4
+HBP00130	Lingling	WITHDRAWN	.	.	.
+HBP00131	Lingling	exotoxin A	chemical	pmid:25274306	exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease.
+HBP00132	Lingling	mitochondrial DAMPs	?	pmid:20203610	mitochondrial damage-associated molecular patterns
+HBP00133	Lingling	IκB kinase	protein complex	pmid:19880420	The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation.
+HBP00134	Lingling	non-shivering thermogenesis	?	pmid:16224498	Nonshivering thermogenesis was originally defined as a cold-induced increase in heat production not associated with the muscle activity of shivering. Recent research shows it to be a metabolic process located primarily in brown adipose tissue and controlled by the activity of the sympathetic nervous supply of this tissue.PMID: 6722594
+HBP00135	Lingling	hsp-16	protein	pmid:22700657	the nematode homologus of hsp16
+HBP00136	Lingling	heat shock proteins	protein family	pmid:15280428	Heat shock proteins (HSP) are a family of proteins that are produced by cells in response to exposure to stressful conditions. They were first described in relation to heat shock,
+HBP00137	Lingling	high-calorie diets	exposure	pmid:10412986	Diets with high calorie.
+HBP00138	Lingling	proteotoxicity	pathology	pmid:24149988	To function, proteins must undergo a folding process that gives them the proper three dimensional structure. Numerous genetic and biochemical observations suggest that proteins that fail to fold properly impair cell function. This process, also referred to as proteotoxicity, is particularly important to the fate of non-renewable cells of long-lived organisms in which malfolded proteins (proteotoxins) can exert their deleterious influence over extended periods of time.reference:Proteotoxicity and Aging
+HBP00139	Lingling	ss20399075	variant	pmid:15122513	A SNP located within the 3' UTR of FGF20, is significantly associated with PD risk
+HBP00140	Lingling	Alpha-synuclein Oligomerization	biological process	pmid:21296890	The formation of alpha-synuclein oligmer
+HBP00141	Lingling	D6S253	?	pmid:9560156	A microsatellite markers for Alzheimer’s and Parkinson’s Diseases
+HBP00142	Lingling	D6S305	?	pmid:9560156	A microsatellite markers for Alzheimer’s and Parkinson’s Diseases
+HBP00143	Lingling	MTHFR,TT+AA	?	pmid:17914182	In Parkinson's Disease, TT+AA is more frequent in MTHFR gene.
+HBP00144	Lingling	CAG repeats	motif	pmid:22782013	CAG repeats in genes.
+HBP00145	Lingling	Gastrointestinal dysfunctions	pathology	pmid:24467967	The function of gastrotestine disorder.
+HBP00146	Lingling	olfactory epithelium	anatomy	pmid:22691461	UBERON:olfactory epithelium
+HBP00147	Lingling	nasal cycle	?	pmid:23569018	The nasal cycle is the often unnoticed alternating partial congestion and decongestion of the nasal cavities in humans and other animals. It is a physiological congestion of the nasal concha, also called the nasal turbinate, due to selective activation of one half of the autonomic nervous system by the hypothalamus.
+HBP00148	Lingling	hyposmia	pathology	pmid:23933572	Hyposmia is a reduced ability to smell and to detect odors.Hyposmia might be a very early sign of Parkinson's disease. Hyposmia is also an early and almost universal finding in Alzheimer's disease and dementia with Lewy bodies. Lifelong hyposmia could be caused by Kallmann syndrome.
+HBP00149	Lingling	FMR1,(55-200 CGG)	variant	pmid:24332449	A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein.
+HBP00150	Lingling	pof14	?	pmid:17016471	a new member of the F-box family, Pof14, which forms a canonical
+HBP00151	Lingling	Neuroglia	anatomy	pmid:19248803	MeSH Unique ID: D009457
+HBP00152	Lingling	GDNF Family	chemical class	pmid:10383122	The GDNF family of ligands (GFL) consists of four neurotrophic factors: glial cell line-derived neurotrophic factor (GDNF), neurturin (NRTN), artemin (ARTN), and persephin (PSPN). GFLs have been shown to play a role in a number of biological processes including cell survival, neurite outgrowth, cell differentiation and cell migration. In particular signalling by GDNF promotes the survival of dopaminergic neurons.
+HBP00153	Lingling	Motor Neurons	anatomy	pmid:10383122	MeSH Unique ID: D009046
+HBP00154	Lingling	noradrenergic neuron	anatomy	pmid:10383122	Cell:noradrenergic neuron
+HBP00155	Lingling	midbrain dopaminergic neuron	anatomy	pmid:10383122	Cell:midbrain dopaminergic neuron
+HBP00156	Lingling	Neurites	anatomy	pmid:23872421	A neurite or neuronal process refers to any projection from the cell body of a neuron.
+HBP00157	Lingling	GRB10,BPS domain	domain	pmid:25268761	BPS domain of protein GRB10
+HBP00158	Lingling	common fragile site	cellular component	pmid:12874785	A chromosomal fragile site is a specific heritable point on a chromosome that tends to form a gap or constriction and may tend to break when the cell is exposed to partial replication stress.Based on their frequency, fragile sites are classified as common or rare.To date, more than 120 fragile sites have been identified in the human genome.
+HBP00159	Lingling	PARK7-alpha helices	domain	pmid:18707128	The alpha helices of PARK7 protein
+HBP00160	Lingling	cleaved PINK1	protein fragment	pmid:21138942	The cleaved part of Protein PINK1
+HBP00161	Lingling	neurovascular unit	anatomy	pmid:25136294	The brain hyperaemia, or coupling, is accomplished by a group of cells, closely related to each other; called neurovascular unit (NVU). The neurovascular unit is composed by neurones, astrocytes, endothelial cells of blood-brain barrier (BBB), myocytes, pericytes and extracellular matrix components. reference:PMID: 24629161
+HBP00162	Lingling	Muscles	anatomy	pmid:21151955	MeSH Unique ID: D009132
+HBP00163	Lingling	Neural Stem Cell	anatomy	pmid:22357600	MeSH Unique ID: D058953
+HBP00164	Lingling	Ventral Tegmental Area	anatomy	pmid:16190884	MeSH Unique ID: D017557
+HBP00165	Lingling	Pars Compacta	anatomy	pmid:16190884	MeSH Unique ID: D065842
+HBP00166	Kristian	proline-rich domain	domain	pmid:25974414, pmid:8068626, pmid:9190213	Correspounding to residues I151 to Q244 of the 441 aa tau isoform, separated into P1 and P2. Possible role in tau's functional stabilization through the reported intramolecular interaction of P2 with R1, R2 and R4 from the microtubule-binding region
+HBP00167	Charlie	lys-2	protein	pmid:25896323	the nematode homologus of Lys2
+HBP00168	Charlie	abf-2	protein	pmid:25896323	the nematode homologus of Abf2
+HBP00169	Sandra	hydrophobic pocket of actin	domain	pmid:21314430	 The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament
+HBP00170	Sandra	310-helix	motif	pmid:12761385	The 310-helix is the fourth most common type of secondary structure in proteins after α-helices, β-sheets, and reverse turns (Barlow and Thornton 1988). Approximately 15%–20% of all helices in protein structures are 310-helices, which are commonly found as N- or C-terminal extensions to an α-helix (Barlow and Thornton 1988). 310-Helices in proteins are typically only three to five residues long compared with a mean of 10–12 residues for α-helices (Richardson and Richardson 1988)
+HBP00171	Rana	Amylin Antagonist AC253	peptide	pmid:22500019	Amino Acid Sequence: Ac-Leu-Gly-Arg-Leu-Ser-Gln-Glu-Leu-His-Arg-Leu-Gln-Thr-Tyr-Pro-Arg-Thr-Asn-Thr-Gly-Ser-Asn-Thr-Tyr-NH2
+HBP00172	Rana	CDK5R1 p25	protein	pmid:10830966	The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment
+HBP00173	Sandra	PTI-125	chemical	pmid:28438486	PTI-125 is a small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies
+HBP00174	Sandra	alpha-4 beta-2 nAChR	protein complex	pmid:24828779	In addition to nAChRs forming from different subunit assemblages, stoichiometric study has shown that α4β2 nAChRs can form as either (α4)3(β2)2 or (α4)2(β2)3, the latter having a greater affinity for both nicotine and Ach
+HBP00175	Sandra	alpha-7 beta-2 nAChR	protein complex	pmid:27179601	Accumulating evidence demonstrates that these α7 and β2 nAChR subunits can co-assemble to form functional α7β2 nAChRs in heterologous expression systems, and also under natural conditions in the brain (Figure 1)
+HBP00176	Sandra	beta-2-containing nAChR	protein complex	pmid:24828779	The β2 subunit can couple with non-α4 subunits, including α2, α3 and α6 subunits to form functionally distinct nAChRs, but these receptors are much less densely expressed in the central nervous system relative to α4β2* nAChRs (*indicating potential assemblage of β2 subunits with non-α4 subunits)
+HBP00177	Rana	Abeta*56	cellular component	pmid:16541076	56 kDa soluble amyloid-β (Aβ) assembly
+HBP00178	Charlie	protein aggregates	cellular component	pmc:PMC2633703,pmid:23254192,pmid:12747895,pmid:23484434	Aggregates of proteins or fragments of proteins
+HBP00179	Rana	sAPP-gamma	protein fragment	pmid:12105112	results from the cleavage of beta APP by gamma-secretase
+HBP00180	Sandra	alpha-6-containing nAChR	protein complex	pmid:28445721, pmid:19498417	alpha6-containing receptors, which in brain occur as heteropentamers with beta2 and beta3 and are especially enriched in presynaptic nerve terminals in striatum (Champtiaux et al.,2002)
+HBP00181	Kristian	phosphatase-activating domain	domain	pmid:26671985, pmid:28413156	Tau domain located in the N-terminal region encompassing residues 2-18. It activates phosphatase PP1 which dephosphorylates Ser9 in GSK3Beta and leads to its activation. In normal tau, both NTD and CTD are folded back in proximity to each other forming a 'paper-clip' conformation, which masks the PAD. Phosphorylation in the AT8 epitope, disrupts this normal conformational state, exposing the PAD by moving away the terminal domains.
+HBP00182	Kristian	cystein-dependent auto-acetylation	biological process	pmid:28002468, pmid:27383765	Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines.
+HBP00183	Kristian	GVD bodies	cellular component	pmid:26501932	Pathological hallmarks of Alzheimer Disease, consisting in intraneuronal accumulations of large membrane-bound vacuoles. Associated with the late stages of disease progression, they were also shown to be immunopositive or GSK3Beta and SYK (Spleen Tyrosine Kinase).
+HBP00184	Kristian	advanced glycation end product	chemical class	pmid:28176663	Advanced glycation end products (AGEs) are the production of Maillard reaction between carbohydrates and proteins. They cause neurotoxicity via production of ROS followed by an increase in expression of APP and amyloid beta. Recent analysis implicates them in tau phosphorylation.
+HBP00185	Kristian	long-term potentiation	?	pmid:27041503	A long lasting enhancement in synaptic transmission between two neurons, most commonly studied in the synapse between the Schaffer collateral axons of the CA3 neurons and the CA1 pyramidal neurons of the hippocampus. Alongside the LTD (long-term depression) represent the two mechanisms of memory formation and storage. Impairment of this process in AD is caused by soluble oligmoeric amyloid beta.
+HBP00186	Kristian	proline-rich region 1	domain	pmid:21757739	Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin.
+HBP00187	Kristian	proline-rich region 2	domain	pmid:21757739	Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin.
+HBP00188	Kristian	assembly domain	domain	pmid:21757739	Tau assembly domain consists of the second part of the proline-rich region (PR2), MTBR and CTD, corresponding to residues 199-441 of the canonical tau isoform.
+HBP00189	Kristian	CRL4 complex	protein complex	pmid:27325702	Cullin-RING E3 ubiquitin ligase complex 4, consisting of CUL4(A,B), DDB1 and CRBN.
+HBP00190	Kristian	APP, ACR	domain	pmid:27325702	Cytosolic region of APP, responsible for interacting with E3 ubiquitin ligases among other proteins.
+HBP00191	Kristian	tubulin detyrosination	post-translational modification	pmid:25974414	Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus. Promoted by Tau truncation in the Gln124 residue.
+HBP00192	Kristian	Microgliosis	biological process	pmid:29121589	An intense reaction of microglia following CNS insult, characterized by active proliferation and retracted cellular processes. In AD, accumulation of Abeta can be a possible cause of such physiological phenomenon, as microglia is seen surrounding senile plaques. Abeta interaction with microglial pattern recognition receptors (PRRs) leads to NLRP3 inflammasome activation, production of toxic NOS and ROS and release of proinflammatory cytokines.
+HBP00193	Kristian	Astrogliosis	biological process	pmid:29121589	Morphological and functional changes observed in astrocytes in the context of their physiological response to CNS trauma or injury caused by ischemia, stroke, autoimmune disorders and neurodegeneration.
+HBP00194	Kristian	CK1 superfamily	protein family	pmid:25673844	The CK1 group of eukaryotic protein kinases are composed of seven CK1 isoforms (CK1α, CK1α2, CK1δ, CK1ε, CK1γ1, CK1γ2, and CK1γ3), two Tau–tubulin kinase isoforms (TTBK1 and TTBK2), and three VRK isoforms (VRK1, VRK2, and VRK3)
+HBP00195	Esther	alpha-4-containing nAChR	protein complex	pmid:21787755	nAChRs that bind radiolabeled nicotine with the highest afﬁnity contain a4 subunits (a4*-nAChR)
+HBP00196	Esther	alpha-4 beta-4 nAChR	protein complex	pmid:21787755	a4 subunits can also assemble with b4 subunits to form a4b4-nAChRs that have comparably high nicotine afﬁnity
+HBP00197	Esther	alpha-7-containing nAChR	protein complex	pmid:21787755	Another prominent nAChR subtype found in vertebrate central and autonomic nervous systems contains a7 subunits.
+HBP00198	Esther	alpha-Bungarotoxin	chemical	pmid:21787755	Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake).
+HBP00199	Esther	alpha-3 beta-2 nAChR	protein complex	pmid:21787755	nAChRs containing the a3b2 subunit interface
+HBP00200	Esther	kappa-Bungarotoxin	chemical	pmid:21787755, pmid:3359187	kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)
+HBP00201	Sandra	VU10010	chemical	pmid:24511233, pmid:18059262	highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide
+HBP00202	Sandra	VU0456940	chemical	pmid:24511233	M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one
+HBP00203	Sandra	VU0152099	chemical	pmid:24511233	selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide
+HBP00204	Sandra	VU0029767	chemical	pmid:24590577	selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide
+HBP00205	Sandra	VU0090157	chemical	pmid:24590577	selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate
+HBP00206	Sandra	VU0184670	chemical	pmid:24590577	M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride
+HBP00207	Kristian	2-Bromohexadecanoic acid	chemical	pmid:18096814	Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death.
+HBP00208	Kristian	20 S Proteasome	protein complex	pmid:17954934, pmid:19145068	The catalytic core of the 26 S proteasome system, responsible for tau degradation
+HBP00209	Kristian	3-3 dityrosine cross-linking	?	pmid:16566606, pmid: 24351276	An oxidation product consisting of covalent ortho-ortho coupling between two tyrosine residues formed as a conseguence to UV irradiation, gamma-irradiation, aging, exposure to oxygen free radicals, nitrogen dioxide, peroxynitrite, and lipid hydroperoxides.  ROS catalyzed by Cu ions are involved in the generation of these cross-links in amyloid beta oligomers to which they provide stability. Also involved in the stabilization of tau PHF. A potential biomarker of oxidative stress in AD.
+HBP00210	Kristian	Braak_Stage I	?	pmid:28176663, pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping.
+HBP00211	Kristian	Braak_Stage II	?	pmid:28176663, pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping.
+HBP00212	Kristian	Braak_Stage III	?	pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage III is characterised by the destruction of the external principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads.
+HBP00213	Kristian	Braak_Stage IV	?	pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage IV is characterised by the destruction of the internal principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads. The destruction of entorhinal cellular layers interferes with the normal transfer of information between neocortex and hippocampus, manifesting as cognitive impairment and subtle personality changes.
+HBP00214	Kristian	Braak_Stage V	?	pmid:28176663, pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD.
+HBP00215	Kristian	Braak_Stage VI	?	pmid:7566337	A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD.
+HBP00216	Kristian	CagA peptide	peptide	pmid:23666762, pmid:19966800	A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation
+HBP00217	Kristian	MARK4 isoform 2 (688 aa)	isoform	pmid:16973293	Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation.
+HBP00218	Kristian	NP_001387.2:p.Arg205del	variant	pmid:28167836	Loss of function mutant of DYRK1A isoform 1
+HBP00219	Kristian	NP_001387.2:p.Glu239del	variant	pmid:28167837	Loss of function mutant of DYRK1A isoform 1
+HBP00220	Kristian	PrP106-126	protein fragment	pmid:22692785	Prion protein fragment 106-126. This peptide increases membrane microviscosity, intracellular Ca2+ concentration and cell migration in circulating leucocytes, and oxygen production in monocytes and neutrophils. It also induces apoptotic cell death and impairment of L-type voltage-sensitive calcium channel activity in the GH3 cell lines. PrP (106–126) stimulates leucocyte migration in a dose-dependent manner. Inhibits tau phosphorylaton at Ser262. Seq = KTNMKHMAGAAAAGAVVGGLG
+HBP00221	Kristian	Purkinje cell layer of cerebellar cortex	anatomy	pmid:29221819	The Purkinje cell layer lies just underneath the molecular layer of the cerebellar cortex. It contains the neuronal cell bodies of the Purkinje cells that are arranged side by side in a single layer. Candelabrum interneurons are vertically oriented between the Purkinje cells. Purkinje neurons are inhibitory and provide the output of the cerebellar cortex through axons that project into the white matter. Extensive dendritic trees from the Purkinje cells extend upward in a single plane into the molecular layer where they synapse with parallel fibers of granule cells.
+HBP00222	Kristian	Tau antibody, AGG5759	antibody	pmid:23666762	Tau antibody with specificity for pSer262
+HBP00223	Kristian	Tau antibody, Tau-13	antibody	pmid:23666762	Tau murine monoclonal antibody with specificity for pSer262
+HBP00224	Kristian	Tau epitope, 12E8	epitope	pmid:22156579	Tau epitope consisting of pSer262 and pSer356
+HBP00225	Kristian	Tau epitope, AT180	epitope	pmid:22833681	Tau epitope consisting of pThr231
+HBP00226	Kristian	Tau epitope, AT8	epitope	pmid:18239272	Tau epitope consisting of pSer202, pThr205, pSer208, pSer199
+HBP00227	Kristian	Tau epitope, CP13	epitope	pmid:25331948	Tau epitope consisting of pSer202
+HBP00228	Kristian	Tau epitope, PHF1	epitope	pmid:22156579	Tau epitope consisting of pSer396, pSer404
+HBP00229	Kristian	dystrophic neurite	?	pmid:28877763	Dysfunctional axons and terminals that accumulate the β-site amyloid precursor protein (APP) cleaving enzyme (BACE1) required for Aβ generation.
+HBP00230	Kristian	granular layer of cerebellar cortex	anatomy	pmid:29221819	The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer
+HBP00231	Kristian	molecular layer of cerebellar cortex	anatomy	pmid:29221819	The molecular layer is the outermost layer of the cerebellar cortex. It contains the parallel fibers of the granule cells, interneurons such as stellate and basket cells, and the dendrites of the underlying Purkinje cells
+HBP00232	Kristian	Kalirin 7	isoform	pmid:27796283	Isoform of KALRN protein
+HBP00233	Kristian	4R tauopathy	pathology	pmid:21427723	Tauopathies characterized by a relatively higher presence of the 4R tau isoforms, such as Alzheimers Disease and Corticobasal Degeneration
+HBP00234	Kristian	ACY-1215	chemical	pmid:24844691	Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells.
+HBP00235	Kristian	APOE e3	variant	pmid:26751493	Interacts with tubulin binding repeat 1
+HBP00236	Kristian	BAY61-3606	chemical	pmid:25331948	A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity
+HBP00237	Kristian	Biphenyl-4-yl-acrylohydroxamoc acids	chemical class	pmid:26890116	Chemical compund group acting as inhibitors of HDAC family proteins.
+HBP00238	Kristian	Brodmann (1909) area 36	anatomy	pmid:23407988	Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. With its medial boundary corresponding approximately to the rhinal sulcus it is located primarily in the fusiform gyrus. Cytoarchitecturally it is bounded laterally and caudally by the inferior temporal area 20, medially by the perirhinal area 35 and rostrally by the temporopolar area 38 (H) (Brodmann-1909). Together with Brodmann area 35, it comprises the perirhinal cortex.
+HBP00239	Kristian	C-30-27	chemical	pmid:25672970	PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition
+HBP00240	Kristian	C646	chemical	pmid:20869593	Inhibitor of EP300 acetylase
+HBP00241	Kristian	CA1 field of hippocampus	anatomy	pmid:23407988	Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals.
+HBP00242	Kristian	CA2 field of hippocampus	anatomy	pmid:23407988	Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus
+HBP00243	Kristian	CA3 field of hippocampus	anatomy	pmid:23407988	Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers.
+HBP00244	Kristian	CA4 field of hippocampus	anatomy	pmid:23407988	The last of four regions in the cornu ammonis of the hippocampus and is also part of the hilus of the dentate gyrus. This area contains mostly mossy cells that receive inputs from the dentate gyrus and pyramidal cells in the CA3 region and also projects back to the dentate gyrus.
+HBP00245	Kristian	CGP3466B	chemical	pmid:29559585	Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD
+HBP00246	Kristian	CM-414	chemical	pmid:27550730	A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity.
+HBP00247	Kristian	DAPK, basic loop (BL) motif	motif	pmid:27133022	A structural motif of DAPK (Death-Associated Protein Kinase) positively regulating the kinase activity.
+HBP00248	Kristian	Histone H3	protein	pmid:24686445	One of the five main histone proteins of chromatin structure, acetylation at Lys 9 was positively linked with the transcriptional activation of various genes involved in neuro-regeneration following peripheral axonal injury, among which BDNF.
+HBP00249	Kristian	ID-8	chemical	pmid:28884684	Inhibitor of GSK3Beta and DYRK1 kinases
+HBP00250	Kristian	LDN-193594	chemical	pmid:23737518	A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation
+HBP00251	Kristian	LDN-193665	chemical	pmid:23737518	A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b
+HBP00252	Kristian	LDN-213843	chemical	pmid:23737518	Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases
+HBP00253	Kristian	Long-Term Depression	pathology	pmid:22833681	A gradual weakening of neuronal synaptic connections lasting hours or longer following a long patterned stimulus. Along with LTP (long term potentiation) is one of the main mechanisms of memory formation, more specifically of spatial memory. The mechanism involves an interplay of NMDA and AMPA glutamate receptors, with minimal intracellular calcium levels triggering a cellular cascade leading to the removal of the latter and an overall decrease of the glutammate receptors in the postsynaptic neurons, thus weakening the synapse.
+HBP00254	Kristian	Pathological Tau Spreading	pathology	pmid:29540553	Pathological spreading pattern of tau into defined anatomycally interconnected brain regions during the progression of tauopathy.
+HBP00255	Kristian	PrPSc	isoform	pmid:22692785, pmid:29414853	PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types.
+HBP00256	Kristian	Tau Protein Secondary Structure, Turn	?	pmid:28784767	A turn-like structure formed in tau as a conseguence of the phosphorylation of only Ser202 and Thr205 residues, protects against aggregation.
+HBP00257	Kristian	Tau antibody, RG7345	antibody	pmid:26751493, pmid:10967355	RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron.
+HBP00258	Kristian	RGFP966	chemical	pmid:28771976	Selective inhibitor of HDAC3
+HBP00259	Kristian	SL-327	chemical	pmid:24401760	Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A
+HBP00260	Kristian	Spinocerebellar Ataxia 11	pathology	pmid:21548880	Spinocerebellar ataxia type 11 (SCA11) is characterized by progressive cerebellar ataxia and abnormal eye signs (jerky pursuit, horizontal and vertical nystagmus). Caused by mutations in the TTBK2 (Tau Tubulin Kinase 2) gene, is inherited in an autosomal dominant manner.
+HBP00261	Kristian	ST7612AA1	chemical	pmid:27917100	A thiol derivative, pan-HDAC inhibitor
+HBP00262	Kristian	Tau antibody, AGG5759	antibody	pmid:23666762	Rabbit polyclonal antibody against tau pSer262, AstraZeneca
+HBP00263	Kristian	Tau epitope, AD2	epitope	pmid:11943212	Tau epitope consisting of pThr396 and pSer404
+HBP00264	Kristian	Tau epitope, AP422	epitope	pmid:11943212	Tau epitope consisting of pSer422
+HBP00265	Kristian	Tau epitope, AT100	epitope	pmid:22833681	Tau epitope consisting of pSer212 and pThr214
+HBP00266	Kristian	Tau epitope, AT270	epitope	pmid:11943212	Tau epitope consisting of pThr181
+HBP00267	Kristian	Thiamet G	chemical	pmid:22833681	Inhibitor of O-GlcNAcase (OGA)
+HBP00268	Kristian	Thioflavin S	chemical	pmid:7667312	Dye binding to PHF used in AD diagnostics
+HBP00269	Kristian	Trithiocarbonates	chemical class	pmid:18558669	Chemical compound group of susbtrate competitive selective HDAC6 inhibitors
+HBP00270	Kristian	Tubacin	chemical	pmid:23487739	Inhibitor of HDAC6
+HBP00271	Kristian	Tubastatin A	chemical	pmid:24844691	Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load
+HBP00272	Kristian	USP14 Aptamer	chemical	pmid:26041011	Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme.
+HBP00273	Kristian	cholinergic neuron	anatomy	pmid:29221819	A neuron that uses acetylcholine as a vesicular neurotransmitter.
+HBP00274	Kristian	cerebral cortex	anatomy	pmid:29221819	The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex.
+HBP00275	Kristian	crebinostat	chemical	pmid:25546293	Inhibitor of HDAC6
+HBP00276	Kristian	diaminothiazole	chemical class	pmid:23737518	Compound class with kinase inhibition properties, specifically for CDK5 and GSK3Beta
+HBP00277	Kristian	entorhinal cortex layer 2	anatomy	pmid:27798139	Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex.
+HBP00278	Kristian	granular layer of cerebellar cortex	anatomy	pmid:29221819	The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer.
+HBP00279	Kristian	indirubin	chemical	pmid:11013232	A powerful inhibitor of GSK3B
+HBP00280	Kristian	isocarboxazide	chemical	pmid:26751493	Inhibitor of tau aggregation
+HBP00281	Kristian	isopentanyladenine	chemical	pmid:8726973	Inhibitor of CKD5 activity
+HBP00282	Kristian	maitotoxin	chemical	pmid:10537045	Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former
+HBP00283	Kristian	olomoucine	chemical	pmid:8726973	Inhibitor of CKD5 activity
+HBP00284	Kristian	oxazolidinedione	chemical	pmid:26751493	Inhibitor of tau aggregation
+HBP00285	Kristian	sudoxicam	chemical	pmid:26751493	Inhibitor of tau aggregation
+HBP00286	Kristian	thiohydantoin	chemical	pmid:26751493	Inhibitor of tau aggregation
+HBP00287	Kristian	thioxooxazolidine	chemical	pmid:26751493	Inhibitor of tau aggregation
+HBP00288	Kristian	tideglusib	chemical	pmid:22102280	Irreversibly inhibits GSK3B activity
+HBP00289	Rana	Tau antibody, 6C5	antibody	pmid:28408124	human monoclonal antibody that targets tau epitope 125-131
+HBP00290	Rana	Tau antibody, HT7	antibody	pmid:28408124	mouse monoclonal antibody that targets tau epitope 159-163
+HBP00291	Sandra	6-O-sulfated heparin	?	pmid:24878958	During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)
+HBP00292	Sandra	2-O-sulfated heparin	?	pmid:24878958	During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)
+HBP00293	Sandra	sonicated tau fibrils	cellular component	pmid:29686391	To make sonicated fibril samples, fibrillized protein was sonicated using a MiSonix Sonicator 4000 (QSonica, LLC) at 50% amplitude for 60 1 s pulses
+HBP00294	Rana	Tau antibody, 40E8	antibody	pmid:28408124	human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)
+HBP00295	Rana	Tau antibody, pS396	antibody	pmid:28408124	rabbit polyclonal antibody that targets tau pS396
+HBP00296	Rana	Tau antibody, 4E4	antibody	pmid:28408124	human monoclonal antibody that targets tau epitope 385-395
+HBP00297	Rana	Tau antibody, Tau46	antibody	pmid:28408124	mouse monoclonal antibody that targets tau epitope 404-441
+HBP00298	Kristian	cis p-tau	protein	pmid:23157676, pmid:25628064	The cis conformation of phosphorylated tau is considered to be the main pathogenic tau agent associated with AD neurological impairments. PIN1, a peptidyl-prolyl-cis-transe isomerase, catalizes the rotation of the peptidic bond directly before proline residues inducing a conversion toward the trans conformation, therefore reducing the presence of the pathogenic cis tau isomers.
+HBP00299	Kristian	MPT0G211	chemical	pmid:29844403	MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells.
+HBP00300	Kristian	peripheral nervous system injury	pathology	pmid:24686445	PNS injuries initiate a signaling cascade that induces neuroregeneration. This cascade involves activation of ERK, subsequently leading to the activation of PCAF (KAT2B), which in turn mediates histone 3 acetylation, paving the way for transcriptional activation of the key genes in the regeneration program.
+HBP00301	Kristian	Tau antibody, TNT1	antibody	pmid:27260838	Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau
+HBP00302	Kristian	Tau antibody, TNT2	antibody	pmid:27260838	Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau
+HBP00303	Kristian	8-nitro-cGMP	chemical	pmid:28213625, pmid:27601475	One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers.
+HBP00304	Kristian	Tau dimers	cellular component	pmid:27373205, pmid:10899437	A key intermediate product of tau oligomerization to PHF and NFT formation, they consist of covalently linked antiparallel tau monomers presenting disulfide cross links between cystein residues.
+HBP00305	Kristian	polysumoylation	post-translational modification	pmid:12506199	A post-translational modification consisting on the addition and covalent bonding of multiple SUMO (small ubiquitin-like modifiers) proteins to lysine residues of target proteins, mediating a wide range of physiological functions. Polysumoylation of APP was found to reduce the generation of amyloid beta peptides, while mono or under-sumoylation enhance Ab generation.
+HBP00306	Kristian	detyrosination	post-translational modification	pmid:25974414	Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus.
+HBP00307	Charlie	Tau antibody	antibody	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Antibodies for the Tau protein (HGNC:MAPT)
+HBP00308	Charlie	Tau epitope	epitope	pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762	Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)
+HBP00309	Charlie	S 24795	chemical	pmid:18187166, pmid:18265960, pmid:18034231	A partial agonist at α7 nAChR
+HBP00310	Charlie	GTS-21	chemical	pmid:25514383	GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent.
+HBP00311	Rana	alpha-4 alpha-5 beta-2 nAChR	protein complex	pmid:19721446	nAChR subtype found in cortex, hippocampus and neostriatum
+HBP00312	Rana	alpha-3 beta-4 nAChR	protein complex	pmid:19721446	nAChR subtype found in hippocampus, pineal gland and cerebellum
+HBP00313	Rana	alpha-3 beta-3 beta-4 nAChR	protein complex	pmid:19721446	nAChR subtype found in habenula and interpeduncular nucleus
+HBP00314	Rana	alpha-6 beta-2 beta-3 nAChR	protein complex	pmid:19721446	nAChR subtype found in locus coeruleus, substantia nigra and neostriatum
+HBP00315	Rana	alpha-2 beta-2 nAChR	protein complex	pmid:19721446	nAChR subtype found in interpeduncular nucleus
+HBP00316	Rana	alpha-6 alpha-4 beta-2 beta-3 nAChR	protein complex	pmid:19721446	nAChR subtype found in neostriatum
+HBP00317	Sandra	protein aggregation	biological process	pmid:11831622	Protein aggregation occurs in vivo as a result of improper folding or misfolding

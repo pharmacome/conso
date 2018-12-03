@@ -12,7 +12,22 @@ from typing import Iterable, Set
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 HBP_IDENTIFIER = re.compile('^HBP(?P<number>\d{5})$')
-NUMBER_TERM_COLUMNS = 5
+NUMBER_TERM_COLUMNS = 6
+CURATOR_COLUMN = 1
+WITHDRAWN_COLUMN = 2
+NAME_COLUMN = 2
+TYPE_COLUMN = 3
+REFERENCES_COLUMN = 4
+DESCRIPTION_COLUMN = 5
+CURATORS = {
+    'Charlie',
+    'Rana',
+    'Sandra',
+    'Lingling',
+    'Esther',
+    'Kristian',
+    'Daniel'
+}
 
 
 def get_terms(path: str, classes: Set[str]) -> Iterable[str]:
@@ -49,6 +64,9 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             print_fail(f'{path}, line {i}: Indexing scheme broken: {term}')
             continue
 
+        if line[CURATOR_COLUMN] not in CURATORS:
+            print_fail(f'{path}, line {i}: Invalid curator: {line[0]}')
+
         if len(line) < NUMBER_TERM_COLUMNS:
             print_fail(f'{path}, line {i}: Not enough fields (only found {len(line)}/{NUMBER_TERM_COLUMNS}): {line}')
             continue
@@ -58,9 +76,9 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
                        f'(found {len(line)}/{NUMBER_TERM_COLUMNS}) on line {i}: {line}')
             continue
 
-        if line[1] == 'WITHDRAWN':
+        if line[WITHDRAWN_COLUMN] == 'WITHDRAWN':
             print_fail(f'{term} was withdrawn')
-            if not all(entry == '.' for entry in line[2:]):
+            if not all(entry == '.' for entry in line[WITHDRAWN_COLUMN + 1:]):
                 print_fail(f'{path}: Wrong formatting for withdrawn term line {i}: '
                            f'Use periods as placeholders.')
             continue
@@ -69,11 +87,11 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             print_fail(f'{path}, line {i}: Missing entries: {line}')
             continue
 
-        if line[2] not in classes:
+        if line[TYPE_COLUMN] not in classes:
             print_fail(f'{path}, line {i}: Invalid class: {line[2]}')
             continue
 
-        references = line[3].split(',')
+        references = line[REFERENCES_COLUMN].split(',')
         references_split = [reference.strip().split(':') for reference in references]
 
         if not all(len(reference) == 2 for reference in references_split):
@@ -91,7 +109,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             )
             continue
 
-        if '"' in line[4]:
+        if '"' in line[DESCRIPTION_COLUMN]:
             print_fail(f'{path}, line {i}: can not use double quote in description column')
             continue
 
