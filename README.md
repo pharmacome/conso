@@ -21,6 +21,11 @@ relevant to neurodegenerative disease.
 
 ## Contents
 
+### classes.tsv
+
+This file (currently just a list), contains all 
+of the classes to which terms belong.
+
 ### terms.tsv
 
 This tab-separated values file contains four columns describing 
@@ -28,6 +33,7 @@ entities in the HBP terminology:
 
 1. Identifier
 2. Label
+2. Class
 3. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
 4. Description (no double quote characters allowed)
 
