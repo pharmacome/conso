@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181119
-CreatedDateTime=2018-11-19T10:27:58
+VersionString=20181128
+CreatedDateTime=2018-11-28T21:43:11
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -90,6 +90,7 @@ GA-AGE|ABCGMOPR
 GAL80TS|ABCGMOPR
 GDNF Family|ABCGMOPR
 GRB10,BPS domain|ABCGMOPR
+GTS-21|ABCGMOPR
 GVD bodies|ABCGMOPR
 Gastrointestinal dysfunctions|ABCGMOPR
 Glutamate excitotoxicity|ABCGMOPR
@@ -140,6 +141,7 @@ Pro3-GIP|ABCGMOPR
 Purkinje cell layer of cerebellar cortex|ABCGMOPR
 RAC1b|ABCGMOPR
 RGFP966|ABCGMOPR
+S 24795|ABCGMOPR
 SEN-1269|ABCGMOPR
 SL-327|ABCGMOPR
 ST7612AA1|ABCGMOPR
@@ -205,10 +207,16 @@ YENPTY endocytosis motif (APP)|ABCGMOPR
 aMCI|ABCGMOPR
 abf-2|ABCGMOPR
 advanced glycation end product|ABCGMOPR
+alpha-2 beta-2 nAChR|ABCGMOPR
 alpha-3 beta-2 nAChR|ABCGMOPR
+alpha-3 beta-3 beta-4 nAChR|ABCGMOPR
+alpha-3 beta-4 nAChR|ABCGMOPR
+alpha-4 alpha-5 beta-2 nAChR|ABCGMOPR
 alpha-4 beta-2 nAChR|ABCGMOPR
 alpha-4 beta-4 nAChR|ABCGMOPR
 alpha-4-containing nAChR|ABCGMOPR
+alpha-6 alpha-4 beta-2 beta-3 nAChR|ABCGMOPR
+alpha-6 beta-2 beta-3 nAChR|ABCGMOPR
 alpha-6-containing nAChR|ABCGMOPR
 alpha-7 beta-2 nAChR|ABCGMOPR
 alpha-7-containing nAChR|ABCGMOPR
@@ -305,6 +313,7 @@ proline-rich domain|ABCGMOPR
 proline-rich region 1|ABCGMOPR
 proline-rich region 2|ABCGMOPR
 protein aggregates|ABCGMOPR
+protein aggregation|ABCGMOPR
 proteotoxicity|ABCGMOPR
 sAPP-alpha|ABCGMOPR
 sAPP-beta|ABCGMOPR

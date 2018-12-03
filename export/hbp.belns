@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181119
-CreatedDateTime=2018-11-19T10:27:58
+VersionString=20181128
+CreatedDateTime=2018-11-28T21:43:11
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -325,3 +325,12 @@ HBP00305|ABCGMOPR
 HBP00306|ABCGMOPR
 HBP00307|ABCGMOPR
 HBP00308|ABCGMOPR
+HBP00309|ABCGMOPR
+HBP00310|ABCGMOPR
+HBP00311|ABCGMOPR
+HBP00312|ABCGMOPR
+HBP00313|ABCGMOPR
+HBP00314|ABCGMOPR
+HBP00315|ABCGMOPR
+HBP00316|ABCGMOPR
+HBP00317|ABCGMOPR

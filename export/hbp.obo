@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:11:2018 10:27
+date: 28:11:2018 21:44
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -328,6 +328,7 @@ name: Tau isoform B (381 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "microtubule-associated protein tau isoform 7" EXACT []
 synonym: "1N3R" EXACT []
+synonym: "htau37" EXACT [pmid:22762014]
 xref: ncbiprotein:NP_001190180
 is_a: HBP:HBP00044 ! 3R tau
 
@@ -337,6 +338,7 @@ name: Tau isoform D (383 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "microtubule-associated protein tau isoform 3" EXACT []
 synonym: "0N4R" EXACT []
+synonym: "htau24" EXACT [pmid:22762014]
 xref: ncbiprotein:NP_058518
 is_a: HBP:HBP00045 ! 4R tau
 
@@ -346,6 +348,7 @@ name: Tau isoform C (410 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "microtubule-associated protein tau isoform 8" EXACT []
 synonym: "2N3R" EXACT []
+synonym: "htau39" EXACT [pmid:22762014]
 xref: ncbiprotein:NP_001190181
 is_a: HBP:HBP00044 ! 3R tau
 
@@ -355,6 +358,7 @@ name: Tau isoform E (412 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "microtubule-associated protein tau isoform 5" EXACT []
 synonym: "1N4R" EXACT []
+synonym: "htau34" EXACT [pmid:22762014]
 xref: ncbiprotein:NP_001116539
 is_a: HBP:HBP00045 ! 4R tau
 
@@ -1636,4 +1640,65 @@ def: "Antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838,
 id: HBP:HBP00308
 name: Tau epitope
 def: "Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
+
+[Term]
+id: HBP:HBP00309
+name: S 24795
+def: "A partial agonist at α7 nAChR" [pmid:18187166, pmid:18265960, pmid:18034231]
+synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT []
+xref: pubchem:9888248
+xref: chemspider:8063920
+xref: inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13(16)10-14(17)11-5-7-12(15)8-6-11;/h2-9H,10H2,1H3;1H/q+1;/p-1
+xref: smiles:C[N+]1=CC=CC=C1CC(=O)C2=CC=C(C=C2)Br.[I-]
+
+[Term]
+id: HBP:HBP00310
+name: GTS-21
+def: "GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent." [pmid:25514383]
+synonym: "3-[(3E)-3-[(2,4-dimethoxyphenyl)methylidene]-3,4,5,6-tetrahydropyridin-2-yl]pyridine" EXACT [drugbank:DB05708]
+synonym: "GTS-21" EXACT [drugbank:DB05708]
+synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
+synonym: "GTS 21" EXACT [pmid:25514383]
+xref: chemspider:4470526
+xref: pubchem:5310985
+xref: drugbank:DB05708
+xref: inchi:InChI=1S/C19H20N2O2/c1-22-17-8-7-14(18(12-17)23-2)11-15-5-4-10-21-19(15)16-6-3-9-20-13-16/h3,6-9,11-13H,4-5,10H2,1-2H3/b15-11+
+xref: smiles:[H]\C(=C1\CCCN=C1C1=CN=CC=C1)C1=C(OC)C=C(OC)C=C1
+
+[Term]
+id: HBP:HBP00311
+name: alpha-4 alpha-5 beta-2 nAChR
+def: "nAChR subtype found in cortex, hippocampus and neostriatum" [pmid:19721446]
+xref: BEL:"complex(p(HGNC:CHRNA4), p(HGNC:CHRNA5), p(HGNC:CHRNB2))"
+
+[Term]
+id: HBP:HBP00312
+name: alpha-3 beta-4 nAChR
+def: "nAChR subtype found in hippocampus, pineal gland and cerebellum" [pmid:19721446]
+xref: BEL:"complex(p(HGNC:CHRNA3), p(HGNC:CHRNB4))"
+
+[Term]
+id: HBP:HBP00313
+name: alpha-3 beta-3 beta-4 nAChR
+def: "nAChR subtype found in habenula and interpeduncular nucleus" [pmid:19721446]
+
+[Term]
+id: HBP:HBP00314
+name: alpha-6 beta-2 beta-3 nAChR
+def: "nAChR subtype found in locus coeruleus, substantia nigra and neostriatum" [pmid:19721446]
+
+[Term]
+id: HBP:HBP00315
+name: alpha-2 beta-2 nAChR
+def: "nAChR subtype found in interpeduncular nucleus" [pmid:19721446]
+
+[Term]
+id: HBP:HBP00316
+name: alpha-6 alpha-4 beta-2 beta-3 nAChR
+def: "nAChR subtype found in neostriatum" [pmid:19721446]
+
+[Term]
+id: HBP:HBP00317
+name: protein aggregation
+def: "Protein aggregation occurs in vivo as a result of improper folding or misfolding" [pmid:11831622]
 
