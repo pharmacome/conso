@@ -38,12 +38,11 @@ def get_terms(path: str, classes: Set[str]) -> Iterable[str]:
 
 
 def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
-    error = False
+    errors = []
 
-    def print_fail(*args, **kwargs):
-        nonlocal error
-        error = True
-        print(*args, **kwargs)
+    def print_fail(s):
+        errors.append(s)
+        print(s)
 
     for i, line in enumerate(reader, start=1):
         if not line:
@@ -77,7 +76,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             continue
 
         if line[WITHDRAWN_COLUMN] == 'WITHDRAWN':
-            print_fail(f'{term} was withdrawn')
+            print(f'note: {term} was withdrawn')
             if not all(entry == '.' for entry in line[WITHDRAWN_COLUMN + 1:]):
                 print_fail(f'{path}: Wrong formatting for withdrawn term line {i}: '
                            f'Use periods as placeholders.')
@@ -115,7 +114,9 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
 
         yield term
 
-    if error:
+    if errors:
+        for error in errors:
+            print(f'FAILURE: {error}')
         sys.exit(1)
 
 
