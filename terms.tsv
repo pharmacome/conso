@@ -316,3 +316,5 @@ HBP00314	Rana	alpha-6 beta-2 beta-3 nAChR	protein complex	pmid:19721446	nAChR su
 HBP00315	Rana	alpha-2 beta-2 nAChR	protein complex	pmid:19721446	nAChR subtype found in interpeduncular nucleus
 HBP00316	Rana	alpha-6 alpha-4 beta-2 beta-3 nAChR	protein complex	pmid:19721446	nAChR subtype found in neostriatum
 HBP00317	Sandra	protein aggregation	biological process	pmid:11831622	Protein aggregation occurs in vivo as a result of improper folding or misfolding
+
+HBP00319	Charlie	4-OH-GTS-21	chemical	pmid:25514383	A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl
