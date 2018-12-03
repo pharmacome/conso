@@ -38,10 +38,11 @@ def get_terms(path: str, classes: Set[str]) -> Iterable[str]:
 
 
 def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
-    errors = []
+    errors = 0
 
     def print_fail(s):
-        errors.append(s)
+        nonlocal errors
+        errors += 1
         print(s)
 
     for i, line in enumerate(reader, start=1):
@@ -115,8 +116,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
         yield term
 
     if errors:
-        for error in errors:
-            print(f'FAILURE: {error}')
+        print(f'Found {errors} errors. Exiting with code: 1')
         sys.exit(1)
 
 
