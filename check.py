@@ -6,7 +6,8 @@ import csv
 import os
 import re
 import sys
-from typing import Iterable, Set
+from collections import defaultdict
+from typing import Iterable, Set, Tuple
 
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -26,15 +27,15 @@ CURATORS = {
     'Lingling',
     'Esther',
     'Kristian',
-    'Daniel'
+    'Daniel',
 }
 
 
-def get_terms(path: str, classes: Set[str]) -> Iterable[str]:
+def get_terms(*, classes: Set[str], path: str = 'terms.tsv') -> Iterable[str]:
     with open(os.path.join(HERE, path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        yield from _get_terms_helper(path, reader, classes)
+        return list(_get_terms_helper(path, reader, classes))
 
 
 def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
@@ -77,7 +78,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             continue
 
         if line[WITHDRAWN_COLUMN] == 'WITHDRAWN':
-            print(f'note: {term} was withdrawn')
+            # print(f'note: {term} was withdrawn')
             if not all(entry == '.' for entry in line[WITHDRAWN_COLUMN + 1:]):
                 print_fail(f'{path}: Wrong formatting for withdrawn term line {i}: '
                            f'Use periods as placeholders.')
@@ -88,7 +89,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             continue
 
         if line[TYPE_COLUMN] not in classes:
-            print_fail(f'{path}, line {i}: Invalid class: {line[2]}')
+            print_fail(f'{path}, line {i}: Invalid class: {line[TYPE_COLUMN]}.')
             continue
 
         references = line[REFERENCES_COLUMN].split(',')
@@ -120,7 +121,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
         sys.exit(1)
 
 
-def get_classes(path: str) -> Set[str]:
+def get_classes(*, path: str = 'classes.tsv') -> Set[str]:
     with open(os.path.join(HERE, path)) as file:
         return {
             line.strip()
@@ -128,11 +129,11 @@ def get_classes(path: str) -> Set[str]:
         }
 
 
-def check_xrefs_file(path: str, terms: Set[str]):
+def check_xrefs_file(*, terms: Set[str], path: str = 'xrefs.tsv'):
     with open(os.path.join(HERE, path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        _check_xrefs_file_helper(path, reader, terms)
+        yield from _check_xrefs_file_helper(path, reader, terms)
 
 
 def _check_xrefs_file_helper(path, reader, terms: Set[str]):
@@ -148,15 +149,17 @@ def _check_xrefs_file_helper(path, reader, terms: Set[str]):
         if term not in terms:
             raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
 
+        yield line
+
 
 ALLOWED_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
-def check_synonyms_file(path: str, terms: Set[str]):
+def check_synonyms_file(*, terms: Set[str], path: str = 'synonyms.tsv'):
     with open(os.path.join(HERE, path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        _check_synonyms_helper(path, reader, terms)
+        return list(_check_synonyms_helper(path, reader, terms))
 
 
 def _check_synonyms_helper(path, reader, terms: Set[str]):
@@ -175,15 +178,17 @@ def _check_synonyms_helper(path, reader, terms: Set[str]):
         if specificity not in ALLOWED_SYNONYM_TYPES:
             raise Exception(f'{path}: Invalid specificity on line {i}: {specificity}')
 
+        yield line
 
-def check_relations_file(path: str, terms: Set[str]):
+
+def check_relations_file(*, terms: Set[str], path: str = 'relations.tsv'):
     with open(os.path.join(HERE, path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        _check_relations_file_helper(path, reader, terms)
+        return list(_check_relations_file_helper(path, reader, terms))
 
 
-def _check_relations_file_helper(path, reader, terms: Set[str]):
+def _check_relations_file_helper(path, reader, terms: Set[str]) -> Tuple[str, ...]:
     for i, line in enumerate(reader, start=2):
         if len(line) != 7:
             raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
@@ -201,15 +206,43 @@ def _check_relations_file_helper(path, reader, terms: Set[str]):
         if target_namespace == 'HBP' and target_identifier not in terms:
             raise Exception(f'{path}: Invalid target identifier on line {i}: {target_identifier}')
 
+        yield line
+
+
+def check_chemical_roles():
+    with open(os.path.join(HERE, 'terms.tsv')) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        chemicals = {
+            (hbp_id, name)
+            for hbp_id, curator, name, cls, refs, definition in reader
+            if cls == 'chemical'
+        }
+
+    with open(os.path.join(HERE, 'relations.tsv')) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+
+        roles = defaultdict(list)
+        for source_ns, source_id, source_name, rel, target_ns, target_id, target_name in reader:
+            if rel != 'has_role' or (source_id, source_name) not in chemicals:
+                roles[source_id, source_name].append((target_id, target_name))
+
+    for source_id, source_name in sorted(chemicals):
+        if (source_id, source_name) not in roles:
+            print(f'Missing role: HBP:{source_id} "{source_name}"')
+
 
 def main():
     """Run the check on the terms, synonyms, and xrefs."""
-    classes = set(get_classes('classes.tsv'))
-    terms = set(get_terms('terms.tsv', classes))
+    classes = set(get_classes())
+    terms = set(get_terms(classes=classes))
 
-    check_synonyms_file('synonyms.tsv', terms)
-    check_xrefs_file('xrefs.tsv', terms)
-    check_relations_file('relations.tsv', terms)
+    check_synonyms_file(terms=terms)
+    check_xrefs_file(terms=terms)
+    check_relations_file(terms=terms)
+
+    check_chemical_roles()
 
     sys.exit(0)
 
