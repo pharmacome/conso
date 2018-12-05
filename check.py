@@ -209,8 +209,8 @@ def _check_relations_file_helper(path, reader, terms: Set[str]) -> Tuple[str, ..
         yield line
 
 
-def check_chemical_roles():
-    with open(os.path.join(HERE, 'terms.tsv')) as file:
+def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'relations.tsv'):
+    with open(os.path.join(HERE, terms_path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         chemicals = {
@@ -219,7 +219,7 @@ def check_chemical_roles():
             if cls == 'chemical'
         }
 
-    with open(os.path.join(HERE, 'relations.tsv')) as file:
+    with open(os.path.join(HERE, relations_path)) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
@@ -228,9 +228,16 @@ def check_chemical_roles():
             if rel != 'has_role' or (source_id, source_name) not in chemicals:
                 roles[source_id, source_name].append((target_id, target_name))
 
-    for source_id, source_name in sorted(chemicals):
-        if (source_id, source_name) not in roles:
-            print(f'Missing role: HBP:{source_id} "{source_name}"')
+    missing_role = {
+        chemical
+        for chemical in chemicals
+        if chemical not in roles
+    }
+
+    if missing_role:
+        for source_id, source_name in sorted(missing_role):
+            print(f'Missing "has_role" in {relations_path}: HBP:{source_id} "{source_name}"')
+        sys.exit(1)
 
 
 def main():
