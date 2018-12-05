@@ -20,7 +20,7 @@ NAME_COLUMN = 2
 TYPE_COLUMN = 3
 REFERENCES_COLUMN = 4
 DESCRIPTION_COLUMN = 5
-CURATORS = {
+VALID_CURATORS = {
     'Charlie',
     'Rana',
     'Sandra',
@@ -29,6 +29,8 @@ CURATORS = {
     'Kristian',
     'Daniel',
 }
+VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound'}
+VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
 def get_terms(*, classes: Set[str], path: str = 'terms.tsv') -> Iterable[str]:
@@ -65,7 +67,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             print_fail(f'{path}, line {i}: Indexing scheme broken: {term}')
             continue
 
-        if line[CURATOR_COLUMN] not in CURATORS:
+        if line[CURATOR_COLUMN] not in VALID_CURATORS:
             print_fail(f'{path}, line {i}: Invalid curator: {line[0]}')
 
         if len(line) < NUMBER_TERM_COLUMNS:
@@ -103,7 +105,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[str]:
             print_fail(f'{path}, line {i}: missing reference {references_split}')
             continue
 
-        if any(source not in {'pmc', 'pmid', 'doi'} for source, reference in references_split):
+        if any(source not in VALID_SOURCES for source, reference in references_split):
             print_fail(
                 f'{path}, line {i} : invalid reference type '
                 f'(note: always use lowercase pmid, pmc, etc.): {references_split}'
@@ -152,9 +154,6 @@ def _check_xrefs_file_helper(path, reader, terms: Set[str]):
         yield line
 
 
-ALLOWED_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
-
-
 def check_synonyms_file(*, terms: Set[str], path: str = 'synonyms.tsv'):
     with open(os.path.join(HERE, path)) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -175,7 +174,7 @@ def _check_synonyms_helper(path, reader, terms: Set[str]):
             raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
 
         specificity = line[3]
-        if specificity not in ALLOWED_SYNONYM_TYPES:
+        if specificity not in VALID_SYNONYM_TYPES:
             raise Exception(f'{path}: Invalid specificity on line {i}: {specificity}')
 
         yield line
@@ -214,7 +213,7 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         chemicals = {
-            (hbp_id, name)
+            ('HBP', hbp_id, name)
             for hbp_id, curator, name, cls, refs, definition in reader
             if cls == 'chemical'
         }
@@ -224,19 +223,22 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
         _ = next(reader)  # skip the header
 
         roles = defaultdict(list)
+        inhibitors = defaultdict(list)
         for source_ns, source_id, source_name, rel, target_ns, target_id, target_name in reader:
-            if rel != 'has_role' or (source_id, source_name) not in chemicals:
-                roles[source_id, source_name].append((target_id, target_name))
+            if rel == 'has_role':
+                roles[source_ns, source_id, source_name].append((target_ns, target_id, target_name))
+            elif rel == 'inhibits':
+                inhibitors[source_ns, source_id, source_name].append((target_ns, target_id, target_name))
 
     missing_role = {
         chemical
         for chemical in chemicals
-        if chemical not in roles
+        if chemical not in roles and chemical not in inhibitors
     }
 
     if missing_role:
-        for source_id, source_name in sorted(missing_role):
-            print(f'Missing "has_role" in {relations_path}: HBP:{source_id} "{source_name}"')
+        for source_ns, source_id, source_name in sorted(missing_role):
+            print(f'Missing "has_role" in {relations_path}: {source_ns}:{source_id} "{source_name}"')
         sys.exit(1)
 
 

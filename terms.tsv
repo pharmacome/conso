@@ -319,3 +319,5 @@ HBP00317	Sandra	protein aggregation	biological process	pmid:11831622	Protein agg
 HBP00318	Rana	nAChR assembly	biological process	pmid:19126755	the process of assembling a receptor pentamer from the Nicotinic acetylcholine receptors subunits
 HBP00319	Charlie	4-OH-GTS-21	chemical	pmid:25514383	A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl
 HBP00320	Lingling	isolation rearing	exposure	pmid:16820021	An animal model in which rats, immediately after weaning (usually postnatal day 21), are housed in isolation from siblings for an extended period (usually several weeks). In adulthood, these animals show many characteristics also seen in patients with schizophrenia
+HBP00321	Charlie	Tau aggregation inhibitor	chemical role	pmid:23484434	A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates
+HBP00322	Charlie	1,3-Thiazole-2,4-diamine	chemical	pmid:21353545, pmid:20524425, pmid:11148059	A thiazole with two amino substituents
