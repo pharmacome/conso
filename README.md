@@ -23,19 +23,20 @@ relevant to neurodegenerative disease.
 
 ### classes.tsv
 
-This file (currently just a list), contains all 
+This file (currently just a list), contains all
 of the classes to which terms belong.
 
 ### terms.tsv
 
-This tab-separated values file contains four columns describing 
+This tab-separated values file contains four columns describing
 entities in the HBP terminology:
 
 1. Identifier
-2. Label
-2. Class
-3. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
-4. Description (no double quote characters allowed)
+2. Author
+3. Label
+4. Class
+5. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
+6. Description (no double quote characters allowed)
 
 ### synonyms.tsv
 
@@ -45,7 +46,7 @@ for terms in the HBP terminology:
 1. Identifier
 2. Synonym
 3. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
-4. Specificity (one of ``EXACT``, ``BROAD``, ``NARROW``, or ``RELATED``. 
+4. Specificity (one of ``EXACT``, ``BROAD``, ``NARROW``, or ``RELATED``.
    See: https://owlcollab.github.io/oboformat/doc/GO.format.obo-1_4.html)
 
 ### xrefs.tsv
@@ -76,7 +77,7 @@ Contributions are welcome! Please submit all pull requests to https://github.com
 
 Tips:
 
-- When adding a new term, make sure that the entry has a new and unique identifier that follows 
+- When adding a new term, make sure that the entry has a new and unique identifier that follows
   the regular expression `^HBP\d{5}$`
 - Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but *hyperphosphorylation* is not)
 - Normalize greek letters to full english names, then add synonyms with the greek letter.
