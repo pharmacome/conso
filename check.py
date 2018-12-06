@@ -80,7 +80,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
             continue
 
         if line[WITHDRAWN_COLUMN] == 'WITHDRAWN':
-            # print(f'note: {term} was withdrawn')
+            print(f'note: {term} was withdrawn')
             if not all(entry == '.' for entry in line[WITHDRAWN_COLUMN + 1:]):
                 print_fail(f'{path}: Wrong formatting for withdrawn term line {i}: '
                            f'Use periods as placeholders.')
@@ -246,7 +246,6 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
         print(f'Missing {len(missing_role)} chemical roles. Summary below:')
         for source_ns, source_id, source_name in sorted(missing_role):
             print(f'{relations_path}: Missing role for {source_ns}:{source_id} "{source_name}"')
-        sys.exit(1)
 
 
 def main():
