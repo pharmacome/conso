@@ -53,3 +53,8 @@ HBP	HBP00021	caprospinol	has_role	HBP	HBP00321	Tau aggregation inhibitor
 HBP	HBP00031	N-AcGIP	agonist_of	HGNC	HGNC:4270	GIP
 HBP	HBP00032	Pro3-GIP	agonist_of	HGNC	HGNC:4270	GIP
 HBP	HBP00131	exotoxin A	inhibitor_of	HGNC	HGNC:3214	EEF2
+HBP	HBP00280	isocarboxazide	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00284	oxazolidinedione	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00285	sudoxicam	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00286	thiohydantoin	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00287	thioxooxazolidine	has_role	HBP	HBP00321	Tau aggregation inhibitor
