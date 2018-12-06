@@ -21,7 +21,7 @@ def _get_terms() -> List[str]:
 
 
 def _get_labels() -> List[str]:
-    return [line[1] for line in _get_lines()]
+    return [line[2] for line in _get_lines()]
 
 
 def _get_lines() -> List[str]:
@@ -29,7 +29,7 @@ def _get_lines() -> List[str]:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         for line in reader:
-            if not line or line[1] == 'WITHDRAWN':
+            if not line or line[2] == 'WITHDRAWN':
                 continue
             yield line
 
