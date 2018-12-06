@@ -102,7 +102,7 @@ def get_obo_terms() -> List[Term]:
                 provenance=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
                 description=description,
             )
-            for hbp_identifier, name, references, description in reader
+            for hbp_identifier, _, name, _, references, description in reader
             if name != 'WITHDRAWN'
         }
 
