@@ -45,5 +45,11 @@ HBP	HBP00264	Tau epitope, AP422	is_a	HBP	HBP00307	Tau epitope
 HBP	HBP00265	Tau epitope, AT100	is_a	HBP	HBP00307	Tau epitope
 HBP	HBP00266	Tau epitope, AT270	is_a	HBP	HBP00307	Tau epitope
 HBP	HBP00319	4-OH-GTS-21	metaboliteOf	HBP	HBP00310	GTS-21
-HBP	HBP00010	LY293002	inhibits	FPLX	PI3K	PI3K
-HBP	HBP00321	Tau aggregation	decreases	HBP	HBP00006	Tau aggregates
+HBP	HBP00010	LY293002	inhibitor_of	FPLX	PI3K	PI3K
+HBP	HBP00321	Tau aggregation inhibitor	decreases	HBP	HBP00006	Tau aggregates
+HBP	HBP00019	SEN-1269	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00020	MLS000034832	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00021	caprospinol	has_role	HBP	HBP00321	Tau aggregation inhibitor
+HBP	HBP00031	N-AcGIP	agonist_of	HGNC	HGNC:4270	GIP
+HBP	HBP00032	Pro3-GIP	agonist_of	HGNC	HGNC:4270	GIP
+HBP	HBP00131	exotoxin A	inhibitor_of	HGNC	HGNC:3214	EEF2
