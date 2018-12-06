@@ -57,7 +57,7 @@ HBP00055	Kristian	Tau isoform B (381 aa)	isoform	pmid:17493042	Human brain tau i
 HBP00056	Kristian	Tau isoform D (383 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
 HBP00057	Kristian	Tau isoform C (410 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
 HBP00058	Kristian	Tau isoform E (412 aa)	isoform	pmid:17493042	Human brain tau isoform, derived from alternative splicing.
-HBP00059	Lingling	Serpin-enzyme complex receptor	?	pmid:15160835, pmid:2160076	?
+HBP00059	Lingling	Serpin-enzyme complex receptor	protein	pmid:15160835, pmid:2160076	?
 HBP00060	Rana	neuroinflammation	pathology	pmid:26306439	inflammatory response in the brain and nervous tissue.
 HBP00061	Rana	neurotoxicity	pathology	pmid:18440072	happens when a biological, physical or chemical agent cause any adverse effect on the structure and function of the nerves system.
 HBP00062	Rana	neurite retraction	pathology	pmid:19022228	when the neurite is unable it outgrow and extend
@@ -113,7 +113,7 @@ HBP00111	Lingling	PINK1-Park pathway	pathway	pmid:26182419	The PINK1-Parkin path
 HBP00112	Lingling	Glutamate excitotoxicity	biological process	pmid:10196525	The excitotoxicity of Glutamate
 HBP00113	Lingling	mitochondrial homeostasis	biological process	pmid:25478815	The interplay between mitophagy and mitochondrial biogenesis.
 HBP00114	Lingling	ER mitochondria interorganellar crosstalk	biological process	pmid:25478815	reference:pmid: 22577383
-HBP00115	Lingling	Mitochondrial	pathway	pmid:23313576	reference:pmid: 22399422
+HBP00115	Lingling	Mitochondrial pathway	pathway	pmid:23313576	reference:pmid: 22399422
 HBP00116	Lingling	oxidative protein folding	biological process	pmid:26004228	Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor.
 HBP00117	Lingling	mitochondrial motility	biological process	pmid:25565208	The motility of mitochondria
 HBP00118	Lingling	TIM/TOM complex	protein complex	pmid:25565208	The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA.
