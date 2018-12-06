@@ -80,7 +80,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
             continue
 
         if line[WITHDRAWN_COLUMN] == 'WITHDRAWN':
-            print(f'note: {term} was withdrawn')
+            print(f'note: {identifier} was withdrawn')
             if not all(entry == '.' for entry in line[WITHDRAWN_COLUMN + 1:]):
                 print_fail(f'{path}: Wrong formatting for withdrawn term line {i}: '
                            f'Use periods as placeholders.')
