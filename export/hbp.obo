@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:11:2018 21:44
+date: 12:12:2018 17:37
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -99,7 +99,7 @@ synonym: "TNT" EXACT []
 
 [Term]
 id: HBP:HBP00015
-name: amyloidogenesis 
+name: amyloidogenesis
 def: "production of amyloid" [pmid:24653673]
 
 [Term]
@@ -268,7 +268,7 @@ part_of: HBP:HBP00003 ! tubulin-binding repeat 2
 
 [Term]
 id: HBP:HBP00047
-name: VQIVYK motif 
+name: VQIVYK motif
 def: "A hexapeptide motif located in the R3, that promotes the formation of PHF" [pmid:17493042]
 synonym: "PHF6" EXACT [pmid:25775228]
 part_of: HBP:HBP00004 ! tubulin-binding repeat 3
@@ -365,7 +365,7 @@ is_a: HBP:HBP00045 ! 4R tau
 [Term]
 id: HBP:HBP00059
 name: Serpin-enzyme complex receptor
-def: "PMID: 2160076" [pmid:15160835]
+def: "?" [pmid:15160835, pmid:2160076]
 synonym: "SEC-R" EXACT []
 
 [Term]
@@ -553,7 +553,7 @@ def: " prefibrillar oligomers formed at early stages of α-syn assembly" [pmid:2
 [Term]
 id: HBP:HBP00096
 name: GA-AGE
-def: "Glyceraldehyde-derived (GA) advanced glycation end products" [pmid: 16630055, pmid:15221334]
+def: "Glyceraldehyde-derived (GA) advanced glycation end products" [pmid:16630055, pmid:15221334]
 
 [Term]
 id: HBP:HBP00097
@@ -866,7 +866,7 @@ def: "A chromosomal fragile site is a specific heritable point on a chromosome t
 [Term]
 id: HBP:HBP00159
 name: PARK7-alpha helices
-def: "The alpja helices of PARK7 protein" [pmid:18707128]
+def: "The alpha helices of PARK7 protein" [pmid:18707128]
 
 [Term]
 id: HBP:HBP00160
@@ -1068,7 +1068,7 @@ def: "Another prominent nAChR subtype found in vertebrate central and autonomic 
 
 [Term]
 id: HBP:HBP00198
-name: alpha-Bungarotoxin 
+name: alpha-Bungarotoxin
 def: "Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake)." [pmid:21787755]
 
 [Term]
@@ -1701,4 +1701,43 @@ def: "nAChR subtype found in neostriatum" [pmid:19721446]
 id: HBP:HBP00317
 name: protein aggregation
 def: "Protein aggregation occurs in vivo as a result of improper folding or misfolding" [pmid:11831622]
+
+[Term]
+id: HBP:HBP00318
+name: nAChR assembly
+def: "the process of assembling a receptor pentamer from the Nicotinic acetylcholine receptors subunits" [pmid:19126755]
+
+[Term]
+id: HBP:HBP00319
+name: 4-OH-GTS-21
+def: "A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl" [pmid:25514383]
+synonym: "4OH-GTS-21" EXACT [mesh:C116666]
+synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
+synonym: "3-(4-hydroxy-2-methoxybenzylidene) anabaseine" EXACT [pmid:25514383]
+xref: mesh:C116666
+xref: smiles:COC1=C(C=CC(=C1)O)C=C2CCCN=C2C3=CC=CN=C3
+xref: inchi:InChI=1S/C18H18N2O2/c1-22-17-11-16(21)7-6-13(17)10-14-4-3-9-20-18(14)15-5-2-8-19-12-15/h2,5-8,10-12,21H,3-4,9H2,1H3/b14-10+
+
+[Term]
+id: HBP:HBP00320
+name: isolation rearing
+def: "An animal model in which rats, immediately after weaning (usually postnatal day 21), are housed in isolation from siblings for an extended period (usually several weeks). In adulthood, these animals show many characteristics also seen in patients with schizophrenia" [pmid:16820021]
+
+[Term]
+id: HBP:HBP00321
+name: Tau aggregation inhibitor
+def: "A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates" [pmid:23484434]
+xref: chebi:CHEBI:142738
+xref: pubchem.compound:118995
+
+[Term]
+id: HBP:HBP00322
+name: 1,3-Thiazole-2,4-diamine
+def: "A thiazole with two amino substituents" [pmid:21353545, pmid:20524425, pmid:11148059]
+synonym: "2,4-thiazolediamine" EXACT [pubchem.compound:118995]
+
+[Term]
+id: HBP:HBP00323
+name: Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
+def: "Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor" [pmid:30472464]
 

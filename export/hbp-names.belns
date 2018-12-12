@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181128
-CreatedDateTime=2018-11-28T21:43:11
+VersionString=20181212
+CreatedDateTime=2018-12-12T17:37:43
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -19,12 +19,14 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
+1,3-Thiazole-2,4-diamine|ABCGMOPR
 2-Bromohexadecanoic acid|ABCGMOPR
 2-O-sulfated heparin|ABCGMOPR
 20 S Proteasome|ABCGMOPR
 3-3 dityrosine cross-linking|ABCGMOPR
 310-helix|ABCGMOPR
 3R tau|ABCGMOPR
+4-OH-GTS-21|ABCGMOPR
 4R tau|ABCGMOPR
 4R tauopathy|ABCGMOPR
 6-O-sulfated heparin|ABCGMOPR
@@ -48,6 +50,7 @@ Alz50|ABCGMOPR
 Amylin Antagonist AC253|ABCGMOPR
 Argyrophilic Grain Disease|ABCGMOPR
 Astrogliosis|ABCGMOPR
+Autosomal Dominant Nocturnal Frontal Lobe Epilepsy|ABCGMOPR
 AβOs|ABCGMOPR
 BAY61-3606|ABCGMOPR
 Bacterial invasion|ABCGMOPR
@@ -155,6 +158,7 @@ Tau C3|ABCGMOPR
 Tau MN423|ABCGMOPR
 Tau Protein Secondary Structure, Turn|ABCGMOPR
 Tau aggregates|ABCGMOPR
+Tau aggregation inhibitor|ABCGMOPR
 Tau annular protofibrils|ABCGMOPR
 Tau antibody|ABCGMOPR
 Tau antibody, 40E8|ABCGMOPR
@@ -269,6 +273,7 @@ hyperphosphorylation|ABCGMOPR
 hyposmia|ABCGMOPR
 indirubin|ABCGMOPR
 isocarboxazide|ABCGMOPR
+isolation rearing|ABCGMOPR
 isopentanyladenine|ABCGMOPR
 kappa-Bungarotoxin|ABCGMOPR
 lgg-1|ABCGMOPR
@@ -286,6 +291,7 @@ mitochondrial homeostasis|ABCGMOPR
 mitochondrial motility|ABCGMOPR
 mitochondrial precursor protein|ABCGMOPR
 molecular layer of cerebellar cortex|ABCGMOPR
+nAChR assembly|ABCGMOPR
 nasal cycle|ABCGMOPR
 neurite retraction|ABCGMOPR
 neuroinflammation|ABCGMOPR
