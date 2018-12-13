@@ -322,3 +322,6 @@ HBP00320	Lingling	isolation rearing	exposure	pmid:16820021	An animal model in wh
 HBP00321	Charlie	Tau aggregation inhibitor	chemical role	pmid:23484434	A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates
 HBP00322	Charlie	1,3-Thiazole-2,4-diamine	chemical	pmid:21353545, pmid:20524425, pmid:11148059	A thiazole with two amino substituents
 HBP00323	Sandra	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy	pathology	pmid:30472464	Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor
+HBP00324	Lingling	casp3a	protein	pmid:29807032	casp3a caspase 3, apoptosis-related cysteine peptidase a [ Danio rerio (zebrafish) ]
+HBP00325	Lingling	crhb	protein	pmid:29807032	crhb corticotropin releasing hormone b [ Danio rerio (zebrafish) ]
+HBP00326	Lingling	crfbp	protein	pmid:29807032	Danio rerio corticotropin releasing hormone binding protein (crhbp), mRNA
