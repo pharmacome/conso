@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:12:2018 17:37
+date: 21:12:2018 12:25
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -1740,4 +1740,9 @@ synonym: "2,4-thiazolediamine" EXACT [pubchem.compound:118995]
 id: HBP:HBP00323
 name: Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
 def: "Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor" [pmid:30472464]
+
+[Term]
+id: HBP:HBP00324
+name: FK1 antibody
+def: "Anti-Ubiquitinylated proteins Antibod" [pmid:16338350]
 

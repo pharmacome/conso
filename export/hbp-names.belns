@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20181212
-CreatedDateTime=2018-12-12T17:37:43
+VersionString=20181221
+CreatedDateTime=2018-12-21T12:25:34
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 
 [Author]
@@ -88,6 +88,7 @@ E1 domain|ABCGMOPR
 E2 domain|ABCGMOPR
 ER mitochondria interorganellar crosstalk|ABCGMOPR
 Excitotoxicity|ABCGMOPR
+FK1 antibody|ABCGMOPR
 FMR1,(55-200 CGG)|ABCGMOPR
 GA-AGE|ABCGMOPR
 GAL80TS|ABCGMOPR
