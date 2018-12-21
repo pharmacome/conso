@@ -1,8 +1,9 @@
 [Namespace]
 Keyword=hgnc.genefamily
-NameString=gfam
-VersionString=20181015
-CreatedDateTime=2018-10-15T14:56:23
+NameString=HGNC gene family
+DomainString=Other
+VersionString=20181221
+CreatedDateTime=2018-12-21T12:21:31
 QueryValueURL=http://identifiers.org/hgnc.genefamily/
 
 [Author]
@@ -18,1135 +19,1160 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-m6A methyltransferase complex|GRP
-1-acylglycerol-3-phosphate O-acyltransferases|GRP
-14-3-3 phospho-serine/phospho-threonine binding proteins|GRP
-18S ribosomal RNAs|GRP
-28S ribosomal RNAs|GRP
-45S pre-ribosomal RNAs|GRP
-5'-nucleotidases|GRP
-5-hydroxytryptamine receptors, G protein-coupled|GRP
-5-hydroxytryptamine receptors, ionotropic|GRP
-5.8S ribosomal RNAs|GRP
-5FMC ribosome biogenesis complex|GRP
-5S ribosomal RNAs|GRP
-6-phosphofructo-2-kinases/fructose-2,6-biphosphatases|GRP
-7D cadherins|GRP
-7TM orphan receptors|GRP
-A-kinase anchoring proteins|GRP
-AAA ATPases|GRP
-ADAM metallopeptidase domain containing|GRP
-ADAM metallopeptidases with thrombospondin type 1 motif|GRP
-ADAMTS like|GRP
-AF4/FMR2 family|GRP
-AGC family kinases|GRP
-ANP32 acidic nuclear phosphoproteins|GRP
-ARF GTPase family|GRP
-ASAP complex|GRP
-AT-rich interaction domain containing|GRP
-ATAC complex|GRP
-ATP binding cassette subfamily A|GRP
-ATP binding cassette subfamily B|GRP
-ATP binding cassette subfamily C|GRP
-ATP binding cassette subfamily D|GRP
-ATP binding cassette subfamily E|GRP
-ATP binding cassette subfamily F|GRP
-ATP binding cassette subfamily G|GRP
-ATPase H+/K+ transporting|GRP
-ATPase Na+/K+ transporting subunits|GRP
-ATPase copper transporting|GRP
-ATPase orphan transporters|GRP
-ATPase phospholipid transporting|GRP
-ATPases Ca2+ transporting|GRP
-Abhydrolase domain containing|GRP
-Abl family tyrosine kinases|GRP
-Acid phosphatases|GRP
-Acid sensing ion channel subunits|GRP
-Actin related protein 2/3 complex|GRP
-Actin related proteins|GRP
-Actinins|GRP
-Actins|GRP
-Activating leukocyte immunoglobulin like receptors|GRP
-Acyl-CoA dehydrogenase family|GRP
-Acyl-CoA synthetase family|GRP
-Acyl-CoA thioesterases|GRP
-Adenosine deaminase family|GRP
-Adenosine deaminases acting on RNA|GRP
-Adenosine receptors|GRP
-Adenylate cyclases|GRP
-Adenylate kinases|GRP
-Adhesion G protein-coupled receptors, subfamily A|GRP
-Adhesion G protein-coupled receptors, subfamily B|GRP
-Adhesion G protein-coupled receptors, subfamily C|GRP
-Adhesion G protein-coupled receptors, subfamily D|GRP
-Adhesion G protein-coupled receptors, subfamily E|GRP
-Adhesion G protein-coupled receptors, subfamily F|GRP
-Adhesion G protein-coupled receptors, subfamily G|GRP
-Adhesion G protein-coupled receptors, subfamily L|GRP
-Adhesion G protein-coupled receptors, subfamily V|GRP
-Adiponectin receptors|GRP
-Adrenoceptors|GRP
-Ajuba family|GRP
-Alcohol dehydrogenases|GRP
-Aldehyde dehydrogenases|GRP
-Aldo-keto reductases|GRP
-Alkaline ceramidases|GRP
-Alkaline phosphatases|GRP
-Alkylation repair homologs|GRP
-Alpha 1,4-glycosyltransferases|GRP
-Alpha arrestins|GRP
-Alpha catenins|GRP
-Alpha-1,2-glucosyltransferases|GRP
-Alpha-1,3-glucosyltransferases|GRP
-Alpha-L-fucosidases|GRP
-Aminoacyl tRNA synthetases, Class I|GRP
-Aminoacyl tRNA synthetases, Class II|GRP
-Aminopeptidases|GRP
-Anaphase promoting complex|GRP
-Angiopoietin like|GRP
-Angiotensin receptors|GRP
-Ankyrin repeat domain containing|GRP
-Annexins|GRP
-Anoctamins|GRP
-Apolipoprotein B mRNA editing enzyme catalytic subunits|GRP
-Apolipoproteins|GRP
-Apoptosome|GRP
-Aquaporins|GRP
-Arachidonate lipoxygenases|GRP
-ArfGAPs|GRP
-Arginine vasopressin and oxytocin receptors|GRP
-Argonaute/PIWI family|GRP
-Armadillo repeat containing|GRP
-Armadillo-like helical domain containing|GRP
-Arylacetamide deacetylase family|GRP
-Arylamine N-acetyltransferases|GRP
-Astacins|GRP
-Ataxins|GRP
-Atypical chemokine receptors|GRP
-Atypical dual specificity phosphatases|GRP
-Autophagy related|GRP
-Axonemal dynein assembly factors|GRP
-B9 domain containing|GRP
-BAF complex|GRP
-BAR-PH domain containing|GRP
-BBSome|GRP
-BCH domain containing|GRP
-BCL2 associated athanogene family|GRP
-BCL2 family|GRP
-BCL2 homology region 3 (BH3) only|GRP
-BEACH domain containing|GRP
-BEN domain containing|GRP
-BLOC-1 related complex|GRP
-BPI fold containing|GRP
-BRCA1 A complex|GRP
-BRCA1 B complex|GRP
-BRCA1 C complex|GRP
-BRICHOS domain containing|GRP
-BRISC complex|GRP
-BTB domain containing|GRP
-BTG/Tob family|GRP
-Baculoviral IAP repeat containing|GRP
-Bardet-Biedl syndrome associated|GRP
-Basic helix-loop-helix proteins|GRP
-Basic leucine zipper proteins|GRP
-Beaded filament structural proteins|GRP
-Bestrophins|GRP
-Beta 3-glycosyltransferases|GRP
-Beta 4-glycosyltransferases|GRP
-Beta catenins|GRP
-Beta-1,3-glucuronyltransferases|GRP
-Beta-gamma crystallin domain containing|GRP
-Beta-gamma crystallins|GRP
-Biogenesis of lysosomal organelles complex 1|GRP
-Biogenesis of lysosomal organelles complex 2|GRP
-Biogenesis of lysosomal organelles complex 3|GRP
-Bisphosphoglycerate phosphatases|GRP
-Blood group antigens|GRP
-Bombesin receptors|GRP
-Bone morphogenetic proteins|GRP
-Bradykinin receptors|GRP
-Brain expressed X-linked family|GRP
-Bromodomain containing|GRP
-Bromodomain containing, BET|GRP
-Butyrophilins|GRP
-C-C motif chemokine receptors|GRP
-C-X-3-C motif chemokine receptors|GRP
-C-X-C motif chemokine receptors|GRP
-C-type lectin domain containing|GRP
-C1-set domain containing|GRP
-C1q and TNF related|GRP
-C1q domain containing|GRP
-C2 and RasGAP domain containing|GRP
-C2 and WW domain containing|GRP
-C2 domain containing|GRP
-C2 domain containing phospholipases|GRP
-C2 domain containing protein kinases|GRP
-C2 tensin-type domain containing|GRP
-C2-set domain containing|GRP
-C3 and PZP like, alpha-2-macroglobulin domain containing|GRP
-CAP and C-type lectin domain containing|GRP
-CAP superfamily|GRP
-CBM complex|GRP
-CCAAT/enhancer binding proteins|GRP
-CCC complex|GRP
-CCR4-NOT transcription complex|GRP
-CD molecules|GRP
-CDC like kinases|GRP
-CDC14 phosphatases|GRP
-CDC42 effector proteins|GRP
-CDGSH iron sulfur domain containing|GRP
-CELSR cadherins|GRP
-CERS class homeoboxes|GRP
-CKLF like MARVEL transmembrane domain containing|GRP
-COMM domain containing|GRP
-COP9 signalosome|GRP
-CORVET complex|GRP
-CST complex|GRP
-CTAGE family|GRP
-CTD family phosphatases|GRP
-CTLH complex|GRP
-CUT class homeoboxes and pseudogenes|GRP
-CYR61/CTGF/NOV matricellular proteins|GRP
-Cadherin related|GRP
-Calcitonin receptors|GRP
-Calcium channel auxiliary gamma subunits|GRP
-Calcium homeostasis modulators|GRP
-Calcium sensing receptors|GRP
-Calcium voltage-gated channel alpha1 subunits|GRP
-Calcium voltage-gated channel auxiliary alpha2delta subunits|GRP
-Calcium voltage-gated channel auxiliary beta subunits|GRP
-Calmodulin dependent protein kinases|GRP
-Calpains|GRP
-Cannabinoid receptors|GRP
-Canonical high mobility group|GRP
-Carbonic anhydrases|GRP
-Carboxylesterases|GRP
-Carcinoembryonic antigen related cell adhesion molecule family|GRP
-Cas scaffold proteins|GRP
-Caspase recruitment domain containing|GRP
-Caspases|GRP
-Cathepsins|GRP
-Cation channels sperm associated|GRP
-Cavins|GRP
-Chaperonins|GRP
-Charged multivesicular body proteins|GRP
-Checkpoint clamp complex|GRP
-Chemerin receptor|GRP
-Chemokine ligands|GRP
-Chitinases|GRP
-Chloride channel accessory|GRP
-Chloride channels, ATP-gated CFTR|GRP
-Chloride intracellular channels|GRP
-Chloride voltage-gated channels|GRP
-Cholecystokinin receptors|GRP
-Cholinergic receptors muscarinic|GRP
-Cholinergic receptors nicotinic subunits|GRP
-Chromatin accessibility complex|GRP
-Chromobox family|GRP
-Chromosomal passenger complex|GRP
-Cilia and flagella associated|GRP
-Ciliogenesis and planar polarity effector complex|GRP
-Clarins|GRP
-Class II Cys-based phosphatases|GRP
-Class III Cys-based CDC25 phosphatases|GRP
-Classical BAR domain containing|GRP
-Classical arrestins|GRP
-Clathrin subunits|GRP
-Clathrin/coatomer adaptor, adaptin-like, N-terminal domain containing|GRP
-Claudins|GRP
-Cleavage stimulation factor subunits|GRP
-Clustered protocadherins|GRP
-Cohesin complex|GRP
-Collagen beta(1-O)galactosyltransferases|GRP
-Collagen proteoglycans|GRP
-Collagens|GRP
-Collectins|GRP
-Complement component GPCRs|GRP
-Complement system activation components|GRP
-Complement system regulators and receptors|GRP
-Components of oligomeric golgi complex|GRP
-Condensin I subunits|GRP
-Condensin II subunits|GRP
-Constitutive centromere associated network|GRP
-Copines|GRP
-Cornified envelope precursor family|GRP
-Coronins|GRP
-Corticotropin releasing hormone receptors|GRP
-Crumbs complex|GRP
-Csk family tyrosine kinases|GRP
-Cullins|GRP
-Cyclic nucleotide gated channels|GRP
-Cyclin dependent kinases|GRP
-Cyclins|GRP
-Cyclophilin peptidylprolyl isomerases|GRP
-Cystatins, type 1|GRP
-Cystatins, type 2|GRP
-Cystatins, type 3|GRP
-Cystatins, type 4|GRP
-Cysteine rich secretory protein family|GRP
-Cytochrome P450 family 1|GRP
-Cytochrome P450 family 11|GRP
-Cytochrome P450 family 17|GRP
-Cytochrome P450 family 19|GRP
-Cytochrome P450 family 2|GRP
-Cytochrome P450 family 20|GRP
-Cytochrome P450 family 21|GRP
-Cytochrome P450 family 24|GRP
-Cytochrome P450 family 26|GRP
-Cytochrome P450 family 27|GRP
-Cytochrome P450 family 3|GRP
-Cytochrome P450 family 39|GRP
-Cytochrome P450 family 4|GRP
-Cytochrome P450 family 46|GRP
-Cytochrome P450 family 5|GRP
-Cytochrome P450 family 51|GRP
-Cytochrome P450 family 7|GRP
-Cytochrome P450 family 8|GRP
-Cytochrome b561|GRP
-Cytoplasmic transfer RNAs|GRP
-Cytosolic iron-sulfur assembly components|GRP
-DAN family|GRP
-DASH family|GRP
-DAZ RNA binding protein family|GRP
-DDB1 and CUL4 associated factors|GRP
-DEAD-box helicases|GRP
-DEAH-box helicases|GRP
-DENN/MADD domain containing|GRP
-DNA glycosylases|GRP
-DNA helicases|GRP
-DNA ligases|GRP
-DNA polymerases|GRP
-DNA transposon derived genes|GRP
-DNAJ (HSP40) heat shock proteins|GRP
-DOCK C2 domain containing|GRP
-Deafness associated genes|GRP
-Death associated protein kinases|GRP
-Death effector domain containing|GRP
-Death inducing signaling complex|GRP
-Defensins, alpha|GRP
-Defensins, beta|GRP
-Desmosomal cadherins|GRP
-Desumoylating isopeptidases|GRP
-Diacylglycerol O-acyltransferase 2 family|GRP
-Diacylglycerol kinases|GRP
-Dishevelled segment polarity proteins|GRP
-Dolichyl D-mannosyl phosphate dependent mannosyltransferases|GRP
-Dopamine receptors|GRP
-Doublecortin superfamily|GRP
-Dynactin|GRP
-Dynein regulatory complex|GRP
-Dyneins, axonemal|GRP
-Dyneins, cytoplasmic|GRP
-E2F transcription factors|GRP
-EF-hand domain containing|GRP
-EMI domain containing|GRP
-EMSY complex|GRP
-ENAH/VASPs|GRP
-EPH receptors|GRP
-ERCC excision repair associated|GRP
-ESCRT-0|GRP
-ESCRT-I|GRP
-ESCRT-II|GRP
-ESCRT-III|GRP
-ESCRT-III associated factors|GRP
-ESCRT-IV|GRP
-ETS transcription factor family|GRP
-EYA transcriptional coactivator and phosphatases|GRP
-Elongator acetyltransferase complex|GRP
-Elongin complex|GRP
-Endogenous ligands|GRP
-Endosome-associated recycling protein (EARP) complex|GRP
-Endothelin receptors|GRP
-Engulfment and cell motility proteins|GRP
-Enolases|GRP
-Envelope ERV derived genes|GRP
-Ephrins|GRP
-Erb-b2 receptor tyrosine kinases|GRP
-Erythrocyte membrane protein band 4.1|GRP
-Eukaryotic translation initiation factor 3|GRP
-Exocyst complex|GRP
-Exon junction complex|GRP
-Exonucleases|GRP
-Exosome complex|GRP
-Exostosin glycosyltransferase family|GRP
-Exportins|GRP
-Extended synaptotagmins|GRP
-F-BAR domain containing|GRP
-F-box and WD repeat domain containing|GRP
-F-box and leucine rich repeat proteins|GRP
-F-boxes other|GRP
-F2R receptors|GRP
-FA complementation groups|GRP
-FASTK mitochondrial RNA binding family|GRP
-FERM domain containing|GRP
-FKBP prolyl isomerases|GRP
-Fascins|GRP
-Fatty acid binding protein family|GRP
-Fatty acid desaturases|GRP
-Fatty acid hydroxylase domain containing|GRP
-Ferlin family|GRP
-Fermitins|GRP
-Ferritin subunits|GRP
-Fes family tyrosine kinases|GRP
-Fibrinogen C domain containing|GRP
-Fibronectin type III domain containing|GRP
-Fibulins|GRP
-Flotillins|GRP
-Forkhead boxes|GRP
-Formyl peptide receptors|GRP
-Fos transcription factor family|GRP
-Free fatty acid receptors|GRP
-Fructose-1,6-bisphosphatases|GRP
-Fucosyltransferases|GRP
-G protein subunits alpha, group i|GRP
-G protein subunits alpha, group q|GRP
-G protein subunits alpha, group s|GRP
-G protein subunits beta|GRP
-G protein subunits gamma|GRP
-G protein-coupled bile acid receptor|GRP
-G protein-coupled estrogen receptor|GRP
-G protein-coupled receptors, Class A orphans|GRP
-G protein-coupled receptors, Class C orphans|GRP
-G protein-coupled receptors, Class F frizzled|GRP
-G-patch domain containing|GRP
-GATA zinc finger domain containing|GRP
-GATOR1 subcomplex|GRP
-GATOR2 subcomplex|GRP
-GBAF complex|GRP
-GCN5 related N-acetyltransferases|GRP
-GDNF family ligands|GRP
-GINS complex|GRP
-GLIPR family|GRP
-GOLD domain containing|GRP
-GPN-loop GTPases|GRP
-GRAM domain containing|GRP
-GTPases, IMAP|GRP
-Gag like LTR retrotransposon derived genes|GRP
-Galactosidases alpha|GRP
-Galanin receptors|GRP
-Galectins|GRP
-Gamma-aminobutyric acid type A receptor subunits|GRP
-Gamma-aminobutyric acid type B receptor subunits|GRP
-Gamma-glutamyltransferases|GRP
-Gap junction proteins|GRP
-Gasdermins|GRP
-Gelsolin/villins|GRP
-Gemins|GRP
-General transcription factors|GRP
-Gla domain containing|GRP
-Glucagon receptor family|GRP
-Glucosaminyl (N-acetyl) transferases/xylosyltransferases|GRP
-Glucose 6-phosphatases, catalytic|GRP
-Glutamate ionotropic receptor AMPA type subunits|GRP
-Glutamate ionotropic receptor NMDA type subunits|GRP
-Glutamate ionotropic receptor delta type subunits|GRP
-Glutamate ionotropic receptor kainate type subunits|GRP
-Glutamate metabotropic receptors|GRP
-Glutamine amidotransferase like class 1 domain containing|GRP
-Glutaredoxin domain containing|GRP
-Glycerol kinases|GRP
-Glycerol-3-phosphate acyltransferases|GRP
-Glycine receptors|GRP
-Glycogen phosphorylases|GRP
-Glycoprotein hormone receptors|GRP
-Glycoside hydrolase family 31|GRP
-Glycosyl transferases group 1 domain containing|GRP
-Glycosyltransferase family 2|GRP
-Glycosyltransferase family 6|GRP
-Glycosyltransferase family 8|GRP
-Glycosyltransferase family 90|GRP
-Glypicans|GRP
-Golgi associated retrograde protein (GARP) complex|GRP
-Golgi associated, gamma adaptin ear containing, ARF binding proteins|GRP
-Gonadotropin releasing hormone receptors|GRP
-Granins|GRP
-Granule associated serine proteases of immune defence|GRP
-Growth hormone family|GRP
-Guanylate cyclase receptors|GRP
-Guanylate cyclases, soluble|GRP
-H/ACA ribonucleoprotein complex|GRP
-HAD Asp-based non-protein phosphatases|GRP
-HAD Asp-based protein phosphatases|GRP
-HAUS augmin like complex|GRP
-HNF class homeoboxes|GRP
-HOPS complex|GRP
-HOXL subclass homeoboxes|GRP
-HRAS like suppressor family|GRP
-Haloacid dehalogenase like hydrolase domain containing|GRP
-Heat shock 70kDa proteins|GRP
-Heat shock 90kDa proteins|GRP
-Hedgehog signaling molecule family|GRP
-Helix-turn-helix CENPB type domain containing|GRP
-Hemoglobin subunits|GRP
-Heparanases|GRP
-Heparin binding growth factor family|GRP
-Histamine receptors|GRP
-Histatins and statherin|GRP
-Histocompatibility complex|GRP
-Histone deacetylases, class I|GRP
-Histone deacetylases, class IIA|GRP
-Histone deacetylases, class IIB|GRP
-Histone deacetylases, class IV|GRP
-Histones|GRP
-Homer scaffold proteins|GRP
-Hyalectan proteoglycans|GRP
-Hydrogen voltage gated channels|GRP
-Hydroxy-carboxylic acid receptors|GRP
-Hypocretin receptors|GRP
-I-BAR domain containing|GRP
-I-set domain containing|GRP
-INHAT complex|GRP
-INO80 complex|GRP
-IZUMO family|GRP
-Ig-like cell adhesion molecule family|GRP
-IgCAM CXADR-related subfamily|GRP
-IgLON cell adhesion molecules|GRP
-Immunoglobulin heavy (IGH) orphons|GRP
-Immunoglobulin heavy locus at 14q32.33|GRP
-Immunoglobulin kappa (IGK) orphons|GRP
-Immunoglobulin kappa locus at 2p11.2|GRP
-Immunoglobulin lambda (IGL) orphons|GRP
-Immunoglobulin lambda locus at 22q11.2|GRP
-Immunoglobulin like domain containing|GRP
-Importins|GRP
-Inhibitory leukocyte immunoglobulin like receptors|GRP
-Inositol 1,4,5-triphosphate receptors|GRP
-Insulin like growth factor binding proteins|GRP
-Integrator complex|GRP
-Integrin alpha subunits|GRP
-Integrin beta subunits|GRP
-Interferon induced transmembrane proteins|GRP
-Interferon receptors|GRP
-Interferons|GRP
-Interleukin 6 type cytokine family|GRP
-Interleukin receptors|GRP
-Interleukins|GRP
-Intermediate filament family orphans|GRP
-Intermediate filaments Type III|GRP
-Intermediate filaments Type IV|GRP
-Intraflagellar transport proteins|GRP
-Iron (II) and 2-oxoglutarate dependent oxygenases|GRP
-Jak family tyrosine kinases|GRP
-Jun transcription factor family|GRP
-Junctophilins|GRP
-KEOPS complex|GRP
-KICSTOR complex|GRP
-KN motif and ankyrin repeat domain containing|GRP
-KNL1 complex|GRP
-Kallikreins|GRP
-Kelch like|GRP
-Keratin associated proteins|GRP
-Keratins, type I|GRP
-Keratins, type II|GRP
-Killer cell immunoglobulin like receptors|GRP
-Killer cell lectin like receptors|GRP
-Kinesins|GRP
-Kleisins|GRP
-Kruppel like factors|GRP
-L ribosomal proteins|GRP
-LEM domain containing|GRP
-LHFPL tetraspan proteins|GRP
-LIM class homeoboxes|GRP
-LIM domain containing|GRP
-LIM zinc finger domain containing|GRP
-LIMK/TESK kinase family|GRP
-LSm proteins|GRP
-LY6/PLAUR domain containing|GRP
-LYR motif containing|GRP
-La ribonucleoprotein domain containing|GRP
-Laminin subunits|GRP
-Lamins|GRP
-Late cornified envelope proteins|GRP
-Latent transforming growth factor beta binding proteins|GRP
-Leucine zipper tumor suppressor family|GRP
-Leukotriene receptors|GRP
-Linear ubiquitin chain assembly complex|GRP
-Lipases|GRP
-Lipid phosphatases|GRP
-Lipins|GRP
-Lipocalins|GRP
-Long non-coding RNAs (published)|GRP
-Long pentraxins|GRP
-Low density lipoprotein receptors|GRP
-Lysine acetyltransferases|GRP
-Lysine demethylases|GRP
-Lysine methyltransferases|GRP
-Lysophosphatidic acid receptors|GRP
-Lysozymes, c-type|GRP
-Lysozymes, g-type|GRP
-M1 metallopeptidases|GRP
-M10 matrix metallopeptidases|GRP
-M13 metallopeptidases|GRP
-M14 carboxypeptidases|GRP
-M16 metallopeptidases|GRP
-M3 metallopeptidases|GRP
-MADS box family|GRP
-MAGE family|GRP
-MAP kinase phosphatases|GRP
-MARVEL domain containing|GRP
-MAX dimerization proteins|GRP
-MBT domain containing|GRP
-MCM family|GRP
-MIA family|GRP
-MINDY deubiquitinases|GRP
-MIS12 kinetochore complex|GRP
-MJD deubiquinating enzymes|GRP
-MKS complex|GRP
-MOB kinase activators|GRP
-MPP10 subcomplex|GRP
-MRH domain containing|GRP
-MRN complex|GRP
-MSL histone acetyltransferase complex|GRP
-MTOR complex 1|GRP
-MTOR complex 2|GRP
-MYST type domain containing lysine acetyltransferases|GRP
-Maestro heat like repeat containing|GRP
-Major cadherins|GRP
-Mannosidases alpha class 1|GRP
-Mannosidases alpha class 2|GRP
-Mannosidases endo-alpha|GRP
-Mannosidases type beta|GRP
-Mannosyl-glycoprotein N-acetylglucosaminyltransferases|GRP
-Matrilins|GRP
-Mediator complex|GRP
-Melanin concentrating hormone receptors|GRP
-Melanocortin receptors|GRP
-Melatonin receptors|GRP
-Membrane associated guanylate kinases|GRP
-Membrane associated progesterone receptor family|GRP
-Membrane associated ring-CH-type fingers|GRP
-Membrane bound O-acyltransferases|GRP
-Membrane spanning 4-domains|GRP
-Metallothioneins|GRP
-Methyl-CpG binding domain containing|GRP
-Methyltransferase like|GRP
-MicroRNAs|GRP
-Microsomal glutathione S-transferases|GRP
-Minor histocompatibility antigens|GRP
-Minor spliceosome|GRP
-Miro like atypical Rho GTPases|GRP
-Mitochondrial coiled-coil-helix-coiled-coil-helix domain containing proteins|GRP
-Mitochondrial complex I assembly complex|GRP
-Mitochondrial complex II: succinate dehydrogenase subunits|GRP
-Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits|GRP
-Mitochondrial complex IV: cytochrome c oxidase subunits|GRP
-Mitochondrial complex V: ATP synthase subunits|GRP
-Mitochondrial respiratory chain complex assembly factors|GRP
-Mitochondrial ribosomal proteins|GRP
-Mitochondrially encoded ribosomal RNAs|GRP
-Mitochondrially encoded tRNAs|GRP
-Mitogen-activated protein kinase kinase kinase kinases|GRP
-Mitogen-activated protein kinase kinase kinases|GRP
-Mitogen-activated protein kinase kinases|GRP
-Mitogen-activated protein kinase-activated protein kinases|GRP
-Mitogen-activated protein kinases|GRP
-Mucins|GRP
-Multiple C2 and transmembrane domain containing|GRP
-MutL homologs|GRP
-MutS homologs|GRP
-My-T-BRC complex|GRP
-Myb/SANT domain containing|GRP
-Myocardin family|GRP
-Myocyte enhancer factor 2 proteins|GRP
-Myogenic regulatory family|GRP
-Myosin binding proteins|GRP
-Myosin heavy chains|GRP
-Myosin light chains|GRP
-Myosin phosphatase targeting family|GRP
-Myosins, class I|GRP
-Myosins, class III|GRP
-Myosins, class IX|GRP
-Myosins, class V|GRP
-Myosins, class VI|GRP
-Myosins, class VII|GRP
-Myosins, class X|GRP
-Myosins, class XIX|GRP
-Myosins, class XV|GRP
-Myosins, class XVI|GRP
-Myosins, class XVIII|GRP
-Myotubularins|GRP
-Myozenins|GRP
-N(alpha)-acetyltransferase subunits|GRP
-N-BAR domain containing|GRP
-N-terminal EF-hand calcium binding proteins|GRP
-NADH:ubiquinone oxidoreductase core subunits|GRP
-NADH:ubiquinone oxidoreductase supernumerary subunits|GRP
-NBPF members|GRP
-NDC80 kinetochore complex|GRP
-NF-kappa B complex subunits|GRP
-NKL subclass homeoboxes and pseudogenes|GRP
-NLR family|GRP
-NME/NM23 family|GRP
-NOP2/Sun RNA methyltransferase family|GRP
-NPHP complex|GRP
-NSL histone acetyltransferase complex|GRP
-NSP adaptor proteins|GRP
-NT-C2 domain containing|GRP
-NTC associated proteins|GRP
-NURF complex|GRP
-Na+/K+ transporting ATPase interacting|GRP
-Netrins|GRP
-Neuraminidases|GRP
-Neuregulins|GRP
-Neurexins|GRP
-Neuroligins|GRP
-Neuromedin U receptors|GRP
-Neuropeptide receptors|GRP
-Neurotensin receptors|GRP
-Neurotrophins|GRP
-NineTeen complex|GRP
-Non-canonical high mobility group|GRP
-Non-canonical poly(A) polymerases|GRP
-Non-clustered protocadherins|GRP
-NuRD complex|GRP
-Nuclear exosome targeting complex|GRP
-Nuclear factors of activated T-cells|GRP
-Nuclear hormone receptors|GRP
-Nuclear-encoded mitochondrial transfer RNAs|GRP
-Nucleoporins|GRP
-Nucleoredoxin family|GRP
-Nucleotide excision repair|GRP
-NudC family|GRP
-Nudix hydrolase family|GRP
-O-linked N-acetylglucosaminyltransferases|GRP
-OOSP family|GRP
-ORAI calcium release-activated calcium modulators|GRP
-OTU domain containing|GRP
-Olfactory receptors, family 1|GRP
-Olfactory receptors, family 10|GRP
-Olfactory receptors, family 11|GRP
-Olfactory receptors, family 12|GRP
-Olfactory receptors, family 13|GRP
-Olfactory receptors, family 14|GRP
-Olfactory receptors, family 2|GRP
-Olfactory receptors, family 3|GRP
-Olfactory receptors, family 4|GRP
-Olfactory receptors, family 5|GRP
-Olfactory receptors, family 51|GRP
-Olfactory receptors, family 52|GRP
-Olfactory receptors, family 55|GRP
-Olfactory receptors, family 56|GRP
-Olfactory receptors, family 6|GRP
-Olfactory receptors, family 7|GRP
-Olfactory receptors, family 8|GRP
-Olfactory receptors, family 9|GRP
-Oligosaccharyltransferase complex subunits|GRP
-Opioid receptors|GRP
-Opsin receptors|GRP
-Origin recognition complex|GRP
-Oxoglutarate receptor|GRP
-Oxysterol binding proteins|GRP
-P-TEFb complex|GRP
-P2Y receptors|GRP
-PAR bZIP family|GRP
-PATE family|GRP
-PBAF complex|GRP
-PDZ domain containing|GRP
-PHD finger proteins|GRP
-PI4KA lipid kinase complex|GRP
-PIK3C3 complex subunits|GRP
-POTE ankyrin domain containing|GRP
-POU class homeoboxes and pseudogenes|GRP
-PR/SET domain family|GRP
-PRAME family|GRP
-PRD class homeoboxes and pseudogenes|GRP
-PRELI domain containing|GRP
-PROS class homeoboxes|GRP
-PTEN protein phosphatases|GRP
-PTF1 complex|GRP
-PTK2 family tyrosine kinases|GRP
-PTK6 family tyrosine kinases|GRP
-PWWP domain containing|GRP
-PX-BAR domain containing|GRP
-Paf1/RNA polymerase II complex|GRP
-Paired boxes|GRP
-Pannexins|GRP
-Pappalysins|GRP
-Paraneoplastic Ma antigens|GRP
-Paraoxonases|GRP
-Parathyroid hormone receptors|GRP
-Parkinson disease associated genes|GRP
-Parvins|GRP
-Parvulins|GRP
-Patatin like phospholipase domain containing|GRP
-Pellino E3 ubiquitin protein ligases|GRP
-Peptide receptors|GRP
-Peptidoglycan recognition proteins|GRP
-Peptidyl arginine deiminases|GRP
-Perilipins|GRP
-Peroxins|GRP
-Peroxiredoxins|GRP
-Phosphatase and actin regulators|GRP
-Phosphatidylinositol 3-kinase subunits|GRP
-Phosphatidylinositol glycan anchor biosynthesis|GRP
-Phosphatidylinositol transfer proteins|GRP
-Phosphodiesterases|GRP
-Phosphoglycerate mutases|GRP
-Phosphoinositide phosphatases|GRP
-Phospholipases|GRP
-Phospholipid phosphatase related|GRP
-Phospholipid phosphatases|GRP
-Phospholipid scramblases|GRP
-Piwi-interacting RNA clusters|GRP
-Plakins|GRP
-Plakophilins|GRP
-Platelet activating factor receptor|GRP
-Pleckstrin homology domain containing|GRP
-Plexins|GRP
-Poly(ADP-ribose) polymerases|GRP
-Polycomb group ring fingers|GRP
-Polycomb repressive complex 2|GRP
-Polypeptide N-acetylgalactosaminyltransferases|GRP
-Potassium calcium-activated channel subfamily M regulatory beta subunits|GRP
-Potassium calcium-activated channels|GRP
-Potassium sodium-activated channel subfamily T|GRP
-Potassium two pore domain channel subfamily K|GRP
-Potassium voltage-gated channel regulatory subunits|GRP
-Potassium voltage-gated channel subfamily J|GRP
-Potassium voltage-gated channels|GRP
-Prefoldin subunits|GRP
-Pregnancy specific glycoproteins|GRP
-Prenyltransferase alpha subunit repeat containing|GRP
-Prickle planar cell polarity proteins|GRP
-Progestin and adipoQ receptor family|GRP
-Prokineticin receptors|GRP
-Proline rich and Gla domain containing|GRP
-Proline rich proteins|GRP
-Proprotein convertase subtilisin/kexin family|GRP
-Prostaglandin receptors|GRP
-Proteasome|GRP
-Protein arginine methyltransferases|GRP
-Protein disulfide isomerases|GRP
-Protein phosphatase 1 regulatory subunits|GRP
-Protein phosphatase 2 modulatory subunits|GRP
-Protein phosphatase 2 regulatory subunits|GRP
-Protein phosphatase 2 scaffold subunits|GRP
-Protein phosphatase 3 regulatory subunits|GRP
-Protein phosphatase 4 regulatory subunits|GRP
-Protein phosphatase 6 regulatory subunits|GRP
-Protein phosphatase catalytic subunits|GRP
-Protein phosphatases|GRP
-Protein phosphatases, Mg2+/Mn2+ dependent|GRP
-Protein tyrosine phosphatases type IVA|GRP
-Protein tyrosine phosphatases, non-receptor type|GRP
-Protein tyrosine phosphatases, receptor type|GRP
-Proteoglycans|GRP
-Pseudoautosomal region 1|GRP
-Pseudoautosomal region 2|GRP
-Pumilio homology domain containing|GRP
-Purinergic receptors P2X|GRP
-Purinosome|GRP
-Pyrin and HIN domain family|GRP
-Pyrin domain containing|GRP
-Pyruvate dehydrogenase complex|GRP
-R2TP complex|GRP
-RAB like GTPases|GRP
-RAB, member RAS oncogene GTPases|GRP
-RAB11 binding domain containing|GRP
-RAF family|GRP
-RAN family GTPases|GRP
-RAS type GTPase family|GRP
-RBR E3 ubiquitin ligases|GRP
-RELT family|GRP
-RGK type GTPase family|GRP
-RNA binding motif containing|GRP
-RNA helicases|GRP
-RNA polymerase subunits|GRP
-RNA pseudouridylate synthase domain containing|GRP
-RNAs, 7SL, cytoplasmic|GRP
-RNAs, Ro-associated Y|GRP
-Ragulator complex|GRP
-Ras association domain family|GRP
-RecQ like helicases|GRP
-Receptor (G protein-coupled) activity modifying proteins|GRP
-Receptor accessory proteins|GRP
-Receptor transporter proteins|GRP
-Receptor tyrosine kinases|GRP
-Regulating synaptic membrane exocytosis family|GRP
-Regulators of G-protein signaling|GRP
-Regulatory factor X family|GRP
-Relaxin family peptide receptors|GRP
-Repulsive guidance molecule family|GRP
-Retriever complex|GRP
-Retrotransposon Gag like|GRP
-Rho GTPase activating proteins|GRP
-Rho family GTPases|GRP
-Rho guanine nucleotide exchange factors|GRP
-Rhomboid family|GRP
-Ribonuclease A family|GRP
-Ribosomal 45S RNA clusters|GRP
-Ribosomal 45S rRNA genes outside of clusters|GRP
-Ring finger proteins|GRP
-Ripoptosome|GRP
-Roco domain containing|GRP
-Ryanodine receptors|GRP
-S ribosomal proteins|GRP
-S100 calcium binding proteins|GRP
-S100 fused type protein family|GRP
-SAGA complex|GRP
-SAM and SH3 domain containing|GRP
-SCAN domain containing|GRP
-SCF complex|GRP
-SCY1 like pseudokinases|GRP
-SEC14 family|GRP
-SET complex|GRP
-SET domain containing|GRP
-SF3a complex|GRP
-SF3b complex|GRP
-SH2 domain containing|GRP
-SIBLING family|GRP
-SIN3 histone deacetylase complex subunits|GRP
-SINE class homeoboxes|GRP
-SKI transcriptional corepressors|GRP
-SMAD family|GRP
-SMC5-6 protein complex|GRP
-SMN complex|GRP
-SNAG transcriptional repressors|GRP
-SNAP complex|GRP
-SNAREs|GRP
-SPARC family|GRP
-SPOUT methyltransferase domain containing|GRP
-SRCAP complex|GRP
-SRY-boxes|GRP
-STEAP family|GRP
-STRIPAK complex|GRP
-STT3 oligosaccharyltransferase catalytic subunits|GRP
-SUMO specific peptidases|GRP
-Scavenger receptor cysteine rich domain containing|GRP
-Scavenger receptors|GRP
-Schlafen family|GRP
-Scribble complex|GRP
-Secreted frizzled-related proteins|GRP
-Secretoglobins|GRP
-Secretory carrier membrane proteins|GRP
-Selectins|GRP
-Selenoproteins|GRP
-Semaphorins|GRP
-Septins|GRP
-Serine and arginine rich splicing factors|GRP
-Serine peptidase inhibitors, Kazal type|GRP
-Serine proteases|GRP
-Serine/threonine phosphatases|GRP
-Serpin peptidase inhibitors|GRP
-Seven-beta-strand methyltransferase motif containing|GRP
-Shelterin complex|GRP
-Shieldin complex|GRP
-Shisa family members|GRP
-Short chain dehydrogenase/reductase superfamily|GRP
-Short pentraxins|GRP
-Sialic acid binding Ig like lectins|GRP
-Sialyltransferases|GRP
-Sideroflexins|GRP
-Signal regulatory proteins|GRP
-Signal transduction and activation of RNA metabolism family|GRP
-Sirtuins|GRP
-Ski2 like RNA helicases|GRP
-Slingshot protein phosphatases|GRP
-Sm spliceosomal proteins|GRP
-Small Cajal body-specific RNAs|GRP
-Small G protein signaling modulators|GRP
-Small NF90 (ILF3) associated RNAs|GRP
-Small heat shock proteins|GRP
-Small leucine rich repeat proteoglycans|GRP
-Small nuclear RNAs|GRP
-Small nucleolar RNAs, C/D box|GRP
-Small nucleolar RNAs, H/ACA box|GRP
-Small proline rich proteins|GRP
-Sodium channels epithelial|GRP
-Sodium leak channels, non selective|GRP
-Sodium voltage-gated channel alpha subunits|GRP
-Sodium voltage-gated channel beta subunits|GRP
-Soluble glutathione S-transferases|GRP
-Solute carriers|GRP
-Somatostatin receptors|GRP
-Sorting nexins|GRP
-Sp transcription factors|GRP
-Spectrin repeat containing nuclear envelope family|GRP
-Spectrins|GRP
-Speedy/RINGO cell cycle regulator family|GRP
-Sphingosine 1-phosphate receptors|GRP
-Sphingosine-1-phosphate phosphatases|GRP
-Spindlin family|GRP
-Spliceosomal A complex|GRP
-Spliceosomal B complex|GRP
-Spliceosomal Bact complex|GRP
-Spliceosomal C complex|GRP
-Spliceosomal E complex|GRP
-Spliceosomal P complex|GRP
-Src family tyrosine kinases|GRP
-StAR related lipid transfer domain containing|GRP
-Stathmins|GRP
-Sterile alpha motif domain containing|GRP
-Structural maintenance of chromosomes proteins|GRP
-Succinate receptor|GRP
-Sugar phosphatases|GRP
-Sulfatases|GRP
-Sulfotransferases, cytosolic|GRP
-Sulfotransferases, membrane bound|GRP
-Super elongation complex|GRP
-Suppressors of cytokine signaling|GRP
-Sushi domain containing|GRP
-Syk family tyrosine kinases|GRP
-Synapsins|GRP
-Synaptogyrins|GRP
-Synaptophysins|GRP
-Synaptotagmin like tandem C2 proteins|GRP
-Synaptotagmins|GRP
-Syndecans|GRP
-Syntaxins|GRP
-T cell receptor alpha locus at 14q11.2|GRP
-T cell receptor beta (TRB) orphons|GRP
-T cell receptor beta locus at 7q34|GRP
-T cell receptor delta locus at 14q11.2|GRP
-T cell receptor gamma locus at 7p14|GRP
-T-boxes|GRP
-TALE class homeoboxes and pseudogenes|GRP
-TCF/LEF transcription factor family|GRP
-TEA domain transcription factors|GRP
-THAP domain containing|GRP
-THO complex|GRP
-TIM22 complex|GRP
-TIM23 complex|GRP
-TIR domain containing|GRP
-TLC domain containing|GRP
-TNF receptor associated factors|GRP
-TNK family tyrosine kinases|GRP
-TOG domain containing|GRP
-TSC complex|GRP
-TTT complex|GRP
-Tachykinin receptors|GRP
-Taste 1 receptors|GRP
-Taste 2 receptors|GRP
-Tec family tyrosine kinases|GRP
-Tectonic proteins|GRP
-Tektins|GRP
-Terminal nucleotidyltransferases|GRP
-Tetraspan junctional complex superfamily|GRP
-Tetraspanins|GRP
-Tetratricopeptide repeat domain containing|GRP
-Tissue inhibitor of metallopeptidases|GRP
-Toll like receptors|GRP
-Topoisomerases|GRP
-Trace amine receptors|GRP
-Trafficking protein particle complex|GRP
-Transcribed pseudogenes with published function|GRP
-Transcription and export complex 2|GRP
-Transcription elongation factor A like family|GRP
-Transcription factor Dp family|GRP
-Transferrins|GRP
-Transglutaminases|GRP
-Transient receptor potential cation channels|GRP
-Translocase of outer mitochondrial membrane complex|GRP
-Transmembrane 9 superfamily members|GRP
-Transmembrane BAX inhibitor motif containing|GRP
-Transmembrane and coiled-coil domain containing|GRP
-Transmembrane channel likes|GRP
-Transmembrane p24 trafficking proteins|GRP
-Trinucleotide repeat containing|GRP
-Tripartite motif containing|GRP
-Tropomodulins|GRP
-Tropomyosins|GRP
-Troponin complex subunits|GRP
-Tubulin polymerization promoting proteins|GRP
-Tubulin tyrosine ligase family|GRP
-Tubulins|GRP
-Tudor domain containing|GRP
-Tumor necrosis factor receptor superfamily|GRP
-Tumor necrosis factor superfamily|GRP
-Two pore segment channels|GRP
-Type 1 receptor serine/threonine kinases|GRP
-Type 2 receptor serine/threonine kinases|GRP
-Type I classical cadherins|GRP
-Type II classical cadherins|GRP
-U-box domain containing|GRP
-U1 small nucleolar ribonucleoprotein|GRP
-U11/U12 di-snRNP|GRP
-U2 small nucleolar ribonucleoprotein|GRP
-U4/U6 small nucleolar ribonucleoprotein|GRP
-U5 small nucleolar ribonucleoprotein|GRP
-UBX domain containing|GRP
-UDP glucuronosyltransferases|GRP
-UDP-N-acetylglucosaminyltransferase subunits|GRP
-UDP-glucose ceramide glucosyltransferases|GRP
-UDP-glucose glycoprotein glucosyltransferases|GRP
-UNC13 homologs|GRP
-UPF1 like RNA helicases|GRP
-USH2 complex|GRP
-UTPa subcomplex|GRP
-UTPb subcomplex|GRP
-UTPc subcomplex|GRP
-Ubiquilin family|GRP
-Ubiquitin C-terminal hydrolases|GRP
-Ubiquitin conjugating enzymes E2|GRP
-Ubiquitin like modifier activating enzymes|GRP
-Ubiquitin protein ligase E3 component n-recognins|GRP
-Ubiquitin specific peptidase like|GRP
-Ubiquitin specific peptidases|GRP
-V-set domain containing|GRP
-V-type ATPases|GRP
-VEGF family|GRP
-VPS9 domain containing|GRP
-Vanins|GRP
-Variable charge X/Y family|GRP
-Vasoactive intestinal peptide receptor family|GRP
-Vault RNAs|GRP
-Vesicle associated membrane proteins|GRP
-Vestigial like family|GRP
-Voltage dependent anion channels|GRP
-Volume regulated anion channel subunits|GRP
-Vomeronasal receptors|GRP
-WAP four-disulfide core domain containing|GRP
-WASH complex|GRP
-WBP1/VOPP1 family|GRP
-WD repeat domain containing|GRP
-WIPI family|GRP
-WRAD complex|GRP
-WTAP complex|GRP
-Wiskott-Aldrich Syndrome protein family|GRP
-Wnt family|GRP
-X-C motif chemokine receptors|GRP
-X-linked mental retardation|GRP
-XK related family|GRP
-Xeroderma pigmentosum complementation groups|GRP
-Y box binding proteins|GRP
-YEATS domain containing|GRP
-YIP family|GRP
-Yip1 domain containing|GRP
-Yippee like family|GRP
-ZF class homeoboxes and pseudogenes|GRP
-ZYG11 cell cycle regulator family|GRP
-Zinc activated channels|GRP
-Zinc fingers|GRP
-Zinc fingers 3CxxC-type|GRP
-Zinc fingers AN1-type|GRP
-Zinc fingers BED-type|GRP
-Zinc fingers C2H2-type|GRP
-Zinc fingers C2H2C-type|GRP
-Zinc fingers C2HC-type|GRP
-Zinc fingers CCCH-type|GRP
-Zinc fingers CCHC-type|GRP
-Zinc fingers CW-type|GRP
-Zinc fingers CXXC-type|GRP
-Zinc fingers DBF-type|GRP
-Zinc fingers DHHC-type|GRP
-Zinc fingers FYVE-type|GRP
-Zinc fingers GRF-type|GRP
-Zinc fingers HIT-type|GRP
-Zinc fingers MIZ-type|GRP
-Zinc fingers MYM-type|GRP
-Zinc fingers MYND-type|GRP
-Zinc fingers PARP-type|GRP
-Zinc fingers RANBP2-type|GRP
-Zinc fingers SWIM-type|GRP
-Zinc fingers ZZ-type|GRP
-Zinc fingers matrin-type|GRP
-Zona pellucida glycoproteins|GRP
-Zyxin family|GRP
-eNoSC complex|GRP
-interferon induced transmembrane protein domain containing|GRP
-mitochondrial RNase P complex|GRP
-p120 catenin family|GRP
-tRNA methyltransferases|GRP
-tRNA splicing ligase complex|GRP
-tRNA-splicing endonuclease subunits|GRP
-tri-snRP complex|GRP
+m6A methyltransferase complex|GPR
+1-acylglycerol-3-phosphate O-acyltransferases|GPR
+14-3-3 phospho-serine/phospho-threonine binding proteins|GPR
+18S ribosomal RNAs|GPR
+28S ribosomal RNAs|GPR
+45S pre-ribosomal RNAs|GPR
+5'-nucleotidases|GPR
+5-hydroxytryptamine receptors, G protein-coupled|GPR
+5-hydroxytryptamine receptors, ionotropic|GPR
+5.8S ribosomal RNAs|GPR
+5FMC ribosome biogenesis complex|GPR
+5S ribosomal RNAs|GPR
+6-phosphofructo-2-kinases/fructose-2,6-biphosphatases|GPR
+7D cadherins|GPR
+7SK snRNP complex|GPR
+7TM orphan receptors|GPR
+A-kinase anchoring proteins|GPR
+AAA ATPases|GPR
+ADAM metallopeptidase domain containing|GPR
+ADAM metallopeptidases with thrombospondin type 1 motif|GPR
+ADAMTS like|GPR
+AF4/FMR2 family|GPR
+AGC family kinases|GPR
+ANP32 acidic nuclear phosphoproteins|GPR
+ARF GTPase family|GPR
+ASAP complex|GPR
+AT-rich interaction domain containing|GPR
+ATAC complex|GPR
+ATP binding cassette subfamily A|GPR
+ATP binding cassette subfamily B|GPR
+ATP binding cassette subfamily C|GPR
+ATP binding cassette subfamily D|GPR
+ATP binding cassette subfamily E|GPR
+ATP binding cassette subfamily F|GPR
+ATP binding cassette subfamily G|GPR
+ATPase H+/K+ transporting|GPR
+ATPase Na+/K+ transporting subunits|GPR
+ATPase copper transporting|GPR
+ATPase orphan transporters|GPR
+ATPase phospholipid transporting|GPR
+ATPases Ca2+ transporting|GPR
+Abhydrolase domain containing|GPR
+Abl family tyrosine kinases|GPR
+Acid phosphatases|GPR
+Acid sensing ion channel subunits|GPR
+Actin related protein 2/3 complex|GPR
+Actin related proteins|GPR
+Actinins|GPR
+Actins|GPR
+Activating leukocyte immunoglobulin like receptors|GPR
+Acyl-CoA dehydrogenase family|GPR
+Acyl-CoA synthetase family|GPR
+Acyl-CoA thioesterases|GPR
+Adaptor related protein complex 1|GPR
+Adaptor related protein complex 2|GPR
+Adaptor related protein complex 3|GPR
+Adaptor related protein complex 4|GPR
+Adaptor related protein complex 5|GPR
+Adenosine deaminase family|GPR
+Adenosine deaminases acting on RNA|GPR
+Adenosine receptors|GPR
+Adenylate cyclases|GPR
+Adenylate kinases|GPR
+Adhesion G protein-coupled receptors, subfamily A|GPR
+Adhesion G protein-coupled receptors, subfamily B|GPR
+Adhesion G protein-coupled receptors, subfamily C|GPR
+Adhesion G protein-coupled receptors, subfamily D|GPR
+Adhesion G protein-coupled receptors, subfamily E|GPR
+Adhesion G protein-coupled receptors, subfamily F|GPR
+Adhesion G protein-coupled receptors, subfamily G|GPR
+Adhesion G protein-coupled receptors, subfamily L|GPR
+Adhesion G protein-coupled receptors, subfamily V|GPR
+Adiponectin receptors|GPR
+Adrenoceptors|GPR
+Ajuba family|GPR
+Alcohol dehydrogenases|GPR
+Aldehyde dehydrogenases|GPR
+Aldo-keto reductases|GPR
+Alkaline ceramidases|GPR
+Alkaline phosphatases|GPR
+Alkylation repair homologs|GPR
+Alpha 1,4-glycosyltransferases|GPR
+Alpha arrestins|GPR
+Alpha catenins|GPR
+Alpha-1,2-glucosyltransferases|GPR
+Alpha-1,3-glucosyltransferases|GPR
+Alpha-L-fucosidases|GPR
+Aminoacyl tRNA synthetases, Class I|GPR
+Aminoacyl tRNA synthetases, Class II|GPR
+Aminopeptidases|GPR
+Amylases alpha|GPR
+Anaphase promoting complex|GPR
+Angiopoietin like|GPR
+Angiotensin receptors|GPR
+Ankyrin repeat domain containing|GPR
+Annexins|GPR
+Anoctamins|GPR
+Apolipoprotein B mRNA editing enzyme catalytic subunits|GPR
+Apolipoproteins|GPR
+Apoptosome|GPR
+Aquaporins|GPR
+Arachidonate lipoxygenases|GPR
+ArfGAPs|GPR
+Arginine vasopressin and oxytocin receptors|GPR
+Argonaute/PIWI family|GPR
+Armadillo repeat containing|GPR
+Armadillo-like helical domain containing|GPR
+Arylacetamide deacetylase family|GPR
+Arylamine N-acetyltransferases|GPR
+Astacins|GPR
+Ataxins|GPR
+Atypical chemokine receptors|GPR
+Atypical dual specificity phosphatases|GPR
+Autophagy related|GPR
+Axonemal dynein assembly factors|GPR
+B9 domain containing|GPR
+BAF complex|GPR
+BAR-PH domain containing|GPR
+BBSome|GPR
+BCH domain containing|GPR
+BCL2 associated athanogene family|GPR
+BCL2 family|GPR
+BCL2 homology region 3 (BH3) only|GPR
+BEACH domain containing|GPR
+BEN domain containing|GPR
+BLOC-1 related complex|GPR
+BPI fold containing|GPR
+BRCA1 A complex|GPR
+BRCA1 B complex|GPR
+BRCA1 C complex|GPR
+BRICHOS domain containing|GPR
+BRISC complex|GPR
+BTB domain containing|GPR
+BTG/Tob family|GPR
+Baculoviral IAP repeat containing|GPR
+Bardet-Biedl syndrome associated|GPR
+Basic helix-loop-helix proteins|GPR
+Basic leucine zipper proteins|GPR
+Basigin family|GPR
+Beaded filament structural proteins|GPR
+Bestrophins|GPR
+Beta 3-glycosyltransferases|GPR
+Beta 4-glycosyltransferases|GPR
+Beta catenins|GPR
+Beta-1,3-glucuronyltransferases|GPR
+Beta-gamma crystallin domain containing|GPR
+Beta-gamma crystallins|GPR
+Biogenesis of lysosomal organelles complex 1|GPR
+Biogenesis of lysosomal organelles complex 2|GPR
+Biogenesis of lysosomal organelles complex 3|GPR
+Bisphosphoglycerate phosphatases|GPR
+Blood group antigens|GPR
+Bombesin receptors|GPR
+Bone morphogenetic proteins|GPR
+Bradykinin receptors|GPR
+Brain expressed X-linked family|GPR
+Bromodomain containing|GPR
+Bromodomain containing, BET|GPR
+Butyrophilins|GPR
+C-C motif chemokine receptors|GPR
+C-X-3-C motif chemokine receptors|GPR
+C-X-C motif chemokine receptors|GPR
+C-type lectin domain containing|GPR
+C1-set domain containing|GPR
+C1q and TNF related|GPR
+C1q domain containing|GPR
+C2 and RasGAP domain containing|GPR
+C2 and WW domain containing|GPR
+C2 domain containing|GPR
+C2 domain containing phospholipases|GPR
+C2 domain containing protein kinases|GPR
+C2 tensin-type domain containing|GPR
+C2-set domain containing|GPR
+C3 and PZP like, alpha-2-macroglobulin domain containing|GPR
+CAP and C-type lectin domain containing|GPR
+CAP superfamily|GPR
+CBM complex|GPR
+CCAAT/enhancer binding proteins|GPR
+CCC complex|GPR
+CCR4-NOT transcription complex|GPR
+CD molecules|GPR
+CDC like kinases|GPR
+CDC14 phosphatases|GPR
+CDC42 effector proteins|GPR
+CDGSH iron sulfur domain containing|GPR
+CELSR cadherins|GPR
+CERS class homeoboxes|GPR
+CKLF like MARVEL transmembrane domain containing|GPR
+COMM domain containing|GPR
+COP9 signalosome|GPR
+CORVET complex|GPR
+CST complex|GPR
+CTAGE family|GPR
+CTD family phosphatases|GPR
+CTLH complex|GPR
+CUT class homeoboxes and pseudogenes|GPR
+Cadherin related|GPR
+Calcitonin receptors|GPR
+Calcium channel auxiliary gamma subunits|GPR
+Calcium homeostasis modulators|GPR
+Calcium sensing receptors|GPR
+Calcium voltage-gated channel alpha1 subunits|GPR
+Calcium voltage-gated channel auxiliary alpha2delta subunits|GPR
+Calcium voltage-gated channel auxiliary beta subunits|GPR
+Calmodulin dependent protein kinases|GPR
+Calpains|GPR
+Cannabinoid receptors|GPR
+Canonical high mobility group|GPR
+Carbonic anhydrases|GPR
+Carboxylesterases|GPR
+Carcinoembryonic antigen related cell adhesion molecule family|GPR
+Cas scaffold proteins|GPR
+Caspase recruitment domain containing|GPR
+Caspases|GPR
+Cathepsins|GPR
+Cation channels sperm associated|GPR
+Cavins|GPR
+Cellular communication network factors|GPR
+Chaperonins|GPR
+Charged multivesicular body proteins|GPR
+Checkpoint clamp complex|GPR
+Chemerin receptor|GPR
+Chemokine ligands|GPR
+Chitinases|GPR
+Chloride channel accessory|GPR
+Chloride channels, ATP-gated CFTR|GPR
+Chloride intracellular channels|GPR
+Chloride voltage-gated channels|GPR
+Cholecystokinin receptors|GPR
+Cholinergic receptors muscarinic|GPR
+Cholinergic receptors nicotinic subunits|GPR
+Chordin family|GPR
+Chromatin accessibility complex|GPR
+Chromobox family|GPR
+Chromosomal passenger complex|GPR
+Cilia and flagella associated|GPR
+Ciliogenesis and planar polarity effector complex|GPR
+Clarins|GPR
+Class II Cys-based phosphatases|GPR
+Class III Cys-based CDC25 phosphatases|GPR
+Classical BAR domain containing|GPR
+Classical arrestins|GPR
+Clathrin subunits|GPR
+Clathrin/coatomer adaptor, adaptin-like, N-terminal domain containing|GPR
+Claudins|GPR
+Cleavage stimulation factor subunits|GPR
+Clustered protocadherins|GPR
+Cohesin complex|GPR
+Collagen beta(1-O)galactosyltransferases|GPR
+Collagen proteoglycans|GPR
+Collagens|GPR
+Collectins|GPR
+Complement component GPCRs|GPR
+Complement system activation components|GPR
+Complement system regulators and receptors|GPR
+Components of oligomeric golgi complex|GPR
+Condensin I subunits|GPR
+Condensin II subunits|GPR
+Constitutive centromere associated network|GPR
+Copines|GPR
+Cornified envelope precursor family|GPR
+Coronins|GPR
+Corticotropin releasing hormone receptors|GPR
+Crumbs complex|GPR
+Csk family tyrosine kinases|GPR
+Cullins|GPR
+Cyclic nucleotide gated channels|GPR
+Cyclin dependent kinases|GPR
+Cyclins|GPR
+Cyclophilin peptidylprolyl isomerases|GPR
+Cystatins, type 1|GPR
+Cystatins, type 2|GPR
+Cystatins, type 3|GPR
+Cystatins, type 4|GPR
+Cysteine rich secretory protein family|GPR
+Cysteine rich transmembrane BMP regulators|GPR
+Cytochrome P450 family 1|GPR
+Cytochrome P450 family 11|GPR
+Cytochrome P450 family 17|GPR
+Cytochrome P450 family 19|GPR
+Cytochrome P450 family 2|GPR
+Cytochrome P450 family 20|GPR
+Cytochrome P450 family 21|GPR
+Cytochrome P450 family 24|GPR
+Cytochrome P450 family 26|GPR
+Cytochrome P450 family 27|GPR
+Cytochrome P450 family 3|GPR
+Cytochrome P450 family 39|GPR
+Cytochrome P450 family 4|GPR
+Cytochrome P450 family 46|GPR
+Cytochrome P450 family 5|GPR
+Cytochrome P450 family 51|GPR
+Cytochrome P450 family 7|GPR
+Cytochrome P450 family 8|GPR
+Cytochrome b561|GPR
+Cytoplasmic transfer RNAs|GPR
+Cytosolic iron-sulfur assembly components|GPR
+DAN family|GPR
+DASH family|GPR
+DAZ RNA binding protein family|GPR
+DDB1 and CUL4 associated factors|GPR
+DEAD-box helicases|GPR
+DEAH-box helicases|GPR
+DENN/MADD domain containing|GPR
+DNA glycosylases|GPR
+DNA helicases|GPR
+DNA ligases|GPR
+DNA polymerases|GPR
+DNA transposon derived genes|GPR
+DNAJ (HSP40) heat shock proteins|GPR
+DOCK C2 domain containing|GPR
+Deafness associated genes|GPR
+Death associated protein kinases|GPR
+Death effector domain containing|GPR
+Death inducing signaling complex|GPR
+Defensins, alpha|GPR
+Defensins, beta|GPR
+Desmosomal cadherins|GPR
+Desumoylating isopeptidases|GPR
+Diacylglycerol O-acyltransferase 2 family|GPR
+Diacylglycerol kinases|GPR
+Dishevelled segment polarity proteins|GPR
+Dolichyl D-mannosyl phosphate dependent mannosyltransferases|GPR
+Dopamine receptors|GPR
+Doublecortin superfamily|GPR
+Dynactin|GPR
+Dynein regulatory complex|GPR
+Dyneins, axonemal|GPR
+Dyneins, cytoplasmic|GPR
+E2F transcription factors|GPR
+EF-hand domain containing|GPR
+EMI domain containing|GPR
+EMSY complex|GPR
+ENAH/VASPs|GPR
+EPH receptors|GPR
+ERCC excision repair associated|GPR
+ESCRT-0|GPR
+ESCRT-I|GPR
+ESCRT-II|GPR
+ESCRT-III|GPR
+ESCRT-III associated factors|GPR
+ESCRT-IV|GPR
+ETS transcription factor family|GPR
+EYA transcriptional coactivator and phosphatases|GPR
+Early B-cell factors|GPR
+Elongator acetyltransferase complex|GPR
+Elongin complex|GPR
+Endogenous ligands|GPR
+Endosome-associated recycling protein (EARP) complex|GPR
+Endothelin receptors|GPR
+Engulfment and cell motility proteins|GPR
+Enolases|GPR
+Envelope ERV derived genes|GPR
+Ephrins|GPR
+Erb-b2 receptor tyrosine kinases|GPR
+Erythrocyte membrane protein band 4.1|GPR
+Eukaryotic translation initiation factor 3|GPR
+Exocyst complex|GPR
+Exon junction complex|GPR
+Exonucleases|GPR
+Exosome complex|GPR
+Exostosin glycosyltransferase family|GPR
+Exportins|GPR
+Extended synaptotagmins|GPR
+F-BAR domain containing|GPR
+F-box and WD repeat domain containing|GPR
+F-box and leucine rich repeat proteins|GPR
+F-boxes other|GPR
+F2R receptors|GPR
+FA complementation groups|GPR
+FASTK mitochondrial RNA binding family|GPR
+FERM domain containing|GPR
+FKBP prolyl isomerases|GPR
+Family with sequence similarity 230|GPR
+Fascins|GPR
+Fatty acid binding protein family|GPR
+Fatty acid desaturases|GPR
+Fatty acid hydroxylase domain containing|GPR
+Ferlin family|GPR
+Fermitins|GPR
+Ferritin subunits|GPR
+Fes family tyrosine kinases|GPR
+Fibrinogen C domain containing|GPR
+Fibronectin type III domain containing|GPR
+Fibulins|GPR
+Flavin containing monooxygenases|GPR
+Flotillins|GPR
+Forkhead boxes|GPR
+Formyl peptide receptors|GPR
+Fos transcription factor family|GPR
+Free fatty acid receptors|GPR
+Fructose-1,6-bisphosphatases|GPR
+Fucosyltransferases|GPR
+G protein subunits alpha, group i|GPR
+G protein subunits alpha, group q|GPR
+G protein subunits alpha, group s|GPR
+G protein subunits beta|GPR
+G protein subunits gamma|GPR
+G protein-coupled bile acid receptor|GPR
+G protein-coupled estrogen receptor|GPR
+G protein-coupled receptors, Class A orphans|GPR
+G protein-coupled receptors, Class C orphans|GPR
+G protein-coupled receptors, Class F frizzled|GPR
+G-patch domain containing|GPR
+GATA zinc finger domain containing|GPR
+GATOR1 subcomplex|GPR
+GATOR2 subcomplex|GPR
+GBAF complex|GPR
+GCN5 related N-acetyltransferases|GPR
+GDNF family ligands|GPR
+GINS complex|GPR
+GLIPR family|GPR
+GOLD domain containing|GPR
+GPN-loop GTPases|GPR
+GRAM domain containing|GPR
+GTPases, IMAP|GPR
+Gag like LTR retrotransposon derived genes|GPR
+Galactosidases alpha|GPR
+Galactosidases beta|GPR
+Galanin receptors|GPR
+Galectins|GPR
+Gamma-aminobutyric acid type A receptor subunits|GPR
+Gamma-aminobutyric acid type B receptor subunits|GPR
+Gamma-glutamyltransferases|GPR
+Gap junction proteins|GPR
+Gasdermins|GPR
+Gelsolin/villins|GPR
+Gemins|GPR
+General transcription factors|GPR
+Gla domain containing|GPR
+Glucagon receptor family|GPR
+Glucosaminyl (N-acetyl) transferases/xylosyltransferases|GPR
+Glucose 6-phosphatases, catalytic|GPR
+Glutamate ionotropic receptor AMPA type subunits|GPR
+Glutamate ionotropic receptor NMDA type subunits|GPR
+Glutamate ionotropic receptor delta type subunits|GPR
+Glutamate ionotropic receptor kainate type subunits|GPR
+Glutamate metabotropic receptors|GPR
+Glutamine amidotransferase like class 1 domain containing|GPR
+Glutamyl-tRNA amidotransferase subunits|GPR
+Glutaredoxin domain containing|GPR
+Glycerol kinases|GPR
+Glycerol-3-phosphate acyltransferases|GPR
+Glycine receptors|GPR
+Glycogen phosphorylases|GPR
+Glycoprotein hormone receptors|GPR
+Glycoside hydrolase family 1|GPR
+Glycoside hydrolase family 31|GPR
+Glycoside hydrolases|GPR
+Glycosyl transferases group 1 domain containing|GPR
+Glycosyltransferase family 2|GPR
+Glycosyltransferase family 6|GPR
+Glycosyltransferase family 8|GPR
+Glycosyltransferase family 90|GPR
+Glypicans|GPR
+Golgi associated kinase family|GPR
+Golgi associated retrograde protein (GARP) complex|GPR
+Golgi associated, gamma adaptin ear containing, ARF binding proteins|GPR
+Gonadotropin releasing hormone receptors|GPR
+Granins|GPR
+Granule associated serine proteases of immune defence|GPR
+Growth hormone family|GPR
+Guanylate cyclase receptors|GPR
+Guanylate cyclases, soluble|GPR
+H/ACA ribonucleoprotein complex|GPR
+HAD Asp-based non-protein phosphatases|GPR
+HAD Asp-based protein phosphatases|GPR
+HAUS augmin like complex|GPR
+HNF class homeoboxes|GPR
+HOPS complex|GPR
+HOXL subclass homeoboxes|GPR
+HRAS like suppressor family|GPR
+Haloacid dehalogenase like hydrolase domain containing|GPR
+Heat shock 70kDa proteins|GPR
+Heat shock 90kDa proteins|GPR
+Hedgehog signaling molecule family|GPR
+Helix-turn-helix CENPB type domain containing|GPR
+Hemoglobin subunits|GPR
+Heparanases|GPR
+Heparin binding growth factor family|GPR
+Hexosaminidases|GPR
+Histamine receptors|GPR
+Histatins and statherin|GPR
+Histocompatibility complex|GPR
+Histone deacetylases, class I|GPR
+Histone deacetylases, class IIA|GPR
+Histone deacetylases, class IIB|GPR
+Histone deacetylases, class IV|GPR
+Histones|GPR
+Homer scaffold proteins|GPR
+Hyalectan proteoglycans|GPR
+Hyaluronidases|GPR
+Hydrogen voltage gated channels|GPR
+Hydroxy-carboxylic acid receptors|GPR
+Hypocretin receptors|GPR
+I-BAR domain containing|GPR
+I-set domain containing|GPR
+INHAT complex|GPR
+INO80 complex|GPR
+IZUMO family|GPR
+Ig-like cell adhesion molecule family|GPR
+IgCAM CXADR-related subfamily|GPR
+IgLON cell adhesion molecules|GPR
+Immunoglobulin heavy (IGH) orphons|GPR
+Immunoglobulin heavy locus at 14q32.33|GPR
+Immunoglobulin kappa (IGK) orphons|GPR
+Immunoglobulin kappa locus at 2p11.2|GPR
+Immunoglobulin lambda (IGL) orphons|GPR
+Immunoglobulin lambda locus at 22q11.2|GPR
+Immunoglobulin like domain containing|GPR
+Importins|GPR
+Inhibin subunits|GPR
+Inhibitory leukocyte immunoglobulin like receptors|GPR
+Inositol 1,4,5-triphosphate receptors|GPR
+Insulin like growth factor binding proteins|GPR
+Integrator complex|GPR
+Integrin alpha subunits|GPR
+Integrin beta subunits|GPR
+Interferon induced transmembrane proteins|GPR
+Interferon receptors|GPR
+Interferons|GPR
+Interleukin 6 type cytokine family|GPR
+Interleukin receptors|GPR
+Interleukins|GPR
+Intermediate filament family orphans|GPR
+Intermediate filaments Type III|GPR
+Intermediate filaments Type IV|GPR
+Intraflagellar transport proteins|GPR
+Iron (II) and 2-oxoglutarate dependent oxygenases|GPR
+Jak family tyrosine kinases|GPR
+Jun transcription factor family|GPR
+Junctophilins|GPR
+KEOPS complex|GPR
+KICSTOR complex|GPR
+KN motif and ankyrin repeat domain containing|GPR
+KNL1 complex|GPR
+Kallikreins|GPR
+Kelch like|GPR
+Keratin associated proteins|GPR
+Keratins, type I|GPR
+Keratins, type II|GPR
+Killer cell immunoglobulin like receptors|GPR
+Killer cell lectin like receptors|GPR
+Kinesins|GPR
+Kleisins|GPR
+Kruppel like factors|GPR
+L ribosomal proteins|GPR
+LEM domain containing|GPR
+LHFPL tetraspan proteins|GPR
+LIM class homeoboxes|GPR
+LIM domain containing|GPR
+LIM zinc finger domain containing|GPR
+LIMK/TESK kinase family|GPR
+LSm proteins|GPR
+LY6/PLAUR domain containing|GPR
+LYR motif containing|GPR
+La ribonucleoprotein domain containing|GPR
+Laminin subunits|GPR
+Lamins|GPR
+Late cornified envelope proteins|GPR
+Latent transforming growth factor beta binding proteins|GPR
+Leucine zipper tumor suppressor family|GPR
+Leukotriene receptors|GPR
+Linear ubiquitin chain assembly complex|GPR
+Lipases|GPR
+Lipid phosphatases|GPR
+Lipins|GPR
+Lipocalins|GPR
+Long non-coding RNAs (published)|GPR
+Long pentraxins|GPR
+Low density lipoprotein receptors|GPR
+Lysine acetyltransferases|GPR
+Lysine demethylases|GPR
+Lysine methyltransferases|GPR
+Lysophosphatidic acid receptors|GPR
+Lysozymes, c-type|GPR
+Lysozymes, g-type|GPR
+M1 metallopeptidases|GPR
+M10 matrix metallopeptidases|GPR
+M13 metallopeptidases|GPR
+M14 carboxypeptidases|GPR
+M16 metallopeptidases|GPR
+M3 metallopeptidases|GPR
+MADS box family|GPR
+MAGE family|GPR
+MAP kinase phosphatases|GPR
+MARVEL domain containing|GPR
+MAX dimerization proteins|GPR
+MBT domain containing|GPR
+MCM family|GPR
+MIA family|GPR
+MINDY deubiquitinases|GPR
+MIS12 kinetochore complex|GPR
+MJD deubiquinating enzymes|GPR
+MKS complex|GPR
+MOB kinase activators|GPR
+MPP10 subcomplex|GPR
+MRH domain containing|GPR
+MRN complex|GPR
+MSL histone acetyltransferase complex|GPR
+MTOR complex 1|GPR
+MTOR complex 2|GPR
+MYST type domain containing lysine acetyltransferases|GPR
+Maestro heat like repeat containing|GPR
+Major cadherins|GPR
+Mannosidases alpha class 1|GPR
+Mannosidases alpha class 2|GPR
+Mannosidases endo-alpha|GPR
+Mannosidases type beta|GPR
+Mannosyl-glycoprotein N-acetylglucosaminyltransferases|GPR
+Matrilins|GPR
+Mediator complex|GPR
+Melanin concentrating hormone receptors|GPR
+Melanocortin receptors|GPR
+Melatonin receptors|GPR
+Membrane associated guanylate kinases|GPR
+Membrane associated progesterone receptor family|GPR
+Membrane associated ring-CH-type fingers|GPR
+Membrane bound O-acyltransferases|GPR
+Membrane spanning 4-domains|GPR
+Metallothioneins|GPR
+Methyl-CpG binding domain containing|GPR
+Methyltransferase like|GPR
+MicroRNAs|GPR
+Microsomal glutathione S-transferases|GPR
+Minor histocompatibility antigens|GPR
+Minor spliceosome|GPR
+Miro like atypical Rho GTPases|GPR
+Mitochondrial coiled-coil-helix-coiled-coil-helix domain containing proteins|GPR
+Mitochondrial complex I assembly complex|GPR
+Mitochondrial complex II: succinate dehydrogenase subunits|GPR
+Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits|GPR
+Mitochondrial complex IV: cytochrome c oxidase subunits|GPR
+Mitochondrial complex V: ATP synthase subunits|GPR
+Mitochondrial respiratory chain complex assembly factors|GPR
+Mitochondrial ribosomal proteins|GPR
+Mitochondrially encoded ribosomal RNAs|GPR
+Mitochondrially encoded tRNAs|GPR
+Mitogen-activated protein kinase kinase kinase kinases|GPR
+Mitogen-activated protein kinase kinase kinases|GPR
+Mitogen-activated protein kinase kinases|GPR
+Mitogen-activated protein kinase-activated protein kinases|GPR
+Mitogen-activated protein kinases|GPR
+Mucins|GPR
+Multiple C2 and transmembrane domain containing|GPR
+MutL homologs|GPR
+MutS homologs|GPR
+My-T-BRC complex|GPR
+Myb/SANT domain containing|GPR
+Myocardin family|GPR
+Myocyte enhancer factor 2 proteins|GPR
+Myogenic regulatory family|GPR
+Myosin binding proteins|GPR
+Myosin heavy chains|GPR
+Myosin light chain kinase family|GPR
+Myosin light chains|GPR
+Myosin phosphatase targeting family|GPR
+Myosins, class I|GPR
+Myosins, class III|GPR
+Myosins, class IX|GPR
+Myosins, class V|GPR
+Myosins, class VI|GPR
+Myosins, class VII|GPR
+Myosins, class X|GPR
+Myosins, class XIX|GPR
+Myosins, class XV|GPR
+Myosins, class XVI|GPR
+Myosins, class XVIII|GPR
+Myotubularins|GPR
+Myozenins|GPR
+N(alpha)-acetyltransferase subunits|GPR
+N-BAR domain containing|GPR
+N-terminal EF-hand calcium binding proteins|GPR
+NADH:ubiquinone oxidoreductase core subunits|GPR
+NADH:ubiquinone oxidoreductase supernumerary subunits|GPR
+NBPF members|GPR
+NDC80 kinetochore complex|GPR
+NF-kappa B complex subunits|GPR
+NKL subclass homeoboxes and pseudogenes|GPR
+NLR family|GPR
+NME/NM23 family|GPR
+NOP2/Sun RNA methyltransferase family|GPR
+NPHP complex|GPR
+NSL histone acetyltransferase complex|GPR
+NSP adaptor proteins|GPR
+NT-C2 domain containing|GPR
+NTC associated proteins|GPR
+NURF complex|GPR
+Na+/K+ transporting ATPase interacting|GPR
+Netrins|GPR
+Neuraminidases|GPR
+Neuregulins|GPR
+Neurexins|GPR
+Neuroligins|GPR
+Neuromedin U receptors|GPR
+Neuropeptide receptors|GPR
+Neurotensin receptors|GPR
+Neurotrophins|GPR
+NineTeen complex|GPR
+Non-canonical high mobility group|GPR
+Non-canonical poly(A) polymerases|GPR
+Non-clustered protocadherins|GPR
+NuRD complex|GPR
+Nuclear exosome targeting complex|GPR
+Nuclear factors of activated T-cells|GPR
+Nuclear hormone receptors|GPR
+Nuclear-encoded mitochondrial transfer RNAs|GPR
+Nucleoporins|GPR
+Nucleoredoxin family|GPR
+Nucleotide excision repair|GPR
+NudC family|GPR
+Nudix hydrolase family|GPR
+O-linked N-acetylglucosaminyltransferases|GPR
+OOSP family|GPR
+ORAI calcium release-activated calcium modulators|GPR
+OTU domain containing|GPR
+Olfactory receptors, family 1|GPR
+Olfactory receptors, family 10|GPR
+Olfactory receptors, family 11|GPR
+Olfactory receptors, family 12|GPR
+Olfactory receptors, family 13|GPR
+Olfactory receptors, family 14|GPR
+Olfactory receptors, family 2|GPR
+Olfactory receptors, family 3|GPR
+Olfactory receptors, family 4|GPR
+Olfactory receptors, family 5|GPR
+Olfactory receptors, family 51|GPR
+Olfactory receptors, family 52|GPR
+Olfactory receptors, family 55|GPR
+Olfactory receptors, family 56|GPR
+Olfactory receptors, family 6|GPR
+Olfactory receptors, family 7|GPR
+Olfactory receptors, family 8|GPR
+Olfactory receptors, family 9|GPR
+Oligosaccharyltransferase complex subunits|GPR
+Opioid receptors|GPR
+Opsin receptors|GPR
+Origin recognition complex|GPR
+Oxoglutarate receptor|GPR
+Oxysterol binding proteins|GPR
+P-TEFb complex subunits|GPR
+P2Y receptors|GPR
+PAR bZIP family|GPR
+PATE family|GPR
+PBAF complex|GPR
+PDZ domain containing|GPR
+PHD finger proteins|GPR
+PI4KA lipid kinase complex|GPR
+PIK3C3 complex subunits|GPR
+POTE ankyrin domain containing|GPR
+POU class homeoboxes and pseudogenes|GPR
+PR/SET domain family|GPR
+PRAME family|GPR
+PRD class homeoboxes and pseudogenes|GPR
+PRELI domain containing|GPR
+PROS class homeoboxes|GPR
+PTEN protein phosphatases|GPR
+PTF1 complex|GPR
+PTK2 family tyrosine kinases|GPR
+PTK6 family tyrosine kinases|GPR
+PWWP domain containing|GPR
+PX-BAR domain containing|GPR
+Paf1/RNA polymerase II complex|GPR
+Paired boxes|GPR
+Pannexins|GPR
+Pappalysins|GPR
+Paraneoplastic Ma antigens|GPR
+Paraoxonases|GPR
+Parathyroid hormone receptors|GPR
+Parkinson disease associated genes|GPR
+Parvins|GPR
+Parvulins|GPR
+Patatin like phospholipase domain containing|GPR
+Pellino E3 ubiquitin protein ligases|GPR
+Peptide receptors|GPR
+Peptidoglycan recognition proteins|GPR
+Peptidyl arginine deiminases|GPR
+Perilipins|GPR
+Peroxins|GPR
+Peroxiredoxins|GPR
+Phosphatase and actin regulators|GPR
+Phosphatidylinositol 3-kinase subunits|GPR
+Phosphatidylinositol glycan anchor biosynthesis|GPR
+Phosphatidylinositol transfer proteins|GPR
+Phosphodiesterases|GPR
+Phosphoglycerate mutases|GPR
+Phosphoinositide phosphatases|GPR
+Phospholipases|GPR
+Phospholipid phosphatase related|GPR
+Phospholipid phosphatases|GPR
+Phospholipid scramblases|GPR
+Piwi-interacting RNA clusters|GPR
+Plakins|GPR
+Plakophilins|GPR
+Platelet activating factor receptor|GPR
+Pleckstrin homology domain containing|GPR
+Plexins|GPR
+Poly(ADP-ribose) polymerases|GPR
+Polycomb group ring fingers|GPR
+Polycomb repressive complex 2|GPR
+Polypeptide N-acetylgalactosaminyltransferases|GPR
+Potassium calcium-activated channel subfamily M regulatory beta subunits|GPR
+Potassium calcium-activated channels|GPR
+Potassium sodium-activated channel subfamily T|GPR
+Potassium two pore domain channel subfamily K|GPR
+Potassium voltage-gated channel regulatory subunits|GPR
+Potassium voltage-gated channel subfamily J|GPR
+Potassium voltage-gated channels|GPR
+Prefoldin subunits|GPR
+Pregnancy specific glycoproteins|GPR
+Prenyltransferase alpha subunit repeat containing|GPR
+Prickle planar cell polarity proteins|GPR
+Progestin and adipoQ receptor family|GPR
+Prokineticin receptors|GPR
+Proline rich and Gla domain containing|GPR
+Proline rich proteins|GPR
+Proprotein convertase subtilisin/kexin family|GPR
+Prostaglandin receptors|GPR
+Proteasome|GPR
+Protein arginine methyltransferases|GPR
+Protein disulfide isomerases|GPR
+Protein phosphatase 1 regulatory subunits|GPR
+Protein phosphatase 2 modulatory subunits|GPR
+Protein phosphatase 2 regulatory subunits|GPR
+Protein phosphatase 2 scaffold subunits|GPR
+Protein phosphatase 3 regulatory subunits|GPR
+Protein phosphatase 4 regulatory subunits|GPR
+Protein phosphatase 6 regulatory subunits|GPR
+Protein phosphatase catalytic subunits|GPR
+Protein phosphatases|GPR
+Protein phosphatases, Mg2+/Mn2+ dependent|GPR
+Protein tyrosine phosphatases type IVA|GPR
+Protein tyrosine phosphatases, non-receptor type|GPR
+Protein tyrosine phosphatases, receptor type|GPR
+Proteoglycans|GPR
+Pseudoautosomal region 1|GPR
+Pseudoautosomal region 2|GPR
+Pseudouridine synthases|GPR
+Pumilio homology domain containing|GPR
+Purinergic receptors P2X|GPR
+Purinosome|GPR
+Pyrin and HIN domain family|GPR
+Pyrin domain containing|GPR
+Pyruvate dehydrogenase complex|GPR
+R2TP complex|GPR
+RAB like GTPases|GPR
+RAB, member RAS oncogene GTPases|GPR
+RAB11 binding domain containing|GPR
+RAF family|GPR
+RAN family GTPases|GPR
+RAS type GTPase family|GPR
+RBR E3 ubiquitin ligases|GPR
+RELT family|GPR
+RGK type GTPase family|GPR
+RNA binding motif containing|GPR
+RNA helicases|GPR
+RNA polymerase subunits|GPR
+RNA pseudouridylate synthase domain containing|GPR
+RNAs, 7SL, cytoplasmic|GPR
+RNAs, Ro60-associated Y|GPR
+Ragulator complex|GPR
+Ras association domain family|GPR
+RecQ like helicases|GPR
+Receptor (G protein-coupled) activity modifying proteins|GPR
+Receptor accessory proteins|GPR
+Receptor transporter proteins|GPR
+Receptor tyrosine kinases|GPR
+Regulating synaptic membrane exocytosis family|GPR
+Regulators of G-protein signaling|GPR
+Regulatory factor X family|GPR
+Relaxin family peptide receptors|GPR
+Repulsive guidance molecule family|GPR
+Retriever complex|GPR
+Retrotransposon Gag like|GPR
+Rho GTPase activating proteins|GPR
+Rho family GTPases|GPR
+Rho guanine nucleotide exchange factors|GPR
+Rhomboid family|GPR
+Ribonuclease A family|GPR
+Ribosomal 45S RNA clusters|GPR
+Ribosomal 45S rRNA genes outside of clusters|GPR
+Ring finger proteins|GPR
+Ripoptosome|GPR
+Roco domain containing|GPR
+Ryanodine receptors|GPR
+S ribosomal proteins|GPR
+S100 calcium binding proteins|GPR
+S100 fused type protein family|GPR
+SAGA complex|GPR
+SAM and SH3 domain containing|GPR
+SCAN domain containing|GPR
+SCF complex|GPR
+SCY1 like pseudokinases|GPR
+SEC14 family|GPR
+SET complex|GPR
+SET domain containing|GPR
+SF3a complex|GPR
+SF3b complex|GPR
+SH2 domain containing|GPR
+SIBLING family|GPR
+SIN3 histone deacetylase complex subunits|GPR
+SINE class homeoboxes|GPR
+SKI transcriptional corepressors|GPR
+SMAD family|GPR
+SMC5-6 protein complex|GPR
+SMN complex|GPR
+SNAG transcriptional repressors|GPR
+SNAP complex|GPR
+SNAREs|GPR
+SPARC family|GPR
+SPOUT methyltransferase domain containing|GPR
+SRCAP complex|GPR
+SRY-boxes|GPR
+STEAP family|GPR
+STRIPAK complex|GPR
+STT3 oligosaccharyltransferase catalytic subunits|GPR
+SUMO specific peptidases|GPR
+Scavenger receptor cysteine rich domain containing|GPR
+Scavenger receptors|GPR
+Schlafen family|GPR
+Scribble complex|GPR
+Secreted frizzled-related proteins|GPR
+Secretoglobins|GPR
+Secretory carrier membrane proteins|GPR
+Selectins|GPR
+Selenoproteins|GPR
+Semaphorins|GPR
+Septins|GPR
+Serine and arginine rich splicing factors|GPR
+Serine peptidase inhibitors, Kazal type|GPR
+Serine proteases|GPR
+Serine/threonine phosphatases|GPR
+Serpin peptidase inhibitors|GPR
+Seven-beta-strand methyltransferase motif containing|GPR
+Shelterin complex|GPR
+Shieldin complex|GPR
+Shisa family members|GPR
+Short chain dehydrogenase/reductase superfamily|GPR
+Short pentraxins|GPR
+Sialic acid binding Ig like lectins|GPR
+Sialyltransferases|GPR
+Sideroflexins|GPR
+Signal regulatory proteins|GPR
+Signal transduction and activation of RNA metabolism family|GPR
+Sirtuins|GPR
+Ski2 like RNA helicases|GPR
+Slingshot protein phosphatases|GPR
+Sm spliceosomal proteins|GPR
+Small Cajal body-specific RNAs|GPR
+Small G protein signaling modulators|GPR
+Small NF90 (ILF3) associated RNAs|GPR
+Small heat shock proteins|GPR
+Small leucine rich repeat proteoglycans|GPR
+Small nuclear RNAs|GPR
+Small nucleolar RNAs, C/D box|GPR
+Small nucleolar RNAs, H/ACA box|GPR
+Small proline rich proteins|GPR
+Sodium channels epithelial|GPR
+Sodium leak channels, non selective|GPR
+Sodium voltage-gated channel alpha subunits|GPR
+Sodium voltage-gated channel beta subunits|GPR
+Soluble glutathione S-transferases|GPR
+Solute carriers|GPR
+Somatostatin receptors|GPR
+Sorting nexins|GPR
+Sp transcription factors|GPR
+Spectrin repeat containing nuclear envelope family|GPR
+Spectrins|GPR
+Speedy/RINGO cell cycle regulator family|GPR
+Sphingosine 1-phosphate receptors|GPR
+Sphingosine-1-phosphate phosphatases|GPR
+Spindlin family|GPR
+Spliceosomal A complex|GPR
+Spliceosomal B complex|GPR
+Spliceosomal Bact complex|GPR
+Spliceosomal C complex|GPR
+Spliceosomal E complex|GPR
+Spliceosomal P complex|GPR
+Src family tyrosine kinases|GPR
+StAR related lipid transfer domain containing|GPR
+Stathmins|GPR
+Sterile alpha motif domain containing|GPR
+Structural maintenance of chromosomes proteins|GPR
+Succinate receptor|GPR
+Sugar phosphatases|GPR
+Sulfatases|GPR
+Sulfotransferases, cytosolic|GPR
+Sulfotransferases, membrane bound|GPR
+Super elongation complex|GPR
+Suppressors of cytokine signaling|GPR
+Sushi domain containing|GPR
+Syk family tyrosine kinases|GPR
+Synapsins|GPR
+Synaptogyrins|GPR
+Synaptophysins|GPR
+Synaptotagmin like tandem C2 proteins|GPR
+Synaptotagmins|GPR
+Syndecans|GPR
+Syntaxins|GPR
+T cell receptor alpha locus at 14q11.2|GPR
+T cell receptor beta (TRB) orphons|GPR
+T cell receptor beta locus at 7q34|GPR
+T cell receptor delta locus at 14q11.2|GPR
+T cell receptor gamma locus at 7p14|GPR
+T-boxes|GPR
+TALE class homeoboxes and pseudogenes|GPR
+TCF/LEF transcription factor family|GPR
+TEA domain transcription factors|GPR
+THAP domain containing|GPR
+THO complex|GPR
+TIM22 complex|GPR
+TIM23 complex|GPR
+TIR domain containing|GPR
+TLC domain containing|GPR
+TNF receptor associated factors|GPR
+TNK family tyrosine kinases|GPR
+TOG domain containing|GPR
+TSC complex|GPR
+TTT complex|GPR
+Tachykinin receptors|GPR
+Taste 1 receptors|GPR
+Taste 2 receptors|GPR
+Tec family tyrosine kinases|GPR
+Tectonic proteins|GPR
+Tektins|GPR
+Terminal nucleotidyltransferases|GPR
+Tetraspan junctional complex superfamily|GPR
+Tetraspanins|GPR
+Tetratricopeptide repeat domain containing|GPR
+Tissue inhibitor of metallopeptidases|GPR
+Toll like receptors|GPR
+Topoisomerases|GPR
+Trace amine receptors|GPR
+Trafficking protein particle complex|GPR
+Transcribed pseudogenes with published function|GPR
+Transcription and export complex 2|GPR
+Transcription elongation factor A like family|GPR
+Transcription factor Dp family|GPR
+Transferrins|GPR
+Transforming growth factor beta family|GPR
+Transglutaminases|GPR
+Transient receptor potential cation channels|GPR
+Translocase of outer mitochondrial membrane complex|GPR
+Transmembrane 9 superfamily members|GPR
+Transmembrane BAX inhibitor motif containing|GPR
+Transmembrane and coiled-coil domain containing|GPR
+Transmembrane channel like family|GPR
+Transmembrane p24 trafficking proteins|GPR
+Trinucleotide repeat containing|GPR
+Tripartite motif containing|GPR
+Tropomodulins|GPR
+Tropomyosins|GPR
+Troponin complex subunits|GPR
+Tubulin polymerization promoting proteins|GPR
+Tubulin tyrosine ligase family|GPR
+Tubulins|GPR
+Tudor domain containing|GPR
+Tumor necrosis factor receptor superfamily|GPR
+Tumor necrosis factor superfamily|GPR
+Two pore segment channels|GPR
+Type 1 receptor serine/threonine kinases|GPR
+Type 2 receptor serine/threonine kinases|GPR
+Type I classical cadherins|GPR
+Type II classical cadherins|GPR
+U-box domain containing|GPR
+U1 small nucleolar ribonucleoprotein|GPR
+U11/U12 di-snRNP|GPR
+U2 small nucleolar ribonucleoprotein|GPR
+U4/U6 small nucleolar ribonucleoprotein|GPR
+U5 small nucleolar ribonucleoprotein|GPR
+UBX domain containing|GPR
+UDP glucuronosyltransferases|GPR
+UDP-N-acetylglucosaminyltransferase subunits|GPR
+UDP-glucose ceramide glucosyltransferases|GPR
+UDP-glucose glycoprotein glucosyltransferases|GPR
+UNC13 homologs|GPR
+UPF1 like RNA helicases|GPR
+USH2 complex|GPR
+UTPa subcomplex|GPR
+UTPb subcomplex|GPR
+UTPc subcomplex|GPR
+Ubiquilin family|GPR
+Ubiquitin C-terminal hydrolases|GPR
+Ubiquitin conjugating enzymes E2|GPR
+Ubiquitin like modifier activating enzymes|GPR
+Ubiquitin protein ligase E3 component n-recognins|GPR
+Ubiquitin specific peptidase like|GPR
+Ubiquitin specific peptidases|GPR
+V-set domain containing|GPR
+V-type ATPases|GPR
+VEGF family|GPR
+VPS9 domain containing|GPR
+Vanins|GPR
+Variable charge X/Y family|GPR
+Vasoactive intestinal peptide receptor family|GPR
+Vault RNAs|GPR
+Vesicle associated membrane proteins|GPR
+Vestigial like family|GPR
+Voltage dependent anion channels|GPR
+Volume regulated anion channel subunits|GPR
+Vomeronasal receptors|GPR
+WAP four-disulfide core domain containing|GPR
+WASH complex|GPR
+WBP1/VOPP1 family|GPR
+WD repeat domain containing|GPR
+WIPI family|GPR
+WRAD complex|GPR
+WTAP complex|GPR
+Wiskott-Aldrich Syndrome protein family|GPR
+Wnt family|GPR
+X-C motif chemokine receptors|GPR
+X-linked mental retardation|GPR
+XK related family|GPR
+Xeroderma pigmentosum complementation groups|GPR
+Y box binding proteins|GPR
+YEATS domain containing|GPR
+YIP family|GPR
+Yip1 domain containing|GPR
+Yippee like family|GPR
+ZF class homeoboxes and pseudogenes|GPR
+ZYG11 cell cycle regulator family|GPR
+Zinc activated channels|GPR
+Zinc fingers|GPR
+Zinc fingers 3CxxC-type|GPR
+Zinc fingers AN1-type|GPR
+Zinc fingers BED-type|GPR
+Zinc fingers C2H2-type|GPR
+Zinc fingers C2H2C-type|GPR
+Zinc fingers C2HC-type|GPR
+Zinc fingers CCCH-type|GPR
+Zinc fingers CCHC-type|GPR
+Zinc fingers CW-type|GPR
+Zinc fingers CXXC-type|GPR
+Zinc fingers DBF-type|GPR
+Zinc fingers DHHC-type|GPR
+Zinc fingers FYVE-type|GPR
+Zinc fingers GRF-type|GPR
+Zinc fingers HIT-type|GPR
+Zinc fingers MIZ-type|GPR
+Zinc fingers MYM-type|GPR
+Zinc fingers MYND-type|GPR
+Zinc fingers PARP-type|GPR
+Zinc fingers RANBP2-type|GPR
+Zinc fingers SWIM-type|GPR
+Zinc fingers ZZ-type|GPR
+Zinc fingers matrin-type|GPR
+Zona pellucida glycoproteins|GPR
+Zyxin family|GPR
+divergent protein kinase domain family|GPR
+eNoSC complex|GPR
+interferon induced transmembrane protein domain containing|GPR
+mitochondrial RNase P complex|GPR
+p120 catenin family|GPR
+tRNA methyltransferases|GPR
+tRNA splicing ligase complex|GPR
+tRNA-splicing endonuclease subunits|GPR
+tri-snRP complex|GPR
