@@ -55,6 +55,10 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
         if line[-1].endswith('\t') or line[-1].endswith(' '):
             print_fail(f'{path}: Trailing whitespace on line {i}')
 
+        for column_number, column in enumerate(line, start=1):
+            if column != column.strip():
+                print_fail(f'{path}, line {i}, column {column_number}: Extra white space: {column}')
+
         identifier = line[0]
         match = HBP_IDENTIFIER.match(identifier)
 
