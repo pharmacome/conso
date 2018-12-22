@@ -93,12 +93,12 @@ HBP00091	Sandra	TOC1	antibody	pmid:22817713	monoclonal antibody, named TOC1 (tau
 HBP00092	Esther	alpha-synuclein fibrils	cellular component	pmid:19892735	fibrillar aggregates of alpha-synuclein, found in Lewy bodies
 HBP00093	Esther	alpha-synuclein oligomers	cellular component	pmid:17374364	oligomeric aggregates of alpha-synuclein
 HBP00094	Esther	CLR01	protein	pmid:23183235	the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein
-HBP00095	Esther	prefibrillar α-synuclein oligomers	cellular component	pmid:27075649	 prefibrillar oligomers formed at early stages of α-syn assembly
+HBP00095	Esther	prefibrillar α-synuclein oligomers	cellular component	pmid:27075649	prefibrillar oligomers formed at early stages of α-syn assembly
 HBP00096	Kristian	GA-AGE	?	pmid:16630055, pmid:15221334	Glyceraldehyde-derived (GA) advanced glycation end products
 HBP00097	Kristian	TGM2 Isoform 3 (349 aa)	isoform	pmid:12578227	Short isoform of tissue transglutaminase
 HBP00098	Kristian	KXGS motif	motif	pmid:17304350, pmid:21215781	Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly
 HBP00099	Kristian	Corticobasal Degeneration	pathology	pmid:22057784	CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques
-HBP00100	Kristian	paired helical filaments	cellular component	pmid:22496370, pmid:1706519 	Component of NFT, consisting in a helical arrangement of tau protomers
+HBP00100	Kristian	paired helical filaments	cellular component	pmid:22496370, pmid:1706519	Component of NFT, consisting in a helical arrangement of tau protomers
 HBP00101	Kristian	straight filaments	cellular component	pmid:16566606, pmid:28678775	Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers
 HBP00102	Kristian	Alz50	antibody	pmid:16566606, pmid:8955115	Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation
 HBP00103	Kristian	O-GlcNAcylation	post-translational modification	pmid:16630055	A non-canonical glycosylation involving the attachment of single O-linked N-acetylglucosamine (O-GlcNAc) moieties to serine and threonine residues of cytoplasmic, nuclear, and mitochondrial proteins
@@ -167,7 +167,7 @@ HBP00165	Lingling	Pars Compacta	anatomy	pmid:16190884	MeSH Unique ID: D065842
 HBP00166	Kristian	proline-rich domain	domain	pmid:25974414, pmid:8068626, pmid:9190213	Correspounding to residues I151 to Q244 of the 441 aa tau isoform, separated into P1 and P2. Possible role in tau's functional stabilization through the reported intramolecular interaction of P2 with R1, R2 and R4 from the microtubule-binding region
 HBP00167	Charlie	lys-2	protein	pmid:25896323	the nematode homologus of Lys2
 HBP00168	Charlie	abf-2	protein	pmid:25896323	the nematode homologus of Abf2
-HBP00169	Sandra	hydrophobic pocket of actin	domain	pmid:21314430	 The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament
+HBP00169	Sandra	hydrophobic pocket of actin	domain	pmid:21314430	The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament
 HBP00170	Sandra	310-helix	motif	pmid:12761385	The 310-helix is the fourth most common type of secondary structure in proteins after α-helices, β-sheets, and reverse turns (Barlow and Thornton 1988). Approximately 15%–20% of all helices in protein structures are 310-helices, which are commonly found as N- or C-terminal extensions to an α-helix (Barlow and Thornton 1988). 310-Helices in proteins are typically only three to five residues long compared with a mean of 10–12 residues for α-helices (Richardson and Richardson 1988)
 HBP00171	Rana	Amylin Antagonist AC253	peptide	pmid:22500019	Amino Acid Sequence: Ac-Leu-Gly-Arg-Leu-Ser-Gln-Glu-Leu-His-Arg-Leu-Gln-Thr-Tyr-Pro-Arg-Thr-Asn-Thr-Gly-Ser-Asn-Thr-Tyr-NH2
 HBP00172	Rana	CDK5R1 p25	protein	pmid:10830966	The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment
@@ -322,4 +322,4 @@ HBP00320	Lingling	isolation rearing	exposure	pmid:16820021	An animal model in wh
 HBP00321	Charlie	Tau aggregation inhibitor	chemical role	pmid:23484434	A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates
 HBP00322	Charlie	1,3-Thiazole-2,4-diamine	chemical	pmid:21353545, pmid:20524425, pmid:11148059	A thiazole with two amino substituents
 HBP00323	Sandra	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy	pathology	pmid:30472464	Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor
-HBP00324	Rana 	FK1 antibody	antibody	pmid:16338350 	Anti-Ubiquitinylated proteins Antibod
+HBP00324	Rana	FK1 antibody	antibody	pmid:16338350	Anti-Ubiquitinylated proteins Antibod
