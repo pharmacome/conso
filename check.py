@@ -48,7 +48,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
         errors += 1
         print(s)
 
-    for i, line in enumerate(reader, start=1):
+    for i, line in enumerate(reader, start=2):
         if not line:
             continue
 
@@ -63,7 +63,7 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
             continue
 
         current_number = int(match.groups()[0])
-        if i != current_number:  # current_number <= last_number:
+        if i - 1 != current_number:  # current_number <= last_number:
             print_fail(f'{path}, line {i}: Indexing scheme broken: {identifier}')
             continue
 
