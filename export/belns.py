@@ -3,7 +3,7 @@
 import argparse
 import csv
 import os
-from typing import Iterable, List, Optional
+from typing import List, Mapping, Optional
 
 from pybel.constants import NAMESPACE_DOMAIN_OTHER
 from pybel.resources import write_namespace
@@ -12,16 +12,35 @@ from pybel.resources import write_namespace
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 TERMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'terms.tsv'))
+CLASSES_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'classes.tsv'))
 OUTPUT_FILE_PATH = os.path.abspath(os.path.join(HERE, 'hbp.belns'))
 OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(HERE, 'hbp-names.belns'))
 
 
-def _get_terms() -> List[str]:
-    return [line[0] for line in _get_lines()]
+def _get_classes() -> Mapping[str, str]:
+    with open(CLASSES_PATH) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        return {
+            line[0].strip(): line[1].strip()
+            for line in reader
+        }
 
 
-def _get_labels() -> List[str]:
-    return [line[2] for line in _get_lines()]
+def _get_terms() -> Mapping[str, str]:
+    classes = _get_classes()
+    return {
+        line[0]: classes[line[3]]
+        for line in _get_lines()
+    }
+
+
+def _get_labels() -> Mapping[str, str]:
+    classes = _get_classes()
+    return {
+        line[2]: classes[line[3]]
+        for line in _get_lines()
+    }
 
 
 def _get_lines() -> List[str]:
@@ -34,7 +53,7 @@ def _get_lines() -> List[str]:
             yield line
 
 
-def _write_namespace(path, values: Iterable[str], namespace_version: Optional[str] = None):
+def _write_namespace(path, values: Mapping[str, str], namespace_version: Optional[str] = None):
     with open(path, 'w') as file:
         write_namespace(
             namespace_name='Human Brain Pharmacome Terminology',

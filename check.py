@@ -129,9 +129,11 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
 
 def get_classes(*, path: str = 'classes.tsv') -> Set[str]:
     with open(os.path.join(HERE, path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
         return {
-            line.strip()
-            for line in file
+            line[0].strip()
+            for line in reader
         }
 
 

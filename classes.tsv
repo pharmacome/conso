@@ -1,24 +1,25 @@
-?
-anatomy
-antibody
-biological process
-cellular component
-chemical
-chemical class
-chemical role
-domain
-enzyme class
-epitope
-exposure
-isoform
-motif
-pathology
-pathway
-peptide
-post-translational modification
-protein
-protein fragment
-protein complex
-protein family
-genetic variant
-protein variant
+Class Name	BEL Encoding
+?	A
+anatomy	A
+antibody	A
+biological process	B
+cellular component	A
+chemical	A
+chemical class	A
+chemical role	A
+domain	P
+enzyme class	P
+epitope	P
+exposure	O
+isoform	P
+motif	P
+pathology	O
+pathway	B
+peptide	AP
+post-translational modification	Y
+protein	P
+protein fragment	P
+protein complex	P
+protein family	P
+protein variant	P
+genetic variant	G
