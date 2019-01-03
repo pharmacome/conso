@@ -323,3 +323,4 @@ HBP00321	Charlie	Tau aggregation inhibitor	chemical role	pmid:23484434	A chemica
 HBP00322	Charlie	1,3-Thiazole-2,4-diamine	chemical	pmid:21353545, pmid:20524425, pmid:11148059	A thiazole with two amino substituents
 HBP00323	Sandra	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy	pathology	pmid:30472464	Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor
 HBP00324	Rana	FK1 antibody	antibody	pmid:16338350	Anti-Ubiquitinylated proteins Antibod
+HBP00325	Rana	amyloid-beta antibody, NU1	antibody	pmid:17403556	monoclonal antibody that is specific for amyloid-beta oligomers
