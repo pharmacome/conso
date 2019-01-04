@@ -29,24 +29,27 @@ HBP00054	0N3R	?	?
 HBP00054	htau23	pmid:7667312	?
 HBP00055	microtubule-associated protein tau isoform 7	?	?
 HBP00055	1N3R	?	?
+HBP00055	htau37	pmid:22762014	?
 HBP00056	microtubule-associated protein tau isoform 3	?	?
 HBP00056	0N4R	?	?
+HBP00056	htau24	pmid:22762014	?
 HBP00057	microtubule-associated protein tau isoform 8	?	?
 HBP00057	2N3R	?	?
+HBP00057	htau39	pmid:22762014	?
 HBP00058	microtubule-associated protein tau isoform 5	?	?
 HBP00058	1N4R	?	?
+HBP00058	htau34	pmid:22762014	?
 HBP00059	SEC-R	?	?
 HBP00166	PRD	pmid:26789759	?
 HBP00166	P domain	pmid:8068626	?
+HBP00202	VU 0456940	https://medkoo.com/products/9998	EXACT
+HBP00202	VU-0456940	https://medkoo.com/products/9998	EXACT
+HBP00202	VU0456940	https://medkoo.com/products/9998	EXACT
 HBP00309	2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide	?	?
 HBP00310	3-[(3E)-3-[(2,4-dimethoxyphenyl)methylidene]-3,4,5,6-tetrahydropyridin-2-yl]pyridine	drugbank:DB05708	?
 HBP00310	GTS-21	drugbank:DB05708	?
 HBP00310	3-(4-hydroxy-2-methoxybenzylidene)anabaseine	pmid:25514383	?
 HBP00310	GTS 21	pmid:25514383	?
-HBP00057	htau39	pmid:22762014	?
-HBP00056	htau24	pmid:22762014	?
-HBP00055	htau37	pmid:22762014	?
-HBP00058	htau34	pmid:22762014	?
 HBP00319	4OH-GTS-21	mesh:C116666	?
 HBP00319	3-(4-hydroxy-2-methoxybenzylidene)anabaseine	pmid:25514383	?
 HBP00319	3-(4-hydroxy-2-methoxybenzylidene) anabaseine	pmid:25514383	?

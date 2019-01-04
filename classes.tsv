@@ -2,24 +2,27 @@ Class Name	BEL Encoding
 ?	A
 anatomy	A
 antibody	A
+aptamer	A
 biological process	B
 cellular component	A
 chemical	A
 chemical class	A
+chemical mixture	A
 chemical role	A
 domain	P
 enzyme class	P
 epitope	P
 exposure	O
+genetic variant	G
 isoform	P
+molecular function	Y
 motif	P
 pathology	O
 pathway	B
 peptide	AP
-post-translational modification	Y
+post-translational modification	T
 protein	P
-protein fragment	P
 protein complex	P
 protein family	P
+protein fragment	P
 protein variant	P
-genetic variant	G

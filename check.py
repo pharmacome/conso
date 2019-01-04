@@ -132,9 +132,24 @@ def get_classes(*, path: str = 'classes.tsv') -> Set[str]:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         return {
-            line[0].strip()
-            for line in reader
+            line[0]
+            for line in _get_classes_helper(reader)
         }
+
+
+def _get_classes_helper(lines: Iterable[Tuple[str, ...]]):
+    last_line = next(lines)
+    yield last_line[0].strip()
+
+    for i, line in enumerate(lines, start=3):
+        if line[0].strip() != line[0]:
+            raise ValueError(f'classes.tsv: Extra spacing around first entry in line {i}: {line}')
+
+        if line[0] < last_line[0]:
+            raise ValueError(f'classes.tsv: line {i}: {line}')
+
+        yield line
+        last_line = line
 
 
 def check_xrefs_file(*, identifier_to_name: Mapping[str, str], path: str = 'xrefs.tsv'):
@@ -145,6 +160,7 @@ def check_xrefs_file(*, identifier_to_name: Mapping[str, str], path: str = 'xref
 
 
 def _check_xrefs_file_helper(path, reader, identifier_to_name: Mapping[str, str]):
+    current_identifier = 0
     for i, line in enumerate(reader, start=2):
         if len(line) != 3:
             raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
@@ -157,6 +173,11 @@ def _check_xrefs_file_helper(path, reader, identifier_to_name: Mapping[str, str]
         if term not in identifier_to_name:
             raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
 
+        new_identifier = int(HBP_IDENTIFIER.match(term).groups()[0])
+        if new_identifier < current_identifier:
+            raise Exception(f'{path}: Not monotonic increasing on line {i}: {term}')
+        current_identifier = new_identifier
+
         yield line
 
 
@@ -168,6 +189,7 @@ def check_synonyms_file(*, identifier_to_name: Mapping[str, str], path: str = 's
 
 
 def _check_synonyms_helper(path, reader, identifier_to_name: Mapping[str, str]):
+    current_identifier = 0
     for i, line in enumerate(reader, start=2):
         if len(line) != 4:
             raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
@@ -176,8 +198,14 @@ def _check_synonyms_helper(path, reader, identifier_to_name: Mapping[str, str]):
             raise Exception(f'{path}: Missing entries on line {i}: {line}')
 
         term = line[0]
+
         if term not in identifier_to_name:
             raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
+
+        new_identifier = int(HBP_IDENTIFIER.match(term).groups()[0])
+        if new_identifier < current_identifier:
+            raise Exception(f'{path}: Not monotonic increasing on line {i}: {term}')
+        current_identifier = new_identifier
 
         specificity = line[3]
         if specificity not in VALID_SYNONYM_TYPES:
@@ -247,11 +275,53 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
         for chemical in chemicals
         if all(chemical not in d for d in (roles, inhibitors, agonists, antagonists))
     }
-
     if missing_role:
-        print(f'Missing {len(missing_role)} chemical roles. Summary below:')
-        for source_ns, source_id, source_name in sorted(missing_role):
-            print(f'{relations_path}: Missing role for {source_ns}:{source_id} "{source_name}"')
+        print('', '#' * 24, f'# MISSING ROLES ({len(missing_role)}/{len(chemicals)})', '#' * 24, sep='\n')
+        for chemical in sorted(missing_role):
+            print(f'{":".join(chemical[1:])}')
+
+
+def check_chemical_structures(terms_path: str = 'terms.tsv', xrefs_path: str = 'xrefs.tsv') -> None:
+    with open(os.path.join(HERE, terms_path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        chemicals = {
+            hbp_id: ('HBP', hbp_id, name)
+            for hbp_id, curator, name, cls, refs, definition in reader
+            if cls == 'chemical'
+        }
+
+    db_map = defaultdict(dict)
+    with open(os.path.join(HERE, xrefs_path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        for hbp_id, db, db_id in reader:
+            if db_id in {'?', '', 'N/A', 'n/a'}:
+                continue
+
+            db_map[db][hbp_id] = db_id
+
+    _check_missing_xref(chemicals, db_map, 'inchi')
+    # _check_missing_xref(chemicals, db_map, 'smiles')
+    # _check_missing_xref(chemicals, db_map, 'chebi')
+    # _check_missing_xref(chemicals, db_map, 'cas')
+
+
+def _check_missing_xref(chemicals: Mapping[str, Tuple[str, str, str]],
+                        db_map: Mapping[str, Mapping[str, str]],
+                        db: str,
+                        ) -> None:
+    missing_chemicals = {
+        chemical
+        for chemical in chemicals
+        if chemical not in db_map[db]
+    }
+    if missing_chemicals:
+        ratio = f'{len(missing_chemicals)}/{len(chemicals)}'
+        n_spacers = 15 + len(ratio) + len(db)
+        print('', '#' * n_spacers, f'# Missing {db} ({ratio}) #', '#' * n_spacers, sep='\n')
+        for chemical in sorted(missing_chemicals):
+            print(*chemicals[chemical][1:], db, '?', sep='\t')
 
 
 def main():
@@ -263,7 +333,8 @@ def main():
     check_xrefs_file(identifier_to_name=identifier_to_name)
     check_relations_file(identifier_to_name=identifier_to_name)
 
-    check_chemical_roles()
+    # check_chemical_roles()
+    check_chemical_structures()
 
     sys.exit(0)
 

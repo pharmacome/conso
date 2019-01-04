@@ -11,7 +11,7 @@ HBP00009	Sandra	Tau oligomers	cellular component	pmc:PMC4828294	CAST is known to
 HBP00010	Rana	LY293002	chemical	pmid:21329734	a specific PI3-kinase inhibitor
 HBP00011	Rana	LPLI	exposure	pmid:20333643	Low-power laser irradiation (LPLI) is a non-damage physical therapy
 HBP00012	Rana	Chronic cerebral hypoperfusion	pathology	pmid:24575038	Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)
-HBP00013	Rana	Mori Fructus ethanol extract	chemical	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
+HBP00013	Rana	Mori Fructus ethanol extract	chemical mixture	pmid:26068423	ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement
 HBP00014	Rana	tunneling nanotubes	cellular component	pmid:27809932	filamentous-actin-containing membranous structures that bridge and connect cells
 HBP00015	Rana	amyloidogenesis	biological process	pmid:24653673	production of amyloid
 HBP00016	Charlie	alpha-synuclein aggregates	cellular component	pmid:23254192	alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies
@@ -196,9 +196,9 @@ HBP00194	Kristian	CK1 superfamily	protein family	pmid:25673844	The CK1 group of 
 HBP00195	Esther	alpha-4-containing nAChR	protein complex	pmid:21787755	nAChRs that bind radiolabeled nicotine with the highest afﬁnity contain a4 subunits (a4*-nAChR)
 HBP00196	Esther	alpha-4 beta-4 nAChR	protein complex	pmid:21787755	a4 subunits can also assemble with b4 subunits to form a4b4-nAChRs that have comparably high nicotine afﬁnity
 HBP00197	Esther	alpha-7-containing nAChR	protein complex	pmid:21787755	Another prominent nAChR subtype found in vertebrate central and autonomic nervous systems contains a7 subunits.
-HBP00198	Esther	alpha-Bungarotoxin	chemical	pmid:21787755	Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake).
+HBP00198	Esther	alpha-Bungarotoxin	protein	pmid:21787755	Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake).
 HBP00199	Esther	alpha-3 beta-2 nAChR	protein complex	pmid:21787755	nAChRs containing the a3b2 subunit interface
-HBP00200	Esther	kappa-Bungarotoxin	chemical	pmid:21787755, pmid:3359187	kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)
+HBP00200	Esther	kappa-Bungarotoxin	protein	pmid:21787755, pmid:3359187	kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)
 HBP00201	Sandra	VU10010	chemical	pmid:24511233, pmid:18059262	highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide
 HBP00202	Sandra	VU0456940	chemical	pmid:24511233	M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one
 HBP00203	Sandra	VU0152099	chemical	pmid:24511233	selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide
@@ -266,11 +266,11 @@ HBP00264	Kristian	Tau epitope, AP422	epitope	pmid:11943212	Tau epitope consistin
 HBP00265	Kristian	Tau epitope, AT100	epitope	pmid:22833681	Tau epitope consisting of pSer212 and pThr214
 HBP00266	Kristian	Tau epitope, AT270	epitope	pmid:11943212	Tau epitope consisting of pThr181
 HBP00267	Kristian	Thiamet G	chemical	pmid:22833681	Inhibitor of O-GlcNAcase (OGA)
-HBP00268	Kristian	Thioflavin S	chemical	pmid:7667312	Dye binding to PHF used in AD diagnostics
+HBP00268	Kristian	Thioflavin S	chemical mixture	pmid:7667312	Dye binding to PHF used in AD diagnostics
 HBP00269	Kristian	Trithiocarbonates	chemical class	pmid:18558669	Chemical compound group of susbtrate competitive selective HDAC6 inhibitors
 HBP00270	Kristian	Tubacin	chemical	pmid:23487739	Inhibitor of HDAC6
 HBP00271	Kristian	Tubastatin A	chemical	pmid:24844691	Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load
-HBP00272	Kristian	USP14 Aptamer	chemical	pmid:26041011	Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme.
+HBP00272	Kristian	USP14 Aptamer	aptamer	pmid:26041011	Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme.
 HBP00273	Kristian	cholinergic neuron	anatomy	pmid:29221819	A neuron that uses acetylcholine as a vesicular neurotransmitter.
 HBP00274	Kristian	cerebral cortex	anatomy	pmid:29221819	The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex.
 HBP00275	Kristian	crebinostat	chemical	pmid:25546293	Inhibitor of HDAC6
