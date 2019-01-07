@@ -23,8 +23,11 @@ relevant to neurodegenerative disease.
 
 ### classes.tsv
 
-This file (currently just a list), contains all
-of the classes to which terms belong.
+This tab-separated values file contains a two columns describing
+classes of entities in the HBP terminology:
+
+1. Class
+2. BEL Encodings
 
 ### terms.tsv
 
