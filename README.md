@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Terminology
+  HBP Terminology
   <a href="https://travis-ci.com/pharmacome/terminology">
     <img src="https://travis-ci.com/pharmacome/terminology.svg?branch=master"
          alt="Travis CI">
