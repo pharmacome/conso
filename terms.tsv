@@ -326,3 +326,4 @@ HBP00324	Rana	FK1 antibody	antibody	pmid:16338350	Anti-Ubiquitinylated proteins 
 HBP00325	Rana	amyloid-beta antibody, NU1	antibody	pmid:17403556	monoclonal antibody that is specific for amyloid-beta oligomers
 HBP00326	Sandra	B-973	chemical	pmid:28132910	Here we report the discovery and characterization of 3-(3,4-difluorophenyl)-N-(1-(6-(4-(pyridin-2-yl)piperazin-1-yl)pyrazin-2-yl)ethyl)propanamide (B-973), a piperazine containing α7 type II PAM
 HBP00327	Rana	GPBC, alpha-7 nAChR	domain	pmid:24185813, pmid:26088141	An alignment of residues in the M3-M4 loop of alpha-7 nAChR that contribute to the binding of G-protein 
+HBP00328	Rana	GPBC, Glycine Receptor 1	domain	pmid:24185813, pmid:26088141	An alignment of residues in the M3-M4 loop of GPBC, Glycine Receptor 1 (GLRA1) that contribute to the binding of G-protein 
