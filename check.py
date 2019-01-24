@@ -146,7 +146,7 @@ def _get_classes_helper(lines: Iterable[Tuple[str, ...]]):
             raise ValueError(f'classes.tsv: Extra spacing around first entry in line {i}: {line}')
 
         if line[0] < last_line[0]:
-            raise ValueError(f'classes.tsv: line {i}: {line}')
+            raise ValueError(f'classes.tsv: Not sorted properly on line {i}: {line}')
 
         yield line
         last_line = line
@@ -302,7 +302,7 @@ def check_chemical_structures(terms_path: str = 'terms.tsv', xrefs_path: str = '
             db_map[db][hbp_id] = db_id
 
     _check_missing_xref(chemicals, db_map, 'inchi')
-    # _check_missing_xref(chemicals, db_map, 'smiles')
+    _check_missing_xref(chemicals, db_map, 'smiles')
     # _check_missing_xref(chemicals, db_map, 'chebi')
     # _check_missing_xref(chemicals, db_map, 'cas')
 
