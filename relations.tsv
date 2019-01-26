@@ -20,6 +20,7 @@ HBP	HBP00046	VQIINK motif	part_of	HBP	HBP00003	tubulin-binding repeat 2
 HBP	HBP00047	VQIVYK motif	part_of	HBP	HBP00004	tubulin-binding repeat 3
 HBP	HBP00048	ghost tangles	is_a	GO	GO:0097418	neurofibrillary tangle
 HBP	HBP00049	pretangles	is_a	GO	GO:0097418	neurofibrillary tangle
+HBP	HBP00051	RAC1b	has_reference_protein	uniprot	P63000	RAC1_HUMAN
 HBP	HBP00053	Tau isoform F (441 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00053	Tau isoform F (441 aa)	is_a	HBP	HBP00045	4R tau
 HBP	HBP00054	Tau isoform Fetal-tau (352 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
@@ -47,9 +48,11 @@ HBP	HBP00187	proline-rich region 2	part_of	HBP	HBP00188	assembly domain
 HBP	HBP00217	MARK4 isoform 2 (688 aa)	has_reference_protein	uniprot	Q96L34	MARK4_HUMAN
 HBP	HBP00222	Tau antibody, AGG5759	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00223	Tau antibody, Tau-13	is_a	HBP	HBP00307	Tau antibody
+HBP	HBP00232	Kalirin 7	has_reference_protein	uniprot	O60229	KALRN_HUMAN
 HBP	HBP00250	LDN-193594	is_a	HBP	HBP00276	diaminothiazole
 HBP	HBP00251	LDN-193665	is_a	HBP	HBP00277	diaminothiazole
 HBP	HBP00252	LDN-213843	is_a	HBP	HBP00278	diaminothiazole
+HBP	HBP00255	PrPSc	has_reference_protein	uniprot	P04156	PRIO_HUMAN
 HBP	HBP00257	Tau antibody, RG7345	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00262	Tau antibody, AGG5759	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00263	Tau epitope, AD2	is_a	HBP	HBP00307	Tau epitope
