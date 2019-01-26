@@ -42,8 +42,8 @@ HBP00040	Lingling	Notch intracellular domain	domain	pmid:20883690	Notch intracel
 HBP00041	Lingling	YENPTY endocytosis motif (APP)	motif	pmid:18650430	YENTY is the endocytosis motif of Amyloid precursor protein.
 HBP00042	Lingling	sAPP-beta	protein	pmid:21606494	Soluble amyloid precursor protein
 HBP00043	Lingling	growth factor	?	pmid:14678766	A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes.
-HBP00044	Kristian	3R tau	isoform	pmid:23407988	Tau isoforms containing 3 tubulin binding repeats
-HBP00045	Kristian	4R tau	isoform	pmid:23407988	Tau isoforms containing 4 tubulin binding repeats
+HBP00044	Kristian	3R tau	protein isoform family	pmid:23407988	Tau isoforms containing 3 tubulin binding repeats
+HBP00045	Kristian	4R tau	protein isoform family	pmid:23407988	Tau isoforms containing 4 tubulin binding repeats
 HBP00046	Kristian	VQIINK motif	motif	pmid:17493042	A hexapeptide motif located in the R2, that promotes the formation of PHF
 HBP00047	Kristian	VQIVYK motif	motif	pmid:17493042	A hexapeptide motif located in the R3, that promotes the formation of PHF
 HBP00048	Kristian	ghost tangles	cellular component	pmid:23407988,pmid:8431763	Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity.
