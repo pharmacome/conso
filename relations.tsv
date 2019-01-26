@@ -18,11 +18,22 @@ HBP	HBP00046	VQIINK motif	part_of	HBP	HBP00003	tubulin-binding repeat 2
 HBP	HBP00047	VQIVYK motif	part_of	HBP	HBP00004	tubulin-binding repeat 3
 HBP	HBP00048	ghost tangles	is_a	GO	GO:0097418	neurofibrillary tangle
 HBP	HBP00049	pretangles	is_a	GO	GO:0097418	neurofibrillary tangle
+HBP	HBP00053	Tau isoform F (441 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00053	Tau isoform F (441 aa)	is_a	HBP	HBP00045	4R tau
+HBP	HBP00054	Tau isoform Fetal-tau (352 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
+HBP	HBP00055	Tau isoform B (381 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00055	Tau isoform B (381 aa)	is_a	HBP	HBP00044	3R tau
+HBP	HBP00056	Tau isoform D (383 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00056	Tau isoform D (383 aa)	is_a	HBP	HBP00045	4R tau
+HBP	HBP00057	Tau isoform C (410 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00057	Tau isoform C (410 aa)	is_a	HBP	HBP00044	3R tau
+HBP	HBP00058	Tau isoform E (412 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00058	Tau isoform E (412 aa)	is_a	HBP	HBP00045	4R tau
+HBP	HBP00063	APP695	has_reference_protein	uniprot	P05067	A4_HUMAN
+HBP	HBP00064	APP751	has_reference_protein	uniprot	P05067	A4_HUMAN
+HBP	HBP00065	APP770	has_reference_protein	uniprot	P05067	A4_HUMAN
+HBP	HBP00084	Tau isoform A (316 aa)	has_reference_protein	uniprot	P10636	TAU_HUMAN
+HBP	HBP00097	TGM2 Isoform 3 (349 aa)	has_reference_protein	uniprot	P21980	TGM2_HUMAN
 HBP	HBP00099	Corticobasal Degeneration	is_a	HBP	HBP00233	4R tauopathy
 HBP	HBP00100	paired helical filaments	part_of	GO	GO:0097418	neurofibrillary tangle
 HBP	HBP00101	straight filaments	part_of	GO	GO:0097418	neurofibrillary tangle
@@ -31,6 +42,7 @@ HBP	HBP00186	proline-rich region 1	part_of	HBP	HBP00050	projection domain
 HBP	HBP00186	proline-rich region 1	part_of	HBP	HBP00166	proline-rich domain
 HBP	HBP00187	proline-rich region 2	part_of	HBP	HBP00166	proline-rich domain
 HBP	HBP00187	proline-rich region 2	part_of	HBP	HBP00188	assembly domain
+HBP	HBP00217	MARK4 isoform 2 (688 aa)	has_reference_protein	uniprot	Q96L34	MARK4_HUMAN
 HBP	HBP00222	Tau antibody, AGG5759	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00223	Tau antibody, Tau-13	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00250	LDN-193594	is_a	HBP	HBP00276	diaminothiazole
