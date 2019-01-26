@@ -3,13 +3,16 @@
 """A script for enriching the HBP terminology with external information."""
 
 import pandas as pd
-import pubchempy as pcp
 from tqdm import tqdm
 
-synonym_header = ['Identifier', 'Synonym', 'Reference', 'Specificity']
+SYNONYM_HEADER = ['Identifier', 'Synonym', 'Reference', 'Specificity']
+XREFS_HEADER = ['HBP Identifier', 'Database', 'Database Identifier']
 
 
 def enrich_pubchem_synonyms():
+    """Enrich synonyms.tsv with information from PubChem."""
+    import pubchempy as pcp
+
     xrefs = pd.read_csv('xrefs.tsv', sep='\t')
     xrefs = xrefs[xrefs['Database'] == 'pubchem.compound']
     cid_to_hbp = pd.Series(xrefs['HBP Identifier'].values, index=xrefs['Database Identifier']).to_dict()
@@ -28,13 +31,9 @@ def enrich_pubchem_synonyms():
     (
         pd.concat([
             pd.read_csv('synonyms.tsv', sep='\t'),
-            pd.DataFrame(new_synonyms, columns=synonym_header),
+            pd.DataFrame(new_synonyms, columns=SYNONYM_HEADER),
         ])
             .drop_duplicates()
-            .sort_values(synonym_header)
+            .sort_values(SYNONYM_HEADER)
             .to_csv('synonyms.tsv', sep='\t', index=False)
     )
-
-
-if __name__ == '__main__':
-    enrich_pubchem_synonyms()
