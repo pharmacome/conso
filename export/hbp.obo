@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:01:2019 17:29
+date: 26:01:2019 22:45
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -217,11 +217,11 @@ synonym: "ZINC6014" EXACT [pubchem.compound:3973]
 synonym: "ZX-AFC000490" EXACT [pubchem.compound:3973]
 synonym: "cc-58" EXACT [pubchem.compound:3973]
 synonym: "s1105" EXACT [pubchem.compound:3973]
-xref: pubchem.compound:3973
 xref: cas:154447-36-6
 xref: chebi:CHEBI:65329
 xref: drugbank:DB02656
 xref: inchi:InChI=1S/C19H17NO3/c21-17-13-18(20-9-11-22-12-10-20)23-19-15(7-4-8-16(17)19)14-5-2-1-3-6-14/h1-8,13H,9-12H2
+xref: pubchem.compound:3973
 xref: smiles:C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4
 
 [Term]
@@ -297,10 +297,10 @@ synonym: "SCHEMBL3602388" EXACT [pubchem.compound:46835756]
 synonym: "SEN 1269" EXACT [pubchem.compound:46835756]
 synonym: "TC-064564" EXACT [pubchem.compound:46835756]
 synonym: "ZINC49582255" EXACT [pubchem.compound:46835756]
-xref: pubchem.compound:46835756
 xref: chembl:CHEMBL2386874
-xref: smiles:CN(C)C1=CC(=CC=C1)OC2=CN=C(N=C2)NC3=CC(=CC=C3)O
 xref: inchi:InChI=1S/C18H18N4O2/c1-22(2)14-6-4-8-16(10-14)24-17-11-19-18(20-12-17)21-13-5-3-7-15(23)9-13/h3-12,23H,1-2H3,(H,19,20,21)
+xref: pubchem.compound:46835756
+xref: smiles:CN(C)C1=CC(=CC=C1)OC2=CN=C(N=C2)NC3=CC(=CC=C3)O
 
 [Term]
 id: HBP:HBP00020
@@ -333,9 +333,9 @@ synonym: "ZINC563211" EXACT [pubchem.compound:647821]
 synonym: "ethyl 5-amino-4-oxo-3-phenyl-3,4-dihydrothieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
 synonym: "ethyl 5-amino-4-oxo-3-phenyl-3H,4H-thieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
 synonym: "ethyl 5-amino-4-oxo-3-phenylthieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
-xref: pubchem.compound:647821
 xref: chembl:CHEMBL461431
 xref: inchi:InChI=1S/C15H13N3O3S/c1-2-21-15(20)12-10-8-22-13(16)11(10)14(19)18(17-12)9-6-4-3-5-7-9/h3-8H,2,16H2,1H3
+xref: pubchem.compound:647821
 xref: smiles:CCOC(=O)C1=NN(C(=O)C2=C(SC=C21)N)C3=CC=CC=C3
 
 [Term]
@@ -360,10 +360,10 @@ synonym: "SP-233" EXACT [pubchem.compound:16394575]
 synonym: "Spirost-5-en-3-ol, 3-hexanoate, (3beta,25R)-" EXACT [pubchem.compound:16394575]
 synonym: "UNII-9BU4T267E4" EXACT [pubchem.compound:16394575]
 synonym: "ZINC97971833" EXACT [pubchem.compound:16394575]
-xref: pubchem.compound:16394575
 xref: drugbank:DB05263
-xref: smiles:CCCCCC(=O)O[C@H]1CC[C@]2(C)[C@H]3CC[C@@]4(C)[C@@H](C[C@@H]5O[C@]6(CC[C@@H](C)CO6)[C@@H](C)[C@H]45)[C@@H]3CC=C2C1
 xref: inchi:InChI=1S/C33H52O4/c1-6-7-8-9-29(34)36-24-13-15-31(4)23(18-24)10-11-25-26(31)14-16-32(5)27(25)19-28-30(32)22(3)33(37-28)17-12-21(2)20-35-33/h10,21-22,24-28,30H,6-9,11-20H2,1-5H3/t21-,22+,24+,25-,26+,27+,28+,30+,31+,32+,33-/m1/s1
+xref: pubchem.compound:16394575
+xref: smiles:CCCCCC(=O)O[C@H]1CC[C@]2(C)[C@H]3CC[C@@]4(C)[C@@H](C[C@@H]5O[C@]6(CC[C@@H](C)CO6)[C@@H](C)[C@H]45)[C@@H]3CC=C2C1
 
 [Term]
 id: HBP:HBP00022
@@ -421,8 +421,8 @@ id: HBP:HBP00032
 name: Pro3-GIP
 def: "Pro3-GIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
 synonym: "[Pro3]-GIP (Rat)" EXACT [pubchem.compound:131954578]
-xref: pubchem.compound:131954578
 xref: inchi:InChI=1S/C226H343N61O64S/c1-21-115(12)181(285-216(341)165(109-289)279-201(326)151(92-126-63-67-131(293)68-64-126)266-210(335)163(102-179(309)310)276-215(340)164(108-288)280-221(346)183(117(14)23-3)284-214(339)153(91-124-48-28-25-29-49-124)277-222(347)184(121(18)290)281-175(302)107-247-217(342)166-60-45-84-287(166)224(349)120(17)251-188(313)134(232)89-125-61-65-130(292)66-62-125)219(344)250-119(16)187(312)254-146(77-85-352-20)197(322)274-160(99-176(303)304)208(333)258-141(58-38-43-82-231)198(323)283-182(116(13)22-2)220(345)261-142(59-44-83-243-226(240)241)191(316)259-144(70-74-168(234)295)195(320)260-145(71-75-169(235)296)196(321)273-161(100-177(305)306)209(334)267-152(90-123-46-26-24-27-47-123)213(338)282-180(114(10)11)218(343)278-159(98-173(239)300)207(332)268-155(94-128-104-245-136-53-33-31-51-133(128)136)203(328)264-149(87-112(6)7)200(325)263-148(86-111(4)5)199(324)249-118(15)186(311)253-143(69-73-167(233)294)194(319)255-137(54-34-39-78-227)189(314)246-106-174(301)252-138(55-35-40-79-228)190(315)256-139(56-36-41-80-229)193(318)271-157(96-171(237)298)206(331)275-162(101-178(307)308)211(336)269-154(93-127-103-244-135-52-32-30-50-132(127)135)202(327)257-140(57-37-42-81-230)192(317)270-156(95-129-105-242-110-248-129)204(329)272-158(97-172(238)299)205(330)265-150(88-113(8)9)212(337)286-185(122(19)291)223(348)262-147(225(350)351)72-76-170(236)297/h24-33,46-53,61-68,103-105,110-122,134,137-166,180-185,244-245,288-293H,21-23,34-45,54-60,69-102,106-109,227-232H2,1-20H3,(H2,233,294)(H2,234,295)(H2,235,296)(H2,236,297)(H2,237,298)(H2,238,299)(H2,239,300)(H,242,248)(H,246,314)(H,247,342)(H,249,324)(H,250,344)(H,251,313)(H,252,301)(H,253,311)(H,254,312)(H,255,319)(H,256,315)(H,257,327)(H,258,333)(H,259,316)(H,260,320)(H,261,345)(H,262,348)(H,263,325)(H,264,328)(H,265,330)(H,266,335)(H,267,334)(H,268,332)(H,269,336)(H,270,317)(H,271,318)(H,272,329)(H,273,321)(H,274,322)(H,275,331)(H,276,340)(H,277,347)(H,278,343)(H,279,326)(H,280,346)(H,281,302)(H,282,338)(H,283,323)(H,284,339)(H,285,341)(H,286,337)(H,303,304)(H,305,306)(H,307,308)(H,309,310)(H,350,351)(H4,240,241,243)
+xref: pubchem.compound:131954578
 xref: smiles:CCC(C)C(C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)C)C(=O)NC(CC(=O)N)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCCN)C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(CC4=CNC5=CC=CC=C54)C(=O)NC(CCCCN)C(=O)NC(CC6=CNC=N6)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CCSC)NC(=O)C(C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC7=CC=C(C=C7)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)CC)NC(=O)C(CC8=CC=CC=C8)NC(=O)C(C(C)O)NC(=O)CNC(=O)C9CCCN9C(=O)C(C)NC(=O)C(CC1=CC=C(C=C1)O)N
 
 [Term]
@@ -527,6 +527,7 @@ xref: interpro:IPR013588
 id: HBP:HBP00051
 name: RAC1b
 def: "A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer." [pmid:22142809]
+xref: uniprot.isoform:P63000-2
 
 [Term]
 id: HBP:HBP00052
@@ -542,6 +543,7 @@ synonym: "2N4R" EXACT []
 synonym: "htau40" EXACT [pmid:19226187]
 synonym: "microtubule-associated protein tau isoform 2" EXACT []
 xref: ncbiprotein:NP_005901
+xref: uniprot.isoform:P10636-8
 is_a: HBP:HBP00045 ! 4R tau
 
 [Term]
@@ -552,6 +554,7 @@ synonym: "0N3R" EXACT []
 synonym: "htau23" EXACT [pmid:7667312]
 synonym: "microtubule-associated protein tau isoform 4" EXACT []
 xref: ncbiprotein:NP_058525
+xref: uniprot.isoform:P10636-2
 
 [Term]
 id: HBP:HBP00055
@@ -561,6 +564,7 @@ synonym: "1N3R" EXACT []
 synonym: "htau37" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 7" EXACT []
 xref: ncbiprotein:NP_001190180
+xref: uniprot.isoform:P10636-4
 is_a: HBP:HBP00044 ! 3R tau
 
 [Term]
@@ -571,6 +575,7 @@ synonym: "0N4R" EXACT []
 synonym: "htau24" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 3" EXACT []
 xref: ncbiprotein:NP_058518
+xref: uniprot.isoform:P10636-6
 is_a: HBP:HBP00045 ! 4R tau
 
 [Term]
@@ -581,6 +586,7 @@ synonym: "2N3R" EXACT []
 synonym: "htau39" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 8" EXACT []
 xref: ncbiprotein:NP_001190181
+xref: uniprot.isoform:P10636-5
 is_a: HBP:HBP00044 ! 3R tau
 
 [Term]
@@ -591,6 +597,7 @@ synonym: "1N4R" EXACT []
 synonym: "htau34" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 5" EXACT []
 xref: ncbiprotein:NP_001116539
+xref: uniprot.isoform:P10636-7
 is_a: HBP:HBP00045 ! 4R tau
 
 [Term]
@@ -619,16 +626,19 @@ def: "when the neurite is unable it outgrow and extend" [pmid:19022228]
 id: HBP:HBP00063
 name: APP695
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
+xref: uniprot.isoform:P05067-4
 
 [Term]
 id: HBP:HBP00064
 name: APP751
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
+xref: uniprot.isoform:P05067-8
 
 [Term]
 id: HBP:HBP00065
 name: APP770
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
+xref: uniprot.isoform:P05067-1
 
 [Term]
 id: HBP:HBP00066
@@ -725,6 +735,7 @@ def: "multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is
 id: HBP:HBP00084
 name: Tau isoform A (316 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:18986241]
+xref: uniprot.isoform:P10636-3
 
 [Term]
 id: HBP:HBP00085
@@ -790,6 +801,7 @@ def: "Glyceraldehyde-derived (GA) advanced glycation end products" [pmid:1663005
 id: HBP:HBP00097
 name: TGM2 Isoform 3 (349 aa)
 def: "Short isoform of tissue transglutaminase" [pmid:12578227]
+xref: uniprot.isoform:P21980-2
 
 [Term]
 id: HBP:HBP00098
@@ -1237,8 +1249,8 @@ def: "A long lasting enhancement in synaptic transmission between two neurons, m
 id: HBP:HBP00186
 name: proline-rich region 1
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
-part_of: HBP:HBP00166 ! proline-rich domain
 part_of: HBP:HBP00050 ! projection domain
+part_of: HBP:HBP00166 ! proline-rich domain
 
 [Term]
 id: HBP:HBP00187
@@ -1357,10 +1369,10 @@ synonym: "VU10010" EXACT [pubchem.compound:714286]
 synonym: "ZINC109066" EXACT [pubchem.compound:714286]
 synonym: "cid_714286" EXACT [pubchem.compound:714286]
 synonym: "f-LIGRLO-NH2" EXACT [pubchem.compound:714286]
-xref: smiles:CC1=C2C(SC(C(NCC3=CC=C(Cl)C=C3)=O)=C2N)=NC(C)=C1
+xref: cas:633283-39-3
 xref: inchi:InChI=1S/C17H16ClN3OS/c1-9-7-10(2)21-17-13(9)14(19)15(23-17)16(22)20-8-11-3-5-12(18)6-4-11/h3-7H,8,19H2,1-2H3,(H,20,22)
 xref: pubchem.compound:714286
-xref: cas:633283-39-3
+xref: smiles:CC1=C2C(SC(C(NCC3=CC=C(Cl)C=C3)=O)=C2N)=NC(C)=C1
 
 [Term]
 id: HBP:HBP00202
@@ -1370,8 +1382,8 @@ synonym: "VU 0456940" EXACT [https://medkoo.com/products/9998]
 synonym: "VU-0456940" EXACT [https://medkoo.com/products/9998]
 synonym: "VU0456940" EXACT [https://medkoo.com/products/9998]
 xref: inchi:InChI=1S/C24H19F2N5O4S/c1-14-5-17(29-35-14)8-19(32)13-36(33,34)23-12-31(22-7-16(25)6-20(26)24(22)23)18-3-4-21(27-10-18)15-9-28-30(2)11-15/h3-7,9-12H,8,13H2,1-2H3
-xref: smiles:CN1N=CC(C2=CC=C(N3C=C(S(=O)(CC(CC4=NOC(C)=C4)=O)=O)C5=C3C=C(F)C=C5F)C=N2)=C1
 xref: iupac:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one
+xref: smiles:CN1N=CC(C2=CC=C(N3C=C(S(=O)(CC(CC4=NOC(C)=C4)=O)=O)C5=C3C=C(F)C=C5F)C=N2)=C1
 
 [Term]
 id: HBP:HBP00203
@@ -1402,8 +1414,8 @@ synonym: "VU0152099" EXACT [pubchem.compound:1541501]
 synonym: "VU0152099-1" EXACT [pubchem.compound:1541501]
 synonym: "ZINC1472126" EXACT [pubchem.compound:1541501]
 synonym: "cid_1541501" EXACT [pubchem.compound:1541501]
-xref: pubchem.compound:1541501
 xref: inchi:InChI=1S/C18H17N3O3S/c1-9-5-10(2)21-18-14(9)15(19)16(25-18)17(22)20-7-11-3-4-12-13(6-11)24-8-23-12/h3-6H,7-8,19H2,1-2H3,(H,20,22)
+xref: pubchem.compound:1541501
 xref: smiles:CC1=CC(=NC2=C1C(=C(S2)C(=O)NCC3=CC4=C(C=C3)OCO4)N)C
 xref: wikidata:Q27089173
 
@@ -1421,9 +1433,9 @@ synonym: "D0L5AG" EXACT [pubchem.compound:6758210]
 synonym: "KS-000046FP" EXACT [pubchem.compound:6758210]
 synonym: "ZINC1204219" EXACT [pubchem.compound:6758210]
 synonym: "ZINC38534584" EXACT [pubchem.compound:6758210]
+xref: inchi:InChI=1S/C21H21N3O3/c1-2-27-17-10-8-16(9-11-17)22-14-21(26)24-23-13-19-18-6-4-3-5-15(18)7-12-20(19)25/h3-13,22-23H,2,14H2,1H3,(H,24,26)
 xref: pubchem.compound:6758210
 xref: smiles:CCOC1=CC=C(C=C1)NCC(=O)NNC=C2C(=O)C=CC3=CC=CC=C32
-xref: inchi:InChI=1S/C21H21N3O3/c1-2-27-17-10-8-16(9-11-17)22-14-21(26)24-23-13-19-18-6-4-3-5-15(18)7-12-20(19)25/h3-13,22-23H,2,14H2,1H3,(H,24,26)
 
 [Term]
 id: HBP:HBP00205
@@ -1450,9 +1462,9 @@ synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-3,4-di
 synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitrobenzo[d][1,3]-dioxol-5-yl)-2-oxo-1,2,3,4 tetrahydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
 synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitrobenzo[d][1,3]-dioxol-5-yl)-2-oxo-1,2,3,4-tetrahydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
 synonym: "cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
+xref: inchi:InChI=1S/C19H21N3O7/c1-10-16(18(23)29-11-5-3-4-6-11)17(20-19(24)21(10)2)12-7-14-15(28-9-27-14)8-13(12)22(25)26/h7-8,11,17H,3-6,9H2,1-2H3,(H,20,24)
 xref: pubchem.compound:2882724
 xref: smiles:CC1=C(C(NC(=O)N1C)C2=CC3=C(C=C2[N+](=O)[O-])OCO3)C(=O)OC4CCCC4
-xref: inchi:InChI=1S/C19H21N3O7/c1-10-16(18(23)29-11-5-3-4-6-11)17(20-19(24)21(10)2)12-7-14-15(28-9-27-14)8-13(12)22(25)26/h7-8,11,17H,3-6,9H2,1-2H3,(H,20,24)
 
 [Term]
 id: HBP:HBP00206
@@ -1464,10 +1476,10 @@ synonym: "MLS002279950" EXACT [pubchem.compound:25010774]
 synonym: "SMR001318088" EXACT [pubchem.compound:25010774]
 synonym: "VU0184670" EXACT [pubchem.compound:25010774]
 synonym: "ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" EXACT [pubchem.compound:25010774]
-xref: pubchem.compound:25010774
-xref: inchi:InChI=1S/C17H25N3O3.ClH/c1-2-23-17(22)20-12-8-15(9-13-20)18-10-11-19-16(21)14-6-4-3-5-7-14;/h3-7,15,18H,2,8-13H2,1H3,(H,19,21);1H
-xref: smiles:CCOC(=O)N1CCC(CC1)NCCNC(=O)C2=CC=CC=C2.Cl
 xref: chembl:CHEMBL1535797
+xref: inchi:InChI=1S/C17H25N3O3.ClH/c1-2-23-17(22)20-12-8-15(9-13-20)18-10-11-19-16(21)14-6-4-3-5-7-14;/h3-7,15,18H,2,8-13H2,1H3,(H,19,21);1H
+xref: pubchem.compound:25010774
+xref: smiles:CCOC(=O)N1CCC(CC1)NCCNC(=O)C2=CC=CC=C2.Cl
 
 [Term]
 id: HBP:HBP00207
@@ -1537,10 +1549,10 @@ synonym: "VZ24096" EXACT [pubchem.compound:82145]
 synonym: "ZX-AT022731" EXACT [pubchem.compound:82145]
 synonym: "alpha-Bromopalmitic acid" EXACT [pubchem.compound:82145]
 synonym: "bromohexadecanoic acid" EXACT [pubchem.compound:82145]
-xref: pubchem.compound:82145
 xref: chebi:CHEBI:133152
-xref: smiles:CCCCCCCCCCCCCCC(C(=O)O)Br
 xref: inchi:InChI=1S/C16H31BrO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15(17)16(18)19/h15H,2-14H2,1H3,(H,18,19)
+xref: pubchem.compound:82145
+xref: smiles:CCCCCCCCCCCCCCC(C(=O)O)Br
 
 [Term]
 id: HBP:HBP00208
@@ -1591,6 +1603,7 @@ def: "A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helic
 id: HBP:HBP00217
 name: MARK4 isoform 2 (688 aa)
 def: "Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation." [pmid:16973293]
+xref: uniprot.isoform:Q96L34-2
 
 [Term]
 id: HBP:HBP00218
@@ -1734,12 +1747,12 @@ synonym: "WKT909C62B" EXACT [pubchem.compound:53340666]
 synonym: "X5832" EXACT [pubchem.compound:53340666]
 synonym: "ZINC89630354" EXACT [pubchem.compound:53340666]
 synonym: "s8001" EXACT [pubchem.compound:53340666]
-xref: pubchem.compound:53340666
 xref: cas:1316214-52-4
 xref: chebi:CHEBI:95073
 xref: drugbank:DB12376
-xref: mesh:C572255
 xref: inchi:InChI=1S/C24H27N5O3/c30-22(28-32)15-9-1-2-10-16-25-23(31)19-17-26-24(27-18-19)29(20-11-5-3-6-12-20)21-13-7-4-8-14-21/h3-8,11-14,17-18,32H,1-2,9-10,15-16H2,(H,25,31)(H,28,30)
+xref: mesh:C572255
+xref: pubchem.compound:53340666
 xref: smiles:C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=NC=C(C=N3)C(=O)NCCCCCCC(=O)NO
 inverse_is_a: MESH:D000544 ! Alzheimer Disease
 
@@ -1791,13 +1804,13 @@ synonym: "Syk inhibitor IV" EXACT [pubchem.compound:10200390]
 synonym: "UNII-61G8S0H9KX" EXACT [pubchem.compound:10200390]
 synonym: "ZINC3817793" EXACT [pubchem.compound:10200390]
 synonym: "cc-526" EXACT [pubchem.compound:10200390]
-xref: pubchem.compound:10200390
 xref: cas:732983-37-8
-xref: wikidata:Q27163275
 xref: chebi:CHEBI:91426
-xref: mesh:C477642
 xref: inchi:InChI=1S/C20H18N6O3/c1-28-15-6-5-12(10-16(15)29-2)14-11-17-22-8-9-26(17)20(24-14)25-19-13(18(21)27)4-3-7-23-19/h3-11H,1-2H3,(H2,21,27)(H,23,24,25)
+xref: mesh:C477642
+xref: pubchem.compound:10200390
 xref: smiles:COC1=C(C=C(C=C1)C2=CC3=NC=CN3C(=N2)NC4=C(C=CC=N4)C(=O)N)OC
+xref: wikidata:Q27163275
 
 [Term]
 id: HBP:HBP00237
@@ -1813,8 +1826,8 @@ def: "Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined tem
 id: HBP:HBP00239
 name: C-30-27
 def: "PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition" [pmid:25672970]
-xref: smiles:C1COCCN1CCNCC2=CC(=C(C(=C2)Cl)OCC3=CC=CC=N3)OC
 xref: inchi:InChI=1S/C20H26ClN3O3/c1-25-19-13-16(14-22-6-7-24-8-10-26-11-9-24)12-18(21)20(19)27-15-17-4-2-3-5-23-17/h2-5,12-13,22H,6-11,14-15H2,1H3
+xref: smiles:C1COCCN1CCNCC2=CC(=C(C(=C2)Cl)OCC3=CC=CC=N3)OC
 
 [Term]
 id: HBP:HBP00240
@@ -1842,8 +1855,8 @@ synonym: "MolPort-002-976-806" EXACT [pubchem.compound:1285940]
 synonym: "SCHEMBL14991291" EXACT [pubchem.compound:1285940]
 synonym: "STK219801" EXACT [pubchem.compound:1285940]
 synonym: "ZINC13838357" EXACT [pubchem.compound:1285940]
-xref: pubchem.compound:1285940
 xref: inchi:InChI=1S/C24H19N3O6/c1-13-10-20(21(27(31)32)11-14(13)2)22-9-8-18(33-22)12-19-15(3)25-26(23(19)28)17-6-4-16(5-7-17)24(29)30/h4-12H,1-3H3,(H,29,30)/b19-12+
+xref: pubchem.compound:1285940
 xref: smiles:CC1=C(C=C(C(=C1)C2=CC=C(O2)C=C3C(=NN(C3=O)C4=CC=C(C=C4)C(=O)O)C)[N+](=O)[O-])C
 
 [Term]
@@ -1906,13 +1919,14 @@ synonym: "UNII-5V14HD0N4Q" EXACT [pubchem.compound:6419718]
 synonym: "ZINC33943510" EXACT [pubchem.compound:6419718]
 synonym: "dibenz[b,f]oxepin-10-ylmethyl-N-methyl-N-prop-2-ynylamine" EXACT [pubchem.compound:6419718]
 synonym: "dibenzo-(b,f)oxepin-10-ylmethyl-methyl-prop-2-ynyl-amine" EXACT [pubchem.compound:6419718]
-xref: pubchem.compound:6419718
-xref: chembl:CHEMBL3734823
-xref: inchi:InChI=1S/C19H17NO/c1-3-12-20(2)14-16-13-15-8-4-6-10-18(15)21-19-11-7-5-9-17(16)19/h1,4-11,13H,12,14H2,2H3
-xref: smiles:CN(CC#C)CC1=CC2=CC=CC=C2OC3=CC=CC=C31
-xref: chembl:CHEMBL1232111
+xref: chebi:CHEBI:35364
 xref: chebi:CHEBI:41778
+xref: chembl:CHEMBL1232111
+xref: chembl:CHEMBL3734823
 xref: drugbank:DB12879
+xref: inchi:InChI=1S/C19H17NO/c1-3-12-20(2)14-16-13-15-8-4-6-10-18(15)21-19-11-7-5-9-17(16)19/h1,4-11,13H,12,14H2,2H3
+xref: pubchem.compound:6419718
+xref: smiles:CN(CC#C)CC1=CC2=CC=CC=C2OC3=CC=CC=C31
 
 [Term]
 id: HBP:HBP00246
@@ -1948,9 +1962,9 @@ synonym: "MCULE-2720405682" EXACT [pubchem.compound:10397232]
 synonym: "MolPort-019-997-392" EXACT [pubchem.compound:10397232]
 synonym: "SCHEMBL793684" EXACT [pubchem.compound:10397232]
 synonym: "ZINC38760485" EXACT [pubchem.compound:10397232]
-xref: pubchem.compound:10397232
 xref: cas:4432-44-4
 xref: inchi:InChI=1S/C8H13NO3/c1-7(8(10)11)6-9-2-4-12-5-3-9/h1-6H2,(H,10,11)
+xref: pubchem.compound:10397232
 xref: smiles:C=C(CN1CCOCC1)C(=O)O
 
 [Term]
@@ -1982,9 +1996,9 @@ synonym: "NSC747885" EXACT [pubchem.compound:54581340]
 synonym: "XHJMMMPXTUEBMQ-UHFFFAOYSA-N" EXACT [pubchem.compound:54581340]
 synonym: "ZINC71317068" EXACT [pubchem.compound:54581340]
 synonym: "ldn-193594" EXACT [pubchem.compound:54581340]
-xref: pubchem.compound:54581340
 xref: chembl:CHEMBL1761791
 xref: inchi:InChI=1S/C15H11FN4OS/c16-11-6-2-1-5-10(11)12(21)13-14(17)20-15(22-13)19-9-4-3-7-18-8-9/h1-8H,17H2,(H,19,20)
+xref: pubchem.compound:54581340
 xref: smiles:C1=CC=C(C(=C1)C(=O)C2=C(N=C(S2)NC3=CN=CC=C3)N)F
 is_a: HBP:HBP00276 ! diaminothiazole
 
@@ -2019,6 +2033,8 @@ def: "Pathological spreading pattern of tau into defined anatomycally interconne
 id: HBP:HBP00255
 name: PrPSc
 def: "PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types." [pmid:22692785, pmid:29414853]
+xref: uniprot:F7VJQ1
+xref: uniprot.isoform:F7VJQ1-1
 
 [Term]
 id: HBP:HBP00256
@@ -2068,9 +2084,9 @@ synonym: "SCHEMBL12497871" EXACT [pubchem.compound:56650312]
 synonym: "SW219401-1" EXACT [pubchem.compound:56650312]
 synonym: "ZINC95616594" EXACT [pubchem.compound:56650312]
 synonym: "s7229" EXACT [pubchem.compound:56650312]
-xref: pubchem.compound:56650312
 xref: chebi:CHEBI:131163
 xref: inchi:InChI=1S/C21H19FN4O/c22-18-9-10-20(19(23)13-18)25-21(27)11-8-17-14-24-26(15-17)12-4-7-16-5-2-1-3-6-16/h1-11,13-15H,12,23H2,(H,25,27)/b7-4+,11-8+
+xref: pubchem.compound:56650312
 xref: smiles:C1=CC=C(C=C1)C=CCN2C=C(C=N2)C=CC(=O)NC3=C(C=C(C=C3)F)N
 
 [Term]
@@ -2123,11 +2139,11 @@ synonym: "ZINC1910234" EXACT [pubchem.compound:9549284]
 synonym: "alpha-[Amino-(4-aminophenylthio)methylene)-2-(trifluoromethyl)phenylacetonitrile" EXACT [pubchem.compound:9549284]
 synonym: "alpha-{amino[(4-aminophenyl)thio]methylene}-2-(trifluoromethyl)benzeneacetonitrile" EXACT [pubchem.compound:9549284]
 synonym: "s1066" EXACT [pubchem.compound:9549284]
-xref: pubchem.compound:9549284
 xref: cas:305350-87-2
 xref: chebi:CHEBI:92211
-xref: smiles:C1=CC=C(C(=C1)C(=C(N)SC2=CC=C(C=C2)N)C#N)C(F)(F)F
 xref: inchi:InChI=1S/C16H12F3N3S/c17-16(18,19)14-4-2-1-3-12(14)13(9-20)15(22)23-11-7-5-10(21)6-8-11/h1-8H,21-22H2/b15-13+
+xref: pubchem.compound:9549284
+xref: smiles:C1=CC=C(C(=C1)C(=C(N)SC2=CC=C(C=C2)N)C#N)C(F)(F)F
 
 [Term]
 id: HBP:HBP00260
@@ -2145,10 +2161,10 @@ synonym: "SB17083" EXACT [pubchem.compound:71538210]
 synonym: "SCHEMBL14812001" EXACT [pubchem.compound:71538210]
 synonym: "ST-7612AA1" EXACT [pubchem.compound:71538210]
 synonym: "Thioacetic acid S-[(S)-6-[[(R)-5-oxopyrrolidine-2-ylcarbonyl]amino]-6-(phenylcarbamoyl)hexyl] ester" EXACT [pubchem.compound:71538210]
-xref: pubchem.compound:71538210
 xref: chembl:CHEMBL3353926
-xref: smiles:CC(=O)SCCCCC[C@H](NC(=O)[C@H]1CCC(=O)N1)C(=O)Nc2ccccc2
 xref: inchi:InChI=1S/C20H27N3O4S/c1-14(24)28-13-7-3-6-10-16(19(26)21-15-8-4-2-5-9-15)23-20(27)17-11-12-18(25)22-17/h2,4-5,8-9,16-17H,3,6-7,10-13H2,1H3,(H,21,26)(H,22,25)(H,23,27)/t16-,17+/m0/s1
+xref: pubchem.compound:71538210
+xref: smiles:CC(=O)SCCCCC[C@H](NC(=O)[C@H]1CCC(=O)N1)C(=O)Nc2ccccc2
 
 [Term]
 id: HBP:HBP00262
@@ -2211,10 +2227,10 @@ synonym: "Thiamet-G" EXACT [pubchem.compound:24808478]
 synonym: "W-200641" EXACT [pubchem.compound:24808478]
 synonym: "ZINC16052637" EXACT [pubchem.compound:24808478]
 synonym: "s7213" EXACT [pubchem.compound:24808478]
-xref: pubchem.compound:24808478
-xref: inchi:InChI=1S/C9H16N2O4S/c1-2-10-9-11-5-7(14)6(13)4(3-12)15-8(5)16-9/h4-8,12-14H,2-3H2,1H3,(H,10,11)/t4-,5-,6-,7-,8-/m1/s1
-xref: smiles:CCNC1=NC2C(C(C(OC2S1)CO)O)O
 xref: chembl:CHEMBL1213603
+xref: inchi:InChI=1S/C9H16N2O4S/c1-2-10-9-11-5-7(14)6(13)4(3-12)15-8(5)16-9/h4-8,12-14H,2-3H2,1H3,(H,10,11)/t4-,5-,6-,7-,8-/m1/s1
+xref: pubchem.compound:24808478
+xref: smiles:CCNC1=NC2C(C(C(OC2S1)CO)O)O
 
 [Term]
 id: HBP:HBP00268
@@ -2230,18 +2246,20 @@ def: "Chemical compound group of susbtrate competitive selective HDAC6 inhibitor
 id: HBP:HBP00270
 name: Tubacin
 def: "Inhibitor of HDAC6" [pmid:23487739]
-xref: iupac:N1-[4-[(2R,4R,6S)-4-[[(4,5-diphenyl-2-oxazolyl)thio]methyl]-6-[4-(hydroxymethyl)phenyl]-1,3-dioxan-2-yl]phenyl]-N8-hydroxy-octanediamide
 xref: cas:537049-40-4
-xref: smiles:O=C(CCCCCCC(NO)=O)NC(C=C1)=CC=C1[C@@H]2O[C@H](C3=CC=C(CO)C=C3)C[C@H](CSC4=NC(C5=CC=CC=C5)=C(C6=CC=CC=C6)O4)O2
+xref: chebi:CHEBI:94166
 xref: inchi:InChI=1S/C41H43N3O7S/c45-26-28-17-19-29(20-18-28)35-25-34(27-52-41-43-38(30-11-5-3-6-12-30)39(51-41)31-13-7-4-8-14-31)49-40(50-35)32-21-23-33(24-22-32)42-36(46)15-9-1-2-10-16-37(47)44-48/h3-8,11-14,17-24,34-35,40,45,48H,1-2,9-10,15-16,25-27H2,(H,42,4
+xref: iupac:N1-[4-[(2R,4R,6S)-4-[[(4,5-diphenyl-2-oxazolyl)thio]methyl]-6-[4-(hydroxymethyl)phenyl]-1,3-dioxan-2-yl]phenyl]-N8-hydroxy-octanediamide
+xref: smiles:O=C(CCCCCCC(NO)=O)NC(C=C1)=CC=C1[C@@H]2O[C@H](C3=CC=C(CO)C=C3)C[C@H](CSC4=NC(C5=CC=CC=C5)=C(C6=CC=CC=C6)O4)O2
 
 [Term]
 id: HBP:HBP00271
 name: Tubastatin A
 def: "Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load" [pmid:24844691]
 xref: cas:1252003-15-8
-xref: smiles:ONC(C1=CC=C(CN2C(CCN(C)C3)=C3C4=C2C=CC=C4)C=C1)=O
+xref: chebi:CHEBI:94186
 xref: inchi:InChI=1S/C20H21N3O2/c1-22-11-10-19-17(13-22)16-4-2-3-5-18(16)23(19)12-14-6-8-15(9-7-14)20(24)21-25/h2-9,25H,10-13H2,1H3,(H,21,24)
+xref: smiles:ONC(C1=CC=C(CN2C(CCN(C)C3)=C3C4=C2C=CC=C4)C=C1)=O
 
 [Term]
 id: HBP:HBP00272
@@ -2263,8 +2281,8 @@ id: HBP:HBP00275
 name: crebinostat
 def: "Inhibitor of HDAC6" [pmid:25546293]
 xref: cas:1092061-61-4
-xref: smiles:C1=CC=CC(=C1)C2=CC=C(C=C2)C=NNC(CCCCCC(=O)NO)=O
 xref: inchi:InChI=1S/C20H23N3O3/c24-19(9-5-2-6-10-20(25)23-26)22-21-15-16-11-13-18(14-12-16)17-7-3-1-4-8-17/h1,3-4,7-8,11-15,26H,2,5-6,9-10H2,(H,22,24)(H,23,25)/b21-15+
+xref: smiles:C1=CC=CC(=C1)C2=CC=C(C=C2)C=NNC(CCCCCC(=O)NO)=O
 
 [Term]
 id: HBP:HBP00276
@@ -2285,10 +2303,10 @@ def: "The granular layer is the innermost layer of the cerebellar cortex. This l
 id: HBP:HBP00279
 name: indirubin
 def: "A powerful inhibitor of GSK3B" [pmid:11013232]
-xref: smiles:c1ccc2c(c1)/C(=C/3\C(=O)c4ccccc4N3)/C(=O)N2
-xref: inchi:nChI=1S/C16H10N2O2/c19-15-10-6-2-4-8-12(10)17-14(15)13-9-5-1-3-7-11(9)18-16(13)20/h1-8,17H,(H,18,20)/b14-13-
 xref: cas:479-41-4
 xref: chemspider:4477010
+xref: inchi:nChI=1S/C16H10N2O2/c19-15-10-6-2-4-8-12(10)17-14(15)13-9-5-1-3-7-11(9)18-16(13)20/h1-8,17H,(H,18,20)/b14-13-
+xref: smiles:c1ccc2c(c1)/C(=C/3\C(=O)c4ccccc4N3)/C(=O)N2
 
 [Term]
 id: HBP:HBP00280
@@ -2401,12 +2419,12 @@ synonym: "XKFPYPQQHFEXRZ-UHFFFAOYSA-N" EXACT [pubchem.compound:3759]
 synonym: "Y0484" EXACT [pubchem.compound:3759]
 synonym: "ZINC1587" EXACT [pubchem.compound:3759]
 synonym: "isocarboxazid" EXACT [pubchem.compound:3759]
-xref: drugbank:DB01247
-xref: smiles:CC1=CC(=NO1)C(=O)NNCC1=CC=CC=C1
-xref: inchi:InChI=1S/C12H13N3O2/c1-9-7-11(15-17-9)12(16)14-13-8-10-5-3-2-4-6-10/h2-7,13H,8H2,1H3,(H,14,16)
-xref: chebi:93635
-xref: pubchem.compound:3759
+xref: chebi:CHEBI:93635
 xref: chembl:CHEMBL1201168
+xref: drugbank:DB01247
+xref: inchi:InChI=1S/C12H13N3O2/c1-9-7-11(15-17-9)12(16)14-13-8-10-5-3-2-4-6-10/h2-7,13H,8H2,1H3,(H,14,16)
+xref: pubchem.compound:3759
+xref: smiles:CC1=CC(=NO1)C(=O)NNCC1=CC=CC=C1
 
 [Term]
 id: HBP:HBP00281
@@ -2534,11 +2552,11 @@ synonym: "ZINC32351" EXACT [pubchem.compound:92180]
 synonym: "ZX-AFC000343" EXACT [pubchem.compound:92180]
 synonym: "isopentenyl-adenine" EXACT [pubchem.compound:92180]
 synonym: "n-isopentenyladenine" EXACT [pubchem.compound:92180]
-xref: drugbank:DB08768
 xref: chebi:CHEBI:17660
+xref: drugbank:DB08768
+xref: inchi:InChI=1S/C10H13N5/c1-7(2)3-4-11-9-8-10(13-5-12-8)15-6-14-9/h3,5-6H,4H2,1-2H3,(H2,11,12,13,14,15)
 xref: pubchem.compound:92180
 xref: smiles:CC(=CCNC1=NC=NC2=C1NC=N2)C
-xref: inchi:InChI=1S/C10H13N5/c1-7(2)3-4-11-9-8-10(13-5-12-8)15-6-14-9/h3,5-6H,4H2,1-2H3,(H2,11,12,13,14,15)
 
 [Term]
 id: HBP:HBP00282
@@ -2551,11 +2569,11 @@ synonym: "Maitotoxin" EXACT [pubchem.compound:71460273]
 synonym: "Maitotoxin 1" EXACT [pubchem.compound:71460273]
 synonym: "UNII-9P59GES78D" EXACT [pubchem.compound:71460273]
 xref: cas:59392-53-9
-xref: pubchem.compound:71460273
-xref: chemspider:25991548
 xref: chembl:ChEMBL2152261
-xref: smiles:C[C@H](CC[C@@H]([C@@H]([C@H](C)C[C@H](C(=C)/C(=C/CO)/C)O)O)OS(=O)(=O)[O-])[C@H]([C@@H](C)[C@H]1[C@@H]([C@@H]([C@H]2[C@H](O1)[C@@H](C[C@]3([C@H](O2)C[C@H]4[C@H](O3)C[C@]5([C@H](O4)[C@H]([C@H]6[C@H](O5)C[C@H]([C@H](O6)[C@@H]([C@H](C[C@H]7[C@@H]([C@@H]([C@H]8[C@H](O7)C[C@H]9[C@H](O8)C[C@H]1[C@H](O9)[C@H]([C@@H]2[C@@H](O1)[C@@H]([C@H]([C@@H](O2)[C@H]1[C@@H]([C@H]([C@H]2[C@@H](O1)C[C@H]([C@@H](O2)[C@@H](C[C@H](C[C@H]1[C@@H]([C@H]([C@H]2[C@@H](O1)C[C@H]([C@@H](O2)[C@H]1[C@@H](C[C@]2([C@H](O1)[C@@H]([C@]1([C@H](O2)C[C@]2([C@H](O1)CC[C@]1([C@H](O2)C[C@]2([C@H](O1)C[C@H]1[C@H](O2)CC[C@H](O1)[C@]1([C@@H](C[C@H]2[C@](O1)(C[C@H]1[C@](O2)(CC[C@]2([C@H](O1)C[C@H]1[C@](O2)(C[C@H]2[C@H](O1)C/C=C\[C@H]1[C@H](O2)C[C@H]2[C@](O1)(C[C@]1([C@H](O2)C[C@H]2[C@](O1)(CC[C@H](O2)[C@H]([C@@H](C[C@@H](C)[C@@H](C)CC=C)O)O)C)C)C)C)C)C)C)O)C)C)C)C)C)O)C)O)O)O)O)O)O)O)O)O)O)O)O)O)OS(=O)(=O)[O-])O)O)O)O)C)C)O)O)O)O.[Na+].[Na+]
+xref: chemspider:25991548
 xref: inchi:InChI=1S/C164H258O68S2.2Na/c1-24-26-65(2)68(5)41-74(168)117(179)85-33-36-152(11)106(203-85)55-109-162(21,231-152)64-161(20)105(210-109)51-89-83(220-161)28-25-27-82-99(199-89)59-157(16)108(202-82)56-107-153(12,230-157)39-38-151(10)112(211-107)61-158(17)111(224-151)54-101(176)163(22,232-158)103-32-31-84-90(204-103)53-110-156(15,219-84)62-113-150(9,223-110)37-34-102-155(14,225-113)63-114-164(23,227-102)147(192)149-159(18,226-114)58-81(175)134(218-149)133-79(173)47-93-136(216-133)120(182)119(181)92(200-93)44-72(166)43-76(170)131-77(171)46-94-137(214-131)122(184)124(186)143(207-94)145-126(188)125(187)144-146(217-145)128(190)139-97(208-144)50-88-87(206-139)49-96-138(205-88)127(189)141(229-234(196,197)198)95(201-96)45-75(169)118(180)132-78(172)48-98-140(215-132)129(191)148-160(19,221-98)60-100-91(209-148)52-104-154(13,222-100)57-80(174)135-142(212-104)123(185)121(183)130(213-135)71(8)115(177)67(4)29-30-86(228-233(193,194)195)116(178)69(6)42-73(167)70(7)66(3)35-40-165;;/h24-25,28,35,65,67-69,71-149,165-192H,1,7,26-27,29-34,36-64H2,2-6,8-23H3,(H,193,194,195)(H,196,197,198);;/q;2*+1/p-2/b28-25-,66-35+;;/t65-,67+,68+,69+,71+,72+,73+,74+,75-,76+,77+,78+,79+,80+,81+,82+,83-,84+,85-,86-,87-,88+,89+,90-,91-,92-,93-,94-,95-,96+,97-,98+,99-,100+,101+,102+,103-,104+,105-,106-,107+,108-,109+,110+,111-,112-,113+,114+,115+,116+,117-,118+,119-,120+,121+,122+,123-,124+,125+,126+,127+,128+,129-,130-,131-,132-,133+,134+,135+,136+,137+,138+,139-,140+,141-,142-,143+,144-,145+,146+,147-,148+,149+,150-,151+,152+,153-,154-,155-,156-,157+,158+,159-,160-,161+,162-,163+,164+;;/m0../s1
+xref: pubchem.compound:71460273
+xref: smiles:C[C@H](CC[C@@H]([C@@H]([C@H](C)C[C@H](C(=C)/C(=C/CO)/C)O)O)OS(=O)(=O)[O-])[C@H]([C@@H](C)[C@H]1[C@@H]([C@@H]([C@H]2[C@H](O1)[C@@H](C[C@]3([C@H](O2)C[C@H]4[C@H](O3)C[C@]5([C@H](O4)[C@H]([C@H]6[C@H](O5)C[C@H]([C@H](O6)[C@@H]([C@H](C[C@H]7[C@@H]([C@@H]([C@H]8[C@H](O7)C[C@H]9[C@H](O8)C[C@H]1[C@H](O9)[C@H]([C@@H]2[C@@H](O1)[C@@H]([C@H]([C@@H](O2)[C@H]1[C@@H]([C@H]([C@H]2[C@@H](O1)C[C@H]([C@@H](O2)[C@@H](C[C@H](C[C@H]1[C@@H]([C@H]([C@H]2[C@@H](O1)C[C@H]([C@@H](O2)[C@H]1[C@@H](C[C@]2([C@H](O1)[C@@H]([C@]1([C@H](O2)C[C@]2([C@H](O1)CC[C@]1([C@H](O2)C[C@]2([C@H](O1)C[C@H]1[C@H](O2)CC[C@H](O1)[C@]1([C@@H](C[C@H]2[C@](O1)(C[C@H]1[C@](O2)(CC[C@]2([C@H](O1)C[C@H]1[C@](O2)(C[C@H]2[C@H](O1)C/C=C\[C@H]1[C@H](O2)C[C@H]2[C@](O1)(C[C@]1([C@H](O2)C[C@H]2[C@](O1)(CC[C@H](O2)[C@H]([C@@H](C[C@@H](C)[C@@H](C)CC=C)O)O)C)C)C)C)C)C)C)O)C)C)C)C)C)O)C)O)O)O)O)O)O)O)O)O)O)O)O)O)OS(=O)(=O)[O-])O)O)O)O)C)C)O)O)O)O.[Na+].[Na+]
 
 [Term]
 id: HBP:HBP00283
@@ -2689,10 +2707,11 @@ synonym: "ZINC1641925" EXACT [pubchem.compound:4592]
 synonym: "ZX-AFC001655" EXACT [pubchem.compound:4592]
 synonym: "olomoucine" EXACT [pubchem.compound:4592]
 synonym: "purine deriv. 5" EXACT [pubchem.compound:4592]
+xref: chebi:CHEBI:44661
 xref: drugbank:DB02116
-xref: smiles:CN1C=NC2=C1N=C(NCCO)N=C2NCC1=CC=CC=C1
-xref: pubchem.compound:4592
 xref: inchi:InChI=1S/C15H18N6O/c1-21-10-18-12-13(17-9-11-5-3-2-4-6-11)19-15(16-7-8-22)20-14(12)21/h2-6,10,22H,7-9H2,1H3,(H2,16,17,19,20)
+xref: pubchem.compound:4592
+xref: smiles:CN1C=NC2=C1N=C(NCCO)N=C2NCC1=CC=CC=C1
 
 [Term]
 id: HBP:HBP00284
@@ -2741,8 +2760,8 @@ synonym: "UNII-R22D15229R" EXACT [pubchem.compound:97389]
 synonym: "Z56762271" EXACT [pubchem.compound:97389]
 synonym: "ZINC1709820" EXACT [pubchem.compound:97389]
 synonym: "hydroxyoxazolinone" EXACT [pubchem.compound:97389]
-xref: pubchem.compound:97389
 xref: inchi:InChI=1S/C3H3NO3/c5-2-1-7-3(6)4-2/h1H2,(H,4,5,6)
+xref: pubchem.compound:97389
 xref: smiles:C1C(=O)NC(=O)O1
 
 [Term]
@@ -2796,18 +2815,18 @@ synonym: "UNII-X033PDI962" EXACT [pubchem.compound:54682951]
 synonym: "X033PDI962" EXACT [pubchem.compound:54682951]
 synonym: "ZINC5699183" EXACT [pubchem.compound:54682951]
 xref: cas:34042-85-8
+xref: inchi:InChI=1S/C13H11N3O4S2/c1-16-10(12(18)15-13-14-6-7-21-13)11(17)8-4-2-3-5-9(8)22(16,19)20/h2-7,17H,1H3,(H,14,15,18)
 xref: pubchem.compound:54682951
 xref: smiles:CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=NC=CS3
-xref: inchi:InChI=1S/C13H11N3O4S2/c1-16-10(12(18)15-13-14-6-7-21-13)11(17)8-4-2-3-5-9(8)22(16,19)20/h2-7,17H,1H3,(H,14,15,18)
 
 [Term]
 id: HBP:HBP00286
 name: thiohydantoin
 def: "Inhibitor of tau aggregation" [pmid:26751493]
-xref: chemspider:1069421
 xref: chembl:CHEMBL1958109
-xref: smiles:O=C1CNC(=S)N1
+xref: chemspider:1069421
 xref: inchi:InChI=1S/C3H4N2OS/c6-2-1-4-3(7)5-2/h1H2,(H2,4,5,6,7)
+xref: smiles:O=C1CNC(=S)N1
 
 [Term]
 id: HBP:HBP00287
@@ -2864,9 +2883,9 @@ synonym: "W-5777" EXACT [pubchem.compound:11313622]
 synonym: "X5395" EXACT [pubchem.compound:11313622]
 synonym: "ZINC13985228" EXACT [pubchem.compound:11313622]
 synonym: "s2823" EXACT [pubchem.compound:11313622]
+xref: inchi:InChI=1S/C19H14N2O2S/c22-18-20(13-14-7-2-1-3-8-14)19(23)24-21(18)17-12-6-10-15-9-4-5-11-16(15)17/h1-12H,13H2
 xref: pubchem.compound:11313622
 xref: smiles:O=C3SN(c1cccc2c1cccc2)C(=O)N3Cc4ccccc4
-xref: inchi:InChI=1S/C19H14N2O2S/c22-18-20(13-14-7-2-1-3-8-14)19(23)24-21(18)17-12-6-10-15-9-4-5-11-16(15)17/h1-12H,13H2
 
 [Term]
 id: HBP:HBP00289
@@ -2929,8 +2948,8 @@ id: HBP:HBP00299
 name: MPT0G211
 def: "MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells." [pmid:29844403]
 xref: cas:2151853-97-1
-xref: smiles:C1=CC(=CC=C1CNC2=CC=CC3=C2N=CC=C3)C(=O)NC
 xref: inchi:InChI=1S/C17H15N3O2/c21-17(20-22)14-8-6-12(7-9-14)11-19-15-5-1-3-13-4-2-10-18-16(13)15/h1-10,19,22H,11H2,(H,20,21)
+xref: smiles:C1=CC(=CC=C1CNC2=CC=CC3=C2N=CC=C3)C(=O)NC
 
 [Term]
 id: HBP:HBP00300
@@ -2954,8 +2973,8 @@ id: HBP:HBP00303
 name: 8-nitro-cGMP
 def: "One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers." [pmid:28213625, pmid:27601475]
 xref: chebi:CHEBI:136665
-xref: smiles:N1C(=NC2=C(N=C(N2[C@@H]3O[C@@H]4COP(O[C@H]4[C@H]3O)(=O)O)[N+]([O-])=O)C1=O)N
 xref: inchi:InChI=1S/C10H11N6O9P/c11-9-13-6-3(7(18)14-9)12-10(16(19)20)15(6)8-4(17)5-2(24-8)1-23-26(21,22)25-5/h2,4-5,8,17H,1H2,(H,21,22)(H3,11,13,14,18)/t2-,4-,5-,8-/m1/s1
+xref: smiles:N1C(=NC2=C(N=C(N2[C@@H]3O[C@@H]4COP(O[C@H]4[C@H]3O)(=O)O)[N+]([O-])=O)C1=O)N
 
 [Term]
 id: HBP:HBP00304
@@ -2998,9 +3017,9 @@ synonym: "MolPort-023-276-831" EXACT [pubchem.compound:9888248]
 synonym: "S 24795" EXACT [pubchem.compound:9888248]
 synonym: "S 24795, >=98% (HPLC)" EXACT [pubchem.compound:9888248]
 synonym: "SCHEMBL5948853" EXACT [pubchem.compound:9888248]
-xref: pubchem.compound:9888248
 xref: chemspider:8063920
 xref: inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13(16)10-14(17)11-5-7-12(15)8-6-11;/h2-9H,10H2,1H3;1H/q+1;/p-1
+xref: pubchem.compound:9888248
 xref: smiles:C[N+]1=CC=CC=C1CC(=O)C2=CC=C(C=C2)Br.[I-]
 
 [Term]
@@ -3055,9 +3074,9 @@ synonym: "X5074" EXACT [pubchem.compound:5310985]
 synonym: "X5075" EXACT [pubchem.compound:5310985]
 synonym: "ZINC860" EXACT [pubchem.compound:5310985]
 xref: chemspider:4470526
-xref: pubchem.compound:5310985
 xref: drugbank:DB05708
 xref: inchi:InChI=1S/C19H20N2O2/c1-22-17-8-7-14(18(12-17)23-2)11-15-5-4-10-21-19(15)16-6-3-9-20-13-16/h3,6-9,11-13H,4-5,10H2,1-2H3/b15-11+
+xref: pubchem.compound:5310985
 xref: smiles:[H]\C(=C1\CCCN=C1C1=CN=CC=C1)C1=C(OC)C=C(OC)C=C1
 
 [Term]
@@ -3109,9 +3128,9 @@ def: "A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4
 synonym: "3-(4-hydroxy-2-methoxybenzylidene) anabaseine" EXACT [pmid:25514383]
 synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
 synonym: "4OH-GTS-21" EXACT [mesh:C116666]
+xref: inchi:InChI=1S/C18H18N2O2/c1-22-17-11-16(21)7-6-13(17)10-14-4-3-9-20-18(14)15-5-2-8-19-12-15/h2,5-8,10-12,21H,3-4,9H2,1H3/b14-10+
 xref: mesh:C116666
 xref: smiles:COC1=C(C=CC(=C1)O)C=C2CCCN=C2C3=CC=CN=C3
-xref: inchi:InChI=1S/C18H18N2O2/c1-22-17-11-16(21)7-6-13(17)10-14-4-3-9-20-18(14)15-5-2-8-19-12-15/h2,5-8,10-12,21H,3-4,9H2,1H3/b14-10+
 
 [Term]
 id: HBP:HBP00320
@@ -3154,8 +3173,8 @@ synonym: "Thiazole-2,4-diamine" EXACT [pubchem.compound:118995]
 synonym: "Z5019" EXACT [pubchem.compound:118995]
 synonym: "ZINC15863137" EXACT [pubchem.compound:118995]
 synonym: "diaminothiazole" EXACT [pubchem.compound:118995]
-xref: pubchem.compound:118995
 xref: inchi:InChI=1S/C3H5N3S/c4-2-1-7-3(5)6-2/h1H,4H2,(H2,5,6)
+xref: pubchem.compound:118995
 xref: smiles:C1=C(N=C(S1)N)N
 
 [Term]
