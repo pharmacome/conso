@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:12:2018 12:25
+date: 26:01:2019 17:29
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Term]
@@ -70,7 +70,159 @@ def: "CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-
 [Term]
 id: HBP:HBP00010
 name: LY293002
-def: "a specific PI3-kinase inhibitor" [pmid:21329734]
+def: "a typo appearing in pmid:23950935 for the specific PI3-kinase inhibitor that is actually named LY294002" [pmid:23950935]
+synonym: "154447-36-6" EXACT [pubchem.compound:3973]
+synonym: "15447-36-6" EXACT [pubchem.compound:3973]
+synonym: "1yi3" EXACT [pubchem.compound:3973]
+synonym: "2-(4-Morpholinyl)-8-phenyl-4H-1-benzopyran-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-(4-morpholino)-8-phenyl-4H-1-benzopyran-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-(morpholin-4-yl)-8-phenyl-4H-chromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-(morpholin-4-yl)-8-phenylchromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-MORPHOLIN-4-YL-7-PHENYL-4H-CHROMEN-4-ONE" EXACT [pubchem.compound:3973]
+synonym: "2-Morpholino-8-phenyl-4-oxo-4H-1-benzopyran" EXACT [pubchem.compound:3973]
+synonym: "2-Morpholino-8-phenylchromone" EXACT [pubchem.compound:3973]
+synonym: "2-morpholin-4-yl-8-phenyl-4H-chromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-morpholin-4-yl-8-phenylchromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-morpholino-8-phenyl-4H-chromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "2-morpholino-8-phenyl-chromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "31M2U1DVID" EXACT [pubchem.compound:3973]
+synonym: "4CA-0787" EXACT [pubchem.compound:3973]
+synonym: "4H-1-Benzopyran-4-one, 2-(4-morpholinyl)-8-phenyl" EXACT [pubchem.compound:3973]
+synonym: "4H-1-Benzopyran-4-one, 2-(4-morpholinyl)-8-phenyl-" EXACT [pubchem.compound:3973]
+synonym: "4H-1-Benzopyran-4-one, 2-(4-morpholinyl)-8-phenyl- (9CI)" EXACT [pubchem.compound:3973]
+synonym: "4H-1-Benzopyran-4-one, 2-(4-morpholinyl)-8-phenyl-(9CI)" EXACT [pubchem.compound:3973]
+synonym: "4H-1-Benzopyran-4-one,2-(4-morpholinyl)-8-phenyl-" EXACT [pubchem.compound:3973]
+synonym: "4azt" EXACT [pubchem.compound:3973]
+synonym: "8-Phenyl-2-(morpholin-4-yl)-chromen-4-one" EXACT [pubchem.compound:3973]
+synonym: "AB0033714" EXACT [pubchem.compound:3973]
+synonym: "AC-30295" EXACT [pubchem.compound:3973]
+synonym: "AC1L1H4N" EXACT [pubchem.compound:3973]
+synonym: "AC1Q6CLU" EXACT [pubchem.compound:3973]
+synonym: "AK162301" EXACT [pubchem.compound:3973]
+synonym: "AKOS017344742" EXACT [pubchem.compound:3973]
+synonym: "AN-1305" EXACT [pubchem.compound:3973]
+synonym: "API0015880" EXACT [pubchem.compound:3973]
+synonym: "AS-16252" EXACT [pubchem.compound:3973]
+synonym: "BC660045" EXACT [pubchem.compound:3973]
+synonym: "BCBcMAP01_000117" EXACT [pubchem.compound:3973]
+synonym: "BCP00195" EXACT [pubchem.compound:3973]
+synonym: "BCP9000880" EXACT [pubchem.compound:3973]
+synonym: "BCPP000177" EXACT [pubchem.compound:3973]
+synonym: "BDBM12915" EXACT [pubchem.compound:3973]
+synonym: "BIL2940" EXACT [pubchem.compound:3973]
+synonym: "BMK1-D5" EXACT [pubchem.compound:3973]
+synonym: "BRD-K27305650-001-05-9" EXACT [pubchem.compound:3973]
+synonym: "BSPBio_001223" EXACT [pubchem.compound:3973]
+synonym: "Bio1_000332" EXACT [pubchem.compound:3973]
+synonym: "Bio1_000821" EXACT [pubchem.compound:3973]
+synonym: "Bio1_001310" EXACT [pubchem.compound:3973]
+synonym: "Bio2_000442" EXACT [pubchem.compound:3973]
+synonym: "Bio2_000922" EXACT [pubchem.compound:3973]
+synonym: "BiomolKI2_000037" EXACT [pubchem.compound:3973]
+synonym: "BiomolKI_000029" EXACT [pubchem.compound:3973]
+synonym: "C15195" EXACT [pubchem.compound:3973]
+synonym: "CBiol_002046" EXACT [pubchem.compound:3973]
+synonym: "CCG-100633" EXACT [pubchem.compound:3973]
+synonym: "CHEBI:65329" EXACT [pubchem.compound:3973]
+synonym: "CHEMBL98350" EXACT [pubchem.compound:3973]
+synonym: "CS-0150" EXACT [pubchem.compound:3973]
+synonym: "CTK0H1979" EXACT [pubchem.compound:3973]
+synonym: "CZQHHVNHHHRRDU-UHFFFAOYSA-N" EXACT [pubchem.compound:3973]
+synonym: "D09SFV" EXACT [pubchem.compound:3973]
+synonym: "D0X7NA" EXACT [pubchem.compound:3973]
+synonym: "DB02656" EXACT [pubchem.compound:3973]
+synonym: "DTXSID6042650" EXACT [pubchem.compound:3973]
+synonym: "EX-A073" EXACT [pubchem.compound:3973]
+synonym: "FT-0660382" EXACT [pubchem.compound:3973]
+synonym: "GTPL6004" EXACT [pubchem.compound:3973]
+synonym: "H-1-Benzopyran-4-one, 2-(4-morpholinyl)-8-phenyl- (9CI)" EXACT [pubchem.compound:3973]
+synonym: "H-1-Benzopyran-4-one, 2-(4-morpholinyl)-8-phenyl-(9CI)" EXACT [pubchem.compound:3973]
+synonym: "HMS1362M05" EXACT [pubchem.compound:3973]
+synonym: "HMS1792M05" EXACT [pubchem.compound:3973]
+synonym: "HMS1990M05" EXACT [pubchem.compound:3973]
+synonym: "HMS3229G17" EXACT [pubchem.compound:3973]
+synonym: "HMS3403M05" EXACT [pubchem.compound:3973]
+synonym: "HMS3649E04" EXACT [pubchem.compound:3973]
+synonym: "HMS3654M21" EXACT [pubchem.compound:3973]
+synonym: "HSCI1_000206" EXACT [pubchem.compound:3973]
+synonym: "HY-10108" EXACT [pubchem.compound:3973]
+synonym: "IDI1_002197" EXACT [pubchem.compound:3973]
+synonym: "IN1266" EXACT [pubchem.compound:3973]
+synonym: "IN1268" EXACT [pubchem.compound:3973]
+synonym: "InSolution&trade; LY 294002" EXACT [pubchem.compound:3973]
+synonym: "J-510126" EXACT [pubchem.compound:3973]
+synonym: "K00235" EXACT [pubchem.compound:3973]
+synonym: "KB-19284" EXACT [pubchem.compound:3973]
+synonym: "KB-231805" EXACT [pubchem.compound:3973]
+synonym: "KBio2_000563" EXACT [pubchem.compound:3973]
+synonym: "KBio2_003131" EXACT [pubchem.compound:3973]
+synonym: "KBio2_005699" EXACT [pubchem.compound:3973]
+synonym: "KBio3_001005" EXACT [pubchem.compound:3973]
+synonym: "KBio3_001006" EXACT [pubchem.compound:3973]
+synonym: "KBioGR_000563" EXACT [pubchem.compound:3973]
+synonym: "KBioSS_000563" EXACT [pubchem.compound:3973]
+synonym: "KS-00000XP3" EXACT [pubchem.compound:3973]
+synonym: "Kinome_3543" EXACT [pubchem.compound:3973]
+synonym: "LS-39828" EXACT [pubchem.compound:3973]
+synonym: "LY 294002" EXACT [pubchem.compound:3973]
+synonym: "LY 294002, LY-294002, 154447-36-6" EXACT [pubchem.compound:3973]
+synonym: "LY 294002; 2-(4-Morpholino)-8-phenyl-4H-1-benzopyran-4-one" EXACT [pubchem.compound:3973]
+synonym: "LY-294,002" EXACT [pubchem.compound:3973]
+synonym: "LY-294,002 hydrochloride, solid, >=98% (HPLC)" EXACT [pubchem.compound:3973]
+synonym: "LY-294002" EXACT [pubchem.compound:3973]
+synonym: "LY-924002" EXACT [pubchem.compound:3973]
+synonym: "LY2" EXACT [pubchem.compound:3973]
+synonym: "LY294002" EXACT [pubchem.compound:3973]
+synonym: "Lopac-L-9908" EXACT [pubchem.compound:3973]
+synonym: "Lopac0_000710" EXACT [pubchem.compound:3973]
+synonym: "Lys 294002" EXACT [pubchem.compound:3973]
+synonym: "M2410" EXACT [pubchem.compound:3973]
+synonym: "MLS006010131" EXACT [pubchem.compound:3973]
+synonym: "MolPort-003-983-779" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-01" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-02" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-03" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-04" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-05" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-06" EXACT [pubchem.compound:3973]
+synonym: "NCGC00015622-07" EXACT [pubchem.compound:3973]
+synonym: "NCGC00025020-01" EXACT [pubchem.compound:3973]
+synonym: "NCGC00025020-02" EXACT [pubchem.compound:3973]
+synonym: "NCGC00025020-03" EXACT [pubchem.compound:3973]
+synonym: "NCGC00025020-04" EXACT [pubchem.compound:3973]
+synonym: "NCGC00179253-01" EXACT [pubchem.compound:3973]
+synonym: "NCI60_034712" EXACT [pubchem.compound:3973]
+synonym: "NSC 697286" EXACT [pubchem.compound:3973]
+synonym: "NSC-697286" EXACT [pubchem.compound:3973]
+synonym: "NSC697286" EXACT [pubchem.compound:3973]
+synonym: "PubChem16766" EXACT [pubchem.compound:3973]
+synonym: "QC-7260" EXACT [pubchem.compound:3973]
+synonym: "RS0074" EXACT [pubchem.compound:3973]
+synonym: "RT-013609" EXACT [pubchem.compound:3973]
+synonym: "S-7706" EXACT [pubchem.compound:3973]
+synonym: "SB10965" EXACT [pubchem.compound:3973]
+synonym: "SC-85850" EXACT [pubchem.compound:3973]
+synonym: "SCHEMBL94377" EXACT [pubchem.compound:3973]
+synonym: "SF 1101" EXACT [pubchem.compound:3973]
+synonym: "SF-1101" EXACT [pubchem.compound:3973]
+synonym: "SMR002530642" EXACT [pubchem.compound:3973]
+synonym: "SR-01000076245-7" EXACT [pubchem.compound:3973]
+synonym: "ST24040926" EXACT [pubchem.compound:3973]
+synonym: "SW217688-2" EXACT [pubchem.compound:3973]
+synonym: "SYN1108" EXACT [pubchem.compound:3973]
+synonym: "Tocris-1130" EXACT [pubchem.compound:3973]
+synonym: "UNII-31M2U1DVID" EXACT [pubchem.compound:3973]
+synonym: "X7411" EXACT [pubchem.compound:3973]
+synonym: "ZINC6014" EXACT [pubchem.compound:3973]
+synonym: "ZX-AFC000490" EXACT [pubchem.compound:3973]
+synonym: "cc-58" EXACT [pubchem.compound:3973]
+synonym: "s1105" EXACT [pubchem.compound:3973]
+xref: pubchem.compound:3973
+xref: cas:154447-36-6
+xref: chebi:CHEBI:65329
+xref: drugbank:DB02656
+xref: inchi:InChI=1S/C19H17NO3/c21-17-13-18(20-9-11-22-12-10-20)23-19-15(7-4-8-16(17)19)14-5-2-1-3-6-14/h1-8,13H,9-12H2
+xref: smiles:C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4
 
 [Term]
 id: HBP:HBP00011
@@ -94,8 +246,8 @@ synonym: "ME" EXACT []
 id: HBP:HBP00014
 name: tunneling nanotubes
 def: "filamentous-actin-containing membranous structures that bridge and connect cells" [pmid:27809932]
-synonym: "membrane nanotube" EXACT []
 synonym: "TNT" EXACT []
+synonym: "membrane nanotube" EXACT []
 
 [Term]
 id: HBP:HBP00015
@@ -124,19 +276,94 @@ is_a: HBP:HBP00178 ! protein aggregates
 id: HBP:HBP00019
 name: SEN-1269
 def: "A tau aggregation inhibitor" [pmid:23484434]
+synonym: "3-((5-(3-(Dimethylamino)phenoxy)pyrimidin-2-yl)amino)phenol" EXACT [pubchem.compound:46835756]
+synonym: "3-(5-(3-(dimethylamino)phenoxy)pyrimidin-2-ylamino)phenol" EXACT [pubchem.compound:46835756]
+synonym: "3-({5-[3-(dimethylamino)phenoxy]pyrimidin-2-yl}amino)phenol" EXACT [pubchem.compound:46835756]
+synonym: "3-[[5-[3-(dimethylamino)phenoxy]-2-pyrimidinyl]amino]phenol" EXACT [pubchem.compound:46835756]
+synonym: "4350AF" EXACT [pubchem.compound:46835756]
+synonym: "956128-01-1" EXACT [pubchem.compound:46835756]
+synonym: "A11161" EXACT [pubchem.compound:46835756]
+synonym: "AKOS015850742" EXACT [pubchem.compound:46835756]
+synonym: "CHEMBL2386874" EXACT [pubchem.compound:46835756]
+synonym: "CTK5H7888" EXACT [pubchem.compound:46835756]
+synonym: "DB-080315" EXACT [pubchem.compound:46835756]
+synonym: "DTXSID40676566" EXACT [pubchem.compound:46835756]
+synonym: "FT-0682533" EXACT [pubchem.compound:46835756]
+synonym: "I06-2365" EXACT [pubchem.compound:46835756]
+synonym: "MFPAAKZZUIRMKR-UHFFFAOYSA-N" EXACT [pubchem.compound:46835756]
+synonym: "MolPort-009-685-119" EXACT [pubchem.compound:46835756]
+synonym: "NCGC00387448-01" EXACT [pubchem.compound:46835756]
+synonym: "SCHEMBL3602388" EXACT [pubchem.compound:46835756]
+synonym: "SEN 1269" EXACT [pubchem.compound:46835756]
+synonym: "TC-064564" EXACT [pubchem.compound:46835756]
+synonym: "ZINC49582255" EXACT [pubchem.compound:46835756]
 xref: pubchem.compound:46835756
+xref: chembl:CHEMBL2386874
+xref: smiles:CN(C)C1=CC(=CC=C1)OC2=CN=C(N=C2)NC3=CC(=CC=C3)O
+xref: inchi:InChI=1S/C18H18N4O2/c1-22(2)14-6-4-8-16(10-14)24-17-11-19-18(20-12-17)21-13-5-3-7-15(23)9-13/h3-12,23H,1-2H3,(H,19,20,21)
 
 [Term]
 id: HBP:HBP00020
 name: MLS000034832
 def: "A tau aggregation inhibitor" [pmid:23484434]
+synonym: "123542-47-2" EXACT [pubchem.compound:647821]
+synonym: "3-Phenyl-4-oxo-5-amino-3,4-dihydrothieno[3,4-d]pyridazine-1-carboxylic acid ethyl ester" EXACT [pubchem.compound:647821]
+synonym: "5-Amino-4-oxo-3-phenyl-3,4-dihydro-thieno[3,4-d]pyridazine-1-carboxylic acid eth" EXACT [pubchem.compound:647821]
+synonym: "5-Amino-4-oxo-3-phenyl-3,4-dihydro-thieno[3,4-d]pyridazine-1-carboxylic acid ethyl ester" EXACT [pubchem.compound:647821]
+synonym: "AC1LDGR2" EXACT [pubchem.compound:647821]
+synonym: "AC1Q34EJ" EXACT [pubchem.compound:647821]
+synonym: "AKOS000601368" EXACT [pubchem.compound:647821]
+synonym: "BAS 06046551" EXACT [pubchem.compound:647821]
+synonym: "BDBM50253793" EXACT [pubchem.compound:647821]
+synonym: "CCG-115473" EXACT [pubchem.compound:647821]
+synonym: "CHEMBL461431" EXACT [pubchem.compound:647821]
+synonym: "F2135-0238" EXACT [pubchem.compound:647821]
+synonym: "HLVGVGCIJRBRQW-UHFFFAOYSA-N" EXACT [pubchem.compound:647821]
+synonym: "HMS1616C21" EXACT [pubchem.compound:647821]
+synonym: "HMS2339G13" EXACT [pubchem.compound:647821]
+synonym: "L-4233" EXACT [pubchem.compound:647821]
+synonym: "MCULE-6208802152" EXACT [pubchem.compound:647821]
+synonym: "MLS000034832" EXACT [pubchem.compound:647821]
+synonym: "MLS002539346" EXACT [pubchem.compound:647821]
+synonym: "MolPort-001-835-700" EXACT [pubchem.compound:647821]
+synonym: "NCGC00031883-02" EXACT [pubchem.compound:647821]
+synonym: "SCHEMBL7885074" EXACT [pubchem.compound:647821]
+synonym: "SMR000013604" EXACT [pubchem.compound:647821]
+synonym: "ZINC563211" EXACT [pubchem.compound:647821]
+synonym: "ethyl 5-amino-4-oxo-3-phenyl-3,4-dihydrothieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
+synonym: "ethyl 5-amino-4-oxo-3-phenyl-3H,4H-thieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
+synonym: "ethyl 5-amino-4-oxo-3-phenylthieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
 xref: pubchem.compound:647821
+xref: chembl:CHEMBL461431
+xref: inchi:InChI=1S/C15H13N3O3S/c1-2-21-15(20)12-10-8-22-13(16)11(10)14(19)18(17-12)9-6-4-3-5-7-9/h3-8H,2,16H2,1H3
+xref: smiles:CCOC(=O)C1=NN(C(=O)C2=C(SC=C21)N)C3=CC=CC=C3
 
 [Term]
 id: HBP:HBP00021
 name: caprospinol
 def: "A tau aggregation inhibitor" [pmid:23484434]
+synonym: "((20S,22R,25R)-Spirosta-5-ene-3beta-ol)hexanoate" EXACT [pubchem.compound:16394575]
+synonym: "(22R,25R)-20alpha-Spirost-5-en-3beta-yl hexanoate" EXACT [pubchem.compound:16394575]
+synonym: "(3beta,8xi,9xi,14xi,16xi,17xi,20R,22xi,25R)-Spirost-5-en-3-yl hexanoa" EXACT [pubchem.compound:16394575]
+synonym: "4952-56-1" EXACT [pubchem.compound:16394575]
+synonym: "9BU4T267E4" EXACT [pubchem.compound:16394575]
+synonym: "AKOS015955746" EXACT [pubchem.compound:16394575]
+synonym: "CAPROSPINOL" EXACT [pubchem.compound:16394575]
+synonym: "DB05263" EXACT [pubchem.compound:16394575]
+synonym: "Diosgenin caproate" EXACT [pubchem.compound:16394575]
+synonym: "Diosgenin, hexanoate" EXACT [pubchem.compound:16394575]
+synonym: "J2.343.184J" EXACT [pubchem.compound:16394575]
+synonym: "MCULE-6852340934" EXACT [pubchem.compound:16394575]
+synonym: "MolPort-002-507-344" EXACT [pubchem.compound:16394575]
+synonym: "SP-223" EXACT [pubchem.compound:16394575]
+synonym: "SP-233" EXACT [pubchem.compound:16394575]
+synonym: "Spirost-5-en-3-ol, 3-hexanoate, (3beta,25R)-" EXACT [pubchem.compound:16394575]
+synonym: "UNII-9BU4T267E4" EXACT [pubchem.compound:16394575]
+synonym: "ZINC97971833" EXACT [pubchem.compound:16394575]
+xref: pubchem.compound:16394575
 xref: drugbank:DB05263
+xref: smiles:CCCCCC(=O)O[C@H]1CC[C@]2(C)[C@H]3CC[C@@]4(C)[C@@H](C[C@@H]5O[C@]6(CC[C@@H](C)CO6)[C@@H](C)[C@H]45)[C@@H]3CC=C2C1
+xref: inchi:InChI=1S/C33H52O4/c1-6-7-8-9-29(34)36-24-13-15-31(4)23(18-24)10-11-25-26(31)14-16-32(5)27(25)19-28-30(32)22(3)33(37-28)17-12-21(2)20-35-33/h10,21-22,24-28,30H,6-9,11-20H2,1-5H3/t21-,22+,24+,25-,26+,27+,28+,30+,31+,32+,33-/m1/s1
 
 [Term]
 id: HBP:HBP00022
@@ -187,12 +414,16 @@ def: "APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158)." [pmid:22701
 [Term]
 id: HBP:HBP00031
 name: N-AcGIP
-def: "N-AcGIP is agonist of GIP" [pmid:18234983]
+def: "N-AcGIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
 
 [Term]
 id: HBP:HBP00032
 name: Pro3-GIP
-def: "Pro3-GIP is agonist of GIP" [pmid:18234983]
+def: "Pro3-GIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
+synonym: "[Pro3]-GIP (Rat)" EXACT [pubchem.compound:131954578]
+xref: pubchem.compound:131954578
+xref: inchi:InChI=1S/C226H343N61O64S/c1-21-115(12)181(285-216(341)165(109-289)279-201(326)151(92-126-63-67-131(293)68-64-126)266-210(335)163(102-179(309)310)276-215(340)164(108-288)280-221(346)183(117(14)23-3)284-214(339)153(91-124-48-28-25-29-49-124)277-222(347)184(121(18)290)281-175(302)107-247-217(342)166-60-45-84-287(166)224(349)120(17)251-188(313)134(232)89-125-61-65-130(292)66-62-125)219(344)250-119(16)187(312)254-146(77-85-352-20)197(322)274-160(99-176(303)304)208(333)258-141(58-38-43-82-231)198(323)283-182(116(13)22-2)220(345)261-142(59-44-83-243-226(240)241)191(316)259-144(70-74-168(234)295)195(320)260-145(71-75-169(235)296)196(321)273-161(100-177(305)306)209(334)267-152(90-123-46-26-24-27-47-123)213(338)282-180(114(10)11)218(343)278-159(98-173(239)300)207(332)268-155(94-128-104-245-136-53-33-31-51-133(128)136)203(328)264-149(87-112(6)7)200(325)263-148(86-111(4)5)199(324)249-118(15)186(311)253-143(69-73-167(233)294)194(319)255-137(54-34-39-78-227)189(314)246-106-174(301)252-138(55-35-40-79-228)190(315)256-139(56-36-41-80-229)193(318)271-157(96-171(237)298)206(331)275-162(101-178(307)308)211(336)269-154(93-127-103-244-135-52-32-30-50-132(127)135)202(327)257-140(57-37-42-81-230)192(317)270-156(95-129-105-242-110-248-129)204(329)272-158(97-172(238)299)205(330)265-150(88-113(8)9)212(337)286-185(122(19)291)223(348)262-147(225(350)351)72-76-170(236)297/h24-33,46-53,61-68,103-105,110-122,134,137-166,180-185,244-245,288-293H,21-23,34-45,54-60,69-102,106-109,227-232H2,1-20H3,(H2,233,294)(H2,234,295)(H2,235,296)(H2,236,297)(H2,237,298)(H2,238,299)(H2,239,300)(H,242,248)(H,246,314)(H,247,342)(H,249,324)(H,250,344)(H,251,313)(H,252,301)(H,253,311)(H,254,312)(H,255,319)(H,256,315)(H,257,327)(H,258,333)(H,259,316)(H,260,320)(H,261,345)(H,262,348)(H,263,325)(H,264,328)(H,265,330)(H,266,335)(H,267,334)(H,268,332)(H,269,336)(H,270,317)(H,271,318)(H,272,329)(H,273,321)(H,274,322)(H,275,331)(H,276,340)(H,277,347)(H,278,343)(H,279,326)(H,280,346)(H,281,302)(H,282,338)(H,283,323)(H,284,339)(H,285,341)(H,286,337)(H,303,304)(H,305,306)(H,307,308)(H,309,310)(H,350,351)(H4,240,241,243)
+xref: smiles:CCC(C)C(C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)C)C(=O)NC(CC(=O)N)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCCN)C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(CC4=CNC5=CC=CC=C54)C(=O)NC(CCCCN)C(=O)NC(CC6=CNC=N6)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CCSC)NC(=O)C(C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC7=CC=C(C=C7)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)CC)NC(=O)C(CC8=CC=CC=C8)NC(=O)C(C(C)O)NC(=O)CNC(=O)C9CCCN9C(=O)C(C)NC(=O)C(CC1=CC=C(C=C1)O)N
 
 [Term]
 id: HBP:HBP00033
@@ -307,9 +538,9 @@ xref: go:GO:0030122
 id: HBP:HBP00053
 name: Tau isoform F (441 aa)
 def: "Longest tau isoform in human brain, most commonly used as the conventional tau." [pmid:17493042]
-synonym: "microtubule-associated protein tau isoform 2" EXACT []
 synonym: "2N4R" EXACT []
 synonym: "htau40" EXACT [pmid:19226187]
+synonym: "microtubule-associated protein tau isoform 2" EXACT []
 xref: ncbiprotein:NP_005901
 is_a: HBP:HBP00045 ! 4R tau
 
@@ -317,18 +548,18 @@ is_a: HBP:HBP00045 ! 4R tau
 id: HBP:HBP00054
 name: Tau isoform Fetal-tau (352 aa)
 def: "Human fetal tau isoform." [pmid:17493042]
-synonym: "microtubule-associated protein tau isoform 4" EXACT []
 synonym: "0N3R" EXACT []
 synonym: "htau23" EXACT [pmid:7667312]
+synonym: "microtubule-associated protein tau isoform 4" EXACT []
 xref: ncbiprotein:NP_058525
 
 [Term]
 id: HBP:HBP00055
 name: Tau isoform B (381 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-synonym: "microtubule-associated protein tau isoform 7" EXACT []
 synonym: "1N3R" EXACT []
 synonym: "htau37" EXACT [pmid:22762014]
+synonym: "microtubule-associated protein tau isoform 7" EXACT []
 xref: ncbiprotein:NP_001190180
 is_a: HBP:HBP00044 ! 3R tau
 
@@ -336,9 +567,9 @@ is_a: HBP:HBP00044 ! 3R tau
 id: HBP:HBP00056
 name: Tau isoform D (383 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-synonym: "microtubule-associated protein tau isoform 3" EXACT []
 synonym: "0N4R" EXACT []
 synonym: "htau24" EXACT [pmid:22762014]
+synonym: "microtubule-associated protein tau isoform 3" EXACT []
 xref: ncbiprotein:NP_058518
 is_a: HBP:HBP00045 ! 4R tau
 
@@ -346,9 +577,9 @@ is_a: HBP:HBP00045 ! 4R tau
 id: HBP:HBP00057
 name: Tau isoform C (410 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-synonym: "microtubule-associated protein tau isoform 8" EXACT []
 synonym: "2N3R" EXACT []
 synonym: "htau39" EXACT [pmid:22762014]
+synonym: "microtubule-associated protein tau isoform 8" EXACT []
 xref: ncbiprotein:NP_001190181
 is_a: HBP:HBP00044 ! 3R tau
 
@@ -356,9 +587,9 @@ is_a: HBP:HBP00044 ! 3R tau
 id: HBP:HBP00058
 name: Tau isoform E (412 aa)
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-synonym: "microtubule-associated protein tau isoform 5" EXACT []
 synonym: "1N4R" EXACT []
 synonym: "htau34" EXACT [pmid:22762014]
+synonym: "microtubule-associated protein tau isoform 5" EXACT []
 xref: ncbiprotein:NP_001116539
 is_a: HBP:HBP00045 ! 4R tau
 
@@ -548,7 +779,7 @@ def: "the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggrega
 [Term]
 id: HBP:HBP00095
 name: prefibrillar α-synuclein oligomers
-def: " prefibrillar oligomers formed at early stages of α-syn assembly" [pmid:27075649]
+def: "prefibrillar oligomers formed at early stages of α-syn assembly" [pmid:27075649]
 
 [Term]
 id: HBP:HBP00096
@@ -902,8 +1133,8 @@ def: "MeSH Unique ID: D065842" [pmid:16190884]
 id: HBP:HBP00166
 name: proline-rich domain
 def: "Correspounding to residues I151 to Q244 of the 441 aa tau isoform, separated into P1 and P2. Possible role in tau's functional stabilization through the reported intramolecular interaction of P2 with R1, R2 and R4 from the microtubule-binding region" [pmid:25974414, pmid:8068626, pmid:9190213]
-synonym: "PRD" EXACT [pmid:26789759]
 synonym: "P domain" EXACT [pmid:8068626]
+synonym: "PRD" EXACT [pmid:26789759]
 
 [Term]
 id: HBP:HBP00167
@@ -918,7 +1149,7 @@ def: "the nematode homologus of Abf2" [pmid:25896323]
 [Term]
 id: HBP:HBP00169
 name: hydrophobic pocket of actin
-def: " The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament" [pmid:21314430]
+def: "The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament" [pmid:21314430]
 
 [Term]
 id: HBP:HBP00170
@@ -939,7 +1170,7 @@ xref: BEL:"p(HGNC:CDK5R1, frag(99_307))"
 [Term]
 id: HBP:HBP00173
 name: PTI-125
-def: "PTI-125 is a small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies" [pmid:28438486]
+def: "PTI-125 is a proprietary small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies" [pmid:28438486, pmid:22815492]
 
 [Term]
 id: HBP:HBP00174
@@ -1070,6 +1301,7 @@ def: "Another prominent nAChR subtype found in vertebrate central and autonomic 
 id: HBP:HBP00198
 name: alpha-Bungarotoxin
 def: "Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake)." [pmid:21787755]
+xref: uniprot:P60616
 
 [Term]
 id: HBP:HBP00199
@@ -1080,41 +1312,235 @@ def: "nAChRs containing the a3b2 subunit interface" [pmid:21787755]
 id: HBP:HBP00200
 name: kappa-Bungarotoxin
 def: "kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)" [pmid:21787755, pmid:3359187]
+xref: uniprot:P01398
 
 [Term]
 id: HBP:HBP00201
 name: VU10010
 def: "highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233, pmid:18059262]
+synonym: "2-Fly" EXACT [pubchem.compound:714286]
+synonym: "2-Furoyl-LIGRLO-amide trifluoroacetate salt" EXACT [pubchem.compound:714286]
+synonym: "2-Furoyl-LIGRLO-amide trifluoroacetate salt, >=97% (HPLC)" EXACT [pubchem.compound:714286]
+synonym: "2-Furoyl-Leu-Ile-Gly-Arg-Leu-Orn-NH2 trifluoroacetate salt" EXACT [pubchem.compound:714286]
+synonym: "2-f-LIGRLO-NH2" EXACT [pubchem.compound:714286]
+synonym: "2-fAP" EXACT [pubchem.compound:714286]
+synonym: "2fLI" EXACT [pubchem.compound:714286]
+synonym: "3-Amino-N-(4-chlorobenzyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide 2,2,2-trifluoroacetate" EXACT [pubchem.compound:714286]
+synonym: "3-amino-N-(4-chlorobenzyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:714286]
+synonym: "3-amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:714286]
+synonym: "633283-39-3" EXACT [pubchem.compound:714286]
+synonym: "A3274/0139289" EXACT [pubchem.compound:714286]
+synonym: "AC1LEM0C" EXACT [pubchem.compound:714286]
+synonym: "AKOS000282930" EXACT [pubchem.compound:714286]
+synonym: "B7285" EXACT [pubchem.compound:714286]
+synonym: "BDBM50323691" EXACT [pubchem.compound:714286]
+synonym: "CHEMBL1212994" EXACT [pubchem.compound:714286]
+synonym: "CTK5B8654" EXACT [pubchem.compound:714286]
+synonym: "D0N2VN" EXACT [pubchem.compound:714286]
+synonym: "DTXSID30351931" EXACT [pubchem.compound:714286]
+synonym: "FPRULFHDSFKYBV-UHFFFAOYSA-N" EXACT [pubchem.compound:714286]
+synonym: "HMS3431D09" EXACT [pubchem.compound:714286]
+synonym: "KB-81468" EXACT [pubchem.compound:714286]
+synonym: "MCULE-8947006791" EXACT [pubchem.compound:714286]
+synonym: "MLS002474501" EXACT [pubchem.compound:714286]
+synonym: "MolPort-002-722-568" EXACT [pubchem.compound:714286]
+synonym: "NCGC00378784-01" EXACT [pubchem.compound:714286]
+synonym: "RT-016241" EXACT [pubchem.compound:714286]
+synonym: "SMR001398666" EXACT [pubchem.compound:714286]
+synonym: "SR-01000147542" EXACT [pubchem.compound:714286]
+synonym: "SR-01000147542-1" EXACT [pubchem.compound:714286]
+synonym: "STL227650" EXACT [pubchem.compound:714286]
+synonym: "VU 10010" EXACT [pubchem.compound:714286]
+synonym: "VU-10010" EXACT [pubchem.compound:714286]
+synonym: "VU0402469-1" EXACT [pubchem.compound:714286]
+synonym: "VU10010" EXACT [pubchem.compound:714286]
+synonym: "ZINC109066" EXACT [pubchem.compound:714286]
+synonym: "cid_714286" EXACT [pubchem.compound:714286]
+synonym: "f-LIGRLO-NH2" EXACT [pubchem.compound:714286]
+xref: smiles:CC1=C2C(SC(C(NCC3=CC=C(Cl)C=C3)=O)=C2N)=NC(C)=C1
+xref: inchi:InChI=1S/C17H16ClN3OS/c1-9-7-10(2)21-17-13(9)14(19)15(23-17)16(22)20-8-11-3-5-12(18)6-4-11/h3-7H,8,19H2,1-2H3,(H,20,22)
+xref: pubchem.compound:714286
+xref: cas:633283-39-3
 
 [Term]
 id: HBP:HBP00202
 name: VU0456940
 def: "M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one" [pmid:24511233]
+synonym: "VU 0456940" EXACT [https://medkoo.com/products/9998]
+synonym: "VU-0456940" EXACT [https://medkoo.com/products/9998]
+synonym: "VU0456940" EXACT [https://medkoo.com/products/9998]
+xref: inchi:InChI=1S/C24H19F2N5O4S/c1-14-5-17(29-35-14)8-19(32)13-36(33,34)23-12-31(22-7-16(25)6-20(26)24(22)23)18-3-4-21(27-10-18)15-9-28-30(2)11-15/h3-7,9-12H,8,13H2,1-2H3
+xref: smiles:CN1N=CC(C2=CC=C(N3C=C(S(=O)(CC(CC4=NOC(C)=C4)=O)=O)C5=C3C=C(F)C=C5F)C=N2)=C1
+xref: iupac:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one
 
 [Term]
 id: HBP:HBP00203
 name: VU0152099
 def: "selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233]
+synonym: "3-amino-4,6-dimethyl-N-piperonyl-thieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
+synonym: "3-amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethyl-2-thieno[2,3-b]pyridinecarboxamide" EXACT [pubchem.compound:1541501]
+synonym: "3-amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
+synonym: "3-amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[5,4-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
+synonym: "3-amino-N-(2H-1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
+synonym: "3-amino-N-(benzo[d][1,3]dioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine carboxamide" EXACT [pubchem.compound:1541501]
+synonym: "3-azanyl-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethyl-thieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
+synonym: "612514-42-8" EXACT [pubchem.compound:1541501]
+synonym: "AC1LTW64" EXACT [pubchem.compound:1541501]
+synonym: "AC1Q2P5R" EXACT [pubchem.compound:1541501]
+synonym: "AKOS002170228" EXACT [pubchem.compound:1541501]
+synonym: "BDBM48044" EXACT [pubchem.compound:1541501]
+synonym: "D0Y1VB" EXACT [pubchem.compound:1541501]
+synonym: "GTPL3256" EXACT [pubchem.compound:1541501]
+synonym: "HMS3843E06" EXACT [pubchem.compound:1541501]
+synonym: "MCULE-6171593814" EXACT [pubchem.compound:1541501]
+synonym: "MLS002474500" EXACT [pubchem.compound:1541501]
+synonym: "MolPort-000-437-290" EXACT [pubchem.compound:1541501]
+synonym: "Oprea1_621562" EXACT [pubchem.compound:1541501]
+synonym: "SMR001398665" EXACT [pubchem.compound:1541501]
+synonym: "STK207844" EXACT [pubchem.compound:1541501]
+synonym: "VU0152099" EXACT [pubchem.compound:1541501]
+synonym: "VU0152099-1" EXACT [pubchem.compound:1541501]
+synonym: "ZINC1472126" EXACT [pubchem.compound:1541501]
+synonym: "cid_1541501" EXACT [pubchem.compound:1541501]
+xref: pubchem.compound:1541501
+xref: inchi:InChI=1S/C18H17N3O3S/c1-9-5-10(2)21-18-14(9)15(19)16(25-18)17(22)20-7-11-3-4-12-13(6-11)24-8-23-12/h3-6H,7-8,19H2,1-2H3,(H,20,22)
+xref: smiles:CC1=CC(=NC2=C1C(=C(S2)C(=O)NCC3=CC4=C(C=C3)OCO4)N)C
+xref: wikidata:Q27089173
 
 [Term]
 id: HBP:HBP00204
 name: VU0029767
 def: "selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" [pmid:24590577]
+synonym: "2-(4-ethoxyanilino)-N'-[(E)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" EXACT [pubchem.compound:6758210]
+synonym: "2-[(4-ethoxyphenyl)amino]-N'-[(2-hydroxy-1-naphthyl)methylene]acetohydrazide (non-preferred name)" EXACT [pubchem.compound:6758210]
+synonym: "326001-01-8" EXACT [pubchem.compound:6758210]
+synonym: "AKOS028114549" EXACT [pubchem.compound:6758210]
+synonym: "AOB2484" EXACT [pubchem.compound:6758210]
+synonym: "BCP17383" EXACT [pubchem.compound:6758210]
+synonym: "D0L5AG" EXACT [pubchem.compound:6758210]
+synonym: "KS-000046FP" EXACT [pubchem.compound:6758210]
+synonym: "ZINC1204219" EXACT [pubchem.compound:6758210]
+synonym: "ZINC38534584" EXACT [pubchem.compound:6758210]
+xref: pubchem.compound:6758210
+xref: smiles:CCOC1=CC=C(C=C1)NCC(=O)NNC=C2C(=O)C=CC3=CC=CC=C32
+xref: inchi:InChI=1S/C21H21N3O3/c1-2-27-17-10-8-16(9-11-17)22-14-21(26)24-23-13-19-18-6-4-3-5-15(18)7-12-20(19)25/h3-13,22-23H,2,14H2,1H3,(H,24,26)
 
 [Term]
 id: HBP:HBP00205
 name: VU0090157
 def: "selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" [pmid:24590577]
+synonym: "AC1MER3E" EXACT [pubchem.compound:2882724]
+synonym: "AKOS001633711" EXACT [pubchem.compound:2882724]
+synonym: "AKOS022078796" EXACT [pubchem.compound:2882724]
+synonym: "BIM-0042576.P001" EXACT [pubchem.compound:2882724]
+synonym: "CBMicro_042727" EXACT [pubchem.compound:2882724]
+synonym: "D0O6BD" EXACT [pubchem.compound:2882724]
+synonym: "EU-0038260" EXACT [pubchem.compound:2882724]
+synonym: "GTPL3259" EXACT [pubchem.compound:2882724]
+synonym: "MCULE-4339280714" EXACT [pubchem.compound:2882724]
+synonym: "MolPort-002-181-662" EXACT [pubchem.compound:2882724]
+synonym: "Oprea1_103541" EXACT [pubchem.compound:2882724]
+synonym: "SR-01000433423" EXACT [pubchem.compound:2882724]
+synonym: "SR-01000433423-1" EXACT [pubchem.compound:2882724]
+synonym: "STK079398" EXACT [pubchem.compound:2882724]
+synonym: "UNM000000551301" EXACT [pubchem.compound:2882724]
+synonym: "VU0090157" EXACT [pubchem.compound:2882724]
+synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,2,3,4-tetrahydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
+synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-3,4-dihydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
+synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitrobenzo[d][1,3]-dioxol-5-yl)-2-oxo-1,2,3,4 tetrahydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
+synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitrobenzo[d][1,3]-dioxol-5-yl)-2-oxo-1,2,3,4-tetrahydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
+synonym: "cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
+xref: pubchem.compound:2882724
+xref: smiles:CC1=C(C(NC(=O)N1C)C2=CC3=C(C=C2[N+](=O)[O-])OCO3)C(=O)OC4CCCC4
+xref: inchi:InChI=1S/C19H21N3O7/c1-10-16(18(23)29-11-5-3-4-6-11)17(20-19(24)21(10)2)12-7-14-15(28-9-27-14)8-13(12)22(25)26/h7-8,11,17H,3-6,9H2,1-2H3,(H,20,24)
 
 [Term]
 id: HBP:HBP00206
 name: VU0184670
 def: "M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" [pmid:24590577]
+synonym: "1135241-95-0" EXACT [pubchem.compound:25010774]
+synonym: "CHEMBL1535797" EXACT [pubchem.compound:25010774]
+synonym: "MLS002279950" EXACT [pubchem.compound:25010774]
+synonym: "SMR001318088" EXACT [pubchem.compound:25010774]
+synonym: "VU0184670" EXACT [pubchem.compound:25010774]
+synonym: "ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" EXACT [pubchem.compound:25010774]
+xref: pubchem.compound:25010774
+xref: inchi:InChI=1S/C17H25N3O3.ClH/c1-2-23-17(22)20-12-8-15(9-13-20)18-10-11-19-16(21)14-6-4-3-5-7-14;/h3-7,15,18H,2,8-13H2,1H3,(H,19,21);1H
+xref: smiles:CCOC(=O)N1CCC(CC1)NCCNC(=O)C2=CC=CC=C2.Cl
+xref: chembl:CHEMBL1535797
 
 [Term]
 id: HBP:HBP00207
 name: 2-Bromohexadecanoic acid
 def: "Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death." [pmid:18096814]
+synonym: ".alpha.-Bromopalmitic acid" EXACT [pubchem.compound:82145]
+synonym: "18263-25-7" EXACT [pubchem.compound:82145]
+synonym: "2-Bromohexadecanoic acid" EXACT [pubchem.compound:82145]
+synonym: "2-Bromohexadecanoic acid, >=99.0% (GC)" EXACT [pubchem.compound:82145]
+synonym: "2-Bromohexadecanoic acid, purum, >=97.0% (GC)" EXACT [pubchem.compound:82145]
+synonym: "2-Bromohexadecanoic acid, ~97%" EXACT [pubchem.compound:82145]
+synonym: "2-Bromopalmitate" EXACT [pubchem.compound:82145]
+synonym: "2-Bromopalmitic acid" EXACT [pubchem.compound:82145]
+synonym: "2-bromanylhexadecanoic acid" EXACT [pubchem.compound:82145]
+synonym: "2-bromo-hexadecanoic acid" EXACT [pubchem.compound:82145]
+synonym: "2-bromopalmitate, (+-)-isomer" EXACT [pubchem.compound:82145]
+synonym: "40305-76-8" EXACT [pubchem.compound:82145]
+synonym: "A812715" EXACT [pubchem.compound:82145]
+synonym: "AC1L32UD" EXACT [pubchem.compound:82145]
+synonym: "AC1Q2444" EXACT [pubchem.compound:82145]
+synonym: "ACM18263257" EXACT [pubchem.compound:82145]
+synonym: "ACMC-1C7OL" EXACT [pubchem.compound:82145]
+synonym: "AKOS003404931" EXACT [pubchem.compound:82145]
+synonym: "AKOS017343270" EXACT [pubchem.compound:82145]
+synonym: "BDBM50148454" EXACT [pubchem.compound:82145]
+synonym: "C-20189" EXACT [pubchem.compound:82145]
+synonym: "C16H31BrO2" EXACT [pubchem.compound:82145]
+synonym: "CAS-18263-25-7" EXACT [pubchem.compound:82145]
+synonym: "CC-09685" EXACT [pubchem.compound:82145]
+synonym: "CHEBI:133152" EXACT [pubchem.compound:82145]
+synonym: "CHEMBL118417" EXACT [pubchem.compound:82145]
+synonym: "CTK4D8252" EXACT [pubchem.compound:82145]
+synonym: "DB-044471" EXACT [pubchem.compound:82145]
+synonym: "DPRAYRYQQAXQPE-UHFFFAOYSA-N" EXACT [pubchem.compound:82145]
+synonym: "DSSTox_CID_17734" EXACT [pubchem.compound:82145]
+synonym: "DSSTox_GSID_37734" EXACT [pubchem.compound:82145]
+synonym: "DSSTox_RID_79368" EXACT [pubchem.compound:82145]
+synonym: "DTXSID0037734" EXACT [pubchem.compound:82145]
+synonym: "EINECS 242-137-0" EXACT [pubchem.compound:82145]
+synonym: "FT-0611564" EXACT [pubchem.compound:82145]
+synonym: "Hexadecanoic acid, 2-bromo-" EXACT [pubchem.compound:82145]
+synonym: "Hexadecanoic acid,2-bromo-" EXACT [pubchem.compound:82145]
+synonym: "I04-8986" EXACT [pubchem.compound:82145]
+synonym: "J-011689" EXACT [pubchem.compound:82145]
+synonym: "KB-68336" EXACT [pubchem.compound:82145]
+synonym: "L213" EXACT [pubchem.compound:82145]
+synonym: "LMFA01090011" EXACT [pubchem.compound:82145]
+synonym: "LS-174823" EXACT [pubchem.compound:82145]
+synonym: "MCULE-7613431163" EXACT [pubchem.compound:82145]
+synonym: "MFCD00004215" EXACT [pubchem.compound:82145]
+synonym: "MolPort-001-759-724" EXACT [pubchem.compound:82145]
+synonym: "NCGC00164251-01" EXACT [pubchem.compound:82145]
+synonym: "NCGC00164251-02" EXACT [pubchem.compound:82145]
+synonym: "NCGC00254935-01" EXACT [pubchem.compound:82145]
+synonym: "NCIOpen2_007723" EXACT [pubchem.compound:82145]
+synonym: "NSC 58378" EXACT [pubchem.compound:82145]
+synonym: "NSC-58378" EXACT [pubchem.compound:82145]
+synonym: "NSC58378" EXACT [pubchem.compound:82145]
+synonym: "OR10833" EXACT [pubchem.compound:82145]
+synonym: "SBB071635" EXACT [pubchem.compound:82145]
+synonym: "SCHEMBL97565" EXACT [pubchem.compound:82145]
+synonym: "ST45026694" EXACT [pubchem.compound:82145]
+synonym: "TC-170832" EXACT [pubchem.compound:82145]
+synonym: "TRA0083226" EXACT [pubchem.compound:82145]
+synonym: "Tox21_301033" EXACT [pubchem.compound:82145]
+synonym: "VZ24096" EXACT [pubchem.compound:82145]
+synonym: "ZX-AT022731" EXACT [pubchem.compound:82145]
+synonym: "alpha-Bromopalmitic acid" EXACT [pubchem.compound:82145]
+synonym: "bromohexadecanoic acid" EXACT [pubchem.compound:82145]
+xref: pubchem.compound:82145
+xref: chebi:CHEBI:133152
+xref: smiles:CCCCCCCCCCCCCCC(C(=O)O)Br
+xref: inchi:InChI=1S/C16H31BrO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15(17)16(18)19/h15H,2-14H2,1H3,(H,18,19)
 
 [Term]
 id: HBP:HBP00208
@@ -1252,6 +1678,69 @@ def: "Tauopathies characterized by a relatively higher presence of the 4R tau is
 id: HBP:HBP00234
 name: ACY-1215
 def: "Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells." [pmid:24844691]
+synonym: "1316214-52-4" EXACT [pubchem.compound:53340666]
+synonym: "2-(Diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
+synonym: "2-(Diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-5-pyrimidinecarboxamide" EXACT [pubchem.compound:53340666]
+synonym: "2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
+synonym: "5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)-" EXACT [pubchem.compound:53340666]
+synonym: "7-{[2-(DIPHENYLAMINO)PYRIMIDIN-5-YL]FORMAMIDO}-N-HYDROXYHEPTANAMIDE" EXACT [pubchem.compound:53340666]
+synonym: "AB0032517" EXACT [pubchem.compound:53340666]
+synonym: "AC-30258" EXACT [pubchem.compound:53340666]
+synonym: "ACN-030031" EXACT [pubchem.compound:53340666]
+synonym: "ACY-1215" EXACT [pubchem.compound:53340666]
+synonym: "ACY-63" EXACT [pubchem.compound:53340666]
+synonym: "ACY1215" EXACT [pubchem.compound:53340666]
+synonym: "AH4" EXACT [pubchem.compound:53340666]
+synonym: "AJ-128539" EXACT [pubchem.compound:53340666]
+synonym: "AK151416" EXACT [pubchem.compound:53340666]
+synonym: "AKOS024259260" EXACT [pubchem.compound:53340666]
+synonym: "AX8288032" EXACT [pubchem.compound:53340666]
+synonym: "BC600387" EXACT [pubchem.compound:53340666]
+synonym: "BCP06028" EXACT [pubchem.compound:53340666]
+synonym: "BDBM50439674" EXACT [pubchem.compound:53340666]
+synonym: "CHEBI:95073" EXACT [pubchem.compound:53340666]
+synonym: "CHEMBL2364628" EXACT [pubchem.compound:53340666]
+synonym: "CS-0965" EXACT [pubchem.compound:53340666]
+synonym: "D0TP9M" EXACT [pubchem.compound:53340666]
+synonym: "D10661" EXACT [pubchem.compound:53340666]
+synonym: "DB12376" EXACT [pubchem.compound:53340666]
+synonym: "DTXSID40157148" EXACT [pubchem.compound:53340666]
+synonym: "EX-A139" EXACT [pubchem.compound:53340666]
+synonym: "GTPL7010" EXACT [pubchem.compound:53340666]
+synonym: "HMS3653F17" EXACT [pubchem.compound:53340666]
+synonym: "HY-16026" EXACT [pubchem.compound:53340666]
+synonym: "J-690127" EXACT [pubchem.compound:53340666]
+synonym: "KB-74507" EXACT [pubchem.compound:53340666]
+synonym: "KS-00000SAV" EXACT [pubchem.compound:53340666]
+synonym: "MLS006011181" EXACT [pubchem.compound:53340666]
+synonym: "MolPort-028-600-031" EXACT [pubchem.compound:53340666]
+synonym: "N-[7-(hydroxyamino)-7-oxoheptyl]-2-(N-phenylanilino)pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
+synonym: "NCGC00345802-01" EXACT [pubchem.compound:53340666]
+synonym: "NCGC00345802-05" EXACT [pubchem.compound:53340666]
+synonym: "Ricolinostat" EXACT [pubchem.compound:53340666]
+synonym: "Ricolinostat (USAN/INN)" EXACT [pubchem.compound:53340666]
+synonym: "Ricolinostat [USAN:INN]" EXACT [pubchem.compound:53340666]
+synonym: "Rocilinostat" EXACT [pubchem.compound:53340666]
+synonym: "Rocilinostat (ACY-1215)" EXACT [pubchem.compound:53340666]
+synonym: "SB17054" EXACT [pubchem.compound:53340666]
+synonym: "SCHEMBL574580" EXACT [pubchem.compound:53340666]
+synonym: "SMR004702950" EXACT [pubchem.compound:53340666]
+synonym: "ST24039648" EXACT [pubchem.compound:53340666]
+synonym: "SW219836-1" EXACT [pubchem.compound:53340666]
+synonym: "UNII-WKT909C62B" EXACT [pubchem.compound:53340666]
+synonym: "US8609678, 2-(diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)pyrimidine-5-carboxamide [26]" EXACT [pubchem.compound:53340666]
+synonym: "W-5979" EXACT [pubchem.compound:53340666]
+synonym: "WKT909C62B" EXACT [pubchem.compound:53340666]
+synonym: "X5832" EXACT [pubchem.compound:53340666]
+synonym: "ZINC89630354" EXACT [pubchem.compound:53340666]
+synonym: "s8001" EXACT [pubchem.compound:53340666]
+xref: pubchem.compound:53340666
+xref: cas:1316214-52-4
+xref: chebi:CHEBI:95073
+xref: drugbank:DB12376
+xref: mesh:C572255
+xref: inchi:InChI=1S/C24H27N5O3/c30-22(28-32)15-9-1-2-10-16-25-23(31)19-17-26-24(27-18-19)29(20-11-5-3-6-12-20)21-13-7-4-8-14-21/h3-8,11-14,17-18,32H,1-2,9-10,15-16H2,(H,25,31)(H,28,30)
+xref: smiles:C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=NC=C(C=N3)C(=O)NCCCCCCC(=O)NO
 inverse_is_a: MESH:D000544 ! Alzheimer Disease
 
 [Term]
@@ -1263,6 +1752,52 @@ def: "Interacts with tubulin binding repeat 1" [pmid:26751493]
 id: HBP:HBP00236
 name: BAY61-3606
 def: "A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity" [pmid:25331948]
+synonym: "2-((7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl)amino)nicotinamide" EXACT [pubchem.compound:10200390]
+synonym: "2-(7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-ylamino)nicotinamide hydrochloride" EXACT [pubchem.compound:10200390]
+synonym: "2-[[7-(3,4-Dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl]amino]-3-pyridinecarboxamide" EXACT [pubchem.compound:10200390]
+synonym: "2-[[7-(3,4-Dimethoxyphenyl)imidazo[1,2-c]pyrimidine-5-yl]amino]-3-pyridinecarboxamide" EXACT [pubchem.compound:10200390]
+synonym: "2-[[7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl]amino]pyridine-3-carboxamide" EXACT [pubchem.compound:10200390]
+synonym: "3-Pyridinecarboxamide, 2-((7-(3,4-dimethoxyphenyl)imidazo(1,2-C)pyrimidin-5-yl)amino)-" EXACT [pubchem.compound:10200390]
+synonym: "61G8S0H9KX" EXACT [pubchem.compound:10200390]
+synonym: "732983-37-8" EXACT [pubchem.compound:10200390]
+synonym: "AC-29888" EXACT [pubchem.compound:10200390]
+synonym: "ACN-053214" EXACT [pubchem.compound:10200390]
+synonym: "AKOS030526888" EXACT [pubchem.compound:10200390]
+synonym: "BAY 61-3606" EXACT [pubchem.compound:10200390]
+synonym: "BAY 61-3606 HCl" EXACT [pubchem.compound:10200390]
+synonym: "BAY-61-360" EXACT [pubchem.compound:10200390]
+synonym: "BAY-61-3606 free base" EXACT [pubchem.compound:10200390]
+synonym: "BAY-613606" EXACT [pubchem.compound:10200390]
+synonym: "BAY61-3606" EXACT [pubchem.compound:10200390]
+synonym: "BCP08946" EXACT [pubchem.compound:10200390]
+synonym: "BDBM50325991" EXACT [pubchem.compound:10200390]
+synonym: "BRD-K53281329-001-01-9" EXACT [pubchem.compound:10200390]
+synonym: "CCG-102604" EXACT [pubchem.compound:10200390]
+synonym: "CHEBI:91426" EXACT [pubchem.compound:10200390]
+synonym: "CHEMBL1190711" EXACT [pubchem.compound:10200390]
+synonym: "CHEMBL1242100" EXACT [pubchem.compound:10200390]
+synonym: "CS-0235" EXACT [pubchem.compound:10200390]
+synonym: "EX-A1437" EXACT [pubchem.compound:10200390]
+synonym: "GTPL9693" EXACT [pubchem.compound:10200390]
+synonym: "HY-76474" EXACT [pubchem.compound:10200390]
+synonym: "J-507625" EXACT [pubchem.compound:10200390]
+synonym: "KB-74859" EXACT [pubchem.compound:10200390]
+synonym: "Kinome_3125" EXACT [pubchem.compound:10200390]
+synonym: "NCGC00346945-01" EXACT [pubchem.compound:10200390]
+synonym: "NCGC00346945-06" EXACT [pubchem.compound:10200390]
+synonym: "RL04784" EXACT [pubchem.compound:10200390]
+synonym: "SCHEMBL373774" EXACT [pubchem.compound:10200390]
+synonym: "Syk inhibitor IV" EXACT [pubchem.compound:10200390]
+synonym: "UNII-61G8S0H9KX" EXACT [pubchem.compound:10200390]
+synonym: "ZINC3817793" EXACT [pubchem.compound:10200390]
+synonym: "cc-526" EXACT [pubchem.compound:10200390]
+xref: pubchem.compound:10200390
+xref: cas:732983-37-8
+xref: wikidata:Q27163275
+xref: chebi:CHEBI:91426
+xref: mesh:C477642
+xref: inchi:InChI=1S/C20H18N6O3/c1-28-15-6-5-12(10-16(15)29-2)14-11-17-22-8-9-26(17)20(24-14)25-19-13(18(21)27)4-3-7-23-19/h3-11H,1-2H3,(H2,21,27)(H,23,24,25)
+xref: smiles:COC1=C(C=C(C=C1)C2=CC3=NC=CN3C(=N2)NC4=C(C=CC=N4)C(=O)N)OC
 
 [Term]
 id: HBP:HBP00237
@@ -1278,11 +1813,38 @@ def: "Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined tem
 id: HBP:HBP00239
 name: C-30-27
 def: "PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition" [pmid:25672970]
+xref: smiles:C1COCCN1CCNCC2=CC(=C(C(=C2)Cl)OCC3=CC=CC=N3)OC
+xref: inchi:InChI=1S/C20H26ClN3O3/c1-25-19-13-16(14-22-6-7-24-8-10-26-11-9-24)12-18(21)20(19)27-15-17-4-2-3-5-23-17/h2-5,12-13,22H,6-11,14-15H2,1H3
 
 [Term]
 id: HBP:HBP00240
 name: C646
 def: "Inhibitor of EP300 acetylase" [pmid:20869593]
+synonym: "(E)-4-(4-((5-(4,5-diMethyl-2-nitrophenyl)furan-2-yl)Methylene)-3-Methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl)benzoic acid" EXACT [pubchem.compound:1285940]
+synonym: "328968-36-1" EXACT [pubchem.compound:1285940]
+synonym: "4-(4-((5-(4,5-Dimethyl-2-nitrophenyl)furan-2-yl)methylene)-3-methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl)benzoic acid" EXACT [pubchem.compound:1285940]
+synonym: "4-[(4E)-4-[[5-(4,5-dimethyl-2-nitrophenyl)furan-2-yl]methylidene]-3-methyl-5-oxopyrazol-1-yl]benzoic acid" EXACT [pubchem.compound:1285940]
+synonym: "4-[(4E)-4-{[5-(4,5-dimethyl-2-nitrophenyl)furan-2-yl]methylidene}-3-methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl]benzoic acid" EXACT [pubchem.compound:1285940]
+synonym: "AC1LPE4S" EXACT [pubchem.compound:1285940]
+synonym: "AKOS005418912" EXACT [pubchem.compound:1285940]
+synonym: "AOB5549" EXACT [pubchem.compound:1285940]
+synonym: "BC600370" EXACT [pubchem.compound:1285940]
+synonym: "BRD-K68548958-001-01-2" EXACT [pubchem.compound:1285940]
+synonym: "C 646" EXACT [pubchem.compound:1285940]
+synonym: "C-646" EXACT [pubchem.compound:1285940]
+synonym: "C646" EXACT [pubchem.compound:1285940]
+synonym: "CHEMBL3734823" EXACT [pubchem.compound:1285940]
+synonym: "CS-3529" EXACT [pubchem.compound:1285940]
+synonym: "EX-A1063" EXACT [pubchem.compound:1285940]
+synonym: "HY-13823" EXACT [pubchem.compound:1285940]
+synonym: "KB-145969" EXACT [pubchem.compound:1285940]
+synonym: "MolPort-002-976-806" EXACT [pubchem.compound:1285940]
+synonym: "SCHEMBL14991291" EXACT [pubchem.compound:1285940]
+synonym: "STK219801" EXACT [pubchem.compound:1285940]
+synonym: "ZINC13838357" EXACT [pubchem.compound:1285940]
+xref: pubchem.compound:1285940
+xref: inchi:InChI=1S/C24H19N3O6/c1-13-10-20(21(27(31)32)11-14(13)2)22-9-8-18(33-22)12-19-15(3)25-26(23(19)28)17-6-4-16(5-7-17)24(29)30/h4-12H,1-3H3,(H,29,30)/b19-12+
+xref: smiles:CC1=C(C=C(C(=C1)C2=CC=C(O2)C=C3C(=NN(C3=O)C4=CC=C(C=C4)C(=O)O)C)[N+](=O)[O-])C
 
 [Term]
 id: HBP:HBP00241
@@ -1308,11 +1870,88 @@ def: "The last of four regions in the cornu ammonis of the hippocampus and is al
 id: HBP:HBP00245
 name: CGP3466B
 def: "Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD" [pmid:29559585]
+synonym: "(Dibenzo(b,f)oxepin-5-ylmethyl)(methyl)prop-2-yn-1-amine" EXACT [pubchem.compound:6419718]
+synonym: "181296-84-4" EXACT [pubchem.compound:6419718]
+synonym: "5V14HD0N4Q" EXACT [pubchem.compound:6419718]
+synonym: "634202-78-1" EXACT [pubchem.compound:6419718]
+synonym: "AC1O4WBX" EXACT [pubchem.compound:6419718]
+synonym: "CGP 3466" EXACT [pubchem.compound:6419718]
+synonym: "CGP-3466" EXACT [pubchem.compound:6419718]
+synonym: "CGP-3499B" EXACT [pubchem.compound:6419718]
+synonym: "CHEBI:41778" EXACT [pubchem.compound:6419718]
+synonym: "CHEMBL1232111" EXACT [pubchem.compound:6419718]
+synonym: "D06KSV" EXACT [pubchem.compound:6419718]
+synonym: "DB12879" EXACT [pubchem.compound:6419718]
+synonym: "DTXSID10171098" EXACT [pubchem.compound:6419718]
+synonym: "Dibenzo(b,f)oxepin-10-ylmethyl-methyl-prop-2-ynylamine" EXACT [pubchem.compound:6419718]
+synonym: "N-(DIBENZO[B,F]OXEPIN-10-YLMETHYL)-N-METHYL-N-PROP-2-YNYLAMINE" EXACT [pubchem.compound:6419718]
+synonym: "N-(benzo[b][1]benzoxepin-5-ylmethyl)-N-methylprop-2-yn-1-amine" EXACT [pubchem.compound:6419718]
+synonym: "N-(dibenzo[b,f]oxepin-10-ylmethyl)-N-methylprop-2-yn-1-amine" EXACT [pubchem.compound:6419718]
+synonym: "NCGC00346431-01" EXACT [pubchem.compound:6419718]
+synonym: "Neuroprotectant, Novartis" EXACT [pubchem.compound:6419718]
+synonym: "Neuroprotectant, Santhera" EXACT [pubchem.compound:6419718]
+synonym: "Nootropic agent, Novartis" EXACT [pubchem.compound:6419718]
+synonym: "Nootropicagent, Santhera" EXACT [pubchem.compound:6419718]
+synonym: "Omigapil" EXACT [pubchem.compound:6419718]
+synonym: "Omigapil [INN]" EXACT [pubchem.compound:6419718]
+synonym: "Omigapil)" EXACT [pubchem.compound:6419718]
+synonym: "QLMMOGWZCFQAPU-UHFFFAOYSA-N" EXACT [pubchem.compound:6419718]
+synonym: "SCHEMBL333032" EXACT [pubchem.compound:6419718]
+synonym: "SNT-317" EXACT [pubchem.compound:6419718]
+synonym: "TCH-346" EXACT [pubchem.compound:6419718]
+synonym: "TCH-346B" EXACT [pubchem.compound:6419718]
+synonym: "TCH346" EXACT [pubchem.compound:6419718]
+synonym: "Tch 346" EXACT [pubchem.compound:6419718]
+synonym: "UNII-5V14HD0N4Q" EXACT [pubchem.compound:6419718]
+synonym: "ZINC33943510" EXACT [pubchem.compound:6419718]
+synonym: "dibenz[b,f]oxepin-10-ylmethyl-N-methyl-N-prop-2-ynylamine" EXACT [pubchem.compound:6419718]
+synonym: "dibenzo-(b,f)oxepin-10-ylmethyl-methyl-prop-2-ynyl-amine" EXACT [pubchem.compound:6419718]
+xref: pubchem.compound:6419718
+xref: chembl:CHEMBL3734823
+xref: inchi:InChI=1S/C19H17NO/c1-3-12-20(2)14-16-13-15-8-4-6-10-18(15)21-19-11-7-5-9-17(16)19/h1,4-11,13H,12,14H2,2H3
+xref: smiles:CN(CC#C)CC1=CC2=CC=CC=C2OC3=CC=CC=C31
+xref: chembl:CHEMBL1232111
+xref: chebi:CHEBI:41778
+xref: drugbank:DB12879
 
 [Term]
 id: HBP:HBP00246
 name: CM-414
 def: "A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity." [pmid:27550730]
+synonym: "2-(4-morpholinylmethyl)-2-propenoic acid" EXACT [pubchem.compound:10397232]
+synonym: "2-(Morpholinomethyl)acrylic acid" EXACT [pubchem.compound:10397232]
+synonym: "2-(Morpholinomethyl)propenoic acid" EXACT [pubchem.compound:10397232]
+synonym: "2-(morpholin-4-ylmethyl)prop-2-enoic Acid" EXACT [pubchem.compound:10397232]
+synonym: "2-MORPHOLIN-4-YLMETHYL-ACRYLIC ACID" EXACT [pubchem.compound:10397232]
+synonym: "2-Morpholin4-ylmethyl-acrylic acid" EXACT [pubchem.compound:10397232]
+synonym: "2-[(morpholin-4-yl)methyl]prop-2-enoic acid" EXACT [pubchem.compound:10397232]
+synonym: "2-morpholin-4-ylmethyl-2-propenoic acid" EXACT [pubchem.compound:10397232]
+synonym: "2-morpholin-4ylmethyl-2-propenoic acid" EXACT [pubchem.compound:10397232]
+synonym: "4-Morpholinepropanoicacid, a-methylene-" EXACT [pubchem.compound:10397232]
+synonym: "4432-44-4" EXACT [pubchem.compound:10397232]
+synonym: "4868AH" EXACT [pubchem.compound:10397232]
+synonym: "A826542" EXACT [pubchem.compound:10397232]
+synonym: "AB0085720" EXACT [pubchem.compound:10397232]
+synonym: "AB1552" EXACT [pubchem.compound:10397232]
+synonym: "AJ-96850" EXACT [pubchem.compound:10397232]
+synonym: "AKOS010054622" EXACT [pubchem.compound:10397232]
+synonym: "CM-414" EXACT [pubchem.compound:10397232]
+synonym: "CTK4I8112" EXACT [pubchem.compound:10397232]
+synonym: "DB-070534" EXACT [pubchem.compound:10397232]
+synonym: "DTXSID30439182" EXACT [pubchem.compound:10397232]
+synonym: "F9995-2550" EXACT [pubchem.compound:10397232]
+synonym: "FT-0718529" EXACT [pubchem.compound:10397232]
+synonym: "IGZSSKAOSOCVPH-UHFFFAOYSA-N" EXACT [pubchem.compound:10397232]
+synonym: "K-8942" EXACT [pubchem.compound:10397232]
+synonym: "KB-106928" EXACT [pubchem.compound:10397232]
+synonym: "MCULE-2720405682" EXACT [pubchem.compound:10397232]
+synonym: "MolPort-019-997-392" EXACT [pubchem.compound:10397232]
+synonym: "SCHEMBL793684" EXACT [pubchem.compound:10397232]
+synonym: "ZINC38760485" EXACT [pubchem.compound:10397232]
+xref: pubchem.compound:10397232
+xref: cas:4432-44-4
+xref: inchi:InChI=1S/C8H13NO3/c1-7(8(10)11)6-9-2-4-12-5-3-9/h1-6H2,(H,10,11)
+xref: smiles:C=C(CN1CCOCC1)C(=O)O
 
 [Term]
 id: HBP:HBP00247
@@ -1333,18 +1972,37 @@ def: "Inhibitor of GSK3Beta and DYRK1 kinases" [pmid:28884684]
 id: HBP:HBP00250
 name: LDN-193594
 def: "A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation" [pmid:23737518]
+synonym: "(4-amino-2-(pyridin-3-ylamino)thiazol-5-yl)(2-fluorophenyl)methanone" EXACT [pubchem.compound:54581340]
+synonym: "1289638-15-8" EXACT [pubchem.compound:54581340]
+synonym: "BDBM50340902" EXACT [pubchem.compound:54581340]
+synonym: "CHEMBL1761791" EXACT [pubchem.compound:54581340]
+synonym: "KB-274259" EXACT [pubchem.compound:54581340]
+synonym: "NSC-747885" EXACT [pubchem.compound:54581340]
+synonym: "NSC747885" EXACT [pubchem.compound:54581340]
+synonym: "XHJMMMPXTUEBMQ-UHFFFAOYSA-N" EXACT [pubchem.compound:54581340]
+synonym: "ZINC71317068" EXACT [pubchem.compound:54581340]
+synonym: "ldn-193594" EXACT [pubchem.compound:54581340]
+xref: pubchem.compound:54581340
+xref: chembl:CHEMBL1761791
+xref: inchi:InChI=1S/C15H11FN4OS/c16-11-6-2-1-5-10(11)12(21)13-14(17)20-15(22-13)19-9-4-3-7-18-8-9/h1-8H,17H2,(H,19,20)
+xref: smiles:C1=CC=C(C(=C1)C(=O)C2=C(N=C(S2)NC3=CN=CC=C3)N)F
 is_a: HBP:HBP00276 ! diaminothiazole
 
 [Term]
 id: HBP:HBP00251
 name: LDN-193665
 def: "A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b" [pmid:23737518]
+xref: cas:1289638-16-9
+xref: inchi: InChI=1S/C15H11FN4OS/c16-10-4-1-3-9(7-10)12(21)13-14(17)20-15(22-13)19-11-5-2-6-18-8-11/h1-8H,17H2,(H,19,20)
+xref: smiles:FC1=CC=CC(C(C2=C(N)N=C(NC3=CN=CC=C3)S2)=O)=C1
 is_a: HBP:HBP00277 ! diaminothiazole
 
 [Term]
 id: HBP:HBP00252
 name: LDN-213843
 def: "Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases" [pmid:23737518]
+xref: inchi:InChI=1S/C19H19FN6OS/c20-14-4-2-1-3-13(14)16(27)17-18(21)25-19(28-17)24-12-5-6-15(23-11-12)26-9-7-22-8-10-26/h1-6,11,22H,7-10,21H2,(H,24,25)
+xref: smiles:C1(=CC=CC=C1C(C4=C(N)N=C(NC2=CN=C(C=C2)N3CCNCC3)S4)=O)F
 is_a: HBP:HBP00278 ! diaminothiazole
 
 [Term]
@@ -1377,11 +2035,99 @@ is_a: HBP:HBP00307 ! Tau antibody
 id: HBP:HBP00258
 name: RGFP966
 def: "Selective inhibitor of HDAC3" [pmid:28771976]
+synonym: "(2E)-N-(2-amino-4-fluorophenyl)-3-{1-[(2E)-3-phenylprop-2-en-1-yl]-1H-pyrazol-4-yl}prop-2-enamide" EXACT [pubchem.compound:56650312]
+synonym: "(E)-N-(2-amino-4-fluorophenyl)-3-(1-cinnamyl-1H-pyrazol-4-yl)acrylamide" EXACT [pubchem.compound:56650312]
+synonym: "1357389-11-7" EXACT [pubchem.compound:56650312]
+synonym: "1396841-57-8" EXACT [pubchem.compound:56650312]
+synonym: "2-Propenamide, N-(2-amino-4-fluorophenyl)-3-[1-[(2E)-3-phenyl-2-propen-1-yl]-1H-pyrazol-4-yl]-, (2E)-" EXACT [pubchem.compound:56650312]
+synonym: "2686AH" EXACT [pubchem.compound:56650312]
+synonym: "AK676067" EXACT [pubchem.compound:56650312]
+synonym: "AKOS030526449" EXACT [pubchem.compound:56650312]
+synonym: "BC600495" EXACT [pubchem.compound:56650312]
+synonym: "BCP08102" EXACT [pubchem.compound:56650312]
+synonym: "BLVQHYHDYFTPDV-VCABWLAWSA-N" EXACT [pubchem.compound:56650312]
+synonym: "C21H19FN4O" EXACT [pubchem.compound:56650312]
+synonym: "CHEBI:131163" EXACT [pubchem.compound:56650312]
+synonym: "D00HXX" EXACT [pubchem.compound:56650312]
+synonym: "DA-45384" EXACT [pubchem.compound:56650312]
+synonym: "DA-45706" EXACT [pubchem.compound:56650312]
+synonym: "EX-A229" EXACT [pubchem.compound:56650312]
+synonym: "GTPL7500" EXACT [pubchem.compound:56650312]
+synonym: "J-007305" EXACT [pubchem.compound:56650312]
+synonym: "KB-148638" EXACT [pubchem.compound:56650312]
+synonym: "MolPort-035-395-807" EXACT [pubchem.compound:56650312]
+synonym: "QC-11774" EXACT [pubchem.compound:56650312]
+synonym: "RGFP 966" EXACT [pubchem.compound:56650312]
+synonym: "RGFP-966" EXACT [pubchem.compound:56650312]
+synonym: "RGFP966" EXACT [pubchem.compound:56650312]
+synonym: "RGFP966 Racemate" EXACT [pubchem.compound:56650312]
+synonym: "RGFP966, >=98% (HPLC)" EXACT [pubchem.compound:56650312]
+synonym: "SB19284" EXACT [pubchem.compound:56650312]
+synonym: "SCHEMBL12497867" EXACT [pubchem.compound:56650312]
+synonym: "SCHEMBL12497871" EXACT [pubchem.compound:56650312]
+synonym: "SW219401-1" EXACT [pubchem.compound:56650312]
+synonym: "ZINC95616594" EXACT [pubchem.compound:56650312]
+synonym: "s7229" EXACT [pubchem.compound:56650312]
+xref: pubchem.compound:56650312
+xref: chebi:CHEBI:131163
+xref: inchi:InChI=1S/C21H19FN4O/c22-18-9-10-20(19(23)13-18)25-21(27)11-8-17-14-24-26(15-17)12-4-7-16-5-2-1-3-6-16/h1-11,13-15H,12,23H2,(H,25,27)/b7-4+,11-8+
+xref: smiles:C1=CC=C(C=C1)C=CCN2C=C(C=N2)C=CC(=O)NC3=C(C=C(C=C3)F)N
 
 [Term]
 id: HBP:HBP00259
 name: SL-327
 def: "Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A" [pmid:24401760]
+synonym: "(2Z)-3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile" EXACT [pubchem.compound:9549284]
+synonym: "(Z)-3-amino-3-(4-aminophenylthio)-2-(2-(trifluoromethyl)phenyl)acrylonitrile" EXACT [pubchem.compound:9549284]
+synonym: "3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]acrylonitrile" EXACT [pubchem.compound:9549284]
+synonym: "3-amino-3-[(4-aminophenyl)thio]-2-[2-(trifluoromethyl)phenyl]-2-propenenitrile" EXACT [pubchem.compound:9549284]
+synonym: "305350-87-2" EXACT [pubchem.compound:9549284]
+synonym: "AKOS024456884" EXACT [pubchem.compound:9549284]
+synonym: "AOB5954" EXACT [pubchem.compound:9549284]
+synonym: "BC600460" EXACT [pubchem.compound:9549284]
+synonym: "BCP05310" EXACT [pubchem.compound:9549284]
+synonym: "BRD-K12244279-001-01-7" EXACT [pubchem.compound:9549284]
+synonym: "CCG-206867" EXACT [pubchem.compound:9549284]
+synonym: "CHEBI:92211" EXACT [pubchem.compound:9549284]
+synonym: "CS-0910" EXACT [pubchem.compound:9549284]
+synonym: "D04WPA" EXACT [pubchem.compound:9549284]
+synonym: "DTXSID90429549" EXACT [pubchem.compound:9549284]
+synonym: "EX-A1069" EXACT [pubchem.compound:9549284]
+synonym: "GTPL6008" EXACT [pubchem.compound:9549284]
+synonym: "HMS3229K18" EXACT [pubchem.compound:9549284]
+synonym: "HSCI1_000044" EXACT [pubchem.compound:9549284]
+synonym: "HY-15437" EXACT [pubchem.compound:9549284]
+synonym: "J-018001" EXACT [pubchem.compound:9549284]
+synonym: "JLOXTZFYJNCPIS-FYWRMAATSA-N" EXACT [pubchem.compound:9549284]
+synonym: "K00090" EXACT [pubchem.compound:9549284]
+synonym: "KB-80585" EXACT [pubchem.compound:9549284]
+synonym: "LS-193345" EXACT [pubchem.compound:9549284]
+synonym: "MEK1/2 Inhibitor" EXACT [pubchem.compound:9549284]
+synonym: "MFCD06411432" EXACT [pubchem.compound:9549284]
+synonym: "MolPort-006-069-021" EXACT [pubchem.compound:9549284]
+synonym: "NCGC00092290-01" EXACT [pubchem.compound:9549284]
+synonym: "NCGC00092290-02" EXACT [pubchem.compound:9549284]
+synonym: "SB19419" EXACT [pubchem.compound:9549284]
+synonym: "SCHEMBL570317" EXACT [pubchem.compound:9549284]
+synonym: "SCHEMBL570318" EXACT [pubchem.compound:9549284]
+synonym: "SL 327" EXACT [pubchem.compound:9549284]
+synonym: "SL-327" EXACT [pubchem.compound:9549284]
+synonym: "SL327" EXACT [pubchem.compound:9549284]
+synonym: "SL327, >=98% (HPLC), Mixture of E & Z isomers, solid" EXACT [pubchem.compound:9549284]
+synonym: "SW219839-1" EXACT [pubchem.compound:9549284]
+synonym: "W-5333" EXACT [pubchem.compound:9549284]
+synonym: "X3440" EXACT [pubchem.compound:9549284]
+synonym: "Z-& E-a-(Amino-((4-aminophenyl)thio)methylene)-2-(trifluoromethyl)benzeneacetonitrile" EXACT [pubchem.compound:9549284]
+synonym: "Z-& E-alpha-(Amino-((4-aminophenyl)thio)methylene)-2-(trifluoromethyl)benzeneacetonitrile" EXACT [pubchem.compound:9549284]
+synonym: "ZINC1910234" EXACT [pubchem.compound:9549284]
+synonym: "alpha-[Amino-(4-aminophenylthio)methylene)-2-(trifluoromethyl)phenylacetonitrile" EXACT [pubchem.compound:9549284]
+synonym: "alpha-{amino[(4-aminophenyl)thio]methylene}-2-(trifluoromethyl)benzeneacetonitrile" EXACT [pubchem.compound:9549284]
+synonym: "s1066" EXACT [pubchem.compound:9549284]
+xref: pubchem.compound:9549284
+xref: cas:305350-87-2
+xref: chebi:CHEBI:92211
+xref: smiles:C1=CC=C(C(=C1)C(=C(N)SC2=CC=C(C=C2)N)C#N)C(F)(F)F
+xref: inchi:InChI=1S/C16H12F3N3S/c17-16(18,19)14-4-2-1-3-12(14)13(9-20)15(22)23-11-7-5-10(21)6-8-11/h1-8H,21-22H2/b15-13+
 
 [Term]
 id: HBP:HBP00260
@@ -1392,6 +2138,17 @@ def: "Spinocerebellar ataxia type 11 (SCA11) is characterized by progressive cer
 id: HBP:HBP00261
 name: ST7612AA1
 def: "A thiol derivative, pan-HDAC inhibitor" [pmid:27917100]
+synonym: "1428535-92-5" EXACT [pubchem.compound:71538210]
+synonym: "BDBM50027652" EXACT [pubchem.compound:71538210]
+synonym: "CHEMBL3353926" EXACT [pubchem.compound:71538210]
+synonym: "SB17083" EXACT [pubchem.compound:71538210]
+synonym: "SCHEMBL14812001" EXACT [pubchem.compound:71538210]
+synonym: "ST-7612AA1" EXACT [pubchem.compound:71538210]
+synonym: "Thioacetic acid S-[(S)-6-[[(R)-5-oxopyrrolidine-2-ylcarbonyl]amino]-6-(phenylcarbamoyl)hexyl] ester" EXACT [pubchem.compound:71538210]
+xref: pubchem.compound:71538210
+xref: chembl:CHEMBL3353926
+xref: smiles:CC(=O)SCCCCC[C@H](NC(=O)[C@H]1CCC(=O)N1)C(=O)Nc2ccccc2
+xref: inchi:InChI=1S/C20H27N3O4S/c1-14(24)28-13-7-3-6-10-16(19(26)21-15-8-4-2-5-9-15)23-20(27)17-11-12-18(25)22-17/h2,4-5,8-9,16-17H,3,6-7,10-13H2,1H3,(H,21,26)(H,22,25)(H,23,27)/t16-,17+/m0/s1
 
 [Term]
 id: HBP:HBP00262
@@ -1427,6 +2184,37 @@ is_a: HBP:HBP00307 ! Tau epitope
 id: HBP:HBP00267
 name: Thiamet G
 def: "Inhibitor of O-GlcNAcase (OGA)" [pmid:22833681]
+synonym: "(3aR)-2-(Ethylamino)-6beta,7alpha-dihydroxy-3aalpha,6,7,7aalpha-tetrahydro-5H-pyrano[3,2-d]thiazole-5alpha-methanol" EXACT [pubchem.compound:24808478]
+synonym: "(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3a,6,7,7a-tetrahydro-5H-pyrano[3,2-d]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
+synonym: "(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3aH,5H,6H,7H,7aH-pyrano[3,2-d][1,3]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
+synonym: "1,2-Dideoxy-2'-ethylamino-a-D-glucopyranoso-[2,1-d]-2'-thiazoline" EXACT [pubchem.compound:24808478]
+synonym: "1009816-48-1" EXACT [pubchem.compound:24808478]
+synonym: "2070AH" EXACT [pubchem.compound:24808478]
+synonym: "2754AH" EXACT [pubchem.compound:24808478]
+synonym: "5H-Pyrano[3,2-d]thiazole-6,7-diol, 2-(ethylamino)-3a,6,7,7a-tetrahydro-5-(hydroxymethyl)-, (3aR,5R,6S,7R,7aR)-" EXACT [pubchem.compound:24808478]
+synonym: "ACN-038039" EXACT [pubchem.compound:24808478]
+synonym: "AKOS024458135" EXACT [pubchem.compound:24808478]
+synonym: "AOB5913" EXACT [pubchem.compound:24808478]
+synonym: "C9H16N2O4S" EXACT [pubchem.compound:24808478]
+synonym: "EX-A2240" EXACT [pubchem.compound:24808478]
+synonym: "HMS3648I18" EXACT [pubchem.compound:24808478]
+synonym: "HY-12588" EXACT [pubchem.compound:24808478]
+synonym: "J-000295" EXACT [pubchem.compound:24808478]
+synonym: "NCGC00344096-03" EXACT [pubchem.compound:24808478]
+synonym: "SR-01000946377" EXACT [pubchem.compound:24808478]
+synonym: "SR-01000946377-1" EXACT [pubchem.compound:24808478]
+synonym: "SW219118-1" EXACT [pubchem.compound:24808478]
+synonym: "Thiamet G" EXACT [pubchem.compound:24808478]
+synonym: "Thiamet G, >=98% (HPLC)" EXACT [pubchem.compound:24808478]
+synonym: "Thiamet G;\n2-(ethylamino)-3aR,6S,7R,7aR-tetrahydro-5R-(hydroxymethyl)-5H-pyrano[3,2-d]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
+synonym: "Thiamet-G" EXACT [pubchem.compound:24808478]
+synonym: "W-200641" EXACT [pubchem.compound:24808478]
+synonym: "ZINC16052637" EXACT [pubchem.compound:24808478]
+synonym: "s7213" EXACT [pubchem.compound:24808478]
+xref: pubchem.compound:24808478
+xref: inchi:InChI=1S/C9H16N2O4S/c1-2-10-9-11-5-7(14)6(13)4(3-12)15-8(5)16-9/h4-8,12-14H,2-3H2,1H3,(H,10,11)/t4-,5-,6-,7-,8-/m1/s1
+xref: smiles:CCNC1=NC2C(C(C(OC2S1)CO)O)O
+xref: chembl:CHEMBL1213603
 
 [Term]
 id: HBP:HBP00268
@@ -1442,11 +2230,18 @@ def: "Chemical compound group of susbtrate competitive selective HDAC6 inhibitor
 id: HBP:HBP00270
 name: Tubacin
 def: "Inhibitor of HDAC6" [pmid:23487739]
+xref: iupac:N1-[4-[(2R,4R,6S)-4-[[(4,5-diphenyl-2-oxazolyl)thio]methyl]-6-[4-(hydroxymethyl)phenyl]-1,3-dioxan-2-yl]phenyl]-N8-hydroxy-octanediamide
+xref: cas:537049-40-4
+xref: smiles:O=C(CCCCCCC(NO)=O)NC(C=C1)=CC=C1[C@@H]2O[C@H](C3=CC=C(CO)C=C3)C[C@H](CSC4=NC(C5=CC=CC=C5)=C(C6=CC=CC=C6)O4)O2
+xref: inchi:InChI=1S/C41H43N3O7S/c45-26-28-17-19-29(20-18-28)35-25-34(27-52-41-43-38(30-11-5-3-6-12-30)39(51-41)31-13-7-4-8-14-31)49-40(50-35)32-21-23-33(24-22-32)42-36(46)15-9-1-2-10-16-37(47)44-48/h3-8,11-14,17-24,34-35,40,45,48H,1-2,9-10,15-16,25-27H2,(H,42,4
 
 [Term]
 id: HBP:HBP00271
 name: Tubastatin A
 def: "Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load" [pmid:24844691]
+xref: cas:1252003-15-8
+xref: smiles:ONC(C1=CC=C(CN2C(CCN(C)C3)=C3C4=C2C=CC=C4)C=C1)=O
+xref: inchi:InChI=1S/C20H21N3O2/c1-22-11-10-19-17(13-22)16-4-2-3-5-18(16)23(19)12-14-6-8-15(9-7-14)20(24)21-25/h2-9,25H,10-13H2,1H3,(H,21,24)
 
 [Term]
 id: HBP:HBP00272
@@ -1467,6 +2262,9 @@ def: "The thin layer of gray matter on the surface of the cerebral hemisphere th
 id: HBP:HBP00275
 name: crebinostat
 def: "Inhibitor of HDAC6" [pmid:25546293]
+xref: cas:1092061-61-4
+xref: smiles:C1=CC=CC(=C1)C2=CC=C(C=C2)C=NNC(CCCCCC(=O)NO)=O
+xref: inchi:InChI=1S/C20H23N3O3/c24-19(9-5-2-6-10-20(25)23-26)22-21-15-16-11-13-18(14-12-16)17-7-3-1-4-8-17/h1,3-4,7-8,11-15,26H,2,5-6,9-10H2,(H,22,24)(H,23,25)/b21-15+
 
 [Term]
 id: HBP:HBP00276
@@ -1487,41 +2285,529 @@ def: "The granular layer is the innermost layer of the cerebellar cortex. This l
 id: HBP:HBP00279
 name: indirubin
 def: "A powerful inhibitor of GSK3B" [pmid:11013232]
+xref: smiles:c1ccc2c(c1)/C(=C/3\C(=O)c4ccccc4N3)/C(=O)N2
+xref: inchi:nChI=1S/C16H10N2O2/c19-15-10-6-2-4-8-12(10)17-14(15)13-9-5-1-3-7-11(9)18-16(13)20/h1-8,17H,(H,18,20)/b14-13-
+xref: cas:479-41-4
+xref: chemspider:4477010
 
 [Term]
 id: HBP:HBP00280
 name: isocarboxazide
 def: "Inhibitor of tau aggregation" [pmid:26751493]
+synonym: "1-Benzyl-2-(5-methyl-3-isoxazolyl-carbonyl)hydrazine" EXACT [pubchem.compound:3759]
+synonym: "1-Benzyl-2-(5-methyl-3-isoxazolylcarbonyl)hydrazine" EXACT [pubchem.compound:3759]
+synonym: "3-(2-BENZYLHYDRAZOCARBOXY)-5-METHYL-ISOXAZOLE" EXACT [pubchem.compound:3759]
+synonym: "3-Isoxazolecarboxylic acid, 2-(phenylmethyl)hydrazide" EXACT [pubchem.compound:3759]
+synonym: "3-Isoxazolecarboxylic acid, 2-benzylhydrazide" EXACT [pubchem.compound:3759]
+synonym: "3-Isoxazolecarboxylic acid, 5-methyl-, 2-(phenylmethyl)hydrazide" EXACT [pubchem.compound:3759]
+synonym: "3-Isoxazolecarboxylic acid, 5-methyl-, 2-benzylhydrazide" EXACT [pubchem.compound:3759]
+synonym: "34237V843T" EXACT [pubchem.compound:3759]
+synonym: "4-27-00-03999 (Beilstein Handbook Reference)" EXACT [pubchem.compound:3759]
+synonym: "5-Methyl-3-isoxazolecarboxylic acid 2-benzylhydrazide" EXACT [pubchem.compound:3759]
+synonym: "5-methyl-N'-(phenylmethyl)-3-isoxazolecarbohydrazide" EXACT [pubchem.compound:3759]
+synonym: "5-methyl-N'-(phenylmethyl)isoxazole-3-carbohydrazide" EXACT [pubchem.compound:3759]
+synonym: "59-63-2" EXACT [pubchem.compound:3759]
+synonym: "AB00513923" EXACT [pubchem.compound:3759]
+synonym: "AC-24841" EXACT [pubchem.compound:3759]
+synonym: "AC1L1GNE" EXACT [pubchem.compound:3759]
+synonym: "AJ-08053" EXACT [pubchem.compound:3759]
+synonym: "AKOS016003091" EXACT [pubchem.compound:3759]
+synonym: "ANW-58213" EXACT [pubchem.compound:3759]
+synonym: "API0000611" EXACT [pubchem.compound:3759]
+synonym: "AX8135097" EXACT [pubchem.compound:3759]
+synonym: "BC645218" EXACT [pubchem.compound:3759]
+synonym: "BDBM163692" EXACT [pubchem.compound:3759]
+synonym: "BMIH" EXACT [pubchem.compound:3759]
+synonym: "BPBio1_001024" EXACT [pubchem.compound:3759]
+synonym: "BRD-K93332168-001-03-2" EXACT [pubchem.compound:3759]
+synonym: "BRN 0201295" EXACT [pubchem.compound:3759]
+synonym: "BSPBio_000930" EXACT [pubchem.compound:3759]
+synonym: "Benazide" EXACT [pubchem.compound:3759]
+synonym: "CAS-59-63-2" EXACT [pubchem.compound:3759]
+synonym: "CCG-220795" EXACT [pubchem.compound:3759]
+synonym: "CCRIS 9178" EXACT [pubchem.compound:3759]
+synonym: "CHEBI:93635" EXACT [pubchem.compound:3759]
+synonym: "CHEMBL1201168" EXACT [pubchem.compound:3759]
+synonym: "CTK8B7692" EXACT [pubchem.compound:3759]
+synonym: "D02580" EXACT [pubchem.compound:3759]
+synonym: "D0I2VK" EXACT [pubchem.compound:3759]
+synonym: "DB01247" EXACT [pubchem.compound:3759]
+synonym: "DSSTox_CID_3171" EXACT [pubchem.compound:3759]
+synonym: "DSSTox_GSID_23171" EXACT [pubchem.compound:3759]
+synonym: "DSSTox_RID_76902" EXACT [pubchem.compound:3759]
+synonym: "DTXSID4023171" EXACT [pubchem.compound:3759]
+synonym: "EINECS 200-438-4" EXACT [pubchem.compound:3759]
+synonym: "Enerzer" EXACT [pubchem.compound:3759]
+synonym: "FCH2716017" EXACT [pubchem.compound:3759]
+synonym: "FT-0670438" EXACT [pubchem.compound:3759]
+synonym: "GTPL7204" EXACT [pubchem.compound:3759]
+synonym: "HMS1570O12" EXACT [pubchem.compound:3759]
+synonym: "HMS2097O12" EXACT [pubchem.compound:3759]
+synonym: "HMS2230E11" EXACT [pubchem.compound:3759]
+synonym: "HMS3369G18" EXACT [pubchem.compound:3759]
+synonym: "HMS3714O12" EXACT [pubchem.compound:3759]
+synonym: "Isocarbonazid" EXACT [pubchem.compound:3759]
+synonym: "Isocarbossazide" EXACT [pubchem.compound:3759]
+synonym: "Isocarbossazide [DCIT]" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazid (ICD)" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazid (INN)" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazid 5-methyl-3-isoxazole-carboxylic acid 2-benzylhydrazide, AldrichCPR" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazid [INN:BAN]" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazid [USP:INN:BAN]" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazida" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazida [INN-Spanish]" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazide" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazide [INN-French]" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazidum" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxazidum [INN-Latin]" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxizid" EXACT [pubchem.compound:3759]
+synonym: "Isocarboxyzid" EXACT [pubchem.compound:3759]
+synonym: "KB-258619" EXACT [pubchem.compound:3759]
+synonym: "LS-86607" EXACT [pubchem.compound:3759]
+synonym: "MLS002154005" EXACT [pubchem.compound:3759]
+synonym: "MLS003106729" EXACT [pubchem.compound:3759]
+synonym: "Maraplan" EXACT [pubchem.compound:3759]
+synonym: "Marplan" EXACT [pubchem.compound:3759]
+synonym: "Marplan (TN)" EXACT [pubchem.compound:3759]
+synonym: "Marplon" EXACT [pubchem.compound:3759]
+synonym: "N'-Benzyl N-methyl-5-isoxazolecarboxylhydrazide-3" EXACT [pubchem.compound:3759]
+synonym: "N'-Benzyl-5-methyl-3-isoxazolecarbohydrazide #" EXACT [pubchem.compound:3759]
+synonym: "N'-Benzyl-5-methylisoxazole-3-carbohydrazide" EXACT [pubchem.compound:3759]
+synonym: "N'-benzyl-5-methyl-1,2-oxazole-3-carbohydrazide" EXACT [pubchem.compound:3759]
+synonym: "NCGC00016267-01" EXACT [pubchem.compound:3759]
+synonym: "NCGC00016267-02" EXACT [pubchem.compound:3759]
+synonym: "NCGC00016267-03" EXACT [pubchem.compound:3759]
+synonym: "NSC 169893" EXACT [pubchem.compound:3759]
+synonym: "NSC-169893" EXACT [pubchem.compound:3759]
+synonym: "NSC169893" EXACT [pubchem.compound:3759]
+synonym: "Prestwick0_000795" EXACT [pubchem.compound:3759]
+synonym: "Prestwick1_000795" EXACT [pubchem.compound:3759]
+synonym: "Prestwick2_000795" EXACT [pubchem.compound:3759]
+synonym: "Prestwick3_000795" EXACT [pubchem.compound:3759]
+synonym: "Ro 5-0831" EXACT [pubchem.compound:3759]
+synonym: "Ro 5-0831/1" EXACT [pubchem.compound:3759]
+synonym: "Ro5-0831" EXACT [pubchem.compound:3759]
+synonym: "SCHEMBL49562" EXACT [pubchem.compound:3759]
+synonym: "SMR001233334" EXACT [pubchem.compound:3759]
+synonym: "SPBio_002869" EXACT [pubchem.compound:3759]
+synonym: "SR-01000841192" EXACT [pubchem.compound:3759]
+synonym: "SR-01000841192-2" EXACT [pubchem.compound:3759]
+synonym: "SR-01000841192-3" EXACT [pubchem.compound:3759]
+synonym: "TC-146958" EXACT [pubchem.compound:3759]
+synonym: "Tox21_110336" EXACT [pubchem.compound:3759]
+synonym: "UNII-34237V843T" EXACT [pubchem.compound:3759]
+synonym: "WLN: T5NOJ C1 EVMM1R" EXACT [pubchem.compound:3759]
+synonym: "XKFPYPQQHFEXRZ-UHFFFAOYSA-N" EXACT [pubchem.compound:3759]
+synonym: "Y0484" EXACT [pubchem.compound:3759]
+synonym: "ZINC1587" EXACT [pubchem.compound:3759]
+synonym: "isocarboxazid" EXACT [pubchem.compound:3759]
+xref: drugbank:DB01247
+xref: smiles:CC1=CC(=NO1)C(=O)NNCC1=CC=CC=C1
+xref: inchi:InChI=1S/C12H13N3O2/c1-9-7-11(15-17-9)12(16)14-13-8-10-5-3-2-4-6-10/h2-7,13H,8H2,1H3,(H,14,16)
+xref: chebi:93635
+xref: pubchem.compound:3759
+xref: chembl:CHEMBL1201168
 
 [Term]
 id: HBP:HBP00281
 name: isopentanyladenine
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
+synonym: "(3-methyl-but-2-enyl)-(7(9)H-purin-6-yl)-amine" EXACT [pubchem.compound:92180]
+synonym: "(3-methylbut-2-enyl)purin-6-ylamine" EXACT [pubchem.compound:92180]
+synonym: "13255-47-5" EXACT [pubchem.compound:92180]
+synonym: "1H-Purin-6-amine, N-(3-methyl-2-butenyl)-" EXACT [pubchem.compound:92180]
+synonym: "1H-Purin-6-amine, N-(3-methyl-2-butenyl)- (9CI)" EXACT [pubchem.compound:92180]
+synonym: "2365-40-4" EXACT [pubchem.compound:92180]
+synonym: "2exm" EXACT [pubchem.compound:92180]
+synonym: "3-methylbut-2-enyl(7H-purin-6-yl)amine" EXACT [pubchem.compound:92180]
+synonym: "365I404" EXACT [pubchem.compound:92180]
+synonym: "5122-37-2" EXACT [pubchem.compound:92180]
+synonym: "6-((3-Methyl-2-butenyl)amino)purine" EXACT [pubchem.compound:92180]
+synonym: "6-(.gamma.,.gamma.-Dimethylallylamino)purine" EXACT [pubchem.compound:92180]
+synonym: "6-(3,3-DIMETHYLALLYLAMINO)PURINE" EXACT [pubchem.compound:92180]
+synonym: "6-(3-methyl-2-buten-1-ylamino)purine" EXACT [pubchem.compound:92180]
+synonym: "6-(gamma,gamma-DIMETHYLALLYLAMINO) PURINE" EXACT [pubchem.compound:92180]
+synonym: "6-(gamma,gamma-Dimethylallylamino)purine" EXACT [pubchem.compound:92180]
+synonym: "6-(gamma,gamma-Dimethylallylamino)purine, BioReagent, plant cell culture tested, 1 mg/mL" EXACT [pubchem.compound:92180]
+synonym: "6-(gamma,gamma-Dimethylallylamino)purine, BioReagent, plant cell culture tested, >=90%" EXACT [pubchem.compound:92180]
+synonym: "6-(gamma,gamma-Dimethylallylamino)purine, BioReagent, plant cell culture tested, >=98.5%" EXACT [pubchem.compound:92180]
+synonym: "6-(gamma,gamma-Dimethylallylamino)purine, Vetec(TM) reagent grade, >=98.5%" EXACT [pubchem.compound:92180]
+synonym: "6-(|A,|A-Dimethylallylamino)purine" EXACT [pubchem.compound:92180]
+synonym: "6-[(3-Methyl-2-butenyl)amino]purine" EXACT [pubchem.compound:92180]
+synonym: "6-[(3-methylbut-2-en-1-yl)amino]purine" EXACT [pubchem.compound:92180]
+synonym: "A816825" EXACT [pubchem.compound:92180]
+synonym: "AC-15608" EXACT [pubchem.compound:92180]
+synonym: "AC1L3NL1" EXACT [pubchem.compound:92180]
+synonym: "ACM2365404" EXACT [pubchem.compound:92180]
+synonym: "AK163607" EXACT [pubchem.compound:92180]
+synonym: "AKOS005257639" EXACT [pubchem.compound:92180]
+synonym: "AKOS015914857" EXACT [pubchem.compound:92180]
+synonym: "AKOS028109417" EXACT [pubchem.compound:92180]
+synonym: "AN-50750" EXACT [pubchem.compound:92180]
+synonym: "AS-17517" EXACT [pubchem.compound:92180]
+synonym: "AX8017021" EXACT [pubchem.compound:92180]
+synonym: "Adenine, N-(3-methyl-2-butenyl)-" EXACT [pubchem.compound:92180]
+synonym: "Adenine, N-(3-methyl-2-butenyl)- (8CI)" EXACT [pubchem.compound:92180]
+synonym: "BC209320" EXACT [pubchem.compound:92180]
+synonym: "BID525" EXACT [pubchem.compound:92180]
+synonym: "BRD-K62158429-001-01-7" EXACT [pubchem.compound:92180]
+synonym: "C04083" EXACT [pubchem.compound:92180]
+synonym: "CCG-38046" EXACT [pubchem.compound:92180]
+synonym: "CHEBI:17660" EXACT [pubchem.compound:92180]
+synonym: "CHEMBL476189" EXACT [pubchem.compound:92180]
+synonym: "CI-027" EXACT [pubchem.compound:92180]
+synonym: "CS-0043352" EXACT [pubchem.compound:92180]
+synonym: "CTK8G1492" EXACT [pubchem.compound:92180]
+synonym: "D-4760" EXACT [pubchem.compound:92180]
+synonym: "D0I1SZ" EXACT [pubchem.compound:92180]
+synonym: "DB08768" EXACT [pubchem.compound:92180]
+synonym: "DTXSID10178325" EXACT [pubchem.compound:92180]
+synonym: "Dimethylallyladenine" EXACT [pubchem.compound:92180]
+synonym: "EBD28940" EXACT [pubchem.compound:92180]
+synonym: "Enadenine" EXACT [pubchem.compound:92180]
+synonym: "FT-0629731" EXACT [pubchem.compound:92180]
+synonym: "HMS1543F03" EXACT [pubchem.compound:92180]
+synonym: "HY-112103" EXACT [pubchem.compound:92180]
+synonym: "HYVABZIGRDEKCD-UHFFFAOYSA-N" EXACT [pubchem.compound:92180]
+synonym: "I14-7114" EXACT [pubchem.compound:92180]
+synonym: "IPADE" EXACT [pubchem.compound:92180]
+synonym: "Isopentenyl adenine" EXACT [pubchem.compound:92180]
+synonym: "Isopentenyladenine" EXACT [pubchem.compound:92180]
+synonym: "KB-57456" EXACT [pubchem.compound:92180]
+synonym: "LS-184209" EXACT [pubchem.compound:92180]
+synonym: "MCULE-6781114249" EXACT [pubchem.compound:92180]
+synonym: "MolPort-002-511-573" EXACT [pubchem.compound:92180]
+synonym: "N(6)-(.DELTA.2-Isopentenyl)aminopurine" EXACT [pubchem.compound:92180]
+synonym: "N(6)-(Delta2-isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N(6)-(delta(2)-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N(6)-dimethylallyladenine" EXACT [pubchem.compound:92180]
+synonym: "N-(.DELTA.2-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N-(.gamma.,.gamma.-Dimethylallyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N-(3-METHYLBUT-2-EN-1-YL)-9H-PURIN-6-AMINE" EXACT [pubchem.compound:92180]
+synonym: "N-(3-Methyl-2-butenyl)-1H-purin-6-amine" EXACT [pubchem.compound:92180]
+synonym: "N-(3-Methyl-2-butenyl)-1H-purin-6-amine #" EXACT [pubchem.compound:92180]
+synonym: "N-(3-Methyl-2-butenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N-(3-methyl-2-butenyl)-9H-purin-6-amine" EXACT [pubchem.compound:92180]
+synonym: "N-(3-methylbut-2-en-1-yl)-7H-purin-6-amine" EXACT [pubchem.compound:92180]
+synonym: "N-(3-methylbut-2-enyl)-7H-purin-6-amine" EXACT [pubchem.compound:92180]
+synonym: "N-(3-methylbut-2-enyl)-9H-purin-6-amine" EXACT [pubchem.compound:92180]
+synonym: "N-(delta2-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N-(gamma,gamma-Dimethylallyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N-6-(3,3-Dimethylallyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N-6-(delta2-Isopentenyl)-adenine" EXACT [pubchem.compound:92180]
+synonym: "N6 -(Delta2 -Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(.DELTA.2-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(.DELTA.2-Isopentenyl)aminopurine" EXACT [pubchem.compound:92180]
+synonym: "N6-(2-Isopentenyl)-adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(2-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(3-Methyl-2-butenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(3-Methylbut-2-enyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(delta 2-Isopentenyl)-adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(delta2-Isopentenyl)-adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(delta2-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-(delta2-Isopentenyl)aminopurine" EXACT [pubchem.compound:92180]
+synonym: "N6-.DELTA.2-Isopentenyl)adenine" EXACT [pubchem.compound:92180]
+synonym: "N6-Delta2-isopentenyladenine" EXACT [pubchem.compound:92180]
+synonym: "N6-Dimethylallyladenine" EXACT [pubchem.compound:92180]
+synonym: "N6-Isopentenyladenine" EXACT [pubchem.compound:92180]
+synonym: "NCGC00014084" EXACT [pubchem.compound:92180]
+synonym: "NCGC00014084-02" EXACT [pubchem.compound:92180]
+synonym: "NCGC00097193-01" EXACT [pubchem.compound:92180]
+synonym: "NCI106958" EXACT [pubchem.compound:92180]
+synonym: "NCI60_000165" EXACT [pubchem.compound:92180]
+synonym: "NCIStruc1_000935" EXACT [pubchem.compound:92180]
+synonym: "NCIStruc2_000921" EXACT [pubchem.compound:92180]
+synonym: "NSC 106958" EXACT [pubchem.compound:92180]
+synonym: "NSC-106958" EXACT [pubchem.compound:92180]
+synonym: "NSC106958" EXACT [pubchem.compound:92180]
+synonym: "Oprea1_344117" EXACT [pubchem.compound:92180]
+synonym: "SC-18768" EXACT [pubchem.compound:92180]
+synonym: "SCHEMBL459276" EXACT [pubchem.compound:92180]
+synonym: "ST044513" EXACT [pubchem.compound:92180]
+synonym: "ST24048354" EXACT [pubchem.compound:92180]
+synonym: "TimTec1_003281" EXACT [pubchem.compound:92180]
+synonym: "UNII-V500BB256Z" EXACT [pubchem.compound:92180]
+synonym: "V0538" EXACT [pubchem.compound:92180]
+synonym: "V500BB256Z" EXACT [pubchem.compound:92180]
+synonym: "ZB000921" EXACT [pubchem.compound:92180]
+synonym: "ZINC32351" EXACT [pubchem.compound:92180]
+synonym: "ZX-AFC000343" EXACT [pubchem.compound:92180]
+synonym: "isopentenyl-adenine" EXACT [pubchem.compound:92180]
+synonym: "n-isopentenyladenine" EXACT [pubchem.compound:92180]
+xref: drugbank:DB08768
+xref: chebi:CHEBI:17660
+xref: pubchem.compound:92180
+xref: smiles:CC(=CCNC1=NC=NC2=C1NC=N2)C
+xref: inchi:InChI=1S/C10H13N5/c1-7(2)3-4-11-9-8-10(13-5-12-8)15-6-14-9/h3,5-6H,4H2,1-2H3,(H2,11,12,13,14,15)
 
 [Term]
 id: HBP:HBP00282
 name: maitotoxin
 def: "Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former" [pmid:10537045]
+synonym: "9P59GES78D" EXACT [pubchem.compound:71460273]
+synonym: "CHEMBL2152261" EXACT [pubchem.compound:71460273]
+synonym: "HSDB 7753" EXACT [pubchem.compound:71460273]
+synonym: "Maitotoxin" EXACT [pubchem.compound:71460273]
+synonym: "Maitotoxin 1" EXACT [pubchem.compound:71460273]
+synonym: "UNII-9P59GES78D" EXACT [pubchem.compound:71460273]
+xref: cas:59392-53-9
+xref: pubchem.compound:71460273
+xref: chemspider:25991548
+xref: chembl:ChEMBL2152261
+xref: smiles:C[C@H](CC[C@@H]([C@@H]([C@H](C)C[C@H](C(=C)/C(=C/CO)/C)O)O)OS(=O)(=O)[O-])[C@H]([C@@H](C)[C@H]1[C@@H]([C@@H]([C@H]2[C@H](O1)[C@@H](C[C@]3([C@H](O2)C[C@H]4[C@H](O3)C[C@]5([C@H](O4)[C@H]([C@H]6[C@H](O5)C[C@H]([C@H](O6)[C@@H]([C@H](C[C@H]7[C@@H]([C@@H]([C@H]8[C@H](O7)C[C@H]9[C@H](O8)C[C@H]1[C@H](O9)[C@H]([C@@H]2[C@@H](O1)[C@@H]([C@H]([C@@H](O2)[C@H]1[C@@H]([C@H]([C@H]2[C@@H](O1)C[C@H]([C@@H](O2)[C@@H](C[C@H](C[C@H]1[C@@H]([C@H]([C@H]2[C@@H](O1)C[C@H]([C@@H](O2)[C@H]1[C@@H](C[C@]2([C@H](O1)[C@@H]([C@]1([C@H](O2)C[C@]2([C@H](O1)CC[C@]1([C@H](O2)C[C@]2([C@H](O1)C[C@H]1[C@H](O2)CC[C@H](O1)[C@]1([C@@H](C[C@H]2[C@](O1)(C[C@H]1[C@](O2)(CC[C@]2([C@H](O1)C[C@H]1[C@](O2)(C[C@H]2[C@H](O1)C/C=C\[C@H]1[C@H](O2)C[C@H]2[C@](O1)(C[C@]1([C@H](O2)C[C@H]2[C@](O1)(CC[C@H](O2)[C@H]([C@@H](C[C@@H](C)[C@@H](C)CC=C)O)O)C)C)C)C)C)C)C)O)C)C)C)C)C)O)C)O)O)O)O)O)O)O)O)O)O)O)O)O)OS(=O)(=O)[O-])O)O)O)O)C)C)O)O)O)O.[Na+].[Na+]
+xref: inchi:InChI=1S/C164H258O68S2.2Na/c1-24-26-65(2)68(5)41-74(168)117(179)85-33-36-152(11)106(203-85)55-109-162(21,231-152)64-161(20)105(210-109)51-89-83(220-161)28-25-27-82-99(199-89)59-157(16)108(202-82)56-107-153(12,230-157)39-38-151(10)112(211-107)61-158(17)111(224-151)54-101(176)163(22,232-158)103-32-31-84-90(204-103)53-110-156(15,219-84)62-113-150(9,223-110)37-34-102-155(14,225-113)63-114-164(23,227-102)147(192)149-159(18,226-114)58-81(175)134(218-149)133-79(173)47-93-136(216-133)120(182)119(181)92(200-93)44-72(166)43-76(170)131-77(171)46-94-137(214-131)122(184)124(186)143(207-94)145-126(188)125(187)144-146(217-145)128(190)139-97(208-144)50-88-87(206-139)49-96-138(205-88)127(189)141(229-234(196,197)198)95(201-96)45-75(169)118(180)132-78(172)48-98-140(215-132)129(191)148-160(19,221-98)60-100-91(209-148)52-104-154(13,222-100)57-80(174)135-142(212-104)123(185)121(183)130(213-135)71(8)115(177)67(4)29-30-86(228-233(193,194)195)116(178)69(6)42-73(167)70(7)66(3)35-40-165;;/h24-25,28,35,65,67-69,71-149,165-192H,1,7,26-27,29-34,36-64H2,2-6,8-23H3,(H,193,194,195)(H,196,197,198);;/q;2*+1/p-2/b28-25-,66-35+;;/t65-,67+,68+,69+,71+,72+,73+,74+,75-,76+,77+,78+,79+,80+,81+,82+,83-,84+,85-,86-,87-,88+,89+,90-,91-,92-,93-,94-,95-,96+,97-,98+,99-,100+,101+,102+,103-,104+,105-,106-,107+,108-,109+,110+,111-,112-,113+,114+,115+,116+,117-,118+,119-,120+,121+,122+,123-,124+,125+,126+,127+,128+,129-,130-,131-,132-,133+,134+,135+,136+,137+,138+,139-,140+,141-,142-,143+,144-,145+,146+,147-,148+,149+,150-,151+,152+,153-,154-,155-,156-,157+,158+,159-,160-,161+,162-,163+,164+;;/m0../s1
 
 [Term]
 id: HBP:HBP00283
 name: olomoucine
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
+synonym: "101622-51-9" EXACT [pubchem.compound:4592]
+synonym: "1966AH" EXACT [pubchem.compound:4592]
+synonym: "1w0x" EXACT [pubchem.compound:4592]
+synonym: "2,6,9-Trisubstituted purine deriv. 26" EXACT [pubchem.compound:4592]
+synonym: "2-(2-Hydroxyethylamino)-6-(benzylamino)-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "2-(2-Hydroxyethylamino)-6-benzylamino-9-isopropylpurine" EXACT [pubchem.compound:4592]
+synonym: "2-(2-Hydroxyethylamino)-6-benzylamino-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "2-(6-(benzylamino)-9-methyl-9H-purin-2-ylamino)ethanol" EXACT [pubchem.compound:4592]
+synonym: "2-(Hydroxyethylamino)-6-benzylamino-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "2-({9-methyl-6-[benzylamino]purin-2-yl}amino)ethan-1-ol" EXACT [pubchem.compound:4592]
+synonym: "2-[[6-(benzylamino)-9-methyl-purin-2-yl]amino]ethanol" EXACT [pubchem.compound:4592]
+synonym: "2-[[6-(benzylamino)-9-methylpurin-2-yl]amino]ethanol" EXACT [pubchem.compound:4592]
+synonym: "2-[[9-Methyl-6-[(phenylmethyl)amino]-9H-purin-2-yl]amino]-ethanol" EXACT [pubchem.compound:4592]
+synonym: "2-[[9-Methyl-6-[(phenylmethyl)amino]-9H-purin-2-yl]amino]ethanol" EXACT [pubchem.compound:4592]
+synonym: "2-[[9-Methyl-6-[(phenylmethyl)amino]-9H-purin-2-yl]amino]ethanol, 9CI" EXACT [pubchem.compound:4592]
+synonym: "2-[[9-methyl-6-(phenylmethylamino)purin-2-yl]amino]ethanol" EXACT [pubchem.compound:4592]
+synonym: "2-{[6-(benzylamino)-9-methyl-9H-purin-2-yl]amino}ethan-1-ol" EXACT [pubchem.compound:4592]
+synonym: "2-{[6-(benzylamino)-9-methyl-9h-purin-2-yl]amino}ethanol" EXACT [pubchem.compound:4592]
+synonym: "4erk" EXACT [pubchem.compound:4592]
+synonym: "6-(Benzylamino)-2-(2-hydroxyethylamino)-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "6-(benzylamino)-2-[(2-hydroxyethyl)amino]-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "6-Benylamino-2-(2-hydroxyethylamino)-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "6-Benzylamino-2-(2-hydroxyethylamino)-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "6-benzylamino-2-[2-hydroxyethylamino]-9-methylpurine" EXACT [pubchem.compound:4592]
+synonym: "6A839B2HYS" EXACT [pubchem.compound:4592]
+synonym: "AC1L1IID" EXACT [pubchem.compound:4592]
+synonym: "AC1Q4XZU" EXACT [pubchem.compound:4592]
+synonym: "ACMC-20cp0o" EXACT [pubchem.compound:4592]
+synonym: "AKOS005145988" EXACT [pubchem.compound:4592]
+synonym: "BCBcMAP01_000205" EXACT [pubchem.compound:4592]
+synonym: "BDBM5718" EXACT [pubchem.compound:4592]
+synonym: "BIO3107" EXACT [pubchem.compound:4592]
+synonym: "BMK1-E10" EXACT [pubchem.compound:4592]
+synonym: "BRD-K82731415-001-03-9" EXACT [pubchem.compound:4592]
+synonym: "BRD-K82731415-001-04-7" EXACT [pubchem.compound:4592]
+synonym: "BSPBio_000990" EXACT [pubchem.compound:4592]
+synonym: "Bio1_000336" EXACT [pubchem.compound:4592]
+synonym: "Bio1_000825" EXACT [pubchem.compound:4592]
+synonym: "Bio1_001314" EXACT [pubchem.compound:4592]
+synonym: "Bio2_000335" EXACT [pubchem.compound:4592]
+synonym: "Bio2_000815" EXACT [pubchem.compound:4592]
+synonym: "BiomolKI2_000052" EXACT [pubchem.compound:4592]
+synonym: "BiomolKI_000046" EXACT [pubchem.compound:4592]
+synonym: "C-28477" EXACT [pubchem.compound:4592]
+synonym: "C15H18N6O" EXACT [pubchem.compound:4592]
+synonym: "CBiol_002050" EXACT [pubchem.compound:4592]
+synonym: "CCG-100650" EXACT [pubchem.compound:4592]
+synonym: "CHEMBL280074" EXACT [pubchem.compound:4592]
+synonym: "CJ-26517" EXACT [pubchem.compound:4592]
+synonym: "CTK4A0020" EXACT [pubchem.compound:4592]
+synonym: "D00BPA" EXACT [pubchem.compound:4592]
+synonym: "DB02116" EXACT [pubchem.compound:4592]
+synonym: "DTXSID90144068" EXACT [pubchem.compound:4592]
+synonym: "EU-0100883" EXACT [pubchem.compound:4592]
+synonym: "Ethanol, 2-[[9-methyl-6-[(phenylmethyl)amino]-9H-purin-2-yl]amino]-" EXACT [pubchem.compound:4592]
+synonym: "Ethanol,2-[[9-methyl-6-[(phenylmethyl)amino]-9H-purin-2-yl]amino]-" EXACT [pubchem.compound:4592]
+synonym: "FT-0642456" EXACT [pubchem.compound:4592]
+synonym: "GTVPOLSIJWJJNY-UHFFFAOYSA-N" EXACT [pubchem.compound:4592]
+synonym: "HMS1362B11" EXACT [pubchem.compound:4592]
+synonym: "HMS1792B11" EXACT [pubchem.compound:4592]
+synonym: "HMS1990B11" EXACT [pubchem.compound:4592]
+synonym: "HMS3262B08" EXACT [pubchem.compound:4592]
+synonym: "HMS3267L09" EXACT [pubchem.compound:4592]
+synonym: "HMS3403B11" EXACT [pubchem.compound:4592]
+synonym: "HMS3650F19" EXACT [pubchem.compound:4592]
+synonym: "IDI1_002090" EXACT [pubchem.compound:4592]
+synonym: "IN1179" EXACT [pubchem.compound:4592]
+synonym: "IN1182" EXACT [pubchem.compound:4592]
+synonym: "InSolution&trade; Olomoucine" EXACT [pubchem.compound:4592]
+synonym: "J-000453" EXACT [pubchem.compound:4592]
+synonym: "KB-162429" EXACT [pubchem.compound:4592]
+synonym: "KBio2_000330" EXACT [pubchem.compound:4592]
+synonym: "KBio2_002898" EXACT [pubchem.compound:4592]
+synonym: "KBio2_005466" EXACT [pubchem.compound:4592]
+synonym: "KBio3_000659" EXACT [pubchem.compound:4592]
+synonym: "KBio3_000660" EXACT [pubchem.compound:4592]
+synonym: "KBioGR_000330" EXACT [pubchem.compound:4592]
+synonym: "KBioSS_000330" EXACT [pubchem.compound:4592]
+synonym: "Kinome_2870" EXACT [pubchem.compound:4592]
+synonym: "LP00883" EXACT [pubchem.compound:4592]
+synonym: "Lopac-O-0886" EXACT [pubchem.compound:4592]
+synonym: "Lopac0_000883" EXACT [pubchem.compound:4592]
+synonym: "MFCD00189360" EXACT [pubchem.compound:4592]
+synonym: "MolPort-003-849-700" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-01" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-02" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-03" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-04" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-05" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-06" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-07" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-08" EXACT [pubchem.compound:4592]
+synonym: "NCGC00015763-09" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-01" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-02" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-03" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-04" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-05" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-06" EXACT [pubchem.compound:4592]
+synonym: "NCGC00025096-07" EXACT [pubchem.compound:4592]
+synonym: "NCGC00261568-01" EXACT [pubchem.compound:4592]
+synonym: "NCI60_022916" EXACT [pubchem.compound:4592]
+synonym: "NSC 666096" EXACT [pubchem.compound:4592]
+synonym: "NSC-666096" EXACT [pubchem.compound:4592]
+synonym: "NSC666096" EXACT [pubchem.compound:4592]
+synonym: "O 0886" EXACT [pubchem.compound:4592]
+synonym: "OLO" EXACT [pubchem.compound:4592]
+synonym: "Olomoucine, >=98% (HPLC)" EXACT [pubchem.compound:4592]
+synonym: "Olomucine" EXACT [pubchem.compound:4592]
+synonym: "RT-014854" EXACT [pubchem.compound:4592]
+synonym: "SCHEMBL135056" EXACT [pubchem.compound:4592]
+synonym: "SMP1_000281" EXACT [pubchem.compound:4592]
+synonym: "SR-01000075518" EXACT [pubchem.compound:4592]
+synonym: "SR-01000075518-1" EXACT [pubchem.compound:4592]
+synonym: "SR-01000075518-3" EXACT [pubchem.compound:4592]
+synonym: "SR-01000075518-6" EXACT [pubchem.compound:4592]
+synonym: "ST50298830" EXACT [pubchem.compound:4592]
+synonym: "TRA0035611" EXACT [pubchem.compound:4592]
+synonym: "Tocris-1284" EXACT [pubchem.compound:4592]
+synonym: "Tox21_500883" EXACT [pubchem.compound:4592]
+synonym: "UNII-6A839B2HYS" EXACT [pubchem.compound:4592]
+synonym: "UPCMLD-DP136" EXACT [pubchem.compound:4592]
+synonym: "UPCMLD-DP136:001" EXACT [pubchem.compound:4592]
+synonym: "UPCMLD-DP136:002" EXACT [pubchem.compound:4592]
+synonym: "ZINC1641925" EXACT [pubchem.compound:4592]
+synonym: "ZX-AFC001655" EXACT [pubchem.compound:4592]
+synonym: "olomoucine" EXACT [pubchem.compound:4592]
+synonym: "purine deriv. 5" EXACT [pubchem.compound:4592]
+xref: drugbank:DB02116
+xref: smiles:CN1C=NC2=C1N=C(NCCO)N=C2NCC1=CC=CC=C1
+xref: pubchem.compound:4592
+xref: inchi:InChI=1S/C15H18N6O/c1-21-10-18-12-13(17-9-11-5-3-2-4-6-11)19-15(16-7-8-22)20-14(12)21/h2-6,10,22H,7-9H2,1H3,(H2,16,17,19,20)
 
 [Term]
 id: HBP:HBP00284
 name: oxazolidinedione
 def: "Inhibitor of tau aggregation" [pmid:26751493]
+synonym: "1,3-oxazolidin-2,4-dione" EXACT [pubchem.compound:97389]
+synonym: "1,3-oxazolidine-2,4-dione" EXACT [pubchem.compound:97389]
+synonym: "12770-97-7" EXACT [pubchem.compound:97389]
+synonym: "153301-EP2281822A1" EXACT [pubchem.compound:97389]
+synonym: "1572AB" EXACT [pubchem.compound:97389]
+synonym: "2,4-Oxazolidenedione" EXACT [pubchem.compound:97389]
+synonym: "2,4-Oxazolidinedione" EXACT [pubchem.compound:97389]
+synonym: "2,4oxazolidinedione" EXACT [pubchem.compound:97389]
+synonym: "2346-26-1" EXACT [pubchem.compound:97389]
+synonym: "346O261" EXACT [pubchem.compound:97389]
+synonym: "A816734" EXACT [pubchem.compound:97389]
+synonym: "AC1L3YF0" EXACT [pubchem.compound:97389]
+synonym: "AJ-30743" EXACT [pubchem.compound:97389]
+synonym: "AK-80133" EXACT [pubchem.compound:97389]
+synonym: "AKOS002529400" EXACT [pubchem.compound:97389]
+synonym: "AN-50728" EXACT [pubchem.compound:97389]
+synonym: "ANW-57979" EXACT [pubchem.compound:97389]
+synonym: "CJ-28984" EXACT [pubchem.compound:97389]
+synonym: "CMLDBU00003511" EXACT [pubchem.compound:97389]
+synonym: "COWNFYYYZFRNOY-UHFFFAOYSA-N" EXACT [pubchem.compound:97389]
+synonym: "CTK0H9315" EXACT [pubchem.compound:97389]
+synonym: "DA-18172" EXACT [pubchem.compound:97389]
+synonym: "DS-15871" EXACT [pubchem.compound:97389]
+synonym: "F2167-1227" EXACT [pubchem.compound:97389]
+synonym: "FT-0704394" EXACT [pubchem.compound:97389]
+synonym: "KB-67472" EXACT [pubchem.compound:97389]
+synonym: "KS-00000MOC" EXACT [pubchem.compound:97389]
+synonym: "MolPort-018-280-326" EXACT [pubchem.compound:97389]
+synonym: "NSC 120350" EXACT [pubchem.compound:97389]
+synonym: "NSC-120350" EXACT [pubchem.compound:97389]
+synonym: "NSC120350" EXACT [pubchem.compound:97389]
+synonym: "OXAZOLIDINE-2,4-DIONE" EXACT [pubchem.compound:97389]
+synonym: "Oxazolidinedione" EXACT [pubchem.compound:97389]
+synonym: "R22D15229R" EXACT [pubchem.compound:97389]
+synonym: "SC-49693" EXACT [pubchem.compound:97389]
+synonym: "SCHEMBL123971" EXACT [pubchem.compound:97389]
+synonym: "SCHEMBL1395587" EXACT [pubchem.compound:97389]
+synonym: "SCHEMBL8159833" EXACT [pubchem.compound:97389]
+synonym: "TC-146724" EXACT [pubchem.compound:97389]
+synonym: "UNII-R22D15229R" EXACT [pubchem.compound:97389]
+synonym: "Z56762271" EXACT [pubchem.compound:97389]
+synonym: "ZINC1709820" EXACT [pubchem.compound:97389]
+synonym: "hydroxyoxazolinone" EXACT [pubchem.compound:97389]
+xref: pubchem.compound:97389
+xref: inchi:InChI=1S/C3H3NO3/c5-2-1-7-3(6)4-2/h1H2,(H,4,5,6)
+xref: smiles:C1C(=O)NC(=O)O1
 
 [Term]
 id: HBP:HBP00285
 name: sudoxicam
 def: "Inhibitor of tau aggregation" [pmid:26751493]
+synonym: "(3E)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
+synonym: "(3Z)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
+synonym: "2H-1,2-Benzothiazine-3-carboxamide, 4-hydroxy-2-methyl-N-2-thiazolyl-, 1,1-dioxide" EXACT [pubchem.compound:54682951]
+synonym: "3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
+synonym: "34042-85-8" EXACT [pubchem.compound:54682951]
+synonym: "4-Hydroxy-2-methyl-N-(1,3-thiazol-2-yl)-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide" EXACT [pubchem.compound:54682951]
+synonym: "4-Hydroxy-2-methyl-N-1,3-thiazol-2-yl-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide" EXACT [pubchem.compound:54682951]
+synonym: "4-Hydroxy-2-methyl-N-2-thiazolyl-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide" EXACT [pubchem.compound:54682951]
+synonym: "4-hydroxy-2-methyl-1,1-dioxo-N-thiazol-2-yl-1$l^{6},2-benzothiazine-3-carboxamide" EXACT [pubchem.compound:54682951]
+synonym: "4-hydroxy-2-methyl-N-(2-thiazolyl)-2H-1,2-benzothiazine-3-carboxamide-1,1-dioxide" EXACT [pubchem.compound:54682951]
+synonym: "AC1L1W79" EXACT [pubchem.compound:54682951]
+synonym: "AC1NSEW2" EXACT [pubchem.compound:54682951]
+synonym: "AC1NSM46" EXACT [pubchem.compound:54682951]
+synonym: "ACM34042858" EXACT [pubchem.compound:54682951]
+synonym: "AKOS030239604" EXACT [pubchem.compound:54682951]
+synonym: "BRN 0628704" EXACT [pubchem.compound:54682951]
+synonym: "CHEMBL20634" EXACT [pubchem.compound:54682951]
+synonym: "CP 15973" EXACT [pubchem.compound:54682951]
+synonym: "CP-15,973" EXACT [pubchem.compound:54682951]
+synonym: "CP-15973" EXACT [pubchem.compound:54682951]
+synonym: "CTK8G3246" EXACT [pubchem.compound:54682951]
+synonym: "D05937" EXACT [pubchem.compound:54682951]
+synonym: "DTXSID50187653" EXACT [pubchem.compound:54682951]
+synonym: "EINECS 251-808-7" EXACT [pubchem.compound:54682951]
+synonym: "FT-0674694" EXACT [pubchem.compound:54682951]
+synonym: "J-019435" EXACT [pubchem.compound:54682951]
+synonym: "LS-40541" EXACT [pubchem.compound:54682951]
+synonym: "MLS006010801" EXACT [pubchem.compound:54682951]
+synonym: "N-(2-Thiazolyl)-4-hydroxy-2-methyl-2H-1,2-benzothiazine-3-carboxamide 1,1-Dioxide" EXACT [pubchem.compound:54682951]
+synonym: "NSC 615046" EXACT [pubchem.compound:54682951]
+synonym: "NSC-615046" EXACT [pubchem.compound:54682951]
+synonym: "NSC615046" EXACT [pubchem.compound:54682951]
+synonym: "Oprea1_704902" EXACT [pubchem.compound:54682951]
+synonym: "SCHEMBL35067" EXACT [pubchem.compound:54682951]
+synonym: "SCHEMBL35068" EXACT [pubchem.compound:54682951]
+synonym: "SMR004701482" EXACT [pubchem.compound:54682951]
+synonym: "SUDOXICAM" EXACT [pubchem.compound:54682951]
+synonym: "SYCHUQUJURZQMO-UHFFFAOYSA-N" EXACT [pubchem.compound:54682951]
+synonym: "Sudoxicam (USAN/INN)" EXACT [pubchem.compound:54682951]
+synonym: "Sudoxicam [USAN:BAN:INN]" EXACT [pubchem.compound:54682951]
+synonym: "Sudoxicam [USAN:INN:BAN]" EXACT [pubchem.compound:54682951]
+synonym: "Sudoxicamum" EXACT [pubchem.compound:54682951]
+synonym: "Sudoxicamum [INN-Latin]" EXACT [pubchem.compound:54682951]
+synonym: "UNII-X033PDI962" EXACT [pubchem.compound:54682951]
+synonym: "X033PDI962" EXACT [pubchem.compound:54682951]
+synonym: "ZINC5699183" EXACT [pubchem.compound:54682951]
+xref: cas:34042-85-8
+xref: pubchem.compound:54682951
+xref: smiles:CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=NC=CS3
+xref: inchi:InChI=1S/C13H11N3O4S2/c1-16-10(12(18)15-13-14-6-7-21-13)11(17)8-4-2-3-5-9(8)22(16,19)20/h2-7,17H,1H3,(H,14,15,18)
 
 [Term]
 id: HBP:HBP00286
 name: thiohydantoin
 def: "Inhibitor of tau aggregation" [pmid:26751493]
+xref: chemspider:1069421
+xref: chembl:CHEMBL1958109
+xref: smiles:O=C1CNC(=S)N1
+xref: inchi:InChI=1S/C3H4N2OS/c6-2-1-4-3(7)5-2/h1H2,(H2,4,5,6,7)
 
 [Term]
 id: HBP:HBP00287
@@ -1532,6 +2818,55 @@ def: "Inhibitor of tau aggregation" [pmid:26751493]
 id: HBP:HBP00288
 name: tideglusib
 def: "Irreversibly inhibits GSK3B activity" [pmid:22102280]
+synonym: "1,2,4-Thiadiazolidine-3,5-dione, 2-(1-naphthalenyl)-4-(phenylmethyl)-" EXACT [pubchem.compound:11313622]
+synonym: "4-Benzyl-2-(naphthalen-1-yl)-1,2,4-thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
+synonym: "4-Benzyl-2-(naphthalen-1-yl)-[1,2,4]thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
+synonym: "4-benzyl-2-(naphthalen-1-yl)-(1,2,4)thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
+synonym: "4CA-1249" EXACT [pubchem.compound:11313622]
+synonym: "865854-05-3" EXACT [pubchem.compound:11313622]
+synonym: "AK176015" EXACT [pubchem.compound:11313622]
+synonym: "AKOS025149085" EXACT [pubchem.compound:11313622]
+synonym: "AOB5562" EXACT [pubchem.compound:11313622]
+synonym: "BC600768" EXACT [pubchem.compound:11313622]
+synonym: "BCP06016" EXACT [pubchem.compound:11313622]
+synonym: "BDBM50166940" EXACT [pubchem.compound:11313622]
+synonym: "C19H14N2O2S" EXACT [pubchem.compound:11313622]
+synonym: "CHEMBL3545157" EXACT [pubchem.compound:11313622]
+synonym: "CS-0613" EXACT [pubchem.compound:11313622]
+synonym: "D0UT7X" EXACT [pubchem.compound:11313622]
+synonym: "DA-41071" EXACT [pubchem.compound:11313622]
+synonym: "DB12129" EXACT [pubchem.compound:11313622]
+synonym: "DTXSID90235682" EXACT [pubchem.compound:11313622]
+synonym: "EX-A600" EXACT [pubchem.compound:11313622]
+synonym: "FT-0700382" EXACT [pubchem.compound:11313622]
+synonym: "GTPL6929" EXACT [pubchem.compound:11313622]
+synonym: "HY-14872" EXACT [pubchem.compound:11313622]
+synonym: "J-514478" EXACT [pubchem.compound:11313622]
+synonym: "KB-81154" EXACT [pubchem.compound:11313622]
+synonym: "MolPort-028-599-952" EXACT [pubchem.compound:11313622]
+synonym: "NP 031112" EXACT [pubchem.compound:11313622]
+synonym: "NP-031112" EXACT [pubchem.compound:11313622]
+synonym: "NP-031112|||4-Benzyl-2-naphthalen-1-yl-1,2,4-thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
+synonym: "NP-12" EXACT [pubchem.compound:11313622]
+synonym: "NP031112" EXACT [pubchem.compound:11313622]
+synonym: "Q747Y6TT42" EXACT [pubchem.compound:11313622]
+synonym: "RL05359" EXACT [pubchem.compound:11313622]
+synonym: "SB19268" EXACT [pubchem.compound:11313622]
+synonym: "SCHEMBL676929" EXACT [pubchem.compound:11313622]
+synonym: "Tideglusib" EXACT [pubchem.compound:11313622]
+synonym: "Tideglusib (NP031112, NP-12)" EXACT [pubchem.compound:11313622]
+synonym: "Tideglusib [INN]" EXACT [pubchem.compound:11313622]
+synonym: "Tideglusib(NP-031112)" EXACT [pubchem.compound:11313622]
+synonym: "Tideglusib, >=98% (HPLC)" EXACT [pubchem.compound:11313622]
+synonym: "Tideglusib,CAS:865854-05-3" EXACT [pubchem.compound:11313622]
+synonym: "UNII-Q747Y6TT42" EXACT [pubchem.compound:11313622]
+synonym: "W-5777" EXACT [pubchem.compound:11313622]
+synonym: "X5395" EXACT [pubchem.compound:11313622]
+synonym: "ZINC13985228" EXACT [pubchem.compound:11313622]
+synonym: "s2823" EXACT [pubchem.compound:11313622]
+xref: pubchem.compound:11313622
+xref: smiles:O=C3SN(c1cccc2c1cccc2)C(=O)N3Cc4ccccc4
+xref: inchi:InChI=1S/C19H14N2O2S/c22-18-20(13-14-7-2-1-3-8-14)19(23)24-21(18)17-12-6-10-15-9-4-5-11-16(15)17/h1-12H,13H2
 
 [Term]
 id: HBP:HBP00289
@@ -1593,6 +2928,9 @@ def: "The cis conformation of phosphorylated tau is considered to be the main pa
 id: HBP:HBP00299
 name: MPT0G211
 def: "MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells." [pmid:29844403]
+xref: cas:2151853-97-1
+xref: smiles:C1=CC(=CC=C1CNC2=CC=CC3=C2N=CC=C3)C(=O)NC
+xref: inchi:InChI=1S/C17H15N3O2/c21-17(20-22)14-8-6-12(7-9-14)11-19-15-5-1-3-13-4-2-10-18-16(13)15/h1-10,19,22H,11H2,(H,20,21)
 
 [Term]
 id: HBP:HBP00300
@@ -1615,6 +2953,9 @@ is_a: HBP:HBP00307 ! Tau antibody
 id: HBP:HBP00303
 name: 8-nitro-cGMP
 def: "One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers." [pmid:28213625, pmid:27601475]
+xref: chebi:CHEBI:136665
+xref: smiles:N1C(=NC2=C(N=C(N2[C@@H]3O[C@@H]4COP(O[C@H]4[C@H]3O)(=O)O)[N+]([O-])=O)C1=O)N
+xref: inchi:InChI=1S/C10H11N6O9P/c11-9-13-6-3(7(18)14-9)12-10(16(19)20)15(6)8-4(17)5-2(24-8)1-23-26(21,22)25-5/h2,4-5,8,17H,1H2,(H,21,22)(H3,11,13,14,18)/t2-,4-,5-,8-/m1/s1
 
 [Term]
 id: HBP:HBP00304
@@ -1646,7 +2987,18 @@ id: HBP:HBP00309
 name: S 24795
 def: "A partial agonist at α7 nAChR" [pmid:18187166, pmid:18265960, pmid:18034231]
 synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT []
-xref: pubchem:9888248
+synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT [pubchem.compound:9888248]
+synonym: "2-[2-(4-bromophenyl)-2-oxoethyl]-1-methylpyridiniumiodide" EXACT [pubchem.compound:9888248]
+synonym: "304679-75-2" EXACT [pubchem.compound:9888248]
+synonym: "AKOS024457657" EXACT [pubchem.compound:9888248]
+synonym: "API0014115" EXACT [pubchem.compound:9888248]
+synonym: "KB-80442" EXACT [pubchem.compound:9888248]
+synonym: "LERUHBBUGAOYOD-UHFFFAOYSA-M" EXACT [pubchem.compound:9888248]
+synonym: "MolPort-023-276-831" EXACT [pubchem.compound:9888248]
+synonym: "S 24795" EXACT [pubchem.compound:9888248]
+synonym: "S 24795, >=98% (HPLC)" EXACT [pubchem.compound:9888248]
+synonym: "SCHEMBL5948853" EXACT [pubchem.compound:9888248]
+xref: pubchem.compound:9888248
 xref: chemspider:8063920
 xref: inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13(16)10-14(17)11-5-7-12(15)8-6-11;/h2-9H,10H2,1H3;1H/q+1;/p-1
 xref: smiles:C[N+]1=CC=CC=C1CC(=O)C2=CC=C(C=C2)Br.[I-]
@@ -1655,12 +3007,55 @@ xref: smiles:C[N+]1=CC=CC=C1CC(=O)C2=CC=C(C=C2)Br.[I-]
 id: HBP:HBP00310
 name: GTS-21
 def: "GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent." [pmid:25514383]
-synonym: "3-[(3E)-3-[(2,4-dimethoxyphenyl)methylidene]-3,4,5,6-tetrahydropyridin-2-yl]pyridine" EXACT [drugbank:DB05708]
-synonym: "GTS-21" EXACT [drugbank:DB05708]
+synonym: "(3E)-3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine" EXACT [pubchem.compound:5310985]
+synonym: "(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-3,4,5,6-TETRAHYDRO-2,3''-BIPYRIDINE" EXACT [pubchem.compound:5310985]
+synonym: "148372-04-7" EXACT [pubchem.compound:5310985]
+synonym: "2,3'-Bipyridine, 3-((2,4-dimethoxyphenyl)methylene)-3,4,5,6-tetrahydro-, (3E)-" EXACT [pubchem.compound:5310985]
+synonym: "2,4-Dimethoxybenzylidene anabaseine" EXACT [pubchem.compound:5310985]
+synonym: "2wnj" EXACT [pubchem.compound:5310985]
+synonym: "3 (2,4 dimethoxybenzylidene)anabaseine" EXACT [pubchem.compound:5310985]
+synonym: "3,4,5,6-Tetrahydro-3-(2,4-dimethoxybenzylidene)-2,3'-bipyridine" EXACT [pubchem.compound:5310985]
+synonym: "3-(2,4-Dimethoxy-benzylidene)-3,4,5,6-tetrahydro-[2,3']bipyridinyl" EXACT [pubchem.compound:5310985]
+synonym: "3-(2,4-Dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine" EXACT [pubchem.compound:5310985]
+synonym: "3-(2,4-dimethoxybenzylidene)anabaseine" EXACT [pubchem.compound:5310985]
+synonym: "3-(3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydropyridin-2-yl)pyridine" EXACT [pubchem.compound:5310985]
 synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
+synonym: "3-[(2,4-dimethoxy)benzylidene]-anabaseine" EXACT [pubchem.compound:5310985]
+synonym: "3-[(2,4-dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-2,3'-Bipyridine" EXACT [pubchem.compound:5310985]
+synonym: "3-[(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-5,6-DIHYDRO-4H-PYRIDIN-2-YL]PYRIDINE" EXACT [pubchem.compound:5310985]
+synonym: "3-[(3E)-3-[(2,4-dimethoxyphenyl)methylidene]-3,4,5,6-tetrahydropyridin-2-yl]pyridine" EXACT [drugbank:DB05708]
+synonym: "3-[(5E)-5-[(2,4-dimethoxyphenyl)methylidene]-3,4-dihydro-2H-pyridin-6-yl]pyridine" EXACT [pubchem.compound:5310985]
+synonym: "3-[(E)-(2,4-Dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-2,3'-bipyridine" EXACT [pubchem.compound:5310985]
+synonym: "3-[1-(2,4-Dimethoxy-phenyl)-meth-(E)-ylidene]-3,4,5,6-tetrahydro-[2,3'']bipyridinyl" EXACT [pubchem.compound:5310985]
+synonym: "419A471" EXACT [pubchem.compound:5310985]
+synonym: "8S399XDN2K" EXACT [pubchem.compound:5310985]
+synonym: "AC1NSJRW" EXACT [pubchem.compound:5310985]
+synonym: "AKOS005146470" EXACT [pubchem.compound:5310985]
+synonym: "ASIS-0106" EXACT [pubchem.compound:5310985]
+synonym: "BBL035625" EXACT [pubchem.compound:5310985]
+synonym: "BDBM50061564" EXACT [pubchem.compound:5310985]
+synonym: "BDBM86543" EXACT [pubchem.compound:5310985]
+synonym: "C19905" EXACT [pubchem.compound:5310985]
+synonym: "CAS_156223-05-1" EXACT [pubchem.compound:5310985]
+synonym: "CHEMBL134713" EXACT [pubchem.compound:5310985]
+synonym: "DB05708" EXACT [pubchem.compound:5310985]
+synonym: "DMXB-A" EXACT [pubchem.compound:5310985]
+synonym: "Dimethoxybenzylidene anabaseine" EXACT [pubchem.compound:5310985]
 synonym: "GTS 21" EXACT [pmid:25514383]
+synonym: "GTS-21" EXACT [drugbank:DB05708]
+synonym: "Gts-21" EXACT [pubchem.compound:5310985]
+synonym: "KB-77635" EXACT [pubchem.compound:5310985]
+synonym: "MolPort-004-975-791" EXACT [pubchem.compound:5310985]
+synonym: "NSC_122225" EXACT [pubchem.compound:5310985]
+synonym: "SCHEMBL316745" EXACT [pubchem.compound:5310985]
+synonym: "SCHEMBL316746" EXACT [pubchem.compound:5310985]
+synonym: "STL441849" EXACT [pubchem.compound:5310985]
+synonym: "UNII-8S399XDN2K" EXACT [pubchem.compound:5310985]
+synonym: "X5074" EXACT [pubchem.compound:5310985]
+synonym: "X5075" EXACT [pubchem.compound:5310985]
+synonym: "ZINC860" EXACT [pubchem.compound:5310985]
 xref: chemspider:4470526
-xref: pubchem:5310985
+xref: pubchem.compound:5310985
 xref: drugbank:DB05708
 xref: inchi:InChI=1S/C19H20N2O2/c1-22-17-8-7-14(18(12-17)23-2)11-15-5-4-10-21-19(15)16-6-3-9-20-13-16/h3,6-9,11-13H,4-5,10H2,1-2H3/b15-11+
 xref: smiles:[H]\C(=C1\CCCN=C1C1=CN=CC=C1)C1=C(OC)C=C(OC)C=C1
@@ -1711,9 +3106,9 @@ def: "the process of assembling a receptor pentamer from the Nicotinic acetylcho
 id: HBP:HBP00319
 name: 4-OH-GTS-21
 def: "A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl" [pmid:25514383]
-synonym: "4OH-GTS-21" EXACT [mesh:C116666]
-synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
 synonym: "3-(4-hydroxy-2-methoxybenzylidene) anabaseine" EXACT [pmid:25514383]
+synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
+synonym: "4OH-GTS-21" EXACT [mesh:C116666]
 xref: mesh:C116666
 xref: smiles:COC1=C(C=CC(=C1)O)C=C2CCCN=C2C3=CC=CN=C3
 xref: inchi:InChI=1S/C18H18N2O2/c1-22-17-11-16(21)7-6-13(17)10-14-4-3-9-20-18(14)15-5-2-8-19-12-15/h2,5-8,10-12,21H,3-4,9H2,1H3/b14-10+
@@ -1728,13 +3123,40 @@ id: HBP:HBP00321
 name: Tau aggregation inhibitor
 def: "A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates" [pmid:23484434]
 xref: chebi:CHEBI:142738
-xref: pubchem.compound:118995
 
 [Term]
 id: HBP:HBP00322
 name: 1,3-Thiazole-2,4-diamine
 def: "A thiazole with two amino substituents" [pmid:21353545, pmid:20524425, pmid:11148059]
+synonym: "1,3-thiazole-2,4-diamine" EXACT [pubchem.compound:118995]
 synonym: "2,4-thiazolediamine" EXACT [pubchem.compound:118995]
+synonym: "67355-26-4" EXACT [pubchem.compound:118995]
+synonym: "AB0070905" EXACT [pubchem.compound:118995]
+synonym: "AB00987320-01" EXACT [pubchem.compound:118995]
+synonym: "AC1L3O08" EXACT [pubchem.compound:118995]
+synonym: "AC1Q4VRF" EXACT [pubchem.compound:118995]
+synonym: "AJ-67953" EXACT [pubchem.compound:118995]
+synonym: "AK-30756" EXACT [pubchem.compound:118995]
+synonym: "AKOS009092919" EXACT [pubchem.compound:118995]
+synonym: "ANW-58036" EXACT [pubchem.compound:118995]
+synonym: "BS-12711" EXACT [pubchem.compound:118995]
+synonym: "F2145-0277" EXACT [pubchem.compound:118995]
+synonym: "FT-0707053" EXACT [pubchem.compound:118995]
+synonym: "KB-261000" EXACT [pubchem.compound:118995]
+synonym: "M-8345" EXACT [pubchem.compound:118995]
+synonym: "MCULE-4736308679" EXACT [pubchem.compound:118995]
+synonym: "MolPort-002-471-220" EXACT [pubchem.compound:118995]
+synonym: "QC-6319" EXACT [pubchem.compound:118995]
+synonym: "SCHEMBL461605" EXACT [pubchem.compound:118995]
+synonym: "ST24031901" EXACT [pubchem.compound:118995]
+synonym: "TC-146781" EXACT [pubchem.compound:118995]
+synonym: "Thiazole-2,4-diamine" EXACT [pubchem.compound:118995]
+synonym: "Z5019" EXACT [pubchem.compound:118995]
+synonym: "ZINC15863137" EXACT [pubchem.compound:118995]
+synonym: "diaminothiazole" EXACT [pubchem.compound:118995]
+xref: pubchem.compound:118995
+xref: inchi:InChI=1S/C3H5N3S/c4-2-1-7-3(5)6-2/h1H,4H2,(H2,5,6)
+xref: smiles:C1=C(N=C(S1)N)N
 
 [Term]
 id: HBP:HBP00323
@@ -1745,4 +3167,36 @@ def: "Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic f
 id: HBP:HBP00324
 name: FK1 antibody
 def: "Anti-Ubiquitinylated proteins Antibod" [pmid:16338350]
+
+[Term]
+id: HBP:HBP00325
+name: amyloid-beta antibody, NU1
+def: "monoclonal antibody that is specific for amyloid-beta oligomers" [pmid:17403556]
+
+[Term]
+id: HBP:HBP00326
+name: B-973
+def: "Here we report the discovery and characterization of 3-(3,4-difluorophenyl)-N-(1-(6-(4-(pyridin-2-yl)piperazin-1-yl)pyrazin-2-yl)ethyl)propanamide (B-973), a piperazine containing α7 type II PAM" [pmid:28132910]
+xref: inchi:InChI=1S/C24H26F2N6O/c1-17(29-24(33)8-6-18-5-7-19(25)20(26)14-18)21-15-27-16-23(30-21)32-12-10-31(11-13-32)22-4-2-3-9-28-22/h2-5,7,9,14-17H,6,8,10-13H2,1H3,(H,29,33)/t17-/m0/s1
+xref: smiles:C1=C(C(=CC=C1CCC(N[C@H](C2=CN=CC(=N2)N3CCN(CC3)C4=NC=CC=C4)C)=O)F)F
+
+[Term]
+id: HBP:HBP00327
+name: GPBC, alpha-7 nAChR
+def: "An alignment of residues in the M3-M4 loop of alpha-7 nAChR that contribute to the binding of G-protein" [pmid:24185813, pmid:26088141]
+
+[Term]
+id: HBP:HBP00328
+name: GPBC, Glycine Receptor 1
+def: "An alignment of residues in the M3-M4 loop of GPBC, Glycine Receptor 1 (GLRA1) that contribute to the binding of G-protein" [pmid:24185813, pmid:26088141]
+
+[Term]
+id: HBP:HBP00329
+name: N-terminal fragment of ATF6
+def: "N-terminal fragment of the protein ATF6, generated by cleavage through SP1 and SP2 proteases" [pmid:25784053]
+
+[Term]
+id: HBP:HBP00330
+name: misfolding
+def: "Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway" [pmid:16689923]
 
