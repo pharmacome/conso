@@ -86,6 +86,8 @@ Tips:
 - Normalize greek letters to full english names, then add synonyms with the greek letter.
 - References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, `pmc:PMC1234`, etc.)
 
-## Exports
+## Build
+
+All build operations are handled by `tox`. See `tox.ini` for more information.
 
 For generating a BEL namespace and other resources, see: https://github.com/pharmacome/terminology/tree/master/export

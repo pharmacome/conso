@@ -7,7 +7,7 @@ import os
 import re
 import sys
 from collections import defaultdict
-from typing import Iterable, Mapping, Set, Tuple
+from typing import Iterable, Mapping, Set, Tuple, Optional
 
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -242,6 +242,67 @@ def _check_relations_file_helper(path, reader, identifier_to_name: Mapping[str, 
         yield line
 
 
+def check_class_has_xref(cls, xrefs, terms_path: str = 'terms.tsv', xrefs_path: str = 'xrefs.tsv') -> None:
+    with open(os.path.join(HERE, terms_path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        entries = {
+            hbp_id: ('HBP', hbp_id, name)
+            for hbp_id, curator, name, _cls, refs, definition in reader
+            if _cls == cls
+        }
+
+    db_map = defaultdict(dict)
+    with open(os.path.join(HERE, xrefs_path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        for hbp_id, db, db_id in reader:
+            if db_id in {'?', '', 'N/A', 'n/a'}:
+                continue
+
+            db_map[db][hbp_id] = db_id
+
+    if isinstance(xrefs, str):
+        xrefs = [xrefs]
+    for xref in xrefs:
+        _check_missing_xref(cls, entries, db_map, xref)
+
+
+def check_class_has_relation(cls: str,
+                             relation: str,
+                             terms_path: str = 'terms.tsv',
+                             relations_path: str = 'relations.tsv',
+                             object_namespace: Optional[str] = None
+                             ) -> None:
+    with open(os.path.join(HERE, terms_path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        entries = {
+            ('HBP', hbp_id, name)
+            for hbp_id, curator, name, cls_, refs, definition in reader
+            if cls_ == cls
+        }
+
+    with open(os.path.join(HERE, relations_path)) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+
+        rd = defaultdict(lambda: defaultdict(list))
+        for source_ns, source_id, source_name, rel, target_ns, target_id, target_name in reader:
+            rd[rel][source_ns, source_id, source_name].append((target_ns, target_id, target_name))
+
+    missing_role = {
+        entry
+        for entry in entries
+        if entry not in rd[relation]
+    }
+    if missing_role:
+        s = 29 + len(relation) + len(cls)
+        print('', '#' * s, f'# {cls} missing relation {relation} ({len(missing_role)}/{len(entries)}) #', '#' * s, sep='\n')
+        for entry in sorted(missing_role):
+            print(*entry, relation, object_namespace or '?', '?', '?', sep='\t')
+
+
 def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'relations.tsv'):
     with open(os.path.join(HERE, terms_path)) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -282,46 +343,31 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
 
 
 def check_chemical_structures(terms_path: str = 'terms.tsv', xrefs_path: str = 'xrefs.tsv') -> None:
-    with open(os.path.join(HERE, terms_path)) as file:
-        reader = csv.reader(file, delimiter='\t')
-        _ = next(reader)  # skip the header
-        chemicals = {
-            hbp_id: ('HBP', hbp_id, name)
-            for hbp_id, curator, name, cls, refs, definition in reader
-            if cls == 'chemical'
-        }
-
-    db_map = defaultdict(dict)
-    with open(os.path.join(HERE, xrefs_path)) as file:
-        reader = csv.reader(file, delimiter='\t')
-        _ = next(reader)  # skip the header
-        for hbp_id, db, db_id in reader:
-            if db_id in {'?', '', 'N/A', 'n/a'}:
-                continue
-
-            db_map[db][hbp_id] = db_id
-
-    _check_missing_xref(chemicals, db_map, 'inchi')
-    _check_missing_xref(chemicals, db_map, 'smiles')
-    # _check_missing_xref(chemicals, db_map, 'chebi')
-    # _check_missing_xref(chemicals, db_map, 'cas')
+    xrefs = [
+        'inchi',
+        'smiles',
+        # 'chebi',
+        # 'cas',
+    ]
+    check_class_has_xref('chemical', xrefs, terms_path=terms_path, xrefs_path=xrefs_path)
 
 
-def _check_missing_xref(chemicals: Mapping[str, Tuple[str, str, str]],
+def _check_missing_xref(cls: str,
+                        entries: Mapping[str, Tuple[str, str, str]],
                         db_map: Mapping[str, Mapping[str, str]],
                         db: str,
                         ) -> None:
-    missing_chemicals = {
-        chemical
-        for chemical in chemicals
-        if chemical not in db_map[db]
+    missing_entries = {
+        entry
+        for entry in entries
+        if entry not in db_map[db]
     }
-    if missing_chemicals:
-        ratio = f'{len(missing_chemicals)}/{len(chemicals)}'
-        n_spacers = 15 + len(ratio) + len(db)
-        print('', '#' * n_spacers, f'# Missing {db} ({ratio}) #', '#' * n_spacers, sep='\n')
-        for chemical in sorted(missing_chemicals):
-            print(*chemicals[chemical][1:], db, '?', sep='\t')
+    if missing_entries:
+        ratio = f'{len(missing_entries)}/{len(entries)}'
+        n_spacers = 24 + len(ratio) + len(db) + len(cls)
+        print('', '#' * n_spacers, f'# {cls} missing xref to {db} ({ratio}) #', '#' * n_spacers, sep='\n')
+        for entry in sorted(missing_entries):
+            print(*entries[entry][1:], db, '?', sep='\t')
 
 
 def main():
@@ -333,8 +379,13 @@ def main():
     check_xrefs_file(identifier_to_name=identifier_to_name)
     check_relations_file(identifier_to_name=identifier_to_name)
 
+    check_class_has_xref('isoform', 'uniprot.isoform')
+    check_class_has_relation('isoform', 'has_reference_protein', object_namespace='uniprot')
+    check_class_has_relation('protein isoform family', 'has_reference_protein', object_namespace='uniprot')
     check_chemical_structures()
     check_chemical_roles()
+    check_class_has_relation('antibody', 'has_antibody_target')
+
 
     sys.exit(0)
 
