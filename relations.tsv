@@ -14,6 +14,8 @@ HBP	HBP00020	MLS000034832	has_role	HBP	HBP00321	Tau aggregation inhibitor
 HBP	HBP00021	caprospinol	has_role	HBP	HBP00321	Tau aggregation inhibitor
 HBP	HBP00031	N-AcGIP	agonist_of	HGNC	HGNC:4270	GIP
 HBP	HBP00032	Pro3-GIP	agonist_of	HGNC	HGNC:4270	GIP
+HBP	HBP00044	3R tau	has_reference_protein	uniprot	P10636	TAU_HUMAN
+HBP	HBP00045	4R tau	has_reference_protein	uniprot	P10636	TAU_HUMAN
 HBP	HBP00046	VQIINK motif	part_of	HBP	HBP00003	tubulin-binding repeat 2
 HBP	HBP00047	VQIVYK motif	part_of	HBP	HBP00004	tubulin-binding repeat 3
 HBP	HBP00048	ghost tangles	is_a	GO	GO:0097418	neurofibrillary tangle
