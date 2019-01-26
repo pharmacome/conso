@@ -276,7 +276,7 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
         if all(chemical not in d for d in (roles, inhibitors, agonists, antagonists))
     }
     if missing_role:
-        print('', '#' * 24, f'# MISSING ROLES ({len(missing_role)}/{len(chemicals)})', '#' * 24, sep='\n')
+        print('', '#' * 25, f'# Missing roles ({len(missing_role)}/{len(chemicals)}) #', '#' * 25, sep='\n')
         for chemical in sorted(missing_role):
             print(f'{":".join(chemical[1:])}')
 
@@ -333,8 +333,8 @@ def main():
     check_xrefs_file(identifier_to_name=identifier_to_name)
     check_relations_file(identifier_to_name=identifier_to_name)
 
-    # check_chemical_roles()
     check_chemical_structures()
+    check_chemical_roles()
 
     sys.exit(0)
 
