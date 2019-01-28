@@ -74,11 +74,9 @@ def: "{self.description}" [{', '.join(map(str,self.provenance))}]
 
         for xref in self.xrefs:
             if xref.namespace == 'BEL':
-                entry = f'BEL:"{xref.identifier}"'
+                obo_str += f'bel: {xref.identifier}\n'
             else:
-                entry = str(xref)
-
-            obo_str += f'xref: {entry}\n'
+                obo_str += f'xref: {xref}\n'
 
         for relationship, references in self.relationships.items():
             for reference in references:
@@ -144,6 +142,7 @@ def get_obo_terms() -> List[Term]:
 
             if relation not in terms[source_id].relationships:
                 terms[source_id].relationships[relation] = []
+
             terms[source_id].relationships[relation].append(Reference(target_ns, target_id, target_name))
 
     return list(terms.values())
@@ -157,6 +156,11 @@ def dump_obo_terms(terms: List[Term], file: TextIO):
     print(f'date: {date_str}', file=file)
     print('auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py', file=file)
     print('', file=file)
+
+    print('''[Typedef]
+name: bel
+comment: A formulation for a term in Biological Expression language
+''', file=file)
 
     for term in terms:
         obo_str = term.to_obo()

@@ -27,15 +27,21 @@ RELATIONS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'relations.tsv'))
 def make_ontology() -> Ontology:
     """Get classes."""
     ontology = get_ontology(URL)
-    rdfs = get_namespace('http://www.w3.org/2000/01/rdf-schema#')
+    skos = ontology.get_namespace('http://www.w3.org/2008/05/skos')
+
+    with skos:
+        class altLabel(AnnotationProperty):
+            """Denotes a synonym using the SKOS vocabulary."""
+
+        class related(AnnotationProperty):
+            """Denotes a cross-reference using the SKOS vocabulary."""
 
     class curator(AnnotationProperty):
+        """Denotes the curator of a given entry."""
         namespace = ontology
 
-    class database_cross_reference(AnnotationProperty):
-        namespace = ontology
-
-    class has_exact_synonym(AnnotationProperty):
+    class bel(AnnotationProperty):
+        """Denotes the BEL term corresponding to a given entry."""
         namespace = ontology
 
     classes_df = pd.read_csv(CLASSES_PATH, sep='\t')
@@ -64,19 +70,22 @@ def make_ontology() -> Ontology:
             cls.label = name
             cls.comment = definition
             cls.curator = curator
-            cls.database_cross_reference = [reference.strip() for reference in references.split(',')]
+            cls.related = [reference.strip() for reference in references.split(',')]
             classes[hbp_identifier] = cls
 
     xrefs_df = pd.read_csv(XREFS_PATH, sep='\t')
     for _, (identifier, database, database_identifier) in xrefs_df.iterrows():
         cls = classes[identifier]
-        cls.database_cross_reference.append(f'{database}:{database_identifier}')
+        if database == 'BEL':
+            cls.bel = database_identifier
+        else:
+            cls.related.append(f'{database}:{database_identifier}')
 
     synonyms_df = pd.read_csv(SYNONYMS_PATH, sep='\t')
     for _, (identifier, synonym, reference, _) in synonyms_df.iterrows():
         cls = classes[identifier]
-        cls.has_exact_synonym.append(synonym)
-        database_cross_reference[cls, has_exact_synonym, synonym] = reference
+        cls.altLabel.append(synonym)
+        related[cls, altLabel, synonym] = reference
 
     return ontology
 

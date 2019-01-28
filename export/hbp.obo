@@ -1,6 +1,10 @@
 format-version: 1.2
-date: 26:01:2019 22:45
+date: 28:01:2019 16:53
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
+
+[Typedef]
+name: bel
+comment: A formulation for a term in Biological Expression language
 
 [Term]
 id: HBP:HBP00001
@@ -16,7 +20,7 @@ name: tubulin-binding repeat 1
 def: "position 569_591 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R1" EXACT []
 synonym: "R1" EXACT []
-xref: BEL:"p(HGNC:MAPT, frag(569_591))"
+bel: p(HGNC:MAPT, frag(569_591))
 part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
@@ -25,7 +29,7 @@ name: tubulin-binding repeat 2
 def: "position 592_621 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R2" EXACT []
 synonym: "R2" EXACT []
-xref: BEL:"p(HGNC:MAPT, frag(592_621))"
+bel: p(HGNC:MAPT, frag(592_621))
 part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
@@ -34,7 +38,7 @@ name: tubulin-binding repeat 3
 def: "position 623_653 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R3" EXACT []
 synonym: "R3" EXACT []
-xref: BEL:"p(HGNC:MAPT, frag(623_653))"
+bel: p(HGNC:MAPT, frag(623_653))
 part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
@@ -43,7 +47,7 @@ name: tubulin-binding repeat 4
 def: "position 654_685 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R4" EXACT []
 synonym: "R4" EXACT []
-xref: BEL:"p(HGNC:MAPT, frag(654_685))"
+bel: p(HGNC:MAPT, frag(654_685))
 part_of: HBP:HBP00001 ! microtubule-binding region
 
 [Term]
@@ -456,7 +460,7 @@ def: "Insoluble fibrous protein aggregates exhibiting beta sheet structure." [pm
 id: HBP:HBP00039
 name: AG73
 def: "a peptide derived from mouse laminin alpha 1 protein (seq:RKRLQVQLSIRT, chain:2719–2730)" [pmid:20615691]
-xref: BEL:"p(MGI:Lama1, frag(2719_2730))"
+bel: p(MGI:Lama1, frag(2719_2730))
 
 [Term]
 id: HBP:HBP00040
@@ -1177,7 +1181,7 @@ def: "Amino Acid Sequence: Ac-Leu-Gly-Arg-Leu-Ser-Gln-Glu-Leu-His-Arg-Leu-Gln-Th
 id: HBP:HBP00172
 name: CDK5R1 p25
 def: "The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment" [pmid:10830966]
-xref: BEL:"p(HGNC:CDK5R1, frag(99_307))"
+bel: p(HGNC:CDK5R1, frag(99_307))
 
 [Term]
 id: HBP:HBP00173
@@ -3083,13 +3087,13 @@ xref: smiles:[H]\C(=C1\CCCN=C1C1=CN=CC=C1)C1=C(OC)C=C(OC)C=C1
 id: HBP:HBP00311
 name: alpha-4 alpha-5 beta-2 nAChR
 def: "nAChR subtype found in cortex, hippocampus and neostriatum" [pmid:19721446]
-xref: BEL:"complex(p(HGNC:CHRNA4), p(HGNC:CHRNA5), p(HGNC:CHRNB2))"
+bel: complex(p(HGNC:CHRNA4), p(HGNC:CHRNA5), p(HGNC:CHRNB2))
 
 [Term]
 id: HBP:HBP00312
 name: alpha-3 beta-4 nAChR
 def: "nAChR subtype found in hippocampus, pineal gland and cerebellum" [pmid:19721446]
-xref: BEL:"complex(p(HGNC:CHRNA3), p(HGNC:CHRNB4))"
+bel: complex(p(HGNC:CHRNA3), p(HGNC:CHRNB4))
 
 [Term]
 id: HBP:HBP00313
