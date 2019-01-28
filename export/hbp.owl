@@ -1,0 +1,3301 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://raw.githubusercontent.com/pharmacome/terminology/master/export/hbp.owl"
+         xmlns="https://raw.githubusercontent.com/pharmacome/terminology/master/export/hbp.owl#">
+
+<owl:Ontology rdf:about="https://raw.githubusercontent.com/pharmacome/terminology/master/export/hbp.owl"/>
+
+<owl:Class rdf:about="#HBPEntry">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="#has_label">
+  <rdfs:domain rdf:resource="#HBPEntry"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#HBP00001">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microtubule-binding region</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00002">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tubulin-binding repeat 1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00003">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tubulin-binding repeat 2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00004">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tubulin-binding repeat 3</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00005">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tubulin-binding repeat 4</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00006">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau aggregates</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00007">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperphosphorylation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00008">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAL80TS</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00009">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00010">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LY293002</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00011">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPLI</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00012">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic cerebral hypoperfusion</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00013">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mori Fructus ethanol extract</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00014">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tunneling nanotubes</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00015">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloidogenesis</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00016">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-synuclein aggregates</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00017">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huntingtin aggregates</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00018">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta aggregates</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00019">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEN-1269</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00020">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLS000034832</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00021">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caprospinol</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00022">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00023">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta 42 oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00024">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APP C-terminally truncated carboxyl-terminal fragments</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00025">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2B5 antigen</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00026">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutral sphingomyelinase</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00027">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurodegeneration</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00028">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta derived diffusible ligands</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00029">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperamylinemia</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00030">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APOE e4</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00031">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-AcGIP</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00032">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro3-GIP</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00033">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PI3K-Akt signaling pathway</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00035">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argyrophilic Grain Disease</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00036">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulovacuolar degeneration</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00037">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial dysfunction</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00038">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta fibrils</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00039">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG73</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00040">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notch intracellular domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00041">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YENPTY endocytosis motif (APP)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00042">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sAPP-beta</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00043">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00044">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3R tau</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00045">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4R tau</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00046">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VQIINK motif</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00047">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VQIVYK motif</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00048">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghost tangles</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00049">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pretangles</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00050">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">projection domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00051">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAC1b</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00052">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2 complex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00053">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform F (441 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00054">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform Fetal-tau (352 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00055">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform B (381 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00056">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform D (383 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00057">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform C (410 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00058">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform E (412 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00059">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serpin-enzyme complex receptor</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00060">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroinflammation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00061">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotoxicity</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00062">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurite retraction</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00063">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APP695</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00064">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APP751</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00065">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APP770</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00066">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma-secretase</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00067">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sAPP-alpha</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00068">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excitotoxicity</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00069">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C31</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00070">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jcasp</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00071">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AICD</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00072">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p83</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00073">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APP processing</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00074">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AβOs</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00075">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LMW amyloid oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00076">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta 40 oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00077">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative splicing of APP gene</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00078">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E1 domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00079">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2 domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00080">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P3 peptide</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00081">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C99</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00082">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aMCI</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00083">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mdMCI</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00084">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau isoform A (316 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00085">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau C3</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00086">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau MN423</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00087">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granular tau oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00088">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau fibrils</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00089">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dense core plaques</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00090">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau annular protofibrils</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00091">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOC1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00092">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-synuclein fibrils</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00093">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-synuclein oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00094">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLR01</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00095">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prefibrillar α-synuclein oligomers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00096">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA-AGE</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00097">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGM2 Isoform 3 (349 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00098">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KXGS motif</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00099">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corticobasal Degeneration</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00100">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired helical filaments</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00101">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straight filaments</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00102">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alz50</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00103">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-GlcNAcylation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00104">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00105">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitration</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00106">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyamination</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00107">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formylation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00108">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndecan Family</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00109">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacterial invasion</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00110">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dopamine homeostasis</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00111">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINK1-Park pathway</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00112">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glutamate excitotoxicity</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00113">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial homeostasis</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00114">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER mitochondria interorganellar crosstalk</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00115">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial pathway</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00116">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidative protein folding</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00117">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial motility</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00118">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIM/TOM complex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00119">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial aggregation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00120">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mevalonate pathway</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00121">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dopaminergic cell groups</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00122">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial precursor protein</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00123">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDR-1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00124">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PINK-1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00125">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skn-1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00126">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ced-9</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00127">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lgg-1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00128">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clec-65</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00129">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clec-4</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00131">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exotoxin A</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00132">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial DAMPs</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00133">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IκB kinase</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00134">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-shivering thermogenesis</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00135">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hsp-16</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00136">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heat shock proteins</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00137">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-calorie diets</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00138">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteotoxicity</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00139">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ss20399075</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00140">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha-synuclein Oligomerization</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00141">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D6S253</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00142">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D6S305</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00143">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTHFR,TT+AA</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00144">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAG repeats</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00145">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal dysfunctions</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00146">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory epithelium</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00147">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal cycle</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00148">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyposmia</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00149">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMR1,(55-200 CGG)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00150">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pof14</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00151">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroglia</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00152">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDNF Family</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00153">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motor Neurons</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00154">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noradrenergic neuron</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00155">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midbrain dopaminergic neuron</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00156">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurites</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00157">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRB10,BPS domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00158">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common fragile site</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00159">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARK7-alpha helices</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00160">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cleaved PINK1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00161">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurovascular unit</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00162">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscles</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00163">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neural Stem Cell</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00164">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ventral Tegmental Area</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00165">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pars Compacta</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00166">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline-rich domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00167">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lys-2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00168">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abf-2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00169">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrophobic pocket of actin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00170">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310-helix</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00171">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amylin Antagonist AC253</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00172">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDK5R1 p25</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00173">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00174">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-4 beta-2 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00175">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-7 beta-2 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00176">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-2-containing nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00177">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abeta*56</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00178">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein aggregates</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00179">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sAPP-gamma</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00180">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-6-containing nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00181">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphatase-activating domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00182">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystein-dependent auto-acetylation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00183">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GVD bodies</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00184">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advanced glycation end product</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00185">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term potentiation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00186">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline-rich region 1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00187">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline-rich region 2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00188">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assembly domain</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00189">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRL4 complex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00190">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APP, ACR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00191">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tubulin detyrosination</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00192">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microgliosis</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00193">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrogliosis</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00194">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CK1 superfamily</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00195">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-4-containing nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00196">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-4 beta-4 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00197">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-7-containing nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00198">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-Bungarotoxin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00199">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-3 beta-2 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00200">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kappa-Bungarotoxin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00201">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU10010</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00202">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU0456940</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00203">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU0152099</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00204">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU0029767</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00205">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU0090157</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00206">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU0184670</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00207">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Bromohexadecanoic acid</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00208">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 S Proteasome</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00209">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-3 dityrosine cross-linking</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00210">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braak_Stage I</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00211">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braak_Stage II</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00212">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braak_Stage III</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00213">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braak_Stage IV</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00214">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braak_Stage V</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00215">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braak_Stage VI</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00216">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CagA peptide</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00217">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARK4 isoform 2 (688 aa)</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00218">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP_001387.2:p.Arg205del</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00219">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP_001387.2:p.Glu239del</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00220">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrP106-126</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00221">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purkinje cell layer of cerebellar cortex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00222">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, AGG5759</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00223">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, Tau-13</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00224">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, 12E8</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00225">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, AT180</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00226">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, AT8</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00227">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, CP13</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00228">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, PHF1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00229">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dystrophic neurite</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00230">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granular layer of cerebellar cortex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00231">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular layer of cerebellar cortex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00232">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kalirin 7</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00233">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4R tauopathy</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00234">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACY-1215</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00235">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APOE e3</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00236">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAY61-3606</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00237">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biphenyl-4-yl-acrylohydroxamoc acids</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00238">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brodmann (1909) area 36</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00239">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-30-27</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00240">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C646</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00241">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA1 field of hippocampus</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00242">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA2 field of hippocampus</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00243">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA3 field of hippocampus</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00244">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA4 field of hippocampus</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00245">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CGP3466B</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00246">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CM-414</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00247">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAPK, basic loop (BL) motif</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00248">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histone H3</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00249">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID-8</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00250">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDN-193594</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00251">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDN-193665</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00252">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDN-213843</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00253">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long-Term Depression</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00254">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological Tau Spreading</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00255">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrPSc</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00256">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau Protein Secondary Structure, Turn</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00257">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, RG7345</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00258">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP966</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00259">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-327</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00260">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinocerebellar Ataxia 11</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00261">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST7612AA1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00262">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, AGG5759</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00263">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, AD2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00264">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, AP422</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00265">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, AT100</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00266">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope, AT270</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00267">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiamet G</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00268">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thioflavin S</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00269">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trithiocarbonates</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00270">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubacin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00271">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubastatin A</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00272">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USP14 Aptamer</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00273">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholinergic neuron</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00274">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral cortex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00275">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crebinostat</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00276">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaminothiazole</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00277">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entorhinal cortex layer 2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00278">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granular layer of cerebellar cortex</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00279">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indirubin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00280">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isocarboxazide</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00281">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isopentanyladenine</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00282">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maitotoxin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00283">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olomoucine</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00284">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxazolidinedione</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00285">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sudoxicam</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00286">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiohydantoin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00287">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thioxooxazolidine</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00288">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tideglusib</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00289">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, 6C5</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00290">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, HT7</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00291">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-O-sulfated heparin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00292">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-O-sulfated heparin</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00293">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sonicated tau fibrils</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00294">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, 40E8</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00295">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, pS396</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00296">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, 4E4</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00297">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, Tau46</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00298">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cis p-tau</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00299">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPT0G211</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00300">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system injury</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00301">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, TNT1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00302">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, TNT2</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00303">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-nitro-cGMP</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00304">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau dimers</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00305">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysumoylation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00306">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detyrosination</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00307">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00308">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00309">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S 24795</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00310">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GTS-21</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00311">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-4 alpha-5 beta-2 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00312">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-3 beta-4 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00313">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-3 beta-3 beta-4 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00314">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-6 beta-2 beta-3 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00315">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2 beta-2 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00316">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-6 alpha-4 beta-2 beta-3 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00317">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein aggregation</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00318">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nAChR assembly</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00319">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-OH-GTS-21</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00320">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolation rearing</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00321">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau aggregation inhibitor</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00322">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,3-Thiazole-2,4-diamine</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00323">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autosomal Dominant Nocturnal Frontal Lobe Epilepsy</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00324">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FK1 antibody</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00325">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta antibody, NU1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00326">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-973</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00327">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPBC, alpha-7 nAChR</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00328">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPBC, Glycine Receptor 1</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00329">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-terminal fragment of ATF6</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00330">
+  <rdfs:subClassOf rdf:resource="#HBPEntry"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#has_label"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">misfolding</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+
+</rdf:RDF>
