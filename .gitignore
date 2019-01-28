@@ -105,3 +105,4 @@ venv.bak/
 .idea
 .DS_Store
 Untitled.ipynb
+export/catalog-v001.xml
