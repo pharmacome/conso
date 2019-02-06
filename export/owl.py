@@ -8,7 +8,7 @@ import types
 from typing import Dict, Type
 
 import pandas as pd
-from owlready2 import AnnotationProperty, Ontology, Thing, get_namespace, get_ontology
+from owlready2 import AnnotationProperty, Namespace, Ontology, Thing, get_ontology
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -21,13 +21,18 @@ XREFS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'xrefs.tsv'))
 RELATIONS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'relations.tsv'))
 
 
-# label = IRIS['http://www.w3.org/2000/01/rdf-schema#label']
+# DC_NAME = 'Curation of Neurodegeneration Supporting Ontology'
+# DC_SHORT = 'CONSO'
 
 
 def make_ontology() -> Ontology:
     """Get classes."""
     ontology = get_ontology(URL)
-    skos = ontology.get_namespace('http://www.w3.org/2008/05/skos')
+
+    skos: Namespace = ontology.get_namespace('http://www.w3.org/2008/05/skos', 'skos')
+
+    # dc: Namespace = ontology.get_namespace('http://dublincore.org/2012/06/14/dcterms', 'dc')
+    # ontology.metadata.append(dc)
 
     with skos:
         class altLabel(AnnotationProperty):

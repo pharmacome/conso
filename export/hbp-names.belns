@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20190126
-CreatedDateTime=2019-01-26T17:29:04
+VersionString=20190206
+CreatedDateTime=2019-02-06T10:25:26
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -28,6 +28,7 @@ CacheableFlag=yes
 6-O-sulfated heparin|A
 8-nitro-cGMP|A
 A2B5 antigen|P
+AAV-FKBP1B|P
 ACY-1215|A
 AG73|P
 AICD|P
@@ -83,6 +84,8 @@ DAPK, basic loop (BL) motif|P
 Dopaminergic cell groups|A
 E1 domain|P
 E2 domain|P
+EC102|A
+EEVD motif|P
 ER mitochondria interorganellar crosstalk|B
 Excitotoxicity|O
 FK1 antibody|A
@@ -98,10 +101,12 @@ GVD bodies|A
 Gastrointestinal dysfunctions|O
 Glutamate excitotoxicity|B
 Histone H3|P
+Hsp27 oligomers|A
 Hyperamylinemia|O
 ID-8|A
 IκB kinase|P
 Jcasp|P
+KU-177|A
 KXGS motif|P
 Kalirin 7|P
 LDN-193594|A
@@ -130,6 +135,7 @@ Neurodegeneration|O
 Neuroglia|A
 Notch intracellular domain|P
 O-GlcNAcylation|T
+OSW-1|A
 P3 peptide|P
 PARK7-alpha helices|P
 PDR-1|P
@@ -139,6 +145,7 @@ PINK1-Park pathway|B
 PTI-125|A
 Pars Compacta|A
 Pathological Tau Spreading|O
+Phenylthiazolyl-hydrazide|A
 PrP106-126|P
 PrPSc|P
 Pro3-GIP|A
@@ -147,6 +154,7 @@ RAC1b|P
 RGFP966|A
 S 24795|A
 SEN-1269|A
+SK and F 77434|A
 SL-327|A
 ST7612AA1|A
 Serpin-enzyme complex receptor|P
@@ -198,6 +206,7 @@ Thioflavin S|A
 Trithiocarbonates|A
 Tubacin|A
 Tubastatin A|A
+UBB+1|P
 USP14 Aptamer|A
 VQIINK motif|P
 VQIVYK motif|P
@@ -209,6 +218,7 @@ VU0456940|A
 VU10010|A
 Ventral Tegmental Area|A
 YENPTY endocytosis motif (APP)|P
+[125I]-NCQ|A
 aMCI|O
 abf-2|P
 advanced glycation end product|A
