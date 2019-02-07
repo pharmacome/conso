@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:02:2019 10:25
+date: 07:02:2019 14:57
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3272,4 +3272,10 @@ def: "a new selective iodinated salicylamide ligand for the labelling of dopamin
 id: HBP:HBP00340
 name: AAV-FKBP1B
 def: "Adeno-associated virus expressing Mouse Fkbp1b." [pmid:29255009]
+
+[Term]
+id: HBP:HBP00341
+name: Proteostasis
+def: "Regulation of the concentration, folding, interactions, and cellular localization of each of the proteins that comprise the proteome" [pmid:29127110]
+xref: mesh:D000074702
 
