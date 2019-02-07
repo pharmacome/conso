@@ -2,22 +2,18 @@
 Keyword=go
 NameString=Gene Ontology
 DomainString=Other
-VersionString=20181221
-CreatedDateTime=2018-12-21T12:18:44
+VersionString=20190207
+CreatedDateTime=2019-02-07T14:27:43
 QueryValueURL=http://identifiers.org/go/
-
 [Author]
 NameString=cthoyt
 CopyrightString=Other/Proprietary
-
 [Citation]
 NameString=None
-
 [Processing]
 CaseSensitiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
-
 [Values]
 'de novo' AMP biosynthetic process|B
 'de novo' CTP biosynthetic process|B
@@ -4392,6 +4388,7 @@ Noc complex|C
 Noc1p-Noc2p complex|C
 Noc2p-Noc3p complex|C
 Noc4p-Nop14p complex|C
+Norrin signaling pathway|B
 Notch binding|Y
 Notch receptor processing|B
 Notch receptor processing, ligand-dependent|B
@@ -4605,6 +4602,7 @@ RITS complex|C
 RITS complex assembly|B
 RITS complex localization|B
 RNA (guanine-N7)-methylation|B
+RNA 2'-O-methyltransferase activity|Y
 RNA 2'-O-ribose methylation guide activity|Y
 RNA 3' uridylation|B
 RNA 3'-end processing|B
@@ -13349,6 +13347,7 @@ double-stranded DNA-dependent ATP-dependent DNA helicase activity|Y
 double-stranded DNA-dependent ATPase activity|Y
 double-stranded RNA adenosine deaminase activity|Y
 double-stranded RNA binding|Y
+double-stranded RNA biosynthetic process|B
 double-stranded RNA-specific ribonuclease activity|Y
 double-stranded methylated DNA binding|Y
 double-stranded miRNA binding|Y
@@ -14618,7 +14617,7 @@ exoneme|A
 exonuclease activity|Y
 exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 3'-phosphomonoesters|Y
 exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters|Y
-exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay|B
+exonucleolytic catabolism of deadenylated mRNA|B
 exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-independent decay|B
 exonucleolytic nuclear-transcribed mRNA catabolic process involved in endonucleolytic cleavage-dependent decay|B
 exonucleolytic trimming involved in rRNA processing|B
@@ -20915,6 +20914,7 @@ meiotic chromosome segregation|B
 meiotic chromosome separation|B
 meiotic cohesin complex|C
 meiotic cytokinesis|B
+meiotic drive|B
 meiotic gene conversion|B
 meiotic heteroduplex formation|B
 meiotic interphase|B
@@ -23196,6 +23196,7 @@ negative regulation of DNA metabolic process|B
 negative regulation of DNA methylation|B
 negative regulation of DNA nucleotidylexotransferase activity|B
 negative regulation of DNA primase activity|B
+negative regulation of DNA recombinase disassembly|B
 negative regulation of DNA recombinase mediator complex assembly|B
 negative regulation of DNA recombination|B
 negative regulation of DNA recombination at centromere|B
@@ -24318,6 +24319,7 @@ negative regulation of exocyst assembly|B
 negative regulation of exocytosis|B
 negative regulation of exodeoxyribonuclease activity|B
 negative regulation of exonuclease activity|B
+negative regulation of exonucleolytic catabolism of deadenylated mRNA|B
 negative regulation of exoribonuclease activity|B
 negative regulation of exosomal secretion|B
 negative regulation of extent of heterochromatin assembly|B
@@ -25694,6 +25696,7 @@ negative regulation of protein localization to lysosome|B
 negative regulation of protein localization to membrane|B
 negative regulation of protein localization to microtubule|B
 negative regulation of protein localization to mitotic spindle pole body|B
+negative regulation of protein localization to non-growing cell tip|B
 negative regulation of protein localization to nucleolus|B
 negative regulation of protein localization to nucleus|B
 negative regulation of protein localization to phagocytic vesicle|B
@@ -31254,6 +31257,7 @@ positive regulation of exocyst assembly|B
 positive regulation of exocytosis|B
 positive regulation of exodeoxyribonuclease activity|B
 positive regulation of exonuclease activity|B
+positive regulation of exonucleolytic catabolism of deadenylated mRNA|B
 positive regulation of exoribonuclease activity|B
 positive regulation of exosomal secretion|B
 positive regulation of extent of heterochromatin assembly|B
@@ -34659,6 +34663,7 @@ protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter a
 protein-N-terminal asparagine amidohydrolase activity|Y
 protein-N-terminal glutamine amidohydrolase activity|Y
 protein-N6-(L-lysyl)-L-lysine modification to protein-N6-(beta-lysyl)-L-lysine|B
+protein-RNA complex remodeling|B
 protein-arginine N-methyltransferase activity|Y
 protein-arginine N5-methyltransferase activity|Y
 protein-arginine deiminase activity|Y
@@ -34911,6 +34916,7 @@ pulmonary valve development|B
 pulmonary valve formation|B
 pulmonary valve morphogenesis|B
 pulmonary vein morphogenesis|B
+pumilio-response element binding|Y
 puncta adhaerentia|A
 pupal chitin-based cuticle development|B
 pupal development|B
@@ -35613,6 +35619,7 @@ regulation of DNA metabolic process|B
 regulation of DNA methylation|B
 regulation of DNA nucleotidylexotransferase activity|B
 regulation of DNA primase activity|B
+regulation of DNA recombinase disassembly|B
 regulation of DNA recombinase mediator complex assembly|B
 regulation of DNA recombination|B
 regulation of DNA recombination at centromere|B
@@ -36912,6 +36919,7 @@ regulation of exocytic insertion of neurotransmitter receptor to postsynaptic me
 regulation of exocytosis|B
 regulation of exodeoxyribonuclease activity|B
 regulation of exonuclease activity|B
+regulation of exonucleolytic catabolism of deadenylated mRNA|B
 regulation of exoribonuclease activity|B
 regulation of exosomal secretion|B
 regulation of extent of cell growth|B
@@ -38499,6 +38507,7 @@ regulation of protein localization to medial cortical node|B
 regulation of protein localization to membrane|B
 regulation of protein localization to microtubule|B
 regulation of protein localization to mitotic spindle pole body|B
+regulation of protein localization to non-growing cell tip|B
 regulation of protein localization to nucleolus|B
 regulation of protein localization to nucleus|B
 regulation of protein localization to phagocytic vesicle|B
@@ -41806,6 +41815,7 @@ spindle midzone assembly|B
 spindle organization|B
 spindle pole|A
 spindle pole body|A
+spindle pole body anchor|Y
 spindle pole body duplication|B
 spindle pole body localization|B
 spindle pole body localization to nuclear envelope|B
@@ -44990,6 +45000,7 @@ zinc ion homeostasis|B
 zinc ion import across plasma membrane|B
 zinc ion import into Golgi membrane|B
 zinc ion import into endoplasmic reticulum|B
+zinc ion import into organelle|B
 zinc ion import into synaptic vesicle|B
 zinc ion transmembrane transport|B
 zinc ion transmembrane transporter activity|Y
