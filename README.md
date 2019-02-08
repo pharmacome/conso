@@ -88,6 +88,18 @@ Tips:
 
 ## Build
 
-All build operations are handled by `tox`. See `tox.ini` for more information.
+All build operations are handled by `tox`, which can be installed from the command line (just needed the first time) 
+with:
 
-For generating a BEL namespace and other resources, see: https://github.com/pharmacome/terminology/tree/master/export
+```bash
+$ pip3 install tox
+```
+
+First, `cd` into the folder for this repository, then `tox` can be directly run as a command. It takes care of 
+checking the content and exporting it
+
+```bash
+$ tox
+```
+
+Finally, the results need to be `git push`ed back to GitHub.
