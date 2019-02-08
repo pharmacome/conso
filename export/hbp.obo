@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:02:2019 10:25
+date: 08:02:2019 09:44
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3265,7 +3265,7 @@ def: "a dopamine D1 receptor partial agonist" [pmid:16820021]
 
 [Term]
 id: HBP:HBP00339
-name: [125I]-NCQ
+name: [125I]-NCQ 298
 def: "a new selective iodinated salicylamide ligand for the labelling of dopamine D2 receptors with 125I." [pmid:16820021]
 
 [Term]
