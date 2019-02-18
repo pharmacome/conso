@@ -341,3 +341,7 @@ HBP00339	Lingling	[125I]-NCQ 298	chemical	pmid:16820021	a new selective iodinate
 HBP00340	Lingling	AAV-FKBP1B	protein	pmid:29255009	Adeno-associated virus expressing Mouse Fkbp1b.
 HBP00341	Esther	Proteostasis	biological process	pmid:29127110	Regulation of the concentration, folding, interactions, and cellular localization of each of the proteins that comprise the proteome
 HBP00342	Daniel	N-terminal fragment of APP	domain	pmid:24916405	Fragment of APP (N-APP) that contains heparin-binding and metal-binding domains and that has been found to have biological activity
+HBP00343	Esther	polyQ aggregates	cellular component	pmid:23483542	Aggregates due to mutations of proteins that lead to polyQ expansions
+HBP00344	Esther	Q82 aggregates	cellular component	pmid:10811890	Aggregates of proteins consisting of polyglutamine stretches with 82 glutamine residues
+HBP00345	Esther	non-enzymatic protein modiﬁcations	post-translational modification	pmid:24563850	Post-translational protein modifications that were not caused by enzymatic reactions
+
