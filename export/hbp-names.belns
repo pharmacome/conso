@@ -3,7 +3,7 @@ Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
 VersionString=20190222
-CreatedDateTime=2019-02-22T11:51:07
+CreatedDateTime=2019-02-22T14:54:34
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -301,7 +301,8 @@ mdMCI|O
 mevalonate pathway|B
 microtubule-binding region|P
 midbrain dopaminergic neuron|A
-misfolding|T
+misfolded|T
+misfolding|B
 mitochondrial DAMPs|A
 mitochondrial aggregation|B
 mitochondrial dysfunction|O
