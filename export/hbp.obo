@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:02:2019 09:45
+date: 22:02:2019 11:51
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3278,4 +3278,35 @@ id: HBP:HBP00341
 name: Proteostasis
 def: "Regulation of the concentration, folding, interactions, and cellular localization of each of the proteins that comprise the proteome" [pmid:29127110]
 xref: mesh:D000074702
+
+[Term]
+id: HBP:HBP00342
+name: N-terminal fragment of APP
+def: "Fragment of APP (N-APP) that contains heparin-binding and metal-binding domains and that has been found to have biological activity" [pmid:24916405]
+bel: p(HGNC:APP, frag(1_?))
+
+[Term]
+id: HBP:HBP00343
+name: polyQ aggregates
+def: "Aggregates due to mutations of proteins that lead to polyQ expansions" [pmid:23483542]
+
+[Term]
+id: HBP:HBP00344
+name: Q82 aggregates
+def: "Aggregates of proteins consisting of polyglutamine stretches with 82 glutamine residues" [pmid:10811890]
+
+[Term]
+id: HBP:HBP00345
+name: non-enzymatic protein modiﬁcations
+def: "Post-translational protein modifications that were not caused by enzymatic reactions" [pmid:24563850]
+
+[Term]
+id: HBP:HBP00346
+name: bb14
+def: "Tau aggregation inhibitor bb14 (from the rhodanine class of compounds)" [pmid:26510979]
+
+[Term]
+id: HBP:HBP00347
+name: cmp16
+def: "Tau aggregation inhibitor" [pmid:20392114]
 

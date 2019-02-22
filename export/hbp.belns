@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20190208
-CreatedDateTime=2019-02-08T09:45:21
+VersionString=20190222
+CreatedDateTime=2019-02-22T11:51:07
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -354,3 +354,9 @@ HBP00338|A
 HBP00339|A
 HBP00340|P
 HBP00341|B
+HBP00342|P
+HBP00343|A
+HBP00344|A
+HBP00345|T
+HBP00346|A
+HBP00347|A

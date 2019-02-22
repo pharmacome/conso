@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20190208
-CreatedDateTime=2019-02-08T09:45:21
+VersionString=20190222
+CreatedDateTime=2019-02-22T11:51:07
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -126,6 +126,7 @@ Mori Fructus ethanol extract|A
 Motor Neurons|A
 Muscles|A
 N-AcGIP|A
+N-terminal fragment of APP|P
 N-terminal fragment of ATF6|P
 NP_001387.2:p.Arg205del|P
 NP_001387.2:p.Glu239del|P
@@ -151,6 +152,7 @@ PrPSc|P
 Pro3-GIP|A
 Proteostasis|B
 Purkinje cell layer of cerebellar cortex|A
+Q82 aggregates|A
 RAC1b|P
 RGFP966|A
 S 24795|A
@@ -250,6 +252,7 @@ amyloid-beta fibrils|A
 amyloid-beta oligomers|A
 amyloidogenesis|B
 assembly domain|P
+bb14|A
 beta-2-containing nAChR|P
 caprospinol|A
 ced-9|P
@@ -259,6 +262,7 @@ cis p-tau|P
 cleaved PINK1|P
 clec-4|P
 clec-65|P
+cmp16|A
 common fragile site|A
 crebinostat|A
 cystein-dependent auto-acetylation|B
@@ -313,6 +317,7 @@ neurotoxicity|O
 neurovascular unit|A
 neutral sphingomyelinase|P
 nitration|T
+non-enzymatic protein modiﬁcations|T
 non-shivering thermogenesis|A
 noradrenergic neuron|A
 olfactory epithelium|A
@@ -324,6 +329,7 @@ paired helical filaments|A
 peripheral nervous system injury|O
 phosphatase-activating domain|P
 pof14|A
+polyQ aggregates|A
 polyamination|T
 polysumoylation|T
 prefibrillar α-synuclein oligomers|A
