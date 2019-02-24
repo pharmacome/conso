@@ -14,18 +14,14 @@ Updating One
    
 2. Run the Bio2BEL GO command line. All repositories that can produce a 
    BEL identifiers namespace file have the subcommand `belns write`. 
-   The `-f` flag can be used to specify the output path.
+   The `-d` flag can be used to specify the output directory.
 
 .. code-block:: bash
 
-   $ bio2bel_go belns write -f go.belns
-   
-   
-3. Use the `-n` flag to make a BEL names namespace file:
+   $ bio2bel_go belns write -d .
 
-.. code-block:: bash
-
-   $ bio2bel_go belns write -n -f go-names.belns
+This command produces a names file, an identifiers file, a mapping file, and
+a MD5 hash file.
 
 Updating All
 ------------
@@ -38,8 +34,8 @@ Updating All
 
 2. Run the Bio2BEL batch BEL namespace writing command. The ``-d`` flag
    can be used to specify a directory that isn't the current working
-   directory. This script takes care of both making identifiers and names
-   files as well as naming them appropriately:
+   directory. Like above, this script takes care of both making names, identifiers
+   mappings, and hash files as well as naming them appropriately:
 
 .. code-block:: bash
 
