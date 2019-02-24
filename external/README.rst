@@ -14,7 +14,8 @@ Updating One
    
 2. Run the Bio2BEL GO command line. All repositories that can produce a 
    BEL identifiers namespace file have the subcommand `belns write`. 
-   The `-d` flag can be used to specify the output directory.
+   The ``-d`` flag can be used to specify an output directory that isn't the 
+   current working directory.
 
 .. code-block:: bash
 
@@ -33,7 +34,7 @@ Updating All
    $ pip install -r requirements.txt
 
 2. Run the Bio2BEL batch BEL namespace writing command. The ``-d`` flag
-   can be used to specify a directory that isn't the current working
+   can be used to specify a output directory that isn't the current working
    directory. Like above, this script takes care of both making names, identifiers
    mappings, and hash files as well as naming them appropriately:
 
