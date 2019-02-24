@@ -2,22 +2,18 @@
 Keyword=hgnc.genefamily
 NameString=HGNC gene family
 DomainString=Other
-VersionString=20181221
-CreatedDateTime=2018-12-21T12:21:31
+VersionString=20190224
+CreatedDateTime=2019-02-24T17:43:18
 QueryValueURL=http://identifiers.org/hgnc.genefamily/
-
 [Author]
 NameString=cthoyt
 CopyrightString=Other/Proprietary
-
 [Citation]
 NameString=None
-
 [Processing]
 CaseSensitiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
-
 [Values]
 m6A methyltransferase complex|GPR
 1-acylglycerol-3-phosphate O-acyltransferases|GPR
@@ -64,7 +60,7 @@ Abhydrolase domain containing|GPR
 Abl family tyrosine kinases|GPR
 Acid phosphatases|GPR
 Acid sensing ion channel subunits|GPR
-Actin related protein 2/3 complex|GPR
+Actin related protein 2/3 complex subunits|GPR
 Actin related proteins|GPR
 Actinins|GPR
 Actins|GPR
@@ -134,6 +130,7 @@ Atypical chemokine receptors|GPR
 Atypical dual specificity phosphatases|GPR
 Autophagy related|GPR
 Axonemal dynein assembly factors|GPR
+B-WICH chromatin-remodelling complex subunits|GPR
 B9 domain containing|GPR
 BAF complex|GPR
 BAR-PH domain containing|GPR
@@ -193,6 +190,7 @@ C2 domain containing protein kinases|GPR
 C2 tensin-type domain containing|GPR
 C2-set domain containing|GPR
 C3 and PZP like, alpha-2-macroglobulin domain containing|GPR
+CAMSAP family|GPR
 CAP and C-type lectin domain containing|GPR
 CAP superfamily|GPR
 CBM complex|GPR
@@ -204,6 +202,7 @@ CDC like kinases|GPR
 CDC14 phosphatases|GPR
 CDC42 effector proteins|GPR
 CDGSH iron sulfur domain containing|GPR
+CDK activating kinase complex|GPR
 CELSR cadherins|GPR
 CERS class homeoboxes|GPR
 CKLF like MARVEL transmembrane domain containing|GPR
@@ -286,6 +285,7 @@ Crumbs complex|GPR
 Csk family tyrosine kinases|GPR
 Cullins|GPR
 Cyclic nucleotide gated channels|GPR
+Cyclin and CBS domain divalent metal cation transport mediators|GPR
 Cyclin dependent kinases|GPR
 Cyclins|GPR
 Cyclophilin peptidylprolyl isomerases|GPR
@@ -336,10 +336,14 @@ Death effector domain containing|GPR
 Death inducing signaling complex|GPR
 Defensins, alpha|GPR
 Defensins, beta|GPR
+Dehydrodolichyl diphosphate synthase|GPR
+Deoxyribonucleoside kinases|GPR
+Depalmitoylases|GPR
 Desmosomal cadherins|GPR
 Desumoylating isopeptidases|GPR
 Diacylglycerol O-acyltransferase 2 family|GPR
 Diacylglycerol kinases|GPR
+Diphthamide biosynthesis pathway genes|GPR
 Dishevelled segment polarity proteins|GPR
 Dolichyl D-mannosyl phosphate dependent mannosyltransferases|GPR
 Dopamine receptors|GPR
@@ -350,6 +354,8 @@ Dyneins, axonemal|GPR
 Dyneins, cytoplasmic|GPR
 E2F transcription factors|GPR
 EF-hand domain containing|GPR
+ELMO domain containing|GPR
+EMAP like|GPR
 EMI domain containing|GPR
 EMSY complex|GPR
 ENAH/VASPs|GPR
@@ -367,6 +373,7 @@ Early B-cell factors|GPR
 Elongator acetyltransferase complex|GPR
 Elongin complex|GPR
 Endogenous ligands|GPR
+Endoribonucleases|GPR
 Endosome-associated recycling protein (EARP) complex|GPR
 Endothelin receptors|GPR
 Engulfment and cell motility proteins|GPR
@@ -388,11 +395,13 @@ F-box and WD repeat domain containing|GPR
 F-box and leucine rich repeat proteins|GPR
 F-boxes other|GPR
 F2R receptors|GPR
+FA Core Complex|GPR
 FA complementation groups|GPR
 FASTK mitochondrial RNA binding family|GPR
 FERM domain containing|GPR
 FKBP prolyl isomerases|GPR
 Family with sequence similarity 230|GPR
+Family with sequence similarity 83|GPR
 Fascins|GPR
 Fatty acid binding protein family|GPR
 Fatty acid desaturases|GPR
@@ -447,6 +456,11 @@ Gap junction proteins|GPR
 Gasdermins|GPR
 Gelsolin/villins|GPR
 Gemins|GPR
+General transcription factor IIA complex subunits|GPR
+General transcription factor IIE complex subunits|GPR
+General transcription factor IIF complex subunits|GPR
+General transcription factor IIH complex subunits|GPR
+General transcription factor IIIC complex subunits|GPR
 General transcription factors|GPR
 Gla domain containing|GPR
 Glucagon receptor family|GPR
@@ -490,7 +504,6 @@ HAUS augmin like complex|GPR
 HNF class homeoboxes|GPR
 HOPS complex|GPR
 HOXL subclass homeoboxes|GPR
-HRAS like suppressor family|GPR
 Haloacid dehalogenase like hydrolase domain containing|GPR
 Heat shock 70kDa proteins|GPR
 Heat shock 90kDa proteins|GPR
@@ -502,6 +515,7 @@ Heparin binding growth factor family|GPR
 Hexosaminidases|GPR
 Histamine receptors|GPR
 Histatins and statherin|GPR
+Histidine triad superfamily|GPR
 Histocompatibility complex|GPR
 Histone deacetylases, class I|GPR
 Histone deacetylases, class IIA|GPR
@@ -514,10 +528,13 @@ Hyaluronidases|GPR
 Hydrogen voltage gated channels|GPR
 Hydroxy-carboxylic acid receptors|GPR
 Hypocretin receptors|GPR
+I kappa B kinases|GPR
 I-BAR domain containing|GPR
 I-set domain containing|GPR
+IKK complex|GPR
 INHAT complex|GPR
 INO80 complex|GPR
+IPT domain containing|GPR
 IZUMO family|GPR
 Ig-like cell adhesion molecule family|GPR
 IgCAM CXADR-related subfamily|GPR
@@ -539,6 +556,7 @@ Integrin alpha subunits|GPR
 Integrin beta subunits|GPR
 Interferon induced transmembrane proteins|GPR
 Interferon receptors|GPR
+Interferon regulatory factors|GPR
 Interferons|GPR
 Interleukin 6 type cytokine family|GPR
 Interleukin receptors|GPR
@@ -551,6 +569,7 @@ Iron (II) and 2-oxoglutarate dependent oxygenases|GPR
 Jak family tyrosine kinases|GPR
 Jun transcription factor family|GPR
 Junctophilins|GPR
+KCTD family|GPR
 KEOPS complex|GPR
 KICSTOR complex|GPR
 KN motif and ankyrin repeat domain containing|GPR
@@ -572,6 +591,7 @@ LIM class homeoboxes|GPR
 LIM domain containing|GPR
 LIM zinc finger domain containing|GPR
 LIMK/TESK kinase family|GPR
+LRAT domain containing family|GPR
 LSm proteins|GPR
 LY6/PLAUR domain containing|GPR
 LYR motif containing|GPR
@@ -622,6 +642,7 @@ MSL histone acetyltransferase complex|GPR
 MTOR complex 1|GPR
 MTOR complex 2|GPR
 MYST type domain containing lysine acetyltransferases|GPR
+Macro domain containing|GPR
 Maestro heat like repeat containing|GPR
 Major cadherins|GPR
 Mannosidases alpha class 1|GPR
@@ -640,8 +661,11 @@ Membrane associated ring-CH-type fingers|GPR
 Membrane bound O-acyltransferases|GPR
 Membrane spanning 4-domains|GPR
 Metallothioneins|GPR
+Metaxins|GPR
 Methyl-CpG binding domain containing|GPR
 Methyltransferase like|GPR
+MicroRNA non-coding host genes|GPR
+MicroRNA protein coding host genes|GPR
 MicroRNAs|GPR
 Microsomal glutathione S-transferases|GPR
 Minor histocompatibility antigens|GPR
@@ -653,8 +677,10 @@ Mitochondrial complex II: succinate dehydrogenase subunits|GPR
 Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits|GPR
 Mitochondrial complex IV: cytochrome c oxidase subunits|GPR
 Mitochondrial complex V: ATP synthase subunits|GPR
+Mitochondrial contact site and cristae organizing system subunits|GPR
 Mitochondrial respiratory chain complex assembly factors|GPR
 Mitochondrial ribosomal proteins|GPR
+Mitochondrial sorting and assembly machinery complex|GPR
 Mitochondrially encoded ribosomal RNAs|GPR
 Mitochondrially encoded tRNAs|GPR
 Mitogen-activated protein kinase kinase kinase kinases|GPR
@@ -721,6 +747,7 @@ NineTeen complex|GPR
 Non-canonical high mobility group|GPR
 Non-canonical poly(A) polymerases|GPR
 Non-clustered protocadherins|GPR
+Notch receptors|GPR
 NuRD complex|GPR
 Nuclear exosome targeting complex|GPR
 Nuclear factors of activated T-cells|GPR
@@ -785,6 +812,7 @@ Paf1/RNA polymerase II complex|GPR
 Paired boxes|GPR
 Pannexins|GPR
 Pappalysins|GPR
+Paralemmins|GPR
 Paraneoplastic Ma antigens|GPR
 Paraoxonases|GPR
 Parathyroid hormone receptors|GPR
@@ -850,9 +878,9 @@ Protein phosphatase 6 regulatory subunits|GPR
 Protein phosphatase catalytic subunits|GPR
 Protein phosphatases|GPR
 Protein phosphatases, Mg2+/Mn2+ dependent|GPR
-Protein tyrosine phosphatases type IVA|GPR
-Protein tyrosine phosphatases, non-receptor type|GPR
-Protein tyrosine phosphatases, receptor type|GPR
+Protein tyrosine phosphatase 4A family|GPR
+Protein tyrosine phosphatases non-receptor type|GPR
+Protein tyrosine phosphatases receptor type|GPR
 Proteoglycans|GPR
 Pseudoautosomal region 1|GPR
 Pseudoautosomal region 2|GPR
@@ -873,6 +901,7 @@ RAS type GTPase family|GPR
 RBR E3 ubiquitin ligases|GPR
 RELT family|GPR
 RGK type GTPase family|GPR
+RISC loading complex|GPR
 RNA binding motif containing|GPR
 RNA helicases|GPR
 RNA polymerase subunits|GPR
@@ -910,6 +939,7 @@ S100 fused type protein family|GPR
 SAGA complex|GPR
 SAM and SH3 domain containing|GPR
 SCAN domain containing|GPR
+SCAR/WAVE complex|GPR
 SCF complex|GPR
 SCY1 like pseudokinases|GPR
 SEC14 family|GPR
@@ -936,6 +966,7 @@ STEAP family|GPR
 STRIPAK complex|GPR
 STT3 oligosaccharyltransferase catalytic subunits|GPR
 SUMO specific peptidases|GPR
+SWC tripartite complex|GPR
 Scavenger receptor cysteine rich domain containing|GPR
 Scavenger receptors|GPR
 Schlafen family|GPR
@@ -948,6 +979,7 @@ Selenoproteins|GPR
 Semaphorins|GPR
 Septins|GPR
 Serine and arginine rich splicing factors|GPR
+Serine beta lactamase family|GPR
 Serine peptidase inhibitors, Kazal type|GPR
 Serine proteases|GPR
 Serine/threonine phosphatases|GPR
@@ -1001,6 +1033,7 @@ Src family tyrosine kinases|GPR
 StAR related lipid transfer domain containing|GPR
 Stathmins|GPR
 Sterile alpha motif domain containing|GPR
+Stomatin family|GPR
 Structural maintenance of chromosomes proteins|GPR
 Succinate receptor|GPR
 Sugar phosphatases|GPR
@@ -1033,6 +1066,7 @@ TIM22 complex|GPR
 TIM23 complex|GPR
 TIR domain containing|GPR
 TLC domain containing|GPR
+TLE family|GPR
 TNF receptor associated factors|GPR
 TNK family tyrosine kinases|GPR
 TOG domain containing|GPR
@@ -1057,6 +1091,7 @@ Transcribed pseudogenes with published function|GPR
 Transcription and export complex 2|GPR
 Transcription elongation factor A like family|GPR
 Transcription factor Dp family|GPR
+Transfer RNA pseudogenes|GPR
 Transferrins|GPR
 Transforming growth factor beta family|GPR
 Transglutaminases|GPR
@@ -1128,6 +1163,7 @@ WIPI family|GPR
 WRAD complex|GPR
 WTAP complex|GPR
 Wiskott-Aldrich Syndrome protein family|GPR
+Wnt enhanceosome complex|GPR
 Wnt family|GPR
 X-C motif chemokine receptors|GPR
 X-linked mental retardation|GPR
@@ -1172,6 +1208,8 @@ eNoSC complex|GPR
 interferon induced transmembrane protein domain containing|GPR
 mitochondrial RNase P complex|GPR
 p120 catenin family|GPR
+phospholipase A and acyltransferase family|GPR
+subcortical maternal complex|GPR
 tRNA methyltransferases|GPR
 tRNA splicing ligase complex|GPR
 tRNA-splicing endonuclease subunits|GPR

@@ -1,22 +1,19 @@
 [Namespace]
 Keyword=rgd
 NameString=Rat Genome Database
-VersionString=20181021
-CreatedDateTime=2018-10-21T22:33:23
+DomainString=Other
+VersionString=20190224
+CreatedDateTime=2019-02-24T20:36:41
 QueryValueURL=http://identifiers.org/rgd/
-
 [Author]
 NameString=cthoyt
 CopyrightString=Other/Proprietary
-
 [Citation]
 NameString=None
-
 [Processing]
 CaseSensitiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
-
 [Values]
 10043200|G
 10043390|G
@@ -15116,6 +15113,7 @@ CacheableFlag=yes
 1359734|GPR
 1359735|GPR
 1359736|GPR
+13831342|GPR
 1549692|GPR
 1549693|GPR
 1549694|GPR
@@ -20685,7 +20683,6 @@ CacheableFlag=yes
 1587791|G
 1587794|GPR
 1587796|G
-1587798|GPR
 1587799|G
 1587804|G
 1587811|GPR

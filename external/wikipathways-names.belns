@@ -1,22 +1,19 @@
 [Namespace]
 Keyword=wikipathways
 NameString=WikiPathways
-VersionString=20181028
-CreatedDateTime=2018-10-28T17:55:19
+DomainString=Other
+VersionString=20190224
+CreatedDateTime=2019-02-24T20:36:46
 QueryValueURL=http://identifiers.org/wikipathways/
-
 [Author]
 NameString=cthoyt
 CopyrightString=Other/Proprietary
-
 [Citation]
 NameString=None
-
 [Processing]
 CaseSensitiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
-
 [Values]
 4-hydroxytamoxifen, Dexamethasone, and Retinoic Acids Regulation of p27 Expression|B
 ACE Inhibitor Pathway|B

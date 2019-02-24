@@ -2,8 +2,8 @@
 Keyword=go
 NameString=Gene Ontology
 DomainString=Other
-VersionString=20190207
-CreatedDateTime=2019-02-07T14:27:43
+VersionString=20190224
+CreatedDateTime=2019-02-24T20:21:07
 QueryValueURL=http://identifiers.org/go/
 [Author]
 NameString=cthoyt
@@ -2245,6 +2245,7 @@ COPI-coated Golgi to ER transport vesicle|A
 COPI-coated inter-Golgi transport vesicle|A
 COPI-coated vesicle|A
 COPI-coated vesicle budding|B
+COPI-coated vesicle lumen|A
 COPI-coated vesicle membrane|A
 COPII adaptor activity|Y
 COPII vesicle coat|C
@@ -2254,6 +2255,7 @@ COPII vesicles tethering complex|C
 COPII-coated ER to Golgi transport vesicle|A
 COPII-coated vesicle budding|B
 COPII-coated vesicle cargo loading|B
+COPII-coated vesicle lumen|A
 CORVET complex|C
 CP2 mannose-ethanolamine phosphotransferase activity|Y
 CRD domain binding|Y
@@ -2787,7 +2789,6 @@ Delta9-tetrahydrocannabinolate synthase activity|Y
 Derlin-1 retrotranslocation complex|C
 Derlin-1-VIMP complex|C
 DiaA complex|C
-Dma1-dependent checkpoint|B
 DnaA-DiaA complex|C
 DnaA-DnaB-DnaC complex|C
 DnaA-Dps complex|C
@@ -11119,6 +11120,7 @@ clathrin heavy chain binding|Y
 clathrin light chain binding|Y
 clathrin vesicle coat|C
 clathrin-coated endocytic vesicle|A
+clathrin-coated endocytic vesicle lumen|A
 clathrin-coated endocytic vesicle membrane|A
 clathrin-coated phagocytic vesicle|A
 clathrin-coated phagocytic vesicle membrane|A
@@ -12754,7 +12756,6 @@ detection of salicylic acid stimulus|B
 detection of steroid hormone stimulus|B
 detection of stimulus|B
 detection of stimulus involved in DNA replication checkpoint|B
-detection of stimulus involved in Dma1-dependent checkpoint|B
 detection of stimulus involved in G1 DNA damage checkpoint|B
 detection of stimulus involved in G1 cell size control checkpoint|B
 detection of stimulus involved in G2 cell size control checkpoint|B
@@ -13407,6 +13408,7 @@ early meiotic recombination nodule assembly|B
 early neuron differentiation in forebrain|B
 early neuron fate commitment in forebrain|B
 early phagosome|A
+early phagosome lumen|A
 early phagosome membrane|A
 early recombination nodule|A
 early stripe melanocyte differentiation|B
@@ -14654,6 +14656,7 @@ external side of mycolate outer membrane|A
 external side of plasma membrane|A
 extra-invasive hyphal membrane|A
 extra-invasive hyphal space|A
+extracellular ATP signaling|B
 extracellular amino acid transport|B
 extracellular ammonia-gated ion channel activity|Y
 extracellular carbohydrate transport|B
@@ -14880,6 +14883,7 @@ fatty acid omega-hydroxylase activity|Y
 fatty acid omega-oxidation|B
 fatty acid oxidation|B
 fatty acid peroxidase activity|Y
+fatty acid primary amide biosynthetic process|B
 fatty acid synthase activity|Y
 fatty acid synthase complex|C
 fatty acid transmembrane transport|B
@@ -24650,6 +24654,7 @@ negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway|B
 negative regulation of hypoxia-inducible factor-1alpha signaling pathway|B
 negative regulation of icosanoid secretion|B
 negative regulation of imaginal disc growth|B
+negative regulation of imaginal disc-derived leg joint morphogenesis|B
 negative regulation of imaginal disc-derived wing size|B
 negative regulation of imaginal disc-derived wing vein specification|B
 negative regulation of immature T cell proliferation|B
@@ -28765,6 +28770,8 @@ phagolysosome|A
 phagolysosome assembly|B
 phagolysosome assembly involved in apoptotic cell clearance|B
 phagolysosome membrane|A
+phagolysosome vesicle lumen|A
+phagolysosome vesicle membrane|A
 phagophore|A
 phagophore assembly site|A
 phagophore assembly site membrane|A
@@ -29739,6 +29746,8 @@ pollen tube tip|A
 pollen wall|A
 pollen wall assembly|B
 pollen-pistil interaction|B
+pollen-stigma interaction|B
+pollen-style interaction|B
 pollination|B
 polo box domain specific binding|Y
 poly(3-hydroxyalkanoate) binding|Y
@@ -31606,6 +31615,7 @@ positive regulation of hypoxanthine transport|B
 positive regulation of hypoxia-inducible factor-1alpha signaling pathway|B
 positive regulation of icosanoid secretion|B
 positive regulation of imaginal disc growth|B
+positive regulation of imaginal disc-derived leg joint morphogenesis|B
 positive regulation of imaginal disc-derived wing vein specification|B
 positive regulation of immature T cell proliferation|B
 positive regulation of immature T cell proliferation in thymus|B
@@ -37294,6 +37304,7 @@ regulation of hypoxia-induced intrinsic apoptotic signaling pathway|B
 regulation of hypoxia-inducible factor-1alpha signaling pathway|B
 regulation of icosanoid secretion|B
 regulation of imaginal disc growth|B
+regulation of imaginal disc-derived leg joint morphogenesis|B
 regulation of imaginal disc-derived wing size|B
 regulation of imaginal disc-derived wing vein specification|B
 regulation of immature T cell proliferation|B
@@ -39584,7 +39595,6 @@ response to DDT|B
 response to DNA damage checkpoint signaling|B
 response to DNA integrity checkpoint signaling|B
 response to DNA replication checkpoint signaling|B
-response to Dma1-dependent checkpoint signaling|B
 response to G1 DNA damage checkpoint signaling|B
 response to G1 cell size control checkpoint signaling|B
 response to G2 DNA damage checkpoint signaling|B
@@ -41165,7 +41175,6 @@ signal transduction in response to DNA damage|B
 signal transduction involved in DNA damage checkpoint|B
 signal transduction involved in DNA integrity checkpoint|B
 signal transduction involved in DNA replication checkpoint|B
-signal transduction involved in Dma1-dependent checkpoint|B
 signal transduction involved in G1 cell size control checkpoint|B
 signal transduction involved in G2 DNA damage checkpoint|B
 signal transduction involved in G2 cell size control checkpoint|B
@@ -42180,7 +42189,6 @@ substrate-dependent cell migration, cell extension|B
 substrate-dependent cerebral cortex tangential migration|B
 substrate-independent telencephalic tangential interneuron migration|B
 substrate-independent telencephalic tangential migration|B
-substrate-specific channel activity|Y
 subsynaptic reticulum|A
 subsynaptic reticulum organization|B
 subtelomeric heterochromatin|A

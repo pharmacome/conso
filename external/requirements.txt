@@ -8,7 +8,7 @@ bio2bel_go
 bio2bel_hgnc
 bio2bel_interpro
 bio2bel_kegg
--e git+https://github.com/bio2bel/mesh.git#egg=bio2bel_mesh
+bio2bel_mesh
 -e git+https://github.com/bio2bel/mgi.git#egg=bio2bel_mgi
 bio2bel_mirbase
 bio2bel_pfam
