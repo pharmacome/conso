@@ -9,14 +9,15 @@
 </h1>
 
 <p align="center">
-This is an ontology developed during the Human Brain Pharmacome project. It containing terms representing 
-chemistry, molecular biology, epidemiology, and pathology relevant to neurodegenerative disease.
+This ontology, developed during the <a href="https://pharmacome.github.io">Human Brain Pharmacome project</a>, 
+contains terms representing chemistry, molecular biology, epidemiology, and pathology relevant to neurodegenerative 
+disease.
 </p>
 
 <p align="center">
   <a href="#contents">Contents</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#build">Build</a>
+  <a href="#build">Build</a> •
   <a href="#license">License</a>
 </p>
 
@@ -25,7 +26,7 @@ chemistry, molecular biology, epidemiology, and pathology relevant to neurodegen
 ### classes.tsv
 
 This tab-separated values file contains a two columns describing
-classes of entities in the HBP terminology:
+classes of entities in CONSO:
 
 1. Class
 2. BEL Encodings
@@ -33,7 +34,7 @@ classes of entities in the HBP terminology:
 ### terms.tsv
 
 This tab-separated values file contains four columns describing
-entities in the HBP terminology:
+entities in CONSO:
 
 1. Identifier
 2. Author
@@ -45,7 +46,7 @@ entities in the HBP terminology:
 ### synonyms.tsv
 
 This tab-separated values contains four columns describing synonyms
-for terms in the HBP terminology:
+for terms in CONSO:
 
 1. Identifier
 2. Synonym
@@ -58,14 +59,14 @@ for terms in the HBP terminology:
 This tab-separated values file contains three columns describing
 other databases that have listed this equivalent entity:
 
-1. HBP Identifier
+1. CONSO Identifier
 2. Database (preferred using identifiers.org)
 3. Identifier
 
 ### relations.tsv
 
 This tab-separated values file describes
-relations between terms in the HBP terminology:
+relations between terms in CONSO:
 
 1. Source Namespace
 2. Source Identifier
@@ -83,9 +84,11 @@ Tips:
 
 - When adding a new term, make sure that the entry has a new and unique identifier that follows
   the regular expression `^HBP\d{5}$`
-- Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but *hyperphosphorylation* is not)
+- Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but 
+  *hyperphosphorylation* is not)
 - Normalize greek letters to full english names, then add synonyms with the greek letter.
-- References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, `pmc:PMC1234`, etc.)
+- References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, 
+  `pmc:PMC1234`, etc.)
 
 ## Build
 
