@@ -4,6 +4,7 @@
 
 import argparse
 import csv
+import json
 import os
 from typing import List, Mapping, Optional
 
@@ -19,6 +20,7 @@ CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
 
 OUTPUT_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp.belns'))
 OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp-names.belns'))
+OUTPUT_MAPPING_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp.belns.mapping'))
 
 
 def _get_classes() -> Mapping[str, str]:
@@ -43,6 +45,13 @@ def _get_labels() -> Mapping[str, str]:
     classes = _get_classes()
     return {
         line[2]: classes[line[3]]
+        for line in _get_lines()
+    }
+
+
+def _get_mapping():
+    return {
+        line[0]: line[2]
         for line in _get_lines()
     }
 
@@ -77,7 +86,15 @@ def _write_namespace(path, values: Mapping[str, str], namespace_version: Optiona
         )
 
 
-def main(identifiers_path: Optional[str] = None, names_path: Optional[str] = None) -> None:
+def _write_mapping(path: str) -> None:
+    with open(path, 'w') as file:
+        json.dump(_get_mapping(), file, indent=2, sort_keys=True)
+
+
+def main(identifiers_path: Optional[str] = None,
+         names_path: Optional[str] = None,
+         mapping_path: Optional[str] = None,
+         ) -> None:
     """Export CONSO as BELNS."""
     parser = argparse.ArgumentParser()
     parser.add_argument('--version')
@@ -85,6 +102,7 @@ def main(identifiers_path: Optional[str] = None, names_path: Optional[str] = Non
 
     _write_namespace(identifiers_path or OUTPUT_FILE_PATH, _get_terms(), namespace_version=args.version)
     _write_namespace(names_path or OUTPUT_NAME_FILE_PATH, _get_labels(), namespace_version=args.version)
+    _write_mapping(mapping_path or OUTPUT_MAPPING_PATH)
 
 
 if __name__ == '__main__':
