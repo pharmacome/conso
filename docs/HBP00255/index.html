@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PrPSc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.12/c3.min.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+    />
+
+    <!-- DataTables, see: https://datatables.net/examples/styling/bootstrap4.html-->
+    <link
+        rel="stylesheet"
+        href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+    <style type="text/css">
+        h1, h2 {
+            margin-top: 35px;
+        }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#toc">
+    
+    
+    <div class="container">
+        <h1>PrPSc</h1>
+        <p>PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types.</p>
+        <dl>
+            <dt>Identifier</dt>
+            <dd>HBP00255</dd>
+            <dt>Type</dt>
+            <dd>isoform</dd>
+            <dt>Author</dt>
+            <dd>Kristian</dd>
+        </dl>
+
+        <h2>References</h2>
+        <ul>
+            
+                <li><a href="https://identifiers.org/pmid:22692785">pmid:22692785<a></li>
+            
+                <li><a href="https://identifiers.org/pmid:29414853">pmid:29414853<a></li>
+            
+        </ul>
+
+        <h2>Cross-references</h2>
+        
+            <ul>
+                
+                    <li>
+                        <a href="https://identifiers.org/uniprot:F7VJQ1">
+                            uniprot:F7VJQ1
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/uniprot.isoform:F7VJQ1-1">
+                            uniprot.isoform:F7VJQ1-1
+                        </a>
+                    </li>
+                
+            </ul>
+        
+
+        <h2>Synonyms</h2>
+        
+            <span>None available.</span>
+        
+
+        <h2>Incoming Relations</h2>
+        
+            <span>None available.</span>
+        
+
+        <h2>Outgoing Relations</h2>
+        
+            <table class="table table-striped" id="table-outgoing">
+                <thead>
+                <tr>
+                    <td>Relation</td>
+                    <td>Identifier</td>
+                    <td>Name</td>
+                </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>has_reference_protein</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/uniprot:P04156">
+                                    uniprot:P04156
+                                </a>
+                            
+                        </td>
+                        <td>PRIO_HUMAN</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
+    <!-- DataTables, see: https://datatables.net/examples/styling/bootstrap4.html-->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.12/c3.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#table-synonyms").DataTable();
+            $("#table-incoming").DataTable();
+            $("#table-outgoing").DataTable();
+        })
+    </script>
+
+  </body>
+</html>
+

@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block title %}{{ row.Name }}{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script>
+        $(document).ready(function () {
+            $("#table-synonyms").DataTable();
+            $("#table-incoming").DataTable();
+            $("#table-outgoing").DataTable();
+        })
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>{{ row.Name }}</h1>
+        <p>{{ row.Description }}</p>
+        <dl>
+            <dt>Identifier</dt>
+            <dd>{{ row.Identifier }}</dd>
+            <dt>Type</dt>
+            <dd>{{ row.Type }}</dd>
+            <dt>Author</dt>
+            <dd>{{ row.Author }}</dd>
+        </dl>
+
+        <h2>References</h2>
+        <ul>
+            {% for reference in row.References.split(',') %}
+                <li><a href="https://identifiers.org/{{ reference.strip() }}">{{ reference.strip() }}<a></li>
+            {% endfor %}
+        </ul>
+
+        <h2>Cross-references</h2>
+        {% if xrefs %}
+            <ul>
+                {% for database, database_identifier in xrefs %}
+                    <li>
+                        <a href="https://identifiers.org/{{ database }}:{{ database_identifier }}">
+                            {{ database }}:{{ database_identifier }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <span>None available.</span>
+        {% endif %}
+
+        <h2>Synonyms</h2>
+        {% if synonyms %}
+            <table class="table table-striped table-hover" id="table-synonyms">
+                <thead>
+                <tr>
+                    <td>Synonym</td>
+                    <td>Reference</td>
+                    <td>Specificity</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for synonym, reference, specificity in synonyms %}
+                    <tr>
+                        <td>{{ synonym }}</td>
+                        <td>
+                            {% if reference and reference != '?' %}
+                                <a href="https://identifiers.org/{{ reference }}">{{ reference }}</a>
+                            {% endif %}
+                        </td>
+                        <td>{{ specificity if specificity != '?' else '' }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <span>None available.</span>
+        {% endif %}
+
+        <h2>Incoming Relations</h2>
+        {% if incoming_relations %}
+            <table class="table table-striped table-hover" id="table-incoming">
+                <thead>
+                <tr>
+                    <td>Identifier</td>
+                    <td>Name</td>
+                    <td>Relation</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for source_namespace, source_identifier, source_name, relation in incoming_relations %}
+                    <tr>
+                        <td>
+                            {% if source_namespace !='HBP' %}
+                                <a href="https://identifiers.org/{{ source_namespace }}:{{ source_identifier }}">
+                                    {{ source_namespace }}:{{ source_identifier }}
+                                </a>
+                            {% else %}
+                                {{ source_namespace }}:{{ source_identifier }}
+                            {% endif %}
+                        </td>
+                        <td>{{ source_name }}</td>
+                        <td>{{ relation }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <span>None available.</span>
+        {% endif %}
+
+        <h2>Outgoing Relations</h2>
+        {% if outgoing_relations %}
+            <table class="table table-striped" id="table-outgoing">
+                <thead>
+                <tr>
+                    <td>Relation</td>
+                    <td>Identifier</td>
+                    <td>Name</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for relation, target_namespace, target_identifier, target_name in outgoing_relations %}
+                    <tr>
+                        <td>{{ relation }}</td>
+                        <td>
+                            {% if target_namespace != 'HBP' %}
+                                <a href="https://identifiers.org/{{ target_namespace }}:{{ target_identifier }}">
+                                    {{ target_namespace }}:{{ target_identifier }}
+                                </a>
+                            {% else %}
+                                {{ target_namespace }}:{{ target_identifier }}
+                            {% endif %}
+                        </td>
+                        <td>{{ target_name }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <span>None available.</span>
+        {% endif %}
+    </div>
+{% endblock %}

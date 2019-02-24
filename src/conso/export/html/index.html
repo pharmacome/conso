@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}CONSO{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script>
+        $(document).ready(function () {
+            $("#table-terms").DataTable();
+        })
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Curation of Neurodegeneration Supporting Ontology (CONSO)</h1>
+
+        <table class="table table-striped table-hover" id="table-terms">
+            <thead>
+            <tr style="text-align: right;">
+                <th>Identifier</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+                <th>In</th>
+                <th>Out</th>
+                <th>Syn.</th>
+                <th>Xref</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for _, row in terms_df.iterrows() %}
+                <tr>
+                    <td>
+                        <a href="{{ row.Identifier }}{{ "/index.html" if debug_links else "" }}">
+                            {{ row.Identifier }}
+                        </a>
+                    </td>
+                    <td>{{ row.Name }}</td>
+                    <td>{{ row.Type }}</td>
+                    <td>{{ row.Description }}</td>
+                    <td>{{ incoming_relations[row.Identifier]|length }}</td>
+                    <td>{{ outgoing_relations[row.Identifier]|length }}</td>
+                    <td>{{ synonyms[row.Identifier]|length }}</td>
+                    <td>{{ xrefs[row.Identifier]|length }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

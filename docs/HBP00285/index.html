@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sudoxicam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.12/c3.min.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+    />
+
+    <!-- DataTables, see: https://datatables.net/examples/styling/bootstrap4.html-->
+    <link
+        rel="stylesheet"
+        href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+    <style type="text/css">
+        h1, h2 {
+            margin-top: 35px;
+        }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#toc">
+    
+    
+    <div class="container">
+        <h1>sudoxicam</h1>
+        <p>Inhibitor of tau aggregation</p>
+        <dl>
+            <dt>Identifier</dt>
+            <dd>HBP00285</dd>
+            <dt>Type</dt>
+            <dd>chemical</dd>
+            <dt>Author</dt>
+            <dd>Kristian</dd>
+        </dl>
+
+        <h2>References</h2>
+        <ul>
+            
+                <li><a href="https://identifiers.org/pmid:26751493">pmid:26751493<a></li>
+            
+        </ul>
+
+        <h2>Cross-references</h2>
+        
+            <ul>
+                
+                    <li>
+                        <a href="https://identifiers.org/cas:34042-85-8">
+                            cas:34042-85-8
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/inchi:InChI=1S/C13H11N3O4S2/c1-16-10(12(18)15-13-14-6-7-21-13)11(17)8-4-2-3-5-9(8)22(16,19)20/h2-7,17H,1H3,(H,14,15,18)">
+                            inchi:InChI=1S/C13H11N3O4S2/c1-16-10(12(18)15-13-14-6-7-21-13)11(17)8-4-2-3-5-9(8)22(16,19)20/h2-7,17H,1H3,(H,14,15,18)
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/pubchem.compound:54682951">
+                            pubchem.compound:54682951
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/smiles:CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=NC=CS3">
+                            smiles:CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=NC=CS3
+                        </a>
+                    </li>
+                
+            </ul>
+        
+
+        <h2>Synonyms</h2>
+        
+            <table class="table table-striped table-hover" id="table-synonyms">
+                <thead>
+                <tr>
+                    <td>Synonym</td>
+                    <td>Reference</td>
+                    <td>Specificity</td>
+                </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>(3E)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>(3Z)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>2H-1,2-Benzothiazine-3-carboxamide, 4-hydroxy-2-methyl-N-2-thiazolyl-, 1,1-dioxide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>34042-85-8</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4-Hydroxy-2-methyl-N-(1,3-thiazol-2-yl)-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4-Hydroxy-2-methyl-N-1,3-thiazol-2-yl-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4-Hydroxy-2-methyl-N-2-thiazolyl-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4-hydroxy-2-methyl-1,1-dioxo-N-thiazol-2-yl-1$l^{6},2-benzothiazine-3-carboxamide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4-hydroxy-2-methyl-N-(2-thiazolyl)-2H-1,2-benzothiazine-3-carboxamide-1,1-dioxide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>AC1L1W79</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>AC1NSEW2</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>AC1NSM46</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>ACM34042858</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>AKOS030239604</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>BRN 0628704</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CHEMBL20634</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CP 15973</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CP-15,973</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CP-15973</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CTK8G3246</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>D05937</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>DTXSID50187653</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>EINECS 251-808-7</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>FT-0674694</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>J-019435</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>LS-40541</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>MLS006010801</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>N-(2-Thiazolyl)-4-hydroxy-2-methyl-2H-1,2-benzothiazine-3-carboxamide 1,1-Dioxide</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>NSC 615046</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>NSC-615046</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>NSC615046</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Oprea1_704902</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SCHEMBL35067</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SCHEMBL35068</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SMR004701482</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SUDOXICAM</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SYCHUQUJURZQMO-UHFFFAOYSA-N</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Sudoxicam (USAN/INN)</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Sudoxicam [USAN:BAN:INN]</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Sudoxicam [USAN:INN:BAN]</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Sudoxicamum</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Sudoxicamum [INN-Latin]</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>UNII-X033PDI962</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>X033PDI962</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>ZINC5699183</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:54682951">pubchem.compound:54682951</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        
+
+        <h2>Incoming Relations</h2>
+        
+            <span>None available.</span>
+        
+
+        <h2>Outgoing Relations</h2>
+        
+            <table class="table table-striped" id="table-outgoing">
+                <thead>
+                <tr>
+                    <td>Relation</td>
+                    <td>Identifier</td>
+                    <td>Name</td>
+                </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>has_role</td>
+                        <td>
+                            
+                                HBP:HBP00321
+                            
+                        </td>
+                        <td>Tau aggregation inhibitor</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
+    <!-- DataTables, see: https://datatables.net/examples/styling/bootstrap4.html-->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.12/c3.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#table-synonyms").DataTable();
+            $("#table-incoming").DataTable();
+            $("#table-outgoing").DataTable();
+        })
+    </script>
+
+  </body>
+</html>
+
