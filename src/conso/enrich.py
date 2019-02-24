@@ -36,9 +36,9 @@ def enrich_pubchem_synonyms():
             pd.read_csv('synonyms.tsv', sep='\t'),
             pd.DataFrame(new_synonyms, columns=SYNONYM_HEADER),
         ])
-            .drop_duplicates()
-            .sort_values(SYNONYM_HEADER)
-            .to_csv('synonyms.tsv', sep='\t', index=False)
+        .drop_duplicates()
+        .sort_values(SYNONYM_HEADER)
+        .to_csv('synonyms.tsv', sep='\t', index=False)
     )
 
 
@@ -49,7 +49,7 @@ def enrich_chebi_xrefs():
     client = zeep.Client(wsdl)
 
     def get_chebi_by_smiles(_smiles: str) -> Optional[Mapping]:
-        """Look up a molecule in ChEBI using an exact match for smiles"""
+        """Look up a molecule in ChEBI using an exact match for smiles."""
         results = client.service.getStructureSearch(
             _smiles,
             client.get_type('ns0:StructureType')('SMILES'),
@@ -106,7 +106,7 @@ def enrich_chebi_xrefs():
             pd.read_csv('xrefs.tsv', sep='\t'),
             pd.DataFrame(new_xrefs, columns=XREFS_HEADER),
         ])
-            .drop_duplicates()
-            .sort_values(XREFS_HEADER)
-            .to_csv('xrefs.tsv', sep='\t', index=False)
+        .drop_duplicates()
+        .sort_values(XREFS_HEADER)
+        .to_csv('xrefs.tsv', sep='\t', index=False)
     )

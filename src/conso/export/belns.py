@@ -1,20 +1,24 @@
 # -*- coding: utf-8 -*-
 
+"""Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to BELNS."""
+
 import argparse
 import csv
 import os
 from typing import List, Mapping, Optional
 
-from pybel.constants import NAMESPACE_DOMAIN_OTHER
-from pybel.resources import write_namespace
+from bel_resources import write_namespace
+from bel_resources.constants import NAMESPACE_DOMAIN_OTHER
 
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
+ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
 
-TERMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'terms.tsv'))
-CLASSES_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'classes.tsv'))
-OUTPUT_FILE_PATH = os.path.abspath(os.path.join(HERE, 'hbp.belns'))
-OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(HERE, 'hbp-names.belns'))
+TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
+CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
+
+OUTPUT_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp.belns'))
+OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp-names.belns'))
 
 
 def _get_classes() -> Mapping[str, str]:
@@ -73,13 +77,14 @@ def _write_namespace(path, values: Mapping[str, str], namespace_version: Optiona
         )
 
 
-def main():
+def main(identifiers_path: Optional[str] = None, names_path: Optional[str] = None) -> None:
+    """Export CONSO as BELNS."""
     parser = argparse.ArgumentParser()
     parser.add_argument('--version')
     args = parser.parse_args()
 
-    _write_namespace(OUTPUT_FILE_PATH, _get_terms(), namespace_version=args.version)
-    _write_namespace(OUTPUT_NAME_FILE_PATH, _get_labels(), namespace_version=args.version)
+    _write_namespace(identifiers_path or OUTPUT_FILE_PATH, _get_terms(), namespace_version=args.version)
+    _write_namespace(names_path or OUTPUT_NAME_FILE_PATH, _get_labels(), namespace_version=args.version)
 
 
 if __name__ == '__main__':

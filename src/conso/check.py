@@ -7,12 +7,19 @@ import os
 import re
 import sys
 from collections import defaultdict
-from typing import Iterable, Mapping, Set, Tuple, Optional
+from typing import Iterable, Mapping, Optional, Set, Tuple
 
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
+ROOT = os.path.join(HERE, os.pardir, os.pardir)
 
-HBP_IDENTIFIER = re.compile('^HBP(?P<number>\d{5})$')
+CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
+TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
+SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
+XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
+RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
+
+HBP_IDENTIFIER = re.compile(r'^HBP(?P<number>\d{5})$')
 NUMBER_TERM_COLUMNS = 6
 CURATOR_COLUMN = 1
 WITHDRAWN_COLUMN = 2
@@ -33,17 +40,18 @@ VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound'}
 VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
-def get_identifier_to_name(*, classes: Set[str], path: str = 'terms.tsv') -> Mapping[str, str]:
-    with open(os.path.join(HERE, path)) as file:
+def get_identifier_to_name(*, classes: Set[str]) -> Mapping[str, str]:
+    """Generate a mapping from terms' identifiers to their names."""
+    with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        return dict(_get_terms_helper(path, reader, classes))
+        return dict(_get_terms_helper(reader, classes))
 
 
-def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[str, str]]:
+def _get_terms_helper(reader, classes: Set[str]) -> Iterable[Tuple[str, str]]:
     errors = 0
 
-    def print_fail(s):
+    def _print_fail(s):
         nonlocal errors
         errors += 1
         print(s)
@@ -53,71 +61,72 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
             continue
 
         if line[-1].endswith('\t') or line[-1].endswith(' '):
-            print_fail(f'{path}: Trailing whitespace on line {i}')
+            _print_fail(f'{TERMS_PATH}: Trailing whitespace on line {i}')
 
         for column_number, column in enumerate(line, start=1):
             if column != column.strip():
-                print_fail(f'{path}, line {i}, column {column_number}: Extra white space: {column}')
+                _print_fail(f'{TERMS_PATH}, line {i}, column {column_number}: Extra white space: {column}')
 
         identifier = line[0]
         match = HBP_IDENTIFIER.match(identifier)
 
         if match is None:
-            print_fail(f'{path}, line {i}: Invalid identifier chosen: {line}')
+            _print_fail(f'{TERMS_PATH}, line {i}: Invalid identifier chosen: {line}')
             continue
 
         current_number = int(match.groups()[0])
         if i - 1 != current_number:  # current_number <= last_number:
-            print_fail(f'{path}, line {i}: Indexing scheme broken: {identifier}')
+            _print_fail(f'{TERMS_PATH}, line {i}: Indexing scheme broken: {identifier}')
             continue
 
         if line[CURATOR_COLUMN] not in VALID_CURATORS:
-            print_fail(f'{path}, line {i}: Invalid curator: {line[0]}')
+            _print_fail(f'{TERMS_PATH}, line {i}: Invalid curator: {line[0]}')
 
         if len(line) < NUMBER_TERM_COLUMNS:
-            print_fail(f'{path}, line {i}: Not enough fields (only found {len(line)}/{NUMBER_TERM_COLUMNS}): {line}')
+            _print_fail(
+                f'{TERMS_PATH}, line {i}: Not enough fields (only found {len(line)}/{NUMBER_TERM_COLUMNS}): {line}')
             continue
 
         if len(line) > NUMBER_TERM_COLUMNS:
-            print_fail(f'{path}, line {i}: Too many fields '
-                       f'(found {len(line)}/{NUMBER_TERM_COLUMNS}) on line {i}: {line}')
+            _print_fail(f'{TERMS_PATH}, line {i}: Too many fields '
+                        f'(found {len(line)}/{NUMBER_TERM_COLUMNS}) on line {i}: {line}')
             continue
 
         if line[WITHDRAWN_COLUMN] == 'WITHDRAWN':
             print(f'note: {identifier} was withdrawn')
             if not all(entry == '.' for entry in line[WITHDRAWN_COLUMN + 1:]):
-                print_fail(f'{path}: Wrong formatting for withdrawn term line {i}: '
-                           f'Use periods as placeholders.')
+                _print_fail(f'{TERMS_PATH}: Wrong formatting for withdrawn term line {i}: '
+                            f'Use periods as placeholders.')
             continue
 
         if any(not column for column in line):
-            print_fail(f'{path}, line {i}: Missing entries: {line}')
+            _print_fail(f'{TERMS_PATH}, line {i}: Missing entries: {line}')
             continue
 
         if line[TYPE_COLUMN] not in classes:
-            print_fail(f'{path}, line {i}: Invalid class: {line[TYPE_COLUMN]}.')
+            _print_fail(f'{TERMS_PATH}, line {i}: Invalid class: {line[TYPE_COLUMN]}.')
             continue
 
         references = line[REFERENCES_COLUMN].split(',')
         references_split = [reference.strip().split(':') for reference in references]
 
         if not all(len(reference) == 2 for reference in references_split):
-            print_fail(f'{path}, line {i}: problematic references: {references_split}')
+            _print_fail(f'{TERMS_PATH}, line {i}: problematic references: {references_split}')
             continue
 
         if any(len(x) != 2 for x in references_split):
-            print_fail(f'{path}, line {i}: missing reference {references_split}')
+            _print_fail(f'{TERMS_PATH}, line {i}: missing reference {references_split}')
             continue
 
         if any(source not in VALID_SOURCES for source, reference in references_split):
-            print_fail(
-                f'{path}, line {i} : invalid reference type '
+            _print_fail(
+                f'{TERMS_PATH}, line {i} : invalid reference type '
                 f'(note: always use lowercase pmid, pmc, etc.): {references_split}'
             )
             continue
 
         if '"' in line[DESCRIPTION_COLUMN]:
-            print_fail(f'{path}, line {i}: can not use double quote in description column')
+            _print_fail(f'{TERMS_PATH}, line {i}: can not use double quote in description column')
             continue
 
         yield identifier, line[NAME_COLUMN]
@@ -127,98 +136,102 @@ def _get_terms_helper(path: str, reader, classes: Set[str]) -> Iterable[Tuple[st
         sys.exit(1)
 
 
-def get_classes(*, path: str = 'classes.tsv') -> Set[str]:
-    with open(os.path.join(HERE, path)) as file:
+def get_types() -> Set[str]:
+    """Get the set of all types used in CONSO."""
+    with open(CLASSES_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         return {
             line[0]
-            for line in _get_classes_helper(reader)
+            for line in _get_types_helper(reader)
         }
 
 
-def _get_classes_helper(lines: Iterable[Tuple[str, ...]]):
+def _get_types_helper(lines: Iterable[Tuple[str, ...]]):
     last_line = next(lines)
     yield last_line[0].strip()
 
     for i, line in enumerate(lines, start=3):
         if line[0].strip() != line[0]:
-            raise ValueError(f'classes.tsv: Extra spacing around first entry in line {i}: {line}')
+            raise ValueError(f'{CLASSES_PATH}: Extra spacing around first entry in line {i}: {line}')
 
         if line[0] < last_line[0]:
-            raise ValueError(f'classes.tsv: Not sorted properly on line {i}: {line}')
+            raise ValueError(f'{CLASSES_PATH}: Not sorted properly on line {i}: {line}')
 
         yield line
         last_line = line
 
 
-def check_xrefs_file(*, identifier_to_name: Mapping[str, str], path: str = 'xrefs.tsv'):
-    with open(os.path.join(HERE, path)) as file:
+def check_xrefs_file(*, identifier_to_name: Mapping[str, str]):
+    """Validate the cross-references file."""
+    with open(XREFS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        yield from _check_xrefs_file_helper(path, reader, identifier_to_name)
+        yield from _check_xrefs_file_helper(reader, identifier_to_name)
 
 
-def _check_xrefs_file_helper(path, reader, identifier_to_name: Mapping[str, str]):
+def _check_xrefs_file_helper(reader, identifier_to_name: Mapping[str, str]):
     current_identifier = 0
     for i, line in enumerate(reader, start=2):
         if len(line) != 3:
-            raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
+            raise Exception(f'{XREFS_PATH}: Not the right number fields (found {len(line)}) on line {i}: {line}')
 
         if any(not column for column in line):
-            raise Exception(f'{path}: Missing entries on line {i}: {line}')
+            raise Exception(f'{XREFS_PATH}: Missing entries on line {i}: {line}')
 
         term = line[0]
 
         if term not in identifier_to_name:
-            raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
+            raise Exception(f'{XREFS_PATH}: Invalid identifier on line {i}: {term}')
 
         new_identifier = int(HBP_IDENTIFIER.match(term).groups()[0])
         if new_identifier < current_identifier:
-            raise Exception(f'{path}: Not monotonic increasing on line {i}: {term}')
+            raise Exception(f'{XREFS_PATH}: Not monotonic increasing on line {i}: {term}')
         current_identifier = new_identifier
 
         yield line
 
 
-def check_synonyms_file(*, identifier_to_name: Mapping[str, str], path: str = 'synonyms.tsv'):
-    with open(os.path.join(HERE, path)) as file:
+def check_synonyms_file(*, identifier_to_name: Mapping[str, str]):
+    """Validate the synonyms file."""
+    with open(SYNONYMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        return list(_check_synonyms_helper(path, reader, identifier_to_name))
+        return list(_check_synonyms_helper(reader, identifier_to_name))
 
 
-def _check_synonyms_helper(path, reader, identifier_to_name: Mapping[str, str]):
+def _check_synonyms_helper(reader, identifier_to_name: Mapping[str, str]):
     current_identifier = 0
     for i, line in enumerate(reader, start=2):
         if len(line) != 4:
-            raise Exception(f'{path}: Not the right number fields (found {len(line)}) on line {i}: {line}')
+            raise Exception(f'{SYNONYMS_PATH}: Not the right number fields (found {len(line)}) on line {i}: {line}')
 
         if any(not column for column in line):
-            raise Exception(f'{path}: Missing entries on line {i}: {line}')
+            raise Exception(f'{SYNONYMS_PATH}: Missing entries on line {i}: {line}')
 
         term = line[0]
 
         if term not in identifier_to_name:
-            raise Exception(f'{path}: Invalid identifier on line {i}: {term}')
+            raise Exception(f'{SYNONYMS_PATH}: Invalid identifier on line {i}: {term}')
 
         new_identifier = int(HBP_IDENTIFIER.match(term).groups()[0])
         if new_identifier < current_identifier:
-            raise Exception(f'{path}: Not monotonic increasing on line {i}: {term}')
+            raise Exception(f'{SYNONYMS_PATH}: Not monotonic increasing on line {i}: {term}')
         current_identifier = new_identifier
 
         specificity = line[3]
         if specificity not in VALID_SYNONYM_TYPES:
-            raise Exception(f'{path}: Invalid specificity on line {i}: {specificity}')
+            raise Exception(f'{SYNONYMS_PATH}: Invalid specificity on line {i}: {specificity}')
 
         yield line
 
 
-def check_relations_file(*, identifier_to_name: Mapping[str, str], path: str = 'relations.tsv'):
-    with open(os.path.join(HERE, path)) as file:
+def check_relations_file(*, identifier_to_name: Mapping[str, str]):
+    """Validate the relations file."""
+    with open(RELATIONS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        return list(_check_relations_file_helper(path, reader, identifier_to_name))
+        return list(_check_relations_file_helper(RELATIONS_PATH, reader, identifier_to_name))
 
 
 def _check_relations_file_helper(path, reader, identifier_to_name: Mapping[str, str]) -> Tuple[str, ...]:
@@ -242,8 +255,9 @@ def _check_relations_file_helper(path, reader, identifier_to_name: Mapping[str, 
         yield line
 
 
-def check_class_has_xref(cls, xrefs, terms_path: str = 'terms.tsv', xrefs_path: str = 'xrefs.tsv') -> None:
-    with open(os.path.join(HERE, terms_path)) as file:
+def check_class_has_xref(cls, xrefs) -> None:
+    """Check that members of a given class have certain cross-references."""
+    with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         entries = {
@@ -253,7 +267,7 @@ def check_class_has_xref(cls, xrefs, terms_path: str = 'terms.tsv', xrefs_path: 
         }
 
     db_map = defaultdict(dict)
-    with open(os.path.join(HERE, xrefs_path)) as file:
+    with open(XREFS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         for hbp_id, db, db_id in reader:
@@ -270,11 +284,10 @@ def check_class_has_xref(cls, xrefs, terms_path: str = 'terms.tsv', xrefs_path: 
 
 def check_class_has_relation(cls: str,
                              relation: str,
-                             terms_path: str = 'terms.tsv',
-                             relations_path: str = 'relations.tsv',
                              object_namespace: Optional[str] = None
                              ) -> None:
-    with open(os.path.join(HERE, terms_path)) as file:
+    """Check that members of the given class have a given relation with a cardinality of 1."""
+    with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         entries = {
@@ -283,7 +296,7 @@ def check_class_has_relation(cls: str,
             if cls_ == cls
         }
 
-    with open(os.path.join(HERE, relations_path)) as file:
+    with open(RELATIONS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
@@ -298,13 +311,15 @@ def check_class_has_relation(cls: str,
     }
     if missing_role:
         s = 29 + len(relation) + len(cls)
-        print('', '#' * s, f'# {cls} missing relation {relation} ({len(missing_role)}/{len(entries)}) #', '#' * s, sep='\n')
+        print('', '#' * s, f'# {cls} missing relation {relation} ({len(missing_role)}/{len(entries)}) #', '#' * s,
+              sep='\n')
         for entry in sorted(missing_role):
             print(*entry, relation, object_namespace or '?', '?', '?', sep='\t')
 
 
-def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'relations.tsv'):
-    with open(os.path.join(HERE, terms_path)) as file:
+def check_chemical_roles():
+    """Check that all chemicals have at least one role."""
+    with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         chemicals = {
@@ -313,7 +328,7 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
             if cls == 'chemical'
         }
 
-    with open(os.path.join(HERE, relations_path)) as file:
+    with open(RELATIONS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
@@ -342,14 +357,15 @@ def check_chemical_roles(terms_path: str = 'terms.tsv', relations_path: str = 'r
             print(f'{":".join(chemical[1:])}')
 
 
-def check_chemical_structures(terms_path: str = 'terms.tsv', xrefs_path: str = 'xrefs.tsv') -> None:
+def check_chemical_structures() -> None:
+    """Check that all chemicals have an InChI and SMILES structure."""
     xrefs = [
         'inchi',
         'smiles',
         # 'chebi',
         # 'cas',
     ]
-    check_class_has_xref('chemical', xrefs, terms_path=terms_path, xrefs_path=xrefs_path)
+    check_class_has_xref('chemical', xrefs)
 
 
 def _check_missing_xref(cls: str,
@@ -372,7 +388,7 @@ def _check_missing_xref(cls: str,
 
 def main():
     """Run the check on the terms, synonyms, and xrefs."""
-    classes = get_classes()
+    classes = get_types()
     identifier_to_name = get_identifier_to_name(classes=classes)
 
     check_synonyms_file(identifier_to_name=identifier_to_name)
@@ -385,7 +401,6 @@ def main():
     check_chemical_structures()
     check_chemical_roles()
     check_class_has_relation('antibody', 'has_antibody_target')
-
 
     sys.exit(0)
 

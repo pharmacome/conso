@@ -1,24 +1,28 @@
 # -*- coding: utf-8 -*-
 
-"""Export the Human Brain Pharmacome terminology to OWL."""
+"""Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to OWL."""
 
 import csv
 import os
 import types
-from typing import Dict, Type
+from typing import Dict, Optional, Type
 
 import pandas as pd
 from owlready2 import AnnotationProperty, Namespace, Ontology, Thing, get_ontology
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
+
+CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
+TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
+SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
+XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
+RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
+
+OUTPUT_PATH = os.path.join(ROOT, 'export', 'hbp.owl')
 
 HBP = 'HBP'
 URL = 'https://raw.githubusercontent.com/pharmacome/terminology/master/export/hbp.owl'
-CLASSES_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'classes.tsv'))
-TERMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'terms.tsv'))
-SYNONYMS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'synonyms.tsv'))
-XREFS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'xrefs.tsv'))
-RELATIONS_PATH = os.path.abspath(os.path.join(HERE, os.pardir, 'relations.tsv'))
 
 
 # DC_NAME = 'Curation of Neurodegeneration Supporting Ontology'
@@ -35,19 +39,18 @@ def make_ontology() -> Ontology:
     # ontology.metadata.append(dc)
 
     with skos:
-        class altLabel(AnnotationProperty):
+        class altLabel(AnnotationProperty):  # noqa: N801
             """Denotes a synonym using the SKOS vocabulary."""
 
-        class related(AnnotationProperty):
+        class related(AnnotationProperty):  # noqa: N801
             """Denotes a cross-reference using the SKOS vocabulary."""
 
-    class curator(AnnotationProperty):
-        """Denotes the curator of a given entry."""
-        namespace = ontology
+    with ontology:
+        class curator(AnnotationProperty):  # noqa: N801
+            """Denotes the curator of a given entry."""
 
-    class bel(AnnotationProperty):
-        """Denotes the BEL term corresponding to a given entry."""
-        namespace = ontology
+        class bel(AnnotationProperty):  # noqa: N801
+            """Denotes the BEL term corresponding to a given entry."""
 
     classes_df = pd.read_csv(CLASSES_PATH, sep='\t')
     super_classes = {}
@@ -64,7 +67,7 @@ def make_ontology() -> Ontology:
         _ = next(reader)  # skip the header
 
         classes: Dict[str, Type[Thing]] = {}
-        for hbp_identifier, curator, name, super_cls_name, references, definition in reader:
+        for hbp_identifier, curator_name, name, super_cls_name, references, definition in reader:
             if name == 'WITHDRAWN':
                 continue
 
@@ -74,7 +77,7 @@ def make_ontology() -> Ontology:
             )
             cls.label = name
             cls.comment = definition
-            cls.curator = curator
+            cls.curator = curator_name
             cls.related = [reference.strip() for reference in references.split(',')]
             classes[hbp_identifier] = cls
 
@@ -95,9 +98,10 @@ def make_ontology() -> Ontology:
     return ontology
 
 
-def main():
+def main(path: Optional[str] = None) -> None:
+    """Export CONSO as OWL."""
     ontology = make_ontology()
-    ontology.save(os.path.join(HERE, 'hbp.owl'))
+    ontology.save(path or OUTPUT_PATH)
 
 
 if __name__ == '__main__':
