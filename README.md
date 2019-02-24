@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  HBP Terminology
+  Curation of Neurodegeneration Supporting Ontology (CONSO)
   <a href="https://travis-ci.com/pharmacome/terminology">
     <img src="https://travis-ci.com/pharmacome/terminology.svg?branch=master"
          alt="Travis CI">
@@ -9,14 +9,15 @@
 </h1>
 
 <p align="center">
-This is a terminology for the Human Brain Pharmacome (HBP) project, containing terms representing the molecular biology
-relevant to neurodegenerative disease.
+This is an ontology developed during the Human Brain Pharmacome project. It containing terms representing 
+chemistry, molecular biology, epidemiology, and pathology relevant to neurodegenerative disease.
 </p>
 
 <p align="center">
   <a href="#contents">Contents</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#exports">Exports</a>
+  <a href="#build">Build</a>
+  <a href="#license">License</a>
 </p>
 
 ## Contents
@@ -103,3 +104,8 @@ $ tox
 ```
 
 Finally, the results need to be `git push`ed back to GitHub.
+
+## License
+
+- BEL scripts in this repository are licensed under the CC BY 4.0 license.
+- Python source code in this repository is licensed under the MIT license.
