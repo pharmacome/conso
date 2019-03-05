@@ -2,9 +2,10 @@
 
 # from bio2bel import AbstractManager
 
+from typing import Iterable, Optional, Tuple
+
 import networkx as nx
 import pandas as pd
-from typing import Iterable, Optional, Tuple
 
 from pybel import BELGraph
 from pybel.constants import IDENTIFIER, NAME, NAMESPACE
@@ -30,7 +31,7 @@ class Manager:
         mapping = dict(self.iter_nodes(graph))
         nx.relabel_nodes(graph, mapping, copy=False)
 
-    def iter_nodes(self, graph: BELGraph) -> Iterable[Tuple[BaseEntity, ...]]:
+    def iter_nodes(self, graph: BELGraph) -> Iterable[Tuple[BaseEntity, BaseEntity]]:
         """Iterate over pairs of BEL nodes and Rat genes."""
         for node in graph:
             new_node = self.normalize_node(node)
@@ -38,6 +39,7 @@ class Manager:
                 yield node, new_node
 
     def normalize_node(self, node: BaseEntity) -> Optional[BaseEntity]:
+        """Normalize a node if possible, otherwise return None."""
         namespace = node.get(NAMESPACE)
 
         if not namespace or namespace.lower() not in {'hbp', 'conso'}:
