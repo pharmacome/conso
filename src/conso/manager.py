@@ -10,21 +10,25 @@ import pandas as pd
 from pybel import BELGraph
 from pybel.constants import IDENTIFIER, NAME, NAMESPACE
 from pybel.dsl import BaseEntity
-from .check import IDENTIFIER_COLUMN, NAME_COLUMN, TERMS_PATH, TYPE_COLUMN
+from .check import DESCRIPTION_COLUMN, IDENTIFIER_COLUMN, NAME_COLUMN, TERMS_PATH, TYPE_COLUMN
 
 
 class Manager:
     """Manage the terms in CONSO."""
 
     def __init__(self):
-        self.term_df = pd.read_csv(TERMS_PATH, sep='\t')
+        usecols = [IDENTIFIER_COLUMN, TYPE_COLUMN, NAME_COLUMN, DESCRIPTION_COLUMN]
+        self.term_df = pd.read_csv(TERMS_PATH, sep='\t', usecols=usecols)
         self.identifier_to_label = {}
         self.label_to_identifier = {}
         self.identifier_to_type = {}
-        for _, (identifier, cls, label) in self.term_df[[IDENTIFIER_COLUMN, TYPE_COLUMN, NAME_COLUMN]].iterrows():
+        self.identifier_to_description = {}
+
+        for _, (identifier, cls, label, description) in self.term_df.iterrows():
             self.identifier_to_label[identifier] = label
             self.label_to_identifier[label] = identifier
             self.identifier_to_type[identifier] = cls
+            self.identifier_to_description[identifier] = description
 
     def normalize_terms(self, graph: BELGraph) -> None:
         """Normalize terms in a BEL Graph."""
@@ -59,3 +63,15 @@ class Manager:
         identifier = self.label_to_identifier.get(name)
         if identifier is not None:
             return node.__class__(namespace=namespace, name=name, identifier=identifier)
+
+    def get_json(self, identifier: str):
+        return {
+            'Identifier': identifier,
+            'Label': self.identifier_to_label[identifier],
+            'Description': self.identifier_to_description[identifier],
+        }
+
+    def summarize(self):
+        return dict(
+            terms=len(self.term_df.index)
+        )
