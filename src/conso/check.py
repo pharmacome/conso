@@ -20,6 +20,7 @@ XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
 RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
 HBP_IDENTIFIER = re.compile(r'^HBP(?P<number>\d{5})$')
+IDENTIFIER_COLUMN = 0
 NUMBER_TERM_COLUMNS = 6
 CURATOR_COLUMN = 1
 WITHDRAWN_COLUMN = 2
@@ -67,7 +68,7 @@ def _get_terms_helper(reader, classes: Set[str]) -> Iterable[Tuple[str, str]]:
             if column != column.strip():
                 _print_fail(f'{TERMS_PATH}, line {i}, column {column_number}: Extra white space: {column}')
 
-        identifier = line[0]
+        identifier = line[IDENTIFIER_COLUMN]
         match = HBP_IDENTIFIER.match(identifier)
 
         if match is None:
