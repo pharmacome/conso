@@ -41,6 +41,10 @@ VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound'}
 VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
+def is_ascii(s: str) -> bool:
+    return all(ord(c) < 128 for c in s)
+
+
 def get_identifier_to_name(*, classes: Set[str]) -> Mapping[str, str]:
     """Generate a mapping from terms' identifiers to their names."""
     with open(TERMS_PATH) as file:
@@ -80,8 +84,11 @@ def _get_terms_helper(reader, classes: Set[str]) -> Iterable[Tuple[str, str]]:
             _print_fail(f'{TERMS_PATH}, line {i}: Indexing scheme broken: {identifier}')
             continue
 
+        if i > 346 and not is_ascii(line[NAME_COLUMN]):  # introduced later
+            _print_fail(f'{TERMS_PATH}, line {i}: Name contains non-ascii: {line[NAME_COLUMN]}')
+
         if line[CURATOR_COLUMN] not in VALID_CURATORS:
-            _print_fail(f'{TERMS_PATH}, line {i}: Invalid curator: {line[0]}')
+            _print_fail(f'{TERMS_PATH}, line {i}: Invalid curator: {line[CURATOR_COLUMN]}')
 
         if len(line) < NUMBER_TERM_COLUMNS:
             _print_fail(
