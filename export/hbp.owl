@@ -584,8 +584,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small aggregates of amyloid-beta</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta oligomers</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24918635</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:29196815</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24918635</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
@@ -625,8 +625,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC19"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurodegeneration</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20202123</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12387894</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20202123</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lingling</curator>
 </owl:Class>
 
@@ -798,8 +798,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghost tangles</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8431763</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23407988</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8431763</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1227,8 +1227,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC0"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-derived (GA) advanced glycation end products</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA-AGE</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:15221334</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16630055</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:15221334</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1280,8 +1280,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alz50</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8955115</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1787,9 +1787,9 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline-rich domain</rdfs:label>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P domain</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRD</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8068626</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25974414</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:9190213</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8068626</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1846,8 +1846,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC7"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125 is a proprietary small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22815492</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28438486</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22815492</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandra</curator>
 </owl:Class>
 
@@ -1887,10 +1887,10 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregates of proteins or fragments of proteins</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein aggregates</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12747895</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23254192</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23484434</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12747895</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sbo:SBO:0000543</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
@@ -1907,8 +1907,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC24"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha6-containing receptors, which in brain occur as heteropentamers with beta2 and beta3 and are especially enriched in presynaptic nerve terminals in striatum (Champtiaux et al.,2002)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-6-containing nAChR</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19498417</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28445721</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19498417</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandra</curator>
 </owl:Class>
 
@@ -1916,8 +1916,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC11"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau domain located in the N-terminal region encompassing residues 2-18. It activates phosphatase PP1 which dephosphorylates Ser9 in GSK3Beta and leads to its activation. In normal tau, both NTD and CTD are folded back in proximity to each other forming a 'paper-clip' conformation, which masks the PAD. Phosphorylation in the AT8 epitope, disrupts this normal conformational state, exposing the PAD by moving away the terminal domains.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphatase-activating domain</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26671985</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28413156</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26671985</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1925,8 +1925,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC4"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystein-dependent auto-acetylation</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28002468</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27383765</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28002468</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -2071,8 +2071,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC23"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kappa-Bungarotoxin</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21787755</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:3359187</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21787755</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:P01398</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
 </owl:Class>
@@ -2120,8 +2120,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC109066</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cid_714286</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f-LIGRLO-NH2</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24511233</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18059262</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24511233</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cas:633283-39-3</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C17H16ClN3OS/c1-9-7-10(2)21-17-13(9)14(19)15(23-17)16(22)20-8-11-3-5-12(18)6-4-11/h3-7H,8,19H2,1-2H3,(H,20,22)</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:714286</skos:related>
@@ -2947,8 +2947,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC16"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrPSc</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:29414853</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22692785</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:29414853</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:F7VJQ1</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot.isoform:F7VJQ1-1</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
@@ -4031,8 +4031,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A key intermediate product of tau oligomerization to PHF and NFT formation, they consist of covalently linked antiparallel tau monomers presenting disulfide cross links between cystein residues.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau dimers</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:10899437</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27373205</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:10899437</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -4057,9 +4057,9 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
@@ -4068,9 +4068,9 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
@@ -4089,9 +4089,9 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S 24795</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S 24795, &gt;=98% (HPLC)</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCHEMBL5948853</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18187166</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18265960</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18034231</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18265960</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18187166</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:8063920</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13(16)10-14(17)11-5-7-12(15)8-6-11;/h2-9H,10H2,1H3;1H/q+1;/p-1</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9888248</skos:related>
@@ -4286,9 +4286,9 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z5019</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC15863137</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaminothiazole</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:11148059</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21353545</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20524425</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:11148059</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C3H5N3S/c4-2-1-7-3(5)6-2/h1H,4H2,(H2,5,6)</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:118995</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:C1=C(N=C(S1)N)N</skos:related>
@@ -4478,9 +4478,9 @@
 </owl:Class>
 
 <owl:Class rdf:about="#HBP00345">
-  <rdfs:subClassOf rdf:resource="#HBPC22"/>
+  <rdfs:subClassOf rdf:resource="#HBPC4"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-translational protein modifications that were not caused by enzymatic reactions</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-enzymatic protein modiﬁcations</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-enzymatic protein modification</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24563850</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
 </owl:Class>
@@ -4523,6 +4523,14 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RM-532-46</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22674910</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00351">
+  <rdfs:subClassOf rdf:resource="#HBPC22"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of an amide group from a peptide's side chain</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deamidation</rdfs:label>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26631930</skos:related>
+  <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
 <owl:Axiom>

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:02:2019 14:54
+date: 09:03:2019 15:59
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3297,7 +3297,7 @@ def: "Aggregates of proteins consisting of polyglutamine stretches with 82 gluta
 
 [Term]
 id: HBP:HBP00345
-name: non-enzymatic protein modiﬁcations
+name: non-enzymatic protein modification
 def: "Post-translational protein modifications that were not caused by enzymatic reactions" [pmid:24563850]
 
 [Term]
@@ -3314,4 +3314,19 @@ def: "Tau aggregation inhibitor" [pmid:20392114]
 id: HBP:HBP00348
 name: misfolding
 def: "Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway" [pmid:16689923]
+
+[Term]
+id: HBP:HBP00349
+name: AG18051
+def: "ABAD inhibitor" [pmid:22174920]
+
+[Term]
+id: HBP:HBP00350
+name: RM-532-46
+def: "ABAD inhibitor" [pmid:22674910]
+
+[Term]
+id: HBP:HBP00351
+name: deamidation
+def: "The removal of an amide group from a peptide's side chain" [pmid:26631930]
 
