@@ -5,7 +5,7 @@
 import csv
 import datetime
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Mapping, Optional, TextIO, Union
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -57,9 +57,9 @@ class Term:
     reference: Reference
     description: str
     provenance: List[Reference]
-    relationships: Optional[Mapping[str, List[Reference]]] = None
-    synonyms: Optional[List[Synonym]] = None
-    xrefs: Optional[List[Reference]] = None
+    relationships: Optional[Mapping[str, List[Reference]]] = field(default_factory=dict)
+    synonyms: List[Synonym] = field(default_factory=list)
+    xrefs: List[Reference] = field(default_factory=list)
 
     def to_obo(self) -> str:
         """Convert this term to an OBO entry."""
@@ -97,7 +97,10 @@ def get_obo_terms() -> List[Term]:
         terms = {
             hbp_identifier: Term(
                 reference=Reference(namespace=HBP, identifier=hbp_identifier, name=name),
-                provenance=[Reference(*pmid.strip().split(':')) for pmid in references.split(',')],
+                provenance=[
+                    Reference(*pmid.strip().split(':'))
+                    for pmid in references.split(',')
+                ],
                 description=description,
             )
             for hbp_identifier, _, name, _, references, description in reader
