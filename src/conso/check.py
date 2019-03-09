@@ -42,6 +42,7 @@ VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
 def is_ascii(s: str) -> bool:
+    """Check if a string only has ASCII characters in it."""
     return all(ord(c) < 128 for c in s)
 
 

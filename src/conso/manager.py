@@ -2,7 +2,7 @@
 
 # from bio2bel import AbstractManager
 
-from typing import Iterable, Optional, Tuple
+from typing import Iterable, Mapping, Optional, Tuple
 
 import networkx as nx
 import pandas as pd
@@ -16,7 +16,7 @@ from .check import DESCRIPTION_COLUMN, IDENTIFIER_COLUMN, NAME_COLUMN, TERMS_PAT
 class Manager:
     """Manage the terms in CONSO."""
 
-    def __init__(self):
+    def __init__(self) -> None:  # noqa: D107
         usecols = [IDENTIFIER_COLUMN, TYPE_COLUMN, NAME_COLUMN, DESCRIPTION_COLUMN]
         self.term_df = pd.read_csv(TERMS_PATH, sep='\t', usecols=usecols)
         self.identifier_to_label = {}
@@ -65,13 +65,15 @@ class Manager:
             return node.__class__(namespace=namespace, name=name, identifier=identifier)
 
     def get_json(self, identifier: str):
+        """Get a JSON object describing a term by its identifier."""
         return {
             'Identifier': identifier,
             'Label': self.identifier_to_label[identifier],
             'Description': self.identifier_to_description[identifier],
         }
 
-    def summarize(self):
+    def summarize(self) -> Mapping[str, int]:
+        """Summarize the contents of the database."""
         return dict(
-            terms=len(self.term_df.index)
+            terms=len(self.term_df.index),
         )
