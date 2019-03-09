@@ -349,3 +349,4 @@ HBP00347	Esther	cmp16	chemical	pmid:20392114	Tau aggregation inhibitor
 HBP00348	Esther	misfolding	biological process	pmid:16689923	Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway
 HBP00349	Esther	AG18051	chemical	pmid:22174920	ABAD inhibitor
 HBP00350	Esther	RM-532-46	chemical	pmid:22674910	ABAD inhibitor
+HBP00351	Charlie	deamidation	post-translational modification	pmid:26631930	The removal of an amide group from a peptide's side chain
