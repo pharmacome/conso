@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:03:2019 15:59
+date: 10:03:2019 15:05
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3329,4 +3329,16 @@ def: "ABAD inhibitor" [pmid:22674910]
 id: HBP:HBP00351
 name: deamidation
 def: "The removal of an amide group from a peptide's side chain" [pmid:26631930]
+
+[Term]
+id: HBP:HBP00352
+name: Mini-Mental Status Exam
+def: "A standardized and structured interview originally developed by Marshal Folstein, Susan Folstein and Paul McHugh (Journal of Psychiatric Research, 1975), which is used to evaluate an individual's cognitive function." [ncit:C74982]
+synonym: "Folstein Mini-Mental Status Exam" EXACT [ncit:C74982]
+synonym: "MMS1" EXACT [ncit:C74982]
+synonym: "MMSE" EXACT [ncit:C74982]
+synonym: "Mini-Mental State Examination Questionnaire" EXACT [ncit:C74982]
+synonym: "Mini-Mental_Status_Exam" EXACT [ncit:C74982]
+xref: ncit:C74982
+xref: umls:C0451306
 

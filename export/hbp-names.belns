@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20190309
-CreatedDateTime=2019-03-09T15:59:46
+VersionString=20190310
+CreatedDateTime=2019-03-10T15:05:01
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -122,6 +122,7 @@ MLS000034832|A
 MPT0G211|A
 MTHFR,TT+AA|A
 Microgliosis|B
+Mini-Mental Status Exam|A
 Mitochondrial pathway|B
 Mori Fructus ethanol extract|A
 Motor Neurons|A

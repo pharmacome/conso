@@ -1315,3 +1315,8 @@ HBP00322	Thiazole-2,4-diamine	pubchem.compound:118995	EXACT
 HBP00322	Z5019	pubchem.compound:118995	EXACT
 HBP00322	ZINC15863137	pubchem.compound:118995	EXACT
 HBP00322	diaminothiazole	pubchem.compound:118995	EXACT
+HBP00352	Folstein Mini-Mental Status Exam	ncit:C74982	EXACT
+HBP00352	MMS1	ncit:C74982	EXACT
+HBP00352	MMSE	ncit:C74982	EXACT
+HBP00352	Mini-Mental State Examination Questionnaire	ncit:C74982	EXACT
+HBP00352	Mini-Mental_Status_Exam	ncit:C74982	EXACT

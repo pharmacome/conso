@@ -37,7 +37,7 @@ VALID_CURATORS = {
     'Kristian',
     'Daniel',
 }
-VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound'}
+VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound', 'ncit'}
 VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
@@ -212,6 +212,9 @@ def check_synonyms_file(*, identifier_to_name: Mapping[str, str]):
 def _check_synonyms_helper(reader, identifier_to_name: Mapping[str, str]):
     current_identifier = 0
     for i, line in enumerate(reader, start=2):
+        if line[-1].rstrip() != line[-1]:
+            raise Exception(f'{SYNONYMS_PATH}: Trailing whitespace on line {i}')
+
         if len(line) != 4:
             raise Exception(f'{SYNONYMS_PATH}: Not the right number fields (found {len(line)}) on line {i}: {line}')
 
