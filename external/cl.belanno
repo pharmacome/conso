@@ -1,0 +1,2220 @@
+[AnnotationDefinition]
+Keyword=cl
+TypeString=list
+VersionString=20190310
+CreatedDateTime=2019-03-10T21:28:04
+DescriptionString=cl
+
+[Author]
+NameString=cthoyt
+CopyrightString=Other/Proprietary
+
+[Citation]
+NameString=cl
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+AGM hematopoietic stem cell|
+Ammon's horn basket cell|
+B cell|
+B-1 B cell|
+B-1a B cell|
+B-1b B cell|
+B-2 B cell|
+B220-low CD38-negative unswitched memory B cell|
+B220-low CD38-positive IgG-negative class switched memory B cell|
+B220-low CD38-positive naive B cell|
+B220-low CD38-positive unswitched memory B cell|
+B220-positive CD38-negative unswitched memory B cell|
+B220-positive CD38-positive IgG-negative class switched memory B cell|
+B220-positive CD38-positive naive B cell|
+B220-positive CD38-positive unswitched memory B cell|
+Be cell|
+Be1 Cell|
+Be2 cell|
+Bergmann glial cell|
+Bm1 B cell|
+Bm2 B cell|
+Bm2' B cell|
+Bm3 B cell|
+Bm3-delta B cell|
+Bm4 B cell|
+Bm5 B cell|
+Boettcher cell|
+Brush cell of epithelium proper of large intestine|
+CAP motoneuron|
+CD103-negative, langerin-positive lymph node dendritic cell|
+CD103-positive dendritic cell|
+CD103-positive, langerin-positive lymph node dendritic cell|
+CD115-positive monocyte|
+CD115-positive monocyte OR common dendritic progenitor|
+CD117-positive common myeloid progenitor OR CD217-positive common lymphoid progenitor|
+CD11b-high, CD103-negative, langerin-negative lymph node dendritic cell|
+CD11b-low, CD103-negative, langerin-negative lymph node dendritic cell|
+CD11b-positive dendritic cell|
+CD11b-positive, CD27-positive natural killer cell|
+CD11c-low plasmacytoid dendritic cell|
+CD11c-negative plasmacytoid dendritic cell|
+CD14-low, CD16-positive monocyte|
+CD14-positive dermal dendritic cell|
+CD14-positive monocyte|
+CD14-positive, CD16-low monocyte|
+CD14-positive, CD16-negative classical monocyte|
+CD14-positive, CD16-positive monocyte|
+CD141-positive myeloid dendritic cell|
+CD16-negative, CD56-bright natural killer cell|
+CD16-positive myeloid dendritic cell|
+CD16-positive, CD56-dim natural killer cell|
+CD1a-positive Langerhans cell|
+CD1a-positive dermal dendritic cell|
+CD1c-positive myeloid dendritic cell|
+CD2-positive, CD5-positive, CD44-positive alpha-beta intraepithelial T cell|
+CD22-positive, CD38-low small pre-B cell|
+CD24-negative CD38-negative IgG-negative class switched memory B cell|
+CD24-positive CD38-negative IgG-negative class switched memory B cell|
+CD24-positive, CD4 single-positive thymocyte|
+CD24-positive, CD8 single-positive thymocyte|
+CD25-positive, CD27-positive immature gamma-delta T cell|
+CD27-high, CD11b-high natural killer cell|
+CD27-high, CD11b-low natural killer cell|
+CD27-low, CD11b-high natural killer cell|
+CD27-low, CD11b-low immature natural killer cell|
+CD27-negative gamma-delta T cell|
+CD27-positive gamma-delta T cell|
+CD34-negative, CD41-positive, CD42-positive megakaryocyte cell|
+CD34-negative, GlyA-negative proerythroblast|
+CD34-positive, CD38-negative hematopoietic stem cell|
+CD34-positive, CD38-negative multipotent progenitor cell|
+CD34-positive, CD38-positive common lymphoid progenitor|
+CD34-positive, CD38-positive common myeloid progenitor|
+CD34-positive, CD38-positive common myeloid progenitor OR CD34-positive, CD38-positive common lymphoid progenitor|
+CD34-positive, CD38-positive eosinophil progenitor cell|
+CD34-positive, CD38-positive granulocyte monocyte progenitor|
+CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell|
+CD34-positive, CD41-positive, CD42-negative megakaryocyte progenitor cell|
+CD34-positive, CD41-positive, CD42-positive megakaryocyte progenitor cell|
+CD34-positive, GlyA-negative erythroid progenitor cell|
+CD38-high pre-BCR positive cell|
+CD38-negative IgG memory B cell|
+CD38-negative IgG-negative class switched memory B cell|
+CD38-negative immature B cell|
+CD38-negative naive B cell|
+CD38-negative unswitched memory B cell|
+CD38-positive IgG memory B cell|
+CD38-positive IgG-negative class switched memory B cell|
+CD38-positive naive B cell|
+CD38-positive unswitched memory B cell|
+CD4-intermediate, CD8-positive double-positive thymocyte|
+CD4-negative CD8-negative gamma-delta intraepithelial T cell|
+CD4-negative, CD8-negative type I NK T cell|
+CD4-negative, CD8-negative type I NK T cell secreting interferon-gamma|
+CD4-negative, CD8-negative type I NK T cell secreting interleukin-4|
+CD4-negative, CD8-negative, alpha-beta intraepithelial T cell|
+CD4-positive CD11b-positive dendritic cell|
+CD4-positive helper T cell|
+CD4-positive type I NK T cell|
+CD4-positive type I NK T cell secreting interferon-gamma|
+CD4-positive type I NK T cell secreting interleukin-4|
+CD4-positive, CD25-positive, CCR4-positive, alpha-beta regulatory T cell|
+CD4-positive, CD25-positive, alpha-beta regulatory T cell|
+CD4-positive, CD8-intermediate double-positive thymocyte|
+CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell|
+CD4-positive, alpha-beta T cell|
+CD4-positive, alpha-beta cytotoxic T cell|
+CD4-positive, alpha-beta intraepithelial T cell|
+CD4-positive, alpha-beta memory T cell|
+CD4-positive, alpha-beta thymocyte|
+CD56-negative, CD161-positive immature natural killer cell|
+CD56-positive, CD161-positive immature natural killer cell|
+CD69-positive double-positive thymocyte|
+CD69-positive, CD4-positive single-positive thymocyte|
+CD69-positive, CD8-positive single-positive thymocyte|
+CD7-negative lymphoid progenitor OR granulocyte monocyte progenitor|
+CD7-negative lymphoid progenitor cell|
+CD7-positive lymphoid progenitor cell|
+CD71-low, GlyA-positive polychromatic erythroblast|
+CD71-negative, GlyA-positive orthochromatic erythroblast|
+CD8-alpha alpha positive, gamma-delta intraepithelial T cell|
+CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell|
+CD8-alpha-beta-positive, alpha-beta intraepithelial T cell|
+CD8-positive, CD25-positive, alpha-beta regulatory T cell|
+CD8-positive, CD28-negative, alpha-beta regulatory T cell|
+CD8-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell|
+CD8-positive, CXCR3-positive, alpha-beta regulatory T cell|
+CD8-positive, alpha-beta T cell|
+CD8-positive, alpha-beta cytokine secreting effector T cell|
+CD8-positive, alpha-beta cytotoxic T cell|
+CD8-positive, alpha-beta memory T cell|
+CD8-positive, alpha-beta regulatory T cell|
+CD8-positive, alpha-beta thymocyte|
+CD8_alpha-low Langerhans cell|
+CD8_alpha-negative CD11b-negative dendritic cell|
+CD8_alpha-negative plasmactyoid dendritic cell|
+CD8_alpha-positive CD11b-negative dendritic cell|
+CD8_alpha-positive plasmactyoid dendritic cell|
+CD8alpha-negative thymic conventional dendritic cell|
+CD8alpha-positive thymic conventional dendritic cell|
+CD9-positive, CD41-positive megakaryocyte cell|
+CD94-negative natural killer cell|
+CD94-negative, Ly49CI-negative natural killer cell|
+CD94-positive Ly49CI-positive natural killer cell|
+CD94-positive natural killer cell|
+CNS interneuron|
+CNS long range interneuron|
+CNS neuron (sensu Nematoda and Protostomia)|
+CNS neuron (sensu Vertebrata)|
+CNS short range interneuron|
+Cajal-Retzius cell|
+Cd4-negative, CD8_alpha-negative, CD11b-positive dendritic cell|
+Clara cell|
+Claudius cell|
+DN1 thymic pro-T cell|
+DN2 thymocyte|
+DN2a thymocyte|
+DN2b thymocyte|
+DN3 thymocyte|
+DN4 thymocyte|
+Deiter's cell|
+Dx5-negative, NK1.1-positive immature natural killer cell|
+F4/80-negative adipose macrophage|
+F4/80-positive adipose macrophage|
+Fc-epsilon RIalpha-high basophil progenitor cell|
+Fc-epsilon RIalpha-low mast cell progenitor|
+Feyrter cell|
+Fraction A pre-pro B cell|
+Fraction B precursor B cell|
+Fraction B/C precursor B cell|
+Fraction C precursor B cell|
+Fraction C' precursor B cell|
+Fraction D precursor B cell|
+Fraction E immature B cell|
+Fraction F mature B cell|
+GABAergic interneuron|
+GABAergic neuron|
+GABAnergic interplexiform cell|
+GIP cell|
+GLR cell|
+GlyA-positive basophillic erythroblast|
+GlyA-positive erythrocyte|
+GlyA-positive reticulocytes|
+Gr1-high classical monocyte|
+Gr1-high myeloid suppressor cell|
+Gr1-low myeloid suppressor cell|
+Gr1-low non-classical monocyte|
+Gr1-positive, CD43-positive monocyte|
+H minus|
+H plus|
+Hensen cell|
+His-Purkinje system cell|
+ILC1|
+IgA memory B cell|
+IgA plasma cell|
+IgA plasmablast|
+IgA short lived plasma cell|
+IgD plasmablast|
+IgD-negative CD38-positive IgG memory B cell|
+IgD-negative memory B cell|
+IgD-positive CD38-positive IgG memory B cell|
+IgE memory B cell|
+IgE plasma cell|
+IgE plasmablast|
+IgE short lived plasma cell|
+IgG memory B cell|
+IgG plasma cell|
+IgG plasmablast|
+IgG short lived plasma cell|
+IgG-negative class switched memory B cell|
+IgG-negative double negative memory B cell|
+IgG-positive double negative memory B cell|
+IgM memory B cell|
+IgM plasma cell|
+IgM plasmablast|
+IgM short lived plasma cell|
+Kenyon cell|
+Kit and Sca1-positive hematopoietic stem cell|
+Kit-low proerythroblast|
+Kit-low, CD34-positive eosinophil progenitor cell|
+Kit-negative, Ly-76 high basophilic erythroblast|
+Kit-negative, Ly-76 high orthochromatophilic erythroblasts|
+Kit-negative, Ly-76 high polychromatophilic erythroblast|
+Kit-positive erythroid progenitor cell|
+Kit-positive granulocyte monocyte progenitor|
+Kit-positive macrophage dendritic cell progenitor|
+Kit-positive megakaryocyte progenitor cell|
+Kit-positive, CD34-negative megakaryocyte erythroid progenitor cell|
+Kit-positive, CD34-positive common myeloid progenitor|
+Kit-positive, Sca1-positive common lymphoid progenitor|
+Kit-positive, integrin beta7-high basophil mast progenitor cell|
+Kolmer-Agduhr neuron|
+Kupffer cell|
+Langerhans cell|
+Leydig cell|
+Lugaro cell|
+Ly-76 high positive erythrocyte|
+Ly-76 high reticulocyte|
+Ly49CI-negative natural killer cell|
+Ly49CI-positive natural killer cell|
+Ly49D-negative natural killer cell|
+Ly49D-positive natural killer cell|
+Ly49H-negative natural killer cell|
+Ly49H-positive natural killer cell|
+M cell of gut|
+MHC-II-high non-classical monocyte|
+MHC-II-low non-classical monocyte|
+MHC-II-negative classical monocyte|
+MHC-II-negative non-classical monocyte|
+MHC-II-positive classical monocyte|
+Malpighian tubule stellate cell|
+Mauthner neuron|
+Merkel cell|
+Meynert cell|
+Mueller cell|
+Muller cell|
+Mycetozoan cell|
+NK1.1-positive natural killer cell|
+NKGA2-positive natural killer cell|
+OFF-bipolar cell|
+ON-bipolar cell|
+P enteroendocrine cell|
+P/D1 enteroendocrine cell|
+PP cell|
+PP cell of intestine|
+Peyer's patch B cell|
+Peyer's patch macrophage|
+Purkinje cell|
+Purkinje myocyte|
+Purkinje myocyte of atrioventricular bundle|
+Purkinje myocyte of atrioventricular node|
+Purkinje myocyte of internodal tract|
+Purkinje myocyte of interventricular septum|
+R1 photoreceptor cell|
+R2 photoreceptor cell|
+R3 photoreceptor cell|
+R4 photoreceptor cell|
+R5 photoreceptor cell|
+R6 photoreceptor cell|
+R7 photoreceptor cell|
+R8 photoreceptor cell|
+Rohon-Beard neuron|
+SIRPa-negative adipose dendritic cell|
+SIRPa-positive adipose dendritic cell|
+Schwann cell|
+Schwann cell precursor|
+Sertoli cell|
+Slamf1-negative multipotent progenitor cell|
+Slamf1-positive multipotent progenitor cell|
+Stiftchenzellen|
+T cell|
+T follicular helper cell|
+T-helper 1 cell|
+T-helper 17 cell|
+T-helper 2 cell|
+T-helper 22 cell|
+T-helper 9 cell|
+T1 B cell|
+T2 B cell|
+T3 B cell|
+Tc1 cell|
+Tc17 cell|
+Tc2 cell|
+Tr1 cell|
+UV sensitive photoreceptor cell|
+Vgamma1.1-positive, Vdelta6.3-negative thymocyte|
+Vgamma1.1-positive, Vdelta6.3-positive thymocyte|
+Vgamma5-negative CD8alpha alpha positive gamma-delta intraepithelial T cell|
+Vgamma5-positive CD8alpha alpha positive gamma-delta intraepithelial T cell|
+X chromosome-bearing sperm cell|
+Y chromosome-bearing sperm cell|
+abnormal cell|
+absorptive cell|
+acceleration receptive cell|
+acid secreting cell|
+acidophil cell of pars distalis of adenohypophysis|
+acinar cell|
+acinar cell of salivary gland|
+acinar cell of sebaceous gland|
+actinomycete-type spore|
+activated CD4-negative, CD8-negative type I NK T cell|
+activated CD4-positive type I NK T cell|
+activated CD4-positive, CD25-positive, CCR4-positive, alpha-beta regulatory T cell, human|
+activated CD4-positive, alpha-beta T cell|
+activated CD4-positive, alpha-beta T cell, human|
+activated CD8-positive, alpha-beta T cell|
+activated CD8-positive, alpha-beta T cell, human|
+activated skeletal muscle satellite cell|
+activated type II NK T cell|
+active chief cell of parathyroid gland|
+adaxial cell|
+adepithelial cell|
+adipocyte of breast|
+adipocyte of epicardial fat of left ventricle|
+adipocyte of epicardial fat of right ventricle|
+adipocyte of omentum tissue|
+adipose dendritic cell|
+adipose macrophage|
+adipose microvascular endothelial cell|
+adrenal cortex chromaffin cell|
+adrenal gland glandular cell|
+adrenal medulla chromaffin cell|
+adrenergic neuron|
+adrenocorticotropic hormone secreting cell|
+adult endothelial progenitor cell|
+adult skeletal muscle myoblast|
+adventitial cell|
+afferent neuron|
+alarm substance cell|
+alkali secreting cell|
+alpha-beta T cell|
+alpha-beta intraepithelial T cell|
+alternatively activated macrophage|
+alveolar macrophage|
+amacrine cell|
+ameloblast|
+amine precursor uptake and decarboxylation cell|
+amniocyte|
+amnion mesenchymal stem cell|
+amnioserosal cell|
+amniotic epithelial stem cell|
+amniotic stem cell|
+amoeboid cell|
+anchoring trophoblast|
+androgen binding protein secreting cell|
+androgen secreting cell|
+angioblastic mesenchymal cell|
+animal cell|
+animal zygote|
+annulus pulposus cell|
+anterior cell|
+anterior cone cell (sensu Endopterygota)|
+anterior lateral line ganglion neuron|
+anterior lateral line nerve glial cell|
+anterior lateral line neuromast hair cell|
+anterior lateral line neuromast mantle cell|
+anterior lateral line neuromast support cell|
+anterior lens cell|
+anterior visceral endoderm cell|
+antibody secreting cell|
+anucleate cell|
+aortic endothelial cell|
+aortic smooth muscle cell|
+apocrine cell|
+apoptosis fated cell|
+appendix glandular cell|
+appendix goblet cell|
+arcade cell|
+arcuate artery cell|
+arcuate artery endothelial cell|
+arcuate artery smooth muscle cell|
+arcuate vein cell|
+arcuate vein endothelial cell|
+arcuate vein smooth muscle cell|
+arthroconidium|
+articular chondrocyte|
+articular chondrocyte of knee joint|
+ascospore|
+astrocyte|
+astrocyte of the cerebellum|
+astrocyte of the cerebral cortex|
+astrocyte of the forebrain|
+astrocyte of the hippocampus|
+astrocyte of the spinal cord|
+atrioventricular bundle cell|
+attachment cell|
+auditory epithelial cell|
+auditory epithelial support cell|
+auditory hair cell|
+autonomic neuron|
+band form basophil|
+band form eosinophil|
+band form neutrophil|
+barrier cell|
+barrier epithelial cell|
+basal cell|
+basal cell of epidermis|
+basal cell of epithelium of bronchus|
+basal cell of epithelium of lobular bronchiole|
+basal cell of epithelium of respiratory bronchiole|
+basal cell of epithelium of terminal bronchiole|
+basal cell of epithelium of trachea|
+basal cell of olfactory epithelium|
+basal cell of prostate epithelium|
+basal cell of prostatic acinus|
+basal cell of urothelium|
+basal epithelial cell of prostatic duct|
+basal epithelial cell of tracheobronchial tree|
+basal external epithelial cell of tympanic membrane|
+basal proper cell of olfactory epithelium|
+basidiospore|
+basket cell|
+basophil|
+basophil cell of pars distalis of adenohypophysis|
+basophil mast progenitor cell|
+basophil progenitor cell|
+basophilic erythroblast|
+basophilic metamyelocyte|
+basophilic myeloblast|
+basophilic myelocyte|
+basophilic promyelocyte|
+beige adipocyte|
+binucleate cell|
+biogenic amine secreting cell|
+bipolar neuron|
+bladder cell|
+bladder microvascular endothelial cell|
+bladder urothelial cell|
+blastemal cell|
+blastoconidium|
+blastoderm cell|
+blood cell|
+blood cell (sensu Nematoda and Protostomia)|
+blood vessel endothelial cell|
+blue sensitive photoreceptor cell|
+bombesin stimulating hormone secreting cell|
+bone cell|
+bone marrow cell|
+bone marrow hematopoietic cell|
+bone marrow macrophage|
+bone matrix secreting cell|
+border cell of cochlea|
+border follicle cell|
+bottle cell|
+brain macroglial cell|
+brain microvascular endothelial cell|
+brain pericyte|
+brainstem motor neuron|
+branched duct epithelial cell|
+branchiomotor neuron|
+bronchial epithelial cell|
+bronchial goblet cell|
+bronchial smooth muscle cell|
+bronchioalveolar stem cell|
+bronchioalveolar stem cells|
+bronchus fibroblast of lung|
+brown fat cell|
+brown preadipocyte|
+brush border cell of the proximal tubule|
+brush border epithelial cell|
+brush cell|
+brush cell of bronchus|
+brush cell of lobular bronchiole|
+brush cell of terminal bronchiole|
+brush cell of trachea|
+brush cell of trachebronchial tree|
+buccal mucosa cell|
+calcitonin secreting cell|
+calvarial osteoblast|
+camera-type eye photoreceptor cell|
+cap cell|
+capillary endothelial cell|
+carbohydrate secreting cell|
+cardiac atrium fibroblast|
+cardiac blood vessel endothelial cell|
+cardiac endothelial cell|
+cardiac glial cell|
+cardiac mesenchymal cell|
+cardiac muscle cell|
+cardiac muscle cell (sensu Arthopoda)|
+cardiac muscle myoblast|
+cardiac myoblast|
+cardiac neuron|
+cardiac pacemaker cell of sinoatrial node|
+cardiac septum native cell|
+cardiac ventricle fibroblast|
+cardioblast|
+cardioblast (sensu Arthropoda)|
+cardiocyte|
+cell|
+cell in vitro|
+cell of skeletal muscle|
+cementoblast|
+cementocyte|
+central memory CD4-positive, alpha-beta T cell|
+central memory CD8-positive, alpha-beta T cell|
+central nervous system macrophage|
+central nervous system neuron|
+central nervous system pericyte|
+centripetally migrating follicle cell|
+cerebellar Golgi cell|
+cerebellar granule cell|
+cerebellar neuron|
+cerebellar stellate cell|
+cerebellum basket cell|
+cerebellum glutamatergic neuron|
+cerebral cortex GABAergic interneuron|
+cerebral cortex endothelial cell|
+cerebral cortex glial cell|
+cerebral cortex neuron|
+cerebrospinal fluid secreting cell|
+chemoreceptor cell|
+chief cell of parathyroid gland|
+chlamydospore|
+cholangiocyte|
+cholecystokin stimulating hormone secreting cell|
+cholinergic neuron|
+chondroblast|
+chondrocyte|
+chordamesodermal cell|
+chorionic membrane mesenchymal stem cell|
+chorionic trophoblast cell|
+choroid plexus epithelial cell|
+choroid-plexus macrophage|
+choroidal cell of the eye|
+chromaffin cell|
+chromaffin cell of adrenal gland|
+chromaffin cell of left ovary|
+chromaffin cell of ovary|
+chromaffin cell of paraaortic body|
+chromaffin cell of paraganglion|
+chromaffin cell of right ovary|
+chromophil cell of anterior pituitary gland|
+chromophobe cell|
+ciliary muscle cell|
+ciliated cell|
+ciliated cell of the bronchus|
+ciliated columnar cell of tracheobronchial tree|
+ciliated epithelial cell|
+ciliated olfactory receptor neuron|
+circulating cell|
+circulating endothelial cell|
+class switched memory B cell|
+classical monocyte|
+clear cell of eccrine sweat gland|
+clear chief cell of parathyroid cell|
+closable valve cell|
+cochlear inner hair cell|
+coelomocyte|
+cold sensing thermoreceptor cell|
+collagen secreting cell|
+collar cell|
+colon endothelial cell|
+colon epithelial cell|
+colon glandular cell|
+columnar cell of endocervix|
+columnar chondrocyte|
+columnar neuron|
+columnar/cuboidal epithelial cell|
+commissural neuron|
+common dendritic progenitor|
+common lymphoid progenitor|
+common myeloid progenitor|
+common myeloid progenitor, CD34-positive|
+compound eye cone cell|
+compound eye photoreceptor cell|
+compound eye retinal cell|
+cone retinal bipolar cell|
+conidium|
+conidium of conidiophore head|
+conjunctiva goblet cell|
+conjunctival epithelial cell|
+connective tissue cell|
+connective tissue type mast cell|
+contractile cell|
+conventional dendritic cell|
+copper accumulating cell|
+cord blood hematopoietic stem cell|
+corneal endothelial cell|
+corneal epithelial cell|
+corneocyte|
+corona radiata cell|
+coronet cell|
+cortical cell of adrenal gland|
+cortical granule cell|
+cortical thymic epithelial cell|
+corticotroph|
+cranial motor neuron|
+cranial somatomotor neuron|
+cranial visceromotor neuron|
+crypt olfactory receptor neuron|
+crystal cell|
+crystallin accumulating cell|
+cultured cell|
+cumulus cell|
+cutaneous/subcutaneous mechanoreceptor cell|
+cuticle secreting cell|
+cyanoblast|
+cyanophore|
+cystoblast|
+cytotoxic T cell|
+dark cell of eccrine sweat gland|
+dark chief cell of parathyroid cell|
+dark melanocyte|
+decidua cell|
+decidual natural killer cell|
+defensive cell|
+dendritic cell|
+dendritic cell, human|
+dendritic epidermal T cell|
+dense-core granulated cell of epithelium of trachea|
+dental papilla cell|
+dental pulp cell|
+dentate gyrus of hippocampal formation basket cell|
+dentate gyrus of hippocampal formation granule cell|
+dentate gyrus of hippocampal formation stellate cell|
+dermal dendritic cell|
+dermal melanocyte|
+dermis blood vessel endothelial cell|
+dermis lymphatic vessel endothelial cell|
+dermis microvascular lymphatic vessel endothelial cell|
+digestive enzyme secreting cell|
+dikaryon|
+diploid cell|
+disseminated nephrocyte|
+distal tip cell (sensu Nematoda)|
+dopamanergic interplexiform cell|
+dopaminergic neuron|
+dorsal horn interneuron|
+double negative memory B cell|
+double negative thymocyte|
+double-positive blast|
+double-positive, alpha-beta thymocyte|
+duct epithelial cell|
+duodenal goblet cell|
+duodenum glandular cell|
+ear hair cell|
+early T lineage precursor|
+early embryonic cell|
+early lymphoid progenitor|
+early pro-B cell|
+early promyelocyte|
+eccrine cell|
+ecdysteroid secreting cell|
+echinocyte|
+ecto-epithelial cell|
+ecto-epithelial cell of viscerocranial mucosa|
+ectodermal cell|
+effector CD4-positive, alpha-beta T cell|
+effector CD8-positive, alpha-beta T cell|
+effector T cell|
+effector memory CD4-positive, alpha-beta T cell|
+effector memory CD8-positive, alpha-beta T cell|
+effector memory CD8-positive, alpha-beta T cell, terminally differentiated|
+efferent neuron|
+egg cell|
+eggshell secreting cell|
+electrically active cell|
+electrically responsive cell|
+electrically signaling cell|
+elicited macrophage|
+embryonic blood vessel endothelial progenitor cell|
+embryonic cell|
+embryonic crystal cell|
+embryonic fibroblast|
+embryonic gland hemocyte|
+embryonic gland plasmatocyte|
+embryonic hemocyte|
+embryonic plasmatocyte|
+embryonic stem cell|
+endo-epithelial cell|
+endo-epithelial cell of pharyngotympanic part of viscerocranial mucosa|
+endo-epithelial cell of tympanic part of viscerocranial mucosa|
+endocardial cell|
+endocardial cushion cell|
+endocrine cell|
+endocrine-paracrine cell of prostate gland|
+endodermal cell|
+endometrial microvascular endothelial cells|
+endopolyploid cell|
+endorphin secreting cell|
+endospore|
+endosteal cell|
+endothelial cell|
+endothelial cell of Peyer's patch|
+endothelial cell of arteriole|
+endothelial cell of artery|
+endothelial cell of coronary artery|
+endothelial cell of hepatic sinusoid|
+endothelial cell of high endothelial venule|
+endothelial cell of lymphatic vessel|
+endothelial cell of sinusoid|
+endothelial cell of umbilical vein|
+endothelial cell of vascular tree|
+endothelial cell of venous sinus of red pulp of spleen|
+endothelial cell of venous sinus of spleen|
+endothelial cell of venule|
+endothelial cell of viscerocranial mucosa|
+endothelial stalk cell|
+endothelial tip cell|
+enkephalin secreting cell|
+enteric neuron|
+enteric smooth muscle cell|
+enterochromaffin-like cell|
+enterocyte|
+enterocyte of epithelium of crypt of Lieberkuhn of small intestine|
+enterocyte of epithelium of duodenal gland|
+enterocyte of epithelium of intestinal villus|
+enterocyte of epithelium of large intestine|
+enterocyte of epithelium of small intestine|
+enterocyte of epithelium proper of duodenum|
+enterocyte of epithelium proper of ileum|
+enterocyte of epithelium proper of jejunum|
+enterocyte of epithelium proper of small intestine|
+enteroendocrine cell|
+enucleate erythrocyte|
+enucleated reticulocyte|
+eosinophil|
+eosinophil progenitor cell|
+eosinophilic metamyelocyte|
+eosinophilic myeloblast|
+eosinophilic myelocyte|
+eosinophilic promyelocyte|
+ependymal cell|
+ependymoglial cell|
+epiblast cell|
+epicardial adipocyte|
+epidermal Langerhans cell|
+epidermal cell|
+epidermal cell (sensu arthropoda)|
+epidermal ciliary cell|
+epidermal melanocyte|
+epidermal mucus secreting cell|
+epidermoblast|
+epididymis glandular cell|
+epinephrine secreting cell|
+epithelial cell|
+epithelial cell of Malassez|
+epithelial cell of alimentary canal|
+epithelial cell of alveolus of lung|
+epithelial cell of amnion|
+epithelial cell of anal column|
+epithelial cell of appendix|
+epithelial cell of cervix|
+epithelial cell of distal tubule|
+epithelial cell of esophageal cardiac gland|
+epithelial cell of esophageal gland proper|
+epithelial cell of esophagus|
+epithelial cell of exocrine pancreas|
+epithelial cell of external acoustic meatus|
+epithelial cell of gall bladder|
+epithelial cell of glomerular capsule|
+epithelial cell of intermediate tubule|
+epithelial cell of lacrimal canaliculus|
+epithelial cell of lacrimal duct|
+epithelial cell of lacrimal sac|
+epithelial cell of large intestine|
+epithelial cell of lower respiratory tract|
+epithelial cell of lung|
+epithelial cell of nasolacrimal duct|
+epithelial cell of nephron|
+epithelial cell of pancreas|
+epithelial cell of parathyroid gland|
+epithelial cell of prostate|
+epithelial cell of prostatic acinus|
+epithelial cell of prostatic duct|
+epithelial cell of proximal tubule|
+epithelial cell of skin gland|
+epithelial cell of small intestine|
+epithelial cell of stomach|
+epithelial cell of stratum corneum of esophageal epithelium|
+epithelial cell of stratum germinativum of esophagus|
+epithelial cell of stratum spinosum of esophageal epithelium|
+epithelial cell of sweat gland|
+epithelial cell of thymus|
+epithelial cell of thyroid gland|
+epithelial cell of tracheobronchial tree|
+epithelial cell of umbilical artery|
+epithelial cell of upper respiratory tract|
+epithelial cell of urethra|
+epithelial cell of uterus|
+epithelial cell of visceral layer of glomerular capsule|
+epithelial cell of viscerocranial mucosa|
+epithelial cell of wall of inferior part of anal canal|
+epithelial fate stem cell|
+epithelial melanocyte|
+epithelioid macrophage|
+equatorial cone cell (sensu Endopterygota)|
+erythroblast|
+erythrocyte|
+erythroid lineage cell|
+erythroid progenitor cell|
+erythroid progenitor cell, mammalian|
+erythrophore|
+estradiol secreting cell|
+eukaryotic cell|
+eurydendroid cell|
+excitatory motor neuron|
+excretory cell|
+exocrine cell|
+experimentally modified cell in vitro|
+external epithelial cell of tympanic membrane|
+external limiting cell of vestibular epithelium|
+external pillar cell of cochlea|
+external supporting cell of vestibular epithelium|
+extracellular matrix secreting cell|
+extraembryonic cell|
+extraglomerular mesangial cell|
+extramedullary cell|
+eye photoreceptor cell|
+fast muscle cell|
+fast muscle myoblast|
+fat body cell|
+fat cell|
+female gamete|
+female germ cell|
+female germ line stem cell|
+female germ line stem cell (sensu Nematoda and Protostomia)|
+female germ line stem cell (sensu Vertebrata)|
+femural osteoblast|
+fenestrated cell|
+fetal cardiomyocyte|
+fetal derived definitive erythrocyte|
+fetal liver hematopoietic progenitor cell|
+fetal thymocyte|
+fibroblast|
+fibroblast neural crest derived|
+fibroblast of areolar connective tissue|
+fibroblast of arm|
+fibroblast of cardiac tissue|
+fibroblast of choroid plexus|
+fibroblast of connective tissue of glandular part of prostate|
+fibroblast of connective tissue of nonglandular part of prostate|
+fibroblast of connective tissue of prostate|
+fibroblast of dense regular elastic tissue|
+fibroblast of dermis|
+fibroblast of gingiva|
+fibroblast of lung|
+fibroblast of lymphatic vessel|
+fibroblast of mammary gland|
+fibroblast of outer membrane of prostatic capsule|
+fibroblast of papillary layer of dermis|
+fibroblast of pedal digit skin|
+fibroblast of peridontal ligament|
+fibroblast of periodontium|
+fibroblast of pulmonary artery|
+fibroblast of skin of abdomen|
+fibroblast of subepithelial connective tissue of prostatic gland|
+fibroblast of the aortic adventitia|
+fibroblast of the conjunctiva|
+fibroblast of tunica adventitia of artery|
+fibroblast of upper leg skin|
+fibroblast of villous mesenchyme|
+fibrocyte|
+fibrocyte of adventitia of ureter|
+flask cell|
+flatworm hypodermal cell|
+flight muscle cell|
+foam cell|
+follicle cell|
+follicle stem cell|
+follicular B cell|
+follicular cell of ovary|
+follicular dendritic cell|
+follicular epithelial cell|
+folliculostellate cell|
+folliculostellate cell of pars distalis of adenohypophysis|
+forebrain neuroblast|
+forebrain radial glial cell|
+foreskin fibroblast|
+foreskin keratinocyte|
+foreskin melanocyte|
+foveolar cell of stomach|
+fungal asexual spore|
+fungal cell|
+fungal spore|
+fusimotor neuron|
+fusion competent myoblast|
+galanergic neuron|
+gall bladder glandular cell|
+gallbladder fibroblast|
+gamete|
+gamma-delta T cell|
+gamma-delta intraepithelial T cell|
+gamma-delta thymocyte|
+ganglion interneuron|
+ganglion mother cell|
+garland cell|
+gastric cardiac gland goblet cell|
+gastric goblet cell|
+gastrin secreting cell|
+gastrin stimulating hormone secreting cell|
+gastrointestinal tract (lamina propria) macrophage|
+gastrula cell|
+general ecto-epithelial cell|
+germ cell|
+germ line cell|
+germ line stem cell|
+germ line stem cell (sensu Nematoda and Protostomia)|
+germ line stem cell (sensu Vertebrata)|
+germinal center B cell|
+gestational hematopoietic stem cell|
+ghrelin secreting cell|
+gingival epithelial cell|
+glandular cell of endometrium|
+glandular cell of esophagus|
+glandular cell of stomach|
+glandular cell of the large intestine|
+glandular epithelial cell|
+glial cell|
+glial cell (sensu Nematoda and Protostomia)|
+glial cell (sensu Vertebrata)|
+glioblast|
+glioblast (sensu Nematoda and Protostomia)|
+glioblast (sensu Vertebrata)|
+globose cell of olfactory epithelium|
+glomerular capillary endothelial cell|
+glomerular cell|
+glomerular endothelial cell|
+glomerular mesangial cell|
+glomerular visceral epithelial cell|
+glucagon secreting cell|
+glucocorticoid secreting cell|
+glutamatergic neuron|
+glycinergic neuron|
+glycocalyx secreting cell|
+glycogen accumulating cell|
+glycosaminoglycan secreting cell|
+goblet cell|
+gonadotropin releasing neuron|
+gonadtroph|
+granular cell of epidermis|
+granule cell|
+granule cell precursor|
+granulocyte|
+granulocyte monocyte progenitor cell|
+granulocytopoietic cell|
+granulosa cell|
+gravity sensitive cell|
+green sensitive photoreceptor cell|
+group 1 innate lymphoid cell|
+group 2 innate lymphoid cell|
+group 2 innate lymphoid cell, mouse|
+group 3 innate lymphoid cell|
+growth hormone releasing hormone secreting cell|
+growth plate cartilage chondrocyte|
+guidepost cell|
+gut absorptive cell|
+gut endothelial cell|
+gut-associated lymphoid tissue macrophage|
+hair follicle cell|
+hair follicle dermal papilla cell|
+hair follicle dermal papilla cell of scalp|
+hair follicle melanocyte|
+hair follicular keratinocyte|
+hair germinal matrix cell|
+hair matrix stem cell|
+hair-down neuron|
+hair-tylotrich neuron|
+haploid cell|
+hatching gland cell|
+heart valve cell|
+helper T cell|
+hemangioblast|
+hematopoietic cell|
+hematopoietic lineage restricted progenitor cell|
+hematopoietic multipotent progenitor cell|
+hematopoietic oligopotent progenitor cell|
+hematopoietic oligopotent progenitor cell, lineage-negative|
+hematopoietic precursor cell|
+hematopoietic stem cell|
+hemocyte (sensu Nematoda and Protostomia)|
+hepatic mesenchymal stem cell|
+hepatic oval stem cell|
+hepatic pit cell|
+hepatic stellate cell|
+hepatic stem cell|
+hepatoblast|
+hepatocyte|
+heterocyst|
+heterokaryon|
+hilus cell of ovary|
+hindlimb stylopod vein endothelial cell|
+hippocampal granule cell|
+hippocampal interneuron|
+hippocampal neuron|
+hippocampal pyramidal neuron|
+hippocampus glial cell|
+histamine secreting cell|
+histaminergic neuron|
+histoblast|
+humidity receptor cell|
+hyalocyte|
+hypertrophic chondrocyte|
+hyphal cell|
+hypocretin-secreting neuron|
+hypothalamus native cell|
+ileal goblet cell|
+imaginal disc cell|
+immature B cell|
+immature CD11c-low plasmacytoid dendritic cell|
+immature CD11c-negative plasmacytoid dendritic cell|
+immature CD14-positive dermal dendritic cell|
+immature CD16-positive myeloid dendritic cell|
+immature CD1a-positive Langerhans cell|
+immature CD1a-positive dermal dendritic cell|
+immature CD8_alpha-low Langerhans cell|
+immature CD8_alpha-negative CD11b-negative dendritic cell|
+immature CD8_alpha-negative CD11b-positive dendritic cell|
+immature CD8_alpha-positive CD11b-negative dendritic cell|
+immature NK T cell|
+immature NK T cell stage I|
+immature NK T cell stage II|
+immature NK T cell stage III|
+immature NK T cell stage IV|
+immature Schwann cell|
+immature T cell|
+immature Vgamma1.1-positive, Vdelta6.3-negative thymocyte|
+immature Vgamma1.1-positive, Vdelta6.3-positive thymocyte|
+immature Vgamma2-negative thymocyte|
+immature Vgamma2-positive fetal thymocyte|
+immature Vgamma2-positive thymocyte|
+immature alpha-beta T cell|
+immature astrocyte|
+immature basophil|
+immature conventional dendritic cell|
+immature dendritic epithelial T cell precursor|
+immature dermal dendritic cell|
+immature eosinophil|
+immature gamma-delta T cell|
+immature interstitial dendritic cell|
+immature microglial cell|
+immature natural killer cell|
+immature neutrophil|
+immature single positive thymocyte|
+inactive chief cell of parathyoid gland|
+induced T-regulatory cell|
+inflammatory cell|
+inflammatory macrophage|
+inhibitory interneuron|
+inhibitory motor neuron|
+innate effector T cell|
+innate lymphoid cell|
+inner cell mass native cell|
+inner medulla vasa recta ascending limb cell|
+inner medulla vasa recta descending limb cell|
+inner phalangeal cell|
+inner renal cortex cell|
+inner renal medulla vasa recta cell|
+inner root sheath cell|
+insulating cell|
+insulin secreting cell|
+interdental cell of cochlea|
+interfollicle cell|
+interlobular artery cell|
+interlobular vein cell|
+interlobulary artery endothelial cell|
+interlobulary artery smooth muscle cell|
+interlobulary vein endothelial cell|
+interlobulary vein smooth muscle cell|
+intermediate epitheliocyte|
+intermediate mesodermal cell|
+intermediate monocyte|
+intermediate muscle cell|
+intermediate trophoblast cell|
+internal epithelial cell of tympanic membrane|
+internal pillar cell of cochlea|
+interneuromast cell|
+interneuron|
+internodal tract myocyte|
+interplexiform cell|
+interrenal chromaffin cell|
+interrenal epinephrin secreting cell|
+interrenal epithelial cell|
+interrenal norepinephrine type cell|
+interstitial cell of Cajal|
+interstitial cell of ovary|
+interstitial cell of pineal gland|
+interstitial dendritic cell|
+intestinal crypt stem cell|
+intestinal enteroendocrine cell|
+intestinal epithelial cell|
+intestinal villus goblet cell|
+intraepithelial lymphocyte|
+intrahepatic bile duct epithelial cell|
+invertebrate nurse cell|
+ionocyte|
+iridoblast|
+iridophore|
+iris pigment epithelial cell|
+iron accumulating cell|
+jejunal goblet cell|
+juvenile hormone secreting cell|
+juxtaglomerular complex cell|
+keratin accumulating cell|
+keratinized cell of hair follicle|
+keratinized cell of the oral mucosa|
+keratinized epithelial cell of the anal canal|
+keratinized squamous cell of esophagus|
+keratinizing barrier epithelial cell|
+keratinocyte|
+keratinocyte stem cell|
+keratocyte|
+kidney afferent arteriole cell|
+kidney afferent arteriole endothelial cell|
+kidney afferent arteriole smooth muscle cell|
+kidney arterial blood vessel cell|
+kidney arteriole smooth muscle cell|
+kidney artery smooth muscle cell|
+kidney blood vessel cell|
+kidney capillary endothelial cell|
+kidney cell|
+kidney collecting duct cell|
+kidney collecting duct epithelial cell|
+kidney collecting duct intercalated cell|
+kidney collecting duct principal cell|
+kidney connecting tubule epithelial cell|
+kidney corpuscule cell|
+kidney cortex artery cell|
+kidney cortex collecting duct epithelial cell|
+kidney cortex collecting duct intercalated cell|
+kidney cortex collecting duct principal cell|
+kidney cortex interstitial cell|
+kidney cortex peritubular capillary cell|
+kidney cortex tubule cell|
+kidney cortex vein cell|
+kidney cortical cell|
+kidney distal convoluted tubule epithelial cell|
+kidney efferent arteriole cell|
+kidney efferent arteriole endothelial cell|
+kidney efferent arteriole smooth muscle cell|
+kidney epithelial cell|
+kidney glomerular epithelial cell|
+kidney granular cell|
+kidney inner medulla cell|
+kidney inner medulla collecting duct epithelial cell|
+kidney inner medulla collecting duct intercalated cell|
+kidney inner medulla collecting duct principal cell|
+kidney inner medulla interstitial cell|
+kidney interstitial alternatively activated macrophage|
+kidney interstitial cell|
+kidney interstitial fibroblast|
+kidney interstitial fibrocyte|
+kidney interstitial inflammatory macrophage|
+kidney interstitial myofibroblast|
+kidney interstitial suppressor macrophage|
+kidney loop of Henle ascending limb epithelial cell|
+kidney loop of Henle cortical thick ascending limb epithelial cell|
+kidney loop of Henle descending limb epithelial cell|
+kidney loop of Henle epithelial cell|
+kidney loop of Henle medullary thick ascending limb epithelial cell|
+kidney loop of Henle thick ascending limb epithelial cell|
+kidney loop of Henle thin ascending limb epithelial cell|
+kidney loop of Henle thin descending limb epithelial cell|
+kidney medulla cell|
+kidney medulla collecting duct epithelial cell|
+kidney medulla interstitial cell|
+kidney nerve cell|
+kidney outer medulla cell|
+kidney outer medulla collecting duct epithelial cell|
+kidney outer medulla collecting duct intercalated cell|
+kidney outer medulla collecting duct principal cell|
+kidney outer medulla interstitial cell|
+kidney outer medulla peritubular capillary cell|
+kidney papillary duct intercalated cell|
+kidney papillary duct principal cell|
+kidney papillary duct principal epithelial cell|
+kidney pelvis cell|
+kidney pelvis smooth muscle cell|
+kidney pelvis urothelial cell|
+kidney proximal convoluted tubule epithelial cell|
+kidney proximal straight tubule epithelial cell|
+kidney resident dendritic cell|
+kidney resident macrophage|
+kidney tubule cell|
+kidney venous blood vessel cell|
+kidney venous system smooth muscle cell|
+labyrinth supporting cell|
+lamellocyte|
+langerin-negative dermal dendritic cell|
+langerin-negative, CD103-negative lymph node dendritic cell|
+langerin-positive dermal dendritic cell|
+langerin-positive lymph node dendritic cell|
+large intestine crypt goblet cell|
+large intestine goblet cell|
+large luteal cell|
+large pre-B-II cell|
+larval midgut cell|
+late pro-B cell|
+late promyelocyte|
+lateral line ganglion neuron|
+lateral line nerve glial cell|
+lateral mesodermal cell|
+lateral motor column neuron|
+lateral ventricle glial cell|
+lateral ventricle neuron|
+leading edge cell|
+lens epithelial cell|
+lens fiber cell|
+leptomeningeal cell|
+leucoblast|
+leucophore|
+leukocyte|
+ligament cell|
+light chief cell of parathyroid gland|
+light melanocyte|
+limb basal cell of epidermis|
+lining cell|
+littoral cell of liver|
+liver CD103-negative dendritic cell|
+liver CD103-positive dendritic cell|
+liver dendritic cell|
+long lived plasma cell|
+long term hematopoietic stem cell|
+lower urinary tract cell|
+luminal cell of acinus of lactiferous gland|
+luminal cell of lactiferous duct|
+luminal cell of lactiferous terminal ductal lobular unit|
+luminal cell of prostate epithelium|
+luminal cell of prostatic acinus|
+luminal epithelial cell of mammary gland|
+luminal epithelial cell of prostatic duct|
+lung ciliated cell|
+lung endothelial cell|
+lung goblet cell|
+lung macrophage|
+lung microvascular endothelial cell|
+lung neuroendocrine cell|
+lung secretory cell|
+luteal cell|
+luteinizing hormone secreting cell|
+lymph gland crystal cell|
+lymph gland hemocyte|
+lymph gland plasmatocyte|
+lymph node macrophage|
+lymph node subcapsular sinus macrophage|
+lymph node tingible body macrophage|
+lymphangioblast|
+lymphocyte|
+lymphocyte of B lineage|
+lymphoid MHC-II-negative classical monocyte|
+lymphoid MHC-II-negative non-classical monocyte|
+lymphoid lineage restricted progenitor cell|
+lysozyme secreting cell|
+macroconidium|
+macroglial cell|
+macrophage|
+macrophage (sensu Diptera)|
+macrophage dendritic cell progenitor|
+macrophage derived foam cell|
+macula densa epithelial cell|
+macular hair cell|
+magnocellular neurosecretory cell|
+magnocellular neurosecretory cell (duplicate class)|
+male gamete|
+male germ cell|
+male germ line stem cell|
+male germ line stem cell (sensu Nematoda and Protostomia)|
+male germ line stem cell (sensu Vertebrata)|
+male gonocyte|
+malignant cell|
+malpighian tubule tip cell|
+mammary alveolar cell|
+mammary gland epithelial cell|
+mammary gland glandular cell|
+mammary microvascular endothelial cell|
+mammary stem cell|
+mammosomatotroph|
+mammotroph|
+marginal zone B cell|
+marrow fibroblast|
+mast cell|
+mast cell progenitor|
+mature B cell|
+mature CD11c-low plasmacytoid dendritic cell|
+mature CD11c-negative plasmacytoid dendritic cell|
+mature CD14-positive dermal dendritic cell|
+mature CD16-positive myeloid dendritic cell|
+mature CD1a-positive Langerhans cell|
+mature CD1a-positive dermal dendritic cell|
+mature CD4 single-positive thymocyte|
+mature CD8 single-positive thymocyte|
+mature CD8_alpha-low Langerhans cell|
+mature CD8_alpha-negative CD11b-negative dendritic cell|
+mature CD8_alpha-negative CD11b-positive dendritic cell|
+mature CD8_alpha-positive CD11b-negative dendritic cell|
+mature NK T cell|
+mature T cell|
+mature Vgamma1.1-positive, Vdelta6.3-negative thymocyte|
+mature Vgamma1.1-positive, Vdelta6.3-positive thymocyte|
+mature Vgamma2-negative thymocyte|
+mature Vgamma2-positive fetal thymocyte|
+mature Vgamma2-positive thymocyte|
+mature alpha-beta T cell|
+mature astrocyte|
+mature basophil|
+mature conventional dendritic cell|
+mature dendritic epithelial T cell precursor|
+mature dermal dendritic cell|
+mature eosinophil|
+mature gamma-delta T cell|
+mature interstitial dendritic cell|
+mature microglial cell|
+mature natural killer cell|
+mature neutrophil|
+mechanoreceptor cell|
+medium spiny neuron|
+medullary thymic epithelial cell|
+megakaryocyte|
+megakaryocyte progenitor cell|
+megakaryocyte-erythroid progenitor cell|
+melanoblast|
+melanocyte|
+melanocyte of eyelid|
+melanocyte of foreskin|
+melanocyte of skin|
+melanocyte of skin of face|
+melanocyte stimulating hormone secreting cell|
+melanophage|
+memory B cell|
+memory CCR4-positive regulatory T cell|
+memory T cell|
+memory regulatory T cell|
+meningeal macrophage|
+meningothelial cell|
+mesangial cell|
+mesangial phagocyte|
+mesenchymal cell|
+mesenchymal lymphangioblast|
+mesenchymal stem cell|
+mesenchymal stem cell of Wharton's jelly|
+mesenchymal stem cell of abdominal adipose|
+mesenchymal stem cell of adipose|
+mesenchymal stem cell of femoral bone marrow|
+mesenchymal stem cell of the bone marrow|
+mesenchymal stem cell of umbilical cord|
+mesenchyme condensation cell|
+mesenteric preadipocyte|
+meso-epithelial cell|
+mesodermal cell|
+mesonephric glomerular visceral epithelial cell|
+mesonephric nephron tubule epithelial cell|
+mesothelial cell|
+mesothelial cell of anterior chamber of eye|
+mesothelial cell of dura mater|
+mesothelial cell of parietal peritoneum|
+mesothelial cell of parietal pleura|
+mesothelial cell of peritoneum|
+mesothelial cell of pleura|
+mesothelial cell of visceral peritoneum|
+mesothelial cell of visceral pleura|
+metabolising cell|
+metal ion accumulating cell|
+metamyelocyte|
+metanephric glomerular visceral epithelial cell|
+metanephric mesenchyme stem cell|
+metanephric nephron tubule epithelial cell|
+microconidium|
+microfold cell of epithelium of intestinal villus|
+microfold cell of epithelium of small intestine|
+microfold cell of epithelium proper of appendix|
+microfold cell of epithelium proper of duodenum|
+microfold cell of epithelium proper of ileum|
+microfold cell of epithelium proper of jejunum|
+microfold cell of epithelium proper of large intestine|
+microfold cell of epithelium proper of small intestine|
+microglial cell|
+micropylar cell|
+microvascular endothelial cell|
+microvillous olfactory receptor neuron|
+midbrain dopaminergic neuron|
+migratory cardiac neural crest cell|
+migratory cranial neural crest cell|
+migratory enteric neural crest cell|
+migratory neural crest cell|
+migratory trunk neural crest cell|
+milk secreting cell|
+mineralocorticoid secreting cell|
+mitogenic signaling cell|
+mitral cell|
+monoblast|
+monocyte|
+mononuclear cell|
+mononuclear cell of bone marrow|
+mononuclear cell of umbilical cord|
+mononuclear cytotrophoblast cell|
+mononuclear odontoclast|
+mononuclear osteoclast|
+mononuclear phagocyte|
+monopoietic cell|
+morula cell|
+motile cell|
+motilin secreting cell|
+motor neuron|
+mucosa-associated lymphoid tissue macrophage|
+mucosal invariant T cell|
+mucosal type mast cell|
+mucous cell of stomach|
+mucous neck cell|
+mucus neck cell of gastric gland|
+mucus secreting cell|
+multi fate stem cell|
+multi-ciliated epithelial cell|
+multi-potent skeletal muscle stem cell|
+multinuclear odontoclast|
+multinuclear osteoclast|
+multinucleate arthroconidium|
+multinucleate blastoconidium|
+multinucleate cell|
+multinucleate conidium|
+multinucleate macroconidium|
+multinucleated giant cell|
+multinucleated phagocyte|
+multipolar neuron|
+muscle cell|
+muscle fibroblast|
+muscle founder cell|
+muscle precursor cell|
+myelin accumulating cell|
+myelinating Schwann cell|
+myeloblast|
+myelocyte|
+myeloid cell|
+myeloid dendritic cell|
+myeloid dendritic cell, human|
+myeloid leukocyte|
+myeloid lineage restricted progenitor cell|
+myeloid suppressor cell|
+myoblast|
+myocardial endocrine cell|
+myocardial endocrine cell of atrium|
+myocardial endocrine cell of interventricular septum|
+myocardial endocrine cell of septal division of left branch of atrioventricular bundle|
+myocyte of anterior internodal tract|
+myocyte of atrial branch of anterior internodal tract|
+myocyte of atrial septal branch of anterior internodal tract|
+myocyte of atrioventricular node|
+myocyte of middle internodal tract|
+myocyte of posterior internodal tract|
+myocyte of sinoatrial node|
+myoendocrine cell|
+myoepithelial cell|
+myoepithelial cell of acinus of lactiferous gland|
+myoepithelial cell of dilator pupillae|
+myoepithelial cell of intralobular lactiferous duct|
+myoepithelial cell of lactiferous alveolus|
+myoepithelial cell of lactiferous duct|
+myoepithelial cell of lactiferous gland|
+myoepithelial cell of main lactiferous duct|
+myoepithelial cell of mammary gland|
+myoepithelial cell of primary lactiferous duct|
+myoepithelial cell of quarternary lactiferous duct|
+myoepithelial cell of secondary lactiferous duct|
+myoepithelial cell of sweat gland|
+myoepithelial cell of terminal lactiferous duct|
+myoepithelial cell of tertiary lactiferous duct|
+myofibroblast cell|
+myometrial cell|
+myotube|
+naive B cell|
+naive CCR4-positive regulatory T cell|
+naive T cell|
+naive regulatory T cell|
+naive thymus-derived CD4-positive, alpha-beta T cell|
+naive thymus-derived CD8-positive, alpha-beta T cell|
+nasal and broncial associated lymphoid tissue macrophage|
+nasal cavity respiratory epithelium epithelial cell of viscerocranial mucosa|
+nasal mucosa goblet cell|
+nasopharyngeal epithelial cell|
+native cell|
+natural T-regulatory cell|
+natural helper lymphocyte|
+natural killer cell|
+neocortex basket cell|
+neoplastic cell|
+nephrocyte|
+nephrogenic mesenchyme stem cell|
+nephron tubule epithelial cell|
+neural cell|
+neural crest cell|
+neural crest derived fat cell|
+neural crest derived neuroblast|
+neurecto-epithelial cell|
+neurectodermal cell|
+neuroblast|
+neuroblast (sensu Nematoda and Protostomia)|
+neuroblast (sensu Vertebrata)|
+neuroendocrine cell|
+neuroepidermoblast|
+neuroepithelial stem cell|
+neuroglioblast|
+neuroglioblast (sensu Nematoda)|
+neuroglioform cell|
+neuromast hair cell|
+neuromast mantle cell|
+neuromast support cell|
+neuron|
+neuron associated cell|
+neuron associated cell (sensu Nematoda and Protostomia)|
+neuron associated cell (sensu Vertebrata)|
+neuron neural crest derived|
+neuron of cerebral cortex|
+neuron of the dorsal spinal cord|
+neuron of the forebrain|
+neuron of the substantia nigra|
+neuron of the ventral spinal cord|
+neuronal brush cell|
+neuronal receptor cell|
+neuronal stem cell|
+neuroplacodal cell|
+neurosecretory neuron|
+neutrophil|
+neutrophil progenitor cell|
+neutrophilic metamyelocyte|
+neutrophilic myeloblast|
+neutrophilic myelocyte|
+neutrophilic promyelocyte|
+nitrergic neuron|
+nitrogen fixing cell|
+nodal myocyte|
+non keratinizing barrier epithelial cell|
+non-branched duct epithelial cell|
+non-classical monocyte|
+non-myelinating Schwann cell|
+non-nucleated secondary lens fiber|
+non-pigmented ciliary epithelial cell|
+non-striated muscle cell|
+non-terminally differentiated cell|
+non-terminally differentiated odontoblast|
+non-terminally differentiated osteoblast|
+nongranular leukocyte|
+nonkeratinized cell of epidermis|
+nonkeratinized cell of stratum corneum of esophageal epithelium|
+nonkeratinized epithelial cell of anal column|
+nonkeratinized epithelial cell of inferior part of anal canal|
+noradrenergic cell|
+noradrenergic neuron|
+notochordal cell|
+notochordal sheath cell|
+notochordal vacuole cell|
+nucleate cell|
+nucleate erythrocyte|
+nucleated reticulocyte|
+nucleated secondary lens fiber|
+nucleated thrombocyte|
+nucleus pulposus cell of intervertebral disc|
+obliquely striated muscle cell|
+obliquely striated somatic muscle cell|
+odontoblast|
+odontoclast|
+odontocyte|
+oenocyte|
+olfactory bulb interneuron|
+olfactory bulb tufted cell|
+olfactory epithelial cell|
+olfactory epithelial support cell|
+olfactory granule cell|
+olfactory receptor cell|
+oligodendrocyte|
+oligodendrocyte precursor cell|
+omentum preadipocyte|
+oncocyte|
+ooblast|
+oocyte|
+oogonial cell|
+oospore|
+open tracheal system tracheocyte|
+optic choroid fibroblast|
+oral mucosa squamous cell|
+organ of Corti supporting cell|
+orthochromatic erythroblast|
+osteoblast|
+osteoclast|
+osteocyte|
+otic fibrocyte|
+outer hair cell|
+outer medulla vasa recta ascending limb cell|
+outer medulla vasa recta descending limb cell|
+outer renal medulla vasa recta cell|
+outer root sheath cell|
+ovarian fibroblast|
+ovarian microvascular endothelial cell|
+ovarian surface epithelial cell|
+oviduct glandular cell|
+oxygen accumulating cell|
+oxyphil cell of parathyroid gland|
+oxyphil cell of thyroid|
+oxytocin stimulating hormone secreting cell|
+pH receptor cell|
+pain receptor cell|
+pancreas exocrine glandular cell|
+pancreatic A cell|
+pancreatic D cell|
+pancreatic PP cell|
+pancreatic acinar cell|
+pancreatic centro-acinar cell|
+pancreatic ductal cell|
+pancreatic endocrine cell|
+pancreatic epsilon cell|
+pancreatic goblet cell|
+pancreatic stellate cell|
+paneth cell|
+paneth cell of epithelium of crypt of Lieberkuhn of small intestine|
+paneth cell of epithelium of small intestine|
+paneth cell of epithelium proper of small intestine|
+paneth cell of the appendix|
+papillary tips cell|
+paracrine cell|
+parafollicular cell|
+paraganglia type 2 cell|
+paraganglial type 1 cell|
+parasympathetic neuron|
+parathyroid glandular cell|
+paraxial cell|
+parietal cell|
+parietal epithelial cell|
+parvocellular neurosecretory cell|
+peptic cell|
+peptide hormone secreting cell|
+peptidergic neuron|
+periarticular chondrocyte|
+pericardial nephrocyte|
+pericardium fibroblast|
+pericyte cell|
+peridermal cell|
+periglomerular cell|
+perijunctional fibroblast|
+perineural cell|
+perineuronal satellite cell|
+periperhal blood mesothelial cell|
+peripheral blood mononuclear cell|
+peripheral blood stem cell|
+peripheral nervous system neuron|
+peripheral neuron|
+perirenal adipocyte cell|
+perirenal preadipocyte|
+peritoneal macrophage|
+peritubular capillary endothelial cell|
+peritubular myoid cell|
+perivascular macrophage|
+permanently open valve cell|
+phagocyte|
+phagocyte (sensu Nematoda and Protostomia)|
+phagocyte (sensu Vertebrata)|
+phalangeal cell|
+photopic photoreceptor cell|
+photoreceptor cell|
+photosynthetic cell|
+pigment cell|
+pigment cell (sensu Nematoda and Protostomia)|
+pigment cell (sensu Vertebrata)|
+pigment erythroblast|
+pigmented ciliary epithelial cell|
+pigmented epithelial cell|
+pillar cell|
+pinealocyte|
+pioneer neuron|
+pituicyte|
+pituitary gland cell|
+placental amniotic mesenchymal stromal cell|
+placental epithelial cell|
+placental hematopoietic stem cell|
+placental pericyte|
+placental villous trophoblast|
+placental villus capillary endothelial cell|
+plasma cell|
+plasmablast|
+plasmacytoid dendritic cell|
+plasmacytoid dendritic cell, human|
+plasmatocyte|
+platelet|
+pleural macrophage|
+pluripotent stem cell|
+pneumocyte|
+podocyte (sensu Diptera)|
+polar body|
+pole cell|
+polychromatophilic erythroblast|
+polygonal cell|
+polymodal neuron|
+polymodal nocireceptor|
+polyploid cell|
+polytene cell|
+pore cell|
+posterior cone cell (sensu Endopterygota)|
+posterior lateral line ganglion neuron|
+posterior lateral line nerve glial cell|
+posterior lateral line neuromast hair cell|
+posterior lateral line neuromast mantle cell|
+posterior lateral line neuromast support cell|
+pre-B-I cell|
+pre-B-II cell|
+pre-conventional dendritic cell|
+pre-natural killer cell|
+preBCR-negative large pre-B-II cell|
+preBCR-positive large pre-B-II cell|
+preadipocyte|
+preadipocyte of the breast|
+preameloblast|
+precementoblast|
+prechondroblast|
+precursor B cell|
+precursor cell|
+premigratory neural crest cell|
+preodontoblast|
+preosteoblast|
+pressoreceptor cell|
+prickle cell|
+primary cultured cell|
+primary follicular cell of ovary|
+primary interneuron|
+primary lens fiber|
+primary motor cortex pyramidal cell|
+primary motor neuron|
+primary neuron|
+primary oocyte|
+primary pigment cell|
+primary polar body|
+primary sensory neuron|
+primary spermatocyte|
+primary trophoblast giant cell|
+primitive cardiac myocyte|
+primitive erythroid lineage cell|
+primitive erythroid progenitor|
+primitive red blood cell|
+primitive reticulocyte|
+primordial germ cell|
+principal gastric gland goblet cell|
+pro-B cell|
+pro-NK cell|
+pro-T cell|
+procrystal cell|
+proerythroblast|
+professional antigen presenting cell|
+progenitor cell of endocrine pancreas|
+progesterone secreting cell|
+prohemocyte (sensu Nematoda and Protostomia)|
+prokaryotic cell|
+prolactin secreting cell|
+promonocyte|
+promyelocyte|
+pronephric nephron tubule epithelial cell|
+prostate gland microvascular endothelial cell|
+prostate stem cell|
+prostate stromal cell|
+protein secreting cell|
+protoplast|
+pseudounipolar neuron|
+pulmonary artery endothelial cell|
+pulmonary interstitial fibroblast|
+pylroric gastric gland goblet cell|
+pyramidal neuron|
+pyrenocyte|
+quiescent skeletal muscle satellite cell|
+radial glial cell|
+raphe nuclei neuron|
+receptor cell|
+rectum glandular cell|
+red muscle cell|
+red sensitive photoreceptor cell|
+regular atrial cardiac myocyte|
+regular cardiac myocyte|
+regular interatrial cardiac myocyte|
+regular interventricular cardiac myocyte|
+regular ventricular cardiac myocyte|
+regulatory B cell|
+regulatory T cell|
+renal alpha-intercalated cell|
+renal beta-intercalated cell|
+renal cortical epithelial cell|
+renal filtration cell|
+renal intercalated cell|
+renal interstitial pericyte|
+renal principal cell|
+respiratory basal cell|
+respiratory epithelial cell|
+respiratory goblet cell|
+resting double-positive thymocyte|
+reticular cell|
+reticular cell of splenic cord|
+reticular layer of dermis fibroblast|
+reticulocyte|
+retina horizontal cell|
+retinal bipolar neuron|
+retinal blood vessel endothelial cell|
+retinal cell|
+retinal cone cell|
+retinal ganglion cell|
+retinal melanocyte|
+retinal pigment epithelial cell|
+retinal progenitor cell|
+retinal rod cell|
+retrotrapezoid nucleus neuron|
+rod bipolar cell|
+salivary gland cell|
+salivary gland glandular cell|
+scaffold cell|
+scleral cell|
+scolopale cell|
+scolopidial ligament cell|
+scolopidial sheath cell|
+scotopic photoreceptor cell|
+seam cell|
+sebaceous gland native cell|
+sebum secreting cell|
+secondary follicular cell of ovary|
+secondary lens fiber|
+secondary lymphoid organ macrophage|
+secondary motor neuron|
+secondary neuron|
+secondary oocyte|
+secondary pigment cell|
+secondary polar body|
+secondary spermatocyte|
+secondary trophoblast giant cell|
+secretin stimulating hormone secreting cell|
+secretory cell|
+segmented neutrophil of bone marrow|
+seminal fluid secreting cell|
+seminal vesicle glandular cell|
+seminiferous tubule epithelial cell|
+sensory epithelial cell|
+sensory hair cell|
+sensory neuron|
+sensory neuron of dorsal root ganglion|
+sensory neuron of spinal nerve|
+sensory processing neuron|
+seromucus secreting cell|
+serotonergic neuron|
+serotonin secreting cell|
+serous cell of epithelium of bronchus|
+serous cell of epithelium of lobular bronchiole|
+serous cell of epithelium of terminal bronchiole|
+serous cell of epithelium of trachea|
+serous secreting cell|
+sexual spore|
+sheath cell|
+sheath cell (sensu Nematoda)|
+short lived plasma cell|
+short term hematopoietic stem cell|
+simple columnar epithelial cell|
+single ciliated epithelial cell|
+single fate stem cell|
+single nucleate cell|
+skeletal muscle fiber|
+skeletal muscle myoblast|
+skeletal muscle satellite cell|
+skeletal muscle satellite myogenic cell|
+skeletal muscle satellite stem cell|
+skeletal muscle tissue of pectoralis major striated muscle cell|
+skeletogenic cell|
+skin fibroblast|
+slow muscle cell|
+slow muscle myoblast|
+slowly adapting mechanoreceptor cell|
+small intestine glandular cell|
+small intestine goblet cell|
+small intestine serosal dendritic cell|
+small luteal cell|
+small pre-B-II cell|
+smooth muscle cell|
+smooth muscle cell derived foam cell|
+smooth muscle cell neural crest derived|
+smooth muscle cell of bladder|
+smooth muscle cell of cecum|
+smooth muscle cell of colon|
+smooth muscle cell of large intestine|
+smooth muscle cell of prostate|
+smooth muscle cell of rectum|
+smooth muscle cell of sigmoid colon|
+smooth muscle cell of small intestine|
+smooth muscle cell of sphincter of pupil|
+smooth muscle cell of the brachiocephalic vasculature|
+smooth muscle cell of the brain vasculature|
+smooth muscle cell of the carotid artery|
+smooth muscle cell of the coronary artery|
+smooth muscle cell of the esophagus|
+smooth muscle cell of the internal thoracic artery|
+smooth muscle cell of the pulmonary artery|
+smooth muscle cell of the subclavian artery|
+smooth muscle cell of the umbilical artery|
+smooth muscle cell of the umbilical vein|
+smooth muscle cell of trachea|
+smooth muscle fiber of ascending colon|
+smooth muscle fiber of descending colon|
+smooth muscle fiber of duodenum|
+smooth muscle fiber of ileum|
+smooth muscle fiber of jejunum|
+smooth muscle fiber of transverse colon|
+smooth muscle myoblast|
+socket cell (sensu Nematoda)|
+somatic cell|
+somatic muscle cell|
+somatic muscle myoblast|
+somatic muscle myotube|
+somatic stem cell|
+somatomotor neuron|
+somatostatin secreting cell|
+somatotroph|
+somatotropin secreting cell|
+specialized cardiac myocyte|
+sperm|
+spermatid|
+spermatocyte|
+spermatogonium|
+spheroplast|
+sphincter associated smooth muscle cell|
+spinal accessory motor neuron|
+spinal cord interneuron|
+spinal cord medial motor column neuron|
+spinal cord motor neuron|
+spinal cord oligodendrocyte|
+spinal cord radial glial cell|
+spinal cord ventral column interneuron|
+spiral ganglion neuron|
+splenic endothelial cell|
+splenic fibroblast|
+splenic macrophage|
+splenic marginal zone macrophage|
+splenic metallophillic macrophage|
+splenic red pulp macrophage|
+splenic tingible body macrophage|
+splenic white pulp macrophage|
+splenocyte|
+spongiotrophoblast cell|
+squamous cell of ectocervix|
+squamous cell of epidermis|
+squamous endothelial cell|
+squamous epithelial cell|
+stellate interneuron|
+stellate neuron|
+stem cell|
+stem cell of epidermis|
+stem cell of gastric gland|
+steroid hormone secreting cell|
+stomach enteroendocrine cell|
+stomach neuroendocrine cell|
+storage cell|
+stratified cuboidal epithelial cell|
+stratified epithelial cell|
+stratified epithelial stem cell|
+stratified keratinized epithelial stem cell|
+stratified non keratinized epithelial stem cell|
+stratified squamous epithelial cell|
+stratum granulosum cell|
+stretch receptor cell|
+strial basal cell|
+strial intermediate cell|
+strial marginal cell|
+striated muscle cell|
+striated visceral muscle cell|
+striatum neuron|
+stromal cell|
+stromal cell of bone marrow|
+stromal cell of endometrium|
+stromal cell of ovarian cortex|
+stromal cell of ovarian medulla|
+stromal cell of ovary|
+stromal cell of pancreas|
+structural cell|
+stuff accumulating cell|
+subcutaneous fat cell|
+subcutaneous preadipocyte|
+substance P secreting cell|
+superficial external epithelial cell of tympanic membrane|
+support cell (sensu Nematoda and Protostomia)|
+support cell (sensu Nematoda)|
+supporting cell of carotid body|
+supporting cell of cochlea|
+supporting cell of vestibular epithelium|
+supportive cell|
+suppressor macrophage|
+surface ectodermal cell|
+surface mucosal cell of stomach|
+surfactant secreting cell|
+sustentacular cell|
+sweat secreting cell|
+sympathetic neuron|
+syncytial epithelial cell|
+syncytiotrophoblast cell|
+synovial cell|
+tanycyte|
+taste receptor cell|
+tears secreting cell|
+tendon cell|
+terminal Schwann cell|
+terminally differentiated odontoblast|
+terminally differentiated osteoblast|
+tertiary pigment cell|
+testosterone secreting cell|
+tether cell|
+theca cell|
+thecogen cell|
+thermoreceptor cell|
+thoracic aorta endothelial cell|
+thromboblast|
+thymic conventional dendritic cell|
+thymic cortical macrophage|
+thymic macrophage|
+thymic medullary macrophage|
+thymic plasmacytoid dendritic cell|
+thymocyte|
+thyroid follicular cell|
+thyroid hormone secreting cell|
+thyrotroph|
+tip cell|
+tissue-resident macrophage|
+tongue muscle cell|
+tonsil germinal center B cell|
+tonsil squamous cell|
+tonsillar macrophage|
+tormogen cell|
+totipotent stem cell|
+touch receptor cell|
+trabecular meshwork cell|
+tracheal epithelial cell|
+tracheal goblet cell|
+tracheoblast|
+transitional cell of parathyroid gland|
+transitional epithelial cell|
+transitional myocyte|
+transitional myocyte of anterior division of left branch of atrioventricular bundle|
+transitional myocyte of anterior internodal tract|
+transitional myocyte of atrial branch of anterior internodal tract|
+transitional myocyte of atrial part of atrioventricular bundle|
+transitional myocyte of atrial septal branch of anterior internodal tract|
+transitional myocyte of atrioventricular bundle|
+transitional myocyte of interatrial septum|
+transitional myocyte of internodal tract|
+transitional myocyte of interventricular septum|
+transitional myocyte of left branch of atrioventricular bundle|
+transitional myocyte of middle internodal tract|
+transitional myocyte of posterior division of left branch of atrioventricular bundle|
+transitional myocyte of posterior internodal tract|
+transitional myocyte of right branch of atrioventricular bundle|
+transitional myocyte of septal division of left branch of atrioventricular bundle|
+transitional myocyte of sinoatrial node|
+transitional myocyte of ventricular part of atrioventricular bundle|
+transitional stage B cell|
+transporting cell|
+transversely striated visceral muscle cell|
+trichogen cell|
+trophectodermal cell|
+trophoblast cell|
+trophoblast giant cell|
+type 1 cone bipolar cell (sensu Mus)|
+type 1 otic fibrocyte|
+type 1 vestibular sensory cell of epithelium of crista of ampulla of semicircular duct of membranous labyrinth|
+type 1 vestibular sensory cell of epithelium of macula of saccule of membranous labyrinth|
+type 1 vestibular sensory cell of epithelium of macula of utricle of membranous labyrinth|
+type 1 vestibular sensory cell of stato-acoustic epithelium|
+type 2 cone bipolar cell (sensu Mus)|
+type 2 otic fibrocyte|
+type 2 vestibular sensory cell of epithelium of crista of ampulla of semicircular duct of membranous labyrinth|
+type 2 vestibular sensory cell of epithelium of macula of saccule of membranous labyrinth|
+type 2 vestibular sensory cell of epithelium of macula of utricle of membranous labyrinth|
+type 2 vestibular sensory cell of stato-acoustic epithelium|
+type 3 cone bipolar cell (sensu Mus)|
+type 3 otic fibrocyte|
+type 4 cone bipolar cell (sensu Mus)|
+type 4 otic fibrocyte|
+type 5 cone bipolar cell (sensu Mus)|
+type 5 otic fibrocyte|
+type 6 cone bipolar cell (sensu Mus)|
+type 7 cone bipolar cell (sensu Mus)|
+type 8 cone bipolar cell (sensu Mus)|
+type 9 cone bipolar cell (sensu Mus)|
+type A cell of stomach|
+type A enterocrine cell|
+type A synovial cell|
+type B pancreatic cell|
+type B synovial cell|
+type D cell of colon|
+type D cell of small intestine|
+type D cell of stomach|
+type D enteroendocrine cell|
+type D1 enteroendocrine cell|
+type EC enteroendocrine cell|
+type EC1 enteroendocrine cell|
+type EC2 enteroendocrine cell|
+type ECL enteroendocrine cell|
+type G enteroendocrine cell|
+type I NK T cell|
+type I cell of adrenal cortex|
+type I cell of adrenal medulla|
+type I cell of carotid body|
+type I enteroendocrine cell|
+type I muscle cell|
+type I pinealocyte|
+type I pneumocyte|
+type I taste bud cell|
+type I vestibular sensory cell|
+type II NK T cell|
+type II NK T cell secreting interferon-gamma|
+type II NK T cell secreting interleukin-4|
+type II cell of adrenal cortex|
+type II cell of adrenal medulla|
+type II cell of carotid body|
+type II muscle cell|
+type II pinealocyte|
+type II pneumocyte|
+type II taste cell|
+type II vestibular sensory cell|
+type III cell of adrenal cortex|
+type III taste bud cell|
+type IIa muscle cell|
+type IIb muscle cell|
+type IV taste receptor cell|
+type L enteroendocrine cell|
+type M enteroendocrine cell|
+type N enteroendocrine cell|
+type S enteroendocrine cell|
+type TG enteroendocrine cell|
+type V taste receptor cell|
+type X enteroendocrine cell|
+type-1 epithelial cell of thymus|
+type-2 epithelial cell of thymus|
+type-3 epithelial cell of thymus|
+type-4 epithelial cell of thymus|
+type-5 epithelial cell of thymus|
+type-6 epithelial cell of thymus|
+type-7 epithelial cell of thymus|
+umbilical artery endothelial cell|
+undifferentiated cell of bronchus epithelium|
+unimodal nocireceptor|
+uninucleate arthroconidium|
+uninucleate blastconidium|
+uninucleate conidium|
+uninucleate macroconidium|
+unipolar neuron|
+unswitched memory B cell|
+ureter adventitial cell|
+ureter smooth muscle cell|
+ureter urothelial cell|
+ureteral cell|
+urethra cell|
+urethra urothelial cell|
+uric acid accumulating cell|
+urothelial cell|
+urothelial cell of trigone of urinary bladder|
+uterine cervix glandular cell|
+uterine cervix squamous cell|
+uterine smooth muscle cell|
+vacuolar absorptive cell of epithelium of colon|
+vacuolar absorptive cell of epithelium proper of large intestine|
+vagina squamous cell|
+vaginal lubricant secreting cell|
+valve cell|
+vasa recta ascending limb cell|
+vasa recta cell|
+vasa recta descending limb cell|
+vascular associated smooth muscle cell|
+vascular lymphangioblast|
+vasoactive intestinal peptide secreting cell|
+vasopressin stimulating hormone secreting cell|
+vegetative cell (sensu Fungi)|
+vein endothelial cell|
+ventral horn of spinal cord spinal cord motor neuron|
+ventricular cardiac muscle cell|
+vertebral mesenchymal stem cell|
+vertebrate lens cell|
+vestibular dark cell|
+vestibular hair cell|
+visceral muscle cell|
+visceral preadipocyte|
+visceromotor neuron|
+visible light photoreceptor cell|
+visual pigment cell|
+visual pigment cell (sensu Nematoda and Protostomia)|
+visual pigment cell (sensu Vertebrata)|
+vomeronasal sensory neuron|
+warmth sensing thermoreceptor cell|
+white fat cell|
+white muscle cell|
+xanthoblast|
+xanthophore cell|
+yolk cell|
+yolk sac hematopoietic stem cell|
+zygospore|
+
