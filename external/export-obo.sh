@@ -1,9 +1,9 @@
 # BEL Namespaces
-python -m bio2bel.obo belns hp -f hp.belanno
-python -m bio2bel.obo belns hp -f hp-names.belanno -n
+python -m bio2bel.obo belns hp -f hp.belns
+python -m bio2bel.obo belns hp -f hp-names.belns -n
 
-python -m bio2bel.obo belns doid -f doid.belanno
-python -m bio2bel.obo belns doid -f doid-names.belanno -n
+python -m bio2bel.obo belns doid -f doid.belns
+python -m bio2bel.obo belns doid -f doid-names.belns -n
 
 # BEL Annotations
 
