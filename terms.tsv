@@ -351,3 +351,4 @@ HBP00349	Esther	AG18051	chemical	pmid:22174920	ABAD inhibitor
 HBP00350	Esther	RM-532-46	chemical	pmid:22674910	ABAD inhibitor
 HBP00351	Charlie	deamidation	post-translational modification	pmid:26631930	The removal of an amide group from a peptide's side chain
 HBP00352	Charlie	Mini-Mental Status Exam	clinical measurement	ncit:C74982	A standardized and structured interview originally developed by Marshal Folstein, Susan Folstein and Paul McHugh (Journal of Psychiatric Research, 1975), which is used to evaluate an individual's cognitive function.
+HBP00353	Esther	GLAP	chemical	pmid:25582325,17284838	glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation
