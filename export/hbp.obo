@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:03:2019 15:05
+date: 16:04:2019 11:12
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3341,4 +3341,9 @@ synonym: "Mini-Mental State Examination Questionnaire" EXACT [ncit:C74982]
 synonym: "Mini-Mental_Status_Exam" EXACT [ncit:C74982]
 xref: ncit:C74982
 xref: umls:C0451306
+
+[Term]
+id: HBP:HBP00353
+name: GLAP
+def: "glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation" [pmid:25582325, pmid:17284838]
 

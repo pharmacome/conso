@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20190310
-CreatedDateTime=2019-03-10T15:05:01
+VersionString=20190416
+CreatedDateTime=2019-04-16T11:10:22
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -94,6 +94,7 @@ FMR1,(55-200 CGG)|G
 GA-AGE|A
 GAL80TS|O
 GDNF Family|A
+GLAP|A
 GPBC, Glycine Receptor 1|P
 GPBC, alpha-7 nAChR|P
 GRB10,BPS domain|P
