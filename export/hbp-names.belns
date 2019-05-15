@@ -2,8 +2,8 @@
 Keyword=HBP
 NameString=Human Brain Pharmacome Terminology
 DomainString=Other
-VersionString=20190416
-CreatedDateTime=2019-04-16T11:10:22
+VersionString=20190515
+CreatedDateTime=2019-05-15T23:48:38
 DescriptionString=The Human Brain Pharmacome Terminology contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at leasthas a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -149,6 +149,7 @@ PINK1-Park pathway|B
 PTI-125|A
 Pars Compacta|A
 Pathological Tau Spreading|O
+Peripheral Tissue|A
 Phenylthiazolyl-hydrazide|A
 PrP106-126|P
 PrPSc|P
@@ -170,6 +171,8 @@ Syndecan Family|P
 TGM2 Isoform 3 (349 aa)|P
 TIM/TOM complex|P
 TOC1|A
+Tau 6D|P
+Tau 6P|P
 Tau C3|P
 Tau MN423|P
 Tau Protein Secondary Structure, Turn|A
@@ -355,6 +358,7 @@ sonicated tau fibrils|A
 ss20399075|G
 straight filaments|A
 sudoxicam|A
+tau polyclonal antibody|A
 thiohydantoin|A
 thioxooxazolidine|A
 tideglusib|A

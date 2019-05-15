@@ -349,5 +349,9 @@
   "HBP00350": "RM-532-46",
   "HBP00351": "deamidation",
   "HBP00352": "Mini-Mental Status Exam",
-  "HBP00353": "GLAP"
+  "HBP00353": "GLAP",
+  "HBP00354": "Tau 6D",
+  "HBP00355": "Tau 6P",
+  "HBP00356": "Peripheral Tissue",
+  "HBP00357": "tau polyclonal antibody"
 }

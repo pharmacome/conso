@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:04:2019 11:12
+date: 15:05:2019 23:48
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
 
 [Typedef]
@@ -3346,4 +3346,24 @@ xref: umls:C0451306
 id: HBP:HBP00353
 name: GLAP
 def: "glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation" [pmid:25582325, pmid:17284838]
+
+[Term]
+id: HBP:HBP00354
+name: Tau 6D
+def: "In addition to the 3′ splice site at the end of exon 6, there are two alternate 3′ splice sites within exon 6 itself, termed “6P” and “6D” according to location (Fig. 1). Use of either of these splice sites results in a frame shift that introduces a unique amino acid sequence, PCCVPRATFLS (6P) or FWSKGDETQGG (6D), followed by a stop codon. As a result, tau 6P and 6D isoforms are truncated, lacking part of the proline-rich region, the MTBR region, and C-terminus" [pmid:21734277, pmid:19919107]
+
+[Term]
+id: HBP:HBP00355
+name: Tau 6P
+def: "In addition to the 3′ splice site at the end of exon 6, there are two alternate 3′ splice sites within exon 6 itself, termed “6P” and “6D” according to location (Fig. 1). Use of either of these splice sites results in a frame shift that introduces a unique amino acid sequence, PCCVPRATFLS (6P) or FWSKGDETQGG (6D), followed by a stop codon. As a result, tau 6P and 6D isoforms are truncated, lacking part of the proline-rich region, the MTBR region, and C-terminus" [pmid:21734277, pmid:19919107]
+
+[Term]
+id: HBP:HBP00356
+name: Peripheral Tissue
+def: "Parts of the body that act as a response to a change in the environment, the body's functions, molecule levels, etc." [pmid:27758088]
+
+[Term]
+id: HBP:HBP00357
+name: tau polyclonal antibody
+def: "Antibodies, that are able to bind different epitopes of the tau protein" [pmid:29590627]
 
