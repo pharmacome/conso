@@ -294,10 +294,11 @@ def check_class_has_xref(cls, xrefs) -> None:
         _check_missing_xref(cls, entries, db_map, xref)
 
 
-def check_class_has_relation(cls: str,
-                             relation: str,
-                             object_namespace: Optional[str] = None
-                             ) -> None:
+def check_class_has_relation(
+        cls: str,
+        relation: str,
+        object_namespace: Optional[str] = None
+) -> None:
     """Check that members of the given class have a given relation with a cardinality of 1."""
     with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -380,11 +381,12 @@ def check_chemical_structures() -> None:
     check_class_has_xref('chemical', xrefs)
 
 
-def _check_missing_xref(cls: str,
-                        entries: Mapping[str, Tuple[str, str, str]],
-                        db_map: Mapping[str, Mapping[str, str]],
-                        db: str,
-                        ) -> None:
+def _check_missing_xref(
+        cls: str,
+        entries: Mapping[str, Tuple[str, str, str]],
+        db_map: Mapping[str, Mapping[str, str]],
+        db: str,
+) -> None:
     missing_entries = {
         entry
         for entry in entries

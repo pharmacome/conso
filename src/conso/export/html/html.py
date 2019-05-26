@@ -37,7 +37,7 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
 
     synonyms = defaultdict(list)
     for _, row in pd.read_csv(SYNONYMS_PATH, sep='\t').iterrows():
-        synonyms[row.Identifier].append((row.Synonym, row.Reference, row.Specificity))
+        synonyms[row.identifier].append((row.synonym, row.reference, row.specificity))
 
     xrefs = defaultdict(list)
     for _, row in pd.read_csv(XREFS_PATH, sep='\t').iterrows():
