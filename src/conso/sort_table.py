@@ -10,6 +10,7 @@ import pandas as pd
 def pandas_sort(path: str) -> None:
     """Sort the table."""
     df = pd.read_csv(path, sep='\t')
+    df.drop_duplicates(inplace=True)
     df.sort_values(list(df.columns)).to_csv(path, sep='\t', index=False)
 
 
