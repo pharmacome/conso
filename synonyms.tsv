@@ -1320,3 +1320,6 @@ HBP00352	MMS1	ncit:C74982	EXACT
 HBP00352	MMSE	ncit:C74982	EXACT
 HBP00352	Mini-Mental State Examination Questionnaire	ncit:C74982	EXACT
 HBP00352	Mini-Mental_Status_Exam	ncit:C74982	EXACT
+HBP00353	1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium	pmid:12784645	EXACT
+HBP00353	Glyceraldehyde derived Pyridinium compound	pmid:12784645	EXACT
+HBP00353	Glyceraldehyde-derived Pyridinium compound	pmid:12784645	EXACT
