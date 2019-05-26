@@ -74,4 +74,6 @@ HBP	HBP00301	Tau antibody, TNT1	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00302	Tau antibody, TNT2	is_a	HBP	HBP00307	Tau antibody
 HBP	HBP00319	4-OH-GTS-21	metabolite_of	HBP	HBP00310	GTS-21
 HBP	HBP00321	Tau aggregation inhibitor	decreases	HBP	HBP00006	Tau aggregates
+HBP	HBP00354	Tau 6D	has_reference_protein	uniprot	P10636	TAU_HUMAN
+HBP	HBP00355	Tau 6P	has_reference_protein	uniprot	P10636	TAU_HUMAN
 MESH	D000544	Alzheimer Disease	is_a	HBP	HBP00234	4R tauopathy
