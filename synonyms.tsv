@@ -1,4 +1,4 @@
-Identifier	Synonym	Reference	Specificity
+identifier	synonym	reference	specificity
 HBP00001	MTBR	?	?
 HBP00002	MTBR R1	?	?
 HBP00002	R1	?	?
@@ -16,6 +16,7 @@ HBP00010	2-(4-morpholino)-8-phenyl-4H-1-benzopyran-4-one	pubchem.compound:3973	E
 HBP00010	2-(morpholin-4-yl)-8-phenyl-4H-chromen-4-one	pubchem.compound:3973	EXACT
 HBP00010	2-(morpholin-4-yl)-8-phenylchromen-4-one	pubchem.compound:3973	EXACT
 HBP00010	2-MORPHOLIN-4-YL-7-PHENYL-4H-CHROMEN-4-ONE	pubchem.compound:3973	EXACT
+HBP00010	2-Morpholin-4-yl-8-phenyl-chromen-4-one	pubchem.compound:3973	EXACT
 HBP00010	2-Morpholino-8-phenyl-4-oxo-4H-1-benzopyran	pubchem.compound:3973	EXACT
 HBP00010	2-Morpholino-8-phenylchromone	pubchem.compound:3973	EXACT
 HBP00010	2-morpholin-4-yl-8-phenyl-4H-chromen-4-one	pubchem.compound:3973	EXACT
@@ -69,6 +70,7 @@ HBP00010	D09SFV	pubchem.compound:3973	EXACT
 HBP00010	D0X7NA	pubchem.compound:3973	EXACT
 HBP00010	DB02656	pubchem.compound:3973	EXACT
 HBP00010	DTXSID6042650	pubchem.compound:3973	EXACT
+HBP00010	EC-000.2341	pubchem.compound:3973	EXACT
 HBP00010	EX-A073	pubchem.compound:3973	EXACT
 HBP00010	FT-0660382	pubchem.compound:3973	EXACT
 HBP00010	GTPL6004	pubchem.compound:3973	EXACT
@@ -226,6 +228,7 @@ HBP00021	Spirost-5-en-3-ol, 3-hexanoate, (3beta,25R)-	pubchem.compound:16394575	
 HBP00021	UNII-9BU4T267E4	pubchem.compound:16394575	EXACT
 HBP00021	ZINC97971833	pubchem.compound:16394575	EXACT
 HBP00028	ADDL	pmid:16712494	?
+HBP00032	AKOS034831571	pubchem.compound:131954578	EXACT
 HBP00032	[Pro3]-GIP (Rat)	pubchem.compound:131954578	EXACT
 HBP00035	AGD	?	?
 HBP00036	GVD	?	?
@@ -428,7 +431,9 @@ HBP00234	2-(Diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)pyrimidine-5-carboxam
 HBP00234	2-(Diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-5-pyrimidinecarboxamide	pubchem.compound:53340666	EXACT
 HBP00234	2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]pyrimidine-5-carboxamide	pubchem.compound:53340666	EXACT
 HBP00234	5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)-	pubchem.compound:53340666	EXACT
+HBP00234	5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-	pubchem.compound:53340666	EXACT
 HBP00234	7-{[2-(DIPHENYLAMINO)PYRIMIDIN-5-YL]FORMAMIDO}-N-HYDROXYHEPTANAMIDE	pubchem.compound:53340666	EXACT
+HBP00234	A11940	pubchem.compound:53340666	EXACT
 HBP00234	AB0032517	pubchem.compound:53340666	EXACT
 HBP00234	AC-30258	pubchem.compound:53340666	EXACT
 HBP00234	ACN-030031	pubchem.compound:53340666	EXACT
@@ -457,12 +462,14 @@ HBP00234	HY-16026	pubchem.compound:53340666	EXACT
 HBP00234	J-690127	pubchem.compound:53340666	EXACT
 HBP00234	KB-74507	pubchem.compound:53340666	EXACT
 HBP00234	KS-00000SAV	pubchem.compound:53340666	EXACT
+HBP00234	MFCD22666356	pubchem.compound:53340666	EXACT
 HBP00234	MLS006011181	pubchem.compound:53340666	EXACT
 HBP00234	MolPort-028-600-031	pubchem.compound:53340666	EXACT
 HBP00234	N-[7-(hydroxyamino)-7-oxoheptyl]-2-(N-phenylanilino)pyrimidine-5-carboxamide	pubchem.compound:53340666	EXACT
 HBP00234	NCGC00345802-01	pubchem.compound:53340666	EXACT
 HBP00234	NCGC00345802-05	pubchem.compound:53340666	EXACT
 HBP00234	Ricolinostat	pubchem.compound:53340666	EXACT
+HBP00234	Ricolinostat (ACY-1215)	pubchem.compound:53340666	EXACT
 HBP00234	Ricolinostat (USAN/INN)	pubchem.compound:53340666	EXACT
 HBP00234	Ricolinostat [USAN:INN]	pubchem.compound:53340666	EXACT
 HBP00234	Rocilinostat	pubchem.compound:53340666	EXACT
@@ -478,6 +485,7 @@ HBP00234	W-5979	pubchem.compound:53340666	EXACT
 HBP00234	WKT909C62B	pubchem.compound:53340666	EXACT
 HBP00234	X5832	pubchem.compound:53340666	EXACT
 HBP00234	ZINC89630354	pubchem.compound:53340666	EXACT
+HBP00234	rocilinostat-acy-1215	pubchem.compound:53340666	EXACT
 HBP00234	s8001	pubchem.compound:53340666	EXACT
 HBP00236	2-((7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl)amino)nicotinamide	pubchem.compound:10200390	EXACT
 HBP00236	2-(7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-ylamino)nicotinamide hydrochloride	pubchem.compound:10200390	EXACT
@@ -487,6 +495,7 @@ HBP00236	2-[[7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl]amino]pyridine-
 HBP00236	3-Pyridinecarboxamide, 2-((7-(3,4-dimethoxyphenyl)imidazo(1,2-C)pyrimidin-5-yl)amino)-	pubchem.compound:10200390	EXACT
 HBP00236	61G8S0H9KX	pubchem.compound:10200390	EXACT
 HBP00236	732983-37-8	pubchem.compound:10200390	EXACT
+HBP00236	A11320	pubchem.compound:10200390	EXACT
 HBP00236	AC-29888	pubchem.compound:10200390	EXACT
 HBP00236	ACN-053214	pubchem.compound:10200390	EXACT
 HBP00236	AKOS030526888	pubchem.compound:10200390	EXACT
@@ -603,6 +612,7 @@ HBP00246	IGZSSKAOSOCVPH-UHFFFAOYSA-N	pubchem.compound:10397232	EXACT
 HBP00246	K-8942	pubchem.compound:10397232	EXACT
 HBP00246	KB-106928	pubchem.compound:10397232	EXACT
 HBP00246	MCULE-2720405682	pubchem.compound:10397232	EXACT
+HBP00246	MFCD06208438	pubchem.compound:10397232	EXACT
 HBP00246	MolPort-019-997-392	pubchem.compound:10397232	EXACT
 HBP00246	SCHEMBL793684	pubchem.compound:10397232	EXACT
 HBP00246	ZINC38760485	pubchem.compound:10397232	EXACT
@@ -622,6 +632,7 @@ HBP00258	1357389-11-7	pubchem.compound:56650312	EXACT
 HBP00258	1396841-57-8	pubchem.compound:56650312	EXACT
 HBP00258	2-Propenamide, N-(2-amino-4-fluorophenyl)-3-[1-[(2E)-3-phenyl-2-propen-1-yl]-1H-pyrazol-4-yl]-, (2E)-	pubchem.compound:56650312	EXACT
 HBP00258	2686AH	pubchem.compound:56650312	EXACT
+HBP00258	A13218	pubchem.compound:56650312	EXACT
 HBP00258	AK676067	pubchem.compound:56650312	EXACT
 HBP00258	AKOS030526449	pubchem.compound:56650312	EXACT
 HBP00258	BC600495	pubchem.compound:56650312	EXACT
@@ -629,6 +640,7 @@ HBP00258	BCP08102	pubchem.compound:56650312	EXACT
 HBP00258	BLVQHYHDYFTPDV-VCABWLAWSA-N	pubchem.compound:56650312	EXACT
 HBP00258	C21H19FN4O	pubchem.compound:56650312	EXACT
 HBP00258	CHEBI:131163	pubchem.compound:56650312	EXACT
+HBP00258	CHEMBL4078477	pubchem.compound:56650312	EXACT
 HBP00258	D00HXX	pubchem.compound:56650312	EXACT
 HBP00258	DA-45384	pubchem.compound:56650312	EXACT
 HBP00258	DA-45706	pubchem.compound:56650312	EXACT
@@ -636,6 +648,7 @@ HBP00258	EX-A229	pubchem.compound:56650312	EXACT
 HBP00258	GTPL7500	pubchem.compound:56650312	EXACT
 HBP00258	J-007305	pubchem.compound:56650312	EXACT
 HBP00258	KB-148638	pubchem.compound:56650312	EXACT
+HBP00258	MFCD26960954	pubchem.compound:56650312	EXACT
 HBP00258	MolPort-035-395-807	pubchem.compound:56650312	EXACT
 HBP00258	QC-11774	pubchem.compound:56650312	EXACT
 HBP00258	RGFP 966	pubchem.compound:56650312	EXACT
@@ -651,6 +664,7 @@ HBP00258	ZINC95616594	pubchem.compound:56650312	EXACT
 HBP00258	s7229	pubchem.compound:56650312	EXACT
 HBP00259	(2Z)-3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile	pubchem.compound:9549284	EXACT
 HBP00259	(Z)-3-amino-3-(4-aminophenylthio)-2-(2-(trifluoromethyl)phenyl)acrylonitrile	pubchem.compound:9549284	EXACT
+HBP00259	3-amino-3-(4-aminophenyl)sulfanyl-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile	pubchem.compound:9549284	EXACT
 HBP00259	3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]acrylonitrile	pubchem.compound:9549284	EXACT
 HBP00259	3-amino-3-[(4-aminophenyl)thio]-2-[2-(trifluoromethyl)phenyl]-2-propenenitrile	pubchem.compound:9549284	EXACT
 HBP00259	305350-87-2	pubchem.compound:9549284	EXACT
@@ -659,14 +673,18 @@ HBP00259	AOB5954	pubchem.compound:9549284	EXACT
 HBP00259	BC600460	pubchem.compound:9549284	EXACT
 HBP00259	BCP05310	pubchem.compound:9549284	EXACT
 HBP00259	BRD-K12244279-001-01-7	pubchem.compound:9549284	EXACT
+HBP00259	Benzeneacetonitrile, alpha-[amino[(4-aminophenyl)thio]methylene]-2-(trifluoromethyl)-	pubchem.compound:9549284	EXACT
 HBP00259	CCG-206867	pubchem.compound:9549284	EXACT
 HBP00259	CHEBI:92211	pubchem.compound:9549284	EXACT
 HBP00259	CS-0910	pubchem.compound:9549284	EXACT
 HBP00259	D04WPA	pubchem.compound:9549284	EXACT
 HBP00259	DTXSID90429549	pubchem.compound:9549284	EXACT
+HBP00259	E/Z-a-[amino[(4-aminophenyl)thio]methylen]-2-(trifluoromethyl)benzeneacetonitrile	pubchem.compound:9549284	EXACT
+HBP00259	EC-000.2354	pubchem.compound:9549284	EXACT
 HBP00259	EX-A1069	pubchem.compound:9549284	EXACT
 HBP00259	GTPL6008	pubchem.compound:9549284	EXACT
 HBP00259	HMS3229K18	pubchem.compound:9549284	EXACT
+HBP00259	HMS3678M21	pubchem.compound:9549284	EXACT
 HBP00259	HSCI1_000044	pubchem.compound:9549284	EXACT
 HBP00259	HY-15437	pubchem.compound:9549284	EXACT
 HBP00259	J-018001	pubchem.compound:9549284	EXACT
@@ -696,6 +714,7 @@ HBP00259	alpha-[Amino-(4-aminophenylthio)methylene)-2-(trifluoromethyl)phenylace
 HBP00259	alpha-{amino[(4-aminophenyl)thio]methylene}-2-(trifluoromethyl)benzeneacetonitrile	pubchem.compound:9549284	EXACT
 HBP00259	s1066	pubchem.compound:9549284	EXACT
 HBP00261	1428535-92-5	pubchem.compound:71538210	EXACT
+HBP00261	A14418	pubchem.compound:71538210	EXACT
 HBP00261	BDBM50027652	pubchem.compound:71538210	EXACT
 HBP00261	CHEMBL3353926	pubchem.compound:71538210	EXACT
 HBP00261	SB17083	pubchem.compound:71538210	EXACT
@@ -703,6 +722,7 @@ HBP00261	SCHEMBL14812001	pubchem.compound:71538210	EXACT
 HBP00261	ST-7612AA1	pubchem.compound:71538210	EXACT
 HBP00261	Thioacetic acid S-[(S)-6-[[(R)-5-oxopyrrolidine-2-ylcarbonyl]amino]-6-(phenylcarbamoyl)hexyl] ester	pubchem.compound:71538210	EXACT
 HBP00267	(3aR)-2-(Ethylamino)-6beta,7alpha-dihydroxy-3aalpha,6,7,7aalpha-tetrahydro-5H-pyrano[3,2-d]thiazole-5alpha-methanol	pubchem.compound:24808478	EXACT
+HBP00267	(3aR,5R,6S,7R,7aR)-2-(Ethylamino)-3a,6,7,7a-tetrahydro-5-(hydroxymethyl)-5H-pyrano[3,2-d]thiazole-6,7-diol	pubchem.compound:24808478	EXACT
 HBP00267	(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3a,6,7,7a-tetrahydro-5H-pyrano[3,2-d]thiazole-6,7-diol	pubchem.compound:24808478	EXACT
 HBP00267	(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3aH,5H,6H,7H,7aH-pyrano[3,2-d][1,3]thiazole-6,7-diol	pubchem.compound:24808478	EXACT
 HBP00267	1,2-Dideoxy-2'-ethylamino-a-D-glucopyranoso-[2,1-d]-2'-thiazoline	pubchem.compound:24808478	EXACT
@@ -718,6 +738,7 @@ HBP00267	EX-A2240	pubchem.compound:24808478	EXACT
 HBP00267	HMS3648I18	pubchem.compound:24808478	EXACT
 HBP00267	HY-12588	pubchem.compound:24808478	EXACT
 HBP00267	J-000295	pubchem.compound:24808478	EXACT
+HBP00267	MFCD15144964	pubchem.compound:24808478	EXACT
 HBP00267	NCGC00344096-03	pubchem.compound:24808478	EXACT
 HBP00267	SR-01000946377	pubchem.compound:24808478	EXACT
 HBP00267	SR-01000946377-1	pubchem.compound:24808478	EXACT
@@ -763,6 +784,7 @@ HBP00280	CCG-220795	pubchem.compound:3759	EXACT
 HBP00280	CCRIS 9178	pubchem.compound:3759	EXACT
 HBP00280	CHEBI:93635	pubchem.compound:3759	EXACT
 HBP00280	CHEMBL1201168	pubchem.compound:3759	EXACT
+HBP00280	CS-0008613	pubchem.compound:3759	EXACT
 HBP00280	CTK8B7692	pubchem.compound:3759	EXACT
 HBP00280	D02580	pubchem.compound:3759	EXACT
 HBP00280	D0I2VK	pubchem.compound:3759	EXACT
@@ -781,6 +803,8 @@ HBP00280	HMS2097O12	pubchem.compound:3759	EXACT
 HBP00280	HMS2230E11	pubchem.compound:3759	EXACT
 HBP00280	HMS3369G18	pubchem.compound:3759	EXACT
 HBP00280	HMS3714O12	pubchem.compound:3759	EXACT
+HBP00280	HY-13929	pubchem.compound:3759	EXACT
+HBP00280	ISOCARBOXAZID (200 MG)	pubchem.compound:3759	EXACT
 HBP00280	Isocarbonazid	pubchem.compound:3759	EXACT
 HBP00280	Isocarbossazide	pubchem.compound:3759	EXACT
 HBP00280	Isocarbossazide [DCIT]	pubchem.compound:3759	EXACT
@@ -900,6 +924,7 @@ HBP00281	Isopentenyladenine	pubchem.compound:92180	EXACT
 HBP00281	KB-57456	pubchem.compound:92180	EXACT
 HBP00281	LS-184209	pubchem.compound:92180	EXACT
 HBP00281	MCULE-6781114249	pubchem.compound:92180	EXACT
+HBP00281	MFCD00132998	pubchem.compound:92180	EXACT
 HBP00281	MolPort-002-511-573	pubchem.compound:92180	EXACT
 HBP00281	N(6)-(.DELTA.2-Isopentenyl)aminopurine	pubchem.compound:92180	EXACT
 HBP00281	N(6)-(Delta2-isopentenyl)adenine	pubchem.compound:92180	EXACT
@@ -1029,6 +1054,7 @@ HBP00283	HMS3262B08	pubchem.compound:4592	EXACT
 HBP00283	HMS3267L09	pubchem.compound:4592	EXACT
 HBP00283	HMS3403B11	pubchem.compound:4592	EXACT
 HBP00283	HMS3650F19	pubchem.compound:4592	EXACT
+HBP00283	HMS3676E10	pubchem.compound:4592	EXACT
 HBP00283	IDI1_002090	pubchem.compound:4592	EXACT
 HBP00283	IN1179	pubchem.compound:4592	EXACT
 HBP00283	IN1182	pubchem.compound:4592	EXACT
@@ -1119,6 +1145,7 @@ HBP00284	F2167-1227	pubchem.compound:97389	EXACT
 HBP00284	FT-0704394	pubchem.compound:97389	EXACT
 HBP00284	KB-67472	pubchem.compound:97389	EXACT
 HBP00284	KS-00000MOC	pubchem.compound:97389	EXACT
+HBP00284	MFCD02691902	pubchem.compound:97389	EXACT
 HBP00284	MolPort-018-280-326	pubchem.compound:97389	EXACT
 HBP00284	NSC 120350	pubchem.compound:97389	EXACT
 HBP00284	NSC-120350	pubchem.compound:97389	EXACT
@@ -1185,6 +1212,7 @@ HBP00288	1,2,4-Thiadiazolidine-3,5-dione, 2-(1-naphthalenyl)-4-(phenylmethyl)-	p
 HBP00288	4-Benzyl-2-(naphthalen-1-yl)-1,2,4-thiadiazolidine-3,5-dione	pubchem.compound:11313622	EXACT
 HBP00288	4-Benzyl-2-(naphthalen-1-yl)-[1,2,4]thiadiazolidine-3,5-dione	pubchem.compound:11313622	EXACT
 HBP00288	4-benzyl-2-(naphthalen-1-yl)-(1,2,4)thiadiazolidine-3,5-dione	pubchem.compound:11313622	EXACT
+HBP00288	4-benzyl-2-naphthalen-1-yl-1,2,4-thiadiazolidine-3,5-dione	pubchem.compound:11313622	EXACT
 HBP00288	4CA-1249	pubchem.compound:11313622	EXACT
 HBP00288	865854-05-3	pubchem.compound:11313622	EXACT
 HBP00288	AK176015	pubchem.compound:11313622	EXACT
@@ -1206,6 +1234,7 @@ HBP00288	GTPL6929	pubchem.compound:11313622	EXACT
 HBP00288	HY-14872	pubchem.compound:11313622	EXACT
 HBP00288	J-514478	pubchem.compound:11313622	EXACT
 HBP00288	KB-81154	pubchem.compound:11313622	EXACT
+HBP00288	MFCD18633296	pubchem.compound:11313622	EXACT
 HBP00288	MolPort-028-599-952	pubchem.compound:11313622	EXACT
 HBP00288	NP 031112	pubchem.compound:11313622	EXACT
 HBP00288	NP-031112	pubchem.compound:11313622	EXACT
@@ -1241,8 +1270,10 @@ HBP00309	S 24795, >=98% (HPLC)	pubchem.compound:9888248	EXACT
 HBP00309	SCHEMBL5948853	pubchem.compound:9888248	EXACT
 HBP00310	(3E)-3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine	pubchem.compound:5310985	EXACT
 HBP00310	(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-3,4,5,6-TETRAHYDRO-2,3''-BIPYRIDINE	pubchem.compound:5310985	EXACT
+HBP00310	(3e)-3-[(2,4-Dimethoxyphenyl)methylidene]-3,4,5,6-Tetrahydro-2,3'-Bipyridine	pubchem.compound:5310985	EXACT
 HBP00310	148372-04-7	pubchem.compound:5310985	EXACT
 HBP00310	2,3'-Bipyridine, 3-((2,4-dimethoxyphenyl)methylene)-3,4,5,6-tetrahydro-, (3E)-	pubchem.compound:5310985	EXACT
+HBP00310	2,3'-Bipyridine, 3-[(2,4-dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-, hydrochloride (1:2), (3E)-	pubchem.compound:5310985	EXACT
 HBP00310	2,4-Dimethoxybenzylidene anabaseine	pubchem.compound:5310985	EXACT
 HBP00310	2wnj	pubchem.compound:5310985	EXACT
 HBP00310	3 (2,4 dimethoxybenzylidene)anabaseine	pubchem.compound:5310985	EXACT
@@ -1261,6 +1292,7 @@ HBP00310	3-[(E)-(2,4-Dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-2,3'-bipyridi
 HBP00310	3-[1-(2,4-Dimethoxy-phenyl)-meth-(E)-ylidene]-3,4,5,6-tetrahydro-[2,3'']bipyridinyl	pubchem.compound:5310985	EXACT
 HBP00310	419A471	pubchem.compound:5310985	EXACT
 HBP00310	8S399XDN2K	pubchem.compound:5310985	EXACT
+HBP00310	A15950	pubchem.compound:5310985	EXACT
 HBP00310	AC1NSJRW	pubchem.compound:5310985	EXACT
 HBP00310	AKOS005146470	pubchem.compound:5310985	EXACT
 HBP00310	ASIS-0106	pubchem.compound:5310985	EXACT
@@ -1306,6 +1338,7 @@ HBP00322	FT-0707053	pubchem.compound:118995	EXACT
 HBP00322	KB-261000	pubchem.compound:118995	EXACT
 HBP00322	M-8345	pubchem.compound:118995	EXACT
 HBP00322	MCULE-4736308679	pubchem.compound:118995	EXACT
+HBP00322	MFCD06738274	pubchem.compound:118995	EXACT
 HBP00322	MolPort-002-471-220	pubchem.compound:118995	EXACT
 HBP00322	QC-6319	pubchem.compound:118995	EXACT
 HBP00322	SCHEMBL461605	pubchem.compound:118995	EXACT

@@ -3,22 +3,29 @@
 """A script for enriching the HBP terminology with external information."""
 
 import json
+import os
 from typing import Mapping, Optional
 
 import pandas as pd
 from tqdm import tqdm
 
-SYNONYM_HEADER = ['Identifier', 'Synonym', 'Reference', 'Specificity']
-XREFS_HEADER = ['HBP Identifier', 'Database', 'Database Identifier']
+HERE = os.path.abspath(os.path.dirname(__file__))
+ROOT = os.path.join(HERE, os.pardir, os.pardir)
+
+SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
+XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
+
+SYNONYM_HEADER = ['identifier', 'synonym', 'reference', 'specificity']
+XREFS_HEADER = ['identifier', 'database', 'database_identifier']
 
 
 def enrich_pubchem_synonyms():
-    """Enrich synonyms.tsv with information from PubChem."""
+    """Enrich synonyms file with information from PubChem."""
     import pubchempy as pcp
 
-    xrefs = pd.read_csv('xrefs.tsv', sep='\t')
-    xrefs = xrefs[xrefs['Database'] == 'pubchem.compound']
-    cid_to_hbp = pd.Series(xrefs['HBP Identifier'].values, index=xrefs['Database Identifier']).to_dict()
+    xrefs = pd.read_csv(XREFS_PATH, sep='\t')
+    xrefs = xrefs[xrefs['database'] == 'pubchem.compound']
+    cid_to_hbp = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
 
     new_synonyms = [
         (
@@ -33,17 +40,17 @@ def enrich_pubchem_synonyms():
 
     (
         pd.concat([
-            pd.read_csv('synonyms.tsv', sep='\t'),
+            pd.read_csv(SYNONYMS_PATH, sep='\t'),
             pd.DataFrame(new_synonyms, columns=SYNONYM_HEADER),
         ])
         .drop_duplicates()
         .sort_values(SYNONYM_HEADER)
-        .to_csv('synonyms.tsv', sep='\t', index=False)
+        .to_csv(SYNONYMS_PATH, sep='\t', index=False)
     )
 
 
 def enrich_chebi_xrefs():
-    """Enrich xrefs.tsv with information from ChEBI."""
+    """Enrich xrefs file with information from ChEBI."""
     import zeep
     wsdl = 'https://www.ebi.ac.uk/webservices/chebi/2.0/webservice?wsdl'
     client = zeep.Client(wsdl)
@@ -82,9 +89,9 @@ def enrich_chebi_xrefs():
         if len(results) == 1:
             return results[0]
 
-    xrefs = pd.read_csv('xrefs.tsv', sep='\t')
-    xrefs = xrefs[xrefs['Database'] == 'smiles']
-    smiles_to_hbp = pd.Series(xrefs['HBP Identifier'].values, index=xrefs['Database Identifier']).to_dict()
+    xrefs = pd.read_csv(XREFS_PATH, sep='\t')
+    xrefs = xrefs[xrefs['database'] == 'smiles']
+    smiles_to_hbp = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
 
     new_xrefs = []
     for smiles, hbp_identifier in tqdm(smiles_to_hbp.items()):
@@ -103,10 +110,15 @@ def enrich_chebi_xrefs():
 
     (
         pd.concat([
-            pd.read_csv('xrefs.tsv', sep='\t'),
+            pd.read_csv(XREFS_PATH, sep='\t'),
             pd.DataFrame(new_xrefs, columns=XREFS_HEADER),
         ])
         .drop_duplicates()
         .sort_values(XREFS_HEADER)
-        .to_csv('xrefs.tsv', sep='\t', index=False)
+        .to_csv(XREFS_PATH, sep='\t', index=False)
     )
+
+
+if __name__ == '__main__':
+    enrich_pubchem_synonyms()
+    enrich_chebi_xrefs()
