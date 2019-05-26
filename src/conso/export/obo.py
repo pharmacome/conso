@@ -90,10 +90,6 @@ class Term:
             yield f'namespace: {self._namespace_normalized}'
         yield f'''def: "{self.description}" [{', '.join(map(str, self.provenance))}]'''
 
-        for synonym in self.synonyms:
-            synonym_references_string = ', '.join(synonym.references)
-            yield f'synonym: "{synonym.name}" {synonym.specificity} [{synonym_references_string}]'
-
         for xref in self.xrefs:
             yield f'xref: {xref}'
 
@@ -103,6 +99,10 @@ class Term:
         for relationship, relationship_references in self.relationships.items():
             for relationship_reference in relationship_references:
                 yield f'relationship: {relationship} {relationship_reference}'
+
+        for synonym in self.synonyms:
+            synonym_references_string = ', '.join(synonym.references)
+            yield f'synonym: "{synonym.name}" {synonym.specificity} [{synonym_references_string}]'
 
     def to_obo(self) -> str:
         """Convert this term to an OBO entry."""
