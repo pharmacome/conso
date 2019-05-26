@@ -1,79 +1,98 @@
 format-version: 1.2
-date: 15:05:2019 23:48
-auto-generated-by: https://github.com/pharmacome/terminology/blob/master/export/obo.py
+date: 26:05:2019 19:47
+auto-generated-by: https://github.com/pharmacome/terminology/blob/master/src/conso/export/obo.py
+ontology: conso
 
 [Typedef]
-name: bel
+id: bel
+name: BEL term
 comment: A formulation for a term in Biological Expression language
+
+[Typedef]
+id: part_of
+name: part of
+namespace: external
+xref: BFO:0000050
+is_transitive: true
 
 [Term]
 id: HBP:HBP00001
 name: microtubule-binding region
+namespace: domain
 def: "The motif in the MAPT protein where microtubule binding repeats" [pmid:18500754, pmid:2516729]
 synonym: "MTBR" EXACT []
 xref: interpro:IPR001084
-part_of: HBP:HBP00188 ! assembly domain
+relationship: part_of HBP:HBP00188 ! assembly domain
 
 [Term]
 id: HBP:HBP00002
 name: tubulin-binding repeat 1
+namespace: domain
 def: "position 569_591 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R1" EXACT []
 synonym: "R1" EXACT []
-bel: p(HGNC:MAPT, frag(569_591))
-part_of: HBP:HBP00001 ! microtubule-binding region
+relationship: bel p(HGNC:MAPT, frag(569_591))
+relationship: part_of HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00003
 name: tubulin-binding repeat 2
+namespace: domain
 def: "position 592_621 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R2" EXACT []
 synonym: "R2" EXACT []
-bel: p(HGNC:MAPT, frag(592_621))
-part_of: HBP:HBP00001 ! microtubule-binding region
+relationship: bel p(HGNC:MAPT, frag(592_621))
+relationship: part_of HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00004
 name: tubulin-binding repeat 3
+namespace: domain
 def: "position 623_653 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R3" EXACT []
 synonym: "R3" EXACT []
-bel: p(HGNC:MAPT, frag(623_653))
-part_of: HBP:HBP00001 ! microtubule-binding region
+relationship: bel p(HGNC:MAPT, frag(623_653))
+relationship: part_of HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00005
 name: tubulin-binding repeat 4
+namespace: domain
 def: "position 654_685 of canonical isoform of MAPT protein" [pmid:18500754]
 synonym: "MTBR R4" EXACT []
 synonym: "R4" EXACT []
-bel: p(HGNC:MAPT, frag(654_685))
-part_of: HBP:HBP00001 ! microtubule-binding region
+relationship: bel p(HGNC:MAPT, frag(654_685))
+relationship: part_of HBP:HBP00001 ! microtubule-binding region
 
 [Term]
 id: HBP:HBP00006
 name: Tau aggregates
+namespace: cellular_component
 def: "Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated" [pmc:PMC2633703]
 is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00007
 name: hyperphosphorylation
+namespace: post_translational_modification
 def: "An excessive phosphorylation (see GO:0006468)" [pmid:22710920]
 
 [Term]
 id: HBP:HBP00008
 name: GAL80TS
+namespace: exposure
 def: "temperature-sensitive allele of GAL80 (tub-GAL80TS)" [pmc:PMC3073608]
 
 [Term]
 id: HBP:HBP00009
 name: Tau oligomers
+namespace: cellular_component
 def: "CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)" [pmc:PMC4828294]
 
 [Term]
 id: HBP:HBP00010
 name: LY293002
+namespace: chemical
 def: "a typo appearing in pmid:23950935 for the specific PI3-kinase inhibitor that is actually named LY294002" [pmid:23950935]
 synonym: "154447-36-6" EXACT [pubchem.compound:3973]
 synonym: "15447-36-6" EXACT [pubchem.compound:3973]
@@ -83,6 +102,7 @@ synonym: "2-(4-morpholino)-8-phenyl-4H-1-benzopyran-4-one" EXACT [pubchem.compou
 synonym: "2-(morpholin-4-yl)-8-phenyl-4H-chromen-4-one" EXACT [pubchem.compound:3973]
 synonym: "2-(morpholin-4-yl)-8-phenylchromen-4-one" EXACT [pubchem.compound:3973]
 synonym: "2-MORPHOLIN-4-YL-7-PHENYL-4H-CHROMEN-4-ONE" EXACT [pubchem.compound:3973]
+synonym: "2-Morpholin-4-yl-8-phenyl-chromen-4-one" EXACT [pubchem.compound:3973]
 synonym: "2-Morpholino-8-phenyl-4-oxo-4H-1-benzopyran" EXACT [pubchem.compound:3973]
 synonym: "2-Morpholino-8-phenylchromone" EXACT [pubchem.compound:3973]
 synonym: "2-morpholin-4-yl-8-phenyl-4H-chromen-4-one" EXACT [pubchem.compound:3973]
@@ -136,6 +156,7 @@ synonym: "D09SFV" EXACT [pubchem.compound:3973]
 synonym: "D0X7NA" EXACT [pubchem.compound:3973]
 synonym: "DB02656" EXACT [pubchem.compound:3973]
 synonym: "DTXSID6042650" EXACT [pubchem.compound:3973]
+synonym: "EC-000.2341" EXACT [pubchem.compound:3973]
 synonym: "EX-A073" EXACT [pubchem.compound:3973]
 synonym: "FT-0660382" EXACT [pubchem.compound:3973]
 synonym: "GTPL6004" EXACT [pubchem.compound:3973]
@@ -223,6 +244,7 @@ synonym: "cc-58" EXACT [pubchem.compound:3973]
 synonym: "s1105" EXACT [pubchem.compound:3973]
 xref: cas:154447-36-6
 xref: chebi:CHEBI:65329
+xref: chebi:CHEBI:65329
 xref: drugbank:DB02656
 xref: inchi:InChI=1S/C19H17NO3/c21-17-13-18(20-9-11-22-12-10-20)23-19-15(7-4-8-16(17)19)14-5-2-1-3-6-14/h1-8,13H,9-12H2
 xref: pubchem.compound:3973
@@ -231,24 +253,28 @@ xref: smiles:C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4
 [Term]
 id: HBP:HBP00011
 name: LPLI
+namespace: exposure
 def: "Low-power laser irradiation (LPLI) is a non-damage physical therapy" [pmid:20333643]
 synonym: "Low-power laser irradiation" EXACT []
 
 [Term]
 id: HBP:HBP00012
 name: Chronic cerebral hypoperfusion
+namespace: pathology
 def: "Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)" [pmid:24575038]
 synonym: "CCH" EXACT []
 
 [Term]
 id: HBP:HBP00013
 name: Mori Fructus ethanol extract
+namespace: chemical_mixture
 def: "ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement" [pmid:26068423]
 synonym: "ME" EXACT []
 
 [Term]
 id: HBP:HBP00014
 name: tunneling nanotubes
+namespace: cellular_component
 def: "filamentous-actin-containing membranous structures that bridge and connect cells" [pmid:27809932]
 synonym: "TNT" EXACT []
 synonym: "membrane nanotube" EXACT []
@@ -256,29 +282,34 @@ synonym: "membrane nanotube" EXACT []
 [Term]
 id: HBP:HBP00015
 name: amyloidogenesis
+namespace: biological_process
 def: "production of amyloid" [pmid:24653673]
 
 [Term]
 id: HBP:HBP00016
 name: alpha-synuclein aggregates
+namespace: cellular_component
 def: "alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies" [pmid:23254192]
 is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00017
 name: huntingtin aggregates
+namespace: cellular_component
 def: "huntingtin (HTT) protein fragments aggregations" [pmid:12747895]
 is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00018
 name: amyloid-beta aggregates
+namespace: cellular_component
 def: "aggregation of amyloid-beta fragments of the APP protein" [pmid:23484434]
 is_a: HBP:HBP00178 ! protein aggregates
 
 [Term]
 id: HBP:HBP00019
 name: SEN-1269
+namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
 synonym: "3-((5-(3-(Dimethylamino)phenoxy)pyrimidin-2-yl)amino)phenol" EXACT [pubchem.compound:46835756]
 synonym: "3-(5-(3-(dimethylamino)phenoxy)pyrimidin-2-ylamino)phenol" EXACT [pubchem.compound:46835756]
@@ -309,6 +340,7 @@ xref: smiles:CN(C)C1=CC(=CC=C1)OC2=CN=C(N=C2)NC3=CC(=CC=C3)O
 [Term]
 id: HBP:HBP00020
 name: MLS000034832
+namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
 synonym: "123542-47-2" EXACT [pubchem.compound:647821]
 synonym: "3-Phenyl-4-oxo-5-amino-3,4-dihydrothieno[3,4-d]pyridazine-1-carboxylic acid ethyl ester" EXACT [pubchem.compound:647821]
@@ -345,6 +377,7 @@ xref: smiles:CCOC(=O)C1=NN(C(=O)C2=C(SC=C21)N)C3=CC=CC=C3
 [Term]
 id: HBP:HBP00021
 name: caprospinol
+namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
 synonym: "((20S,22R,25R)-Spirosta-5-ene-3beta-ol)hexanoate" EXACT [pubchem.compound:16394575]
 synonym: "(22R,25R)-20alpha-Spirost-5-en-3beta-yl hexanoate" EXACT [pubchem.compound:16394575]
@@ -372,58 +405,70 @@ xref: smiles:CCCCCC(=O)O[C@H]1CC[C@]2(C)[C@H]3CC[C@@]4(C)[C@@H](C[C@@H]5O[C@]6(C
 [Term]
 id: HBP:HBP00022
 name: amyloid-beta oligomers
+namespace: cellular_component
 def: "Small aggregates of amyloid-beta" [pmid:24918635, pmid:29196815]
 
 [Term]
 id: HBP:HBP00023
 name: amyloid-beta 42 oligomers
+namespace: cellular_component
 def: "Amyloid-beta oligomers composed specifically of amyloid-beta 42" [pmid:24918635]
 
 [Term]
 id: HBP:HBP00024
 name: APP C-terminally truncated carboxyl-terminal fragments
+namespace: protein_fragment
 def: "C-terminally truncated carboxyl-terminal fragments (CTFs) of APP" [pmid:15491160]
 
 [Term]
 id: HBP:HBP00025
 name: A2B5 antigen
+namespace: epitope
 def: "A2B5 antigen is a cell surface ganglioside epitope expressed on developing thymic epithelial cells, oligodendrocyte progenitors, and neuroendocrine cells." [pmid:1497614]
 
 [Term]
 id: HBP:HBP00026
 name: neutral sphingomyelinase
+namespace: enzyme_class
 def: "Sphingomyelin phosphodiesterase (EC 3.1.4.12, also known as neutral sphingomyelinase, sphingomyelinase, or SMase) is a hydrolase enzyme that is involved in sphingolipid metabolism reactions." [pmid:19519303]
 
 [Term]
 id: HBP:HBP00027
 name: Neurodegeneration
+namespace: pathology
 def: "Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes." [pmid:20202123, pmid:12387894]
 
 [Term]
 id: HBP:HBP00028
 name: amyloid-beta derived diffusible ligands
+namespace: cellular_component
 def: "soluble oligomeric forms of the amyloid beta peptide known as amyloid-derived diffusible ligands (ADDLs) are the toxic species responsible for neurodegeneration associated with Alzheimer's disease." [pmid:19188609]
 synonym: "ADDL" EXACT [pmid:16712494]
 
 [Term]
 id: HBP:HBP00029
 name: Hyperamylinemia
+namespace: pathology
 def: "increased secretion of the pancreatic hormone amylin" [pmid:23794448]
 
 [Term]
 id: HBP:HBP00030
 name: APOE e4
+namespace: genetic_variant
 def: "APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158)." [pmid:22701550]
 
 [Term]
 id: HBP:HBP00031
 name: N-AcGIP
+namespace: chemical
 def: "N-AcGIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
 
 [Term]
 id: HBP:HBP00032
 name: Pro3-GIP
+namespace: chemical
 def: "Pro3-GIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
+synonym: "AKOS034831571" EXACT [pubchem.compound:131954578]
 synonym: "[Pro3]-GIP (Rat)" EXACT [pubchem.compound:131954578]
 xref: inchi:InChI=1S/C226H343N61O64S/c1-21-115(12)181(285-216(341)165(109-289)279-201(326)151(92-126-63-67-131(293)68-64-126)266-210(335)163(102-179(309)310)276-215(340)164(108-288)280-221(346)183(117(14)23-3)284-214(339)153(91-124-48-28-25-29-49-124)277-222(347)184(121(18)290)281-175(302)107-247-217(342)166-60-45-84-287(166)224(349)120(17)251-188(313)134(232)89-125-61-65-130(292)66-62-125)219(344)250-119(16)187(312)254-146(77-85-352-20)197(322)274-160(99-176(303)304)208(333)258-141(58-38-43-82-231)198(323)283-182(116(13)22-2)220(345)261-142(59-44-83-243-226(240)241)191(316)259-144(70-74-168(234)295)195(320)260-145(71-75-169(235)296)196(321)273-161(100-177(305)306)209(334)267-152(90-123-46-26-24-27-47-123)213(338)282-180(114(10)11)218(343)278-159(98-173(239)300)207(332)268-155(94-128-104-245-136-53-33-31-51-133(128)136)203(328)264-149(87-112(6)7)200(325)263-148(86-111(4)5)199(324)249-118(15)186(311)253-143(69-73-167(233)294)194(319)255-137(54-34-39-78-227)189(314)246-106-174(301)252-138(55-35-40-79-228)190(315)256-139(56-36-41-80-229)193(318)271-157(96-171(237)298)206(331)275-162(101-178(307)308)211(336)269-154(93-127-103-244-135-52-32-30-50-132(127)135)202(327)257-140(57-37-42-81-230)192(317)270-156(95-129-105-242-110-248-129)204(329)272-158(97-172(238)299)205(330)265-150(88-113(8)9)212(337)286-185(122(19)291)223(348)262-147(225(350)351)72-76-170(236)297/h24-33,46-53,61-68,103-105,110-122,134,137-166,180-185,244-245,288-293H,21-23,34-45,54-60,69-102,106-109,227-232H2,1-20H3,(H2,233,294)(H2,234,295)(H2,235,296)(H2,236,297)(H2,237,298)(H2,238,299)(H2,239,300)(H,242,248)(H,246,314)(H,247,342)(H,249,324)(H,250,344)(H,251,313)(H,252,301)(H,253,311)(H,254,312)(H,255,319)(H,256,315)(H,257,327)(H,258,333)(H,259,316)(H,260,320)(H,261,345)(H,262,348)(H,263,325)(H,264,328)(H,265,330)(H,266,335)(H,267,334)(H,268,332)(H,269,336)(H,270,317)(H,271,318)(H,272,329)(H,273,321)(H,274,322)(H,275,331)(H,276,340)(H,277,347)(H,278,343)(H,279,326)(H,280,346)(H,281,302)(H,282,338)(H,283,323)(H,284,339)(H,285,341)(H,286,337)(H,303,304)(H,305,306)(H,307,308)(H,309,310)(H,350,351)(H4,240,241,243)
 xref: pubchem.compound:131954578
@@ -432,50 +477,59 @@ xref: smiles:CCC(C)C(C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)N
 [Term]
 id: HBP:HBP00033
 name: PI3K-Akt signaling pathway
+namespace: pathway
 def: "PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG." [pmid:22013558]
 
 [Term]
 id: HBP:HBP00035
 name: Argyrophilic Grain Disease
+namespace: pathology
 def: "Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians." [pmid:15658002]
 synonym: "AGD" EXACT []
 
 [Term]
 id: HBP:HBP00036
 name: granulovacuolar degeneration
+namespace: pathology
 def: "Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles." [pmid:17455299]
 synonym: "GVD" EXACT []
 
 [Term]
 id: HBP:HBP00037
 name: mitochondrial dysfunction
+namespace: pathology
 def: "mitochondria function disorder" [pmid:19885299]
 
 [Term]
 id: HBP:HBP00038
 name: amyloid-beta fibrils
+namespace: cellular_component
 def: "Insoluble fibrous protein aggregates exhibiting beta sheet structure." [pmid:19158505]
 
 [Term]
 id: HBP:HBP00039
 name: AG73
+namespace: protein_fragment
 def: "a peptide derived from mouse laminin alpha 1 protein (seq:RKRLQVQLSIRT, chain:2719–2730)" [pmid:20615691]
-bel: p(MGI:Lama1, frag(2719_2730))
+relationship: bel p(MGI:Lama1, frag(2719_2730))
 
 [Term]
 id: HBP:HBP00040
 name: Notch intracellular domain
+namespace: domain
 def: "Notch intracellular domain is the intracellular region of notch receptor." [pmid:20883690]
 
 [Term]
 id: HBP:HBP00041
 name: YENPTY endocytosis motif (APP)
+namespace: motif
 def: "YENTY is the endocytosis motif of Amyloid precursor protein." [pmid:18650430]
 synonym: "YENPTY" EXACT []
 
 [Term]
 id: HBP:HBP00042
 name: sAPP-beta
+namespace: protein
 def: "Soluble amyloid precursor protein" [pmid:21606494]
 synonym: "soluble amyloid precursor protein" EXACT []
 
@@ -483,46 +537,55 @@ synonym: "soluble amyloid precursor protein" EXACT []
 id: HBP:HBP00043
 name: growth factor
 def: "A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes." [pmid:14678766]
+xref: ncit:C20424
+xref: umls:C0018284
 
 [Term]
 id: HBP:HBP00044
 name: 3R tau
+namespace: protein_isoform_family
 def: "Tau isoforms containing 3 tubulin binding repeats" [pmid:23407988]
 
 [Term]
 id: HBP:HBP00045
 name: 4R tau
+namespace: protein_isoform_family
 def: "Tau isoforms containing 4 tubulin binding repeats" [pmid:23407988]
 
 [Term]
 id: HBP:HBP00046
 name: VQIINK motif
+namespace: motif
 def: "A hexapeptide motif located in the R2, that promotes the formation of PHF" [pmid:17493042]
 synonym: "PHF6* " EXACT [pmid:25775228]
-part_of: HBP:HBP00003 ! tubulin-binding repeat 2
+relationship: part_of HBP:HBP00003 ! tubulin-binding repeat 2
 
 [Term]
 id: HBP:HBP00047
 name: VQIVYK motif
+namespace: motif
 def: "A hexapeptide motif located in the R3, that promotes the formation of PHF" [pmid:17493042]
 synonym: "PHF6" EXACT [pmid:25775228]
-part_of: HBP:HBP00004 ! tubulin-binding repeat 3
+relationship: part_of HBP:HBP00004 ! tubulin-binding repeat 3
 
 [Term]
 id: HBP:HBP00048
 name: ghost tangles
+namespace: cellular_component
 def: "Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity." [pmid:23407988, pmid:8431763]
 is_a: GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00049
 name: pretangles
+namespace: cellular_component
 def: "Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles." [pmid:23407988, pmid:24612177]
 is_a: GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00050
 name: projection domain
+namespace: domain
 def: "Corresponding roughly to the N-terminal part of the tau molecule, consisting mainly of acidic residues and containing two distinct alternatively spliced N-terminal inserts." [pmid:17493042, pmid:28386764]
 synonym: "MAP2/Tau projection" EXACT []
 xref: interpro:IPR013588
@@ -530,18 +593,21 @@ xref: interpro:IPR013588
 [Term]
 id: HBP:HBP00051
 name: RAC1b
+namespace: isoform
 def: "A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer." [pmid:22142809]
 xref: uniprot.isoform:P63000-2
 
 [Term]
 id: HBP:HBP00052
 name: AP-2 complex
+namespace: protein_complex
 def: "A heterotetrameric adapter protein complex involved in cargo-internalization during clathrin-mediated endocytosis. Composed of alpha and beta subunits (large adaptins), mu and sigma subunits (minor adaptins)." [pmid:27260836]
 xref: go:GO:0030122
 
 [Term]
 id: HBP:HBP00053
 name: Tau isoform F (441 aa)
+namespace: isoform
 def: "Longest tau isoform in human brain, most commonly used as the conventional tau." [pmid:17493042]
 synonym: "2N4R" EXACT []
 synonym: "htau40" EXACT [pmid:19226187]
@@ -553,6 +619,7 @@ is_a: HBP:HBP00045 ! 4R tau
 [Term]
 id: HBP:HBP00054
 name: Tau isoform Fetal-tau (352 aa)
+namespace: isoform
 def: "Human fetal tau isoform." [pmid:17493042]
 synonym: "0N3R" EXACT []
 synonym: "htau23" EXACT [pmid:7667312]
@@ -563,6 +630,7 @@ xref: uniprot.isoform:P10636-2
 [Term]
 id: HBP:HBP00055
 name: Tau isoform B (381 aa)
+namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "1N3R" EXACT []
 synonym: "htau37" EXACT [pmid:22762014]
@@ -574,6 +642,7 @@ is_a: HBP:HBP00044 ! 3R tau
 [Term]
 id: HBP:HBP00056
 name: Tau isoform D (383 aa)
+namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "0N4R" EXACT []
 synonym: "htau24" EXACT [pmid:22762014]
@@ -585,6 +654,7 @@ is_a: HBP:HBP00045 ! 4R tau
 [Term]
 id: HBP:HBP00057
 name: Tau isoform C (410 aa)
+namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "2N3R" EXACT []
 synonym: "htau39" EXACT [pmid:22762014]
@@ -596,6 +666,7 @@ is_a: HBP:HBP00044 ! 3R tau
 [Term]
 id: HBP:HBP00058
 name: Tau isoform E (412 aa)
+namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 synonym: "1N4R" EXACT []
 synonym: "htau34" EXACT [pmid:22762014]
@@ -607,193 +678,230 @@ is_a: HBP:HBP00045 ! 4R tau
 [Term]
 id: HBP:HBP00059
 name: Serpin-enzyme complex receptor
+namespace: protein
 def: "?" [pmid:15160835, pmid:2160076]
 synonym: "SEC-R" EXACT []
 
 [Term]
 id: HBP:HBP00060
 name: neuroinflammation
+namespace: pathology
 def: "inflammatory response in the brain and nervous tissue." [pmid:26306439]
 xref: go:GO:0150076
 
 [Term]
 id: HBP:HBP00061
 name: neurotoxicity
+namespace: pathology
 def: "happens when a biological, physical or chemical agent cause any adverse effect on the structure and function of the nerves system." [pmid:18440072]
 
 [Term]
 id: HBP:HBP00062
 name: neurite retraction
+namespace: pathology
 def: "when the neurite is unable it outgrow and extend" [pmid:19022228]
 
 [Term]
 id: HBP:HBP00063
 name: APP695
+namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
 xref: uniprot.isoform:P05067-4
 
 [Term]
 id: HBP:HBP00064
 name: APP751
+namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
 xref: uniprot.isoform:P05067-8
 
 [Term]
 id: HBP:HBP00065
 name: APP770
+namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
 xref: uniprot.isoform:P05067-1
 
 [Term]
 id: HBP:HBP00066
 name: gamma-secretase
+namespace: protein_complex
 def: "gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)" [pmid:25565961]
 xref: fplx:Gamma_secretase
 
 [Term]
 id: HBP:HBP00067
 name: sAPP-alpha
+namespace: protein
 def: "soluble amyloid precursor protein-alpha" [pmid:22491325]
 
 [Term]
 id: HBP:HBP00068
 name: Excitotoxicity
+namespace: pathology
 def: "Excitotoxicity is defined as cell death resulting from the toxic actions of excitatory amino acids" [pmid:19343058]
 
 [Term]
 id: HBP:HBP00069
 name: C31
+namespace: protein_fragment
 def: "a fragment containing the last 31 amino acids of APP (called C31)" [pmid:21214928]
 
 [Term]
 id: HBP:HBP00070
 name: Jcasp
+namespace: protein_fragment
 def: "Additional gamma-cleavage further generates the fragment (called Jcasp) containing the region between gamma- and caspase-cleavage sites" [pmid:21214928]
 
 [Term]
 id: HBP:HBP00071
 name: AICD
+namespace: domain
 def: "APP intracellular domain" [pmid:21214928]
 
 [Term]
 id: HBP:HBP00072
 name: p83
+namespace: protein_fragment
 def: "APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively" [pmid:21214928]
 
 [Term]
 id: HBP:HBP00073
 name: APP processing
+namespace: biological_process
 def: "Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)" [pmid:21214928]
 
 [Term]
 id: HBP:HBP00074
 name: AβOs
+namespace: cellular_component
 def: "soluble Aβ oligomers" [pmid:24685176]
 
 [Term]
 id: HBP:HBP00075
 name: LMW amyloid oligomers
+namespace: cellular_component
 def: "The formation of AβOs starts from alterations in the conformation of monomeric Aβ, resulting in low molecular weight (LMW) dimers and trimers, followed by aggregation to soluble spherical oligomers consisted of 12–24 monomers." [pmid:18723507]
 
 [Term]
 id: HBP:HBP00076
 name: amyloid-beta 40 oligomers
+namespace: cellular_component
 def: "Amyloid-beta oligomers composed specifically of amyloid-beta 40" [pmid:21209907]
 
 [Term]
 id: HBP:HBP00077
 name: alternative splicing of APP gene
+namespace: biological_process
 def: "The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition (see:GO:0000380)" [pmid:22122372]
 
 [Term]
 id: HBP:HBP00078
 name: E1 domain
+namespace: domain
 def: "The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization" [pmid:21574595]
 
 [Term]
 id: HBP:HBP00079
 name: E2 domain
+namespace: domain
 def: "The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization" [pmid:21574595]
 
 [Term]
 id: HBP:HBP00080
 name: P3 peptide
+namespace: protein_fragment
 def: "Cleavage by α-secretase yields the nonamyloidogenic soluble 3-kDa peptide (p3) that does not form amyloid fibrils, whereas cleavage by β-secretase yields the amyloidogenic form Aβ1–40 or the longer, more fibrillogenic Aβ1–42" [pmid:22137428]
 
 [Term]
 id: HBP:HBP00081
 name: C99
+namespace: protein_fragment
 def: "a membrane associated C-terminal fragment consisting of 99 amino acids (C99)" [pmid:22122372]
 
 [Term]
 id: HBP:HBP00082
 name: aMCI
+namespace: pathology
 def: "amnestic Mild Cognitive Impairement is a cognitive dysfunction that is associated with memory deficits" [pmid:18986241]
 
 [Term]
 id: HBP:HBP00083
 name: mdMCI
+namespace: pathology
 def: "multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is associated with more than one cognitive domain" [pmid:18986241]
 
 [Term]
 id: HBP:HBP00084
 name: Tau isoform A (316 aa)
+namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:18986241]
 xref: uniprot.isoform:P10636-3
 
 [Term]
 id: HBP:HBP00085
 name: Tau C3
+namespace: epitope
 def: "Tau epitope cleaved at aspartic acid(421)." [pmid:18986241]
 
 [Term]
 id: HBP:HBP00086
 name: Tau MN423
+namespace: epitope
 def: "Tau epitope truncated at glutamic acid(391)." [pmid:18986241]
 
 [Term]
 id: HBP:HBP00087
 name: granular tau oligomers
+namespace: cellular_component
 def: "When the oligomer lengthens, it adapts a beta-sheet structure and transforms into a detergent-insoluble aggregate with granular appearance under Atomic Force Microscopy (AFM)" [pmid:28420982]
 
 [Term]
 id: HBP:HBP00088
 name: Tau fibrils
+namespace: cellular_component
 def: "As these granular tau oligomers fuse together, they form tau fibrils, which ultimately form NFTs" [pmid:28420982]
 
 [Term]
 id: HBP:HBP00089
 name: dense core plaques
+namespace: cellular_component
 def: "Dense-core plaques are fibrillar deposits of Abeta, showing all the classical properties of amyloid including beta-sheet secondary structure, while diffuse plaques are amorphous deposits" [pmid:17680701]
 
 [Term]
 id: HBP:HBP00090
 name: Tau annular protofibrils
+namespace: cellular_component
 def: "A handful of proteins implicated in neurodegenerative diseases have been found to produce pore-like amyloid structures known as annular protofibrils (APFs)" [pmid:28420982]
 
 [Term]
 id: HBP:HBP00091
 name: TOC1
+namespace: antibody
 def: "monoclonal antibody, named TOC1 (tau oligomeric complex 1), which selectively labels tau dimers and oligomers, but does not label filaments" [pmid:22817713]
 
 [Term]
 id: HBP:HBP00092
 name: alpha-synuclein fibrils
+namespace: cellular_component
 def: "fibrillar aggregates of alpha-synuclein, found in Lewy bodies" [pmid:19892735]
 
 [Term]
 id: HBP:HBP00093
 name: alpha-synuclein oligomers
+namespace: cellular_component
 def: "oligomeric aggregates of alpha-synuclein" [pmid:17374364]
 
 [Term]
 id: HBP:HBP00094
 name: CLR01
+namespace: protein
 def: "the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein" [pmid:23183235]
 
 [Term]
 id: HBP:HBP00095
 name: prefibrillar α-synuclein oligomers
+namespace: cellular_component
 def: "prefibrillar oligomers formed at early stages of α-syn assembly" [pmid:27075649]
 
 [Term]
@@ -804,175 +912,209 @@ def: "Glyceraldehyde-derived (GA) advanced glycation end products" [pmid:1663005
 [Term]
 id: HBP:HBP00097
 name: TGM2 Isoform 3 (349 aa)
+namespace: isoform
 def: "Short isoform of tissue transglutaminase" [pmid:12578227]
 xref: uniprot.isoform:P21980-2
 
 [Term]
 id: HBP:HBP00098
 name: KXGS motif
+namespace: motif
 def: "Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly" [pmid:17304350, pmid:21215781]
 
 [Term]
 id: HBP:HBP00099
 name: Corticobasal Degeneration
+namespace: pathology
 def: "CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques" [pmid:22057784]
 is_a: HBP:HBP00233 ! 4R tauopathy
 
 [Term]
 id: HBP:HBP00100
 name: paired helical filaments
+namespace: cellular_component
 def: "Component of NFT, consisting in a helical arrangement of tau protomers" [pmid:22496370, pmid:1706519]
-part_of: GO:GO:0097418 ! neurofibrillary tangle
+relationship: part_of GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00101
 name: straight filaments
+namespace: cellular_component
 def: "Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers" [pmid:16566606, pmid:28678775]
-part_of: GO:GO:0097418 ! neurofibrillary tangle
+relationship: part_of GO:GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: HBP:HBP00102
 name: Alz50
+namespace: antibody
 def: "Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation" [pmid:16566606, pmid:8955115]
 
 [Term]
 id: HBP:HBP00103
 name: O-GlcNAcylation
+namespace: post_translational_modification
 def: "A non-canonical glycosylation involving the attachment of single O-linked N-acetylglucosamine (O-GlcNAc) moieties to serine and threonine residues of cytoplasmic, nuclear, and mitochondrial proteins" [pmid:16630055]
 
 [Term]
 id: HBP:HBP00104
 name: glycation
+namespace: post_translational_modification
 def: "The non-enzymatic reaction between the electrophilic carbonyl groups of a reducing sugar and the free amino groups of tau amino acids (especially of basic lysine or arginine residues) leading to the formation of  a ketoamine (Amadori product), an intermediate of AGE synthesis." [pmid:26655600]
 
 [Term]
 id: HBP:HBP00105
 name: nitration
+namespace: post_translational_modification
 def: "Incorporation of a nitrogen dioxide (NO2) group in tyrosine residues (mostly) of proteins forming 3-nitrotyrosine (3-NT). A biomarker of cell, tissue and systemic nitrosative stress." [pmid:16566606]
 
 [Term]
 id: HBP:HBP00106
 name: polyamination
+namespace: post_translational_modification
 def: "The reaction of polyamination by transglutaminases (TGs) involves a glutamine (Q) as acyl donor and a lysine (K) as acyl acceptor. It generates a (gamma)-glutamyl-(epsilon)-lysine isopeptide bond that causes protein cross-linking" [pmid:25974414]
 
 [Term]
 id: HBP:HBP00107
 name: formylation
+namespace: post_translational_modification
 def: "The addition of a formyl functional group usually at the epsilon amino group of Lys residues" [pmid:21210655]
 
 [Term]
 id: HBP:HBP00108
 name: Syndecan Family
+namespace: protein_family
 def: "IterPro:IPR001050" [pmid:15241784]
 
 [Term]
 id: HBP:HBP00109
 name: Bacterial invasion
+namespace: biological_process
 def: "The process of bacteria invading a cell" [pmid:15241784]
 
 [Term]
 id: HBP:HBP00110
 name: dopamine homeostasis
+namespace: biological_process
 def: "Dopmine secrete in a homeostatic way" [pmid:26325389]
 
 [Term]
 id: HBP:HBP00111
 name: PINK1-Park pathway
+namespace: pathway
 def: "The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287" [pmid:26182419]
 
 [Term]
 id: HBP:HBP00112
 name: Glutamate excitotoxicity
+namespace: biological_process
 def: "The excitotoxicity of Glutamate" [pmid:10196525]
 
 [Term]
 id: HBP:HBP00113
 name: mitochondrial homeostasis
+namespace: biological_process
 def: "The interplay between mitophagy and mitochondrial biogenesis." [pmid:25478815]
 
 [Term]
 id: HBP:HBP00114
 name: ER mitochondria interorganellar crosstalk
+namespace: biological_process
 def: "reference:pmid: 22577383" [pmid:25478815]
 
 [Term]
 id: HBP:HBP00115
 name: Mitochondrial pathway
+namespace: pathway
 def: "reference:pmid: 22399422" [pmid:23313576]
 
 [Term]
 id: HBP:HBP00116
 name: oxidative protein folding
+namespace: biological_process
 def: "Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor." [pmid:26004228]
 
 [Term]
 id: HBP:HBP00117
 name: mitochondrial motility
+namespace: biological_process
 def: "The motility of mitochondria" [pmid:25565208]
 
 [Term]
 id: HBP:HBP00118
 name: TIM/TOM complex
+namespace: protein_complex
 def: "The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA." [pmid:25565208]
 
 [Term]
 id: HBP:HBP00119
 name: mitochondrial aggregation
+namespace: biological_process
 def: "The aggregation of mitochondria" [pmid:25591737]
 
 [Term]
 id: HBP:HBP00120
 name: mevalonate pathway
+namespace: pathway
 def: "The mevalonate pathway, also known as the isoprenoid pathway or HMG-CoA reductase pathway is an essential metabolic pathway present in eukaryotes, archaea, and some bacteria" [pmid:24695221]
 
 [Term]
 id: HBP:HBP00121
 name: Dopaminergic cell groups
+namespace: anatomy
 def: "UBERON:dopaminergic cell groups" [pmid:24695221]
 
 [Term]
 id: HBP:HBP00122
 name: mitochondrial precursor protein
+namespace: protein
 def: "The precursor protein of mitochondria" [pmid:26192197]
 
 [Term]
 id: HBP:HBP00123
 name: PDR-1
+namespace: protein
 def: "the nematode homologs of Parkin" [pmid:26430570]
 
 [Term]
 id: HBP:HBP00124
 name: PINK-1
+namespace: protein
 def: "the nematode homologs of PINK1" [pmid:26430570]
 
 [Term]
 id: HBP:HBP00125
 name: skn-1
+namespace: protein
 def: "the nematode homologus of Skn1" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00126
 name: ced-9
+namespace: protein
 def: "the nematode homologus of Bcl-2" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00127
 name: lgg-1
+namespace: protein
 def: "the nematode homologus of Lgg1" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00128
 name: clec-65
+namespace: protein
 def: "the nematode homologus of Clec65" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00129
 name: clec-4
+namespace: protein
 def: "the nematode homologus of Clec4" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00131
 name: exotoxin A
+namespace: protein
 def: "exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease." [pmid:25274306]
 
 [Term]
@@ -983,6 +1125,7 @@ def: "mitochondrial damage-associated molecular patterns" [pmid:20203610]
 [Term]
 id: HBP:HBP00133
 name: IκB kinase
+namespace: protein_complex
 def: "The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation." [pmid:19880420]
 
 [Term]
@@ -993,31 +1136,37 @@ def: "Nonshivering thermogenesis was originally defined as a cold-induced increa
 [Term]
 id: HBP:HBP00135
 name: hsp-16
+namespace: protein
 def: "the nematode homologus of hsp16" [pmid:22700657]
 
 [Term]
 id: HBP:HBP00136
 name: heat shock proteins
+namespace: protein_family
 def: "Heat shock proteins (HSP) are a family of proteins that are produced by cells in response to exposure to stressful conditions. They were first described in relation to heat shock," [pmid:15280428]
 
 [Term]
 id: HBP:HBP00137
 name: high-calorie diets
+namespace: exposure
 def: "Diets with high calorie." [pmid:10412986]
 
 [Term]
 id: HBP:HBP00138
 name: proteotoxicity
+namespace: pathology
 def: "To function, proteins must undergo a folding process that gives them the proper three dimensional structure. Numerous genetic and biochemical observations suggest that proteins that fail to fold properly impair cell function. This process, also referred to as proteotoxicity, is particularly important to the fate of non-renewable cells of long-lived organisms in which malfolded proteins (proteotoxins) can exert their deleterious influence over extended periods of time.reference:Proteotoxicity and Aging" [pmid:24149988]
 
 [Term]
 id: HBP:HBP00139
 name: ss20399075
+namespace: genetic_variant
 def: "A SNP located within the 3' UTR of FGF20, is significantly associated with PD risk" [pmid:15122513]
 
 [Term]
 id: HBP:HBP00140
 name: Alpha-synuclein Oligomerization
+namespace: biological_process
 def: "The formation of alpha-synuclein oligmer" [pmid:21296890]
 
 [Term]
@@ -1038,16 +1187,19 @@ def: "In Parkinson's Disease, TT+AA is more frequent in MTHFR gene." [pmid:17914
 [Term]
 id: HBP:HBP00144
 name: CAG repeats
+namespace: motif
 def: "CAG repeats in genes." [pmid:22782013]
 
 [Term]
 id: HBP:HBP00145
 name: Gastrointestinal dysfunctions
+namespace: pathology
 def: "The function of gastrotestine disorder." [pmid:24467967]
 
 [Term]
 id: HBP:HBP00146
 name: olfactory epithelium
+namespace: anatomy
 def: "UBERON:olfactory epithelium" [pmid:22691461]
 
 [Term]
@@ -1058,11 +1210,13 @@ def: "The nasal cycle is the often unnoticed alternating partial congestion and 
 [Term]
 id: HBP:HBP00148
 name: hyposmia
+namespace: pathology
 def: "Hyposmia is a reduced ability to smell and to detect odors.Hyposmia might be a very early sign of Parkinson's disease. Hyposmia is also an early and almost universal finding in Alzheimer's disease and dementia with Lewy bodies. Lifelong hyposmia could be caused by Kallmann syndrome." [pmid:23933572]
 
 [Term]
 id: HBP:HBP00149
 name: FMR1,(55-200 CGG)
+namespace: genetic_variant
 def: "A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein." [pmid:24332449]
 
 [Term]
@@ -1073,81 +1227,97 @@ def: "a new member of the F-box family, Pof14, which forms a canonical" [pmid:17
 [Term]
 id: HBP:HBP00151
 name: Neuroglia
+namespace: anatomy
 def: "MeSH Unique ID: D009457" [pmid:19248803]
 
 [Term]
 id: HBP:HBP00152
 name: GDNF Family
+namespace: chemical_class
 def: "The GDNF family of ligands (GFL) consists of four neurotrophic factors: glial cell line-derived neurotrophic factor (GDNF), neurturin (NRTN), artemin (ARTN), and persephin (PSPN). GFLs have been shown to play a role in a number of biological processes including cell survival, neurite outgrowth, cell differentiation and cell migration. In particular signalling by GDNF promotes the survival of dopaminergic neurons." [pmid:10383122]
 
 [Term]
 id: HBP:HBP00153
 name: Motor Neurons
+namespace: anatomy
 def: "MeSH Unique ID: D009046" [pmid:10383122]
 
 [Term]
 id: HBP:HBP00154
 name: noradrenergic neuron
+namespace: anatomy
 def: "Cell:noradrenergic neuron" [pmid:10383122]
 
 [Term]
 id: HBP:HBP00155
 name: midbrain dopaminergic neuron
+namespace: anatomy
 def: "Cell:midbrain dopaminergic neuron" [pmid:10383122]
 
 [Term]
 id: HBP:HBP00156
 name: Neurites
+namespace: anatomy
 def: "A neurite or neuronal process refers to any projection from the cell body of a neuron." [pmid:23872421]
 
 [Term]
 id: HBP:HBP00157
 name: GRB10,BPS domain
+namespace: domain
 def: "BPS domain of protein GRB10" [pmid:25268761]
 
 [Term]
 id: HBP:HBP00158
 name: common fragile site
+namespace: cellular_component
 def: "A chromosomal fragile site is a specific heritable point on a chromosome that tends to form a gap or constriction and may tend to break when the cell is exposed to partial replication stress.Based on their frequency, fragile sites are classified as common or rare.To date, more than 120 fragile sites have been identified in the human genome." [pmid:12874785]
 
 [Term]
 id: HBP:HBP00159
 name: PARK7-alpha helices
+namespace: domain
 def: "The alpha helices of PARK7 protein" [pmid:18707128]
 
 [Term]
 id: HBP:HBP00160
 name: cleaved PINK1
+namespace: protein_fragment
 def: "The cleaved part of Protein PINK1" [pmid:21138942]
 
 [Term]
 id: HBP:HBP00161
 name: neurovascular unit
+namespace: anatomy
 def: "The brain hyperaemia, or coupling, is accomplished by a group of cells, closely related to each other; called neurovascular unit (NVU). The neurovascular unit is composed by neurones, astrocytes, endothelial cells of blood-brain barrier (BBB), myocytes, pericytes and extracellular matrix components. reference:PMID: 24629161" [pmid:25136294]
 
 [Term]
 id: HBP:HBP00162
 name: Muscles
+namespace: anatomy
 def: "MeSH Unique ID: D009132" [pmid:21151955]
 
 [Term]
 id: HBP:HBP00163
 name: Neural Stem Cell
+namespace: anatomy
 def: "MeSH Unique ID: D058953" [pmid:22357600]
 
 [Term]
 id: HBP:HBP00164
 name: Ventral Tegmental Area
+namespace: anatomy
 def: "MeSH Unique ID: D017557" [pmid:16190884]
 
 [Term]
 id: HBP:HBP00165
 name: Pars Compacta
+namespace: anatomy
 def: "MeSH Unique ID: D065842" [pmid:16190884]
 
 [Term]
 id: HBP:HBP00166
 name: proline-rich domain
+namespace: domain
 def: "Correspounding to residues I151 to Q244 of the 441 aa tau isoform, separated into P1 and P2. Possible role in tau's functional stabilization through the reported intramolecular interaction of P2 with R1, R2 and R4 from the microtubule-binding region" [pmid:25974414, pmid:8068626, pmid:9190213]
 synonym: "P domain" EXACT [pmid:8068626]
 synonym: "PRD" EXACT [pmid:26789759]
@@ -1155,93 +1325,111 @@ synonym: "PRD" EXACT [pmid:26789759]
 [Term]
 id: HBP:HBP00167
 name: lys-2
+namespace: protein
 def: "the nematode homologus of Lys2" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00168
 name: abf-2
+namespace: protein
 def: "the nematode homologus of Abf2" [pmid:25896323]
 
 [Term]
 id: HBP:HBP00169
 name: hydrophobic pocket of actin
+namespace: domain
 def: "The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament" [pmid:21314430]
 
 [Term]
 id: HBP:HBP00170
 name: 310-helix
+namespace: motif
 def: "The 310-helix is the fourth most common type of secondary structure in proteins after α-helices, β-sheets, and reverse turns (Barlow and Thornton 1988). Approximately 15%–20% of all helices in protein structures are 310-helices, which are commonly found as N- or C-terminal extensions to an α-helix (Barlow and Thornton 1988). 310-Helices in proteins are typically only three to five residues long compared with a mean of 10–12 residues for α-helices (Richardson and Richardson 1988)" [pmid:12761385]
 
 [Term]
 id: HBP:HBP00171
 name: Amylin Antagonist AC253
+namespace: peptide
 def: "Amino Acid Sequence: Ac-Leu-Gly-Arg-Leu-Ser-Gln-Glu-Leu-His-Arg-Leu-Gln-Thr-Tyr-Pro-Arg-Thr-Asn-Thr-Gly-Ser-Asn-Thr-Tyr-NH2" [pmid:22500019]
 
 [Term]
 id: HBP:HBP00172
 name: CDK5R1 p25
+namespace: protein
 def: "The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment" [pmid:10830966]
-bel: p(HGNC:CDK5R1, frag(99_307))
+relationship: bel p(HGNC:CDK5R1, frag(99_307))
 
 [Term]
 id: HBP:HBP00173
 name: PTI-125
+namespace: chemical_proprietary
 def: "PTI-125 is a proprietary small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies" [pmid:28438486, pmid:22815492]
 
 [Term]
 id: HBP:HBP00174
 name: alpha-4 beta-2 nAChR
+namespace: protein_complex
 def: "In addition to nAChRs forming from different subunit assemblages, stoichiometric study has shown that α4β2 nAChRs can form as either (α4)3(β2)2 or (α4)2(β2)3, the latter having a greater affinity for both nicotine and Ach" [pmid:24828779]
 
 [Term]
 id: HBP:HBP00175
 name: alpha-7 beta-2 nAChR
+namespace: protein_complex
 def: "Accumulating evidence demonstrates that these α7 and β2 nAChR subunits can co-assemble to form functional α7β2 nAChRs in heterologous expression systems, and also under natural conditions in the brain (Figure 1)" [pmid:27179601]
 
 [Term]
 id: HBP:HBP00176
 name: beta-2-containing nAChR
+namespace: protein_complex
 def: "The β2 subunit can couple with non-α4 subunits, including α2, α3 and α6 subunits to form functionally distinct nAChRs, but these receptors are much less densely expressed in the central nervous system relative to α4β2* nAChRs (*indicating potential assemblage of β2 subunits with non-α4 subunits)" [pmid:24828779]
 
 [Term]
 id: HBP:HBP00177
 name: Abeta*56
+namespace: cellular_component
 def: "56 kDa soluble amyloid-β (Aβ) assembly" [pmid:16541076]
 
 [Term]
 id: HBP:HBP00178
 name: protein aggregates
+namespace: cellular_component
 def: "Aggregates of proteins or fragments of proteins" [pmc:PMC2633703, pmid:23254192, pmid:12747895, pmid:23484434]
 xref: sbo:SBO:0000543
 
 [Term]
 id: HBP:HBP00179
 name: sAPP-gamma
+namespace: protein_fragment
 def: "results from the cleavage of beta APP by gamma-secretase" [pmid:12105112]
 
 [Term]
 id: HBP:HBP00180
 name: alpha-6-containing nAChR
+namespace: protein_complex
 def: "alpha6-containing receptors, which in brain occur as heteropentamers with beta2 and beta3 and are especially enriched in presynaptic nerve terminals in striatum (Champtiaux et al.,2002)" [pmid:28445721, pmid:19498417]
 
 [Term]
 id: HBP:HBP00181
 name: phosphatase-activating domain
+namespace: domain
 def: "Tau domain located in the N-terminal region encompassing residues 2-18. It activates phosphatase PP1 which dephosphorylates Ser9 in GSK3Beta and leads to its activation. In normal tau, both NTD and CTD are folded back in proximity to each other forming a 'paper-clip' conformation, which masks the PAD. Phosphorylation in the AT8 epitope, disrupts this normal conformational state, exposing the PAD by moving away the terminal domains." [pmid:26671985, pmid:28413156]
 
 [Term]
 id: HBP:HBP00182
 name: cystein-dependent auto-acetylation
+namespace: biological_process
 def: "Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines." [pmid:28002468, pmid:27383765]
 
 [Term]
 id: HBP:HBP00183
 name: GVD bodies
+namespace: cellular_component
 def: "Pathological hallmarks of Alzheimer Disease, consisting in intraneuronal accumulations of large membrane-bound vacuoles. Associated with the late stages of disease progression, they were also shown to be immunopositive or GSK3Beta and SYK (Spleen Tyrosine Kinase)." [pmid:26501932]
 
 [Term]
 id: HBP:HBP00184
 name: advanced glycation end product
+namespace: chemical_class
 def: "Advanced glycation end products (AGEs) are the production of Maillard reaction between carbohydrates and proteins. They cause neurotoxicity via production of ROS followed by an increase in expression of APP and amyloid beta. Recent analysis implicates them in tau phosphorylation." [pmid:28176663]
 
 [Term]
@@ -1252,87 +1440,103 @@ def: "A long lasting enhancement in synaptic transmission between two neurons, m
 [Term]
 id: HBP:HBP00186
 name: proline-rich region 1
+namespace: domain
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
-part_of: HBP:HBP00050 ! projection domain
-part_of: HBP:HBP00166 ! proline-rich domain
+relationship: part_of HBP:HBP00050 ! projection domain
+relationship: part_of HBP:HBP00166 ! proline-rich domain
 
 [Term]
 id: HBP:HBP00187
 name: proline-rich region 2
+namespace: domain
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
-part_of: HBP:HBP00166 ! proline-rich domain
-part_of: HBP:HBP00188 ! assembly domain
+relationship: part_of HBP:HBP00166 ! proline-rich domain
+relationship: part_of HBP:HBP00188 ! assembly domain
 
 [Term]
 id: HBP:HBP00188
 name: assembly domain
+namespace: domain
 def: "Tau assembly domain consists of the second part of the proline-rich region (PR2), MTBR and CTD, corresponding to residues 199-441 of the canonical tau isoform." [pmid:21757739]
 
 [Term]
 id: HBP:HBP00189
 name: CRL4 complex
+namespace: protein_complex
 def: "Cullin-RING E3 ubiquitin ligase complex 4, consisting of CUL4(A,B), DDB1 and CRBN." [pmid:27325702]
 
 [Term]
 id: HBP:HBP00190
 name: APP, ACR
+namespace: domain
 def: "Cytosolic region of APP, responsible for interacting with E3 ubiquitin ligases among other proteins." [pmid:27325702]
 
 [Term]
 id: HBP:HBP00191
 name: tubulin detyrosination
+namespace: post_translational_modification
 def: "Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus. Promoted by Tau truncation in the Gln124 residue." [pmid:25974414]
 
 [Term]
 id: HBP:HBP00192
 name: Microgliosis
+namespace: biological_process
 def: "An intense reaction of microglia following CNS insult, characterized by active proliferation and retracted cellular processes. In AD, accumulation of Abeta can be a possible cause of such physiological phenomenon, as microglia is seen surrounding senile plaques. Abeta interaction with microglial pattern recognition receptors (PRRs) leads to NLRP3 inflammasome activation, production of toxic NOS and ROS and release of proinflammatory cytokines." [pmid:29121589]
 
 [Term]
 id: HBP:HBP00193
 name: Astrogliosis
+namespace: biological_process
 def: "Morphological and functional changes observed in astrocytes in the context of their physiological response to CNS trauma or injury caused by ischemia, stroke, autoimmune disorders and neurodegeneration." [pmid:29121589]
 
 [Term]
 id: HBP:HBP00194
 name: CK1 superfamily
+namespace: protein_family
 def: "The CK1 group of eukaryotic protein kinases are composed of seven CK1 isoforms (CK1α, CK1α2, CK1δ, CK1ε, CK1γ1, CK1γ2, and CK1γ3), two Tau–tubulin kinase isoforms (TTBK1 and TTBK2), and three VRK isoforms (VRK1, VRK2, and VRK3)" [pmid:25673844]
 
 [Term]
 id: HBP:HBP00195
 name: alpha-4-containing nAChR
+namespace: protein_complex
 def: "nAChRs that bind radiolabeled nicotine with the highest afﬁnity contain a4 subunits (a4*-nAChR)" [pmid:21787755]
 
 [Term]
 id: HBP:HBP00196
 name: alpha-4 beta-4 nAChR
+namespace: protein_complex
 def: "a4 subunits can also assemble with b4 subunits to form a4b4-nAChRs that have comparably high nicotine afﬁnity" [pmid:21787755]
 
 [Term]
 id: HBP:HBP00197
 name: alpha-7-containing nAChR
+namespace: protein_complex
 def: "Another prominent nAChR subtype found in vertebrate central and autonomic nervous systems contains a7 subunits." [pmid:21787755]
 
 [Term]
 id: HBP:HBP00198
 name: alpha-Bungarotoxin
+namespace: protein
 def: "Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake)." [pmid:21787755]
 xref: uniprot:P60616
 
 [Term]
 id: HBP:HBP00199
 name: alpha-3 beta-2 nAChR
+namespace: protein_complex
 def: "nAChRs containing the a3b2 subunit interface" [pmid:21787755]
 
 [Term]
 id: HBP:HBP00200
 name: kappa-Bungarotoxin
+namespace: protein
 def: "kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)" [pmid:21787755, pmid:3359187]
 xref: uniprot:P01398
 
 [Term]
 id: HBP:HBP00201
 name: VU10010
+namespace: chemical
 def: "highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233, pmid:18059262]
 synonym: "2-Fly" EXACT [pubchem.compound:714286]
 synonym: "2-Furoyl-LIGRLO-amide trifluoroacetate salt" EXACT [pubchem.compound:714286]
@@ -1381,6 +1585,7 @@ xref: smiles:CC1=C2C(SC(C(NCC3=CC=C(Cl)C=C3)=O)=C2N)=NC(C)=C1
 [Term]
 id: HBP:HBP00202
 name: VU0456940
+namespace: chemical
 def: "M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one" [pmid:24511233]
 synonym: "VU 0456940" EXACT [https://medkoo.com/products/9998]
 synonym: "VU-0456940" EXACT [https://medkoo.com/products/9998]
@@ -1392,6 +1597,7 @@ xref: smiles:CN1N=CC(C2=CC=C(N3C=C(S(=O)(CC(CC4=NOC(C)=C4)=O)=O)C5=C3C=C(F)C=C5F
 [Term]
 id: HBP:HBP00203
 name: VU0152099
+namespace: chemical
 def: "selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233]
 synonym: "3-amino-4,6-dimethyl-N-piperonyl-thieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
 synonym: "3-amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethyl-2-thieno[2,3-b]pyridinecarboxamide" EXACT [pubchem.compound:1541501]
@@ -1426,6 +1632,7 @@ xref: wikidata:Q27089173
 [Term]
 id: HBP:HBP00204
 name: VU0029767
+namespace: chemical
 def: "selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" [pmid:24590577]
 synonym: "2-(4-ethoxyanilino)-N'-[(E)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" EXACT [pubchem.compound:6758210]
 synonym: "2-[(4-ethoxyphenyl)amino]-N'-[(2-hydroxy-1-naphthyl)methylene]acetohydrazide (non-preferred name)" EXACT [pubchem.compound:6758210]
@@ -1444,6 +1651,7 @@ xref: smiles:CCOC1=CC=C(C=C1)NCC(=O)NNC=C2C(=O)C=CC3=CC=CC=C32
 [Term]
 id: HBP:HBP00205
 name: VU0090157
+namespace: chemical
 def: "selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" [pmid:24590577]
 synonym: "AC1MER3E" EXACT [pubchem.compound:2882724]
 synonym: "AKOS001633711" EXACT [pubchem.compound:2882724]
@@ -1473,6 +1681,7 @@ xref: smiles:CC1=C(C(NC(=O)N1C)C2=CC3=C(C=C2[N+](=O)[O-])OCO3)C(=O)OC4CCCC4
 [Term]
 id: HBP:HBP00206
 name: VU0184670
+namespace: chemical
 def: "M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" [pmid:24590577]
 synonym: "1135241-95-0" EXACT [pubchem.compound:25010774]
 synonym: "CHEMBL1535797" EXACT [pubchem.compound:25010774]
@@ -1488,6 +1697,7 @@ xref: smiles:CCOC(=O)N1CCC(CC1)NCCNC(=O)C2=CC=CC=C2.Cl
 [Term]
 id: HBP:HBP00207
 name: 2-Bromohexadecanoic acid
+namespace: chemical
 def: "Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death." [pmid:18096814]
 synonym: ".alpha.-Bromopalmitic acid" EXACT [pubchem.compound:82145]
 synonym: "18263-25-7" EXACT [pubchem.compound:82145]
@@ -1554,6 +1764,7 @@ synonym: "ZX-AT022731" EXACT [pubchem.compound:82145]
 synonym: "alpha-Bromopalmitic acid" EXACT [pubchem.compound:82145]
 synonym: "bromohexadecanoic acid" EXACT [pubchem.compound:82145]
 xref: chebi:CHEBI:133152
+xref: chebi:CHEBI:133152
 xref: inchi:InChI=1S/C16H31BrO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15(17)16(18)19/h15H,2-14H2,1H3,(H,18,19)
 xref: pubchem.compound:82145
 xref: smiles:CCCCCCCCCCCCCCC(C(=O)O)Br
@@ -1561,6 +1772,7 @@ xref: smiles:CCCCCCCCCCCCCCC(C(=O)O)Br
 [Term]
 id: HBP:HBP00208
 name: 20 S Proteasome
+namespace: protein_complex
 def: "The catalytic core of the 26 S proteasome system, responsible for tau degradation" [pmid:17954934, pmid:19145068]
 
 [Term]
@@ -1601,69 +1813,82 @@ def: "A disease propagation and progression model, composed of six stages of inc
 [Term]
 id: HBP:HBP00216
 name: CagA peptide
+namespace: peptide
 def: "A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation" [pmid:23666762, pmid:19966800]
 
 [Term]
 id: HBP:HBP00217
 name: MARK4 isoform 2 (688 aa)
+namespace: isoform
 def: "Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation." [pmid:16973293]
 xref: uniprot.isoform:Q96L34-2
 
 [Term]
 id: HBP:HBP00218
 name: NP_001387.2:p.Arg205del
+namespace: protein_variant
 def: "Loss of function mutant of DYRK1A isoform 1" [pmid:28167836]
 
 [Term]
 id: HBP:HBP00219
 name: NP_001387.2:p.Glu239del
+namespace: protein_variant
 def: "Loss of function mutant of DYRK1A isoform 1" [pmid:28167837]
 
 [Term]
 id: HBP:HBP00220
 name: PrP106-126
+namespace: protein_fragment
 def: "Prion protein fragment 106-126. This peptide increases membrane microviscosity, intracellular Ca2+ concentration and cell migration in circulating leucocytes, and oxygen production in monocytes and neutrophils. It also induces apoptotic cell death and impairment of L-type voltage-sensitive calcium channel activity in the GH3 cell lines. PrP (106–126) stimulates leucocyte migration in a dose-dependent manner. Inhibits tau phosphorylaton at Ser262. Seq = KTNMKHMAGAAAAGAVVGGLG" [pmid:22692785]
 
 [Term]
 id: HBP:HBP00221
 name: Purkinje cell layer of cerebellar cortex
+namespace: anatomy
 def: "The Purkinje cell layer lies just underneath the molecular layer of the cerebellar cortex. It contains the neuronal cell bodies of the Purkinje cells that are arranged side by side in a single layer. Candelabrum interneurons are vertically oriented between the Purkinje cells. Purkinje neurons are inhibitory and provide the output of the cerebellar cortex through axons that project into the white matter. Extensive dendritic trees from the Purkinje cells extend upward in a single plane into the molecular layer where they synapse with parallel fibers of granule cells." [pmid:29221819]
 
 [Term]
 id: HBP:HBP00222
 name: Tau antibody, AGG5759
+namespace: antibody
 def: "Tau antibody with specificity for pSer262" [pmid:23666762]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00223
 name: Tau antibody, Tau-13
+namespace: antibody
 def: "Tau murine monoclonal antibody with specificity for pSer262" [pmid:23666762]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00224
 name: Tau epitope, 12E8
+namespace: epitope
 def: "Tau epitope consisting of pSer262 and pSer356" [pmid:22156579]
 
 [Term]
 id: HBP:HBP00225
 name: Tau epitope, AT180
+namespace: epitope
 def: "Tau epitope consisting of pThr231" [pmid:22833681]
 
 [Term]
 id: HBP:HBP00226
 name: Tau epitope, AT8
+namespace: epitope
 def: "Tau epitope consisting of pSer202, pThr205, pSer208, pSer199" [pmid:18239272]
 
 [Term]
 id: HBP:HBP00227
 name: Tau epitope, CP13
+namespace: epitope
 def: "Tau epitope consisting of pSer202" [pmid:25331948]
 
 [Term]
 id: HBP:HBP00228
 name: Tau epitope, PHF1
+namespace: epitope
 def: "Tau epitope consisting of pSer396, pSer404" [pmid:22156579]
 
 [Term]
@@ -1674,33 +1899,40 @@ def: "Dysfunctional axons and terminals that accumulate the β-site amyloid prec
 [Term]
 id: HBP:HBP00230
 name: granular layer of cerebellar cortex
+namespace: anatomy
 def: "The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer" [pmid:29221819]
 
 [Term]
 id: HBP:HBP00231
 name: molecular layer of cerebellar cortex
+namespace: anatomy
 def: "The molecular layer is the outermost layer of the cerebellar cortex. It contains the parallel fibers of the granule cells, interneurons such as stellate and basket cells, and the dendrites of the underlying Purkinje cells" [pmid:29221819]
 
 [Term]
 id: HBP:HBP00232
 name: Kalirin 7
+namespace: isoform
 def: "Isoform of KALRN protein" [pmid:27796283]
 
 [Term]
 id: HBP:HBP00233
 name: 4R tauopathy
+namespace: pathology
 def: "Tauopathies characterized by a relatively higher presence of the 4R tau isoforms, such as Alzheimers Disease and Corticobasal Degeneration" [pmid:21427723]
 
 [Term]
 id: HBP:HBP00234
 name: ACY-1215
+namespace: chemical
 def: "Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells." [pmid:24844691]
 synonym: "1316214-52-4" EXACT [pubchem.compound:53340666]
 synonym: "2-(Diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
 synonym: "2-(Diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-5-pyrimidinecarboxamide" EXACT [pubchem.compound:53340666]
 synonym: "2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
 synonym: "5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)-" EXACT [pubchem.compound:53340666]
+synonym: "5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-" EXACT [pubchem.compound:53340666]
 synonym: "7-{[2-(DIPHENYLAMINO)PYRIMIDIN-5-YL]FORMAMIDO}-N-HYDROXYHEPTANAMIDE" EXACT [pubchem.compound:53340666]
+synonym: "A11940" EXACT [pubchem.compound:53340666]
 synonym: "AB0032517" EXACT [pubchem.compound:53340666]
 synonym: "AC-30258" EXACT [pubchem.compound:53340666]
 synonym: "ACN-030031" EXACT [pubchem.compound:53340666]
@@ -1729,12 +1961,14 @@ synonym: "HY-16026" EXACT [pubchem.compound:53340666]
 synonym: "J-690127" EXACT [pubchem.compound:53340666]
 synonym: "KB-74507" EXACT [pubchem.compound:53340666]
 synonym: "KS-00000SAV" EXACT [pubchem.compound:53340666]
+synonym: "MFCD22666356" EXACT [pubchem.compound:53340666]
 synonym: "MLS006011181" EXACT [pubchem.compound:53340666]
 synonym: "MolPort-028-600-031" EXACT [pubchem.compound:53340666]
 synonym: "N-[7-(hydroxyamino)-7-oxoheptyl]-2-(N-phenylanilino)pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
 synonym: "NCGC00345802-01" EXACT [pubchem.compound:53340666]
 synonym: "NCGC00345802-05" EXACT [pubchem.compound:53340666]
 synonym: "Ricolinostat" EXACT [pubchem.compound:53340666]
+synonym: "Ricolinostat (ACY-1215)" EXACT [pubchem.compound:53340666]
 synonym: "Ricolinostat (USAN/INN)" EXACT [pubchem.compound:53340666]
 synonym: "Ricolinostat [USAN:INN]" EXACT [pubchem.compound:53340666]
 synonym: "Rocilinostat" EXACT [pubchem.compound:53340666]
@@ -1750,24 +1984,27 @@ synonym: "W-5979" EXACT [pubchem.compound:53340666]
 synonym: "WKT909C62B" EXACT [pubchem.compound:53340666]
 synonym: "X5832" EXACT [pubchem.compound:53340666]
 synonym: "ZINC89630354" EXACT [pubchem.compound:53340666]
+synonym: "rocilinostat-acy-1215" EXACT [pubchem.compound:53340666]
 synonym: "s8001" EXACT [pubchem.compound:53340666]
 xref: cas:1316214-52-4
+xref: chebi:CHEBI:95073
 xref: chebi:CHEBI:95073
 xref: drugbank:DB12376
 xref: inchi:InChI=1S/C24H27N5O3/c30-22(28-32)15-9-1-2-10-16-25-23(31)19-17-26-24(27-18-19)29(20-11-5-3-6-12-20)21-13-7-4-8-14-21/h3-8,11-14,17-18,32H,1-2,9-10,15-16H2,(H,25,31)(H,28,30)
 xref: mesh:C572255
 xref: pubchem.compound:53340666
 xref: smiles:C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=NC=C(C=N3)C(=O)NCCCCCCC(=O)NO
-inverse_is_a: MESH:D000544 ! Alzheimer Disease
 
 [Term]
 id: HBP:HBP00235
 name: APOE e3
+namespace: genetic_variant
 def: "Interacts with tubulin binding repeat 1" [pmid:26751493]
 
 [Term]
 id: HBP:HBP00236
 name: BAY61-3606
+namespace: chemical
 def: "A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity" [pmid:25331948]
 synonym: "2-((7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl)amino)nicotinamide" EXACT [pubchem.compound:10200390]
 synonym: "2-(7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-ylamino)nicotinamide hydrochloride" EXACT [pubchem.compound:10200390]
@@ -1777,6 +2014,7 @@ synonym: "2-[[7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl]amino]pyridine
 synonym: "3-Pyridinecarboxamide, 2-((7-(3,4-dimethoxyphenyl)imidazo(1,2-C)pyrimidin-5-yl)amino)-" EXACT [pubchem.compound:10200390]
 synonym: "61G8S0H9KX" EXACT [pubchem.compound:10200390]
 synonym: "732983-37-8" EXACT [pubchem.compound:10200390]
+synonym: "A11320" EXACT [pubchem.compound:10200390]
 synonym: "AC-29888" EXACT [pubchem.compound:10200390]
 synonym: "ACN-053214" EXACT [pubchem.compound:10200390]
 synonym: "AKOS030526888" EXACT [pubchem.compound:10200390]
@@ -1810,6 +2048,7 @@ synonym: "ZINC3817793" EXACT [pubchem.compound:10200390]
 synonym: "cc-526" EXACT [pubchem.compound:10200390]
 xref: cas:732983-37-8
 xref: chebi:CHEBI:91426
+xref: chebi:CHEBI:91426
 xref: inchi:InChI=1S/C20H18N6O3/c1-28-15-6-5-12(10-16(15)29-2)14-11-17-22-8-9-26(17)20(24-14)25-19-13(18(21)27)4-3-7-23-19/h3-11H,1-2H3,(H2,21,27)(H,23,24,25)
 xref: mesh:C477642
 xref: pubchem.compound:10200390
@@ -1819,16 +2058,19 @@ xref: wikidata:Q27163275
 [Term]
 id: HBP:HBP00237
 name: Biphenyl-4-yl-acrylohydroxamoc acids
+namespace: chemical_class
 def: "Chemical compund group acting as inhibitors of HDAC family proteins." [pmid:26890116]
 
 [Term]
 id: HBP:HBP00238
 name: Brodmann (1909) area 36
+namespace: anatomy
 def: "Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. With its medial boundary corresponding approximately to the rhinal sulcus it is located primarily in the fusiform gyrus. Cytoarchitecturally it is bounded laterally and caudally by the inferior temporal area 20, medially by the perirhinal area 35 and rostrally by the temporopolar area 38 (H) (Brodmann-1909). Together with Brodmann area 35, it comprises the perirhinal cortex." [pmid:23407988]
 
 [Term]
 id: HBP:HBP00239
 name: C-30-27
+namespace: chemical
 def: "PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition" [pmid:25672970]
 xref: inchi:InChI=1S/C20H26ClN3O3/c1-25-19-13-16(14-22-6-7-24-8-10-26-11-9-24)12-18(21)20(19)27-15-17-4-2-3-5-23-17/h2-5,12-13,22H,6-11,14-15H2,1H3
 xref: smiles:C1COCCN1CCNCC2=CC(=C(C(=C2)Cl)OCC3=CC=CC=N3)OC
@@ -1836,6 +2078,7 @@ xref: smiles:C1COCCN1CCNCC2=CC(=C(C(=C2)Cl)OCC3=CC=CC=N3)OC
 [Term]
 id: HBP:HBP00240
 name: C646
+namespace: chemical
 def: "Inhibitor of EP300 acetylase" [pmid:20869593]
 synonym: "(E)-4-(4-((5-(4,5-diMethyl-2-nitrophenyl)furan-2-yl)Methylene)-3-Methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl)benzoic acid" EXACT [pubchem.compound:1285940]
 synonym: "328968-36-1" EXACT [pubchem.compound:1285940]
@@ -1866,26 +2109,31 @@ xref: smiles:CC1=C(C=C(C(=C1)C2=CC=C(O2)C=C3C(=NN(C3=O)C4=CC=C(C=C4)C(=O)O)C)[N+
 [Term]
 id: HBP:HBP00241
 name: CA1 field of hippocampus
+namespace: anatomy
 def: "Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals." [pmid:23407988]
 
 [Term]
 id: HBP:HBP00242
 name: CA2 field of hippocampus
+namespace: anatomy
 def: "Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus" [pmid:23407988]
 
 [Term]
 id: HBP:HBP00243
 name: CA3 field of hippocampus
+namespace: anatomy
 def: "Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers." [pmid:23407988]
 
 [Term]
 id: HBP:HBP00244
 name: CA4 field of hippocampus
+namespace: anatomy
 def: "The last of four regions in the cornu ammonis of the hippocampus and is also part of the hilus of the dentate gyrus. This area contains mostly mossy cells that receive inputs from the dentate gyrus and pyramidal cells in the CA3 region and also projects back to the dentate gyrus." [pmid:23407988]
 
 [Term]
 id: HBP:HBP00245
 name: CGP3466B
+namespace: chemical
 def: "Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD" [pmid:29559585]
 synonym: "(Dibenzo(b,f)oxepin-5-ylmethyl)(methyl)prop-2-yn-1-amine" EXACT [pubchem.compound:6419718]
 synonym: "181296-84-4" EXACT [pubchem.compound:6419718]
@@ -1924,6 +2172,7 @@ synonym: "ZINC33943510" EXACT [pubchem.compound:6419718]
 synonym: "dibenz[b,f]oxepin-10-ylmethyl-N-methyl-N-prop-2-ynylamine" EXACT [pubchem.compound:6419718]
 synonym: "dibenzo-(b,f)oxepin-10-ylmethyl-methyl-prop-2-ynyl-amine" EXACT [pubchem.compound:6419718]
 xref: chebi:CHEBI:35364
+xref: chebi:CHEBI:35364
 xref: chebi:CHEBI:41778
 xref: chembl:CHEMBL1232111
 xref: chembl:CHEMBL3734823
@@ -1935,6 +2184,7 @@ xref: smiles:CN(CC#C)CC1=CC2=CC=CC=C2OC3=CC=CC=C31
 [Term]
 id: HBP:HBP00246
 name: CM-414
+namespace: chemical
 def: "A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity." [pmid:27550730]
 synonym: "2-(4-morpholinylmethyl)-2-propenoic acid" EXACT [pubchem.compound:10397232]
 synonym: "2-(Morpholinomethyl)acrylic acid" EXACT [pubchem.compound:10397232]
@@ -1963,6 +2213,7 @@ synonym: "IGZSSKAOSOCVPH-UHFFFAOYSA-N" EXACT [pubchem.compound:10397232]
 synonym: "K-8942" EXACT [pubchem.compound:10397232]
 synonym: "KB-106928" EXACT [pubchem.compound:10397232]
 synonym: "MCULE-2720405682" EXACT [pubchem.compound:10397232]
+synonym: "MFCD06208438" EXACT [pubchem.compound:10397232]
 synonym: "MolPort-019-997-392" EXACT [pubchem.compound:10397232]
 synonym: "SCHEMBL793684" EXACT [pubchem.compound:10397232]
 synonym: "ZINC38760485" EXACT [pubchem.compound:10397232]
@@ -1974,21 +2225,25 @@ xref: smiles:C=C(CN1CCOCC1)C(=O)O
 [Term]
 id: HBP:HBP00247
 name: DAPK, basic loop (BL) motif
+namespace: motif
 def: "A structural motif of DAPK (Death-Associated Protein Kinase) positively regulating the kinase activity." [pmid:27133022]
 
 [Term]
 id: HBP:HBP00248
 name: Histone H3
+namespace: protein
 def: "One of the five main histone proteins of chromatin structure, acetylation at Lys 9 was positively linked with the transcriptional activation of various genes involved in neuro-regeneration following peripheral axonal injury, among which BDNF." [pmid:24686445]
 
 [Term]
 id: HBP:HBP00249
 name: ID-8
+namespace: chemical
 def: "Inhibitor of GSK3Beta and DYRK1 kinases" [pmid:28884684]
 
 [Term]
 id: HBP:HBP00250
 name: LDN-193594
+namespace: chemical
 def: "A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation" [pmid:23737518]
 synonym: "(4-amino-2-(pyridin-3-ylamino)thiazol-5-yl)(2-fluorophenyl)methanone" EXACT [pubchem.compound:54581340]
 synonym: "1289638-15-8" EXACT [pubchem.compound:54581340]
@@ -2009,6 +2264,7 @@ is_a: HBP:HBP00276 ! diaminothiazole
 [Term]
 id: HBP:HBP00251
 name: LDN-193665
+namespace: chemical
 def: "A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b" [pmid:23737518]
 xref: cas:1289638-16-9
 xref: inchi: InChI=1S/C15H11FN4OS/c16-10-4-1-3-9(7-10)12(21)13-14(17)20-15(22-13)19-11-5-2-6-18-8-11/h1-8H,17H2,(H,19,20)
@@ -2018,6 +2274,7 @@ is_a: HBP:HBP00277 ! diaminothiazole
 [Term]
 id: HBP:HBP00252
 name: LDN-213843
+namespace: chemical
 def: "Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases" [pmid:23737518]
 xref: inchi:InChI=1S/C19H19FN6OS/c20-14-4-2-1-3-13(14)16(27)17-18(21)25-19(28-17)24-12-5-6-15(23-11-12)26-9-7-22-8-10-26/h1-6,11,22H,7-10,21H2,(H,24,25)
 xref: smiles:C1(=CC=CC=C1C(C4=C(N)N=C(NC2=CN=C(C=C2)N3CCNCC3)S4)=O)F
@@ -2026,16 +2283,19 @@ is_a: HBP:HBP00278 ! diaminothiazole
 [Term]
 id: HBP:HBP00253
 name: Long-Term Depression
+namespace: pathology
 def: "A gradual weakening of neuronal synaptic connections lasting hours or longer following a long patterned stimulus. Along with LTP (long term potentiation) is one of the main mechanisms of memory formation, more specifically of spatial memory. The mechanism involves an interplay of NMDA and AMPA glutamate receptors, with minimal intracellular calcium levels triggering a cellular cascade leading to the removal of the latter and an overall decrease of the glutammate receptors in the postsynaptic neurons, thus weakening the synapse." [pmid:22833681]
 
 [Term]
 id: HBP:HBP00254
 name: Pathological Tau Spreading
+namespace: pathology
 def: "Pathological spreading pattern of tau into defined anatomycally interconnected brain regions during the progression of tauopathy." [pmid:29540553]
 
 [Term]
 id: HBP:HBP00255
 name: PrPSc
+namespace: isoform
 def: "PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types." [pmid:22692785, pmid:29414853]
 xref: uniprot:F7VJQ1
 xref: uniprot.isoform:F7VJQ1-1
@@ -2048,12 +2308,14 @@ def: "A turn-like structure formed in tau as a conseguence of the phosphorylatio
 [Term]
 id: HBP:HBP00257
 name: Tau antibody, RG7345
+namespace: antibody
 def: "RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron." [pmid:26751493, pmid:10967355]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00258
 name: RGFP966
+namespace: chemical
 def: "Selective inhibitor of HDAC3" [pmid:28771976]
 synonym: "(2E)-N-(2-amino-4-fluorophenyl)-3-{1-[(2E)-3-phenylprop-2-en-1-yl]-1H-pyrazol-4-yl}prop-2-enamide" EXACT [pubchem.compound:56650312]
 synonym: "(E)-N-(2-amino-4-fluorophenyl)-3-(1-cinnamyl-1H-pyrazol-4-yl)acrylamide" EXACT [pubchem.compound:56650312]
@@ -2061,6 +2323,7 @@ synonym: "1357389-11-7" EXACT [pubchem.compound:56650312]
 synonym: "1396841-57-8" EXACT [pubchem.compound:56650312]
 synonym: "2-Propenamide, N-(2-amino-4-fluorophenyl)-3-[1-[(2E)-3-phenyl-2-propen-1-yl]-1H-pyrazol-4-yl]-, (2E)-" EXACT [pubchem.compound:56650312]
 synonym: "2686AH" EXACT [pubchem.compound:56650312]
+synonym: "A13218" EXACT [pubchem.compound:56650312]
 synonym: "AK676067" EXACT [pubchem.compound:56650312]
 synonym: "AKOS030526449" EXACT [pubchem.compound:56650312]
 synonym: "BC600495" EXACT [pubchem.compound:56650312]
@@ -2068,6 +2331,7 @@ synonym: "BCP08102" EXACT [pubchem.compound:56650312]
 synonym: "BLVQHYHDYFTPDV-VCABWLAWSA-N" EXACT [pubchem.compound:56650312]
 synonym: "C21H19FN4O" EXACT [pubchem.compound:56650312]
 synonym: "CHEBI:131163" EXACT [pubchem.compound:56650312]
+synonym: "CHEMBL4078477" EXACT [pubchem.compound:56650312]
 synonym: "D00HXX" EXACT [pubchem.compound:56650312]
 synonym: "DA-45384" EXACT [pubchem.compound:56650312]
 synonym: "DA-45706" EXACT [pubchem.compound:56650312]
@@ -2075,6 +2339,7 @@ synonym: "EX-A229" EXACT [pubchem.compound:56650312]
 synonym: "GTPL7500" EXACT [pubchem.compound:56650312]
 synonym: "J-007305" EXACT [pubchem.compound:56650312]
 synonym: "KB-148638" EXACT [pubchem.compound:56650312]
+synonym: "MFCD26960954" EXACT [pubchem.compound:56650312]
 synonym: "MolPort-035-395-807" EXACT [pubchem.compound:56650312]
 synonym: "QC-11774" EXACT [pubchem.compound:56650312]
 synonym: "RGFP 966" EXACT [pubchem.compound:56650312]
@@ -2096,9 +2361,11 @@ xref: smiles:C1=CC=C(C=C1)C=CCN2C=C(C=N2)C=CC(=O)NC3=C(C=C(C=C3)F)N
 [Term]
 id: HBP:HBP00259
 name: SL-327
+namespace: chemical
 def: "Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A" [pmid:24401760]
 synonym: "(2Z)-3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile" EXACT [pubchem.compound:9549284]
 synonym: "(Z)-3-amino-3-(4-aminophenylthio)-2-(2-(trifluoromethyl)phenyl)acrylonitrile" EXACT [pubchem.compound:9549284]
+synonym: "3-amino-3-(4-aminophenyl)sulfanyl-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile" EXACT [pubchem.compound:9549284]
 synonym: "3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]acrylonitrile" EXACT [pubchem.compound:9549284]
 synonym: "3-amino-3-[(4-aminophenyl)thio]-2-[2-(trifluoromethyl)phenyl]-2-propenenitrile" EXACT [pubchem.compound:9549284]
 synonym: "305350-87-2" EXACT [pubchem.compound:9549284]
@@ -2107,14 +2374,18 @@ synonym: "AOB5954" EXACT [pubchem.compound:9549284]
 synonym: "BC600460" EXACT [pubchem.compound:9549284]
 synonym: "BCP05310" EXACT [pubchem.compound:9549284]
 synonym: "BRD-K12244279-001-01-7" EXACT [pubchem.compound:9549284]
+synonym: "Benzeneacetonitrile, alpha-[amino[(4-aminophenyl)thio]methylene]-2-(trifluoromethyl)-" EXACT [pubchem.compound:9549284]
 synonym: "CCG-206867" EXACT [pubchem.compound:9549284]
 synonym: "CHEBI:92211" EXACT [pubchem.compound:9549284]
 synonym: "CS-0910" EXACT [pubchem.compound:9549284]
 synonym: "D04WPA" EXACT [pubchem.compound:9549284]
 synonym: "DTXSID90429549" EXACT [pubchem.compound:9549284]
+synonym: "E/Z-a-[amino[(4-aminophenyl)thio]methylen]-2-(trifluoromethyl)benzeneacetonitrile" EXACT [pubchem.compound:9549284]
+synonym: "EC-000.2354" EXACT [pubchem.compound:9549284]
 synonym: "EX-A1069" EXACT [pubchem.compound:9549284]
 synonym: "GTPL6008" EXACT [pubchem.compound:9549284]
 synonym: "HMS3229K18" EXACT [pubchem.compound:9549284]
+synonym: "HMS3678M21" EXACT [pubchem.compound:9549284]
 synonym: "HSCI1_000044" EXACT [pubchem.compound:9549284]
 synonym: "HY-15437" EXACT [pubchem.compound:9549284]
 synonym: "J-018001" EXACT [pubchem.compound:9549284]
@@ -2152,13 +2423,16 @@ xref: smiles:C1=CC=C(C(=C1)C(=C(N)SC2=CC=C(C=C2)N)C#N)C(F)(F)F
 [Term]
 id: HBP:HBP00260
 name: Spinocerebellar Ataxia 11
+namespace: pathology
 def: "Spinocerebellar ataxia type 11 (SCA11) is characterized by progressive cerebellar ataxia and abnormal eye signs (jerky pursuit, horizontal and vertical nystagmus). Caused by mutations in the TTBK2 (Tau Tubulin Kinase 2) gene, is inherited in an autosomal dominant manner." [pmid:21548880]
 
 [Term]
 id: HBP:HBP00261
 name: ST7612AA1
+namespace: chemical
 def: "A thiol derivative, pan-HDAC inhibitor" [pmid:27917100]
 synonym: "1428535-92-5" EXACT [pubchem.compound:71538210]
+synonym: "A14418" EXACT [pubchem.compound:71538210]
 synonym: "BDBM50027652" EXACT [pubchem.compound:71538210]
 synonym: "CHEMBL3353926" EXACT [pubchem.compound:71538210]
 synonym: "SB17083" EXACT [pubchem.compound:71538210]
@@ -2173,38 +2447,45 @@ xref: smiles:CC(=O)SCCCCC[C@H](NC(=O)[C@H]1CCC(=O)N1)C(=O)Nc2ccccc2
 [Term]
 id: HBP:HBP00262
 name: Tau antibody, AGG5759
+namespace: antibody
 def: "Rabbit polyclonal antibody against tau pSer262, AstraZeneca" [pmid:23666762]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00263
 name: Tau epitope, AD2
+namespace: epitope
 def: "Tau epitope consisting of pThr396 and pSer404" [pmid:11943212]
 is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00264
 name: Tau epitope, AP422
+namespace: epitope
 def: "Tau epitope consisting of pSer422" [pmid:11943212]
 is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00265
 name: Tau epitope, AT100
+namespace: epitope
 def: "Tau epitope consisting of pSer212 and pThr214" [pmid:22833681]
 is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00266
 name: Tau epitope, AT270
+namespace: epitope
 def: "Tau epitope consisting of pThr181" [pmid:11943212]
 is_a: HBP:HBP00307 ! Tau epitope
 
 [Term]
 id: HBP:HBP00267
 name: Thiamet G
+namespace: chemical
 def: "Inhibitor of O-GlcNAcase (OGA)" [pmid:22833681]
 synonym: "(3aR)-2-(Ethylamino)-6beta,7alpha-dihydroxy-3aalpha,6,7,7aalpha-tetrahydro-5H-pyrano[3,2-d]thiazole-5alpha-methanol" EXACT [pubchem.compound:24808478]
+synonym: "(3aR,5R,6S,7R,7aR)-2-(Ethylamino)-3a,6,7,7a-tetrahydro-5-(hydroxymethyl)-5H-pyrano[3,2-d]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
 synonym: "(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3a,6,7,7a-tetrahydro-5H-pyrano[3,2-d]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
 synonym: "(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3aH,5H,6H,7H,7aH-pyrano[3,2-d][1,3]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
 synonym: "1,2-Dideoxy-2'-ethylamino-a-D-glucopyranoso-[2,1-d]-2'-thiazoline" EXACT [pubchem.compound:24808478]
@@ -2220,6 +2501,7 @@ synonym: "EX-A2240" EXACT [pubchem.compound:24808478]
 synonym: "HMS3648I18" EXACT [pubchem.compound:24808478]
 synonym: "HY-12588" EXACT [pubchem.compound:24808478]
 synonym: "J-000295" EXACT [pubchem.compound:24808478]
+synonym: "MFCD15144964" EXACT [pubchem.compound:24808478]
 synonym: "NCGC00344096-03" EXACT [pubchem.compound:24808478]
 synonym: "SR-01000946377" EXACT [pubchem.compound:24808478]
 synonym: "SR-01000946377-1" EXACT [pubchem.compound:24808478]
@@ -2239,18 +2521,22 @@ xref: smiles:CCNC1=NC2C(C(C(OC2S1)CO)O)O
 [Term]
 id: HBP:HBP00268
 name: Thioflavin S
+namespace: chemical_mixture
 def: "Dye binding to PHF used in AD diagnostics" [pmid:7667312]
 
 [Term]
 id: HBP:HBP00269
 name: Trithiocarbonates
+namespace: chemical_class
 def: "Chemical compound group of susbtrate competitive selective HDAC6 inhibitors" [pmid:18558669]
 
 [Term]
 id: HBP:HBP00270
 name: Tubacin
+namespace: chemical
 def: "Inhibitor of HDAC6" [pmid:23487739]
 xref: cas:537049-40-4
+xref: chebi:CHEBI:94166
 xref: chebi:CHEBI:94166
 xref: inchi:InChI=1S/C41H43N3O7S/c45-26-28-17-19-29(20-18-28)35-25-34(27-52-41-43-38(30-11-5-3-6-12-30)39(51-41)31-13-7-4-8-14-31)49-40(50-35)32-21-23-33(24-22-32)42-36(46)15-9-1-2-10-16-37(47)44-48/h3-8,11-14,17-24,34-35,40,45,48H,1-2,9-10,15-16,25-27H2,(H,42,4
 xref: iupac:N1-[4-[(2R,4R,6S)-4-[[(4,5-diphenyl-2-oxazolyl)thio]methyl]-6-[4-(hydroxymethyl)phenyl]-1,3-dioxan-2-yl]phenyl]-N8-hydroxy-octanediamide
@@ -2259,8 +2545,10 @@ xref: smiles:O=C(CCCCCCC(NO)=O)NC(C=C1)=CC=C1[C@@H]2O[C@H](C3=CC=C(CO)C=C3)C[C@H
 [Term]
 id: HBP:HBP00271
 name: Tubastatin A
+namespace: chemical
 def: "Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load" [pmid:24844691]
 xref: cas:1252003-15-8
+xref: chebi:CHEBI:94186
 xref: chebi:CHEBI:94186
 xref: inchi:InChI=1S/C20H21N3O2/c1-22-11-10-19-17(13-22)16-4-2-3-5-18(16)23(19)12-14-6-8-15(9-7-14)20(24)21-25/h2-9,25H,10-13H2,1H3,(H,21,24)
 xref: smiles:ONC(C1=CC=C(CN2C(CCN(C)C3)=C3C4=C2C=CC=C4)C=C1)=O
@@ -2268,21 +2556,25 @@ xref: smiles:ONC(C1=CC=C(CN2C(CCN(C)C3)=C3C4=C2C=CC=C4)C=C1)=O
 [Term]
 id: HBP:HBP00272
 name: USP14 Aptamer
+namespace: aptamer
 def: "Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme." [pmid:26041011]
 
 [Term]
 id: HBP:HBP00273
 name: cholinergic neuron
+namespace: anatomy
 def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." [pmid:29221819]
 
 [Term]
 id: HBP:HBP00274
 name: cerebral cortex
+namespace: anatomy
 def: "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex." [pmid:29221819]
 
 [Term]
 id: HBP:HBP00275
 name: crebinostat
+namespace: chemical
 def: "Inhibitor of HDAC6" [pmid:25546293]
 xref: cas:1092061-61-4
 xref: inchi:InChI=1S/C20H23N3O3/c24-19(9-5-2-6-10-20(25)23-26)22-21-15-16-11-13-18(14-12-16)17-7-3-1-4-8-17/h1,3-4,7-8,11-15,26H,2,5-6,9-10H2,(H,22,24)(H,23,25)/b21-15+
@@ -2291,21 +2583,25 @@ xref: smiles:C1=CC=CC(=C1)C2=CC=C(C=C2)C=NNC(CCCCCC(=O)NO)=O
 [Term]
 id: HBP:HBP00276
 name: diaminothiazole
+namespace: chemical_class
 def: "Compound class with kinase inhibition properties, specifically for CDK5 and GSK3Beta" [pmid:23737518]
 
 [Term]
 id: HBP:HBP00277
 name: entorhinal cortex layer 2
+namespace: anatomy
 def: "Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex." [pmid:27798139]
 
 [Term]
 id: HBP:HBP00278
 name: granular layer of cerebellar cortex
+namespace: anatomy
 def: "The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer." [pmid:29221819]
 
 [Term]
 id: HBP:HBP00279
 name: indirubin
+namespace: chemical
 def: "A powerful inhibitor of GSK3B" [pmid:11013232]
 xref: cas:479-41-4
 xref: chemspider:4477010
@@ -2315,6 +2611,7 @@ xref: smiles:c1ccc2c(c1)/C(=C/3\C(=O)c4ccccc4N3)/C(=O)N2
 [Term]
 id: HBP:HBP00280
 name: isocarboxazide
+namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
 synonym: "1-Benzyl-2-(5-methyl-3-isoxazolyl-carbonyl)hydrazine" EXACT [pubchem.compound:3759]
 synonym: "1-Benzyl-2-(5-methyl-3-isoxazolylcarbonyl)hydrazine" EXACT [pubchem.compound:3759]
@@ -2350,6 +2647,7 @@ synonym: "CCG-220795" EXACT [pubchem.compound:3759]
 synonym: "CCRIS 9178" EXACT [pubchem.compound:3759]
 synonym: "CHEBI:93635" EXACT [pubchem.compound:3759]
 synonym: "CHEMBL1201168" EXACT [pubchem.compound:3759]
+synonym: "CS-0008613" EXACT [pubchem.compound:3759]
 synonym: "CTK8B7692" EXACT [pubchem.compound:3759]
 synonym: "D02580" EXACT [pubchem.compound:3759]
 synonym: "D0I2VK" EXACT [pubchem.compound:3759]
@@ -2368,6 +2666,8 @@ synonym: "HMS2097O12" EXACT [pubchem.compound:3759]
 synonym: "HMS2230E11" EXACT [pubchem.compound:3759]
 synonym: "HMS3369G18" EXACT [pubchem.compound:3759]
 synonym: "HMS3714O12" EXACT [pubchem.compound:3759]
+synonym: "HY-13929" EXACT [pubchem.compound:3759]
+synonym: "ISOCARBOXAZID (200 MG)" EXACT [pubchem.compound:3759]
 synonym: "Isocarbonazid" EXACT [pubchem.compound:3759]
 synonym: "Isocarbossazide" EXACT [pubchem.compound:3759]
 synonym: "Isocarbossazide [DCIT]" EXACT [pubchem.compound:3759]
@@ -2424,6 +2724,7 @@ synonym: "Y0484" EXACT [pubchem.compound:3759]
 synonym: "ZINC1587" EXACT [pubchem.compound:3759]
 synonym: "isocarboxazid" EXACT [pubchem.compound:3759]
 xref: chebi:CHEBI:93635
+xref: chebi:CHEBI:93635
 xref: chembl:CHEMBL1201168
 xref: drugbank:DB01247
 xref: inchi:InChI=1S/C12H13N3O2/c1-9-7-11(15-17-9)12(16)14-13-8-10-5-3-2-4-6-10/h2-7,13H,8H2,1H3,(H,14,16)
@@ -2433,6 +2734,7 @@ xref: smiles:CC1=CC(=NO1)C(=O)NNCC1=CC=CC=C1
 [Term]
 id: HBP:HBP00281
 name: isopentanyladenine
+namespace: chemical
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
 synonym: "(3-methyl-but-2-enyl)-(7(9)H-purin-6-yl)-amine" EXACT [pubchem.compound:92180]
 synonym: "(3-methylbut-2-enyl)purin-6-ylamine" EXACT [pubchem.compound:92180]
@@ -2498,6 +2800,7 @@ synonym: "Isopentenyladenine" EXACT [pubchem.compound:92180]
 synonym: "KB-57456" EXACT [pubchem.compound:92180]
 synonym: "LS-184209" EXACT [pubchem.compound:92180]
 synonym: "MCULE-6781114249" EXACT [pubchem.compound:92180]
+synonym: "MFCD00132998" EXACT [pubchem.compound:92180]
 synonym: "MolPort-002-511-573" EXACT [pubchem.compound:92180]
 synonym: "N(6)-(.DELTA.2-Isopentenyl)aminopurine" EXACT [pubchem.compound:92180]
 synonym: "N(6)-(Delta2-isopentenyl)adenine" EXACT [pubchem.compound:92180]
@@ -2557,6 +2860,7 @@ synonym: "ZX-AFC000343" EXACT [pubchem.compound:92180]
 synonym: "isopentenyl-adenine" EXACT [pubchem.compound:92180]
 synonym: "n-isopentenyladenine" EXACT [pubchem.compound:92180]
 xref: chebi:CHEBI:17660
+xref: chebi:CHEBI:17660
 xref: drugbank:DB08768
 xref: inchi:InChI=1S/C10H13N5/c1-7(2)3-4-11-9-8-10(13-5-12-8)15-6-14-9/h3,5-6H,4H2,1-2H3,(H2,11,12,13,14,15)
 xref: pubchem.compound:92180
@@ -2565,6 +2869,7 @@ xref: smiles:CC(=CCNC1=NC=NC2=C1NC=N2)C
 [Term]
 id: HBP:HBP00282
 name: maitotoxin
+namespace: chemical
 def: "Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former" [pmid:10537045]
 synonym: "9P59GES78D" EXACT [pubchem.compound:71460273]
 synonym: "CHEMBL2152261" EXACT [pubchem.compound:71460273]
@@ -2582,6 +2887,7 @@ xref: smiles:C[C@H](CC[C@@H]([C@@H]([C@H](C)C[C@H](C(=C)/C(=C/CO)/C)O)O)OS(=O)(=
 [Term]
 id: HBP:HBP00283
 name: olomoucine
+namespace: chemical
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
 synonym: "101622-51-9" EXACT [pubchem.compound:4592]
 synonym: "1966AH" EXACT [pubchem.compound:4592]
@@ -2648,6 +2954,7 @@ synonym: "HMS3262B08" EXACT [pubchem.compound:4592]
 synonym: "HMS3267L09" EXACT [pubchem.compound:4592]
 synonym: "HMS3403B11" EXACT [pubchem.compound:4592]
 synonym: "HMS3650F19" EXACT [pubchem.compound:4592]
+synonym: "HMS3676E10" EXACT [pubchem.compound:4592]
 synonym: "IDI1_002090" EXACT [pubchem.compound:4592]
 synonym: "IN1179" EXACT [pubchem.compound:4592]
 synonym: "IN1182" EXACT [pubchem.compound:4592]
@@ -2712,6 +3019,7 @@ synonym: "ZX-AFC001655" EXACT [pubchem.compound:4592]
 synonym: "olomoucine" EXACT [pubchem.compound:4592]
 synonym: "purine deriv. 5" EXACT [pubchem.compound:4592]
 xref: chebi:CHEBI:44661
+xref: chebi:CHEBI:44661
 xref: drugbank:DB02116
 xref: inchi:InChI=1S/C15H18N6O/c1-21-10-18-12-13(17-9-11-5-3-2-4-6-11)19-15(16-7-8-22)20-14(12)21/h2-6,10,22H,7-9H2,1H3,(H2,16,17,19,20)
 xref: pubchem.compound:4592
@@ -2720,6 +3028,7 @@ xref: smiles:CN1C=NC2=C1N=C(NCCO)N=C2NCC1=CC=CC=C1
 [Term]
 id: HBP:HBP00284
 name: oxazolidinedione
+namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
 synonym: "1,3-oxazolidin-2,4-dione" EXACT [pubchem.compound:97389]
 synonym: "1,3-oxazolidine-2,4-dione" EXACT [pubchem.compound:97389]
@@ -2748,6 +3057,7 @@ synonym: "F2167-1227" EXACT [pubchem.compound:97389]
 synonym: "FT-0704394" EXACT [pubchem.compound:97389]
 synonym: "KB-67472" EXACT [pubchem.compound:97389]
 synonym: "KS-00000MOC" EXACT [pubchem.compound:97389]
+synonym: "MFCD02691902" EXACT [pubchem.compound:97389]
 synonym: "MolPort-018-280-326" EXACT [pubchem.compound:97389]
 synonym: "NSC 120350" EXACT [pubchem.compound:97389]
 synonym: "NSC-120350" EXACT [pubchem.compound:97389]
@@ -2771,6 +3081,7 @@ xref: smiles:C1C(=O)NC(=O)O1
 [Term]
 id: HBP:HBP00285
 name: sudoxicam
+namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
 synonym: "(3E)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
 synonym: "(3Z)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
@@ -2826,6 +3137,7 @@ xref: smiles:CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=NC=CS3
 [Term]
 id: HBP:HBP00286
 name: thiohydantoin
+namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
 xref: chembl:CHEMBL1958109
 xref: chemspider:1069421
@@ -2835,16 +3147,19 @@ xref: smiles:O=C1CNC(=S)N1
 [Term]
 id: HBP:HBP00287
 name: thioxooxazolidine
+namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
 
 [Term]
 id: HBP:HBP00288
 name: tideglusib
+namespace: chemical
 def: "Irreversibly inhibits GSK3B activity" [pmid:22102280]
 synonym: "1,2,4-Thiadiazolidine-3,5-dione, 2-(1-naphthalenyl)-4-(phenylmethyl)-" EXACT [pubchem.compound:11313622]
 synonym: "4-Benzyl-2-(naphthalen-1-yl)-1,2,4-thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
 synonym: "4-Benzyl-2-(naphthalen-1-yl)-[1,2,4]thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
 synonym: "4-benzyl-2-(naphthalen-1-yl)-(1,2,4)thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
+synonym: "4-benzyl-2-naphthalen-1-yl-1,2,4-thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
 synonym: "4CA-1249" EXACT [pubchem.compound:11313622]
 synonym: "865854-05-3" EXACT [pubchem.compound:11313622]
 synonym: "AK176015" EXACT [pubchem.compound:11313622]
@@ -2866,6 +3181,7 @@ synonym: "GTPL6929" EXACT [pubchem.compound:11313622]
 synonym: "HY-14872" EXACT [pubchem.compound:11313622]
 synonym: "J-514478" EXACT [pubchem.compound:11313622]
 synonym: "KB-81154" EXACT [pubchem.compound:11313622]
+synonym: "MFCD18633296" EXACT [pubchem.compound:11313622]
 synonym: "MolPort-028-599-952" EXACT [pubchem.compound:11313622]
 synonym: "NP 031112" EXACT [pubchem.compound:11313622]
 synonym: "NP-031112" EXACT [pubchem.compound:11313622]
@@ -2894,12 +3210,14 @@ xref: smiles:O=C3SN(c1cccc2c1cccc2)C(=O)N3Cc4ccccc4
 [Term]
 id: HBP:HBP00289
 name: Tau antibody, 6C5
+namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 125-131" [pmid:28408124]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00290
 name: Tau antibody, HT7
+namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 159-163" [pmid:28408124]
 is_a: HBP:HBP00307 ! Tau antibody
 
@@ -2916,40 +3234,47 @@ def: "During synthesis the HS chains are selectively sulfated at the N, 6-O, and
 [Term]
 id: HBP:HBP00293
 name: sonicated tau fibrils
+namespace: cellular_component
 def: "To make sonicated fibril samples, fibrillized protein was sonicated using a MiSonix Sonicator 4000 (QSonica, LLC) at 50% amplitude for 60 1 s pulses" [pmid:29686391]
 
 [Term]
 id: HBP:HBP00294
 name: Tau antibody, 40E8
+namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)" [pmid:28408124]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00295
 name: Tau antibody, pS396
+namespace: antibody
 def: "rabbit polyclonal antibody that targets tau pS396" [pmid:28408124]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00296
 name: Tau antibody, 4E4
+namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 385-395" [pmid:28408124]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00297
 name: Tau antibody, Tau46
+namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 404-441" [pmid:28408124]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00298
 name: cis p-tau
+namespace: protein
 def: "The cis conformation of phosphorylated tau is considered to be the main pathogenic tau agent associated with AD neurological impairments. PIN1, a peptidyl-prolyl-cis-transe isomerase, catalizes the rotation of the peptidic bond directly before proline residues inducing a conversion toward the trans conformation, therefore reducing the presence of the pathogenic cis tau isomers." [pmid:23157676, pmid:25628064]
 
 [Term]
 id: HBP:HBP00299
 name: MPT0G211
+namespace: chemical
 def: "MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells." [pmid:29844403]
 xref: cas:2151853-97-1
 xref: inchi:InChI=1S/C17H15N3O2/c21-17(20-22)14-8-6-12(7-9-14)11-19-15-5-1-3-13-4-2-10-18-16(13)15/h1-10,19,22H,11H2,(H,20,21)
@@ -2958,24 +3283,29 @@ xref: smiles:C1=CC(=CC=C1CNC2=CC=CC3=C2N=CC=C3)C(=O)NC
 [Term]
 id: HBP:HBP00300
 name: peripheral nervous system injury
+namespace: pathology
 def: "PNS injuries initiate a signaling cascade that induces neuroregeneration. This cascade involves activation of ERK, subsequently leading to the activation of PCAF (KAT2B), which in turn mediates histone 3 acetylation, paving the way for transcriptional activation of the key genes in the regeneration program." [pmid:24686445]
 
 [Term]
 id: HBP:HBP00301
 name: Tau antibody, TNT1
+namespace: antibody
 def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00302
 name: Tau antibody, TNT2
+namespace: antibody
 def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
 is_a: HBP:HBP00307 ! Tau antibody
 
 [Term]
 id: HBP:HBP00303
 name: 8-nitro-cGMP
+namespace: chemical
 def: "One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers." [pmid:28213625, pmid:27601475]
+xref: chebi:CHEBI:136665
 xref: chebi:CHEBI:136665
 xref: inchi:InChI=1S/C10H11N6O9P/c11-9-13-6-3(7(18)14-9)12-10(16(19)20)15(6)8-4(17)5-2(24-8)1-23-26(21,22)25-5/h2,4-5,8,17H,1H2,(H,21,22)(H3,11,13,14,18)/t2-,4-,5-,8-/m1/s1
 xref: smiles:N1C(=NC2=C(N=C(N2[C@@H]3O[C@@H]4COP(O[C@H]4[C@H]3O)(=O)O)[N+]([O-])=O)C1=O)N
@@ -2983,31 +3313,37 @@ xref: smiles:N1C(=NC2=C(N=C(N2[C@@H]3O[C@@H]4COP(O[C@H]4[C@H]3O)(=O)O)[N+]([O-])
 [Term]
 id: HBP:HBP00304
 name: Tau dimers
+namespace: cellular_component
 def: "A key intermediate product of tau oligomerization to PHF and NFT formation, they consist of covalently linked antiparallel tau monomers presenting disulfide cross links between cystein residues." [pmid:27373205, pmid:10899437]
 
 [Term]
 id: HBP:HBP00305
 name: polysumoylation
+namespace: post_translational_modification
 def: "A post-translational modification consisting on the addition and covalent bonding of multiple SUMO (small ubiquitin-like modifiers) proteins to lysine residues of target proteins, mediating a wide range of physiological functions. Polysumoylation of APP was found to reduce the generation of amyloid beta peptides, while mono or under-sumoylation enhance Ab generation." [pmid:12506199]
 
 [Term]
 id: HBP:HBP00306
 name: detyrosination
+namespace: post_translational_modification
 def: "Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus." [pmid:25974414]
 
 [Term]
 id: HBP:HBP00307
 name: Tau antibody
+namespace: antibody
 def: "Antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
 
 [Term]
 id: HBP:HBP00308
 name: Tau epitope
+namespace: epitope
 def: "Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
 
 [Term]
 id: HBP:HBP00309
 name: S 24795
+namespace: chemical
 def: "A partial agonist at α7 nAChR" [pmid:18187166, pmid:18265960, pmid:18034231]
 synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT []
 synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT [pubchem.compound:9888248]
@@ -3029,11 +3365,14 @@ xref: smiles:C[N+]1=CC=CC=C1CC(=O)C2=CC=C(C=C2)Br.[I-]
 [Term]
 id: HBP:HBP00310
 name: GTS-21
+namespace: chemical
 def: "GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent." [pmid:25514383]
 synonym: "(3E)-3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine" EXACT [pubchem.compound:5310985]
 synonym: "(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-3,4,5,6-TETRAHYDRO-2,3''-BIPYRIDINE" EXACT [pubchem.compound:5310985]
+synonym: "(3e)-3-[(2,4-Dimethoxyphenyl)methylidene]-3,4,5,6-Tetrahydro-2,3'-Bipyridine" EXACT [pubchem.compound:5310985]
 synonym: "148372-04-7" EXACT [pubchem.compound:5310985]
 synonym: "2,3'-Bipyridine, 3-((2,4-dimethoxyphenyl)methylene)-3,4,5,6-tetrahydro-, (3E)-" EXACT [pubchem.compound:5310985]
+synonym: "2,3'-Bipyridine, 3-[(2,4-dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-, hydrochloride (1:2), (3E)-" EXACT [pubchem.compound:5310985]
 synonym: "2,4-Dimethoxybenzylidene anabaseine" EXACT [pubchem.compound:5310985]
 synonym: "2wnj" EXACT [pubchem.compound:5310985]
 synonym: "3 (2,4 dimethoxybenzylidene)anabaseine" EXACT [pubchem.compound:5310985]
@@ -3052,6 +3391,7 @@ synonym: "3-[(E)-(2,4-Dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-2,3'-bipyrid
 synonym: "3-[1-(2,4-Dimethoxy-phenyl)-meth-(E)-ylidene]-3,4,5,6-tetrahydro-[2,3'']bipyridinyl" EXACT [pubchem.compound:5310985]
 synonym: "419A471" EXACT [pubchem.compound:5310985]
 synonym: "8S399XDN2K" EXACT [pubchem.compound:5310985]
+synonym: "A15950" EXACT [pubchem.compound:5310985]
 synonym: "AC1NSJRW" EXACT [pubchem.compound:5310985]
 synonym: "AKOS005146470" EXACT [pubchem.compound:5310985]
 synonym: "ASIS-0106" EXACT [pubchem.compound:5310985]
@@ -3086,48 +3426,57 @@ xref: smiles:[H]\C(=C1\CCCN=C1C1=CN=CC=C1)C1=C(OC)C=C(OC)C=C1
 [Term]
 id: HBP:HBP00311
 name: alpha-4 alpha-5 beta-2 nAChR
+namespace: protein_complex
 def: "nAChR subtype found in cortex, hippocampus and neostriatum" [pmid:19721446]
-bel: complex(p(HGNC:CHRNA4), p(HGNC:CHRNA5), p(HGNC:CHRNB2))
+relationship: bel complex(p(HGNC:CHRNA4), p(HGNC:CHRNA5), p(HGNC:CHRNB2))
 
 [Term]
 id: HBP:HBP00312
 name: alpha-3 beta-4 nAChR
+namespace: protein_complex
 def: "nAChR subtype found in hippocampus, pineal gland and cerebellum" [pmid:19721446]
-bel: complex(p(HGNC:CHRNA3), p(HGNC:CHRNB4))
+relationship: bel complex(p(HGNC:CHRNA3), p(HGNC:CHRNB4))
 
 [Term]
 id: HBP:HBP00313
 name: alpha-3 beta-3 beta-4 nAChR
+namespace: protein_complex
 def: "nAChR subtype found in habenula and interpeduncular nucleus" [pmid:19721446]
 
 [Term]
 id: HBP:HBP00314
 name: alpha-6 beta-2 beta-3 nAChR
+namespace: protein_complex
 def: "nAChR subtype found in locus coeruleus, substantia nigra and neostriatum" [pmid:19721446]
 
 [Term]
 id: HBP:HBP00315
 name: alpha-2 beta-2 nAChR
+namespace: protein_complex
 def: "nAChR subtype found in interpeduncular nucleus" [pmid:19721446]
 
 [Term]
 id: HBP:HBP00316
 name: alpha-6 alpha-4 beta-2 beta-3 nAChR
+namespace: protein_complex
 def: "nAChR subtype found in neostriatum" [pmid:19721446]
 
 [Term]
 id: HBP:HBP00317
 name: protein aggregation
+namespace: biological_process
 def: "Protein aggregation occurs in vivo as a result of improper folding or misfolding" [pmid:11831622]
 
 [Term]
 id: HBP:HBP00318
 name: nAChR assembly
+namespace: biological_process
 def: "the process of assembling a receptor pentamer from the Nicotinic acetylcholine receptors subunits" [pmid:19126755]
 
 [Term]
 id: HBP:HBP00319
 name: 4-OH-GTS-21
+namespace: chemical
 def: "A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl" [pmid:25514383]
 synonym: "3-(4-hydroxy-2-methoxybenzylidene) anabaseine" EXACT [pmid:25514383]
 synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
@@ -3139,17 +3488,20 @@ xref: smiles:COC1=C(C=CC(=C1)O)C=C2CCCN=C2C3=CC=CN=C3
 [Term]
 id: HBP:HBP00320
 name: isolation rearing
+namespace: exposure
 def: "An animal model in which rats, immediately after weaning (usually postnatal day 21), are housed in isolation from siblings for an extended period (usually several weeks). In adulthood, these animals show many characteristics also seen in patients with schizophrenia" [pmid:16820021]
 
 [Term]
 id: HBP:HBP00321
 name: Tau aggregation inhibitor
+namespace: chemical_role
 def: "A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates" [pmid:23484434]
 xref: chebi:CHEBI:142738
 
 [Term]
 id: HBP:HBP00322
 name: 1,3-Thiazole-2,4-diamine
+namespace: chemical
 def: "A thiazole with two amino substituents" [pmid:21353545, pmid:20524425, pmid:11148059]
 synonym: "1,3-thiazole-2,4-diamine" EXACT [pubchem.compound:118995]
 synonym: "2,4-thiazolediamine" EXACT [pubchem.compound:118995]
@@ -3168,6 +3520,7 @@ synonym: "FT-0707053" EXACT [pubchem.compound:118995]
 synonym: "KB-261000" EXACT [pubchem.compound:118995]
 synonym: "M-8345" EXACT [pubchem.compound:118995]
 synonym: "MCULE-4736308679" EXACT [pubchem.compound:118995]
+synonym: "MFCD06738274" EXACT [pubchem.compound:118995]
 synonym: "MolPort-002-471-220" EXACT [pubchem.compound:118995]
 synonym: "QC-6319" EXACT [pubchem.compound:118995]
 synonym: "SCHEMBL461605" EXACT [pubchem.compound:118995]
@@ -3184,21 +3537,25 @@ xref: smiles:C1=C(N=C(S1)N)N
 [Term]
 id: HBP:HBP00323
 name: Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
+namespace: pathology
 def: "Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor" [pmid:30472464]
 
 [Term]
 id: HBP:HBP00324
 name: FK1 antibody
+namespace: antibody
 def: "Anti-Ubiquitinylated proteins Antibod" [pmid:16338350]
 
 [Term]
 id: HBP:HBP00325
 name: amyloid-beta antibody, NU1
+namespace: antibody
 def: "monoclonal antibody that is specific for amyloid-beta oligomers" [pmid:17403556]
 
 [Term]
 id: HBP:HBP00326
 name: B-973
+namespace: chemical
 def: "Here we report the discovery and characterization of 3-(3,4-difluorophenyl)-N-(1-(6-(4-(pyridin-2-yl)piperazin-1-yl)pyrazin-2-yl)ethyl)propanamide (B-973), a piperazine containing α7 type II PAM" [pmid:28132910]
 xref: inchi:InChI=1S/C24H26F2N6O/c1-17(29-24(33)8-6-18-5-7-19(25)20(26)14-18)21-15-27-16-23(30-21)32-12-10-31(11-13-32)22-4-2-3-9-28-22/h2-5,7,9,14-17H,6,8,10-13H2,1H3,(H,29,33)/t17-/m0/s1
 xref: smiles:C1=C(C(=CC=C1CCC(N[C@H](C2=CN=CC(=N2)N3CCN(CC3)C4=NC=CC=C4)C)=O)F)F
@@ -3206,133 +3563,163 @@ xref: smiles:C1=C(C(=CC=C1CCC(N[C@H](C2=CN=CC(=N2)N3CCN(CC3)C4=NC=CC=C4)C)=O)F)F
 [Term]
 id: HBP:HBP00327
 name: GPBC, alpha-7 nAChR
+namespace: domain
 def: "An alignment of residues in the M3-M4 loop of alpha-7 nAChR that contribute to the binding of G-protein" [pmid:24185813, pmid:26088141]
 
 [Term]
 id: HBP:HBP00328
 name: GPBC, Glycine Receptor 1
+namespace: domain
 def: "An alignment of residues in the M3-M4 loop of GPBC, Glycine Receptor 1 (GLRA1) that contribute to the binding of G-protein" [pmid:24185813, pmid:26088141]
 
 [Term]
 id: HBP:HBP00329
 name: N-terminal fragment of ATF6
+namespace: protein_fragment
 def: "N-terminal fragment of the protein ATF6, generated by cleavage through SP1 and SP2 proteases" [pmid:25784053]
 
 [Term]
 id: HBP:HBP00330
 name: misfolded
+namespace: post_translational_modification
 def: "Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway" [pmid:16689923]
 
 [Term]
 id: HBP:HBP00331
 name: OSW-1
+namespace: chemical
 def: "A novel cholestane glycoside called OSW-1 (3b, 16b, 17a-trihydroxycholest-5-en-22-one 16-O-(2-O-4-methoxybenzoyl-bD-xylopyranosyl) - (1?3) -(2-O-acetyl-a-L-arabinopyranoside)) was recently isolated from Ornithogalum saundersiae (Kubo et al., 1992) and has been found to have a potent growth inhibitory activity on a human tumour cell line" [pmid:9283720]
 
 [Term]
 id: HBP:HBP00332
 name: EC102
+namespace: chemical
 def: "low–molecular weight Hsp90 N-terminal domain inhibitor" [pmid:17304350]
 
 [Term]
 id: HBP:HBP00333
 name: KU-177
+namespace: chemical
 def: "inhibitor of Aha1" [pmid:28827321]
 
 [Term]
 id: HBP:HBP00334
 name: UBB+1
+namespace: protein_variant
 def: "Ubb+1, a ubiquitin (Ub) mutant protein originating from misreading of the Ub B gene" [pmid:29175520]
 
 [Term]
 id: HBP:HBP00335
 name: Phenylthiazolyl-hydrazide
+namespace: chemical
 def: "inhibitor of tau aggregation and toxicity in vitro and in cells" [pmid:17685560]
 
 [Term]
 id: HBP:HBP00336
 name: EEVD motif
+namespace: motif
 def: "an acidic motif,EEVD, located at the extreme carboxyl terminus of nearly all Hsp7Os which has an essential role in regulating the biochemical properties of Hsp7O and interactions with HDJ-1" [pmid:7774586]
 
 [Term]
 id: HBP:HBP00337
 name: Hsp27 oligomers
+namespace: cellular_component
 def: "Hsp27 exists as an ensemble of oligomers,which range in size from dimers to approximately 32 mers or greater" [pmid:21882945]
 
 [Term]
 id: HBP:HBP00338
 name: SK and F 77434
+namespace: chemical
 def: "a dopamine D1 receptor partial agonist" [pmid:16820021]
 
 [Term]
 id: HBP:HBP00339
 name: [125I]-NCQ 298
+namespace: chemical
 def: "a new selective iodinated salicylamide ligand for the labelling of dopamine D2 receptors with 125I." [pmid:16820021]
 
 [Term]
 id: HBP:HBP00340
 name: AAV-FKBP1B
+namespace: protein
 def: "Adeno-associated virus expressing Mouse Fkbp1b." [pmid:29255009]
 
 [Term]
 id: HBP:HBP00341
 name: Proteostasis
+namespace: biological_process
 def: "Regulation of the concentration, folding, interactions, and cellular localization of each of the proteins that comprise the proteome" [pmid:29127110]
 xref: mesh:D000074702
 
 [Term]
 id: HBP:HBP00342
 name: N-terminal fragment of APP
+namespace: domain
 def: "Fragment of APP (N-APP) that contains heparin-binding and metal-binding domains and that has been found to have biological activity" [pmid:24916405]
-bel: p(HGNC:APP, frag(1_?))
+relationship: bel p(HGNC:APP, frag(1_?))
 
 [Term]
 id: HBP:HBP00343
 name: polyQ aggregates
+namespace: cellular_component
 def: "Aggregates due to mutations of proteins that lead to polyQ expansions" [pmid:23483542]
 
 [Term]
 id: HBP:HBP00344
 name: Q82 aggregates
+namespace: cellular_component
 def: "Aggregates of proteins consisting of polyglutamine stretches with 82 glutamine residues" [pmid:10811890]
 
 [Term]
 id: HBP:HBP00345
 name: non-enzymatic protein modification
+namespace: biological_process
 def: "Post-translational protein modifications that were not caused by enzymatic reactions" [pmid:24563850]
 
 [Term]
 id: HBP:HBP00346
 name: bb14
+namespace: chemical
 def: "Tau aggregation inhibitor bb14 (from the rhodanine class of compounds)" [pmid:26510979]
 
 [Term]
 id: HBP:HBP00347
 name: cmp16
+namespace: chemical
 def: "Tau aggregation inhibitor" [pmid:20392114]
 
 [Term]
 id: HBP:HBP00348
 name: misfolding
+namespace: biological_process
 def: "Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway" [pmid:16689923]
 
 [Term]
 id: HBP:HBP00349
 name: AG18051
+namespace: chemical
 def: "ABAD inhibitor" [pmid:22174920]
+xref: inchi:InChI=1S/C19H21N5OS/c25-18(23-10-6-1-2-7-11-23)16(14-8-4-3-5-9-14)24-13-20-17-15(19(24)26)12-21-22-17/h3-5,8-9,12-13,16H,1-2,6-7,10-11H2,(H,21,22)
+xref: smiles:C1=N[N]C2=C1C(=S)N(C=N2)C(C(=O)C3CCCCCC3)C4=CC=CC=C4
 
 [Term]
 id: HBP:HBP00350
 name: RM-532-46
+namespace: chemical
 def: "ABAD inhibitor" [pmid:22674910]
+xref: inchi:InChI=1S/C30H44N2O3/c1-35-23-4-2-3-21(17-23)19-31-13-15-32(16-14-31)20-30(34)12-11-24-22(18-30)5-6-26-25(24)7-8-28-27(26)9-10-29(28)33/h2-4,17,22,24-28,34H,5-16,18-20H2,1H3/t22-,24-,25+,26+,27-,28-,30+/m0/s1
+xref: smiles:C1[C@H]4[C@H](C[C@](C1)(CN2CCN(CC2)CC3=CC(=CC=C3)OC)O)CC[C@@H]5[C@@H]4CC[C@H]6[C@H]5CCC6=O
 
 [Term]
 id: HBP:HBP00351
 name: deamidation
+namespace: post_translational_modification
 def: "The removal of an amide group from a peptide's side chain" [pmid:26631930]
 
 [Term]
 id: HBP:HBP00352
 name: Mini-Mental Status Exam
+namespace: clinical_measurement
 def: "A standardized and structured interview originally developed by Marshal Folstein, Susan Folstein and Paul McHugh (Journal of Psychiatric Research, 1975), which is used to evaluate an individual's cognitive function." [ncit:C74982]
 synonym: "Folstein Mini-Mental Status Exam" EXACT [ncit:C74982]
 synonym: "MMS1" EXACT [ncit:C74982]
@@ -3345,25 +3732,47 @@ xref: umls:C0451306
 [Term]
 id: HBP:HBP00353
 name: GLAP
+namespace: chemical
 def: "glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation" [pmid:25582325, pmid:17284838]
+synonym: "1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium" EXACT [pmid:12784645]
+synonym: "Glyceraldehyde derived Pyridinium compound" EXACT [pmid:12784645]
+synonym: "Glyceraldehyde-derived Pyridinium compound" EXACT [pmid:12784645]
+xref: inchi:InChI=1S/C12H18N2O4/c13-4-2-1-3-11(12(17)18)14-6-9(8-15)5-10(16)7-14/h5-7,11,15H,1-4,8,13H2,(H-,16,17,18)/t11-/m0/s1
+xref: smiles:NCCCC[C@@H](C(=O)O)[N+]1=CC(=CC(=C1)[O-])CO
 
 [Term]
 id: HBP:HBP00354
 name: Tau 6D
+namespace: isoform
 def: "In addition to the 3′ splice site at the end of exon 6, there are two alternate 3′ splice sites within exon 6 itself, termed “6P” and “6D” according to location (Fig. 1). Use of either of these splice sites results in a frame shift that introduces a unique amino acid sequence, PCCVPRATFLS (6P) or FWSKGDETQGG (6D), followed by a stop codon. As a result, tau 6P and 6D isoforms are truncated, lacking part of the proline-rich region, the MTBR region, and C-terminus" [pmid:21734277, pmid:19919107]
 
 [Term]
 id: HBP:HBP00355
 name: Tau 6P
+namespace: isoform
 def: "In addition to the 3′ splice site at the end of exon 6, there are two alternate 3′ splice sites within exon 6 itself, termed “6P” and “6D” according to location (Fig. 1). Use of either of these splice sites results in a frame shift that introduces a unique amino acid sequence, PCCVPRATFLS (6P) or FWSKGDETQGG (6D), followed by a stop codon. As a result, tau 6P and 6D isoforms are truncated, lacking part of the proline-rich region, the MTBR region, and C-terminus" [pmid:21734277, pmid:19919107]
 
 [Term]
 id: HBP:HBP00356
 name: Peripheral Tissue
+namespace: anatomy
 def: "Parts of the body that act as a response to a change in the environment, the body's functions, molecule levels, etc." [pmid:27758088]
 
 [Term]
 id: HBP:HBP00357
 name: tau polyclonal antibody
+namespace: antibody
 def: "Antibodies, that are able to bind different epitopes of the tau protein" [pmid:29590627]
+
+[Term]
+id: HBP:HBP00358
+name: TDP-43 oligomers
+namespace: cellular_component
+def: "oligomers form during the early steps of TDP-43 misfolding" [pmid:30824544]
+
+[Term]
+id: HBP:HBP00359
+name: TDP-43 aggregates
+namespace: cellular_component
+def: "TDP-43 aggregates are formed through a biphasic process that initiates with oligomerization followed by aggregation into high molecular weight polymers" [pmid:30824544]
 

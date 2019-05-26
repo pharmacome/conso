@@ -266,6 +266,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(morpholin-4-yl)-8-phenyl-4H-chromen-4-one</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(morpholin-4-yl)-8-phenylchromen-4-one</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-MORPHOLIN-4-YL-7-PHENYL-4H-CHROMEN-4-ONE</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Morpholin-4-yl-8-phenyl-chromen-4-one</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Morpholino-8-phenyl-4-oxo-4H-1-benzopyran</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Morpholino-8-phenylchromone</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-morpholin-4-yl-8-phenyl-4H-chromen-4-one</skos:altLabel>
@@ -319,6 +320,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D0X7NA</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB02656</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTXSID6042650</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC-000.2341</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EX-A073</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FT-0660382</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GTPL6004</skos:altLabel>
@@ -589,8 +591,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small aggregates of amyloid-beta</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta oligomers</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:29196815</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24918635</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:29196815</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
@@ -672,6 +674,7 @@
   <rdfs:subClassOf rdf:resource="#HBPC6"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro3-GIP is a rat hormone that is an agonist of GIP</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro3-GIP</rdfs:label>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKOS034831571</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Pro3]-GIP (Rat)</skos:altLabel>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18234983</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C226H343N61O64S/c1-21-115(12)181(285-216(341)165(109-289)279-201(326)151(92-126-63-67-131(293)68-64-126)266-210(335)163(102-179(309)310)276-215(340)164(108-288)280-221(346)183(117(14)23-3)284-214(339)153(91-124-48-28-25-29-49-124)277-222(347)184(121(18)290)281-175(302)107-247-217(342)166-60-45-84-287(166)224(349)120(17)251-188(313)134(232)89-125-61-65-130(292)66-62-125)219(344)250-119(16)187(312)254-146(77-85-352-20)197(322)274-160(99-176(303)304)208(333)258-141(58-38-43-82-231)198(323)283-182(116(13)22-2)220(345)261-142(59-44-83-243-226(240)241)191(316)259-144(70-74-168(234)295)195(320)260-145(71-75-169(235)296)196(321)273-161(100-177(305)306)209(334)267-152(90-123-46-26-24-27-47-123)213(338)282-180(114(10)11)218(343)278-159(98-173(239)300)207(332)268-155(94-128-104-245-136-53-33-31-51-133(128)136)203(328)264-149(87-112(6)7)200(325)263-148(86-111(4)5)199(324)249-118(15)186(311)253-143(69-73-167(233)294)194(319)255-137(54-34-39-78-227)189(314)246-106-174(301)252-138(55-35-40-79-228)190(315)256-139(56-36-41-80-229)193(318)271-157(96-171(237)298)206(331)275-162(101-178(307)308)211(336)269-154(93-127-103-244-135-52-32-30-50-132(127)135)202(327)257-140(57-37-42-81-230)192(317)270-156(95-129-105-242-110-248-129)204(329)272-158(97-172(238)299)205(330)265-150(88-113(8)9)212(337)286-185(122(19)291)223(348)262-147(225(350)351)72-76-170(236)297/h24-33,46-53,61-68,103-105,110-122,134,137-166,180-185,244-245,288-293H,21-23,34-45,54-60,69-102,106-109,227-232H2,1-20H3,(H2,233,294)(H2,234,295)(H2,235,296)(H2,236,297)(H2,237,298)(H2,238,299)(H2,239,300)(H,242,248)(H,246,314)(H,247,342)(H,249,324)(H,250,344)(H,251,313)(H,252,301)(H,253,311)(H,254,312)(H,255,319)(H,256,315)(H,257,327)(H,258,333)(H,259,316)(H,260,320)(H,261,345)(H,262,348)(H,263,325)(H,264,328)(H,265,330)(H,266,335)(H,267,334)(H,268,332)(H,269,336)(H,270,317)(H,271,318)(H,272,329)(H,273,321)(H,274,322)(H,275,331)(H,276,340)(H,277,347)(H,278,343)(H,279,326)(H,280,346)(H,281,302)(H,282,338)(H,283,323)(H,284,339)(H,285,341)(H,286,337)(H,303,304)(H,305,306)(H,307,308)(H,309,310)(H,350,351)(H4,240,241,243)</skos:related>
@@ -762,6 +765,8 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:14678766</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncit:C20424</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">umls:C0018284</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lingling</curator>
 </owl:Class>
 
@@ -803,8 +808,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghost tangles</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23407988</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8431763</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23407988</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1232,8 +1237,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC0"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-derived (GA) advanced glycation end products</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA-AGE</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16630055</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:15221334</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16630055</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1250,8 +1255,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC19"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KXGS motif</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17304350</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21215781</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17304350</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1276,8 +1281,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straight filaments</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28678775</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1285,8 +1290,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alz50</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8955115</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8955115</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1792,9 +1797,9 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline-rich domain</rdfs:label>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P domain</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRD</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8068626</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25974414</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:9190213</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8068626</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -1851,8 +1856,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC7"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125 is a proprietary small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22815492</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28438486</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22815492</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandra</curator>
 </owl:Class>
 
@@ -1892,10 +1897,10 @@
   <rdfs:subClassOf rdf:resource="#HBPC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregates of proteins or fragments of proteins</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein aggregates</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23484434</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23254192</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12747895</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23484434</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sbo:SBO:0000543</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
@@ -1930,8 +1935,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC4"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystein-dependent auto-acetylation</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27383765</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28002468</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27383765</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -2125,8 +2130,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC109066</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cid_714286</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f-LIGRLO-NH2</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18059262</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24511233</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18059262</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cas:633283-39-3</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C17H16ClN3OS/c1-9-7-10(2)21-17-13(9)14(19)15(23-17)16(22)20-8-11-3-5-12(18)6-4-11/h3-7H,8,19H2,1-2H3,(H,20,22)</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:714286</skos:related>
@@ -2345,8 +2350,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC0"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oxidation product consisting of covalent ortho-ortho coupling between two tyrosine residues formed as a conseguence to UV irradiation, gamma-irradiation, aging, exposure to oxygen free radicals, nitrogen dioxide, peroxynitrite, and lipid hydroperoxides.  ROS catalyzed by Cu ions are involved in the generation of these cross-links in amyloid beta oligomers to which they provide stability. Also involved in the stabilization of tau PHF. A potential biomarker of oxidative stress in AD.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-3 dityrosine cross-linking</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid: 24351276</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -2405,8 +2410,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC22"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CagA peptide</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19966800</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19966800</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristian</curator>
 </owl:Class>
 
@@ -2556,7 +2561,9 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(Diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-5-pyrimidinecarboxamide</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]pyrimidine-5-carboxamide</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)-</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7-{[2-(DIPHENYLAMINO)PYRIMIDIN-5-YL]FORMAMIDO}-N-HYDROXYHEPTANAMIDE</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A11940</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB0032517</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-30258</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACN-030031</skos:altLabel>
@@ -2585,12 +2592,14 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-690127</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-74507</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KS-00000SAV</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD22666356</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLS006011181</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-028-600-031</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-[7-(hydroxyamino)-7-oxoheptyl]-2-(N-phenylanilino)pyrimidine-5-carboxamide</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCGC00345802-01</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCGC00345802-05</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricolinostat</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricolinostat (ACY-1215)</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricolinostat (USAN/INN)</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricolinostat [USAN:INN]</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rocilinostat</skos:altLabel>
@@ -2606,6 +2615,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WKT909C62B</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X5832</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC89630354</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rocilinostat-acy-1215</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s8001</skos:altLabel>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24844691</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cas:1316214-52-4</skos:related>
@@ -2638,6 +2648,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-Pyridinecarboxamide, 2-((7-(3,4-dimethoxyphenyl)imidazo(1,2-C)pyrimidin-5-yl)amino)-</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61G8S0H9KX</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">732983-37-8</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A11320</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-29888</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACN-053214</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKOS030526888</skos:altLabel>
@@ -2854,6 +2865,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-8942</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-106928</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCULE-2720405682</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD06208438</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-019-997-392</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCHEMBL793684</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC38760485</skos:altLabel>
@@ -2986,6 +2998,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1396841-57-8</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Propenamide, N-(2-amino-4-fluorophenyl)-3-[1-[(2E)-3-phenyl-2-propen-1-yl]-1H-pyrazol-4-yl]-, (2E)-</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2686AH</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A13218</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK676067</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKOS030526449</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC600495</skos:altLabel>
@@ -2993,6 +3006,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLVQHYHDYFTPDV-VCABWLAWSA-N</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H19FN4O</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:131163</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMBL4078477</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D00HXX</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DA-45384</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DA-45706</skos:altLabel>
@@ -3000,6 +3014,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GTPL7500</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-007305</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-148638</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD26960954</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-035-395-807</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QC-11774</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP 966</skos:altLabel>
@@ -3027,6 +3042,7 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-327</rdfs:label>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2Z)-3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Z)-3-amino-3-(4-aminophenylthio)-2-(2-(trifluoromethyl)phenyl)acrylonitrile</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-amino-3-(4-aminophenyl)sulfanyl-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]acrylonitrile</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-amino-3-[(4-aminophenyl)thio]-2-[2-(trifluoromethyl)phenyl]-2-propenenitrile</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">305350-87-2</skos:altLabel>
@@ -3035,14 +3051,18 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BC600460</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCP05310</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRD-K12244279-001-01-7</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzeneacetonitrile, alpha-[amino[(4-aminophenyl)thio]methylene]-2-(trifluoromethyl)-</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCG-206867</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:92211</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-0910</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D04WPA</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTXSID90429549</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E/Z-a-[amino[(4-aminophenyl)thio]methylen]-2-(trifluoromethyl)benzeneacetonitrile</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC-000.2354</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EX-A1069</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GTPL6008</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3229K18</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3678M21</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSCI1_000044</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HY-15437</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-018001</skos:altLabel>
@@ -3093,6 +3113,7 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thiol derivative, pan-HDAC inhibitor</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST7612AA1</rdfs:label>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1428535-92-5</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A14418</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BDBM50027652</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMBL3353926</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB17083</skos:altLabel>
@@ -3152,6 +3173,7 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibitor of O-GlcNAcase (OGA)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiamet G</rdfs:label>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3aR)-2-(Ethylamino)-6beta,7alpha-dihydroxy-3aalpha,6,7,7aalpha-tetrahydro-5H-pyrano[3,2-d]thiazole-5alpha-methanol</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3aR,5R,6S,7R,7aR)-2-(Ethylamino)-3a,6,7,7a-tetrahydro-5-(hydroxymethyl)-5H-pyrano[3,2-d]thiazole-6,7-diol</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3a,6,7,7a-tetrahydro-5H-pyrano[3,2-d]thiazole-6,7-diol</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3aH,5H,6H,7H,7aH-pyrano[3,2-d][1,3]thiazole-6,7-diol</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2-Dideoxy-2'-ethylamino-a-D-glucopyranoso-[2,1-d]-2'-thiazoline</skos:altLabel>
@@ -3167,6 +3189,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3648I18</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HY-12588</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-000295</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD15144964</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCGC00344096-03</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SR-01000946377</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SR-01000946377-1</skos:altLabel>
@@ -3336,6 +3359,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCRIS 9178</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:93635</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMBL1201168</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-0008613</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTK8B7692</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D02580</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D0I2VK</skos:altLabel>
@@ -3354,6 +3378,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS2230E11</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3369G18</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3714O12</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HY-13929</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISOCARBOXAZID (200 MG)</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isocarbonazid</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isocarbossazide</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isocarbossazide [DCIT]</skos:altLabel>
@@ -3487,6 +3513,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-57456</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LS-184209</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCULE-6781114249</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD00132998</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-002-511-573</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N(6)-(.DELTA.2-Isopentenyl)aminopurine</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N(6)-(Delta2-isopentenyl)adenine</skos:altLabel>
@@ -3643,6 +3670,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3267L09</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3403B11</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3650F19</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3676E10</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDI1_002090</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IN1179</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IN1182</skos:altLabel>
@@ -3746,6 +3774,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FT-0704394</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-67472</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KS-00000MOC</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD02691902</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-018-280-326</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSC 120350</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSC-120350</skos:altLabel>
@@ -3855,6 +3884,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-Benzyl-2-(naphthalen-1-yl)-1,2,4-thiadiazolidine-3,5-dione</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-Benzyl-2-(naphthalen-1-yl)-[1,2,4]thiadiazolidine-3,5-dione</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-benzyl-2-(naphthalen-1-yl)-(1,2,4)thiadiazolidine-3,5-dione</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-benzyl-2-naphthalen-1-yl-1,2,4-thiadiazolidine-3,5-dione</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4CA-1249</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865854-05-3</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK176015</skos:altLabel>
@@ -3876,6 +3906,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HY-14872</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-514478</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-81154</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD18633296</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-028-599-952</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP 031112</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NP-031112</skos:altLabel>
@@ -4062,9 +4093,9 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
@@ -4073,9 +4104,9 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie</curator>
 </owl:Class>
 
@@ -4094,8 +4125,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S 24795</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S 24795, &gt;=98% (HPLC)</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCHEMBL5948853</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18034231</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18187166</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18034231</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18265960</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:8063920</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13(16)10-14(17)11-5-7-12(15)8-6-11;/h2-9H,10H2,1H3;1H/q+1;/p-1</skos:related>
@@ -4110,8 +4141,10 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GTS-21</rdfs:label>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3E)-3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-3,4,5,6-TETRAHYDRO-2,3''-BIPYRIDINE</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3e)-3-[(2,4-Dimethoxyphenyl)methylidene]-3,4,5,6-Tetrahydro-2,3'-Bipyridine</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148372-04-7</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,3'-Bipyridine, 3-((2,4-dimethoxyphenyl)methylene)-3,4,5,6-tetrahydro-, (3E)-</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,3'-Bipyridine, 3-[(2,4-dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-, hydrochloride (1:2), (3E)-</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,4-Dimethoxybenzylidene anabaseine</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2wnj</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 (2,4 dimethoxybenzylidene)anabaseine</skos:altLabel>
@@ -4130,6 +4163,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-[1-(2,4-Dimethoxy-phenyl)-meth-(E)-ylidene]-3,4,5,6-tetrahydro-[2,3'']bipyridinyl</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">419A471</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8S399XDN2K</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A15950</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC1NSJRW</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKOS005146470</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASIS-0106</skos:altLabel>
@@ -4282,6 +4316,7 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-261000</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M-8345</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCULE-4736308679</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD06738274</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-002-471-220</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QC-6319</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCHEMBL461605</skos:altLabel>
@@ -4291,8 +4326,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z5019</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC15863137</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaminothiazole</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20524425</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21353545</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20524425</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:11148059</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C3H5N3S/c4-2-1-7-3(5)6-2/h1H,4H2,(H2,5,6)</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:118995</skos:related>
@@ -4338,8 +4373,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC12"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alignment of residues in the M3-M4 loop of alpha-7 nAChR that contribute to the binding of G-protein</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPBC, alpha-7 nAChR</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26088141</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24185813</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26088141</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rana</curator>
 </owl:Class>
 
@@ -4347,8 +4382,8 @@
   <rdfs:subClassOf rdf:resource="#HBPC12"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alignment of residues in the M3-M4 loop of GPBC, Glycine Receptor 1 (GLRA1) that contribute to the binding of G-protein</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPBC, Glycine Receptor 1</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26088141</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24185813</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26088141</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rana</curator>
 </owl:Class>
 
@@ -4519,6 +4554,8 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABAD inhibitor</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG18051</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22174920</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C19H21N5OS/c25-18(23-10-6-1-2-7-11-23)16(14-8-4-3-5-9-14)24-13-20-17-15(19(24)26)12-21-22-17/h3-5,8-9,12-13,16H,1-2,6-7,10-11H2,(H,21,22)</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:C1=N[N]C2=C1C(=S)N(C=N2)C(C(=O)C3CCCCCC3)C4=CC=CC=C4</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
 </owl:Class>
 
@@ -4527,6 +4564,8 @@
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABAD inhibitor</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RM-532-46</rdfs:label>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22674910</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C30H44N2O3/c1-35-23-4-2-3-21(17-23)19-31-13-15-32(16-14-31)20-30(34)12-11-24-22(18-30)5-6-26-25(24)7-8-28-27(26)9-10-29(28)33/h2-4,17,22,24-28,34H,5-16,18-20H2,1H3/t22-,24-,25+,26+,27-,28-,30+/m0/s1</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:C1[C@H]4[C@H](C[C@](C1)(CN2CCN(CC2)CC3=CC(=CC=C3)OC)O)CC[C@@H]5[C@@H]4CC[C@H]6[C@H]5CCC6=O</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
 </owl:Class>
 
@@ -4556,8 +4595,13 @@
   <rdfs:subClassOf rdf:resource="#HBPC6"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLAP</rdfs:label>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde derived Pyridinium compound</skos:altLabel>
+  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-derived Pyridinium compound</skos:altLabel>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17284838</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25582325</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C12H18N2O4/c13-4-2-1-3-11(12(17)18)14-6-9(8-15)5-10(16)7-14/h5-7,11,15H,1-4,8,13H2,(H-,16,17,18)/t11-/m0/s1</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:NCCCC[C@@H](C(=O)O)[N+]1=CC(=CC(=C1)[O-])CO</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
 </owl:Class>
 
@@ -4594,6 +4638,43 @@
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:29590627</skos:related>
   <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esther</curator>
 </owl:Class>
+
+<owl:Class rdf:about="#HBP00358">
+  <rdfs:subClassOf rdf:resource="#HBPC5"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligomers form during the early steps of TDP-43 misfolding</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TDP-43 oligomers</rdfs:label>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:30824544</skos:related>
+  <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandra</curator>
+</owl:Class>
+
+<owl:Class rdf:about="#HBP00359">
+  <rdfs:subClassOf rdf:resource="#HBPC5"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TDP-43 aggregates are formed through a biphasic process that initiates with oligomerization followed by aggregation into high molecular weight polymers</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TDP-43 aggregates</rdfs:label>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:30824544</skos:related>
+  <curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandra</curator>
+</owl:Class>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00353"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-derived Pyridinium compound</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12784645</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00353"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde derived Pyridinium compound</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12784645</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00353"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12784645</skos:related>
+</owl:Axiom>
 
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00352"/>
@@ -4690,6 +4771,13 @@
   <owl:annotatedSource rdf:resource="#HBP00322"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-002-471-220</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:118995</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00322"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD06738274</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:118995</skos:related>
 </owl:Axiom>
 
@@ -5011,6 +5099,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00310"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A15950</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:5310985</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00310"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8S399XDN2K</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:5310985</skos:related>
 </owl:Axiom>
@@ -5137,6 +5232,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00310"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,3'-Bipyridine, 3-[(2,4-dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-, hydrochloride (1:2), (3E)-</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:5310985</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00310"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,3'-Bipyridine, 3-((2,4-dimethoxyphenyl)methylene)-3,4,5,6-tetrahydro-, (3E)-</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:5310985</skos:related>
 </owl:Axiom>
@@ -5145,6 +5247,13 @@
   <owl:annotatedSource rdf:resource="#HBP00310"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148372-04-7</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:5310985</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00310"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3e)-3-[(2,4-Dimethoxyphenyl)methylidene]-3,4,5,6-Tetrahydro-2,3'-Bipyridine</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:5310985</skos:related>
 </owl:Axiom>
 
@@ -5389,6 +5498,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00288"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD18633296</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:11313622</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00288"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-81154</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:11313622</skos:related>
 </owl:Axiom>
@@ -5530,6 +5646,13 @@
   <owl:annotatedSource rdf:resource="#HBP00288"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4CA-1249</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:11313622</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00288"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-benzyl-2-naphthalen-1-yl-1,2,4-thiadiazolidine-3,5-dione</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:11313622</skos:related>
 </owl:Axiom>
 
@@ -5992,6 +6115,13 @@
   <owl:annotatedSource rdf:resource="#HBP00284"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-018-280-326</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:97389</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00284"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD02691902</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:97389</skos:related>
 </owl:Axiom>
 
@@ -6622,6 +6752,13 @@
   <owl:annotatedSource rdf:resource="#HBP00283"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDI1_002090</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:4592</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00283"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3676E10</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:4592</skos:related>
 </owl:Axiom>
 
@@ -7531,6 +7668,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00281"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD00132998</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:92180</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00281"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCULE-6781114249</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:92180</skos:related>
 </owl:Axiom>
@@ -8364,6 +8508,20 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00280"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISOCARBOXAZID (200 MG)</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3759</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00280"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HY-13929</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3759</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00280"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3714O12</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3759</skos:related>
 </owl:Axiom>
@@ -8484,6 +8642,13 @@
   <owl:annotatedSource rdf:resource="#HBP00280"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTK8B7692</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3759</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00280"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-0008613</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3759</skos:related>
 </owl:Axiom>
 
@@ -8805,6 +8970,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00267"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD15144964</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:24808478</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00267"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-000295</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:24808478</skos:related>
 </owl:Axiom>
@@ -8910,6 +9082,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00267"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3aR,5R,6S,7R,7aR)-2-(Ethylamino)-3a,6,7,7a-tetrahydro-5-(hydroxymethyl)-5H-pyrano[3,2-d]thiazole-6,7-diol</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:24808478</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00267"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3aR)-2-(Ethylamino)-6beta,7alpha-dihydroxy-3aalpha,6,7,7aalpha-tetrahydro-5H-pyrano[3,2-d]thiazole-5alpha-methanol</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:24808478</skos:related>
 </owl:Axiom>
@@ -8953,6 +9132,13 @@
   <owl:annotatedSource rdf:resource="#HBP00261"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BDBM50027652</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:71538210</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00261"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A14418</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:71538210</skos:related>
 </owl:Axiom>
 
@@ -9162,6 +9348,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00259"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3678M21</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00259"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMS3229K18</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
 </owl:Axiom>
@@ -9177,6 +9370,20 @@
   <owl:annotatedSource rdf:resource="#HBP00259"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EX-A1069</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00259"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC-000.2354</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00259"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E/Z-a-[amino[(4-aminophenyl)thio]methylen]-2-(trifluoromethyl)benzeneacetonitrile</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
 </owl:Axiom>
 
@@ -9212,6 +9419,13 @@
   <owl:annotatedSource rdf:resource="#HBP00259"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCG-206867</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00259"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzeneacetonitrile, alpha-[amino[(4-aminophenyl)thio]methylene]-2-(trifluoromethyl)-</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
 </owl:Axiom>
 
@@ -9268,6 +9482,13 @@
   <owl:annotatedSource rdf:resource="#HBP00259"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]acrylonitrile</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00259"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-amino-3-(4-aminophenyl)sulfanyl-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9549284</skos:related>
 </owl:Axiom>
 
@@ -9379,6 +9600,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00258"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD26960954</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:56650312</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00258"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KB-148638</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:56650312</skos:related>
 </owl:Axiom>
@@ -9428,6 +9656,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00258"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMBL4078477</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:56650312</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00258"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:131163</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:56650312</skos:related>
 </owl:Axiom>
@@ -9471,6 +9706,13 @@
   <owl:annotatedSource rdf:resource="#HBP00258"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK676067</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:56650312</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00258"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A13218</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:56650312</skos:related>
 </owl:Axiom>
 
@@ -9604,6 +9846,13 @@
   <owl:annotatedSource rdf:resource="#HBP00246"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolPort-019-997-392</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:10397232</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00246"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD06208438</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:10397232</skos:related>
 </owl:Axiom>
 
@@ -10422,6 +10671,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00236"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A11320</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:10200390</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00236"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">732983-37-8</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:10200390</skos:related>
 </owl:Axiom>
@@ -10479,6 +10735,13 @@
   <owl:annotatedSource rdf:resource="#HBP00234"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s8001</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00234"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rocilinostat-acy-1215</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
 </owl:Axiom>
 
@@ -10590,6 +10853,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00234"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricolinostat (ACY-1215)</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00234"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricolinostat</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
 </owl:Axiom>
@@ -10626,6 +10896,13 @@
   <owl:annotatedSource rdf:resource="#HBP00234"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLS006011181</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00234"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFCD22666356</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
 </owl:Axiom>
 
@@ -10828,7 +11105,21 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00234"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A11940</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00234"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7-{[2-(DIPHENYLAMINO)PYRIMIDIN-5-YL]FORMAMIDO}-N-HYDROXYHEPTANAMIDE</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00234"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Pyrimidinecarboxamide, 2-(diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:53340666</skos:related>
 </owl:Axiom>
 
@@ -12247,6 +12538,13 @@
 </owl:Axiom>
 
 <owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00032"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKOS034831571</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:131954578</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00028"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADDL</owl:annotatedTarget>
@@ -13348,6 +13646,13 @@
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#HBP00010"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC-000.2341</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3973</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00010"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DTXSID6042650</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3973</skos:related>
 </owl:Axiom>
@@ -13713,6 +14018,13 @@
   <owl:annotatedSource rdf:resource="#HBP00010"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Morpholino-8-phenyl-4-oxo-4H-1-benzopyran</owl:annotatedTarget>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3973</skos:related>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="#HBP00010"/>
+  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Morpholin-4-yl-8-phenyl-chromen-4-one</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:3973</skos:related>
 </owl:Axiom>
 
