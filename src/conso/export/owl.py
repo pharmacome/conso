@@ -13,6 +13,7 @@ from owlready2 import AnnotationProperty, Namespace, Ontology, Thing, get_ontolo
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
 
+AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
 CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
 TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
 SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
@@ -46,8 +47,8 @@ def make_ontology() -> Ontology:
             """Denotes a cross-reference using the SKOS vocabulary."""
 
     with ontology:
-        class curator(AnnotationProperty):  # noqa: N801
-            """Denotes the curator of a given entry."""
+        class author(AnnotationProperty):  # noqa: N801
+            """Denotes the author of a given entry."""
 
         class bel(AnnotationProperty):  # noqa: N801
             """Denotes the BEL term corresponding to a given entry."""
@@ -62,12 +63,20 @@ def make_ontology() -> Ontology:
             )
             cls.label = name
 
+    with open(AUTHORS_PATH) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        authors = {
+            author_name: orcid_identifier
+            for author_name, _, orcid_identifier in reader
+        }
+
     with open(TERMS_PATH) as file, ontology:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
         classes: Dict[str, Type[Thing]] = {}
-        for hbp_identifier, curator_name, name, super_cls_name, references, definition in reader:
+        for hbp_identifier, author_name, name, super_cls_name, references, definition in reader:
             if name == 'WITHDRAWN':
                 continue
 
@@ -77,7 +86,7 @@ def make_ontology() -> Ontology:
             )
             cls.label = name
             cls.comment = definition
-            cls.curator = curator_name
+            cls.author = f'orcid:{authors[author_name]}'
             cls.related = [reference.strip() for reference in references.split(',')]
             classes[hbp_identifier] = cls
 

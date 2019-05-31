@@ -13,6 +13,7 @@ from typing import Iterable, Mapping, Optional, Set, Tuple
 HERE = os.path.abspath(os.path.dirname(__file__))
 ROOT = os.path.join(HERE, os.pardir, os.pardir)
 
+AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
 CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
 TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
 SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
@@ -21,22 +22,14 @@ RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
 HBP_IDENTIFIER = re.compile(r'^HBP(?P<number>\d{5})$')
 IDENTIFIER_COLUMN = 0
-NUMBER_TERM_COLUMNS = 6
 CURATOR_COLUMN = 1
 WITHDRAWN_COLUMN = 2
 NAME_COLUMN = 2
 TYPE_COLUMN = 3
 REFERENCES_COLUMN = 4
 DESCRIPTION_COLUMN = 5
-VALID_CURATORS = {
-    'Charlie',
-    'Rana',
-    'Sandra',
-    'Lingling',
-    'Esther',
-    'Kristian',
-    'Daniel',
-}
+NUMBER_TERM_COLUMNS = 6
+
 VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound', 'ncit'}
 VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
@@ -46,15 +39,19 @@ def is_ascii(s: str) -> bool:
     return all(ord(c) < 128 for c in s)
 
 
-def get_identifier_to_name(*, classes: Set[str]) -> Mapping[str, str]:
+def get_identifier_to_name(*, classes: Set[str], authors: Mapping[str, str]) -> Mapping[str, str]:
     """Generate a mapping from terms' identifiers to their names."""
     with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        return dict(_get_terms_helper(reader, classes))
+        return dict(_get_terms_helper(reader, classes, authors))
 
 
-def _get_terms_helper(reader, classes: Set[str]) -> Iterable[Tuple[str, str]]:
+def _get_terms_helper(
+        reader,
+        classes: Set[str],
+        authors: Mapping[str, str],
+) -> Iterable[Tuple[str, str]]:
     errors = 0
 
     def _print_fail(s):
@@ -88,7 +85,7 @@ def _get_terms_helper(reader, classes: Set[str]) -> Iterable[Tuple[str, str]]:
         if i > 346 and not is_ascii(line[NAME_COLUMN]):  # introduced later
             _print_fail(f'{TERMS_PATH}, line {i}: Name contains non-ascii: {line[NAME_COLUMN]}')
 
-        if line[CURATOR_COLUMN] not in VALID_CURATORS:
+        if line[CURATOR_COLUMN] not in authors:
             _print_fail(f'{TERMS_PATH}, line {i}: Invalid curator: {line[CURATOR_COLUMN]}')
 
         if len(line) < NUMBER_TERM_COLUMNS:
@@ -154,6 +151,14 @@ def get_types() -> Set[str]:
             line[0]
             for line in _get_types_helper(reader)
         }
+
+
+def get_authors() -> Mapping[str, Tuple[str, str]]:
+    """Get the mapping from curator names to ORCID identifiers."""
+    with open(AUTHORS_PATH) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        return {key: (author, orcid) for key, author, orcid in reader}
 
 
 def _get_types_helper(lines: Iterable[Tuple[str, ...]]):
@@ -403,7 +408,8 @@ def _check_missing_xref(
 def main():
     """Run the check on the terms, synonyms, and xrefs."""
     classes = get_types()
-    identifier_to_name = get_identifier_to_name(classes=classes)
+    authors = get_authors()
+    identifier_to_name = get_identifier_to_name(classes=classes, authors=authors)
 
     check_synonyms_file(identifier_to_name=identifier_to_name)
     check_xrefs_file(identifier_to_name=identifier_to_name)

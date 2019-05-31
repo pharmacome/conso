@@ -14,6 +14,7 @@ ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
 
 HBP = 'HBP'
 
+AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
 CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
 TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
 SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
@@ -35,6 +36,11 @@ name: part of
 namespace: external
 xref: BFO:0000050
 is_transitive: true""",
+    'author': """[Typedef]
+id: author
+name: Author ORCID Identifier
+namespace: external
+""",
 }
 
 
@@ -68,6 +74,7 @@ class Term:
     reference: Reference
     namespace: str
     description: str
+    author: Reference
     provenance: List[Reference]
     parents: List[Reference] = field(default_factory=list)
     relationships: Mapping[str, List[Reference]] = field(default_factory=lambda: defaultdict(list))
@@ -89,6 +96,7 @@ class Term:
         if self.namespace != '?':
             yield f'namespace: {self._namespace_normalized}'
         yield f'''def: "{self.description}" [{', '.join(map(str, self.provenance))}]'''
+        yield f'relationship: author {self.author}'
 
         for xref in self.xrefs:
             yield f'xref: {xref}'
@@ -114,6 +122,18 @@ class Term:
 
 def get_obo_terms() -> List[Term]:
     """Get OBO terms."""
+    with open(AUTHORS_PATH) as file:
+        reader = csv.reader(file, delimiter='\t')
+        _ = next(reader)  # skip the header
+        authors = {
+            key: Reference(
+                namespace='orcid',
+                identifier=orcid_identifier,
+                name=author,
+            )
+            for key, author, orcid_identifier in reader
+        }
+
     with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
@@ -127,8 +147,9 @@ def get_obo_terms() -> List[Term]:
                 ],
                 namespace=namespace,
                 description=description,
+                author=authors[author_key],
             )
-            for hbp_identifier, _, name, namespace, references, description in reader
+            for hbp_identifier, author_key, name, namespace, references, description in reader
             if name != 'WITHDRAWN'
         }
 
