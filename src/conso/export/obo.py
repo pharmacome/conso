@@ -43,6 +43,20 @@ namespace: external
 """,
 }
 
+OBO_ESCAPE = {
+    c: f'\\{c}'
+    for c in ':,"\\()[]{}'
+}
+OBO_ESCAPE[' '] = '\\W'
+
+
+def obo_escape(string: str) -> str:
+    """Escape all funny characters for OBO."""
+    return ''.join(
+        OBO_ESCAPE.get(character, character)
+        for character in string
+    )
+
 
 @dataclass
 class Reference:
@@ -52,10 +66,14 @@ class Reference:
     identifier: str
     name: Optional[str] = None
 
+    @property
+    def _escaped_identifier(self):
+        return obo_escape(self.identifier)
+
     def __str__(self):  # noqa: D105
         if self.name:
-            return f'{self.namespace}:{self.identifier} ! {self.name}'
-        return f'{self.namespace}:{self.identifier}'
+            return f'{self.namespace}:{self._escaped_identifier} ! {self.name}'
+        return f'{self.namespace}:{self._escaped_identifier}'
 
 
 @dataclass
@@ -89,7 +107,7 @@ class Term:
             .replace('(', '') \
             .replace(')', '')
 
-    def _yield_obo_lines(self, simple:bool = True) -> Iterable[str]:
+    def _yield_obo_lines(self, simple: bool = True) -> Iterable[str]:
         yield '[Term]'
         yield f'id: {self.reference.namespace}:{self.reference.identifier}'
         yield f'name: {self.reference.name}'
@@ -174,7 +192,7 @@ def get_obo_terms() -> List[Term]:
         _ = next(reader)  # skip the header
         for hbp_id, database, identifier in reader:
             if database.lower() == 'bel':
-                terms[hbp_id].relationships['bel'] = [identifier]
+                terms[hbp_id].relationships['bel'] = [Reference(namespace='bel', identifier=identifier)]
             else:
                 terms[hbp_id].xrefs.append(Reference(database, identifier))
 
@@ -226,7 +244,7 @@ def dump_obo_terms(terms: List[Term], file: Union[None, TextIO], simple: bool = 
         print(obo_str, file=file)
 
 
-def main(path: Optional[str] = None, simple: bool = True) -> None:
+def main(path: Optional[str] = None, simple: bool = False) -> None:
     """Export CONSO as OBO."""
     terms = get_obo_terms()
     with open(path or OUTPUT_PATH, 'w') as file:
