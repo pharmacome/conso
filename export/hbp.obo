@@ -1,12 +1,7 @@
 format-version: 1.2
-date: 31:05:2019 12:46
+date: 12:06:2019 12:29
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/src/conso/export/obo.py
 ontology: conso
-
-[Typedef]
-id: bel
-name: BEL term
-comment: A formulation for a term in Biological Expression language
 
 [Typedef]
 id: part_of
@@ -37,7 +32,6 @@ name: tubulin-binding repeat 1
 namespace: domain
 def: "position 569_591 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: bel p(HGNC:MAPT, frag(569_591))
 relationship: part_of HBP:HBP00001 ! microtubule-binding region
 synonym: "MTBR R1" EXACT []
 synonym: "R1" EXACT []
@@ -48,7 +42,6 @@ name: tubulin-binding repeat 2
 namespace: domain
 def: "position 592_621 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: bel p(HGNC:MAPT, frag(592_621))
 relationship: part_of HBP:HBP00001 ! microtubule-binding region
 synonym: "MTBR R2" EXACT []
 synonym: "R2" EXACT []
@@ -59,7 +52,6 @@ name: tubulin-binding repeat 3
 namespace: domain
 def: "position 623_653 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: bel p(HGNC:MAPT, frag(623_653))
 relationship: part_of HBP:HBP00001 ! microtubule-binding region
 synonym: "MTBR R3" EXACT []
 synonym: "R3" EXACT []
@@ -70,7 +62,6 @@ name: tubulin-binding repeat 4
 namespace: domain
 def: "position 654_685 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: bel p(HGNC:MAPT, frag(654_685))
 relationship: part_of HBP:HBP00001 ! microtubule-binding region
 synonym: "MTBR R4" EXACT []
 synonym: "R4" EXACT []
@@ -554,7 +545,6 @@ name: AG73
 namespace: protein_fragment
 def: "a peptide derived from mouse laminin alpha 1 protein (seq:RKRLQVQLSIRT, chain:2719–2730)" [pmid:20615691]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-relationship: bel p(MGI:Lama1, frag(2719_2730))
 
 [Term]
 id: HBP:HBP00040
@@ -1532,7 +1522,6 @@ name: CDK5R1 p25
 namespace: protein
 def: "The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment" [pmid:10830966]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-relationship: bel p(HGNC:CDK5R1, frag(99_307))
 
 [Term]
 id: HBP:HBP00173
@@ -3732,7 +3721,6 @@ name: alpha-4 alpha-5 beta-2 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in cortex, hippocampus and neostriatum" [pmid:19721446]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-relationship: bel complex(p(HGNC:CHRNA4), p(HGNC:CHRNA5), p(HGNC:CHRNB2))
 
 [Term]
 id: HBP:HBP00312
@@ -3740,7 +3728,6 @@ name: alpha-3 beta-4 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in hippocampus, pineal gland and cerebellum" [pmid:19721446]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-relationship: bel complex(p(HGNC:CHRNA3), p(HGNC:CHRNB4))
 
 [Term]
 id: HBP:HBP00313
@@ -3991,7 +3978,6 @@ name: N-terminal fragment of APP
 namespace: domain
 def: "Fragment of APP (N-APP) that contains heparin-binding and metal-binding domains and that has been found to have biological activity" [pmid:24916405]
 relationship: author orcid:0000-0002-2046-6145 ! Daniel Domingo-Fernández
-relationship: bel p(HGNC:APP, frag(1_?))
 
 [Term]
 id: HBP:HBP00343

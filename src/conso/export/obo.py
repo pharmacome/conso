@@ -89,7 +89,7 @@ class Term:
             .replace('(', '') \
             .replace(')', '')
 
-    def _yield_obo_lines(self) -> Iterable[str]:
+    def _yield_obo_lines(self, simple:bool = True) -> Iterable[str]:
         yield '[Term]'
         yield f'id: {self.reference.namespace}:{self.reference.identifier}'
         yield f'name: {self.reference.name}'
@@ -105,6 +105,8 @@ class Term:
             yield f'is_a: {parent_reference}'
 
         for relationship, relationship_references in self.relationships.items():
+            if simple and relationship == 'bel':
+                continue
             for relationship_reference in relationship_references:
                 yield f'relationship: {relationship} {relationship_reference}'
 
@@ -112,9 +114,9 @@ class Term:
             synonym_references_string = ', '.join(synonym.references)
             yield f'synonym: "{synonym.name}" {synonym.specificity} [{synonym_references_string}]'
 
-    def to_obo(self) -> str:
+    def to_obo(self, simple: bool = True) -> str:
         """Convert this term to an OBO entry."""
-        return '\n'.join(self._yield_obo_lines()) + '\n'
+        return '\n'.join(self._yield_obo_lines(simple=simple)) + '\n'
 
     def __str__(self):  # noqa: D105
         return self.to_obo()
@@ -203,7 +205,7 @@ def get_obo_terms() -> List[Term]:
     return list(terms.values())
 
 
-def dump_obo_terms(terms: List[Term], file: Union[None, TextIO]) -> None:
+def dump_obo_terms(terms: List[Term], file: Union[None, TextIO], simple: bool = True) -> None:
     """Write all OBO terms to the file."""
     date = datetime.datetime.today()
     date_str = date.strftime('%d:%m:%Y %H:%M')
@@ -214,19 +216,21 @@ def dump_obo_terms(terms: List[Term], file: Union[None, TextIO]) -> None:
     print('ontology: conso', file=file)
     print('', file=file)
 
-    for typedef in typedefs.values():
+    for name, typedef in typedefs.items():
+        if simple and name == 'bel':
+            continue
         print(f'{typedef}\n', file=file)
 
     for term in terms:
-        obo_str = term.to_obo()
+        obo_str = term.to_obo(simple=simple)
         print(obo_str, file=file)
 
 
-def main(path: Optional[str] = None) -> None:
+def main(path: Optional[str] = None, simple: bool = True) -> None:
     """Export CONSO as OBO."""
-    obo_terms = get_obo_terms()
-    with open(path or OUTPUT_PATH, 'w') as output_file:
-        dump_obo_terms(obo_terms, output_file)
+    terms = get_obo_terms()
+    with open(path or OUTPUT_PATH, 'w') as file:
+        dump_obo_terms(terms=terms, file=file, simple=simple)
 
 
 if __name__ == '__main__':
