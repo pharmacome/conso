@@ -20,10 +20,10 @@ SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
 XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
 RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
-OUTPUT_PATH = os.path.join(ROOT, 'export', 'hbp.owl')
+OUTPUT_PATH = os.path.join(ROOT, 'export', 'conso.owl')
 
 HBP = 'HBP'
-URL = 'https://raw.githubusercontent.com/pharmacome/terminology/master/export/hbp.owl'
+URL = 'https://raw.githubusercontent.com/pharmacome/terminology/master/export/conso.owl'
 
 
 # DC_NAME = 'Curation of Neurodegeneration Supporting Ontology'

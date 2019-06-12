@@ -21,7 +21,7 @@ SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
 XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
 RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
-OUTPUT_PATH = os.path.join(ROOT, 'export', 'hbp.obo')
+OUTPUT_PATH = os.path.join(ROOT, 'export', 'conso.obo')
 
 BEL_RELATION_ID = 'bel'
 
