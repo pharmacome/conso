@@ -6,6 +6,7 @@ from typing import Iterable, Mapping, Optional, Tuple
 
 import networkx as nx
 import pandas as pd
+from tqdm import tqdm
 
 from pybel import BELGraph
 from pybel.constants import IDENTIFIER, NAME, NAMESPACE
@@ -30,14 +31,19 @@ class Manager:
             self.identifier_to_type[identifier] = cls
             self.identifier_to_description[identifier] = description
 
-    def normalize_terms(self, graph: BELGraph) -> None:
+    def normalize_terms(self, graph: BELGraph, use_tqdm: bool = False) -> None:
         """Normalize terms in a BEL Graph."""
-        mapping = dict(self.iter_nodes(graph))
+        mapping = dict(self.iter_nodes(graph, use_tqdm=use_tqdm))
         nx.relabel_nodes(graph, mapping, copy=False)
 
-    def iter_nodes(self, graph: BELGraph) -> Iterable[Tuple[BaseEntity, BaseEntity]]:
-        """Iterate over pairs of BEL nodes and Rat genes."""
-        for node in graph:
+    def iter_nodes(self, graph: BELGraph, use_tqdm: bool = False) -> Iterable[Tuple[BaseEntity, BaseEntity]]:
+        """Iterate over pairs of BEL nodes and normalized BEL nodes."""
+        it = (
+            tqdm(graph, desc='CONSO terms')
+            if use_tqdm else
+            graph
+        )
+        for node in it:
             new_node = self.normalize_node(node)
             if new_node is not None:
                 yield node, new_node
