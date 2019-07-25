@@ -2,16 +2,23 @@
 
 # from bio2bel import AbstractManager
 
+import logging
 from typing import Iterable, Mapping, Optional, Tuple
 
 import networkx as nx
 import pandas as pd
-from tqdm import tqdm
-
 from pybel import BELGraph
 from pybel.constants import IDENTIFIER, NAME, NAMESPACE
 from pybel.dsl import BaseEntity
+from tqdm import tqdm
+
 from .check import DESCRIPTION_COLUMN, IDENTIFIER_COLUMN, NAME_COLUMN, TERMS_PATH, TYPE_COLUMN
+
+__all__ = [
+    'Manager',
+]
+
+logger = logging.getLogger(__name__)
 
 
 class Manager:
@@ -61,14 +68,23 @@ class Manager:
         if identifier is None and name is None:
             raise ValueError
 
-        if identifier is not None:
+        elif identifier is not None:
             name = self.identifier_to_label.get(identifier)
             if name is not None:
                 return node.__class__(namespace=namespace, name=name, identifier=identifier)
+            logger.warning(f'Could not find CONSO name for {node:r}')
 
-        identifier = self.label_to_identifier.get(name)
-        if identifier is not None:
-            return node.__class__(namespace=namespace, name=name, identifier=identifier)
+        elif name is not None:
+            if name.startswith('HBP'):
+                identifier = self.identifier_to_label.get(name)
+                if identifier is not None:  # flip it!
+                    return node.__class__(namespace=namespace, name=identifier, identifier=name)
+                logger.warning(f'Could not find CONSO name for {node:r}')
+            else:
+                identifier = self.label_to_identifier.get(name)
+                if identifier is not None:
+                    return node.__class__(namespace=namespace, name=name, identifier=identifier)
+                logger.warning(f'Could not find CONSO identifier for {node:r}')
 
     def get_json(self, identifier: str):
         """Get a JSON object describing a term by its identifier."""
