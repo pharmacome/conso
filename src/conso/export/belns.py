@@ -18,9 +18,9 @@ ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
 TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
 CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
 
-OUTPUT_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp.belns'))
-OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp-names.belns'))
-OUTPUT_MAPPING_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'hbp.belns.mapping'))
+OUTPUT_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'conso.belns'))
+OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'conso-names.belns'))
+OUTPUT_MAPPING_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'conso.belns.mapping'))
 
 
 def _get_classes() -> Mapping[str, str]:

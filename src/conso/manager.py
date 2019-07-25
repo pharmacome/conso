@@ -7,11 +7,11 @@ from typing import Iterable, Mapping, Optional, Tuple
 
 import networkx as nx
 import pandas as pd
+from tqdm import tqdm
+
 from pybel import BELGraph
 from pybel.constants import IDENTIFIER, NAME, NAMESPACE
 from pybel.dsl import BaseEntity
-from tqdm import tqdm
-
 from .check import DESCRIPTION_COLUMN, IDENTIFIER_COLUMN, NAME_COLUMN, TERMS_PATH, TYPE_COLUMN
 
 __all__ = [
