@@ -1,9 +1,10 @@
-# BEL Namespaces
-python -m bio2bel.obo belns hp -f hp.belns
-python -m bio2bel.obo belns hp -f hp-names.belns -n
+#!/usr/bin/env bash
 
-python -m bio2bel.obo belns doid -f doid.belns
-python -m bio2bel.obo belns doid -f doid-names.belns -n
+# BEL Namespaces
+python -m bio2bel.obo belns hp --foundry
+python -m bio2bel.obo belns doid --foundry
+
+python -m bio2bel.obo belns efo --url https://www.ebi.ac.uk/efo/efo.obo
 
 # BEL Annotations
 
