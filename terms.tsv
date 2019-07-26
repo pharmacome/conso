@@ -358,3 +358,4 @@ HBP00356	Esther	Peripheral Tissue	anatomy	pmid:27758088	Parts of the body that a
 HBP00357	Esther	tau polyclonal antibody	antibody	pmid:29590627	Antibodies, that are able to bind different epitopes of the tau protein
 HBP00358	Sandra	TDP-43 oligomers	cellular component	pmid:30824544	oligomers form during the early steps of TDP-43 misfolding
 HBP00359	Sandra	TDP-43 aggregates	cellular component	pmid:30824544	TDP-43 aggregates are formed through a biphasic process that initiates with oligomerization followed by aggregation into high molecular weight polymers
+HBP00360  Yojana  fALS pathology pmid: 30837838 An instance of amyotrophic lateral sclerosis that is caused by an inherited modification of the individual's genome. https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001356
