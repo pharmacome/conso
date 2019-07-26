@@ -34,7 +34,7 @@ def enrich_pubchem_synonyms():
             f'pubchem.compound:{cid}',
             'EXACT',
         )
-        for cid in tqdm(cid_to_hbp)
+        for cid in tqdm(cid_to_hbp, desc='PubChem lookup')
         for synonym in pcp.Compound.from_cid(cid).synonyms
     ]
 
@@ -94,7 +94,7 @@ def enrich_chebi_xrefs():
     smiles_to_hbp = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
 
     new_xrefs = []
-    for smiles, hbp_identifier in tqdm(smiles_to_hbp.items()):
+    for smiles, hbp_identifier in tqdm(smiles_to_hbp.items(), desc='ChEBI lookup'):
         try:
             result = get_chebi_by_smiles(smiles)
         except zeep.exceptions.Fault:
