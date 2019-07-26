@@ -41,6 +41,15 @@ id: author
 name: Author ORCID Identifier
 namespace: external
 """,
+    'has_reference_protein': f"""[Typedef]
+id: has_reference_protein
+name: Isoform has Reference Protein
+comment: A link between a protein isoform and its reference protein""",
+    'has_role': f"""[Typedef]
+id: has_role
+name: Chemical Has Role
+is_transitive: true
+comment: Same as from ChEBI""",
 }
 
 OBO_ESCAPE = {
