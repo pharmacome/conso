@@ -39,7 +39,11 @@ def is_ascii(s: str) -> bool:
     return all(ord(c) < 128 for c in s)
 
 
-def get_identifier_to_name(*, classes: Set[str], authors: Mapping[str, str]) -> Mapping[str, str]:
+def get_identifier_to_name(
+        *,
+        classes: Set[str],
+        authors: Mapping[str, Tuple[str, str]],
+) -> Mapping[str, str]:
     """Generate a mapping from terms' identifiers to their names."""
     with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -50,7 +54,7 @@ def get_identifier_to_name(*, classes: Set[str], authors: Mapping[str, str]) -> 
 def _get_terms_helper(
         reader,
         classes: Set[str],
-        authors: Mapping[str, str],
+        authors: Mapping[str, Tuple[str, str]],
 ) -> Iterable[Tuple[str, str]]:
     errors = 0
 
