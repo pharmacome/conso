@@ -355,5 +355,6 @@
   "HBP00356": "Peripheral Tissue",
   "HBP00357": "tau polyclonal antibody",
   "HBP00358": "TDP-43 oligomers",
-  "HBP00359": "TDP-43 aggregates"
+  "HBP00359": "TDP-43 aggregates",
+  "HBP00360": "Clonal Expansion"
 }

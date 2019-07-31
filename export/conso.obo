@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:07:2019 14:17
+date: 31:07:2019 12:55
 auto-generated-by: https://github.com/pharmacome/terminology/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -3979,6 +3979,13 @@ xref: inchi:InChI=1S/C47H68O15/c1-24\(2\)8-15-34\(50\)25\(3\)47\(55\)37\(21-33-3
 xref: mesh:C106408
 xref: pubchem.compound:9854230
 xref: smiles:COc1ccc\(cc1\)C\(=O\)O\[C@@H\]2\[C@@H\]\(O\)\[C@H\]\(O\)CO\[C@H\]2O\[C@H\]3\[C@@H\]\(O\)CO\[C@@H\]\(O\[C@H\]4C\[C@H\]5\[C@@H\]6CC=C7C\[C@@H\]\(O\)CC\[C@\]7\(C\)\[C@H\]6CC\[C@\]5\(C\)\[C@@\]4\(O\)\[C@H\]\(C\)C\(=O\)CCC\(C\)C\)\[C@@H\]3OC\(=O\)C
+synonym: "145075-81-6" EXACT [pubchem.compound:9854230]
+synonym: "CHEMBL375269" EXACT [pubchem.compound:9854230]
+synonym: "CS-0020992" EXACT [pubchem.compound:9854230]
+synonym: "HY-101213" EXACT [pubchem.compound:9854230]
+synonym: "OSW-1" EXACT [pubchem.compound:9854230]
+synonym: "SCHEMBL17383554" EXACT [pubchem.compound:9854230]
+synonym: "ZINC169358856" EXACT [pubchem.compound:9854230]
 
 [Term]
 id: HBP:HBP00332
@@ -4195,4 +4202,12 @@ name: TDP-43 aggregates
 namespace: cellular_component
 def: "TDP-43 aggregates are formed through a biphasic process that initiates with oligomerization followed by aggregation into high molecular weight polymers" [pmid:30824544]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
+
+[Term]
+id: HBP:HBP00360
+name: Clonal Expansion
+namespace: pathology
+def: "Multiplication or reproduction by cell division of a population of identical cells descended from a single progenitor. In immunology, may refer to the clonal proliferation of cells responsive to a specific antigen as part of an immune response." [pmid:27794524]
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+xref: ncit:C20613
 
