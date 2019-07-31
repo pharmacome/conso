@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
   Curation of Neurodegeneration Supporting Ontology (CONSO)
-  <a href="https://travis-ci.com/pharmacome/terminology">
-    <img src="https://travis-ci.com/pharmacome/terminology.svg?branch=master"
+  <a href="https://travis-ci.com/pharmacome/conso">
+    <img src="https://travis-ci.com/pharmacome/conso.svg?branch=master"
          alt="Travis CI">
   </a>
   <br>
@@ -78,12 +78,12 @@ relations between terms in CONSO:
 
 ## Contributing
 
-Contributions are welcome! Please submit all pull requests to https://github.com/pharmacome/terminology.
+Contributions are welcome! Please submit all pull requests to https://github.com/pharmacome/conso.
 
 Tips:
 
 - When adding a new term, make sure that the entry has a new and unique identifier that follows
-  the regular expression `^HBP\d{5}$`
+  the regular expression `^CONSO\d{5}$`
 - Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but 
   *hyperphosphorylation* is not)
 - Normalize greek letters to full english names, then add synonyms with the greek letter.

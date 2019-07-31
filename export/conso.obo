@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 31:07:2019 12:55
-auto-generated-by: https://github.com/pharmacome/terminology/blob/master/src/conso/export/obo.py
+date: 31:07:2019 14:09
+auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
 [Typedef]
@@ -33,90 +33,90 @@ is_transitive: true
 comment: Same as from ChEBI
 
 [Term]
-id: HBP:HBP00001
+id: CONSO:CONSO00001
 name: microtubule-binding region
 namespace: domain
 def: "The motif in the MAPT protein where microtubule binding repeats" [pmid:18500754, pmid:2516729]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: interpro:IPR001084
-relationship: part_of HBP:HBP00188 ! assembly domain
+relationship: part_of CONSO:CONSO00188 ! assembly domain
 synonym: "MTBR" EXACT []
 
 [Term]
-id: HBP:HBP00002
+id: CONSO:CONSO00002
 name: tubulin-binding repeat 1
 namespace: domain
 def: "position 569_591 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: bel bel:p\(HGNC\:MAPT\,\Wfrag\(569_591\)\)
-relationship: part_of HBP:HBP00001 ! microtubule-binding region
+relationship: part_of CONSO:CONSO00001 ! microtubule-binding region
 synonym: "MTBR R1" EXACT []
 synonym: "R1" EXACT []
 
 [Term]
-id: HBP:HBP00003
+id: CONSO:CONSO00003
 name: tubulin-binding repeat 2
 namespace: domain
 def: "position 592_621 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: bel bel:p\(HGNC\:MAPT\,\Wfrag\(592_621\)\)
-relationship: part_of HBP:HBP00001 ! microtubule-binding region
+relationship: part_of CONSO:CONSO00001 ! microtubule-binding region
 synonym: "MTBR R2" EXACT []
 synonym: "R2" EXACT []
 
 [Term]
-id: HBP:HBP00004
+id: CONSO:CONSO00004
 name: tubulin-binding repeat 3
 namespace: domain
 def: "position 623_653 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: bel bel:p\(HGNC\:MAPT\,\Wfrag\(623_653\)\)
-relationship: part_of HBP:HBP00001 ! microtubule-binding region
+relationship: part_of CONSO:CONSO00001 ! microtubule-binding region
 synonym: "MTBR R3" EXACT []
 synonym: "R3" EXACT []
 
 [Term]
-id: HBP:HBP00005
+id: CONSO:CONSO00005
 name: tubulin-binding repeat 4
 namespace: domain
 def: "position 654_685 of canonical isoform of MAPT protein" [pmid:18500754]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: bel bel:p\(HGNC\:MAPT\,\Wfrag\(654_685\)\)
-relationship: part_of HBP:HBP00001 ! microtubule-binding region
+relationship: part_of CONSO:CONSO00001 ! microtubule-binding region
 synonym: "MTBR R4" EXACT []
 synonym: "R4" EXACT []
 
 [Term]
-id: HBP:HBP00006
+id: CONSO:CONSO00006
 name: Tau aggregates
 namespace: cellular_component
 def: "Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated" [pmc:PMC2633703]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
-is_a: HBP:HBP00178 ! protein aggregates
+is_a: CONSO:CONSO00178 ! protein aggregates
 
 [Term]
-id: HBP:HBP00007
+id: CONSO:CONSO00007
 name: hyperphosphorylation
 namespace: post_translational_modification
 def: "An excessive phosphorylation (see GO:0006468)" [pmid:22710920]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00008
+id: CONSO:CONSO00008
 name: GAL80TS
 namespace: exposure
 def: "temperature-sensitive allele of GAL80 (tub-GAL80TS)" [pmc:PMC3073608]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00009
+id: CONSO:CONSO00009
 name: Tau oligomers
 namespace: cellular_component
 def: "CAST is known to prevent oligomerization of Tau (Rao et al., 2014) and α-synuclein (Diepenbroek et al. 2014) and inhibit reactive gliosis (Rao et al., 2008)" [pmc:PMC4828294]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00010
+id: CONSO:CONSO00010
 name: LY293002
 namespace: chemical
 def: "a typo appearing in pmid:23950935 for the specific PI3-kinase inhibitor that is actually named LY294002" [pmid:23950935]
@@ -277,7 +277,7 @@ synonym: "cc-58" EXACT [pubchem.compound:3973]
 synonym: "s1105" EXACT [pubchem.compound:3973]
 
 [Term]
-id: HBP:HBP00011
+id: CONSO:CONSO00011
 name: LPLI
 namespace: exposure
 def: "Low-power laser irradiation (LPLI) is a non-damage physical therapy" [pmid:20333643]
@@ -285,7 +285,7 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 synonym: "Low-power laser irradiation" EXACT []
 
 [Term]
-id: HBP:HBP00012
+id: CONSO:CONSO00012
 name: Chronic cerebral hypoperfusion
 namespace: pathology
 def: "Chronic cerebral hypoperfusion (CCH) is one of the causes of vascular dementia (VaD) and is also an etiological factor for Alzheimer's disease (AD)" [pmid:24575038]
@@ -293,7 +293,7 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 synonym: "CCH" EXACT []
 
 [Term]
-id: HBP:HBP00013
+id: CONSO:CONSO00013
 name: Mori Fructus ethanol extract
 namespace: chemical_mixture
 def: "ethanol extracted from Mori Fructus, a well-known traditional herbal medicine, food, and dietary supplement" [pmid:26068423]
@@ -301,7 +301,7 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 synonym: "ME" EXACT []
 
 [Term]
-id: HBP:HBP00014
+id: CONSO:CONSO00014
 name: tunneling nanotubes
 namespace: cellular_component
 def: "filamentous-actin-containing membranous structures that bridge and connect cells" [pmid:27809932]
@@ -310,38 +310,38 @@ synonym: "TNT" EXACT []
 synonym: "membrane nanotube" EXACT []
 
 [Term]
-id: HBP:HBP00015
+id: CONSO:CONSO00015
 name: amyloidogenesis
 namespace: biological_process
 def: "production of amyloid" [pmid:24653673]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00016
+id: CONSO:CONSO00016
 name: alpha-synuclein aggregates
 namespace: cellular_component
 def: "alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies" [pmid:23254192]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
-is_a: HBP:HBP00178 ! protein aggregates
+is_a: CONSO:CONSO00178 ! protein aggregates
 
 [Term]
-id: HBP:HBP00017
+id: CONSO:CONSO00017
 name: huntingtin aggregates
 namespace: cellular_component
 def: "huntingtin (HTT) protein fragments aggregations" [pmid:12747895]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
-is_a: HBP:HBP00178 ! protein aggregates
+is_a: CONSO:CONSO00178 ! protein aggregates
 
 [Term]
-id: HBP:HBP00018
+id: CONSO:CONSO00018
 name: amyloid-beta aggregates
 namespace: cellular_component
 def: "aggregation of amyloid-beta fragments of the APP protein" [pmid:23484434]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
-is_a: HBP:HBP00178 ! protein aggregates
+is_a: CONSO:CONSO00178 ! protein aggregates
 
 [Term]
-id: HBP:HBP00019
+id: CONSO:CONSO00019
 name: SEN-1269
 namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
@@ -350,7 +350,7 @@ xref: chembl:CHEMBL2386874
 xref: inchi:InChI=1S/C18H18N4O2/c1-22\(2\)14-6-4-8-16\(10-14\)24-17-11-19-18\(20-12-17\)21-13-5-3-7-15\(23\)9-13/h3-12\,23H\,1-2H3\,\(H\,19\,20\,21\)
 xref: pubchem.compound:46835756
 xref: smiles:CN\(C\)C1=CC\(=CC=C1\)OC2=CN=C\(N=C2\)NC3=CC\(=CC=C3\)O
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "3-((5-(3-(Dimethylamino)phenoxy)pyrimidin-2-yl)amino)phenol" EXACT [pubchem.compound:46835756]
 synonym: "3-(5-(3-(dimethylamino)phenoxy)pyrimidin-2-ylamino)phenol" EXACT [pubchem.compound:46835756]
 synonym: "3-({5-[3-(dimethylamino)phenoxy]pyrimidin-2-yl}amino)phenol" EXACT [pubchem.compound:46835756]
@@ -374,7 +374,7 @@ synonym: "TC-064564" EXACT [pubchem.compound:46835756]
 synonym: "ZINC49582255" EXACT [pubchem.compound:46835756]
 
 [Term]
-id: HBP:HBP00020
+id: CONSO:CONSO00020
 name: MLS000034832
 namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
@@ -383,7 +383,7 @@ xref: chembl:CHEMBL461431
 xref: inchi:InChI=1S/C15H13N3O3S/c1-2-21-15\(20\)12-10-8-22-13\(16\)11\(10\)14\(19\)18\(17-12\)9-6-4-3-5-7-9/h3-8H\,2\,16H2\,1H3
 xref: pubchem.compound:647821
 xref: smiles:CCOC\(=O\)C1=NN\(C\(=O\)C2=C\(SC=C21\)N\)C3=CC=CC=C3
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "123542-47-2" EXACT [pubchem.compound:647821]
 synonym: "3-Phenyl-4-oxo-5-amino-3,4-dihydrothieno[3,4-d]pyridazine-1-carboxylic acid ethyl ester" EXACT [pubchem.compound:647821]
 synonym: "5-Amino-4-oxo-3-phenyl-3,4-dihydro-thieno[3,4-d]pyridazine-1-carboxylic acid eth" EXACT [pubchem.compound:647821]
@@ -413,7 +413,7 @@ synonym: "ethyl 5-amino-4-oxo-3-phenyl-3H,4H-thieno[3,4-d]pyridazine-1-carboxyla
 synonym: "ethyl 5-amino-4-oxo-3-phenylthieno[3,4-d]pyridazine-1-carboxylate" EXACT [pubchem.compound:647821]
 
 [Term]
-id: HBP:HBP00021
+id: CONSO:CONSO00021
 name: caprospinol
 namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
@@ -422,7 +422,7 @@ xref: drugbank:DB05263
 xref: inchi:InChI=1S/C33H52O4/c1-6-7-8-9-29\(34\)36-24-13-15-31\(4\)23\(18-24\)10-11-25-26\(31\)14-16-32\(5\)27\(25\)19-28-30\(32\)22\(3\)33\(37-28\)17-12-21\(2\)20-35-33/h10\,21-22\,24-28\,30H\,6-9\,11-20H2\,1-5H3/t21-\,22+\,24+\,25-\,26+\,27+\,28+\,30+\,31+\,32+\,33-/m1/s1
 xref: pubchem.compound:16394575
 xref: smiles:CCCCCC\(=O\)O\[C@H\]1CC\[C@\]2\(C\)\[C@H\]3CC\[C@@\]4\(C\)\[C@@H\]\(C\[C@@H\]5O\[C@\]6\(CC\[C@@H\]\(C\)CO6\)\[C@@H\]\(C\)\[C@H\]45\)\[C@@H\]3CC=C2C1
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "((20S,22R,25R)-Spirosta-5-ene-3beta-ol)hexanoate" EXACT [pubchem.compound:16394575]
 synonym: "(22R,25R)-20alpha-Spirost-5-en-3beta-yl hexanoate" EXACT [pubchem.compound:16394575]
 synonym: "(3beta,8xi,9xi,14xi,16xi,17xi,20R,22xi,25R)-Spirost-5-en-3-yl hexanoa" EXACT [pubchem.compound:16394575]
@@ -443,35 +443,35 @@ synonym: "UNII-9BU4T267E4" EXACT [pubchem.compound:16394575]
 synonym: "ZINC97971833" EXACT [pubchem.compound:16394575]
 
 [Term]
-id: HBP:HBP00022
+id: CONSO:CONSO00022
 name: amyloid-beta oligomers
 namespace: cellular_component
 def: "Small aggregates of amyloid-beta" [pmid:24918635, pmid:29196815]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00023
+id: CONSO:CONSO00023
 name: amyloid-beta 42 oligomers
 namespace: cellular_component
 def: "Amyloid-beta oligomers composed specifically of amyloid-beta 42" [pmid:24918635]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00024
+id: CONSO:CONSO00024
 name: APP C-terminally truncated carboxyl-terminal fragments
 namespace: protein_fragment
 def: "C-terminally truncated carboxyl-terminal fragments (CTFs) of APP" [pmid:15491160]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00025
+id: CONSO:CONSO00025
 name: A2B5 antigen
 namespace: epitope
 def: "A2B5 antigen is a cell surface ganglioside epitope expressed on developing thymic epithelial cells, oligodendrocyte progenitors, and neuroendocrine cells." [pmid:1497614]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00026
+id: CONSO:CONSO00026
 name: neutral sphingomyelinase
 namespace: enzyme_class
 def: "Sphingomyelin phosphodiesterase (EC 3.1.4.12, also known as neutral sphingomyelinase, sphingomyelinase, or SMase) is a hydrolase enzyme that is involved in sphingolipid metabolism reactions." [pmid:19519303]
@@ -479,7 +479,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: ec-code:3.1.4.12
 
 [Term]
-id: HBP:HBP00027
+id: CONSO:CONSO00027
 name: Neurodegeneration
 namespace: pathology
 def: "Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes." [pmid:20202123, pmid:12387894]
@@ -487,7 +487,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: hp:HP\:0002180
 
 [Term]
-id: HBP:HBP00028
+id: CONSO:CONSO00028
 name: amyloid-beta derived diffusible ligands
 namespace: cellular_component
 def: "soluble oligomeric forms of the amyloid beta peptide known as amyloid-derived diffusible ligands (ADDLs) are the toxic species responsible for neurodegeneration associated with Alzheimer's disease." [pmid:19188609]
@@ -495,28 +495,28 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 synonym: "ADDL" EXACT [pmid:16712494]
 
 [Term]
-id: HBP:HBP00029
+id: CONSO:CONSO00029
 name: Hyperamylinemia
 namespace: pathology
 def: "increased secretion of the pancreatic hormone amylin" [pmid:23794448]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00030
+id: CONSO:CONSO00030
 name: APOE e4
 namespace: genetic_variant
 def: "APOE e4 is a variant of APOE, it's APOE-ε4 (arg112, arg158)." [pmid:22701550]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00031
+id: CONSO:CONSO00031
 name: N-AcGIP
 namespace: chemical
 def: "N-AcGIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00032
+id: CONSO:CONSO00032
 name: Pro3-GIP
 namespace: chemical
 def: "Pro3-GIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
@@ -528,7 +528,7 @@ synonym: "AKOS034831571" EXACT [pubchem.compound:131954578]
 synonym: "[Pro3]-GIP (Rat)" EXACT [pubchem.compound:131954578]
 
 [Term]
-id: HBP:HBP00033
+id: CONSO:CONSO00033
 name: PI3K-Akt signaling pathway
 namespace: pathway
 def: "PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG." [pmid:22013558]
@@ -536,7 +536,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: kegg.pathway:hsa04151
 
 [Term]
-id: HBP:HBP00035
+id: CONSO:CONSO00035
 name: Argyrophilic Grain Disease
 namespace: pathology
 def: "Argyrophilic grain disease (AGD) is an under-recognized, distinct, highly frequent sporadic tauopathy, with a prevalence reaching 31.3% in centenarians." [pmid:15658002]
@@ -544,7 +544,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 synonym: "AGD" EXACT []
 
 [Term]
-id: HBP:HBP00036
+id: CONSO:CONSO00036
 name: granulovacuolar degeneration
 namespace: pathology
 def: "Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles." [pmid:17455299]
@@ -553,21 +553,21 @@ xref: hp:HP\:0002528
 synonym: "GVD" EXACT []
 
 [Term]
-id: HBP:HBP00037
+id: CONSO:CONSO00037
 name: mitochondrial dysfunction
 namespace: pathology
 def: "mitochondria function disorder" [pmid:19885299]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00038
+id: CONSO:CONSO00038
 name: amyloid-beta fibrils
 namespace: cellular_component
 def: "Insoluble fibrous protein aggregates exhibiting beta sheet structure." [pmid:19158505]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00039
+id: CONSO:CONSO00039
 name: AG73
 namespace: protein_fragment
 def: "a peptide derived from mouse laminin alpha 1 protein (seq:RKRLQVQLSIRT, chain:2719–2730)" [pmid:20615691]
@@ -575,14 +575,14 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 relationship: bel bel:p\(MGI\:Lama1\,\Wfrag\(2719_2730\)\)
 
 [Term]
-id: HBP:HBP00040
+id: CONSO:CONSO00040
 name: Notch intracellular domain
 namespace: domain
 def: "Notch intracellular domain is the intracellular region of notch receptor." [pmid:20883690]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00041
+id: CONSO:CONSO00041
 name: YENPTY endocytosis motif (APP)
 namespace: motif
 def: "YENTY is the endocytosis motif of Amyloid precursor protein." [pmid:18650430]
@@ -590,7 +590,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 synonym: "YENPTY" EXACT []
 
 [Term]
-id: HBP:HBP00042
+id: CONSO:CONSO00042
 name: sAPP-beta
 namespace: protein
 def: "Soluble amyloid precursor protein" [pmid:21606494]
@@ -598,7 +598,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 synonym: "soluble amyloid precursor protein" EXACT []
 
 [Term]
-id: HBP:HBP00043
+id: CONSO:CONSO00043
 name: growth factor
 def: "A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes." [pmid:14678766]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
@@ -606,7 +606,7 @@ xref: ncit:C20424
 xref: umls:C0018284
 
 [Term]
-id: HBP:HBP00044
+id: CONSO:CONSO00044
 name: 3R tau
 namespace: protein_isoform_family
 def: "Tau isoforms containing 3 tubulin binding repeats" [pmid:23407988]
@@ -614,7 +614,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 
 [Term]
-id: HBP:HBP00045
+id: CONSO:CONSO00045
 name: 4R tau
 namespace: protein_isoform_family
 def: "Tau isoforms containing 4 tubulin binding repeats" [pmid:23407988]
@@ -622,25 +622,25 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 
 [Term]
-id: HBP:HBP00046
+id: CONSO:CONSO00046
 name: VQIINK motif
 namespace: motif
 def: "A hexapeptide motif located in the R2, that promotes the formation of PHF" [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: part_of HBP:HBP00003 ! tubulin-binding repeat 2
+relationship: part_of CONSO:CONSO00003 ! tubulin-binding repeat 2
 synonym: "PHF6* " EXACT [pmid:25775228]
 
 [Term]
-id: HBP:HBP00047
+id: CONSO:CONSO00047
 name: VQIVYK motif
 namespace: motif
 def: "A hexapeptide motif located in the R3, that promotes the formation of PHF" [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: part_of HBP:HBP00004 ! tubulin-binding repeat 3
+relationship: part_of CONSO:CONSO00004 ! tubulin-binding repeat 3
 synonym: "PHF6" EXACT [pmid:25775228]
 
 [Term]
-id: HBP:HBP00048
+id: CONSO:CONSO00048
 name: ghost tangles
 namespace: cellular_component
 def: "Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity." [pmid:23407988, pmid:8431763]
@@ -648,7 +648,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: GO:GO\:0097418 ! neurofibrillary tangle
 
 [Term]
-id: HBP:HBP00049
+id: CONSO:CONSO00049
 name: pretangles
 namespace: cellular_component
 def: "Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles." [pmid:23407988, pmid:24612177]
@@ -656,7 +656,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: GO:GO\:0097418 ! neurofibrillary tangle
 
 [Term]
-id: HBP:HBP00050
+id: CONSO:CONSO00050
 name: projection domain
 namespace: domain
 def: "Corresponding roughly to the N-terminal part of the tau molecule, consisting mainly of acidic residues and containing two distinct alternatively spliced N-terminal inserts." [pmid:17493042, pmid:28386764]
@@ -665,7 +665,7 @@ xref: interpro:IPR013588
 synonym: "MAP2/Tau projection" EXACT []
 
 [Term]
-id: HBP:HBP00051
+id: CONSO:CONSO00051
 name: RAC1b
 namespace: isoform
 def: "A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer." [pmid:22142809]
@@ -674,7 +674,7 @@ xref: uniprot.isoform:P63000-2
 relationship: has_reference_protein uniprot:P63000 ! RAC1_HUMAN
 
 [Term]
-id: HBP:HBP00052
+id: CONSO:CONSO00052
 name: AP-2 complex
 namespace: protein_complex
 def: "A heterotetrameric adapter protein complex involved in cargo-internalization during clathrin-mediated endocytosis. Composed of alpha and beta subunits (large adaptins), mu and sigma subunits (minor adaptins)." [pmid:27260836]
@@ -682,21 +682,21 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: go:GO\:0030122
 
 [Term]
-id: HBP:HBP00053
+id: CONSO:CONSO00053
 name: Tau isoform F (441 aa)
 namespace: isoform
 def: "Longest tau isoform in human brain, most commonly used as the conventional tau." [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_005901
 xref: uniprot.isoform:P10636-8
-is_a: HBP:HBP00045 ! 4R tau
+is_a: CONSO:CONSO00045 ! 4R tau
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "2N4R" EXACT []
 synonym: "htau40" EXACT [pmid:19226187]
 synonym: "microtubule-associated protein tau isoform 2" EXACT []
 
 [Term]
-id: HBP:HBP00054
+id: CONSO:CONSO00054
 name: Tau isoform Fetal-tau (352 aa)
 namespace: isoform
 def: "Human fetal tau isoform." [pmid:17493042]
@@ -709,63 +709,63 @@ synonym: "htau23" EXACT [pmid:7667312]
 synonym: "microtubule-associated protein tau isoform 4" EXACT []
 
 [Term]
-id: HBP:HBP00055
+id: CONSO:CONSO00055
 name: Tau isoform B (381 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_001190180
 xref: uniprot.isoform:P10636-4
-is_a: HBP:HBP00044 ! 3R tau
+is_a: CONSO:CONSO00044 ! 3R tau
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "1N3R" EXACT []
 synonym: "htau37" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 7" EXACT []
 
 [Term]
-id: HBP:HBP00056
+id: CONSO:CONSO00056
 name: Tau isoform D (383 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_058518
 xref: uniprot.isoform:P10636-6
-is_a: HBP:HBP00045 ! 4R tau
+is_a: CONSO:CONSO00045 ! 4R tau
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "0N4R" EXACT []
 synonym: "htau24" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 3" EXACT []
 
 [Term]
-id: HBP:HBP00057
+id: CONSO:CONSO00057
 name: Tau isoform C (410 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_001190181
 xref: uniprot.isoform:P10636-5
-is_a: HBP:HBP00044 ! 3R tau
+is_a: CONSO:CONSO00044 ! 3R tau
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "2N3R" EXACT []
 synonym: "htau39" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 8" EXACT []
 
 [Term]
-id: HBP:HBP00058
+id: CONSO:CONSO00058
 name: Tau isoform E (412 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_001116539
 xref: uniprot.isoform:P10636-7
-is_a: HBP:HBP00045 ! 4R tau
+is_a: CONSO:CONSO00045 ! 4R tau
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "1N4R" EXACT []
 synonym: "htau34" EXACT [pmid:22762014]
 synonym: "microtubule-associated protein tau isoform 5" EXACT []
 
 [Term]
-id: HBP:HBP00059
+id: CONSO:CONSO00059
 name: Serpin-enzyme complex receptor
 namespace: protein
 def: "?" [pmid:15160835, pmid:2160076]
@@ -773,7 +773,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 synonym: "SEC-R" EXACT []
 
 [Term]
-id: HBP:HBP00060
+id: CONSO:CONSO00060
 name: neuroinflammation
 namespace: pathology
 def: "inflammatory response in the brain and nervous tissue." [pmid:26306439]
@@ -781,21 +781,21 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 xref: go:GO\:0150076
 
 [Term]
-id: HBP:HBP00061
+id: CONSO:CONSO00061
 name: neurotoxicity
 namespace: pathology
 def: "happens when a biological, physical or chemical agent cause any adverse effect on the structure and function of the nerves system." [pmid:18440072]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00062
+id: CONSO:CONSO00062
 name: neurite retraction
 namespace: pathology
 def: "when the neurite is unable it outgrow and extend" [pmid:19022228]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00063
+id: CONSO:CONSO00063
 name: APP695
 namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
@@ -804,7 +804,7 @@ xref: uniprot.isoform:P05067-4
 relationship: has_reference_protein uniprot:P05067 ! A4_HUMAN
 
 [Term]
-id: HBP:HBP00064
+id: CONSO:CONSO00064
 name: APP751
 namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
@@ -813,7 +813,7 @@ xref: uniprot.isoform:P05067-8
 relationship: has_reference_protein uniprot:P05067 ! A4_HUMAN
 
 [Term]
-id: HBP:HBP00065
+id: CONSO:CONSO00065
 name: APP770
 namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
@@ -822,7 +822,7 @@ xref: uniprot.isoform:P05067-1
 relationship: has_reference_protein uniprot:P05067 ! A4_HUMAN
 
 [Term]
-id: HBP:HBP00066
+id: CONSO:CONSO00066
 name: gamma-secretase
 namespace: protein_complex
 def: "gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)" [pmid:25565961]
@@ -830,126 +830,126 @@ relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: fplx:Gamma_secretase
 
 [Term]
-id: HBP:HBP00067
+id: CONSO:CONSO00067
 name: sAPP-alpha
 namespace: protein
 def: "soluble amyloid precursor protein-alpha" [pmid:22491325]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00068
+id: CONSO:CONSO00068
 name: Excitotoxicity
 namespace: pathology
 def: "Excitotoxicity is defined as cell death resulting from the toxic actions of excitatory amino acids" [pmid:19343058]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00069
+id: CONSO:CONSO00069
 name: C31
 namespace: protein_fragment
 def: "a fragment containing the last 31 amino acids of APP (called C31)" [pmid:21214928]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00070
+id: CONSO:CONSO00070
 name: Jcasp
 namespace: protein_fragment
 def: "Additional gamma-cleavage further generates the fragment (called Jcasp) containing the region between gamma- and caspase-cleavage sites" [pmid:21214928]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00071
+id: CONSO:CONSO00071
 name: AICD
 namespace: domain
 def: "APP intracellular domain" [pmid:21214928]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00072
+id: CONSO:CONSO00072
 name: p83
 namespace: protein_fragment
 def: "APP alphaCTF and betaCTF are further cleaved by gamma-secretase to generate p83 and Abeta, respectively" [pmid:21214928]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00073
+id: CONSO:CONSO00073
 name: APP processing
 namespace: biological_process
 def: "Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein (see:GO:0016485)" [pmid:21214928]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00074
+id: CONSO:CONSO00074
 name: AβOs
 namespace: cellular_component
 def: "soluble Aβ oligomers" [pmid:24685176]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00075
+id: CONSO:CONSO00075
 name: LMW amyloid oligomers
 namespace: cellular_component
 def: "The formation of AβOs starts from alterations in the conformation of monomeric Aβ, resulting in low molecular weight (LMW) dimers and trimers, followed by aggregation to soluble spherical oligomers consisted of 12–24 monomers." [pmid:18723507]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00076
+id: CONSO:CONSO00076
 name: amyloid-beta 40 oligomers
 namespace: cellular_component
 def: "Amyloid-beta oligomers composed specifically of amyloid-beta 40" [pmid:21209907]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00077
+id: CONSO:CONSO00077
 name: alternative splicing of APP gene
 namespace: biological_process
 def: "The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition (see:GO:0000380)" [pmid:22122372]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00078
+id: CONSO:CONSO00078
 name: E1 domain
 namespace: domain
 def: "The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization" [pmid:21574595]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00079
+id: CONSO:CONSO00079
 name: E2 domain
 namespace: domain
 def: "The ectodomains of APP and APLPs have two conserved regions called E1 and E2 (Fig. 1A), both of which have been proposed to contribute to dimerization" [pmid:21574595]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00080
+id: CONSO:CONSO00080
 name: P3 peptide
 namespace: protein_fragment
 def: "Cleavage by α-secretase yields the nonamyloidogenic soluble 3-kDa peptide (p3) that does not form amyloid fibrils, whereas cleavage by β-secretase yields the amyloidogenic form Aβ1–40 or the longer, more fibrillogenic Aβ1–42" [pmid:22137428]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00081
+id: CONSO:CONSO00081
 name: C99
 namespace: protein_fragment
 def: "a membrane associated C-terminal fragment consisting of 99 amino acids (C99)" [pmid:22122372]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00082
+id: CONSO:CONSO00082
 name: aMCI
 namespace: pathology
 def: "amnestic Mild Cognitive Impairement is a cognitive dysfunction that is associated with memory deficits" [pmid:18986241]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00083
+id: CONSO:CONSO00083
 name: mdMCI
 namespace: pathology
 def: "multi-domain Mild Cognitive Impairement is a cognitive dysfunction that is associated with more than one cognitive domain" [pmid:18986241]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00084
+id: CONSO:CONSO00084
 name: Tau isoform A (316 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:18986241]
@@ -958,90 +958,90 @@ xref: uniprot.isoform:P10636-3
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 
 [Term]
-id: HBP:HBP00085
+id: CONSO:CONSO00085
 name: Tau C3
 namespace: epitope
 def: "Tau epitope cleaved at aspartic acid(421)." [pmid:18986241]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00086
+id: CONSO:CONSO00086
 name: Tau MN423
 namespace: epitope
 def: "Tau epitope truncated at glutamic acid(391)." [pmid:18986241]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00087
+id: CONSO:CONSO00087
 name: granular tau oligomers
 namespace: cellular_component
 def: "When the oligomer lengthens, it adapts a beta-sheet structure and transforms into a detergent-insoluble aggregate with granular appearance under Atomic Force Microscopy (AFM)" [pmid:28420982]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00088
+id: CONSO:CONSO00088
 name: Tau fibrils
 namespace: cellular_component
 def: "As these granular tau oligomers fuse together, they form tau fibrils, which ultimately form NFTs" [pmid:28420982]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00089
+id: CONSO:CONSO00089
 name: dense core plaques
 namespace: cellular_component
 def: "Dense-core plaques are fibrillar deposits of Abeta, showing all the classical properties of amyloid including beta-sheet secondary structure, while diffuse plaques are amorphous deposits" [pmid:17680701]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00090
+id: CONSO:CONSO00090
 name: Tau annular protofibrils
 namespace: cellular_component
 def: "A handful of proteins implicated in neurodegenerative diseases have been found to produce pore-like amyloid structures known as annular protofibrils (APFs)" [pmid:28420982]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00091
+id: CONSO:CONSO00091
 name: TOC1
 namespace: antibody
 def: "monoclonal antibody, named TOC1 (tau oligomeric complex 1), which selectively labels tau dimers and oligomers, but does not label filaments" [pmid:22817713]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00092
+id: CONSO:CONSO00092
 name: alpha-synuclein fibrils
 namespace: cellular_component
 def: "fibrillar aggregates of alpha-synuclein, found in Lewy bodies" [pmid:19892735]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00093
+id: CONSO:CONSO00093
 name: alpha-synuclein oligomers
 namespace: cellular_component
 def: "oligomeric aggregates of alpha-synuclein" [pmid:17374364]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00094
+id: CONSO:CONSO00094
 name: CLR01
 namespace: protein
 def: "the Lys-specific molecular tweezer CLR01 has been shown to inhibit aggregation and toxicity of multiple amyloidogenic protein" [pmid:23183235]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00095
+id: CONSO:CONSO00095
 name: prefibrillar α-synuclein oligomers
 namespace: cellular_component
 def: "prefibrillar oligomers formed at early stages of α-syn assembly" [pmid:27075649]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00096
+id: CONSO:CONSO00096
 name: GA-AGE
 def: "Glyceraldehyde-derived (GA) advanced glycation end products" [pmid:16630055, pmid:15221334]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00097
+id: CONSO:CONSO00097
 name: TGM2 Isoform 3 (349 aa)
 namespace: isoform
 def: "Short isoform of tissue transglutaminase" [pmid:12578227]
@@ -1050,22 +1050,22 @@ xref: uniprot.isoform:P21980-2
 relationship: has_reference_protein uniprot:P21980 ! TGM2_HUMAN
 
 [Term]
-id: HBP:HBP00098
+id: CONSO:CONSO00098
 name: KXGS motif
 namespace: motif
 def: "Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly" [pmid:17304350, pmid:21215781]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00099
+id: CONSO:CONSO00099
 name: Corticobasal Degeneration
 namespace: pathology
 def: "CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques" [pmid:22057784]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00233 ! 4R tauopathy
+is_a: CONSO:CONSO00233 ! 4R tauopathy
 
 [Term]
-id: HBP:HBP00100
+id: CONSO:CONSO00100
 name: paired helical filaments
 namespace: cellular_component
 def: "Component of NFT, consisting in a helical arrangement of tau protomers" [pmid:22496370, pmid:1706519]
@@ -1073,7 +1073,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: part_of GO:GO\:0097418 ! neurofibrillary tangle
 
 [Term]
-id: HBP:HBP00101
+id: CONSO:CONSO00101
 name: straight filaments
 namespace: cellular_component
 def: "Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers" [pmid:16566606, pmid:28678775]
@@ -1081,161 +1081,161 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: part_of GO:GO\:0097418 ! neurofibrillary tangle
 
 [Term]
-id: HBP:HBP00102
+id: CONSO:CONSO00102
 name: Alz50
 namespace: antibody
 def: "Murine IgM-class monoclonal antibody recognizing a specific conformational epitope adopted by tau during PHF formation" [pmid:16566606, pmid:8955115]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00103
+id: CONSO:CONSO00103
 name: O-GlcNAcylation
 namespace: post_translational_modification
 def: "A non-canonical glycosylation involving the attachment of single O-linked N-acetylglucosamine (O-GlcNAc) moieties to serine and threonine residues of cytoplasmic, nuclear, and mitochondrial proteins" [pmid:16630055]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00104
+id: CONSO:CONSO00104
 name: glycation
 namespace: post_translational_modification
 def: "The non-enzymatic reaction between the electrophilic carbonyl groups of a reducing sugar and the free amino groups of tau amino acids (especially of basic lysine or arginine residues) leading to the formation of  a ketoamine (Amadori product), an intermediate of AGE synthesis." [pmid:26655600]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00105
+id: CONSO:CONSO00105
 name: nitration
 namespace: post_translational_modification
 def: "Incorporation of a nitrogen dioxide (NO2) group in tyrosine residues (mostly) of proteins forming 3-nitrotyrosine (3-NT). A biomarker of cell, tissue and systemic nitrosative stress." [pmid:16566606]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00106
+id: CONSO:CONSO00106
 name: polyamination
 namespace: post_translational_modification
 def: "The reaction of polyamination by transglutaminases (TGs) involves a glutamine (Q) as acyl donor and a lysine (K) as acyl acceptor. It generates a (gamma)-glutamyl-(epsilon)-lysine isopeptide bond that causes protein cross-linking" [pmid:25974414]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00107
+id: CONSO:CONSO00107
 name: formylation
 namespace: post_translational_modification
 def: "The addition of a formyl functional group usually at the epsilon amino group of Lys residues" [pmid:21210655]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00108
+id: CONSO:CONSO00108
 name: Syndecan Family
 namespace: protein_family
 def: "IterPro:IPR001050" [pmid:15241784]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00109
+id: CONSO:CONSO00109
 name: Bacterial invasion
 namespace: biological_process
 def: "The process of bacteria invading a cell" [pmid:15241784]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00110
+id: CONSO:CONSO00110
 name: dopamine homeostasis
 namespace: biological_process
 def: "Dopmine secrete in a homeostatic way" [pmid:26325389]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00111
+id: CONSO:CONSO00111
 name: PINK1-Park pathway
 namespace: pathway
 def: "The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo.pmid:23509287" [pmid:26182419]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00112
+id: CONSO:CONSO00112
 name: Glutamate excitotoxicity
 namespace: biological_process
 def: "The excitotoxicity of Glutamate" [pmid:10196525]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00113
+id: CONSO:CONSO00113
 name: mitochondrial homeostasis
 namespace: biological_process
 def: "The interplay between mitophagy and mitochondrial biogenesis." [pmid:25478815]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00114
+id: CONSO:CONSO00114
 name: ER mitochondria interorganellar crosstalk
 namespace: biological_process
 def: "reference:pmid: 22577383" [pmid:25478815]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00115
+id: CONSO:CONSO00115
 name: Mitochondrial pathway
 namespace: pathway
 def: "reference:pmid: 22399422" [pmid:23313576]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00116
+id: CONSO:CONSO00116
 name: oxidative protein folding
 namespace: biological_process
 def: "Oxidative protein folding is a process that is responsible for the formation of disulfide bonds between cysteine residues in proteins. The driving force behind this process is a redox reaction, in which electrons pass between several proteins and finally to a terminal electron acceptor." [pmid:26004228]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00117
+id: CONSO:CONSO00117
 name: mitochondrial motility
 namespace: biological_process
 def: "The motility of mitochondria" [pmid:25565208]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00118
+id: CONSO:CONSO00118
 name: TIM/TOM complex
 namespace: protein_complex
 def: "The TIM/TOM complex is a protein complex in cellular biochemistry which translocates proteins produced from nuclear DNA through the mitochondrial membrane for use in oxidative phosphorylation. Only 13 proteins necessary for a mitochondrion are actually coded in mitochondrial DNA." [pmid:25565208]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00119
+id: CONSO:CONSO00119
 name: mitochondrial aggregation
 namespace: biological_process
 def: "The aggregation of mitochondria" [pmid:25591737]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00120
+id: CONSO:CONSO00120
 name: mevalonate pathway
 namespace: pathway
 def: "The mevalonate pathway, also known as the isoprenoid pathway or HMG-CoA reductase pathway is an essential metabolic pathway present in eukaryotes, archaea, and some bacteria" [pmid:24695221]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00121
+id: CONSO:CONSO00121
 name: Dopaminergic cell groups
 namespace: anatomy
 def: "UBERON:dopaminergic cell groups" [pmid:24695221]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00122
+id: CONSO:CONSO00122
 name: mitochondrial precursor protein
 namespace: protein
 def: "The precursor protein of mitochondria" [pmid:26192197]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00123
+id: CONSO:CONSO00123
 name: PDR-1
 namespace: protein
 def: "the nematode homologs of Parkin" [pmid:26430570]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00124
+id: CONSO:CONSO00124
 name: PINK-1
 namespace: protein
 def: "the nematode homologs of PINK1" [pmid:26430570]
@@ -1244,55 +1244,55 @@ xref: ncbigene:173918
 xref: wb:WBGene00017137
 
 [Term]
-id: HBP:HBP00125
+id: CONSO:CONSO00125
 name: skn-1
 namespace: protein
 def: "the nematode homologus of Skn1" [pmid:25896323]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00126
+id: CONSO:CONSO00126
 name: ced-9
 namespace: protein
 def: "the nematode homologus of Bcl-2" [pmid:25896323]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00127
+id: CONSO:CONSO00127
 name: lgg-1
 namespace: protein
 def: "the nematode homologus of Lgg1" [pmid:25896323]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00128
+id: CONSO:CONSO00128
 name: clec-65
 namespace: protein
 def: "the nematode homologus of Clec65" [pmid:25896323]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00129
+id: CONSO:CONSO00129
 name: clec-4
 namespace: protein
 def: "the nematode homologus of Clec4" [pmid:25896323]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00131
+id: CONSO:CONSO00131
 name: exotoxin A
 namespace: protein
 def: "exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease." [pmid:25274306]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00132
+id: CONSO:CONSO00132
 name: mitochondrial DAMPs
 def: "mitochondrial damage-associated molecular patterns" [pmid:20203610]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00133
+id: CONSO:CONSO00133
 name: IκB kinase
 namespace: protein_complex
 def: "The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation." [pmid:19880420]
@@ -1300,20 +1300,20 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: fplx:IKK_family
 
 [Term]
-id: HBP:HBP00134
+id: CONSO:CONSO00134
 name: non-shivering thermogenesis
 def: "Nonshivering thermogenesis was originally defined as a cold-induced increase in heat production not associated with the muscle activity of shivering. Recent research shows it to be a metabolic process located primarily in brown adipose tissue and controlled by the activity of the sympathetic nervous supply of this tissue.PMID: 6722594" [pmid:16224498]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00135
+id: CONSO:CONSO00135
 name: hsp-16
 namespace: protein
 def: "the nematode homologus of hsp16" [pmid:22700657]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00136
+id: CONSO:CONSO00136
 name: heat shock proteins
 namespace: protein_family
 def: "Heat shock proteins (HSP) are a family of proteins that are produced by cells in response to exposure to stressful conditions. They were first described in relation to heat shock," [pmid:15280428]
@@ -1321,100 +1321,100 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D006360
 
 [Term]
-id: HBP:HBP00137
+id: CONSO:CONSO00137
 name: high-calorie diets
 namespace: exposure
 def: "Diets with high calorie." [pmid:10412986]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00138
+id: CONSO:CONSO00138
 name: proteotoxicity
 namespace: pathology
 def: "To function, proteins must undergo a folding process that gives them the proper three dimensional structure. Numerous genetic and biochemical observations suggest that proteins that fail to fold properly impair cell function. This process, also referred to as proteotoxicity, is particularly important to the fate of non-renewable cells of long-lived organisms in which malfolded proteins (proteotoxins) can exert their deleterious influence over extended periods of time.reference:Proteotoxicity and Aging" [pmid:24149988]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00139
+id: CONSO:CONSO00139
 name: ss20399075
 namespace: genetic_variant
 def: "A SNP located within the 3' UTR of FGF20, is significantly associated with PD risk" [pmid:15122513]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00140
+id: CONSO:CONSO00140
 name: Alpha-synuclein Oligomerization
 namespace: biological_process
 def: "The formation of alpha-synuclein oligmer" [pmid:21296890]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00141
+id: CONSO:CONSO00141
 name: D6S253
 def: "A microsatellite markers for Alzheimer’s and Parkinson’s Diseases" [pmid:9560156]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00142
+id: CONSO:CONSO00142
 name: D6S305
 def: "A microsatellite markers for Alzheimer’s and Parkinson’s Diseases" [pmid:9560156]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00143
+id: CONSO:CONSO00143
 name: MTHFR,TT+AA
 def: "In Parkinson's Disease, TT+AA is more frequent in MTHFR gene." [pmid:17914182]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00144
+id: CONSO:CONSO00144
 name: CAG repeats
 namespace: motif
 def: "CAG repeats in genes." [pmid:22782013]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00145
+id: CONSO:CONSO00145
 name: Gastrointestinal dysfunctions
 namespace: pathology
 def: "The function of gastrotestine disorder." [pmid:24467967]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00146
+id: CONSO:CONSO00146
 name: olfactory epithelium
 namespace: anatomy
 def: "UBERON:olfactory epithelium" [pmid:22691461]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00147
+id: CONSO:CONSO00147
 name: nasal cycle
 def: "The nasal cycle is the often unnoticed alternating partial congestion and decongestion of the nasal cavities in humans and other animals. It is a physiological congestion of the nasal concha, also called the nasal turbinate, due to selective activation of one half of the autonomic nervous system by the hypothalamus." [pmid:23569018]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00148
+id: CONSO:CONSO00148
 name: hyposmia
 namespace: pathology
 def: "Hyposmia is a reduced ability to smell and to detect odors.Hyposmia might be a very early sign of Parkinson's disease. Hyposmia is also an early and almost universal finding in Alzheimer's disease and dementia with Lewy bodies. Lifelong hyposmia could be caused by Kallmann syndrome." [pmid:23933572]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00149
+id: CONSO:CONSO00149
 name: FMR1,(55-200 CGG)
 namespace: genetic_variant
 def: "A premutation (PM) expansion (55-200 CGG) in the fragile X mental retardation gene 1 causes elevated messenger RNA and reduced fragile X mental retardation gene 1 protein." [pmid:24332449]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00150
+id: CONSO:CONSO00150
 name: pof14
 def: "a new member of the F-box family, Pof14, which forms a canonical" [pmid:17016471]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00151
+id: CONSO:CONSO00151
 name: Neuroglia
 namespace: anatomy
 def: "MeSH Unique ID: D009457" [pmid:19248803]
@@ -1422,14 +1422,14 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D009457
 
 [Term]
-id: HBP:HBP00152
+id: CONSO:CONSO00152
 name: GDNF Family
 namespace: chemical_class
 def: "The GDNF family of ligands (GFL) consists of four neurotrophic factors: glial cell line-derived neurotrophic factor (GDNF), neurturin (NRTN), artemin (ARTN), and persephin (PSPN). GFLs have been shown to play a role in a number of biological processes including cell survival, neurite outgrowth, cell differentiation and cell migration. In particular signalling by GDNF promotes the survival of dopaminergic neurons." [pmid:10383122]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00153
+id: CONSO:CONSO00153
 name: Motor Neurons
 namespace: anatomy
 def: "MeSH Unique ID: D009046" [pmid:10383122]
@@ -1437,21 +1437,21 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D009046
 
 [Term]
-id: HBP:HBP00154
+id: CONSO:CONSO00154
 name: noradrenergic neuron
 namespace: anatomy
 def: "Cell:noradrenergic neuron" [pmid:10383122]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00155
+id: CONSO:CONSO00155
 name: midbrain dopaminergic neuron
 namespace: anatomy
 def: "Cell:midbrain dopaminergic neuron" [pmid:10383122]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00156
+id: CONSO:CONSO00156
 name: Neurites
 namespace: anatomy
 def: "A neurite or neuronal process refers to any projection from the cell body of a neuron." [pmid:23872421]
@@ -1459,42 +1459,42 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D016501
 
 [Term]
-id: HBP:HBP00157
+id: CONSO:CONSO00157
 name: GRB10,BPS domain
 namespace: domain
 def: "BPS domain of protein GRB10" [pmid:25268761]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00158
+id: CONSO:CONSO00158
 name: common fragile site
 namespace: cellular_component
 def: "A chromosomal fragile site is a specific heritable point on a chromosome that tends to form a gap or constriction and may tend to break when the cell is exposed to partial replication stress.Based on their frequency, fragile sites are classified as common or rare.To date, more than 120 fragile sites have been identified in the human genome." [pmid:12874785]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00159
+id: CONSO:CONSO00159
 name: PARK7-alpha helices
 namespace: domain
 def: "The alpha helices of PARK7 protein" [pmid:18707128]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00160
+id: CONSO:CONSO00160
 name: cleaved PINK1
 namespace: protein_fragment
 def: "The cleaved part of Protein PINK1" [pmid:21138942]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00161
+id: CONSO:CONSO00161
 name: neurovascular unit
 namespace: anatomy
 def: "The brain hyperaemia, or coupling, is accomplished by a group of cells, closely related to each other; called neurovascular unit (NVU). The neurovascular unit is composed by neurones, astrocytes, endothelial cells of blood-brain barrier (BBB), myocytes, pericytes and extracellular matrix components. reference:PMID: 24629161" [pmid:25136294]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00162
+id: CONSO:CONSO00162
 name: Muscles
 namespace: anatomy
 def: "MeSH Unique ID: D009132" [pmid:21151955]
@@ -1502,7 +1502,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D009132
 
 [Term]
-id: HBP:HBP00163
+id: CONSO:CONSO00163
 name: Neural Stem Cell
 namespace: anatomy
 def: "MeSH Unique ID: D058953" [pmid:22357600]
@@ -1510,7 +1510,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D058953
 
 [Term]
-id: HBP:HBP00164
+id: CONSO:CONSO00164
 name: Ventral Tegmental Area
 namespace: anatomy
 def: "MeSH Unique ID: D017557" [pmid:16190884]
@@ -1518,7 +1518,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D017557
 
 [Term]
-id: HBP:HBP00165
+id: CONSO:CONSO00165
 name: Pars Compacta
 namespace: anatomy
 def: "MeSH Unique ID: D065842" [pmid:16190884]
@@ -1526,7 +1526,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D065842
 
 [Term]
-id: HBP:HBP00166
+id: CONSO:CONSO00166
 name: proline-rich domain
 namespace: domain
 def: "Correspounding to residues I151 to Q244 of the 441 aa tau isoform, separated into P1 and P2. Possible role in tau's functional stabilization through the reported intramolecular interaction of P2 with R1, R2 and R4 from the microtubule-binding region" [pmid:25974414, pmid:8068626, pmid:9190213]
@@ -1535,42 +1535,42 @@ synonym: "P domain" EXACT [pmid:8068626]
 synonym: "PRD" EXACT [pmid:26789759]
 
 [Term]
-id: HBP:HBP00167
+id: CONSO:CONSO00167
 name: lys-2
 namespace: protein
 def: "the nematode homologus of Lys2" [pmid:25896323]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00168
+id: CONSO:CONSO00168
 name: abf-2
 namespace: protein
 def: "the nematode homologus of Abf2" [pmid:25896323]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00169
+id: CONSO:CONSO00169
 name: hydrophobic pocket of actin
 namespace: domain
 def: "The lower cleft between domains 1 and 3 is lined by residues Tyr143, Ala144, Gly146, Thr148, Gly168, Ile341, Ile345, Leu346, Leu349, Thr351, and Met355, which are predominantly hydrophobic. This cleft constitutes the major binding site for most ABPs and also mediates important longitudinal contacts between actin subunits in the filament" [pmid:21314430]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00170
+id: CONSO:CONSO00170
 name: 310-helix
 namespace: motif
 def: "The 310-helix is the fourth most common type of secondary structure in proteins after α-helices, β-sheets, and reverse turns (Barlow and Thornton 1988). Approximately 15%–20% of all helices in protein structures are 310-helices, which are commonly found as N- or C-terminal extensions to an α-helix (Barlow and Thornton 1988). 310-Helices in proteins are typically only three to five residues long compared with a mean of 10–12 residues for α-helices (Richardson and Richardson 1988)" [pmid:12761385]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00171
+id: CONSO:CONSO00171
 name: Amylin Antagonist AC253
 namespace: peptide
 def: "Amino Acid Sequence: Ac-Leu-Gly-Arg-Leu-Ser-Gln-Glu-Leu-His-Arg-Leu-Gln-Thr-Tyr-Pro-Arg-Thr-Asn-Thr-Gly-Ser-Asn-Thr-Tyr-NH2" [pmid:22500019]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00172
+id: CONSO:CONSO00172
 name: CDK5R1 p25
 namespace: protein
 def: "The cyclin dependent kinase 5 regulatory subunit 1 (CDK5R1), also known as p35, is cleaved by Calpain to produce the p25 fragment" [pmid:10830966]
@@ -1578,42 +1578,42 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 relationship: bel bel:p\(HGNC\:CDK5R1\,\Wfrag\(99_307\)\)
 
 [Term]
-id: HBP:HBP00173
+id: CONSO:CONSO00173
 name: PTI-125
 namespace: chemical_proprietary
 def: "PTI-125 is a proprietary small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies" [pmid:28438486, pmid:22815492]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00174
+id: CONSO:CONSO00174
 name: alpha-4 beta-2 nAChR
 namespace: protein_complex
 def: "In addition to nAChRs forming from different subunit assemblages, stoichiometric study has shown that α4β2 nAChRs can form as either (α4)3(β2)2 or (α4)2(β2)3, the latter having a greater affinity for both nicotine and Ach" [pmid:24828779]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00175
+id: CONSO:CONSO00175
 name: alpha-7 beta-2 nAChR
 namespace: protein_complex
 def: "Accumulating evidence demonstrates that these α7 and β2 nAChR subunits can co-assemble to form functional α7β2 nAChRs in heterologous expression systems, and also under natural conditions in the brain (Figure 1)" [pmid:27179601]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00176
+id: CONSO:CONSO00176
 name: beta-2-containing nAChR
 namespace: protein_complex
 def: "The β2 subunit can couple with non-α4 subunits, including α2, α3 and α6 subunits to form functionally distinct nAChRs, but these receptors are much less densely expressed in the central nervous system relative to α4β2* nAChRs (*indicating potential assemblage of β2 subunits with non-α4 subunits)" [pmid:24828779]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00177
+id: CONSO:CONSO00177
 name: Abeta*56
 namespace: cellular_component
 def: "56 kDa soluble amyloid-β (Aβ) assembly" [pmid:16541076]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00178
+id: CONSO:CONSO00178
 name: protein aggregates
 namespace: cellular_component
 def: "Aggregates of proteins or fragments of proteins" [pmc:PMC2633703, pmid:23254192, pmid:12747895, pmid:23484434]
@@ -1622,144 +1622,144 @@ xref: mesh:D066329
 xref: sbo:SBO\:0000543
 
 [Term]
-id: HBP:HBP00179
+id: CONSO:CONSO00179
 name: sAPP-gamma
 namespace: protein_fragment
 def: "results from the cleavage of beta APP by gamma-secretase" [pmid:12105112]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00180
+id: CONSO:CONSO00180
 name: alpha-6-containing nAChR
 namespace: protein_complex
 def: "alpha6-containing receptors, which in brain occur as heteropentamers with beta2 and beta3 and are especially enriched in presynaptic nerve terminals in striatum (Champtiaux et al.,2002)" [pmid:28445721, pmid:19498417]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00181
+id: CONSO:CONSO00181
 name: phosphatase-activating domain
 namespace: domain
 def: "Tau domain located in the N-terminal region encompassing residues 2-18. It activates phosphatase PP1 which dephosphorylates Ser9 in GSK3Beta and leads to its activation. In normal tau, both NTD and CTD are folded back in proximity to each other forming a 'paper-clip' conformation, which masks the PAD. Phosphorylation in the AT8 epitope, disrupts this normal conformational state, exposing the PAD by moving away the terminal domains." [pmid:26671985, pmid:28413156]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00182
+id: CONSO:CONSO00182
 name: cystein-dependent auto-acetylation
 namespace: biological_process
 def: "Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines." [pmid:28002468, pmid:27383765]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00183
+id: CONSO:CONSO00183
 name: GVD bodies
 namespace: cellular_component
 def: "Pathological hallmarks of Alzheimer Disease, consisting in intraneuronal accumulations of large membrane-bound vacuoles. Associated with the late stages of disease progression, they were also shown to be immunopositive or GSK3Beta and SYK (Spleen Tyrosine Kinase)." [pmid:26501932]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00184
+id: CONSO:CONSO00184
 name: advanced glycation end product
 namespace: chemical_class
 def: "Advanced glycation end products (AGEs) are the production of Maillard reaction between carbohydrates and proteins. They cause neurotoxicity via production of ROS followed by an increase in expression of APP and amyloid beta. Recent analysis implicates them in tau phosphorylation." [pmid:28176663]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00185
+id: CONSO:CONSO00185
 name: long-term potentiation
 def: "A long lasting enhancement in synaptic transmission between two neurons, most commonly studied in the synapse between the Schaffer collateral axons of the CA3 neurons and the CA1 pyramidal neurons of the hippocampus. Alongside the LTD (long-term depression) represent the two mechanisms of memory formation and storage. Impairment of this process in AD is caused by soluble oligmoeric amyloid beta." [pmid:27041503]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D017774
 
 [Term]
-id: HBP:HBP00186
+id: CONSO:CONSO00186
 name: proline-rich region 1
 namespace: domain
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: part_of HBP:HBP00050 ! projection domain
-relationship: part_of HBP:HBP00166 ! proline-rich domain
+relationship: part_of CONSO:CONSO00050 ! projection domain
+relationship: part_of CONSO:CONSO00166 ! proline-rich domain
 
 [Term]
-id: HBP:HBP00187
+id: CONSO:CONSO00187
 name: proline-rich region 2
 namespace: domain
 def: "Part of the wider proline-rich domain, divided between the projection and assembly domains, this region together with the MTBR mediate tau interaction and binding to F actin." [pmid:21757739]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: part_of HBP:HBP00166 ! proline-rich domain
-relationship: part_of HBP:HBP00188 ! assembly domain
+relationship: part_of CONSO:CONSO00166 ! proline-rich domain
+relationship: part_of CONSO:CONSO00188 ! assembly domain
 
 [Term]
-id: HBP:HBP00188
+id: CONSO:CONSO00188
 name: assembly domain
 namespace: domain
 def: "Tau assembly domain consists of the second part of the proline-rich region (PR2), MTBR and CTD, corresponding to residues 199-441 of the canonical tau isoform." [pmid:21757739]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00189
+id: CONSO:CONSO00189
 name: CRL4 complex
 namespace: protein_complex
 def: "Cullin-RING E3 ubiquitin ligase complex 4, consisting of CUL4(A,B), DDB1 and CRBN." [pmid:27325702]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00190
+id: CONSO:CONSO00190
 name: APP, ACR
 namespace: domain
 def: "Cytosolic region of APP, responsible for interacting with E3 ubiquitin ligases among other proteins." [pmid:27325702]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00191
+id: CONSO:CONSO00191
 name: tubulin detyrosination
 namespace: post_translational_modification
 def: "Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus. Promoted by Tau truncation in the Gln124 residue." [pmid:25974414]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00192
+id: CONSO:CONSO00192
 name: Microgliosis
 namespace: biological_process
 def: "An intense reaction of microglia following CNS insult, characterized by active proliferation and retracted cellular processes. In AD, accumulation of Abeta can be a possible cause of such physiological phenomenon, as microglia is seen surrounding senile plaques. Abeta interaction with microglial pattern recognition receptors (PRRs) leads to NLRP3 inflammasome activation, production of toxic NOS and ROS and release of proinflammatory cytokines." [pmid:29121589]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00193
+id: CONSO:CONSO00193
 name: Astrogliosis
 namespace: biological_process
 def: "Morphological and functional changes observed in astrocytes in the context of their physiological response to CNS trauma or injury caused by ischemia, stroke, autoimmune disorders and neurodegeneration." [pmid:29121589]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00194
+id: CONSO:CONSO00194
 name: CK1 superfamily
 namespace: protein_family
 def: "The CK1 group of eukaryotic protein kinases are composed of seven CK1 isoforms (CK1α, CK1α2, CK1δ, CK1ε, CK1γ1, CK1γ2, and CK1γ3), two Tau–tubulin kinase isoforms (TTBK1 and TTBK2), and three VRK isoforms (VRK1, VRK2, and VRK3)" [pmid:25673844]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00195
+id: CONSO:CONSO00195
 name: alpha-4-containing nAChR
 namespace: protein_complex
 def: "nAChRs that bind radiolabeled nicotine with the highest afﬁnity contain a4 subunits (a4*-nAChR)" [pmid:21787755]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00196
+id: CONSO:CONSO00196
 name: alpha-4 beta-4 nAChR
 namespace: protein_complex
 def: "a4 subunits can also assemble with b4 subunits to form a4b4-nAChRs that have comparably high nicotine afﬁnity" [pmid:21787755]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00197
+id: CONSO:CONSO00197
 name: alpha-7-containing nAChR
 namespace: protein_complex
 def: "Another prominent nAChR subtype found in vertebrate central and autonomic nervous systems contains a7 subunits." [pmid:21787755]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00198
+id: CONSO:CONSO00198
 name: alpha-Bungarotoxin
 namespace: protein
 def: "Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake)." [pmid:21787755]
@@ -1767,14 +1767,14 @@ relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: uniprot:P60616
 
 [Term]
-id: HBP:HBP00199
+id: CONSO:CONSO00199
 name: alpha-3 beta-2 nAChR
 namespace: protein_complex
 def: "nAChRs containing the a3b2 subunit interface" [pmid:21787755]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00200
+id: CONSO:CONSO00200
 name: kappa-Bungarotoxin
 namespace: protein
 def: "kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)" [pmid:21787755, pmid:3359187]
@@ -1782,7 +1782,7 @@ relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: uniprot:P01398
 
 [Term]
-id: HBP:HBP00201
+id: CONSO:CONSO00201
 name: VU10010
 namespace: chemical
 def: "highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233, pmid:18059262]
@@ -1832,7 +1832,7 @@ synonym: "cid_714286" EXACT [pubchem.compound:714286]
 synonym: "f-LIGRLO-NH2" EXACT [pubchem.compound:714286]
 
 [Term]
-id: HBP:HBP00202
+id: CONSO:CONSO00202
 name: VU0456940
 namespace: chemical
 def: "M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one" [pmid:24511233]
@@ -1845,7 +1845,7 @@ synonym: "VU-0456940" EXACT [https://medkoo.com/products/9998]
 synonym: "VU0456940" EXACT [https://medkoo.com/products/9998]
 
 [Term]
-id: HBP:HBP00203
+id: CONSO:CONSO00203
 name: VU0152099
 namespace: chemical
 def: "selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233]
@@ -1881,7 +1881,7 @@ synonym: "ZINC1472126" EXACT [pubchem.compound:1541501]
 synonym: "cid_1541501" EXACT [pubchem.compound:1541501]
 
 [Term]
-id: HBP:HBP00204
+id: CONSO:CONSO00204
 name: VU0029767
 namespace: chemical
 def: "selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" [pmid:24590577]
@@ -1901,7 +1901,7 @@ synonym: "ZINC1204219" EXACT [pubchem.compound:6758210]
 synonym: "ZINC38534584" EXACT [pubchem.compound:6758210]
 
 [Term]
-id: HBP:HBP00205
+id: CONSO:CONSO00205
 name: VU0090157
 namespace: chemical
 def: "selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" [pmid:24590577]
@@ -1932,7 +1932,7 @@ synonym: "cyclopentyl 1,6-dimethyl-4-(6-nitrobenzo[d][1,3]-dioxol-5-yl)-2-oxo-1,
 synonym: "cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" EXACT [pubchem.compound:2882724]
 
 [Term]
-id: HBP:HBP00206
+id: CONSO:CONSO00206
 name: VU0184670
 namespace: chemical
 def: "M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" [pmid:24590577]
@@ -1949,7 +1949,7 @@ synonym: "VU0184670" EXACT [pubchem.compound:25010774]
 synonym: "ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" EXACT [pubchem.compound:25010774]
 
 [Term]
-id: HBP:HBP00207
+id: CONSO:CONSO00207
 name: 2-Bromohexadecanoic acid
 namespace: chemical
 def: "Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death." [pmid:18096814]
@@ -2024,63 +2024,63 @@ synonym: "alpha-Bromopalmitic acid" EXACT [pubchem.compound:82145]
 synonym: "bromohexadecanoic acid" EXACT [pubchem.compound:82145]
 
 [Term]
-id: HBP:HBP00208
+id: CONSO:CONSO00208
 name: 20 S Proteasome
 namespace: protein_complex
 def: "The catalytic core of the 26 S proteasome system, responsible for tau degradation" [pmid:17954934, pmid:19145068]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00209
+id: CONSO:CONSO00209
 name: 3-3 dityrosine cross-linking
 def: "An oxidation product consisting of covalent ortho-ortho coupling between two tyrosine residues formed as a conseguence to UV irradiation, gamma-irradiation, aging, exposure to oxygen free radicals, nitrogen dioxide, peroxynitrite, and lipid hydroperoxides.  ROS catalyzed by Cu ions are involved in the generation of these cross-links in amyloid beta oligomers to which they provide stability. Also involved in the stabilization of tau PHF. A potential biomarker of oxidative stress in AD." [pmid:16566606, pmid:\W24351276]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00210
+id: CONSO:CONSO00210
 name: Braak_Stage I
 def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping." [pmid:28176663, pmid:7566337]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00211
+id: CONSO:CONSO00211
 name: Braak_Stage II
 def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes. Transentorhinal stages I-II: correspond to clinically silent cases of very mildly affected subjects, showing no cognitive impairment. NFT are slowly and gradually developping." [pmid:28176663, pmid:7566337]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00212
+id: CONSO:CONSO00212
 name: Braak_Stage III
 def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage III is characterised by the destruction of the external principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads." [pmid:7566337]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00213
+id: CONSO:CONSO00213
 name: Braak_Stage IV
 def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.Limbic stages III-IV designate an incipient Alzheimer's disease, since due to the lack of neocortical destruction, stages III and IV do not meet the currently used criteria for neuropathologic diagnosis of AD.  Stage IV is characterised by the destruction of the internal principal stratum of the entorhinal laminae presenting considerable amounts of NFT and neuropil threads. The destruction of entorhinal cellular layers interferes with the normal transfer of information between neocortex and hippocampus, manifesting as cognitive impairment and subtle personality changes." [pmid:7566337]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00214
+id: CONSO:CONSO00214
 name: Braak_Stage V
 def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD." [pmid:28176663, pmid:7566337]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00215
+id: CONSO:CONSO00215
 name: Braak_Stage VI
 def: "A disease propagation and progression model, composed of six stages of increasing pathological severity determined by the location of the tangle-bearing neurons and the amplitude of the pathophysiological changes.neocortical stages V-VI correspond to fully developed Alzheimer's disease. These stages are characterized by large numbers of NFTs in all sections of cerebral cortex and present neocortical damage thus contributing to the development of the conventional neuropathological criteria for the clinical diagnosis of AD." [pmid:7566337]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00216
+id: CONSO:CONSO00216
 name: CagA peptide
 namespace: peptide
 def: "A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation" [pmid:23666762, pmid:19966800]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00217
+id: CONSO:CONSO00217
 name: MARK4 isoform 2 (688 aa)
 namespace: isoform
 def: "Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation." [pmid:16973293]
@@ -2089,106 +2089,106 @@ xref: uniprot.isoform:Q96L34-2
 relationship: has_reference_protein uniprot:Q96L34 ! MARK4_HUMAN
 
 [Term]
-id: HBP:HBP00218
+id: CONSO:CONSO00218
 name: NP_001387.2:p.Arg205del
 namespace: protein_variant
 def: "Loss of function mutant of DYRK1A isoform 1" [pmid:28167836]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00219
+id: CONSO:CONSO00219
 name: NP_001387.2:p.Glu239del
 namespace: protein_variant
 def: "Loss of function mutant of DYRK1A isoform 1" [pmid:28167837]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00220
+id: CONSO:CONSO00220
 name: PrP106-126
 namespace: protein_fragment
 def: "Prion protein fragment 106-126. This peptide increases membrane microviscosity, intracellular Ca2+ concentration and cell migration in circulating leucocytes, and oxygen production in monocytes and neutrophils. It also induces apoptotic cell death and impairment of L-type voltage-sensitive calcium channel activity in the GH3 cell lines. PrP (106–126) stimulates leucocyte migration in a dose-dependent manner. Inhibits tau phosphorylaton at Ser262. Seq = KTNMKHMAGAAAAGAVVGGLG" [pmid:22692785]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00221
+id: CONSO:CONSO00221
 name: Purkinje cell layer of cerebellar cortex
 namespace: anatomy
 def: "The Purkinje cell layer lies just underneath the molecular layer of the cerebellar cortex. It contains the neuronal cell bodies of the Purkinje cells that are arranged side by side in a single layer. Candelabrum interneurons are vertically oriented between the Purkinje cells. Purkinje neurons are inhibitory and provide the output of the cerebellar cortex through axons that project into the white matter. Extensive dendritic trees from the Purkinje cells extend upward in a single plane into the molecular layer where they synapse with parallel fibers of granule cells." [pmid:29221819]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00222
+id: CONSO:CONSO00222
 name: Tau antibody, AGG5759
 namespace: antibody
 def: "Tau antibody with specificity for pSer262" [pmid:23666762]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00223
+id: CONSO:CONSO00223
 name: Tau antibody, Tau-13
 namespace: antibody
 def: "Tau murine monoclonal antibody with specificity for pSer262" [pmid:23666762]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00224
+id: CONSO:CONSO00224
 name: Tau epitope, 12E8
 namespace: epitope
 def: "Tau epitope consisting of pSer262 and pSer356" [pmid:22156579]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00225
+id: CONSO:CONSO00225
 name: Tau epitope, AT180
 namespace: epitope
 def: "Tau epitope consisting of pThr231" [pmid:22833681]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00226
+id: CONSO:CONSO00226
 name: Tau epitope, AT8
 namespace: epitope
 def: "Tau epitope consisting of pSer202, pThr205, pSer208, pSer199" [pmid:18239272]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00227
+id: CONSO:CONSO00227
 name: Tau epitope, CP13
 namespace: epitope
 def: "Tau epitope consisting of pSer202" [pmid:25331948]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00228
+id: CONSO:CONSO00228
 name: Tau epitope, PHF1
 namespace: epitope
 def: "Tau epitope consisting of pSer396, pSer404" [pmid:22156579]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00229
+id: CONSO:CONSO00229
 name: dystrophic neurite
 def: "Dysfunctional axons and terminals that accumulate the β-site amyloid precursor protein (APP) cleaving enzyme (BACE1) required for Aβ generation." [pmid:28877763]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00230
+id: CONSO:CONSO00230
 name: granular layer of cerebellar cortex
 namespace: anatomy
 def: "The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer" [pmid:29221819]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00231
+id: CONSO:CONSO00231
 name: molecular layer of cerebellar cortex
 namespace: anatomy
 def: "The molecular layer is the outermost layer of the cerebellar cortex. It contains the parallel fibers of the granule cells, interneurons such as stellate and basket cells, and the dendrites of the underlying Purkinje cells" [pmid:29221819]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00232
+id: CONSO:CONSO00232
 name: Kalirin 7
 namespace: isoform
 def: "Isoform of KALRN protein" [pmid:27796283]
@@ -2196,14 +2196,14 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:O60229 ! KALRN_HUMAN
 
 [Term]
-id: HBP:HBP00233
+id: CONSO:CONSO00233
 name: 4R tauopathy
 namespace: pathology
 def: "Tauopathies characterized by a relatively higher presence of the 4R tau isoforms, such as Alzheimers Disease and Corticobasal Degeneration" [pmid:21427723]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00234
+id: CONSO:CONSO00234
 name: ACY-1215
 namespace: chemical
 def: "Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells." [pmid:24844691]
@@ -2278,14 +2278,14 @@ synonym: "rocilinostat-acy-1215" EXACT [pubchem.compound:53340666]
 synonym: "s8001" EXACT [pubchem.compound:53340666]
 
 [Term]
-id: HBP:HBP00235
+id: CONSO:CONSO00235
 name: APOE e3
 namespace: genetic_variant
 def: "Interacts with tubulin binding repeat 1" [pmid:26751493]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00236
+id: CONSO:CONSO00236
 name: BAY61-3606
 namespace: chemical
 def: "A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity" [pmid:25331948]
@@ -2339,21 +2339,21 @@ synonym: "ZINC3817793" EXACT [pubchem.compound:10200390]
 synonym: "cc-526" EXACT [pubchem.compound:10200390]
 
 [Term]
-id: HBP:HBP00237
+id: CONSO:CONSO00237
 name: Biphenyl-4-yl-acrylohydroxamoc acids
 namespace: chemical_class
 def: "Chemical compund group acting as inhibitors of HDAC family proteins." [pmid:26890116]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00238
+id: CONSO:CONSO00238
 name: Brodmann (1909) area 36
 namespace: anatomy
 def: "Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. With its medial boundary corresponding approximately to the rhinal sulcus it is located primarily in the fusiform gyrus. Cytoarchitecturally it is bounded laterally and caudally by the inferior temporal area 20, medially by the perirhinal area 35 and rostrally by the temporopolar area 38 (H) (Brodmann-1909). Together with Brodmann area 35, it comprises the perirhinal cortex." [pmid:23407988]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00239
+id: CONSO:CONSO00239
 name: C-30-27
 namespace: chemical
 def: "PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition" [pmid:25672970]
@@ -2362,7 +2362,7 @@ xref: inchi:InChI=1S/C20H26ClN3O3/c1-25-19-13-16\(14-22-6-7-24-8-10-26-11-9-24\)
 xref: smiles:C1COCCN1CCNCC2=CC\(=C\(C\(=C2\)Cl\)OCC3=CC=CC=N3\)OC
 
 [Term]
-id: HBP:HBP00240
+id: CONSO:CONSO00240
 name: C646
 namespace: chemical
 def: "Inhibitor of EP300 acetylase" [pmid:20869593]
@@ -2394,7 +2394,7 @@ synonym: "STK219801" EXACT [pubchem.compound:1285940]
 synonym: "ZINC13838357" EXACT [pubchem.compound:1285940]
 
 [Term]
-id: HBP:HBP00241
+id: CONSO:CONSO00241
 name: CA1 field of hippocampus
 namespace: anatomy
 def: "Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals." [pmid:23407988]
@@ -2402,7 +2402,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D056547
 
 [Term]
-id: HBP:HBP00242
+id: CONSO:CONSO00242
 name: CA2 field of hippocampus
 namespace: anatomy
 def: "Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus" [pmid:23407988]
@@ -2410,7 +2410,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D056651
 
 [Term]
-id: HBP:HBP00243
+id: CONSO:CONSO00243
 name: CA3 field of hippocampus
 namespace: anatomy
 def: "Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers." [pmid:23407988]
@@ -2418,14 +2418,14 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D056654
 
 [Term]
-id: HBP:HBP00244
+id: CONSO:CONSO00244
 name: CA4 field of hippocampus
 namespace: anatomy
 def: "The last of four regions in the cornu ammonis of the hippocampus and is also part of the hilus of the dentate gyrus. This area contains mostly mossy cells that receive inputs from the dentate gyrus and pyramidal cells in the CA3 region and also projects back to the dentate gyrus." [pmid:23407988]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00245
+id: CONSO:CONSO00245
 name: CGP3466B
 namespace: chemical
 def: "Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD" [pmid:29559585]
@@ -2476,7 +2476,7 @@ synonym: "dibenz[b,f]oxepin-10-ylmethyl-N-methyl-N-prop-2-ynylamine" EXACT [pubc
 synonym: "dibenzo-(b,f)oxepin-10-ylmethyl-methyl-prop-2-ynyl-amine" EXACT [pubchem.compound:6419718]
 
 [Term]
-id: HBP:HBP00246
+id: CONSO:CONSO00246
 name: CM-414
 namespace: chemical
 def: "A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity." [pmid:27550730]
@@ -2518,14 +2518,14 @@ synonym: "SCHEMBL793684" EXACT [pubchem.compound:10397232]
 synonym: "ZINC38760485" EXACT [pubchem.compound:10397232]
 
 [Term]
-id: HBP:HBP00247
+id: CONSO:CONSO00247
 name: DAPK, basic loop (BL) motif
 namespace: motif
 def: "A structural motif of DAPK (Death-Associated Protein Kinase) positively regulating the kinase activity." [pmid:27133022]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00248
+id: CONSO:CONSO00248
 name: Histone H3
 namespace: protein
 def: "One of the five main histone proteins of chromatin structure, acetylation at Lys 9 was positively linked with the transcriptional activation of various genes involved in neuro-regeneration following peripheral axonal injury, among which BDNF." [pmid:24686445]
@@ -2533,14 +2533,14 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: fplx:Histone_H3
 
 [Term]
-id: HBP:HBP00249
+id: CONSO:CONSO00249
 name: ID-8
 namespace: chemical
 def: "Inhibitor of GSK3Beta and DYRK1 kinases" [pmid:28884684]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00250
+id: CONSO:CONSO00250
 name: LDN-193594
 namespace: chemical
 def: "A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation" [pmid:23737518]
@@ -2549,7 +2549,7 @@ xref: chembl:CHEMBL1761791
 xref: inchi:InChI=1S/C15H11FN4OS/c16-11-6-2-1-5-10\(11\)12\(21\)13-14\(17\)20-15\(22-13\)19-9-4-3-7-18-8-9/h1-8H\,17H2\,\(H\,19\,20\)
 xref: pubchem.compound:54581340
 xref: smiles:C1=CC=C\(C\(=C1\)C\(=O\)C2=C\(N=C\(S2\)NC3=CN=CC=C3\)N\)F
-is_a: HBP:HBP00276 ! diaminothiazole
+is_a: CONSO:CONSO00276 ! diaminothiazole
 synonym: "(4-amino-2-(pyridin-3-ylamino)thiazol-5-yl)(2-fluorophenyl)methanone" EXACT [pubchem.compound:54581340]
 synonym: "1289638-15-8" EXACT [pubchem.compound:54581340]
 synonym: "BDBM50340902" EXACT [pubchem.compound:54581340]
@@ -2562,7 +2562,7 @@ synonym: "ZINC71317068" EXACT [pubchem.compound:54581340]
 synonym: "ldn-193594" EXACT [pubchem.compound:54581340]
 
 [Term]
-id: HBP:HBP00251
+id: CONSO:CONSO00251
 name: LDN-193665
 namespace: chemical
 def: "A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b" [pmid:23737518]
@@ -2570,34 +2570,34 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:1289638-16-9
 xref: inchi:\WInChI=1S/C15H11FN4OS/c16-10-4-1-3-9\(7-10\)12\(21\)13-14\(17\)20-15\(22-13\)19-11-5-2-6-18-8-11/h1-8H\,17H2\,\(H\,19\,20\)
 xref: smiles:FC1=CC=CC\(C\(C2=C\(N\)N=C\(NC3=CN=CC=C3\)S2\)=O\)=C1
-is_a: HBP:HBP00277 ! diaminothiazole
+is_a: CONSO:CONSO00277 ! diaminothiazole
 
 [Term]
-id: HBP:HBP00252
+id: CONSO:CONSO00252
 name: LDN-213843
 namespace: chemical
 def: "Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases" [pmid:23737518]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C19H19FN6OS/c20-14-4-2-1-3-13\(14\)16\(27\)17-18\(21\)25-19\(28-17\)24-12-5-6-15\(23-11-12\)26-9-7-22-8-10-26/h1-6\,11\,22H\,7-10\,21H2\,\(H\,24\,25\)
 xref: smiles:C1\(=CC=CC=C1C\(C4=C\(N\)N=C\(NC2=CN=C\(C=C2\)N3CCNCC3\)S4\)=O\)F
-is_a: HBP:HBP00278 ! diaminothiazole
+is_a: CONSO:CONSO00278 ! diaminothiazole
 
 [Term]
-id: HBP:HBP00253
+id: CONSO:CONSO00253
 name: Long-Term Depression
 namespace: pathology
 def: "A gradual weakening of neuronal synaptic connections lasting hours or longer following a long patterned stimulus. Along with LTP (long term potentiation) is one of the main mechanisms of memory formation, more specifically of spatial memory. The mechanism involves an interplay of NMDA and AMPA glutamate receptors, with minimal intracellular calcium levels triggering a cellular cascade leading to the removal of the latter and an overall decrease of the glutammate receptors in the postsynaptic neurons, thus weakening the synapse." [pmid:22833681]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00254
+id: CONSO:CONSO00254
 name: Pathological Tau Spreading
 namespace: pathology
 def: "Pathological spreading pattern of tau into defined anatomycally interconnected brain regions during the progression of tauopathy." [pmid:29540553]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00255
+id: CONSO:CONSO00255
 name: PrPSc
 namespace: isoform
 def: "PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types." [pmid:22692785, pmid:29414853]
@@ -2607,21 +2607,21 @@ xref: uniprot.isoform:F7VJQ1-1
 relationship: has_reference_protein uniprot:P04156 ! PRIO_HUMAN
 
 [Term]
-id: HBP:HBP00256
+id: CONSO:CONSO00256
 name: Tau Protein Secondary Structure, Turn
 def: "A turn-like structure formed in tau as a conseguence of the phosphorylation of only Ser202 and Thr205 residues, protects against aggregation." [pmid:28784767]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00257
+id: CONSO:CONSO00257
 name: Tau antibody, RG7345
 namespace: antibody
 def: "RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron." [pmid:26751493, pmid:10967355]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00258
+id: CONSO:CONSO00258
 name: RGFP966
 namespace: chemical
 def: "Selective inhibitor of HDAC3" [pmid:28771976]
@@ -2668,7 +2668,7 @@ synonym: "ZINC95616594" EXACT [pubchem.compound:56650312]
 synonym: "s7229" EXACT [pubchem.compound:56650312]
 
 [Term]
-id: HBP:HBP00259
+id: CONSO:CONSO00259
 name: SL-327
 namespace: chemical
 def: "Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A" [pmid:24401760]
@@ -2731,14 +2731,14 @@ synonym: "alpha-{amino[(4-aminophenyl)thio]methylene}-2-(trifluoromethyl)benzene
 synonym: "s1066" EXACT [pubchem.compound:9549284]
 
 [Term]
-id: HBP:HBP00260
+id: CONSO:CONSO00260
 name: Spinocerebellar Ataxia 11
 namespace: pathology
 def: "Spinocerebellar ataxia type 11 (SCA11) is characterized by progressive cerebellar ataxia and abnormal eye signs (jerky pursuit, horizontal and vertical nystagmus). Caused by mutations in the TTBK2 (Tau Tubulin Kinase 2) gene, is inherited in an autosomal dominant manner." [pmid:21548880]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00261
+id: CONSO:CONSO00261
 name: ST7612AA1
 namespace: chemical
 def: "A thiol derivative, pan-HDAC inhibitor" [pmid:27917100]
@@ -2757,47 +2757,47 @@ synonym: "ST-7612AA1" EXACT [pubchem.compound:71538210]
 synonym: "Thioacetic acid S-[(S)-6-[[(R)-5-oxopyrrolidine-2-ylcarbonyl]amino]-6-(phenylcarbamoyl)hexyl] ester" EXACT [pubchem.compound:71538210]
 
 [Term]
-id: HBP:HBP00262
+id: CONSO:CONSO00262
 name: Tau antibody, AGG5759
 namespace: antibody
 def: "Rabbit polyclonal antibody against tau pSer262, AstraZeneca" [pmid:23666762]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00263
+id: CONSO:CONSO00263
 name: Tau epitope, AD2
 namespace: epitope
 def: "Tau epitope consisting of pThr396 and pSer404" [pmid:11943212]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau epitope
+is_a: CONSO:CONSO00307 ! Tau epitope
 
 [Term]
-id: HBP:HBP00264
+id: CONSO:CONSO00264
 name: Tau epitope, AP422
 namespace: epitope
 def: "Tau epitope consisting of pSer422" [pmid:11943212]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau epitope
+is_a: CONSO:CONSO00307 ! Tau epitope
 
 [Term]
-id: HBP:HBP00265
+id: CONSO:CONSO00265
 name: Tau epitope, AT100
 namespace: epitope
 def: "Tau epitope consisting of pSer212 and pThr214" [pmid:22833681]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau epitope
+is_a: CONSO:CONSO00307 ! Tau epitope
 
 [Term]
-id: HBP:HBP00266
+id: CONSO:CONSO00266
 name: Tau epitope, AT270
 namespace: epitope
 def: "Tau epitope consisting of pThr181" [pmid:11943212]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau epitope
+is_a: CONSO:CONSO00307 ! Tau epitope
 
 [Term]
-id: HBP:HBP00267
+id: CONSO:CONSO00267
 name: Thiamet G
 namespace: chemical
 def: "Inhibitor of O-GlcNAcase (OGA)" [pmid:22833681]
@@ -2837,21 +2837,21 @@ synonym: "ZINC16052637" EXACT [pubchem.compound:24808478]
 synonym: "s7213" EXACT [pubchem.compound:24808478]
 
 [Term]
-id: HBP:HBP00268
+id: CONSO:CONSO00268
 name: Thioflavin S
 namespace: chemical_mixture
 def: "Dye binding to PHF used in AD diagnostics" [pmid:7667312]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00269
+id: CONSO:CONSO00269
 name: Trithiocarbonates
 namespace: chemical_class
 def: "Chemical compound group of susbtrate competitive selective HDAC6 inhibitors" [pmid:18558669]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00270
+id: CONSO:CONSO00270
 name: Tubacin
 namespace: chemical
 def: "Inhibitor of HDAC6" [pmid:23487739]
@@ -2863,7 +2863,7 @@ xref: iupac:N1-\[4-\[\(2R\,4R\,6S\)-4-\[\[\(4\,5-diphenyl-2-oxazolyl\)thio\]meth
 xref: smiles:O=C\(CCCCCCC\(NO\)=O\)NC\(C=C1\)=CC=C1\[C@@H\]2O\[C@H\]\(C3=CC=C\(CO\)C=C3\)C\[C@H\]\(CSC4=NC\(C5=CC=CC=C5\)=C\(C6=CC=CC=C6\)O4\)O2
 
 [Term]
-id: HBP:HBP00271
+id: CONSO:CONSO00271
 name: Tubastatin A
 namespace: chemical
 def: "Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load" [pmid:24844691]
@@ -2874,14 +2874,14 @@ xref: inchi:InChI=1S/C20H21N3O2/c1-22-11-10-19-17\(13-22\)16-4-2-3-5-18\(16\)23\
 xref: smiles:ONC\(C1=CC=C\(CN2C\(CCN\(C\)C3\)=C3C4=C2C=CC=C4\)C=C1\)=O
 
 [Term]
-id: HBP:HBP00272
+id: CONSO:CONSO00272
 name: USP14 Aptamer
 namespace: aptamer
 def: "Inhibitory oligopeptide of the USP14, a deubiquitinating enzyme." [pmid:26041011]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00273
+id: CONSO:CONSO00273
 name: cholinergic neuron
 namespace: anatomy
 def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." [pmid:29221819]
@@ -2889,7 +2889,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D059329
 
 [Term]
-id: HBP:HBP00274
+id: CONSO:CONSO00274
 name: cerebral cortex
 namespace: anatomy
 def: "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex." [pmid:29221819]
@@ -2897,7 +2897,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D002540
 
 [Term]
-id: HBP:HBP00275
+id: CONSO:CONSO00275
 name: crebinostat
 namespace: chemical
 def: "Inhibitor of HDAC6" [pmid:25546293]
@@ -2907,28 +2907,28 @@ xref: inchi:InChI=1S/C20H23N3O3/c24-19\(9-5-2-6-10-20\(25\)23-26\)22-21-15-16-11
 xref: smiles:C1=CC=CC\(=C1\)C2=CC=C\(C=C2\)C=NNC\(CCCCCC\(=O\)NO\)=O
 
 [Term]
-id: HBP:HBP00276
+id: CONSO:CONSO00276
 name: diaminothiazole
 namespace: chemical_class
 def: "Compound class with kinase inhibition properties, specifically for CDK5 and GSK3Beta" [pmid:23737518]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00277
+id: CONSO:CONSO00277
 name: entorhinal cortex layer 2
 namespace: anatomy
 def: "Layer of the entorhinal cortex lying superficial to layer 3 and deep to layer 1. It is characterized by medium-to large sized stellate cells that are grouped into prominent clusters, particularly in the rostral entorhinal cortex." [pmid:27798139]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00278
+id: CONSO:CONSO00278
 name: granular layer of cerebellar cortex
 namespace: anatomy
 def: "The granular layer is the innermost layer of the cerebellar cortex. This layer contains densely packed small neurons, mostly granule cells. Some Golgi cells are found at the outer border. Granule neurons send parallel fibers to the upper molecular layer, where they synapse with Purkinje cell dendrites. Mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons at cerebellar glomeruli in the granule cell layer." [pmid:29221819]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00279
+id: CONSO:CONSO00279
 name: indirubin
 namespace: chemical
 def: "A powerful inhibitor of GSK3B" [pmid:11013232]
@@ -2939,7 +2939,7 @@ xref: inchi:nChI=1S/C16H10N2O2/c19-15-10-6-2-4-8-12\(10\)17-14\(15\)13-9-5-1-3-7
 xref: smiles:c1ccc2c\(c1\)/C\(=C/3\\C\(=O\)c4ccccc4N3\)/C\(=O\)N2
 
 [Term]
-id: HBP:HBP00280
+id: CONSO:CONSO00280
 name: isocarboxazide
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
@@ -2950,7 +2950,7 @@ xref: drugbank:DB01247
 xref: inchi:InChI=1S/C12H13N3O2/c1-9-7-11\(15-17-9\)12\(16\)14-13-8-10-5-3-2-4-6-10/h2-7\,13H\,8H2\,1H3\,\(H\,14\,16\)
 xref: pubchem.compound:3759
 xref: smiles:CC1=CC\(=NO1\)C\(=O\)NNCC1=CC=CC=C1
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "1-Benzyl-2-(5-methyl-3-isoxazolyl-carbonyl)hydrazine" EXACT [pubchem.compound:3759]
 synonym: "1-Benzyl-2-(5-methyl-3-isoxazolylcarbonyl)hydrazine" EXACT [pubchem.compound:3759]
 synonym: "3-(2-BENZYLHYDRAZOCARBOXY)-5-METHYL-ISOXAZOLE" EXACT [pubchem.compound:3759]
@@ -3063,7 +3063,7 @@ synonym: "ZINC1587" EXACT [pubchem.compound:3759]
 synonym: "isocarboxazid" EXACT [pubchem.compound:3759]
 
 [Term]
-id: HBP:HBP00281
+id: CONSO:CONSO00281
 name: isopentanyladenine
 namespace: chemical
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
@@ -3198,7 +3198,7 @@ synonym: "isopentenyl-adenine" EXACT [pubchem.compound:92180]
 synonym: "n-isopentenyladenine" EXACT [pubchem.compound:92180]
 
 [Term]
-id: HBP:HBP00282
+id: CONSO:CONSO00282
 name: maitotoxin
 namespace: chemical
 def: "Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former" [pmid:10537045]
@@ -3217,7 +3217,7 @@ synonym: "Maitotoxin 1" EXACT [pubchem.compound:71460273]
 synonym: "UNII-9P59GES78D" EXACT [pubchem.compound:71460273]
 
 [Term]
-id: HBP:HBP00283
+id: CONSO:CONSO00283
 name: olomoucine
 namespace: chemical
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
@@ -3358,7 +3358,7 @@ synonym: "olomoucine" EXACT [pubchem.compound:4592]
 synonym: "purine deriv. 5" EXACT [pubchem.compound:4592]
 
 [Term]
-id: HBP:HBP00284
+id: CONSO:CONSO00284
 name: oxazolidinedione
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
@@ -3366,7 +3366,7 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C3H3NO3/c5-2-1-7-3\(6\)4-2/h1H2\,\(H\,4\,5\,6\)
 xref: pubchem.compound:97389
 xref: smiles:C1C\(=O\)NC\(=O\)O1
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "1,3-oxazolidin-2,4-dione" EXACT [pubchem.compound:97389]
 synonym: "1,3-oxazolidine-2,4-dione" EXACT [pubchem.compound:97389]
 synonym: "12770-97-7" EXACT [pubchem.compound:97389]
@@ -3413,7 +3413,7 @@ synonym: "ZINC1709820" EXACT [pubchem.compound:97389]
 synonym: "hydroxyoxazolinone" EXACT [pubchem.compound:97389]
 
 [Term]
-id: HBP:HBP00285
+id: CONSO:CONSO00285
 name: sudoxicam
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
@@ -3422,7 +3422,7 @@ xref: cas:34042-85-8
 xref: inchi:InChI=1S/C13H11N3O4S2/c1-16-10\(12\(18\)15-13-14-6-7-21-13\)11\(17\)8-4-2-3-5-9\(8\)22\(16\,19\)20/h2-7\,17H\,1H3\,\(H\,14\,15\,18\)
 xref: pubchem.compound:54682951
 xref: smiles:CN1C\(=C\(C2=CC=CC=C2S1\(=O\)=O\)O\)C\(=O\)NC3=NC=CS3
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "(3E)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
 synonym: "(3Z)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
 synonym: "2H-1,2-Benzothiazine-3-carboxamide, 4-hydroxy-2-methyl-N-2-thiazolyl-, 1,1-dioxide" EXACT [pubchem.compound:54682951]
@@ -3471,7 +3471,7 @@ synonym: "X033PDI962" EXACT [pubchem.compound:54682951]
 synonym: "ZINC5699183" EXACT [pubchem.compound:54682951]
 
 [Term]
-id: HBP:HBP00286
+id: CONSO:CONSO00286
 name: thiohydantoin
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
@@ -3480,18 +3480,18 @@ xref: chembl:CHEMBL1958109
 xref: chemspider:1069421
 xref: inchi:InChI=1S/C3H4N2OS/c6-2-1-4-3\(7\)5-2/h1H2\,\(H2\,4\,5\,6\,7\)
 xref: smiles:O=C1CNC\(=S\)N1
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 
 [Term]
-id: HBP:HBP00287
+id: CONSO:CONSO00287
 name: thioxooxazolidine
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: has_role HBP:HBP00321 ! Tau aggregation inhibitor
+relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 
 [Term]
-id: HBP:HBP00288
+id: CONSO:CONSO00288
 name: tideglusib
 namespace: chemical
 def: "Irreversibly inhibits GSK3B activity" [pmid:22102280]
@@ -3549,81 +3549,81 @@ synonym: "ZINC13985228" EXACT [pubchem.compound:11313622]
 synonym: "s2823" EXACT [pubchem.compound:11313622]
 
 [Term]
-id: HBP:HBP00289
+id: CONSO:CONSO00289
 name: Tau antibody, 6C5
 namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 125-131" [pmid:28408124]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00290
+id: CONSO:CONSO00290
 name: Tau antibody, HT7
 namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 159-163" [pmid:28408124]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00291
+id: CONSO:CONSO00291
 name: 6-O-sulfated heparin
 def: "During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)" [pmid:24878958]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00292
+id: CONSO:CONSO00292
 name: 2-O-sulfated heparin
 def: "During synthesis the HS chains are selectively sulfated at the N, 6-O, and 3-O positions of the glucosamine (GlcNS) and at the 2-O position of the uronic acid residue by HS sulfotransferases and modified by C5-epimerization of glucuronic acid (GlcA) to iduronic acid (IdoA)" [pmid:24878958]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00293
+id: CONSO:CONSO00293
 name: sonicated tau fibrils
 namespace: cellular_component
 def: "To make sonicated fibril samples, fibrillized protein was sonicated using a MiSonix Sonicator 4000 (QSonica, LLC) at 50% amplitude for 60 1 s pulses" [pmid:29686391]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00294
+id: CONSO:CONSO00294
 name: Tau antibody, 40E8
 namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)" [pmid:28408124]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00295
+id: CONSO:CONSO00295
 name: Tau antibody, pS396
 namespace: antibody
 def: "rabbit polyclonal antibody that targets tau pS396" [pmid:28408124]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00296
+id: CONSO:CONSO00296
 name: Tau antibody, 4E4
 namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 385-395" [pmid:28408124]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00297
+id: CONSO:CONSO00297
 name: Tau antibody, Tau46
 namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 404-441" [pmid:28408124]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00298
+id: CONSO:CONSO00298
 name: cis p-tau
 namespace: protein
 def: "The cis conformation of phosphorylated tau is considered to be the main pathogenic tau agent associated with AD neurological impairments. PIN1, a peptidyl-prolyl-cis-transe isomerase, catalizes the rotation of the peptidic bond directly before proline residues inducing a conversion toward the trans conformation, therefore reducing the presence of the pathogenic cis tau isomers." [pmid:23157676, pmid:25628064]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00299
+id: CONSO:CONSO00299
 name: MPT0G211
 namespace: chemical
 def: "MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells." [pmid:29844403]
@@ -3633,30 +3633,30 @@ xref: inchi:InChI=1S/C17H15N3O2/c21-17\(20-22\)14-8-6-12\(7-9-14\)11-19-15-5-1-3
 xref: smiles:C1=CC\(=CC=C1CNC2=CC=CC3=C2N=CC=C3\)C\(=O\)NC
 
 [Term]
-id: HBP:HBP00300
+id: CONSO:CONSO00300
 name: peripheral nervous system injury
 namespace: pathology
 def: "PNS injuries initiate a signaling cascade that induces neuroregeneration. This cascade involves activation of ERK, subsequently leading to the activation of PCAF (KAT2B), which in turn mediates histone 3 acetylation, paving the way for transcriptional activation of the key genes in the regeneration program." [pmid:24686445]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00301
+id: CONSO:CONSO00301
 name: Tau antibody, TNT1
 namespace: antibody
 def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00302
+id: CONSO:CONSO00302
 name: Tau antibody, TNT2
 namespace: antibody
 def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: HBP:HBP00307 ! Tau antibody
+is_a: CONSO:CONSO00307 ! Tau antibody
 
 [Term]
-id: HBP:HBP00303
+id: CONSO:CONSO00303
 name: 8-nitro-cGMP
 namespace: chemical
 def: "One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers." [pmid:28213625, pmid:27601475]
@@ -3666,42 +3666,42 @@ xref: inchi:InChI=1S/C10H11N6O9P/c11-9-13-6-3\(7\(18\)14-9\)12-10\(16\(19\)20\)1
 xref: smiles:N1C\(=NC2=C\(N=C\(N2\[C@@H\]3O\[C@@H\]4COP\(O\[C@H\]4\[C@H\]3O\)\(=O\)O\)\[N+\]\(\[O-\]\)=O\)C1=O\)N
 
 [Term]
-id: HBP:HBP00304
+id: CONSO:CONSO00304
 name: Tau dimers
 namespace: cellular_component
 def: "A key intermediate product of tau oligomerization to PHF and NFT formation, they consist of covalently linked antiparallel tau monomers presenting disulfide cross links between cystein residues." [pmid:27373205, pmid:10899437]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00305
+id: CONSO:CONSO00305
 name: polysumoylation
 namespace: post_translational_modification
 def: "A post-translational modification consisting on the addition and covalent bonding of multiple SUMO (small ubiquitin-like modifiers) proteins to lysine residues of target proteins, mediating a wide range of physiological functions. Polysumoylation of APP was found to reduce the generation of amyloid beta peptides, while mono or under-sumoylation enhance Ab generation." [pmid:12506199]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00306
+id: CONSO:CONSO00306
 name: detyrosination
 namespace: post_translational_modification
 def: "Detyrosination is a form of posttranslational modification that occurs on alpha-tubulin. It consists of the removal of the C-terminal tyrosine to expose a glutamate at the newly formed C-terminus." [pmid:25974414]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
-id: HBP:HBP00307
+id: CONSO:CONSO00307
 name: Tau antibody
 namespace: antibody
 def: "Antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00308
+id: CONSO:CONSO00308
 name: Tau epitope
 namespace: epitope
 def: "Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)" [pmid:28408124, pmid:27260838, pmid:26751493, pmid:23666762, pmid:23666762]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00309
+id: CONSO:CONSO00309
 name: S 24795
 namespace: chemical
 def: "A partial agonist at α7 nAChR" [pmid:18187166, pmid:18265960, pmid:18034231]
@@ -3724,7 +3724,7 @@ synonym: "S 24795, >=98% (HPLC)" EXACT [pubchem.compound:9888248]
 synonym: "SCHEMBL5948853" EXACT [pubchem.compound:9888248]
 
 [Term]
-id: HBP:HBP00310
+id: CONSO:CONSO00310
 name: GTS-21
 namespace: chemical
 def: "GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent." [pmid:25514383]
@@ -3786,7 +3786,7 @@ synonym: "X5075" EXACT [pubchem.compound:5310985]
 synonym: "ZINC860" EXACT [pubchem.compound:5310985]
 
 [Term]
-id: HBP:HBP00311
+id: CONSO:CONSO00311
 name: alpha-4 alpha-5 beta-2 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in cortex, hippocampus and neostriatum" [pmid:19721446]
@@ -3794,7 +3794,7 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 relationship: bel bel:complex\(p\(HGNC\:CHRNA4\)\,\Wp\(HGNC\:CHRNA5\)\,\Wp\(HGNC\:CHRNB2\)\)
 
 [Term]
-id: HBP:HBP00312
+id: CONSO:CONSO00312
 name: alpha-3 beta-4 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in hippocampus, pineal gland and cerebellum" [pmid:19721446]
@@ -3802,52 +3802,52 @@ relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 relationship: bel bel:complex\(p\(HGNC\:CHRNA3\)\,\Wp\(HGNC\:CHRNB4\)\)
 
 [Term]
-id: HBP:HBP00313
+id: CONSO:CONSO00313
 name: alpha-3 beta-3 beta-4 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in habenula and interpeduncular nucleus" [pmid:19721446]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00314
+id: CONSO:CONSO00314
 name: alpha-6 beta-2 beta-3 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in locus coeruleus, substantia nigra and neostriatum" [pmid:19721446]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00315
+id: CONSO:CONSO00315
 name: alpha-2 beta-2 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in interpeduncular nucleus" [pmid:19721446]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00316
+id: CONSO:CONSO00316
 name: alpha-6 alpha-4 beta-2 beta-3 nAChR
 namespace: protein_complex
 def: "nAChR subtype found in neostriatum" [pmid:19721446]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00317
+id: CONSO:CONSO00317
 name: protein aggregation
 namespace: biological_process
 def: "Protein aggregation occurs in vivo as a result of improper folding or misfolding" [pmid:11831622]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00318
+id: CONSO:CONSO00318
 name: nAChR assembly
 namespace: biological_process
 def: "the process of assembling a receptor pentamer from the Nicotinic acetylcholine receptors subunits" [pmid:19126755]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00319
+id: CONSO:CONSO00319
 name: 4-OH-GTS-21
 namespace: chemical
-def: "A metabolic product of GTS-21 (HBP:HBP00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl" [pmid:25514383]
+def: "A metabolic product of GTS-21 (HBP:CONSO00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl" [pmid:25514383]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: inchi:InChI=1S/C18H18N2O2/c1-22-17-11-16\(21\)7-6-13\(17\)10-14-4-3-9-20-18\(14\)15-5-2-8-19-12-15/h2\,5-8\,10-12\,21H\,3-4\,9H2\,1H3/b14-10+
 xref: mesh:C116666
@@ -3857,14 +3857,14 @@ synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
 synonym: "4OH-GTS-21" EXACT [mesh:C116666]
 
 [Term]
-id: HBP:HBP00320
+id: CONSO:CONSO00320
 name: isolation rearing
 namespace: exposure
 def: "An animal model in which rats, immediately after weaning (usually postnatal day 21), are housed in isolation from siblings for an extended period (usually several weeks). In adulthood, these animals show many characteristics also seen in patients with schizophrenia" [pmid:16820021]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00321
+id: CONSO:CONSO00321
 name: Tau aggregation inhibitor
 namespace: chemical_role
 def: "A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates" [pmid:23484434]
@@ -3872,7 +3872,7 @@ relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: chebi:CHEBI\:142738
 
 [Term]
-id: HBP:HBP00322
+id: CONSO:CONSO00322
 name: 1,3-Thiazole-2,4-diamine
 namespace: chemical
 def: "A thiazole with two amino substituents" [pmid:21353545, pmid:20524425, pmid:11148059]
@@ -3909,7 +3909,7 @@ synonym: "ZINC15863137" EXACT [pubchem.compound:118995]
 synonym: "diaminothiazole" EXACT [pubchem.compound:118995]
 
 [Term]
-id: HBP:HBP00323
+id: CONSO:CONSO00323
 name: Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
 namespace: pathology
 def: "Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor" [pmid:30472464]
@@ -3918,21 +3918,21 @@ xref: doid:DOID\:0060681
 xref: mesh:C579932
 
 [Term]
-id: HBP:HBP00324
+id: CONSO:CONSO00324
 name: FK1 antibody
 namespace: antibody
 def: "Anti-Ubiquitinylated proteins Antibod" [pmid:16338350]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00325
+id: CONSO:CONSO00325
 name: amyloid-beta antibody, NU1
 namespace: antibody
 def: "monoclonal antibody that is specific for amyloid-beta oligomers" [pmid:17403556]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00326
+id: CONSO:CONSO00326
 name: B-973
 namespace: chemical
 def: "Here we report the discovery and characterization of 3-(3,4-difluorophenyl)-N-(1-(6-(4-(pyridin-2-yl)piperazin-1-yl)pyrazin-2-yl)ethyl)propanamide (B-973), a piperazine containing α7 type II PAM" [pmid:28132910]
@@ -3941,35 +3941,35 @@ xref: inchi:InChI=1S/C24H26F2N6O/c1-17\(29-24\(33\)8-6-18-5-7-19\(25\)20\(26\)14
 xref: smiles:C1=C\(C\(=CC=C1CCC\(N\[C@H\]\(C2=CN=CC\(=N2\)N3CCN\(CC3\)C4=NC=CC=C4\)C\)=O\)F\)F
 
 [Term]
-id: HBP:HBP00327
+id: CONSO:CONSO00327
 name: GPBC, alpha-7 nAChR
 namespace: domain
 def: "An alignment of residues in the M3-M4 loop of alpha-7 nAChR that contribute to the binding of G-protein" [pmid:24185813, pmid:26088141]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00328
+id: CONSO:CONSO00328
 name: GPBC, Glycine Receptor 1
 namespace: domain
 def: "An alignment of residues in the M3-M4 loop of GPBC, Glycine Receptor 1 (GLRA1) that contribute to the binding of G-protein" [pmid:24185813, pmid:26088141]
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
-id: HBP:HBP00329
+id: CONSO:CONSO00329
 name: N-terminal fragment of ATF6
 namespace: protein_fragment
 def: "N-terminal fragment of the protein ATF6, generated by cleavage through SP1 and SP2 proteases" [pmid:25784053]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00330
+id: CONSO:CONSO00330
 name: misfolded
 namespace: post_translational_modification
 def: "Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway" [pmid:16689923]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00331
+id: CONSO:CONSO00331
 name: OSW-1
 namespace: chemical
 def: "A novel cholestane glycoside called OSW-1 (3b, 16b, 17a-trihydroxycholest-5-en-22-one 16-O-(2-O-4-methoxybenzoyl-bD-xylopyranosyl) - (1?3) -(2-O-acetyl-a-L-arabinopyranoside)) was recently isolated from Ornithogalum saundersiae (Kubo et al., 1992) and has been found to have a potent growth inhibitory activity on a human tumour cell line" [pmid:9283720]
@@ -3988,70 +3988,70 @@ synonym: "SCHEMBL17383554" EXACT [pubchem.compound:9854230]
 synonym: "ZINC169358856" EXACT [pubchem.compound:9854230]
 
 [Term]
-id: HBP:HBP00332
+id: CONSO:CONSO00332
 name: EC102
 namespace: chemical
 def: "low–molecular weight Hsp90 N-terminal domain inhibitor" [pmid:17304350]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00333
+id: CONSO:CONSO00333
 name: KU-177
 namespace: chemical
 def: "inhibitor of Aha1" [pmid:28827321]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00334
+id: CONSO:CONSO00334
 name: UBB+1
 namespace: protein_variant
 def: "Ubb+1, a ubiquitin (Ub) mutant protein originating from misreading of the Ub B gene" [pmid:29175520]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00335
+id: CONSO:CONSO00335
 name: Phenylthiazolyl-hydrazide
 namespace: chemical
 def: "inhibitor of tau aggregation and toxicity in vitro and in cells" [pmid:17685560]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00336
+id: CONSO:CONSO00336
 name: EEVD motif
 namespace: motif
 def: "an acidic motif,EEVD, located at the extreme carboxyl terminus of nearly all Hsp7Os which has an essential role in regulating the biochemical properties of Hsp7O and interactions with HDJ-1" [pmid:7774586]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00337
+id: CONSO:CONSO00337
 name: Hsp27 oligomers
 namespace: cellular_component
 def: "Hsp27 exists as an ensemble of oligomers,which range in size from dimers to approximately 32 mers or greater" [pmid:21882945]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00338
+id: CONSO:CONSO00338
 name: SK and F 77434
 namespace: chemical
 def: "a dopamine D1 receptor partial agonist" [pmid:16820021]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00339
+id: CONSO:CONSO00339
 name: [125I]-NCQ 298
 namespace: chemical
 def: "a new selective iodinated salicylamide ligand for the labelling of dopamine D2 receptors with 125I." [pmid:16820021]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00340
+id: CONSO:CONSO00340
 name: AAV-FKBP1B
 namespace: protein
 def: "Adeno-associated virus expressing Mouse Fkbp1b." [pmid:29255009]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
-id: HBP:HBP00341
+id: CONSO:CONSO00341
 name: Proteostasis
 namespace: biological_process
 def: "Regulation of the concentration, folding, interactions, and cellular localization of each of the proteins that comprise the proteome" [pmid:29127110]
@@ -4059,7 +4059,7 @@ relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: mesh:D000074702
 
 [Term]
-id: HBP:HBP00342
+id: CONSO:CONSO00342
 name: N-terminal fragment of APP
 namespace: domain
 def: "Fragment of APP (N-APP) that contains heparin-binding and metal-binding domains and that has been found to have biological activity" [pmid:24916405]
@@ -4067,49 +4067,49 @@ relationship: author orcid:0000-0002-2046-6145 ! Daniel Domingo-Fernández
 relationship: bel bel:p\(HGNC\:APP\,\Wfrag\(1_?\)\)
 
 [Term]
-id: HBP:HBP00343
+id: CONSO:CONSO00343
 name: polyQ aggregates
 namespace: cellular_component
 def: "Aggregates due to mutations of proteins that lead to polyQ expansions" [pmid:23483542]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00344
+id: CONSO:CONSO00344
 name: Q82 aggregates
 namespace: cellular_component
 def: "Aggregates of proteins consisting of polyglutamine stretches with 82 glutamine residues" [pmid:10811890]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00345
+id: CONSO:CONSO00345
 name: non-enzymatic protein modification
 namespace: biological_process
 def: "Post-translational protein modifications that were not caused by enzymatic reactions" [pmid:24563850]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00346
+id: CONSO:CONSO00346
 name: bb14
 namespace: chemical
 def: "Tau aggregation inhibitor bb14 (from the rhodanine class of compounds)" [pmid:26510979]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00347
+id: CONSO:CONSO00347
 name: cmp16
 namespace: chemical
 def: "Tau aggregation inhibitor" [pmid:20392114]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00348
+id: CONSO:CONSO00348
 name: misfolding
 namespace: biological_process
 def: "Proteins that are not able to achieve the native state, due either to an unwanted mutation in their amino acid sequence or simply because of an error in the folding process, are recognized as misfolded and subsequently targeted to a degradation pathway" [pmid:16689923]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00349
+id: CONSO:CONSO00349
 name: AG18051
 namespace: chemical
 def: "ABAD inhibitor" [pmid:22174920]
@@ -4118,7 +4118,7 @@ xref: inchi:InChI=1S/C19H21N5OS/c25-18\(23-10-6-1-2-7-11-23\)16\(14-8-4-3-5-9-14
 xref: smiles:C1=N\[N\]C2=C1C\(=S\)N\(C=N2\)C\(C\(=O\)C3CCCCCC3\)C4=CC=CC=C4
 
 [Term]
-id: HBP:HBP00350
+id: CONSO:CONSO00350
 name: RM-532-46
 namespace: chemical
 def: "ABAD inhibitor" [pmid:22674910]
@@ -4127,14 +4127,14 @@ xref: inchi:InChI=1S/C30H44N2O3/c1-35-23-4-2-3-21\(17-23\)19-31-13-15-32\(16-14-
 xref: smiles:C1\[C@H\]4\[C@H\]\(C\[C@\]\(C1\)\(CN2CCN\(CC2\)CC3=CC\(=CC=C3\)OC\)O\)CC\[C@@H\]5\[C@@H\]4CC\[C@H\]6\[C@H\]5CCC6=O
 
 [Term]
-id: HBP:HBP00351
+id: CONSO:CONSO00351
 name: deamidation
 namespace: post_translational_modification
 def: "The removal of an amide group from a peptide's side chain" [pmid:26631930]
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
-id: HBP:HBP00352
+id: CONSO:CONSO00352
 name: Mini-Mental Status Exam
 namespace: clinical_measurement
 def: "A standardized and structured interview originally developed by Marshal Folstein, Susan Folstein and Paul McHugh (Journal of Psychiatric Research, 1975), which is used to evaluate an individual's cognitive function." [ncit:C74982]
@@ -4148,7 +4148,7 @@ synonym: "Mini-Mental State Examination Questionnaire" EXACT [ncit:C74982]
 synonym: "Mini-Mental_Status_Exam" EXACT [ncit:C74982]
 
 [Term]
-id: HBP:HBP00353
+id: CONSO:CONSO00353
 name: GLAP
 namespace: chemical
 def: "glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation" [pmid:25582325, pmid:17284838]
@@ -4160,7 +4160,7 @@ synonym: "Glyceraldehyde derived Pyridinium compound" EXACT [pmid:12784645]
 synonym: "Glyceraldehyde-derived Pyridinium compound" EXACT [pmid:12784645]
 
 [Term]
-id: HBP:HBP00354
+id: CONSO:CONSO00354
 name: Tau 6D
 namespace: isoform
 def: "In addition to the 3′ splice site at the end of exon 6, there are two alternate 3′ splice sites within exon 6 itself, termed “6P” and “6D” according to location (Fig. 1). Use of either of these splice sites results in a frame shift that introduces a unique amino acid sequence, PCCVPRATFLS (6P) or FWSKGDETQGG (6D), followed by a stop codon. As a result, tau 6P and 6D isoforms are truncated, lacking part of the proline-rich region, the MTBR region, and C-terminus" [pmid:21734277, pmid:19919107]
@@ -4168,7 +4168,7 @@ relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 
 [Term]
-id: HBP:HBP00355
+id: CONSO:CONSO00355
 name: Tau 6P
 namespace: isoform
 def: "In addition to the 3′ splice site at the end of exon 6, there are two alternate 3′ splice sites within exon 6 itself, termed “6P” and “6D” according to location (Fig. 1). Use of either of these splice sites results in a frame shift that introduces a unique amino acid sequence, PCCVPRATFLS (6P) or FWSKGDETQGG (6D), followed by a stop codon. As a result, tau 6P and 6D isoforms are truncated, lacking part of the proline-rich region, the MTBR region, and C-terminus" [pmid:21734277, pmid:19919107]
@@ -4176,35 +4176,35 @@ relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 
 [Term]
-id: HBP:HBP00356
+id: CONSO:CONSO00356
 name: Peripheral Tissue
 namespace: anatomy
 def: "Parts of the body that act as a response to a change in the environment, the body's functions, molecule levels, etc." [pmid:27758088]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00357
+id: CONSO:CONSO00357
 name: tau polyclonal antibody
 namespace: antibody
 def: "Antibodies, that are able to bind different epitopes of the tau protein" [pmid:29590627]
 relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
-id: HBP:HBP00358
+id: CONSO:CONSO00358
 name: TDP-43 oligomers
 namespace: cellular_component
 def: "oligomers form during the early steps of TDP-43 misfolding" [pmid:30824544]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00359
+id: CONSO:CONSO00359
 name: TDP-43 aggregates
 namespace: cellular_component
 def: "TDP-43 aggregates are formed through a biphasic process that initiates with oligomerization followed by aggregation into high molecular weight polymers" [pmid:30824544]
 relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
-id: HBP:HBP00360
+id: CONSO:CONSO00360
 name: Clonal Expansion
 namespace: pathology
 def: "Multiplication or reproduction by cell division of a population of identical cells descended from a single progenitor. In immunology, may refer to the clonal proliferation of cells responsive to a specific antigen as part of an immune response." [pmid:27794524]

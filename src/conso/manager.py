@@ -75,7 +75,7 @@ class Manager:
             logger.warning(f'Could not find CONSO name for {node:r}')
 
         elif name is not None:
-            if name.startswith('HBP'):
+            if name.startswith('CONSO'):
                 identifier = self.identifier_to_label.get(name)
                 if identifier is not None:  # flip it!
                     return node.__class__(namespace=namespace, name=identifier, identifier=name)

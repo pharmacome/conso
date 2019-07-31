@@ -90,7 +90,7 @@
                 {% for source_namespace, source_identifier, source_name, relation in incoming_relations %}
                     <tr>
                         <td>
-                            {% if source_namespace !='HBP' %}
+                            {% if source_namespace !='CONSO' %}
                                 <a href="https://identifiers.org/{{ source_namespace }}:{{ source_identifier }}">
                                     {{ source_namespace }}:{{ source_identifier }}
                                 </a>
@@ -123,7 +123,7 @@
                     <tr>
                         <td>{{ relation }}</td>
                         <td>
-                            {% if target_namespace != 'HBP' %}
+                            {% if target_namespace != 'CONSO' %}
                                 <a href="https://identifiers.org/{{ target_namespace }}:{{ target_identifier }}">
                                     {{ target_namespace }}:{{ target_identifier }}
                                 </a>

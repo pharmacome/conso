@@ -12,8 +12,6 @@ from typing import Iterable, List, Mapping, Optional, TextIO, Union
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
 
-HBP = 'HBP'
-
 AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
 CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
 TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
@@ -23,6 +21,7 @@ RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
 OUTPUT_PATH = os.path.join(ROOT, 'export', 'conso.obo')
 
+CONSO = 'CONSO'
 BEL_RELATION_ID = 'bel'
 
 typedefs = {
@@ -168,8 +167,11 @@ def get_obo_terms() -> List[Term]:
         _ = next(reader)  # skip the header
 
         terms = {
-            hbp_identifier: Term(
-                reference=Reference(namespace=HBP, identifier=hbp_identifier, name=name),
+            conso_id: Term(
+                reference=Reference(
+                    namespace=CONSO,
+                    identifier=conso_id,
+                    name=name),
                 provenance=[
                     Reference(*pmid.strip().split(':'))
                     for pmid in references.split(',')
@@ -178,14 +180,14 @@ def get_obo_terms() -> List[Term]:
                 description=description,
                 author=authors[author_key],
             )
-            for hbp_identifier, author_key, name, namespace, references, description in reader
+            for conso_id, author_key, name, namespace, references, description in reader
             if name != 'WITHDRAWN'
         }
 
     with open(SYNONYMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        for hbp_id, synonym, references, specificity in reader:
+        for conso_id, synonym, references, specificity in reader:
             references = (
                 [r.strip() for r in references.split(',')]
                 if references and references != '?' else
@@ -194,16 +196,16 @@ def get_obo_terms() -> List[Term]:
             specificity = (
                 'EXACT' if specificity == '?' else specificity
             )
-            terms[hbp_id].synonyms.append(Synonym(synonym, specificity, references))
+            terms[conso_id].synonyms.append(Synonym(synonym, specificity, references))
 
     with open(XREFS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        for hbp_id, database, identifier in reader:
+        for conso_id, database, identifier in reader:
             if database.lower() == 'bel':
-                terms[hbp_id].relationships['bel'] = [Reference(namespace='bel', identifier=identifier)]
+                terms[conso_id].relationships['bel'] = [Reference(namespace='bel', identifier=identifier)]
             else:
-                terms[hbp_id].xrefs.append(Reference(database, identifier))
+                terms[conso_id].xrefs.append(Reference(database, identifier))
 
     with open(RELATIONS_PATH) as file:
         reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
@@ -214,11 +216,11 @@ def get_obo_terms() -> List[Term]:
                 print(f'{RELATIONS_PATH} can not handle line {line} because unhandled relation: {relation}')
                 continue
 
-            if source_ns != HBP and target_ns != HBP:
-                print(f'{RELATIONS_PATH}: skipping line {line} because neither entity is from HBP')
+            if source_ns != CONSO and target_ns != CONSO:
+                print(f'{RELATIONS_PATH}: skipping line {line} because neither entity is from {CONSO}')
                 continue
 
-            if source_ns != HBP:
+            if source_ns != CONSO:
                 print(f'{RELATIONS_PATH} can not handle line {line} because of'
                       f' inverse relation definition to external identifier')
                 continue
@@ -239,7 +241,7 @@ def dump_obo_terms(terms: List[Term], file: Union[None, TextIO], simple: bool = 
 
     print('format-version: 1.2', file=file)
     print(f'date: {date_str}', file=file)
-    print('auto-generated-by: https://github.com/pharmacome/terminology/blob/master/src/conso/export/obo.py', file=file)
+    print('auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py', file=file)
     print('ontology: conso', file=file)
     print('', file=file)
 

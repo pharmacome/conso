@@ -69,16 +69,16 @@ def _get_lines() -> List[str]:
 def _write_namespace(path, values: Mapping[str, str], namespace_version: Optional[str] = None):
     with open(path, 'w') as file:
         write_namespace(
-            namespace_name='Human Brain Pharmacome Terminology',
-            namespace_keyword='HBP',
+            namespace_name='Curation of Neurodegeneration Supporting Ontology',
+            namespace_keyword='CONSO',
             namespace_domain=NAMESPACE_DOMAIN_OTHER,
             namespace_version=namespace_version,
             author_name='Charles Tapley Hoyt',
-            citation_name='HBP',
+            citation_name='CONSO',
             values=values,
-            namespace_description='The Human Brain Pharmacome Terminology contains terms related to neurodegenerative '
-                                  'disease and curation of related material. It is not disease-specific, but at least'
-                                  'has a focus on Alzheimer\'s disease.',
+            namespace_description='The Curation of Neurodegeneration Supporting Ontology (CONSO) contains terms'
+                                  ' related to neurodegenerative disease and curation of related material. It is not '
+                                  'disease-specific, but at least has a focus on Alzheimer\'s disease.',
             author_copyright='CC0 1.0 Universal',
             case_sensitive=True,
             cacheable=True,

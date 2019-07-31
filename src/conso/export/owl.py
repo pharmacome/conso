@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to OWL."""
+"""Export CONSO to OWL."""
 
 import csv
 import os
@@ -22,8 +22,8 @@ RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
 OUTPUT_PATH = os.path.join(ROOT, 'export', 'conso.owl')
 
-HBP = 'HBP'
-URL = 'https://raw.githubusercontent.com/pharmacome/terminology/master/export/conso.owl'
+CONSO = 'CONSO'
+URL = 'https://raw.githubusercontent.com/pharmacome/conso/master/export/conso.owl'
 
 
 # DC_NAME = 'Curation of Neurodegeneration Supporting Ontology'
@@ -58,7 +58,7 @@ def make_ontology() -> Ontology:
     with ontology:
         for i, (name, encoding) in classes_df.iterrows():
             super_classes[name] = cls = types.new_class(
-                name=f'HBPC{i}',
+                name=f'{CONSO}C{i}',
                 bases=(Thing,),
             )
             cls.label = name
@@ -76,19 +76,19 @@ def make_ontology() -> Ontology:
         _ = next(reader)  # skip the header
 
         classes: Dict[str, Type[Thing]] = {}
-        for hbp_identifier, author_name, name, super_cls_name, references, definition in reader:
+        for conso_id, author_name, name, super_cls_name, references, definition in reader:
             if name == 'WITHDRAWN':
                 continue
 
             cls: Type[Thing] = types.new_class(
-                name=hbp_identifier,
+                name=conso_id,
                 bases=(super_classes[super_cls_name],),
             )
             cls.label = name
             cls.comment = definition
             cls.author = f'orcid:{authors[author_name]}'
             cls.related = [reference.strip() for reference in references.split(',')]
-            classes[hbp_identifier] = cls
+            classes[conso_id] = cls
 
     xrefs_df = pd.read_csv(XREFS_PATH, sep='\t')
     for _, (identifier, database, database_identifier) in xrefs_df.iterrows():

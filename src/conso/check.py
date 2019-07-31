@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""A script to check the sanctity of the HBP resources."""
+"""A script to check the sanctity of the CONSO resources."""
 
 import csv
 import os
@@ -20,7 +20,8 @@ SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
 XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
 RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
 
-HBP_IDENTIFIER = re.compile(r'^HBP(?P<number>\d{5})$')
+CONSO = 'CONSO'
+CONSO_IDENTIFIER = re.compile(r'^CONSO(?P<number>\d{5})$')
 IDENTIFIER_COLUMN = 0
 CURATOR_COLUMN = 1
 WITHDRAWN_COLUMN = 2
@@ -75,7 +76,7 @@ def _get_terms_helper(
                 _print_fail(f'{TERMS_PATH}, line {i}, column {column_number}: Extra white space: {column}')
 
         identifier = line[IDENTIFIER_COLUMN]
-        match = HBP_IDENTIFIER.match(identifier)
+        match = CONSO_IDENTIFIER.match(identifier)
 
         if match is None:
             _print_fail(f'{TERMS_PATH}, line {i}: Invalid identifier chosen: {line}')
@@ -202,7 +203,7 @@ def _check_xrefs_file_helper(reader, identifier_to_name: Mapping[str, str]):
         if term not in identifier_to_name:
             raise Exception(f'{XREFS_PATH}: Invalid identifier on line {i}: {term}')
 
-        new_identifier = int(HBP_IDENTIFIER.match(term).groups()[0])
+        new_identifier = int(CONSO_IDENTIFIER.match(term).groups()[0])
         if new_identifier < current_identifier:
             raise Exception(f'{XREFS_PATH}: Not monotonic increasing on line {i}: {term}')
         current_identifier = new_identifier
@@ -235,7 +236,7 @@ def _check_synonyms_helper(reader, identifier_to_name: Mapping[str, str]):
         if term not in identifier_to_name:
             raise Exception(f'{SYNONYMS_PATH}: Invalid identifier on line {i}: {term}')
 
-        new_identifier = int(HBP_IDENTIFIER.match(term).groups()[0])
+        new_identifier = int(CONSO_IDENTIFIER.match(term).groups()[0])
         if new_identifier < current_identifier:
             raise Exception(f'{SYNONYMS_PATH}: Not monotonic increasing on line {i}: {term}')
         current_identifier = new_identifier
@@ -265,12 +266,12 @@ def _check_relations_file_helper(path, reader, identifier_to_name: Mapping[str, 
 
         source_namespace = line[0]
         source_identifier = line[1]
-        if source_namespace == 'HBP' and source_identifier not in identifier_to_name:
+        if source_namespace == CONSO and source_identifier not in identifier_to_name:
             raise Exception(f'{path}: Invalid source identifier on line {i}: {source_identifier}')
 
         target_namespace = line[4]
         target_identifier = line[5]
-        if target_namespace == 'HBP' and target_identifier not in identifier_to_name:
+        if target_namespace == CONSO and target_identifier not in identifier_to_name:
             raise Exception(f'{path}: Invalid target identifier on line {i}: {target_identifier}')
 
         yield line
@@ -282,8 +283,8 @@ def check_class_has_xref(cls, xrefs) -> None:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         entries = {
-            hbp_id: ('HBP', hbp_id, name)
-            for hbp_id, curator, name, _cls, refs, definition in reader
+            conso_id: (CONSO, conso_id, name)
+            for conso_id, curator, name, _cls, refs, definition in reader
             if _cls == cls
         }
 
@@ -291,11 +292,11 @@ def check_class_has_xref(cls, xrefs) -> None:
     with open(XREFS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        for hbp_id, db, db_id in reader:
+        for conso_id, db, db_id in reader:
             if db_id in {'?', '', 'N/A', 'n/a'}:
                 continue
 
-            db_map[db][hbp_id] = db_id
+            db_map[db][conso_id] = db_id
 
     if isinstance(xrefs, str):
         xrefs = [xrefs]
@@ -313,8 +314,8 @@ def check_class_has_relation(
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         entries = {
-            ('HBP', hbp_id, name)
-            for hbp_id, curator, name, cls_, refs, definition in reader
+            (CONSO, conso_id, name)
+            for conso_id, curator, name, cls_, refs, definition in reader
             if cls_ == cls
         }
 
@@ -345,8 +346,8 @@ def check_chemical_roles():
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         chemicals = {
-            ('HBP', hbp_id, name)
-            for hbp_id, curator, name, cls, refs, definition in reader
+            (CONSO, conso_id, name)
+            for conso_id, curator, name, cls, refs, definition in reader
             if cls == 'chemical'
         }
 

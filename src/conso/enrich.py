@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""A script for enriching the HBP terminology with external information."""
+"""A script for enriching the CONSO with external information."""
 
 import json
 import os
@@ -25,16 +25,16 @@ def enrich_pubchem_synonyms():
 
     xrefs = pd.read_csv(XREFS_PATH, sep='\t')
     xrefs = xrefs[xrefs['database'] == 'pubchem.compound']
-    cid_to_hbp = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
+    cid_to_conso = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
 
     new_synonyms = [
         (
-            cid_to_hbp[cid],
+            cid_to_conso[cid],
             synonym,
             f'pubchem.compound:{cid}',
             'EXACT',
         )
-        for cid in tqdm(cid_to_hbp, desc='PubChem lookup')
+        for cid in tqdm(cid_to_conso, desc='PubChem lookup')
         for synonym in pcp.Compound.from_cid(cid).synonyms
     ]
 
@@ -91,10 +91,10 @@ def enrich_chebi_xrefs():
 
     xrefs = pd.read_csv(XREFS_PATH, sep='\t')
     xrefs = xrefs[xrefs['database'] == 'smiles']
-    smiles_to_hbp = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
+    smiles_to_conso_id = pd.Series(xrefs['identifier'].values, index=xrefs['database_identifier']).to_dict()
 
     new_xrefs = []
-    for smiles, hbp_identifier in tqdm(smiles_to_hbp.items(), desc='ChEBI lookup'):
+    for smiles, conso_id in tqdm(smiles_to_conso_id.items(), desc='ChEBI lookup'):
         try:
             result = get_chebi_by_smiles(smiles)
         except zeep.exceptions.Fault:
@@ -103,7 +103,7 @@ def enrich_chebi_xrefs():
             continue
 
         new_xrefs.append((
-            hbp_identifier,
+            conso_id,
             'chebi',
             result['chebiId'],
         ))

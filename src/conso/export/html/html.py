@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to HTML."""
+"""Export CONSO to HTML."""
 
 import os
 from collections import defaultdict
@@ -25,6 +25,8 @@ environment = Environment(autoescape=True, loader=FileSystemLoader(HERE), trim_b
 index_template = environment.get_template('index.html')
 term_template = environment.get_template('term.html')
 
+CONSO = 'CONSO'
+
 
 def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     """Export CONSO as HTML.
@@ -46,14 +48,14 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     incoming_relations = defaultdict(list)
     outgoing_relations = defaultdict(list)
     for _, row in pd.read_csv(RELATIONS_PATH, sep='\t').iterrows():
-        if row['Source Namespace'] == 'HBP':
+        if row['Source Namespace'] == CONSO:
             outgoing_relations[row['Source Identifier']].append((
                 row['Relation'],
                 row['Target Namespace'],
                 row['Target Identifier'],
                 row['Target Name'],
             ))
-        if row['Target Namespace'] == 'HBP':
+        if row['Target Namespace'] == CONSO:
             incoming_relations[row['Target Identifier']].append((
                 row['Source Namespace'],
                 row['Source Identifier'],

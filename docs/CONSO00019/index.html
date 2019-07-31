@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SEN-1269</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.12/c3.min.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+    />
+
+    <!-- DataTables, see: https://datatables.net/examples/styling/bootstrap4.html-->
+    <link
+        rel="stylesheet"
+        href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+    <style type="text/css">
+        h1, h2 {
+            margin-top: 35px;
+        }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#toc">
+    
+    
+    <div class="container">
+        <h1>SEN-1269</h1>
+        <p>A tau aggregation inhibitor</p>
+        <dl>
+            <dt>Identifier</dt>
+            <dd>CONSO00019</dd>
+            <dt>Type</dt>
+            <dd>chemical</dd>
+            <dt>Author</dt>
+            <dd>Charlie</dd>
+        </dl>
+
+        <h2>References</h2>
+        <ul>
+            
+                <li><a href="https://identifiers.org/pmid:23484434">pmid:23484434<a></li>
+            
+        </ul>
+
+        <h2>Cross-references</h2>
+        
+            <ul>
+                
+                    <li>
+                        <a href="https://identifiers.org/chembl:CHEMBL2386874">
+                            chembl:CHEMBL2386874
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/inchi:InChI=1S/C18H18N4O2/c1-22(2)14-6-4-8-16(10-14)24-17-11-19-18(20-12-17)21-13-5-3-7-15(23)9-13/h3-12,23H,1-2H3,(H,19,20,21)">
+                            inchi:InChI=1S/C18H18N4O2/c1-22(2)14-6-4-8-16(10-14)24-17-11-19-18(20-12-17)21-13-5-3-7-15(23)9-13/h3-12,23H,1-2H3,(H,19,20,21)
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/pubchem.compound:46835756">
+                            pubchem.compound:46835756
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://identifiers.org/smiles:CN(C)C1=CC(=CC=C1)OC2=CN=C(N=C2)NC3=CC(=CC=C3)O">
+                            smiles:CN(C)C1=CC(=CC=C1)OC2=CN=C(N=C2)NC3=CC(=CC=C3)O
+                        </a>
+                    </li>
+                
+            </ul>
+        
+
+        <h2>Synonyms</h2>
+        
+            <table class="table table-striped table-hover" id="table-synonyms">
+                <thead>
+                <tr>
+                    <td>Synonym</td>
+                    <td>Reference</td>
+                    <td>Specificity</td>
+                </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>3-((5-(3-(Dimethylamino)phenoxy)pyrimidin-2-yl)amino)phenol</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3-(5-(3-(dimethylamino)phenoxy)pyrimidin-2-ylamino)phenol</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3-({5-[3-(dimethylamino)phenoxy]pyrimidin-2-yl}amino)phenol</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3-[[5-[3-(dimethylamino)phenoxy]-2-pyrimidinyl]amino]phenol</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4350AF</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>956128-01-1</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>A11161</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>AKOS015850742</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CHEMBL2386874</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>CTK5H7888</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>DB-080315</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>DTXSID40676566</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>FT-0682533</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>I06-2365</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>MFPAAKZZUIRMKR-UHFFFAOYSA-N</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>MolPort-009-685-119</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>NCGC00387448-01</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SCHEMBL3602388</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>SEN 1269</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>TC-064564</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                    <tr>
+                        <td>ZINC49582255</td>
+                        <td>
+                            
+                                <a href="https://identifiers.org/pubchem.compound:46835756">pubchem.compound:46835756</a>
+                            
+                        </td>
+                        <td>EXACT</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        
+
+        <h2>Incoming Relations</h2>
+        
+            <span>None available.</span>
+        
+
+        <h2>Outgoing Relations</h2>
+        
+            <table class="table table-striped" id="table-outgoing">
+                <thead>
+                <tr>
+                    <td>Relation</td>
+                    <td>Identifier</td>
+                    <td>Name</td>
+                </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>has_role</td>
+                        <td>
+                            
+                                CONSO:CONSO00321
+                            
+                        </td>
+                        <td>Tau aggregation inhibitor</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
+    <!-- DataTables, see: https://datatables.net/examples/styling/bootstrap4.html-->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.12/c3.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#table-synonyms").DataTable();
+            $("#table-incoming").DataTable();
+            $("#table-outgoing").DataTable();
+        })
+    </script>
+
+  </body>
+</html>
+
