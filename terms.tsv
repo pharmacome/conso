@@ -358,4 +358,4 @@ HBP00356	Esther	Peripheral Tissue	anatomy	pmid:27758088	Parts of the body that a
 HBP00357	Esther	tau polyclonal antibody	antibody	pmid:29590627	Antibodies, that are able to bind different epitopes of the tau protein
 HBP00358	Sandra	TDP-43 oligomers	cellular component	pmid:30824544	oligomers form during the early steps of TDP-43 misfolding
 HBP00359	Sandra	TDP-43 aggregates	cellular component	pmid:30824544	TDP-43 aggregates are formed through a biphasic process that initiates with oligomerization followed by aggregation into high molecular weight polymers
-HBP00360  Yojana  Clonal Expansion  pathology  pmid:27794524  Multiplication or reproduction by cell division of a population of identical cells descended from a single progenitor. In immunology, may refer to the clonal proliferation of cells responsive to a specific antigen as part of an immune response.
+HBP00360	Yojana	Clonal Expansion	pathology	pmid:27794524	Multiplication or reproduction by cell division of a population of identical cells descended from a single progenitor. In immunology, may refer to the clonal proliferation of cells responsive to a specific antigen as part of an immune response.
