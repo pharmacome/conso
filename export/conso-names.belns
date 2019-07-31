@@ -3,7 +3,7 @@ Keyword=CONSO
 NameString=Curation of Neurodegeneration Supporting Ontology
 DomainString=Other
 VersionString=20190731
-CreatedDateTime=2019-07-31T14:09:31
+CreatedDateTime=2019-07-31T15:26:47
 DescriptionString=The Curation of Neurodegeneration Supporting Ontology (CONSO) contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at least has a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -28,7 +28,7 @@ CacheableFlag=yes
 6-O-sulfated heparin|A
 8-nitro-cGMP|A
 A2B5 antigen|P
-AAV-FKBP1B|P
+AAV-FKBP1B|PRG
 ACY-1215|A
 AG18051|A
 AG73|P
@@ -39,9 +39,9 @@ APOE e4|G
 APP C-terminally truncated carboxyl-terminal fragments|P
 APP processing|B
 APP, ACR|P
-APP695|P
-APP751|P
-APP770|P
+APP695|PR
+APP751|PR
+APP770|PR
 Abeta*56|A
 Alpha-synuclein Oligomerization|B
 Alz50|A
@@ -70,10 +70,10 @@ CA2 field of hippocampus|A
 CA3 field of hippocampus|A
 CA4 field of hippocampus|A
 CAG repeats|P
-CDK5R1 p25|P
+CDK5R1 p25|PRG
 CGP3466B|A
 CK1 superfamily|P
-CLR01|P
+CLR01|PRG
 CM-414|A
 CRL4 complex|P
 CagA peptide|AP
@@ -103,7 +103,7 @@ GTS-21|A
 GVD bodies|A
 Gastrointestinal dysfunctions|O
 Glutamate excitotoxicity|B
-Histone H3|P
+Histone H3|PRG
 Hsp27 oligomers|A
 Hyperamylinemia|O
 ID-8|A
@@ -111,7 +111,7 @@ IκB kinase|P
 Jcasp|P
 KU-177|A
 KXGS motif|P
-Kalirin 7|P
+Kalirin 7|PR
 LDN-193594|A
 LDN-193665|A
 LDN-213843|A
@@ -119,7 +119,7 @@ LMW amyloid oligomers|A
 LPLI|O
 LY293002|A
 Long-Term Depression|O
-MARK4 isoform 2 (688 aa)|P
+MARK4 isoform 2 (688 aa)|PR
 MLS000034832|A
 MPT0G211|A
 MTHFR,TT+AA|A
@@ -143,9 +143,9 @@ O-GlcNAcylation|T
 OSW-1|A
 P3 peptide|P
 PARK7-alpha helices|P
-PDR-1|P
+PDR-1|PRG
 PI3K-Akt signaling pathway|B
-PINK-1|P
+PINK-1|PRG
 PINK1-Park pathway|B
 PTI-125|A
 Pars Compacta|A
@@ -153,12 +153,12 @@ Pathological Tau Spreading|O
 Peripheral Tissue|A
 Phenylthiazolyl-hydrazide|A
 PrP106-126|P
-PrPSc|P
+PrPSc|PR
 Pro3-GIP|A
 Proteostasis|B
 Purkinje cell layer of cerebellar cortex|A
 Q82 aggregates|A
-RAC1b|P
+RAC1b|PR
 RGFP966|A
 RM-532-46|A
 S 24795|A
@@ -166,16 +166,16 @@ SEN-1269|A
 SK and F 77434|A
 SL-327|A
 ST7612AA1|A
-Serpin-enzyme complex receptor|P
+Serpin-enzyme complex receptor|PRG
 Spinocerebellar Ataxia 11|O
 Syndecan Family|P
 TDP-43 aggregates|A
 TDP-43 oligomers|A
-TGM2 Isoform 3 (349 aa)|P
+TGM2 Isoform 3 (349 aa)|PR
 TIM/TOM complex|P
 TOC1|A
-Tau 6D|P
-Tau 6P|P
+Tau 6D|PR
+Tau 6P|PR
 Tau C3|P
 Tau MN423|P
 Tau Protein Secondary Structure, Turn|A
@@ -206,13 +206,13 @@ Tau epitope, AT8|P
 Tau epitope, CP13|P
 Tau epitope, PHF1|P
 Tau fibrils|A
-Tau isoform A (316 aa)|P
-Tau isoform B (381 aa)|P
-Tau isoform C (410 aa)|P
-Tau isoform D (383 aa)|P
-Tau isoform E (412 aa)|P
-Tau isoform F (441 aa)|P
-Tau isoform Fetal-tau (352 aa)|P
+Tau isoform A (316 aa)|PR
+Tau isoform B (381 aa)|PR
+Tau isoform C (410 aa)|PR
+Tau isoform D (383 aa)|PR
+Tau isoform E (412 aa)|PR
+Tau isoform F (441 aa)|PR
+Tau isoform Fetal-tau (352 aa)|PR
 Tau oligomers|A
 Thiamet G|A
 Thioflavin S|A
@@ -233,7 +233,7 @@ Ventral Tegmental Area|A
 YENPTY endocytosis motif (APP)|P
 [125I]-NCQ 298|A
 aMCI|O
-abf-2|P
+abf-2|PRG
 advanced glycation end product|A
 alpha-2 beta-2 nAChR|P
 alpha-3 beta-2 nAChR|P
@@ -248,7 +248,7 @@ alpha-6 beta-2 beta-3 nAChR|P
 alpha-6-containing nAChR|P
 alpha-7 beta-2 nAChR|P
 alpha-7-containing nAChR|P
-alpha-Bungarotoxin|P
+alpha-Bungarotoxin|PRG
 alpha-synuclein aggregates|A
 alpha-synuclein fibrils|A
 alpha-synuclein oligomers|A
@@ -265,13 +265,13 @@ assembly domain|P
 bb14|A
 beta-2-containing nAChR|P
 caprospinol|A
-ced-9|P
+ced-9|PRG
 cerebral cortex|A
 cholinergic neuron|A
-cis p-tau|P
+cis p-tau|PRG
 cleaved PINK1|P
-clec-4|P
-clec-65|P
+clec-4|PRG
+clec-65|PRG
 cmp16|A
 common fragile site|A
 crebinostat|A
@@ -283,7 +283,7 @@ diaminothiazole|A
 dopamine homeostasis|B
 dystrophic neurite|A
 entorhinal cortex layer 2|A
-exotoxin A|P
+exotoxin A|PRG
 formylation|T
 gamma-secretase|P
 ghost tangles|A
@@ -294,7 +294,7 @@ granulovacuolar degeneration|O
 growth factor|A
 heat shock proteins|P
 high-calorie diets|O
-hsp-16|P
+hsp-16|PRG
 huntingtin aggregates|A
 hydrophobic pocket of actin|P
 hyperphosphorylation|T
@@ -303,10 +303,10 @@ indirubin|A
 isocarboxazide|A
 isolation rearing|O
 isopentanyladenine|A
-kappa-Bungarotoxin|P
-lgg-1|P
+kappa-Bungarotoxin|PRG
+lgg-1|PRG
 long-term potentiation|A
-lys-2|P
+lys-2|PRG
 maitotoxin|A
 mdMCI|O
 mevalonate pathway|B
@@ -319,7 +319,7 @@ mitochondrial aggregation|B
 mitochondrial dysfunction|O
 mitochondrial homeostasis|B
 mitochondrial motility|B
-mitochondrial precursor protein|P
+mitochondrial precursor protein|PRG
 molecular layer of cerebellar cortex|A
 nAChR assembly|B
 nasal cycle|A
@@ -353,10 +353,10 @@ proline-rich region 2|P
 protein aggregates|A
 protein aggregation|B
 proteotoxicity|O
-sAPP-alpha|P
-sAPP-beta|P
+sAPP-alpha|PRG
+sAPP-beta|PRG
 sAPP-gamma|P
-skn-1|P
+skn-1|PRG
 sonicated tau fibrils|A
 ss20399075|G
 straight filaments|A

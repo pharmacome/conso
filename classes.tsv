@@ -16,14 +16,14 @@ enzyme class	P
 epitope	P
 exposure	O
 genetic variant	G
-isoform	P
+isoform	PR
 molecular function	Y
 motif	P
 pathology	O
 pathway	B
 peptide	AP
 post-translational modification	T
-protein	P
+protein	PRG
 protein complex	P
 protein family	P
 protein fragment	P
