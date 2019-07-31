@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Setup module for Bio2BEL RGD."""
+"""Setup module for CONSO."""
 
 import setuptools
 
