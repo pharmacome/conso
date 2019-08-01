@@ -2,8 +2,8 @@
 Keyword=CONSO
 NameString=Curation of Neurodegeneration Supporting Ontology
 DomainString=Other
-VersionString=20190731
-CreatedDateTime=2019-07-31T15:26:47
+VersionString=20190801
+CreatedDateTime=2019-08-01T14:42:19
 DescriptionString=The Curation of Neurodegeneration Supporting Ontology (CONSO) contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at least has a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -18,7 +18,7 @@ CacheableFlag=yes
 1,3-Thiazole-2,4-diamine|A
 2-Bromohexadecanoic acid|A
 2-O-sulfated heparin|A
-20 S Proteasome|P
+20 S Proteasome|C
 3-3 dityrosine cross-linking|A
 310-helix|P
 3R tau|P
@@ -33,7 +33,7 @@ ACY-1215|A
 AG18051|A
 AG73|P
 AICD|P
-AP-2 complex|P
+AP-2 complex|C
 APOE e3|G
 APOE e4|G
 APP C-terminally truncated carboxyl-terminal fragments|P
@@ -75,7 +75,7 @@ CGP3466B|A
 CK1 superfamily|P
 CLR01|PRG
 CM-414|A
-CRL4 complex|P
+CRL4 complex|C
 CagA peptide|AP
 Chronic cerebral hypoperfusion|O
 Clonal Expansion|O
@@ -107,7 +107,7 @@ Histone H3|PRG
 Hsp27 oligomers|A
 Hyperamylinemia|O
 ID-8|A
-IκB kinase|P
+IκB kinase|C
 Jcasp|P
 KU-177|A
 KXGS motif|P
@@ -172,7 +172,7 @@ Syndecan Family|P
 TDP-43 aggregates|A
 TDP-43 oligomers|A
 TGM2 Isoform 3 (349 aa)|PR
-TIM/TOM complex|P
+TIM/TOM complex|C
 TOC1|A
 Tau 6D|PR
 Tau 6P|PR
@@ -235,19 +235,19 @@ YENPTY endocytosis motif (APP)|P
 aMCI|O
 abf-2|PRG
 advanced glycation end product|A
-alpha-2 beta-2 nAChR|P
-alpha-3 beta-2 nAChR|P
-alpha-3 beta-3 beta-4 nAChR|P
-alpha-3 beta-4 nAChR|P
-alpha-4 alpha-5 beta-2 nAChR|P
-alpha-4 beta-2 nAChR|P
-alpha-4 beta-4 nAChR|P
-alpha-4-containing nAChR|P
-alpha-6 alpha-4 beta-2 beta-3 nAChR|P
-alpha-6 beta-2 beta-3 nAChR|P
-alpha-6-containing nAChR|P
-alpha-7 beta-2 nAChR|P
-alpha-7-containing nAChR|P
+alpha-2 beta-2 nAChR|C
+alpha-3 beta-2 nAChR|C
+alpha-3 beta-3 beta-4 nAChR|C
+alpha-3 beta-4 nAChR|C
+alpha-4 alpha-5 beta-2 nAChR|C
+alpha-4 beta-2 nAChR|C
+alpha-4 beta-4 nAChR|C
+alpha-4-containing nAChR|C
+alpha-6 alpha-4 beta-2 beta-3 nAChR|C
+alpha-6 beta-2 beta-3 nAChR|C
+alpha-6-containing nAChR|C
+alpha-7 beta-2 nAChR|C
+alpha-7-containing nAChR|C
 alpha-Bungarotoxin|PRG
 alpha-synuclein aggregates|A
 alpha-synuclein fibrils|A
@@ -263,7 +263,7 @@ amyloid-beta oligomers|A
 amyloidogenesis|B
 assembly domain|P
 bb14|A
-beta-2-containing nAChR|P
+beta-2-containing nAChR|C
 caprospinol|A
 ced-9|PRG
 cerebral cortex|A
@@ -285,7 +285,7 @@ dystrophic neurite|A
 entorhinal cortex layer 2|A
 exotoxin A|PRG
 formylation|T
-gamma-secretase|P
+gamma-secretase|C
 ghost tangles|A
 glycation|T
 granular layer of cerebellar cortex|A
