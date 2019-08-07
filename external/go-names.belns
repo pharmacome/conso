@@ -2,18 +2,22 @@
 Keyword=go
 NameString=Gene Ontology
 DomainString=Other
-VersionString=20190224
-CreatedDateTime=2019-02-24T20:21:07
+VersionString=20190807
+CreatedDateTime=2019-08-07T14:48:07
 QueryValueURL=http://identifiers.org/go/
+
 [Author]
 NameString=cthoyt
 CopyrightString=Other/Proprietary
+
 [Citation]
 NameString=None
+
 [Processing]
 CaseSensitiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
+
 [Values]
 'de novo' AMP biosynthetic process|B
 'de novo' CTP biosynthetic process|B
@@ -325,27 +329,27 @@ CacheableFlag=yes
 1-18:1-2-16:0-phosphatidylglycerol trans-3 desaturase activity|Y
 1-18:1-2-16:1-monogalactosyldiacylglyceroldesaturase activity|Y
 1-18:1-2-16:2-monogalactosyldiacylglycerol desaturase activity|Y
-1-18:1-2-16:2-monogalactosyldiacylglycerol desaturase activity (Sn2-16:3 forming|Y
+1-18:1-2-16:2-monogalactosyldiacylglycerol desaturase activity (SN2-16:3 forming)|Y
 1-18:1-2-16:2-monogalactosyldiacylglycerol synthase activity|Y
 1-18:1-2-18:1-sn-glycerol-3-phosphocholine desaturase activity|Y
 1-18:1-2-18:2-phosphatidylcholine desaturase activity|Y
-1-18:1-2-18:2-phosphatidylcholine desaturase activity (sn2-18:3 forming|Y
+1-18:1-2-18:2-phosphatidylcholine desaturase activity (SN2-18:3 forming)|Y
 1-18:1-2-18:2-phosphatidylcholine synthase activity|Y
 1-18:1-2-18:3-phosphatidylcholinedesaturase activity|Y
 1-18:1-2-trans-16:1-phosphatidylglycerol desaturase activity|Y
 1-18:2-2-16:0-monogalactosyldiacylglycerol desaturase activity|Y
-1-18:2-2-16:0-monogalactosyldiacylglycerol desaturase activity (Sn2-16:1 forming)|Y
+1-18:2-2-16:0-monogalactosyldiacylglycerol desaturase activity (SN2-16:1 forming)|Y
 1-18:2-2-16:0-phosphatidylglycerol desaturase activity|Y
 1-18:2-2-16:1-monogalactosyldiacylglycerol desaturase activity|Y
-1-18:2-2-16:1-monogalactosyldiacylglycerol desaturase activity (Sn2-16:2 forming)|Y
+1-18:2-2-16:1-monogalactosyldiacylglycerol desaturase activity (SN2-16:2 forming)|Y
 1-18:2-2-16:2-monogalactosyldiacylglycerol desaturase activity|Y
 1-18:2-2-16:3-monogalactosyldiacylglycerol desaturase activity|Y
 1-18:2-2-18:1-phosphatidylcholine desaturase activity|Y
-1-18:2-2-18:1-phosphatidylcholine desaturase activity (sn2-18:2 forming)|Y
+1-18:2-2-18:1-phosphatidylcholine desaturase activity (SN2-18:2 forming)|Y
 1-18:2-2-18:2-digalactosyldiacylglycerol desaturase activity|Y
 1-18:2-2-18:2-monogalactosyldiacylglycerol desaturase activity|Y
 1-18:2-2-18:2-sn-glycerol-3-phosphocholine desaturase activity|Y
-1-18:2-2-18:2-sn-glycerol-3-phosphocholine desaturase activity (sn2-18:3 forming)|Y
+1-18:2-2-18:2-sn-glycerol-3-phosphocholine desaturase activity (SN2-18:3 forming)|Y
 1-18:2-2-18:3-digalactosyldiacylglycerol desaturase activity|Y
 1-18:2-2-18:3-phosphatidylcholine desaturase activity|Y
 1-18:2-2-trans-16:1-phosphatidylglycerol desaturase activity|Y
@@ -649,7 +653,6 @@ CacheableFlag=yes
 2-aminoethylphosphonate transmembrane transporter activity|Y
 2-aminoethylphosphonate transport|B
 2-aminoethylphosphonate-pyruvate transaminase activity|Y
-2-aminoethylphosphonate-transporting ATPase activity|Y
 2-aminohexano-6-lactam racemase activity|Y
 2-aminohexanoate transaminase activity|Y
 2-aminomuconate deaminase activity|Y
@@ -909,7 +912,6 @@ CacheableFlag=yes
 3'(2'),5'-bisphosphate nucleotidase activity|Y
 3',4',5'-trimethylmyricetin 3-O-methyltransferase activity|Y
 3',4',5'-trimethylmyricetin 7-O-methyltransferase activity|Y
-3',5'-cyclic GMP transmembrane-transporting ATPase activity|Y
 3',5'-cyclic diguanylic acid metabolic process|B
 3',5'-cyclic-AMP phosphodiesterase activity|Y
 3',5'-cyclic-GMP phosphodiesterase activity|Y
@@ -994,6 +996,7 @@ CacheableFlag=yes
 3-benzyl-3,6 -bis(glutathione)- 6-(hydroxymethyl)-diketopiperazine gamma-glutamylcyclotransferase activity|Y
 3-beta-hydroxy-delta5-steroid dehydrogenase activity|Y
 3-beta-hydroxysteroid dehydrogenase/C4-decarboxylase activity|Y
+3-butenylglucosinolate 2-hydroxylase activity|Y
 3-carboxy-cis,cis-muconate cycloisomerase activity|Y
 3-carboxyethylcatechol 2,3-dioxygenase activity|Y
 3-carboxymuconate cycloisomerase type II activity|Y
@@ -1085,8 +1088,8 @@ CacheableFlag=yes
 3-hydroxyphenylacetate 6-hydroxylase activity|Y
 3-hydroxyphenylacetate catabolic process|B
 3-hydroxyphenylacetate metabolic process|B
+3-hydroxyphenylpropionic acid transmembrane transport|B
 3-hydroxyphenylpropionic acid transmembrane transporter activity|Y
-3-hydroxyphenylpropionic acid transport|B
 3-hydroxypimeloyl-CoA dehydrogenase activity|Y
 3-hydroxypropionate dehydrogenase (NAD+) activity|Y
 3-hydroxypropionate dehydrogenase (NADP+) activity|Y
@@ -1306,6 +1309,7 @@ CacheableFlag=yes
 4-hydroxybutaraldehyde dehydrogenase activity|Y
 4-hydroxybutyrate CoA-transferase activity|Y
 4-hydroxybutyrate dehydrogenase activity|Y
+4-hydroxybutyrate receptor activity|Y
 4-hydroxycatechol 1,2-dioxygenase activity|Y
 4-hydroxycoumarin biosynthetic process|B
 4-hydroxycoumarin catabolic process|B
@@ -1672,6 +1676,7 @@ AAA codon-amino acid adaptor activity|Y
 AAC codon-amino acid adaptor activity|Y
 AAG codon-amino acid adaptor activity|Y
 AAU codon-amino acid adaptor activity|Y
+ABC-type transmembrane transporter activity|Y
 ABIN2-NFKB1-MAP3K8 complex|C
 ACA codon-amino acid adaptor activity|Y
 ACC codon-amino acid adaptor activity|Y
@@ -1775,11 +1780,6 @@ ATP diphosphatase activity|Y
 ATP export|B
 ATP generation from ADP|B
 ATP generation from poly-ADP-D-ribose|B
-ATP hydrolysis coupled anion transmembrane transport|B
-ATP hydrolysis coupled cation transmembrane transport|B
-ATP hydrolysis coupled ion transmembrane transport|B
-ATP hydrolysis coupled proton transport|B
-ATP hydrolysis coupled transmembrane transport|B
 ATP metabolic process|B
 ATP phosphoribosyltransferase activity|Y
 ATP synthesis coupled electron transport|B
@@ -1792,22 +1792,11 @@ ATP-binding cassette (ABC) transporter complex|C
 ATP-binding cassette (ABC) transporter complex, integrated substrate binding|C
 ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing|C
 ATP-binding cassette (ABC) transporter complex, transmembrane substrate-binding subunit-containing|C
-ATP-dependent 3'-5' DNA helicase activity|Y
-ATP-dependent 3'-5' DNA/RNA helicase activity|Y
-ATP-dependent 3'-5' RNA helicase activity|Y
-ATP-dependent 5'-3' DNA helicase activity|Y
-ATP-dependent 5'-3' DNA/RNA helicase activity|Y
-ATP-dependent 5'-3' RNA helicase activity|Y
-ATP-dependent DNA helicase activity|Y
-ATP-dependent DNA/RNA helicase activity|Y
 ATP-dependent NAD(P)H-hydrate dehydratase activity|Y
-ATP-dependent RNA helicase activity|Y
 ATP-dependent RNA helicase inhibitor activity|Y
 ATP-dependent chaperone mediated protein folding|B
 ATP-dependent chromatin remodeling|B
 ATP-dependent farnesol kinase activity|Y
-ATP-dependent four-way junction helicase activity|Y
-ATP-dependent helicase activity|Y
 ATP-dependent methionine-importing complex|C
 ATP-dependent microtubule motor activity|Y
 ATP-dependent microtubule motor activity, minus-end-directed|Y
@@ -1830,33 +1819,96 @@ ATPase activator activity|Y
 ATPase activity|Y
 ATPase activity, coupled|Y
 ATPase activity, coupled to movement of substances|Y
-ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism|Y
 ATPase activity, coupled to transmembrane movement of ions, rotational mechanism|Y
-ATPase activity, coupled to transmembrane movement of substances|Y
-ATPase activity, uncoupled|Y
 ATPase binding|Y
 ATPase complex|C
-ATPase coupled ion transmembrane transporter activity|Y
 ATPase coupled ion transmembrane transporter activity involved in regulation of postsynaptic membrane potential|Y
 ATPase coupled ion transmembrane transporter activity involved in regulation of presynaptic membrane potential|Y
 ATPase dependent transmembrane transport complex|C
 ATPase inhibitor activity|Y
 ATPase inhibitor complex|C
 ATPase regulator activity|Y
-ATPase-coupled alkylphosphonate transmembrane transporter activity|Y
-ATPase-coupled anion transmembrane transporter activity|Y
+ATPase-coupled 2-aminoethylphosphonate transporter activity|Y
+ATPase-coupled 3',5'-cyclic GMP transmembrane transporter activity|Y
+ATPase-coupled D-methionine transporter activity|Y
+ATPase-coupled D-xylose transmembrane transporter activity|Y
+ATPase-coupled L-glutamate tranmembrane transporter activity|Y
+ATPase-coupled L-glutamine transmembrane transporter activity|Y
+ATPase-coupled alpha-D-galactofuranose transporter activity|Y
+ATPase-coupled amide-transporter activity|Y
+ATPase-coupled amine transporter activity|Y
+ATPase-coupled amino acid transmembrane transporter activity|Y
+ATPase-coupled antimonite transmembrane transporter activity|Y
 ATPase-coupled arsenite transmembrane transporter activity|Y
+ATPase-coupled bacteriocin transmembrane transporter activity|Y
+ATPase-coupled beta-glucan transporter activity|Y
+ATPase-coupled betaine transporter activity|Y
+ATPase-coupled bile acid transmembrane transporter activity|Y
+ATPase-coupled cadmium transmembrane transporter activity|Y
+ATPase-coupled capsular-polysaccharide transporter activity|Y
+ATPase-coupled carbohydrate transmembrane transporter activity|Y
+ATPase-coupled carboxylic acid transmembrane transporter activity|Y
+ATPase-coupled cation transmembrane transporter activity|Y
+ATPase-coupled chloride transmembrane transporter activity|Y
+ATPase-coupled choline transmembrane transporter activity|Y
+ATPase-coupled cobalt transmembrane transporter activity|Y
+ATPase-coupled cysteine transmembrane transporter activity|Y
+ATPase-coupled daunorubicin transmembrane transporter activity|Y
 ATPase-coupled doxorubicin transmembrane transporter activity|Y
+ATPase-coupled ectoine transmembrane transporter activity|Y
+ATPase-coupled fatty-acyl-CoA transmembrane transporter activity|Y
+ATPase-coupled ferric iron transmembrane transporter activity|Y
+ATPase-coupled ferric-enterobactin transmembrane transporter activity|Y
+ATPase-coupled ferric-hydroxamate transmembrane transporter activity|Y
+ATPase-coupled glutathione S-conjugate transmembrane transporter activity|Y
+ATPase-coupled glycerol-2-phosphate transmembrane transporter activity|Y
+ATPase-coupled glycerol-3-phosphate transmembrane transporter activity|Y
+ATPase-coupled glycine betaine transporter activity|Y
+ATPase-coupled guanine transmembrane transporter activity|Y
+ATPase-coupled heme transmembrane transporter activity|Y
+ATPase-coupled hydroxyectoine transmembrane transporter activity|Y
+ATPase-coupled inorganic anion transmembrane transporter activity|Y
+ATPase-coupled intramembrane lipid transporter activity|Y
+ATPase-coupled ion transmembrane transporter activity|Y
+ATPase-coupled iron-chelate transporter activity|Y
+ATPase-coupled lipid transmembrane transporter activity|Y
 ATPase-coupled lipo-chitin oligosaccharide transmembrane transporter activity|Y
+ATPase-coupled maltose transmembrane transporter activity|Y
 ATPase-coupled methionine transmembrane transporter activity|Y
 ATPase-coupled molybdate transmembrane transporter activity|Y
+ATPase-coupled monocarboxylic acid transmembrane transporter activity|Y
+ATPase-coupled monosaccharide transmembrane transporter activity|Y
+ATPase-coupled nickel transmembrane transporter activity|Y
 ATPase-coupled nitrate transmembrane transporter activity|Y
+ATPase-coupled nonpolar-amino acid transporter activity|Y
+ATPase-coupled oligogalacturonide transmembrane transporter activity|Y
+ATPase-coupled oligopeptide transmembrane transporter activity|Y
+ATPase-coupled oligosaccharide transmembrane transporter activity|Y
+ATPase-coupled organic acid transmembrane transporter activity|Y
 ATPase-coupled organic phosphonate transmembrane transporter activity|Y
+ATPase-coupled peptide antigen transmembrane transporter activity|Y
+ATPase-coupled peptide transmembrane transporter activity|Y
 ATPase-coupled phosphate ion transmembrane transporter activity|Y
+ATPase-coupled phytochelatin transmembrane transporter activity|Y
+ATPase-coupled polar amino acid-transporter activity|Y
+ATPase-coupled polyamine transmembrane transporter activity|Y
 ATPase-coupled protein transmembrane transporter activity|Y
+ATPase-coupled putrescine transmembrane transporter activity|Y
+ATPase-coupled quaternary ammonium compound transmembrane transporting activity|Y
+ATPase-coupled rhamnose transmembrane transporter activity|Y
+ATPase-coupled spermidine transmembrane transporter activity|Y
+ATPase-coupled sterol transmembrane transporter activity|Y
 ATPase-coupled sulfate transmembrane transporter activity|Y
+ATPase-coupled taurine transporter activity|Y
+ATPase-coupled teichoic acid transmembrane transporter activity|Y
+ATPase-coupled thiamine transmembrane transporter activity|Y
 ATPase-coupled thiosulfate transmembrane transporter activity|Y
+ATPase-coupled transmembrane transporter activity|Y
 ATPase-coupled tungstate transmembrane transporter activity|Y
+ATPase-coupled urea transmembrane transporter activity|Y
+ATPase-coupled vitamin B12 transmembrane transporter activity|Y
+ATPase-coupled xenobiotic transmembrane transporter activity|Y
+ATPase-coupled zinc transmembrane transporter activity|Y
 ATR-ATRIP complex|C
 AU-rich element binding|Y
 AUA codon-amino acid adaptor activity|Y
@@ -2472,10 +2524,7 @@ D-mannitol oxidase activity|Y
 D-mannose 6-phosphate 1-epimerase activity|Y
 D-methionine transmembrane transporter activity|Y
 D-methionine transport|B
-D-methionine-exporting ATPase activity|Y
-D-methionine-importing ATPase activity|Y
 D-methionine-pyruvate transaminase activity|Y
-D-methionine-transporting ATPase activity|Y
 D-myo-inositol (1,3,4,6)-tetrakisphosphate 2-kinase activity|Y
 D-nopaline dehydrogenase activity|Y
 D-octopine dehydrogenase activity|Y
@@ -2526,7 +2575,6 @@ D-xylose fermentation|B
 D-xylose metabolic process|B
 D-xylose transmembrane transport|B
 D-xylose transmembrane transporter activity|Y
-D-xylose-importing ATPase activity|Y
 D-xylose:NADP reductase activity|Y
 D-xylose:proton symporter activity|Y
 D-xylulose reductase activity|Y
@@ -2729,7 +2777,6 @@ DNA translocase activity involved in viral DNA genome packaging|Y
 DNA transmembrane transporter activity|Y
 DNA transport|B
 DNA unwinding involved in DNA replication|B
-DNA viral genome|A
 DNA virus induced gene silencing|B
 DNA-(apurinic or apyrimidinic site) endonuclease activity|Y
 DNA-1,N6-ethenoadenine N-glycosylase activity|Y
@@ -3203,7 +3250,6 @@ GTP metabolic process|B
 GTP phosphohydrolase activity|Y
 GTP synthesis coupled proton transport|B
 GTP-Rho binding|Y
-GTP-dependent helicase activity|Y
 GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity|Y
 GTP-dependent polynucleotide kinase activity|Y
 GTP-dependent polyribonucleotide 5'-hydroxyl-kinase activity|Y
@@ -3562,7 +3608,6 @@ L-arginine transmembrane transport|B
 L-arginine transmembrane transport from lysosomal lumen to cytosol|B
 L-arginine transmembrane transporter activity|Y
 L-arginine transport|B
-L-arginine-importing ATPase activity|Y
 L-ascorbate 6-phosphate lactonase activity|Y
 L-ascorbate oxidase activity|Y
 L-ascorbate peroxidase activity|Y
@@ -3633,13 +3678,13 @@ L-glucuronate reductase activity|Y
 L-glutamate biosynthetic process|B
 L-glutamate import|B
 L-glutamate import across plasma membrane|B
+L-glutamate import into mitochondrion|B
 L-glutamate import involved in cellular response to nitrogen starvation|B
 L-glutamate oxidase activity|Y
 L-glutamate transmembrane export from vacuole|B
 L-glutamate transmembrane import into vacuole|B
 L-glutamate transmembrane transport|B
 L-glutamate transmembrane transporter activity|Y
-L-glutamate-importing ATPase activity|Y
 L-glutamine aminotransferase activity|Y
 L-glutamine biosynthetic process|B
 L-glutamine import across plasma membrane|B
@@ -3833,6 +3878,8 @@ Lewy body-like hyaline inclusion|A
 Lewy neurite|A
 Leydig cell differentiation|B
 Lid2 complex|C
+LinE complex|C
+LinE complex assembly|B
 Lsd1/2 complex|C
 Lsm-containing SMN-Sm protein complex|C
 Lsm1-7-Pat1 complex|C
@@ -3981,6 +4028,7 @@ MutSalpha complex|C
 MutSalpha complex binding|Y
 MutSbeta complex|C
 MutSbeta complex binding|Y
+MutSgamma complex|C
 MyD88-dependent toll-like receptor 2 signaling pathway|B
 MyD88-dependent toll-like receptor 4 signaling pathway|B
 MyD88-dependent toll-like receptor signaling pathway|B
@@ -4070,7 +4118,7 @@ N-acetylneuraminate metabolic process|B
 N-acetylneuraminate synthase activity|Y
 N-acetylneuraminylgalactosylglucosylceramide beta-1,4-N-acetylgalactosaminyltransferase activity|Y
 N-acetylornithine carbamoyltransferase activity|Y
-N-acetylphosphatidylethanolamine-hydrolysing phospholipas activity|Y
+N-acetylphosphatidylethanolamine-hydrolysing phospholipase activity|Y
 N-acetyltransferase activity|Y
 N-acyl homoserine lactone synthase activity|Y
 N-acyl-D-amino-acid deacylase activity|Y
@@ -4144,6 +4192,7 @@ N-methylphosphoethanolamine cytidylyltransferase activity|Y
 N-methyltransferase activity|Y
 N-nitrodimethylamine hydroxylase activity|Y
 N-palmitoyltransferase activity|Y
+N-retinylidene-phosphatidylethanolamine flippase activity|Y
 N-substituted formamide deformylase activity|Y
 N-succinylarginine dihydrolase activity|Y
 N-succinyltransferase activity|Y
@@ -4462,7 +4511,6 @@ P granule assembly|B
 P granule disassembly|B
 P granule organization|B
 P-P-bond-hydrolysis-driven protein transmembrane transporter activity|Y
-P-P-bond-hydrolysis-driven transmembrane transporter activity|Y
 P-TEFb complex|C
 P-TEFb complex binding|Y
 P-TEFb-cap methyltransferase complex|C
@@ -4470,6 +4518,7 @@ P-TEFb-cap methyltransferase complex localization|B
 P-body|C
 P-element binding|Y
 P-methyltransferase activity|Y
+P-type transmembrane transporter activity|Y
 P1 peroxisome|A
 P2 peroxisome|A
 P2Y1 nucleotide receptor binding|Y
@@ -4487,6 +4536,7 @@ P5 peroxisome|A
 P6 peroxisome|A
 PAK family kinase-Sog2 complex|C
 PAM complex, Tim23 associated import motor|C
+PAMP receptor decoy activity|Y
 PAN complex|C
 PAR polarity complex|C
 PAS complex|C
@@ -4618,6 +4668,7 @@ RNA acetylation|B
 RNA adenosine-uridine insertion|B
 RNA adenylyltransferase activity|Y
 RNA binding|Y
+RNA binding involved in posttranscriptional gene silencing|Y
 RNA biosynthetic process|B
 RNA cap 4 binding|Y
 RNA cap binding|Y
@@ -4771,7 +4822,6 @@ RNA trimethylguanosine cap binding|Y
 RNA trimethylguanosine synthase activity|Y
 RNA uridine deletion|B
 RNA uridylyltransferase activity|Y
-RNA viral genome|A
 RNA virus induced gene silencing|B
 RNA-3'-phosphate cyclase activity|Y
 RNA-DNA hybrid ribonuclease activity|Y
@@ -6021,10 +6071,6 @@ active evasion of immune response of other organism involved in symbiotic intera
 active evasion of immune response of other organism via regulation of antigen processing and presentation in other organism involved in symbiotic interaction|B
 active evasion of immune response of other organism via regulation of complement system of other organism involved in symbiotic interaction|B
 active evasion of immune response of other organism via regulation of cytokine network of other organism involved in symbiotic interaction|B
-active induction of cell-mediated immune response in host by virus|B
-active induction of host immune response by virus|B
-active induction of humoral immune response in host by virus|B
-active induction of innate immune response in host by virus|B
 active ion transmembrane transporter activity|Y
 active sex chromosome|A
 active spore dispersal on or near host|B
@@ -6240,6 +6286,7 @@ adhesion of symbiont to host cell|B
 adhesion of symbiont to host endothelial cell|B
 adhesion of symbiont to host epithelial cell|B
 adhesion receptor-mediated virion attachment to host cell|B
+adhesive extracellular matrix|A
 adipate-CoA ligase activity|Y
 adipokinetic hormone binding|Y
 adipokinetic hormone receptor activity|Y
@@ -6595,7 +6642,6 @@ alpha-2 macroglobulin receptor activity|Y
 alpha-2A adrenergic receptor binding|Y
 alpha-2B adrenergic receptor binding|Y
 alpha-2C adrenergic receptor binding|Y
-alpha-D-galactofuranose transporter activity|Y
 alpha-D-glucan binding|Y
 alpha-D-ribose 1-methylphosphonate 5-phosphate C-P-lyase activity|Y
 alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase activity|Y
@@ -6808,7 +6854,6 @@ alveolar lamellar body membrane|A
 alveolar primary septum development|B
 alveolar secondary septum development|B
 amacrine cell differentiation|B
-ambisense viral genome|A
 ameboidal-type cell migration|B
 ameloblast differentiation|B
 amelogenesis|B
@@ -6817,7 +6862,6 @@ amide binding|Y
 amide biosynthetic process|B
 amide transmembrane transporter activity|Y
 amide transport|B
-amide-transporting ATPase activity|Y
 amidine-lyase activity|Y
 amidinoaspartase activity|Y
 amidinotransferase activity|Y
@@ -6835,7 +6879,6 @@ amine sulfotransferase activity|Y
 amine transmembrane transporter activity|Y
 amine transport|B
 amine-lyase activity|Y
-amine-transporting ATPase activity|Y
 aminergic neurotransmitter loading into synaptic vesicle|B
 amino acid activation|B
 amino acid activation for nonribosomal peptide biosynthetic process|B
@@ -6858,9 +6901,6 @@ amino acid transmembrane transport|B
 amino acid transmembrane transporter activity|Y
 amino acid transport|B
 amino acid transport complex|C
-amino acid-exporting ATPase activity|Y
-amino acid-importing ATPase activity|Y
-amino acid-transporting ATPase activity|Y
 amino acid:cation symporter activity|Y
 amino acid:potassium symporter activity|Y
 amino acid:proton symporter activity|Y
@@ -6911,7 +6951,8 @@ aminolevulinate transaminase activity|Y
 aminomethyltransferase activity|Y
 aminomuconate-semialdehyde dehydrogenase activity|Y
 aminopeptidase activity|Y
-aminophospholipid transmembrane transporter activity|Y
+aminophospholipid flippase activity|Y
+aminophospholipid translocation|B
 aminophospholipid transport|B
 aminophosphonate metabolic process|B
 aminopropylagmatine ureohydrolase activity|Y
@@ -7258,8 +7299,6 @@ antibacterial peptide secretion|B
 antibiotic biosynthetic process|B
 antibiotic catabolic process|B
 antibiotic metabolic process|B
-antibiotic transmembrane transporter activity|Y
-antibiotic transport|B
 antibody-dependent cellular cytotoxicity|B
 anticlinal cell division|B
 antifungal humoral response|B
@@ -7321,7 +7360,6 @@ antimicrobial peptide secretion|B
 antimonite secondary active transmembrane transporter activity|Y
 antimonite transmembrane transporter activity|Y
 antimonite transport|B
-antimonite-transporting ATPase activity|Y
 antioxidant activity|Y
 antipodal cell degeneration|B
 antipodal cell differentiation|B
@@ -7516,11 +7554,9 @@ arginine homeostasis|B
 arginine kinase activity|Y
 arginine metabolic process|B
 arginine racemase activity|Y
-arginine targeting transmembrane transporter activity|Y
 arginine transmembrane transport|B
 arginine transmembrane transporter activity|Y
 arginine transport|B
-arginine-importing ATPase activity|Y
 arginine-tRNA ligase activity|Y
 arginine:agmatine antiporter activity|Y
 arginine:ornithine antiporter activity|Y
@@ -7833,14 +7869,9 @@ autophagosome organization|B
 autophagosome-endosome fusion|B
 autophagosome-lysosome fusion|B
 autophagy|B
-autophagy involved in symbiotic interaction|B
-autophagy of host cells involved in interaction with symbiont|B
-autophagy of host cells on or near symbiont surface|B
 autophagy of mitochondrion|B
 autophagy of nucleus|B
 autophagy of peroxisome|B
-autophagy of symbiont cells involved in interaction with host|B
-autophagy of symbiont cells on or near host surface|B
 autosome|A
 autotransporter activity|Y
 auxin binding|Y
@@ -8011,7 +8042,6 @@ bacteriocin immunity|B
 bacteriocin metabolic process|B
 bacteriocin transmembrane transporter activity|Y
 bacteriocin transport|B
-bacteriocin-transporting ATPase activity|Y
 bacteroid-containing symbiosome|A
 baculum development|B
 baicalein 7-O-glucuronosyltransferase activity|Y
@@ -8267,7 +8297,6 @@ beta-glucan catabolic process|B
 beta-glucan metabolic process|B
 beta-glucan transmembrane transporter activity|Y
 beta-glucan transport|B
-beta-glucan-transporting ATPase activity|Y
 beta-glucanase activity|Y
 beta-glucogallin O-galloyltransferase activity|Y
 beta-glucogallin-tetrakisgalloylglucose O-galloyltransferase activity|Y
@@ -8317,7 +8346,6 @@ betaine aldehyde metabolic process|B
 betaine reductase activity|Y
 betaine-aldehyde dehydrogenase activity|Y
 betaine-homocysteine S-methyltransferase activity|Y
-betaine-transporting ATPase activity|Y
 betanidin 5-O-glucosyltransferase activity|Y
 betanidin 6-O-glucosyltransferase activity|Y
 betulin dehydrogenase activity|Y
@@ -8332,8 +8360,8 @@ bicyclic nitroimidazole metabolic process|B
 bicyclogermacrene biosynthetic process|B
 bicyclogermacrene catabolic process|B
 bicyclogermacrene metabolic process|B
+bicyclomycin transmembrane transport|B
 bicyclomycin transmembrane transporter activity|Y
-bicyclomycin transport|B
 bidentate ribonuclease III activity|Y
 bidirectional double-stranded viral DNA replication|B
 bile acid and bile salt transport|B
@@ -8346,7 +8374,6 @@ bile acid receptor activity|Y
 bile acid secretion|B
 bile acid signaling pathway|B
 bile acid transmembrane transporter activity|Y
-bile acid-exporting ATPase activity|Y
 bile acid:sodium symporter activity|Y
 bile-acid 7alpha-dehydratase activity|Y
 bile-acid 7alpha-dehydroxylase activity|Y
@@ -8375,6 +8402,7 @@ biological regulation|B
 biological_process|B
 bioluminescence|B
 biomineral tissue development|B
+biomineralization|B
 biopterin transmembrane transporter activity|Y
 biopterin transport|B
 biosynthesis by host of substance in symbiont|B
@@ -8402,7 +8430,6 @@ biotin-[propionyl-CoA-carboxylase (ATP-hydrolyzing)] ligase activity|Y
 biotin-[pyruvate-carboxylase] ligase activity|Y
 biotin-protein ligase activity|Y
 biotinidase activity|Y
-bipartite viral genome|A
 biphenyl 2,3-dioxygenase activity|Y
 biphenyl catabolic process|B
 biphenyl metabolic process|B
@@ -8684,7 +8711,6 @@ cGMP-inhibited cyclic-nucleotide phosphodiesterase activity|Y
 cGMP-mediated signaling|B
 cGMP-stimulated cyclic-nucleotide phosphodiesterase activity|Y
 cadaverine aminopropyltransferase activity|Y
-cadaverine transmembrane transporter activity|Y
 cadaverine transport|B
 cadherin binding|Y
 cadherin binding involved in cell-cell adhesion|Y
@@ -8698,8 +8724,7 @@ cadmium ion sensor activity|Y
 cadmium ion transmembrane transport|B
 cadmium ion transmembrane transporter activity|Y
 cadmium ion transport|B
-cadmium-exporting ATPase activity|Y
-cadmium-transporting ATPase activity|Y
+cadmium transmembrane transporter activity, phosphorylative mechanism|Y
 caecum development|B
 caffeate 3,4-dioxygenase activity|Y
 caffeate O-methyltransferase activity|Y
@@ -8761,9 +8786,9 @@ calcium ion import across plasma membrane|B
 calcium ion import into cytosol|B
 calcium ion import into sarcoplasmic reticulum|B
 calcium ion import into vacuole|B
-calcium ion regulated exocytosis|B
 calcium ion regulated lysosome exocytosis|B
 calcium ion sensor activity|Y
+calcium ion sequestering activity|Y
 calcium ion transmembrane import into cytosol|B
 calcium ion transmembrane transport|B
 calcium ion transmembrane transport via high voltage-gated calcium channel|B
@@ -8777,6 +8802,7 @@ calcium ion-transporting ATPase complex|C
 calcium or calmodulin-mediated activation of appressorium formation|B
 calcium oxalate binding|Y
 calcium sensitive guanylate cyclase activator activity|Y
+calcium transmembrane transporter activity, phosphorylative mechanism|Y
 calcium, potassium:sodium antiporter activity|Y
 calcium- and calmodulin-dependent protein kinase complex|C
 calcium- and calmodulin-regulated 3',5'-cyclic-GMP phosphodiesterase activity|Y
@@ -8809,11 +8835,11 @@ calcium-independent protein kinase C activity|Y
 calcium-induced calcium release activity|Y
 calcium-induced calcium release activity involved in regulation of postsynaptic cytosolic calcium ion concentration|Y
 calcium-induced calcium release activity involved in regulation of presynaptic cytosolic calcium ion concentration|Y
+calcium-ion regulated exocytosis|B
 calcium-mediated signaling|B
 calcium-mediated signaling using extracellular calcium source|B
 calcium-mediated signaling using intracellular calcium source|B
 calcium-release channel activity|Y
-calcium-transporting ATPase activity|Y
 calcium-transporting ATPase activity involved in regulation of cardiac muscle cell membrane potential|Y
 calcium-transporting ATPase activity involved in regulation of postsynaptic cytosolic calcium ion concentration|Y
 calcium-transporting ATPase activity involved in regulation of presynaptic cytosolic calcium ion concentration|Y
@@ -8915,7 +8941,6 @@ capsorubin synthase activity|Y
 capsular polysaccharide transmembrane transporter activity|Y
 capsular polysaccharide transport|B
 capsular-polysaccharide endo-1,3-alpha-galactosidase activity|Y
-capsular-polysaccharide-transporting ATPase activity|Y
 capsule|A
 capsule organization|B
 capsule poly-gamma-glutamate biosynthetic process|B
@@ -8960,7 +8985,6 @@ carbohydrate transport|B
 carbohydrate utilization|B
 carbohydrate-exporting ATPase activity|Y
 carbohydrate-importing ATPase activity|Y
-carbohydrate-transporting ATPase activity|Y
 carbohydrate:cation symporter activity|Y
 carbohydrate:proton symporter activity|Y
 carbon catabolite activation of transcription|B
@@ -9020,7 +9044,6 @@ carboxylic acid metabolic process|B
 carboxylic acid transmembrane transport|B
 carboxylic acid transmembrane transporter activity|Y
 carboxylic acid transport|B
-carboxylic acid-transporting ATPase activity|Y
 carboxylic ester hydrolase activity|Y
 carboxymethylenebutenolidase activity|Y
 carboxymethylhydantoinase activity|Y
@@ -9135,8 +9158,10 @@ cardiolipin hydrolase activity|Y
 cardiolipin metabolic process|B
 cardiolipin synthase activity|Y
 cardiovascular system development|B
+cargo adaptor activity|Y
 cargo loading involved in clathrin-dependent endocytosis|B
 cargo receptor activity|Y
+cargo receptor ligand activity|Y
 carnitinamidase activity|Y
 carnitine 3-dehydrogenase activity|Y
 carnitine O-acetyltransferase activity|Y
@@ -9266,7 +9291,6 @@ cation homeostasis|B
 cation transmembrane transport|B
 cation transmembrane transporter activity|Y
 cation transport|B
-cation-transporting ATPase activity|Y
 cation-transporting ATPase complex|C
 cation:cation antiporter activity|Y
 cation:chloride symporter activity|Y
@@ -10372,6 +10396,7 @@ centrolateral pattern formation|B
 centromere clustering|B
 centromere clustering at the mitotic nuclear envelope|B
 centromere complex assembly|B
+centromere detachment from spindle pole body involved in meiotic chromosome organization|B
 centromere localization|B
 centromere separation|B
 centromeric DNA binding|Y
@@ -10398,12 +10423,13 @@ cephamycin C catabolic process|B
 cephamycin C metabolic process|B
 ceramidase activity|Y
 ceramide 1-phosphate binding|Y
+ceramide 1-phosphate transfer activity|Y
 ceramide 1-phosphate transport|B
-ceramide 1-phosphate transporter activity|Y
 ceramide binding|Y
 ceramide biosynthetic process|B
 ceramide catabolic process|B
 ceramide cholinephosphotransferase activity|Y
+ceramide floppase activity|Y
 ceramide glucosyltransferase activity|Y
 ceramide kinase activity|Y
 ceramide metabolic process|B
@@ -10411,10 +10437,9 @@ ceramide phosphoethanolamine biosynthetic process|B
 ceramide phosphoethanolamine catabolic process|B
 ceramide phosphoethanolamine metabolic process|B
 ceramide phosphoethanolamine synthase activity|Y
+ceramide transfer activity|Y
 ceramide translocation|B
 ceramide transport|B
-ceramide transporter activity|Y
-ceramide-translocating ATPase activity|Y
 cerebellar Golgi cell differentiation|B
 cerebellar Golgi cell to granule cell synapse|A
 cerebellar Purkinje cell differentiation|B
@@ -10470,6 +10495,7 @@ cerebral cortex regionalization|B
 cerebral cortex tangential migration|B
 cerebral cortex tangential migration using cell-axon interactions|B
 cerebral cortex tangential migration using cell-cell interactions|B
+cerebroside transfer activity|Y
 cerebroside-sulfatase activity|Y
 cerebrospinal fluid circulation|B
 cerebrospinal fluid secretion|B
@@ -10619,6 +10645,7 @@ chitin-based cuticle sclerotization|B
 chitin-based cuticle sclerotization by biomineralization|B
 chitin-based cuticle sclerotization by protein cross-linking|B
 chitin-based embryonic cuticle biosynthetic process|B
+chitin-based extracellular matrix|A
 chitin-based larval cuticle pattern formation|B
 chitinase activity|Y
 chitobiose catabolic process|B
@@ -10635,8 +10662,8 @@ chlamydospore formation|B
 chlamydospore septin filament array|A
 chloral hydrate dehydrogenase activity|Y
 chloramphenicol O-acetyltransferase activity|Y
+chloramphenicol transmembrane transport|B
 chloramphenicol transmembrane transporter activity|Y
-chloramphenicol transport|B
 chlorate reductase activity|Y
 chlorate transmembrane transporter activity|Y
 chlorate transport|B
@@ -10653,7 +10680,6 @@ chloride transmembrane transport|B
 chloride transmembrane transporter activity|Y
 chloride transport|B
 chloride-activated potassium channel activity|Y
-chloride-transporting ATPase activity|Y
 chlorinated hydrocarbon catabolic process|B
 chlorinated hydrocarbon metabolic process|B
 chlorite O2-lyase activity|Y
@@ -10779,9 +10805,9 @@ cholesterol monooxygenase (side-chain-cleaving) activity|Y
 cholesterol oxidase activity|Y
 cholesterol storage|B
 cholesterol sulfotransferase activity|Y
+cholesterol transfer activity|Y
 cholesterol transport|B
 cholesterol transport involved in cholesterol storage|B
-cholesterol transporter activity|Y
 cholesterol-5,6-oxide hydrolase activity|Y
 choline O-acetyltransferase activity|Y
 choline binding|Y
@@ -10800,7 +10826,6 @@ choline transmembrane transporter activity|Y
 choline transport|B
 choline-phosphate cytidylyltransferase activity|Y
 choline-sulfatase activity|Y
-choline-transporting ATPase activity|Y
 choline:oxygen 1-oxidoreductase activity|Y
 choline:sodium symporter activity|Y
 cholinergic synapse|A
@@ -11211,7 +11236,6 @@ cobalamin catabolic process|B
 cobalamin metabolic process|B
 cobalamin transport|B
 cobalamin transport complex|C
-cobalamin-transporting ATPase activity|Y
 cobalt ion binding|Y
 cobalt ion homeostasis|B
 cobalt ion transmembrane transporter activity|Y
@@ -11223,7 +11247,6 @@ cobalt-precorrin-5B C1-methyltransferase activity|Y
 cobalt-precorrin-6B C5-methyltransferase activity|Y
 cobalt-precorrin-7 C15-methyltransferase activity|Y
 cobalt-precorrin-8 methylmutase activity|Y
-cobalt-transporting ATPase activity|Y
 cobaltochelatase activity|Y
 cobinamide kinase activity|Y
 cobinamide phosphate guanylyltransferase activity|Y
@@ -11446,8 +11469,11 @@ conditioned place preference|B
 conditioned taste aversion|B
 cone cell pedicle|A
 cone matrix sheath|A
+cone photoreceptor disc membrane|A
+cone photoreceptor outer segment|A
 cone photoresponse recovery|B
 cone retinal bipolar cell differentiation|B
+cone teleodendria|A
 conidiophore development|B
 conidiophore stalk development|B
 conidium development|B
@@ -11544,10 +11570,9 @@ copper ion transmembrane transporter complex|C
 copper ion transport|B
 copper ion transport across blood-brain barrier|B
 copper ion transport across blood-cerebrospinal fluid barrier|B
+copper transmembrane transporter activity, phosphorylative mechanism|Y
 copper-dependent protein binding|Y
-copper-exporting ATPase activity|Y
 copper-nicotianamine transmembrane transporter activity|Y
-copper-transporting ATPase activity|Y
 coproporphyrinogen dehydrogenase activity|Y
 coproporphyrinogen oxidase activity|Y
 copulation|B
@@ -11717,6 +11742,7 @@ cucurbitadienol synthase activity|Y
 cullin family protein binding|Y
 cullin-RING ubiquitin ligase complex|C
 culmination involved in sorocarp development|B
+culmorin biosynthetic process|B
 cumulus cell differentiation|B
 cuneatus tract morphogenesis|B
 cupric ion binding|Y
@@ -11831,6 +11857,7 @@ cyclic purine nucleotide metabolic process|B
 cyclic pyranopterin monophosphate synthase activity|Y
 cyclic threonylcarbamoyladenosine biosynthetic process|B
 cyclic-GMP-AMP binding|Y
+cyclic-GMP-AMP hydrolase activity|Y
 cyclic-GMP-AMP synthase activity|Y
 cyclic-di-GMP binding|Y
 cyclic-guanylate-specific phosphodiesterase activity|Y
@@ -11937,10 +11964,8 @@ cysteine-S-conjugate N-acetyltransferase activity|Y
 cysteine-S-conjugate N-malonyl transferase activity|Y
 cysteine-S-conjugate beta-lyase activity|Y
 cysteine-conjugate transaminase activity|Y
-cysteine-exporting ATPase activity|Y
 cysteine-glucosaminylinositol ligase activity|Y
 cysteine-tRNA ligase activity|Y
-cysteine-transporting ATPase activity|Y
 cysteine-type aminopeptidase activity|Y
 cysteine-type carboxypeptidase activity|Y
 cysteine-type endopeptidase activator activity involved in apoptotic process|Y
@@ -12087,9 +12112,6 @@ cytoplasmic ribonucleoprotein granule|C
 cytoplasmic sequestering of CFTR protein|B
 cytoplasmic sequestering of NF-kappaB|B
 cytoplasmic sequestering of protein|B
-cytoplasmic sequestering of protein involved in G2 DNA damage checkpoint|B
-cytoplasmic sequestering of protein involved in mitotic DNA replication checkpoint|B
-cytoplasmic sequestering of protein involved in mitotic G2 DNA damage checkpoint|B
 cytoplasmic sequestering of transcription factor|B
 cytoplasmic side of Golgi membrane|A
 cytoplasmic side of apical plasma membrane|A
@@ -12103,6 +12125,7 @@ cytoplasmic side of membrane|A
 cytoplasmic side of mitochondrial outer membrane|A
 cytoplasmic side of nuclear pore|C
 cytoplasmic side of plasma membrane|A
+cytoplasmic side of plasma membrane, cell tip|A
 cytoplasmic side of rough endoplasmic reticulum membrane|A
 cytoplasmic side of smooth endoplasmic reticulum membrane|A
 cytoplasmic side of trans-Golgi network transport vesicle membrane|A
@@ -12306,7 +12329,6 @@ daunorubicin biosynthetic process|B
 daunorubicin catabolic process|B
 daunorubicin metabolic process|B
 daunorubicin transport|B
-daunorubicin-transporting ATPase activity|Y
 de novo centriole assembly|B
 de novo centriole assembly involved in multi-ciliated epithelial cell differentiation|B
 de novo centriole assembly via blepharoplast|B
@@ -12338,7 +12360,6 @@ decanoate-CoA ligase activity|Y
 decanoate-[HmqF protein] ligase activity|Y
 decanoyl-[acp] 2-dehydrogenase activity|Y
 decanoyltransferase activity|Y
-decapentaplegic signaling pathway|B
 decaprenyl diphosphate synthase complex|C
 decaprenyl-N-acetyl-alpha-D-glucosaminyl-pyrophosphate:dTDP-alpha-L-rhamnose rhamnosyltransferase activity|Y
 decaprenyldihydroxybenzoate methyltransferase activity|Y
@@ -12840,7 +12861,7 @@ deubiquitinase activator activity|Y
 deuterosome|A
 development in other organism involved in symbiotic interaction|B
 development involved in symbiotic interaction|B
-development of organism on or near symbiont surface|B
+development of host on or near symbiont surface|B
 development of primary female sexual characteristics|B
 development of primary male sexual characteristics|B
 development of primary sexual characteristics|B
@@ -12849,14 +12870,11 @@ development of secondary male sexual characteristics|B
 development of secondary sexual characteristics|B
 development of symbiont in host|B
 development of symbiont in host cell|B
-development of symbiont in host intercellular space|B
-development of symbiont in host organelle|B
-development of symbiont in host vascular tissue|B
+development of symbiont in host vacuole|B
 development of symbiont involved in interaction with host|B
 development of symbiont on or near host|B
 development of symbiont on or near host phyllosphere|B
 development of symbiont on or near host rhizosphere|B
-development on or near surface of other organism involved in symbiotic interaction|B
 developmental cell growth|B
 developmental growth|B
 developmental growth involved in morphogenesis|B
@@ -12886,6 +12904,7 @@ diacetylchitobiose catabolic process to glucosamine and acetate|B
 diacetylchitobiose deacetylase activity|Y
 diacetylchitobiose metabolic process|B
 diacyl lipopeptide binding|Y
+diacylglyceride transfer activity|Y
 diacylglycerol O-acyltransferase activity|Y
 diacylglycerol acyl-chain remodeling|B
 diacylglycerol binding|Y
@@ -13344,8 +13363,7 @@ double-stranded DNA 5'-3' exodeoxyribonuclease activity|Y
 double-stranded DNA binding|Y
 double-stranded DNA endodeoxyribonuclease activity|Y
 double-stranded DNA exodeoxyribonuclease activity|Y
-double-stranded DNA-dependent ATP-dependent DNA helicase activity|Y
-double-stranded DNA-dependent ATPase activity|Y
+double-stranded DNA helicase activity|Y
 double-stranded RNA adenosine deaminase activity|Y
 double-stranded RNA binding|Y
 double-stranded RNA biosynthetic process|B
@@ -13362,17 +13380,11 @@ drug binding|Y
 drug catabolic process|B
 drug export|B
 drug metabolic process|B
-drug transmembrane export|B
 drug transmembrane transport|B
-drug transmembrane transporter activity|Y
 drug transport|B
-drug transport across blood-brain barrier|B
-drug transport across blood-nerve barrier|B
-drug:proton antiporter activity|Y
 dsDNA loop formation|B
 dsRNA processing|B
 dsRNA transport|B
-dsRNA viral genome|A
 ductus arteriosus closure|B
 ductus venosus closure|B
 dynactin binding|Y
@@ -13469,9 +13481,7 @@ ectoine biosynthetic process|B
 ectoine catabolic process|B
 ectoine metabolic process|B
 ectoine synthase activity|Y
-ectoine transmembrane transporter activity|Y
 ectoine transport|B
-ectoine-transporting ATPase activity|Y
 ectopic germ cell programmed cell death|B
 ectoplasm|A
 effector dependent induction by symbiont of host immune response|B
@@ -13660,7 +13670,6 @@ endocrine system development|B
 endocrocin biosynthetic process|B
 endocrocin catabolic process|B
 endocrocin metabolic process|B
-endocytic adaptor activity|Y
 endocytic hemoglobin import|B
 endocytic iron import into cell|B
 endocytic patch|A
@@ -13674,6 +13683,7 @@ endocytosed synaptic vesicle processing via endosome|B
 endocytosed synaptic vesicle to endosome fusion|B
 endocytosis|B
 endocytosis involved in viral entry into host cell|B
+endocytosis, site selection|B
 endodeoxyribonuclease activity|Y
 endodeoxyribonuclease activity, producing 3'-phosphomonoesters|Y
 endodeoxyribonuclease activity, producing 5'-phosphomonoesters|Y
@@ -13926,23 +13936,19 @@ enterocyte differentiation|B
 enteroendocrine cell differentiation|B
 entrainment of circadian clock|B
 entrainment of circadian clock by photoperiod|B
-entry into cell of other organism involved in symbiotic interaction|B
 entry into diapause|B
 entry into dormancy|B
 entry into host|B
 entry into host cell|B
+entry into host cell by a symbiont-containing vacuole|B
 entry into host through host barriers|B
 entry into host through natural portals|B
 entry into host via a specialized structure|B
 entry into host via enzymatic degradation of host anatomical structure|B
 entry into host via enzymatic degradation of host cuticle|B
-entry into other organism involved in symbiotic interaction|B
-entry into other organism through barriers of other organism involved in symbiotic interaction|B
-entry into other organism through natural portals involved in symbiotic interaction|B
 entry into reproductive diapause|B
 entry of bacterium into host cell|B
 entry of intact viral capsid into host nucleus through nuclear pore complex|B
-entry of organism into cell of other organism by promotion of phagocytosis in other organism involved in symbiotic interaction|B
 entry of symbiont into host cell by promotion of host phagocytosis|B
 entry of viral genome into host nucleus through nuclear pore complex via importin|B
 entry of viral genome into host nucleus via docking of viral capsid to the nuclear pore complex and injection of viral genome|B
@@ -14176,8 +14182,8 @@ epithelial cell proliferation involved in salivary gland morphogenesis|B
 epithelial cell type specification, open tracheal system|B
 epithelial cell-cell adhesion|B
 epithelial cell-cell adhesion involved in epithelium migration|B
-epithelial cilium movement|B
 epithelial cilium movement involved in determination of left/right asymmetry|B
+epithelial cilium movement involved in extracellular fluid movement|B
 epithelial fluid transport|B
 epithelial structure maintenance|B
 epithelial to mesenchymal transition|B
@@ -14640,7 +14646,9 @@ exosporium|A
 exosporium assembly|B
 exoxylanase activity|Y
 exploration behavior|B
+export across cell outer membrane|B
 export across plasma membrane|B
+export from cell|B
 extensin metabolic process|B
 extension of a leading process involved in cell motility in cerebral cortex radial glia guided migration|B
 extension of leading cell process to pial surface|B
@@ -14704,7 +14712,6 @@ extracellular regulation of signal transduction|B
 extracellular sequestering of copper ion|B
 extracellular sequestering of iron ion|B
 extracellular space|A
-extracellular space of host|A
 extracellular structure organization|B
 extracellular transport|B
 extracellular vesicle|A
@@ -14793,7 +14800,6 @@ eye pigment catabolic process|B
 eye pigment granule organization|B
 eye pigment metabolic process|B
 eye pigment precursor transport|B
-eye pigment precursor transporter activity|Y
 eye pigmentation|B
 eye-antennal disc development|B
 eye-antennal disc morphogenesis|B
@@ -14884,6 +14890,8 @@ fatty acid omega-oxidation|B
 fatty acid oxidation|B
 fatty acid peroxidase activity|Y
 fatty acid primary amide biosynthetic process|B
+fatty acid primary amide catabolic process|B
+fatty acid primary amide metabolic process|B
 fatty acid synthase activity|Y
 fatty acid synthase complex|C
 fatty acid transmembrane transport|B
@@ -14901,7 +14909,6 @@ fatty-acyl-CoA metabolic process|B
 fatty-acyl-CoA reductase (alcohol-forming) activity|Y
 fatty-acyl-CoA synthase activity|Y
 fatty-acyl-CoA synthase complex|C
-fatty-acyl-CoA transmembrane transporter activity|Y
 fatty-acyl-CoA transport|B
 fatty-acyl-[acp] elongase/decarboxylase activity|Y
 fatty-acyl-ethyl-ester synthase activity|Y
@@ -14967,7 +14974,6 @@ ferredoxin-nitrite reductase activity|Y
 ferredoxin-thioredoxin reductase activity|Y
 ferredoxin:thioredoxin reductase activity|Y
 ferredoxin:thioredoxin reductase complex|C
-ferric dicitrate transporter activity|Y
 ferric enterobactin:proton symporter activity|Y
 ferric iron binding|Y
 ferric iron transmembrane transporter activity|Y
@@ -14978,11 +14984,7 @@ ferric-chelate reductase (NADPH) activity|Y
 ferric-chelate reductase activity|Y
 ferric-enterobactin import into cell|B
 ferric-enterobactin transmembrane transporter activity|Y
-ferric-enterobactin-transporting ATPase activity|Y
 ferric-hydroxamate import into cell|B
-ferric-hydroxamate transmembrane transporter activity|Y
-ferric-hydroxamate-transporting ATPase activity|Y
-ferric-transporting ATPase activity|Y
 ferric-vibriobactin transmembrane transporter activity|Y
 ferrichrome biosynthetic process|B
 ferrichrome import into cell|B
@@ -15080,6 +15082,7 @@ first spliceosomal transesterification activity|Y
 flagella connector|A
 flagellated sperm motility|B
 flagellum attachment zone|A
+flagellum attachment zone organization|B
 flap endonuclease activity|Y
 flap-structured DNA binding|Y
 flavanol binding|Y
@@ -15132,12 +15135,14 @@ flavonol-3-O-triglucoside O-coumaroyltransferase activity|Y
 flight|B
 flight behavior|B
 flight involved in flight behavior|B
+flippase activity|Y
 flocculation|B
 flocculation via cell wall protein-carbohydrate interaction|B
 flocculation via extracellular polymer|B
 floor plate development|B
 floor plate formation|B
 floor plate morphogenesis|B
+floppase activity|Y
 floral meristem determinacy|B
 floral meristem growth|B
 floral organ abscission|B
@@ -16026,7 +16031,7 @@ glucosamine-6-phosphate deaminase activity|Y
 glucosamine-containing compound biosynthetic process|B
 glucosamine-containing compound catabolic process|B
 glucosamine-containing compound metabolic process|B
-glucosaminyl-phosphotidylinositol O-acyltransferase activity|Y
+glucosaminyl-phosphatidylinositol O-acyltransferase activity|Y
 glucosaminylgalactosylglucosylceramide beta-galactosyltransferase activity|Y
 glucose 1-dehydrogenase (NAD+) activity|Y
 glucose 1-dehydrogenase (NADP+) activity|Y
@@ -16035,7 +16040,6 @@ glucose 1-phosphate metabolic process|B
 glucose 1-phosphate phosphorylation|B
 glucose 6-phosphate metabolic process|B
 glucose 6-phosphate:inorganic phosphate antiporter activity|Y
-glucose 6-phosphate:phosphate antiporter activity|Y
 glucose binding|Y
 glucose catabolic process|B
 glucose catabolic process to D-lactate and ethanol|B
@@ -16228,7 +16232,6 @@ glutamine metabolic process|B
 glutamine secretion|B
 glutamine transport|B
 glutamine-fructose-6-phosphate transaminase (isomerizing) activity|Y
-glutamine-importing ATPase activity|Y
 glutamine-phenylpyruvate transaminase activity|Y
 glutamine-scyllo-inositol transaminase activity|Y
 glutamine-tRNA ligase activity|Y
@@ -16246,8 +16249,6 @@ glutaryl-7-aminocephalosporanic-acid acylase activity|Y
 glutaryl-CoA dehydrogenase activity|Y
 glutaryl-CoA hydrolase activity|Y
 glutathione S-conjugate carboxypeptidase activity|Y
-glutathione S-conjugate-exporting ATPase activity|Y
-glutathione S-conjugate-transporting ATPase activity|Y
 glutathione binding|Y
 glutathione biosynthetic process|B
 glutathione catabolic process|B
@@ -16315,7 +16316,6 @@ glycerol ether catabolic process|B
 glycerol ether metabolic process|B
 glycerol kinase activity|Y
 glycerol metabolic process|B
-glycerol phosphate-importing ATPase activity|Y
 glycerol to glycerone phosphate metabolic process|B
 glycerol transmembrane transporter activity|Y
 glycerol transport|B
@@ -16324,7 +16324,6 @@ glycerol-1-phosphatase activity|Y
 glycerol-1-phosphate dehydrogenase [NAD(P)+] activity|Y
 glycerol-2-phosphatase activity|Y
 glycerol-2-phosphate transmembrane transport|B
-glycerol-2-phosphate-transporting ATPase activity|Y
 glycerol-3-phosphatase activity|Y
 glycerol-3-phosphate 1-dehydrogenase [NADP+] activity|Y
 glycerol-3-phosphate 2-O-acyltransferase activity|Y
@@ -16341,7 +16340,6 @@ glycerol-3-phosphate oxidase activity|Y
 glycerol-3-phosphate transmembrane transport|B
 glycerol-3-phosphate transmembrane transporter activity|Y
 glycerol-3-phosphate-glucose phosphotransferase activity|Y
-glycerol-3-phosphate-transporting ATPase activity|Y
 glycerol-3-phosphate-transporting ATPase complex|C
 glycerol-phosphate:inorganic phosphate antiporter activity|Y
 glycerolipid biosynthetic process|B
@@ -16362,6 +16360,7 @@ glycerophospholipid acyltransferase (CoA-dependent) activity|Y
 glycerophospholipid arachidonoyl-transferase (CoA-independent) activity|Y
 glycerophospholipid biosynthetic process|B
 glycerophospholipid catabolic process|B
+glycerophospholipid flippase activity|Y
 glycerophospholipid metabolic process|B
 glyceryl-ether monooxygenase activity|Y
 glycine C-acetyltransferase activity|Y
@@ -16377,7 +16376,6 @@ glycine betaine catabolic process|B
 glycine betaine metabolic process|B
 glycine betaine transport|B
 glycine betaine-activated nonselective monovalent cation channel activity|Y
-glycine betaine-transporting ATPase activity|Y
 glycine betaine:proton symporter activity|Y
 glycine binding|Y
 glycine biosynthetic process|B
@@ -16443,12 +16441,12 @@ glycolipid 6-alpha-mannosyltransferase activity|Y
 glycolipid binding|Y
 glycolipid biosynthetic process|B
 glycolipid catabolic process|B
+glycolipid floppase activity|Y
 glycolipid mannosyltransferase activity|Y
 glycolipid metabolic process|B
+glycolipid transfer activity|Y
 glycolipid translocation|B
 glycolipid transport|B
-glycolipid transporter activity|Y
-glycolipid-translocating activity|Y
 glycolysis from storage polysaccharide through glucose-1-phosphate|B
 glycolytic fermentation|B
 glycolytic fermentation to butanediol|B
@@ -16484,7 +16482,6 @@ glycoprotein endo-alpha-1,2-mannosidase activity|Y
 glycoprotein metabolic process|B
 glycoprotein network|A
 glycoprotein transport|B
-glycoprotein transporter activity|Y
 glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase activity|Y
 glycoprotein-fucosylgalactoside alpha-N-acetylgalactosaminyltransferase activity|Y
 glycosaminoglycan binding|Y
@@ -16518,6 +16515,7 @@ glycosylation-dependent protein binding|Y
 glycosylceramidase activity|Y
 glycosylceramide biosynthetic process|B
 glycosylceramide catabolic process|B
+glycosylceramide flippase activity|Y
 glycosylceramide metabolic process|B
 glycosylphosphatidylinositol diacylglycerol-lyase activity|Y
 glycosylphosphatidylinositol phospholipase D activity|Y
@@ -16636,22 +16634,17 @@ growth hormone secretion|B
 growth hormone-releasing hormone activity|Y
 growth hormone-releasing hormone receptor activity|Y
 growth hormone-releasing hormone receptor binding|Y
-growth in other organism involved in symbiotic interaction|B
 growth involved in heart morphogenesis|B
 growth involved in symbiotic interaction|B
 growth of a germarium-derived egg chamber|B
-growth of organism on or near symbiont surface|B
+growth of host on or near symbiont surface|B
 growth of symbiont in host|B
 growth of symbiont in host cell|B
-growth of symbiont in host intercellular space|B
-growth of symbiont in host organelle|B
-growth of symbiont in host vascular tissue|B
-growth of symbiont involved in interaction with host|B
+growth of symbiont in host vacuole|B
 growth of symbiont on or near host|B
 growth of symbiont on or near host phyllosphere|B
 growth of symbiont on or near host rhizosphere|B
 growth of unicellular organism as a thread of attached cells|B
-growth on or near surface of other organism involved in symbiotic interaction|B
 growth plate cartilage axis specification|B
 growth plate cartilage chondrocyte development|B
 growth plate cartilage chondrocyte differentiation|B
@@ -16687,7 +16680,6 @@ guanine salvage|B
 guanine transmembrane transport|B
 guanine transmembrane transporter activity|Y
 guanine transport|B
-guanine-transporting ATPase activity|Y
 guanine/guanine mispair binding|Y
 guanine/thymine mispair binding|Y
 guanosine binding|Y
@@ -16852,6 +16844,7 @@ heme c catabolic process|B
 heme c metabolic process|B
 heme catabolic process|B
 heme export|B
+heme export from vacuole to cytoplasm|B
 heme import across plasma membrane|B
 heme metabolic process|B
 heme o catabolic process|B
@@ -16862,7 +16855,6 @@ heme transmembrane transport|B
 heme transport|B
 heme transporter activity|Y
 heme-copper terminal oxidase activity|Y
-heme-transporting ATPase activity|Y
 hemi-methylated DNA-binding|Y
 hemicellulose catabolic process|B
 hemicellulose metabolic process|B
@@ -17197,6 +17189,7 @@ histone H3-K36 demethylation|B
 histone H3-K36 dimethylation|B
 histone H3-K36 methylation|B
 histone H3-K36 trimethylation|B
+histone H3-K37 methylation|B
 histone H3-K4 acetylation|B
 histone H3-K4 deacetylation|B
 histone H3-K4 demethylation|B
@@ -17331,6 +17324,7 @@ histone methyltransferase activity|Y
 histone methyltransferase activity (H2A-R3 specific)|Y
 histone methyltransferase activity (H3-K27 specific)|Y
 histone methyltransferase activity (H3-K36 specific)|Y
+histone methyltransferase activity (H3-K37 specific)|Y
 histone methyltransferase activity (H3-K4 specific)|Y
 histone methyltransferase activity (H3-K79 specific)|Y
 histone methyltransferase activity (H3-K9 specific)|Y
@@ -17440,7 +17434,6 @@ hormone-mediated signaling pathway|B
 hormone-sensitive lipase activity|Y
 horsetail-astral microtubule array|A
 horsetail-astral microtubule organization|B
-host|A
 host bacteroid-containing symbiosome|A
 host caveola|A
 host cell|A
@@ -17503,6 +17496,7 @@ host cell peroxisome|A
 host cell plasma membrane|A
 host cell plasmodesma|A
 host cell plastid|A
+host cell postsynaptic membrane|A
 host cell presynaptic membrane|A
 host cell projection|A
 host cell rough endoplasmic reticulum|A
@@ -17519,13 +17513,16 @@ host cell uropod|A
 host cell viral assembly compartment|A
 host cell viral nucleoid|A
 host cell wall|A
+host cellular component|A
 host cellular process involved in virus induced gene silencing|B
 host chromosome|A
 host cytoskeleton|A
+host extracellular space|A
 host gene silencing in virus induced gene silencing|B
 host intracellular membrane-bounded organelle|A
 host intracellular organelle|A
 host intracellular part|A
+host intracellular region|A
 host multivesicular body|A
 host organelle outer membrane|A
 host outer membrane|A
@@ -17573,7 +17570,6 @@ hydrogen selenide methyltransferase activity|Y
 hydrogen sulfide biosynthetic process|B
 hydrogen sulfide metabolic process|B
 hydrogen-sulfide S-acetyltransferase activity|Y
-hydrogen-translocating pyrophosphatase activity|Y
 hydrogen:quinone oxidoreductase activity|Y
 hydrogenase (acceptor) activity|Y
 hydrogenase activity (NAD+, ferredoxin)|Y
@@ -17610,7 +17606,6 @@ hydrolytic DNA demethylation|B
 hydroperoxide dehydratase activity|Y
 hydroperoxide metabolic process|B
 hydroperoxide reductase activity|Y
-hydrophobic uncoupler:proton antiporter activity|Y
 hydroquinone 1,2-dioxygenase activity|Y
 hydroquinone binding|Y
 hydroquinone glucosyltransferase activity|Y
@@ -17628,9 +17623,7 @@ hydroxycinnamoyltransferase activity|Y
 hydroxycyclohexanecarboxylate dehydrogenase activity|Y
 hydroxydechloroatrazine ethylaminohydrolase activity|Y
 hydroxyectoine binding|Y
-hydroxyectoine transmembrane transporter activity|Y
 hydroxyectoine transport|B
-hydroxyectoine-transporting ATPase activity|Y
 hydroxyethylthiazole kinase activity|Y
 hydroxyglutamate decarboxylase activity|Y
 hydroxyisourate hydrolase activity|Y
@@ -17969,7 +17962,7 @@ induction by symbiont of host innate immune response|B
 induction by symbiont of host phytoalexin production|B
 induction by symbiont of host resistance gene-dependent defense response|B
 induction by symbiont of host systemic acquired resistance|B
-induction by symbiont of nodulation, tumor or growth in host|B
+induction by symbiont of tumor or growth in host|B
 induction by virus of catabolism of host mRNA|B
 induction by virus of host apoptotic process|B
 induction by virus of host autophagy|B
@@ -17982,11 +17975,14 @@ induction by virus of host protein phosphorylation|B
 induction by virus of phosphorylation of host RNA polymerase II|B
 induction of autolysin activity in other organism|B
 induction of bacterial agglutination|B
+induction of cell-mediated immune response in host by virus|B
 induction of conjugation upon carbon starvation|B
 induction of conjugation upon nitrogen starvation|B
 induction of conjugation upon nutrient starvation|B
 induction of conjugation with cellular fusion|B
 induction of host immune response by virus|B
+induction of humoral immune response in host by virus|B
+induction of innate immune response in host by virus|B
 induction of negative chemotaxis|B
 induction of phytoalexin biosynthetic process|B
 induction of positive chemotaxis|B
@@ -18221,6 +18217,7 @@ inositol-3-phosphate synthase activity|Y
 inositol-4,5,6-triphosphate 5-phosphatase activity|Y
 inositol-4,5-bisphosphate 5-phosphatase activity|Y
 inositol-5-diphosphate-1,2,3,4,6-pentakisphosphate diphosphatase activity|Y
+inositol-5-diphosphate-1,3,4,6-tetrakisphosphate diphosphatase activity|Y
 inositol-hexakisphosphate phosphatase activity|Y
 inositol-polyphosphate 5-phosphatase activity|Y
 insecticide catabolic process|B
@@ -18352,37 +18349,8 @@ inter-Golgi cisterna vesicle-mediated transport|B
 inter-Golgi transport vesicle membrane|A
 inter-male aggressive behavior|B
 interaction with host|B
-interaction with host mediated by secreted substance entering host via endocytosis|B
-interaction with host mediated by secreted substance released by symbiont from symbiotic structure|B
-interaction with host mediated by symbiont secreted substance released from Maurer's cleft|B
-interaction with host mediated by symbiont secreted substance released from symbiont-containing vacuole|B
-interaction with host via protein secreted by Sec complex|B
-interaction with host via protein secreted by Tat complex|B
-interaction with host via protein secreted by type I secretion system|B
-interaction with host via protein secreted by type II secretion system|B
-interaction with host via protein secreted by type III secretion system|B
-interaction with host via protein secreted by type V secretion system|B
-interaction with host via protein secreted by type VI secretion system|B
-interaction with host via protein secreted by type VII secretion system|B
-interaction with host via secreted substance involved in symbiotic interaction|B
-interaction with host via secreted substance released from haustorium|B
-interaction with host via secreted substance released from invasive hyphae|B
-interaction with host via secreted substance released from microneme|B
-interaction with host via secreted substance released from rhoptry|B
-interaction with host via secreted substance released from stylet|B
-interaction with host via substance in symbiont cell outer membrane|B
-interaction with host via substance in symbiont surface|B
-interaction with host via substance released by membrane budding|B
-interaction with host via substance released by sporangium lysis|B
-interaction with host via substance released by symbiont cytolysis|B
-interaction with host via substance released outside of symbiont|B
-interaction with host via substance secreted by type IV secretion system|B
-interaction with other organism via protein secreted by type II secretion system involved in symbiotic interaction|B
-interaction with other organism via protein secreted by type III secretion system involved in symbiotic interaction|B
-interaction with other organism via secreted substance involved in symbiotic interaction|B
-interaction with other organism via substance secreted by type IV secretion system involved in symbiotic interaction|B
 interaction with symbiont|B
-interaction with symbiont via secreted substance involved in symbiotic interaction|B
+interaction with symbiont via secreted substance|B
 intercalary heterochromatin|A
 intercalary leaflet morphogenesis|B
 intercalated disc|A
@@ -18704,19 +18672,10 @@ intermediate-density lipoprotein particle|C
 intermediate-density lipoprotein particle binding|Y
 intermediate-density lipoprotein particle clearance|B
 intermediate-density lipoprotein particle remodeling|B
-intermembrane ceramide transfer activity|Y
-intermembrane cholesterol transfer activity|Y
 intermembrane lipid transfer|B
-intermembrane lipid transfer activity|Y
-intermembrane oxysterol transfer activity|Y
 intermembrane phospholipid transfer|B
-intermembrane phospholipid transfer activity|Y
-intermembrane phosphotidylcholine transfer activity|Y
-intermembrane phosphotidylinositol transfer activity|Y
 intermembrane sphingolipid transfer|B
-intermembrane sphingolipid transfer activity|Y
 intermembrane sterol transfer|B
-intermembrane sterol transfer activity|Y
 intermicrovillar adhesion|B
 internal genitalia morphogenesis|B
 internal mammary gland bud epithelial cell differentiation|B
@@ -18797,7 +18756,6 @@ intracellular protein transmembrane transport|B
 intracellular protein transport|B
 intracellular protein transport in other organism involved in symbiotic interaction|B
 intracellular receptor signaling pathway|B
-intracellular region of host|A
 intracellular sequestering of copper ion|B
 intracellular sequestering of iron ion|B
 intracellular signal transduction|B
@@ -18829,6 +18787,7 @@ intraglomerular mesangial cell proliferation|B
 intrahepatic bile duct development|B
 intralumenal vesicle formation|B
 intramanchette transport|B
+intramembrane lipid transporter activity|Y
 intramembranous bone growth|B
 intramembranous bone morphogenesis|B
 intramembranous ossification|B
@@ -18956,7 +18915,6 @@ iodide transmembrane transport|B
 iodide transmembrane transporter activity|Y
 iodide transport|B
 iodophenol O-methyltransferase activity|Y
-ion antiporter activity|Y
 ion antiporter activity involved in regulation of postsynaptic membrane potential|Y
 ion antiporter activity involved in regulation of presynaptic membrane potential|Y
 ion binding|Y
@@ -18971,6 +18929,7 @@ ion gated channel activity|Y
 ion homeostasis|B
 ion transmembrane transport|B
 ion transmembrane transporter activity|Y
+ion transmembrane transporter activity, phosphorylative mechanism|Y
 ion transport|B
 ionotropic glutamate receptor activity|Y
 ionotropic glutamate receptor binding|Y
@@ -18984,8 +18943,6 @@ iridosome|A
 iris morphogenesis|B
 iron acquisition by symbiont from host|B
 iron and molybdenum incorporation into iron-molybdenum-sulfur cluster via L-cysteinyl homocitryl molybdenum-heptairon-nonasulfide|B
-iron channel activity|Y
-iron channel inhibitor activity|Y
 iron chaperone activity|Y
 iron chelate transmembrane transporter activity|Y
 iron coordination entity transport|B
@@ -19017,10 +18974,11 @@ iron ion export across plasma membrane|B
 iron ion homeostasis|B
 iron ion import across cell outer membrane|B
 iron ion import across plasma membrane|B
+iron ion sequestering activity|Y
 iron ion transmembrane transport|B
 iron ion transmembrane transporter activity|Y
+iron ion transmembrane transporter inhibitor activity|Y
 iron ion transport|B
-iron-chelate-transporting ATPase activity|Y
 iron-cytochrome-c reductase activity|Y
 iron-iron nitrogenase complex|C
 iron-nicotianamine transmembrane transporter activity|Y
@@ -19297,6 +19255,7 @@ kinetochore|C
 kinetochore assembly|B
 kinetochore binding|Y
 kinetochore disassembly|B
+kinetochore disassembly involved in meiotic chromosome organization|B
 kinetochore microtubule|A
 kinetochore organization|B
 kinetoplast|A
@@ -19766,6 +19725,7 @@ lincomycin catabolic process|B
 lincomycin metabolic process|B
 linear element|A
 linear element assembly|B
+linear element maturation|B
 linear malto-oligosaccharide phosphorylase activity|Y
 linear polyubiquitin binding|Y
 linear vestibuloocular reflex|B
@@ -19806,10 +19766,12 @@ lipid droplet formation|B
 lipid droplet localization to prospore membrane leading edge|B
 lipid droplet organization|B
 lipid droplet transport along microtubule|B
+lipid export from cell|B
 lipid glycosylation|B
 lipid homeostasis|B
 lipid hydroperoxide transport|B
 lipid hydroxylation|B
+lipid import into cell|B
 lipid kinase activity|Y
 lipid localization|B
 lipid metabolic process|B
@@ -19818,6 +19780,7 @@ lipid oxidation|B
 lipid phosphatase activity|Y
 lipid phosphorylation|B
 lipid storage|B
+lipid transfer activity|Y
 lipid translocation|B
 lipid transport|B
 lipid transport across blood-brain barrier|B
@@ -19830,7 +19793,6 @@ lipid tube assembly involved in organelle fusion|B
 lipid-A-disaccharide synthase activity|Y
 lipid-linked peptidoglycan transport|B
 lipid-linked peptidoglycan transporter activity|Y
-lipid-transporting ATPase activity|Y
 lipo-chitin oligosaccharide transmembrane transporter activity|Y
 lipoamidase activity|Y
 lipoamide binding|Y
@@ -19859,13 +19821,15 @@ lipopolysaccharide core heptosyltransferase activity|Y
 lipopolysaccharide core region biosynthetic process|B
 lipopolysaccharide core region metabolic process|B
 lipopolysaccharide export|B
-lipopolysaccharide exporter activity|Y
+lipopolysaccharide floppase activity|Y
 lipopolysaccharide glucosyltransferase I activity|Y
 lipopolysaccharide glucosyltransferase II activity|Y
 lipopolysaccharide heptosyltransferase activity|Y
+lipopolysaccharide localization to cell outer membrane|B
 lipopolysaccharide metabolic process|B
 lipopolysaccharide receptor activity|Y
 lipopolysaccharide receptor complex|C
+lipopolysaccharide transfer activity|Y
 lipopolysaccharide transmembrane transporter activity|Y
 lipopolysaccharide transport|B
 lipopolysaccharide transport system|C
@@ -19873,7 +19837,6 @@ lipopolysaccharide-1,5-galactosyltransferase activity|Y
 lipopolysaccharide-1,6-galactosyltransferase activity|Y
 lipopolysaccharide-mediated signaling pathway|B
 lipopolysaccharide-mediated virion attachment to host cell|B
-lipopolysaccharide-transporting ATPase activity|Y
 lipoprotein amino acid oxidation|B
 lipoprotein biosynthetic process|B
 lipoprotein biosynthetic process via N-acyl transfer|B
@@ -19894,8 +19857,8 @@ lipoprotein particle binding|Y
 lipoprotein particle mediated signaling|B
 lipoprotein particle receptor activity|Y
 lipoprotein particle receptor binding|Y
+lipoprotein releasing activity|Y
 lipoprotein transport|B
-lipoprotein transporter activity|Y
 liposaccharide metabolic process|B
 lipoteichoic acid D-alanylation|B
 lipoteichoic acid binding|Y
@@ -20169,11 +20132,13 @@ lysophosphatidic acid acyltransferase activity|Y
 lysophosphatidic acid binding|Y
 lysophosphatidic acid phosphatase activity|Y
 lysophosphatidic acid receptor activity|Y
+lysophosphatidylcholine flippase activity|Y
 lysophosphatidylethanolamine acyltransferase activity|Y
 lysophospholipase activity|Y
 lysophospholipid acyltransferase activity|Y
+lysophospholipid translocation|B
 lysophospholipid transport|B
-lysophospholipid transporter activity|Y
+lysophospholipid:sodium symporter activity|Y
 lysosomal HOPS complex|C
 lysosomal enzyme production involved in inflammatory response|B
 lysosomal enzyme secretion involved in inflammatory response|B
@@ -20332,15 +20297,19 @@ magnesium ion transmembrane transport|B
 magnesium ion transmembrane transporter activity|Y
 magnesium ion transport|B
 magnesium protoporphyrin IX methyltransferase activity|Y
+magnesium transmembrane transporter activity, phosphorylative mechanism|Y
 magnesium-dependent protein serine/threonine phosphatase activity|Y
 magnesium-dependent protein serine/threonine phosphatase complex|C
-magnesium-importing ATPase activity|Y
 magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase activity|Y
 magnesium:sodium antiporter activity|Y
 magnetoreception|B
 magnetoreception by sensory perception of chemical stimulus|B
 magnetoreception by sensory perception of electrical stimulus|B
 magnetoreception by sensory perception of mechanical stimulus|B
+magnetosome|A
+magnetosome lumen|A
+magnetosome membrane|A
+magnetosome part|A
 main axon|A
 main body follicle cell migration|B
 maintenance of CRISPR repeat elements|B
@@ -20566,7 +20535,6 @@ maltoheptaose catabolic process|B
 maltoheptaose metabolic process|B
 maltoheptaose transport|B
 maltohexaose transport|B
-maltooligosaccharide-importing ATPase activity|Y
 maltopentaose transport|B
 maltose O-acetyltransferase activity|Y
 maltose alpha-D-glucosyltransferase activity|Y
@@ -20586,7 +20554,6 @@ maltose transport|B
 maltose transport complex|C
 maltose transporting porin activity|Y
 maltose-6'-phosphate glucosidase activity|Y
-maltose-transporting ATPase activity|Y
 maltose:proton symporter activity|Y
 maltotetraose transport|B
 maltotriose transport|B
@@ -20643,7 +20610,7 @@ manganese ion transmembrane transport|B
 manganese ion transmembrane transporter activity|Y
 manganese ion transport|B
 manganese peroxidase activity|Y
-manganese-transporting ATPase activity|Y
+manganese transmembrane transporter activity, phosphorylative mechanism|Y
 manganese:proton antiporter activity|Y
 mannan 1,2-(1,3)-alpha-mannosidase activity|Y
 mannan 1,3-beta-mannosidase activity|Y
@@ -21536,6 +21503,7 @@ methylation-dependent protein binding|Y
 methylcrotonoyl-CoA carboxylase activity|Y
 methylcrotonoyl-CoA carboxylase complex|C
 methylcytosine dioxygenase activity|Y
+methylcytosine to 5-glyceryl-methylcytosine dioxygenase activity|Y
 methylene-fatty-acyl-phospholipid synthase activity|Y
 methylenediurea deaminase activity|Y
 methylenetetrahydrofolate dehydrogenase (NAD+) activity|Y
@@ -21618,7 +21586,6 @@ miRNA loading onto RISC involved in gene silencing by miRNA|B
 miRNA mediated inhibition of translation|B
 miRNA metabolic process|B
 miRNA transport|B
-micro-ribonucleoprotein complex|C
 microbody|A
 microbody lumen|A
 microbody membrane|A
@@ -22130,7 +22097,6 @@ modification by host of symbiont cellular component|B
 modification by host of symbiont cytoskeleton|B
 modification by host of symbiont membrane|B
 modification by host of symbiont morphology or physiology|B
-modification by host of symbiont morphology or physiology via secreted substance|B
 modification by host of symbiont structure|B
 modification by organism of cell wall of other organism involved in symbiotic interaction|B
 modification by organism of cytoskeleton of other organism involved in symbiotic interaction|B
@@ -22147,16 +22113,6 @@ modification by symbiont of host cytoskeleton|B
 modification by symbiont of host intercellular junctions|B
 modification by symbiont of host mitochondrion|B
 modification by symbiont of host morphology or physiology|B
-modification by symbiont of host morphology or physiology via protein secreted by Sec complex|B
-modification by symbiont of host morphology or physiology via protein secreted by Tat complex|B
-modification by symbiont of host morphology or physiology via protein secreted by type I secretion system|B
-modification by symbiont of host morphology or physiology via protein secreted by type II secretion system|B
-modification by symbiont of host morphology or physiology via protein secreted by type III secretion system|B
-modification by symbiont of host morphology or physiology via protein secreted by type V secretion system|B
-modification by symbiont of host morphology or physiology via protein secreted by type VI secretion system|B
-modification by symbiont of host morphology or physiology via protein secreted by type VII secretion system|B
-modification by symbiont of host morphology or physiology via secreted substance|B
-modification by symbiont of host morphology or physiology via substance secreted by type IV secretion system|B
 modification by symbiont of host protein|B
 modification by symbiont of host protein by phosphorylation|B
 modification by symbiont of host protein by ubiquitination|B
@@ -22169,10 +22125,6 @@ modification of cellular component in other organism involved in symbiotic inter
 modification of dendritic spine|B
 modification of morphology or physiology of other organism|B
 modification of morphology or physiology of other organism involved in symbiotic interaction|B
-modification of morphology or physiology of other organism via protein secreted by type II secretion system involved in symbiotic interaction|B
-modification of morphology or physiology of other organism via protein secreted by type III secretion system involved in symbiotic interaction|B
-modification of morphology or physiology of other organism via secreted substance involved in symbiotic interaction|B
-modification of morphology or physiology of other organism via substance secreted by type IV secretion system involved in symbiotic interaction|B
 modification of postsynaptic actin cytoskeleton|B
 modification of postsynaptic structure|B
 modification of structure of other organism involved in symbiotic interaction|B
@@ -22275,6 +22227,7 @@ modulation by symbiont of host adenylate cyclase activity|B
 modulation by symbiont of host adenylate cyclase-mediated signal transduction|B
 modulation by symbiont of host anion transport|B
 modulation by symbiont of host apoptotic process|B
+modulation by symbiont of host autophagy|B
 modulation by symbiont of host cAMP-mediated signal transduction|B
 modulation by symbiont of host cGMP-mediated signal transduction|B
 modulation by symbiont of host calcium or calmodulin-mediated signal transduction|B
@@ -22300,7 +22253,7 @@ modulation by symbiont of host innate immune response|B
 modulation by symbiont of host intracellular transport|B
 modulation by symbiont of host jasmonic acid-mediated defense response|B
 modulation by symbiont of host molecular function|B
-modulation by symbiont of host neurological system process|B
+modulation by symbiont of host nervous system process|B
 modulation by symbiont of host neurotransmitter secretion|B
 modulation by symbiont of host nitric oxide-mediated signal transduction|B
 modulation by symbiont of host peptidase activity|B
@@ -22329,7 +22282,6 @@ modulation by symbiont of host signal transduction mediated by G-protein gamma s
 modulation by symbiont of host signal transduction pathway|B
 modulation by symbiont of host small GTPase mediated signal transduction|B
 modulation by symbiont of host synaptic transmission|B
-modulation by symbiont of host system process|B
 modulation by symbiont of host systemic acquired resistance|B
 modulation by symbiont of host transcription|B
 modulation by symbiont of host translation|B
@@ -22350,6 +22302,7 @@ modulation by virus of host autophagy|B
 modulation by virus of host catalytic activity|B
 modulation by virus of host cell cycle|B
 modulation by virus of host cell division|B
+modulation by virus of host cellular process|B
 modulation by virus of host chromatin organization|B
 modulation by virus of host cytokine production|B
 modulation by virus of host cytoplasmic transport|B
@@ -22357,7 +22310,6 @@ modulation by virus of host gene expression|B
 modulation by virus of host immune response|B
 modulation by virus of host molecular function|B
 modulation by virus of host morphology or physiology|B
-modulation by virus of host process|B
 modulation by virus of host protein dephosphorylation|B
 modulation by virus of host protein phosphorylation|B
 modulation by virus of host protein serine/threonine phosphatase activity|B
@@ -22389,8 +22341,6 @@ modulation of encysted zoospore germination on or near host|B
 modulation of excitatory postsynaptic potential|B
 modulation of germ tube formation on or near host|B
 modulation of glucagon-like peptide receptor 1 activity in other organism|B
-modulation of growth of symbiont involved in interaction with host|B
-modulation of growth of symbiont on or near host|B
 modulation of heart rate in other organism|B
 modulation of host virulence by virus|B
 modulation of inhibitory postsynaptic potential|B
@@ -22436,6 +22386,7 @@ modulation of zoospore movement on or near host|B
 molecular adaptor activity|Y
 molecular carrier activity|Y
 molecular function regulator|Y
+molecular sequestering activity|Y
 molecular transducer activity|Y
 molecular_function|Y
 molting cycle|B
@@ -22493,7 +22444,6 @@ monocarboxylic acid catabolic process|B
 monocarboxylic acid metabolic process|B
 monocarboxylic acid transmembrane transporter activity|Y
 monocarboxylic acid transport|B
-monocarboxylic acid-transporting ATPase activity|Y
 monocoumaroyl dicaffeoyl spermidine meta-hydroxylase activity|Y
 monocyclic sesterterpenediol synthase activity|Y
 monocyte activation|B
@@ -22534,7 +22484,6 @@ monosaccharide catabolic process|B
 monosaccharide metabolic process|B
 monosaccharide transmembrane transport|B
 monosaccharide transmembrane transporter activity|Y
-monosaccharide-transporting ATPase activity|Y
 monosialoganglioside sialyltransferase activity|Y
 monoterpene biosynthetic process|B
 monoterpene catabolic process|B
@@ -22608,6 +22557,7 @@ mucilage pectin biosynthetic process|B
 mucilage pectin metabolic process|B
 mucin granule|A
 mucinaminylserine mucinaminidase activity|Y
+mucociliary clearance|B
 mucocyst|A
 muconate cycloisomerase activity|Y
 muconolactone delta-isomerase activity|Y
@@ -22675,7 +22625,6 @@ multidimensional cell growth|B
 multimeric ribonuclease P complex|C
 multimerin complex|C
 multinuclear osteoclast differentiation|B
-multipartite viral genome|A
 multiple spine synapse organization|B
 multiple spine synapse organization, multiple dendrites|B
 multiple spine synapse organization, single dendrite|B
@@ -23006,7 +22955,6 @@ negative extrathymic T cell selection|B
 negative gravitaxis|B
 negative gravitropism|B
 negative phototaxis|B
-negative reguation of sterol biosynthetic process|B
 negative regulation by host of cytolysis of symbiont cells|B
 negative regulation by host of symbiont G protein-coupled receptor signal transduction|B
 negative regulation by host of symbiont MAP kinase-mediated signal transduction|B
@@ -23046,7 +22994,6 @@ negative regulation by organism of entry into other organism involved in symbiot
 negative regulation by organism of ethylene-mediated defense response of other organism involved in symbiotic interaction|B
 negative regulation by organism of immune response of other organism involved in symbiotic interaction|B
 negative regulation by organism of inflammatory response of other organism involved in symbiotic interaction|B
-negative regulation by organism of innate immune response in other organism involved in symbiotic interaction|B
 negative regulation by organism of jasmonic acid-mediated defense response of other organism involved in symbiotic interaction|B
 negative regulation by organism of pathogen-associated molecular pattern-induced innate immune response of other organism involved in symbiotic interaction|B
 negative regulation by organism of programmed cell death in other organism involved in symbiotic interaction|B
@@ -23069,6 +23016,7 @@ negative regulation by symbiont of host T-cell mediated immune response|B
 negative regulation by symbiont of host adenylate cyclase activity|B
 negative regulation by symbiont of host adenylate cyclase-mediated signal transduction|B
 negative regulation by symbiont of host apoptotic process|B
+negative regulation by symbiont of host autophagy|B
 negative regulation by symbiont of host cAMP-mediated signal transduction|B
 negative regulation by symbiont of host calcium or calmodulin-mediated signal transduction|B
 negative regulation by symbiont of host catalytic activity|B
@@ -23133,12 +23081,11 @@ negative regulation of ATF6-mediated unfolded protein response|B
 negative regulation of ATP biosynthetic process|B
 negative regulation of ATP citrate synthase activity|B
 negative regulation of ATP metabolic process|B
-negative regulation of ATP-dependent DNA helicase activity|B
-negative regulation of ATP-dependent RNA helicase activity|B
 negative regulation of ATP-dependent microtubule motor activity, minus-end-directed|B
 negative regulation of ATP-dependent microtubule motor activity, plus-end-directed|B
 negative regulation of ATP:ADP antiporter activity|B
 negative regulation of ATPase activity|B
+negative regulation of ATPase-coupled calcium transmembrane transporter activity|B
 negative regulation of AV node cell action potential|B
 negative regulation of Arp2/3 complex-mediated actin nucleation|B
 negative regulation of Atg1/ULK1 kinase complex assembly|B
@@ -23268,6 +23215,7 @@ negative regulation of L-ascorbic acid biosynthetic process|B
 negative regulation of L-dopa biosynthetic process|B
 negative regulation of L-dopa decarboxylase activity|B
 negative regulation of L-glutamate import across plasma membrane|B
+negative regulation of L-glutamine biosynthetic process|B
 negative regulation of L-glutamine import across plasma membrane|B
 negative regulation of L-lysine import across plasma membrane|B
 negative regulation of L-methionine import across plasma membrane|B
@@ -23313,6 +23261,7 @@ negative regulation of RNA binding transcription factor activity|B
 negative regulation of RNA biosynthetic process|B
 negative regulation of RNA catabolic process|B
 negative regulation of RNA export from nucleus|B
+negative regulation of RNA helicase activity|B
 negative regulation of RNA import into nucleus|B
 negative regulation of RNA interference|B
 negative regulation of RNA metabolic process|B
@@ -23513,6 +23462,7 @@ negative regulation of anterior/posterior axon guidance|B
 negative regulation of anterograde axonal transport of mitochondrion|B
 negative regulation of anterograde dense core granule transport|B
 negative regulation of anterograde synaptic vesicle transport|B
+negative regulation of anther dehiscence|B
 negative regulation of anthocyanin biosynthetic process|B
 negative regulation of anthocyanin catabolic process|B
 negative regulation of anthocyanin metabolic process|B
@@ -23639,6 +23589,7 @@ negative regulation of binding of sperm to zona pellucida|B
 negative regulation of biological process|B
 negative regulation of bioluminescence|B
 negative regulation of biomineral tissue development|B
+negative regulation of biomineralization|B
 negative regulation of biosynthetic process|B
 negative regulation of biosynthetic process of antibacterial peptides active against Gram-negative bacteria|B
 negative regulation of biosynthetic process of antibacterial peptides active against Gram-positive bacteria|B
@@ -23714,7 +23665,6 @@ negative regulation of calcium-dependent ATPase activity|B
 negative regulation of calcium-dependent cell-cell adhesion|B
 negative regulation of calcium-independent cell-cell adhesion|B
 negative regulation of calcium-mediated signaling|B
-negative regulation of calcium-transporting ATPase activity|B
 negative regulation of calcium:sodium antiporter activity|B
 negative regulation of canonical Wnt signaling pathway|B
 negative regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment|B
@@ -24118,7 +24068,6 @@ negative regulation of dauer entry|B
 negative regulation of dauer larval development|B
 negative regulation of deacetylase activity|B
 negative regulation of death-inducing signaling complex assembly|B
-negative regulation of decapentaplegic signaling pathway|B
 negative regulation of defecation|B
 negative regulation of defecation rhythm|B
 negative regulation of defense response|B
@@ -24185,7 +24134,6 @@ negative regulation of double-strand break repair via homologous recombination|B
 negative regulation of double-strand break repair via nonhomologous end joining|B
 negative regulation of double-strand break repair via single-strand annealing|B
 negative regulation of double-stranded telomeric DNA binding|B
-negative regulation of drug transmembrane export|B
 negative regulation of ductus arteriosus closure|B
 negative regulation of early endosome to late endosome transport|B
 negative regulation of early stripe melanocyte differentiation|B
@@ -24518,9 +24466,6 @@ negative regulation of growth factor dependent skeletal muscle satellite cell pr
 negative regulation of growth hormone activity|B
 negative regulation of growth hormone receptor signaling pathway|B
 negative regulation of growth hormone secretion|B
-negative regulation of growth of symbiont in host|B
-negative regulation of growth of symbiont involved in interaction with host|B
-negative regulation of growth of symbiont on or near host surface|B
 negative regulation of growth of unicellular organism as a thread of attached cells|B
 negative regulation of growth plate cartilage chondrocyte proliferation|B
 negative regulation of growth rate|B
@@ -24588,6 +24533,7 @@ negative regulation of hippo signaling|B
 negative regulation of hippocampal neuron apoptotic process|B
 negative regulation of histamine secretion by mast cell|B
 negative regulation of histamine uptake|B
+negative regulation of histidine biosynthetic process|B
 negative regulation of histone H2A K63-linked ubiquitination|B
 negative regulation of histone H2A-H2B dimer displacement|B
 negative regulation of histone H2B conserved C-terminal lysine ubiquitination|B
@@ -24683,6 +24629,7 @@ negative regulation of inhibitory synapse assembly|B
 negative regulation of initiation of acetate catabolic process by acetate|B
 negative regulation of initiation of premeiotic DNA replication|B
 negative regulation of innate immune response|B
+negative regulation of innate immune response in other organism|B
 negative regulation of innate immunity memory response|B
 negative regulation of inner ear auditory receptor cell differentiation|B
 negative regulation of inner ear receptor cell differentiation|B
@@ -24835,10 +24782,10 @@ negative regulation of ion transmembrane transport|B
 negative regulation of ion transmembrane transporter activity|B
 negative regulation of ion transport|B
 negative regulation of iridophore differentiation|B
-negative regulation of iron channel activity|B
 negative regulation of iron export across plasma membrane|B
 negative regulation of iron ion import across plasma membrane|B
 negative regulation of iron ion transmembrane transport|B
+negative regulation of iron ion transmembrane transporter activity|B
 negative regulation of iron ion transport|B
 negative regulation of iron-sulfur cluster assembly|B
 negative regulation of iron-sulfur-molybdenum cofactor assembly|B
@@ -25213,6 +25160,7 @@ negative regulation of molecular function|B
 negative regulation of molecular function in other organism|B
 negative regulation of molecular function in other organism involved in symbiotic interaction|B
 negative regulation of molecular function, epigenetic|B
+negative regulation of monocyte activation|B
 negative regulation of monocyte aggregation|B
 negative regulation of monocyte antigen processing and presentation|B
 negative regulation of monocyte chemotactic protein-1 production|B
@@ -25294,6 +25242,7 @@ negative regulation of nephron tubule epithelial cell differentiation|B
 negative regulation of nerve growth factor production|B
 negative regulation of nerve growth factor receptor activity|B
 negative regulation of nervous system development|B
+negative regulation of nervous system process|B
 negative regulation of netrin-activated signaling pathway|B
 negative regulation of neural crest cell differentiation|B
 negative regulation of neural crest cell fate specification|B
@@ -25305,7 +25254,6 @@ negative regulation of neuroblast proliferation|B
 negative regulation of neurofibrillary tangle assembly|B
 negative regulation of neurogenesis|B
 negative regulation of neuroinflammatory response|B
-negative regulation of neurological system process|B
 negative regulation of neuromuscular junction development|B
 negative regulation of neuromuscular synaptic transmission|B
 negative regulation of neuron apoptotic process|B
@@ -25698,6 +25646,7 @@ negative regulation of protein localization to endoplasmic reticulum|B
 negative regulation of protein localization to endosome|B
 negative regulation of protein localization to kinetochore|B
 negative regulation of protein localization to lysosome|B
+negative regulation of protein localization to medial cortex|B
 negative regulation of protein localization to membrane|B
 negative regulation of protein localization to microtubule|B
 negative regulation of protein localization to mitotic spindle pole body|B
@@ -26018,6 +25967,7 @@ negative regulation of steroid biosynthetic process|B
 negative regulation of steroid hormone biosynthetic process|B
 negative regulation of steroid hormone secretion|B
 negative regulation of steroid metabolic process|B
+negative regulation of sterol biosynthetic process|B
 negative regulation of sterol import|B
 negative regulation of sterol import by negative regulation of transcription from RNA polymerase II promoter|B
 negative regulation of sterol regulatory element binding protein cleavage|B
@@ -26360,6 +26310,7 @@ negative regulation of very-low-density lipoprotein particle clearance|B
 negative regulation of very-low-density lipoprotein particle remodeling|B
 negative regulation of vesicle docking|B
 negative regulation of vesicle fusion|B
+negative regulation of vesicle fusion with Golgi apparatus|B
 negative regulation of vesicle transport along microtubule|B
 negative regulation of vessel branching|B
 negative regulation of violaceol I biosynthetic process|B
@@ -26394,6 +26345,7 @@ negative regulation of wound healing|B
 negative regulation of wound healing, spreading of epidermal cells|B
 negative regulation of xanthone-containing compound biosynthetic process|B
 negative regulation of xanthophore differentiation|B
+negative regulation of xenobiotic detoxification by transmembrane export across the plasma membrane|B
 negative regulation of xenophagy|B
 negative regulation of xylan catabolic process|B
 negative regulation of xyloglucan catabolic process|B
@@ -26407,7 +26359,6 @@ negative regulation of zoospore formation|B
 negative regulation of zoospore movement on or near host|B
 negative regulation of zygosporangium development|B
 negative regulation of zygospore formation|B
-negative sense viral genome|A
 negative stranded viral RNA replication|B
 negative stranded viral RNA transcription|B
 negative thymic T cell selection|B
@@ -26458,6 +26409,7 @@ nerve growth factor signaling pathway|B
 nerve maturation|B
 nervous system development|B
 nervous system process|B
+nervous system process involved in regulation of systemic arterial blood pressure|B
 neryl-diphosphate:isopentenyl-diphosphate cistransferase activity|Y
 netrin receptor activity|Y
 netrin receptor activity involved in chemoattraction|Y
@@ -26546,7 +26498,6 @@ neuroinflammatory response|B
 neurokinin receptor binding|Y
 neuroligin clustering involved in postsynaptic membrane assembly|B
 neuroligin family protein binding|Y
-neurological system process involved in regulation of systemic arterial blood pressure|B
 neuromast deposition|B
 neuromast development|B
 neuromast hair cell development|B
@@ -26686,8 +26637,8 @@ neurotransmitter reuptake|B
 neurotransmitter secretion|B
 neurotransmitter secretion involved in regulation of skeletal muscle contraction|B
 neurotransmitter signaling initiating cell movement, involved in cerebral cortex radial glia guided migration|B
+neurotransmitter transmembrane transporter activity|Y
 neurotransmitter transport|B
-neurotransmitter transporter activity|Y
 neurotransmitter uptake|B
 neurotransmitter-gated ion channel clustering|B
 neurotransmitter-mediated guidance of interneurons involved in substrate-independent cerebral cortex tangential migration|B
@@ -26737,7 +26688,6 @@ new cell pole|A
 new growing cell tip|A
 new mitotic spindle pole body|A
 nexine|A
-nickel ABC transporter activity|Y
 nickel cation binding|Y
 nickel cation homeostasis|B
 nickel cation import across plasma membrane|B
@@ -26749,7 +26699,6 @@ nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine pe
 nickel incorporation into metallo-sulfur cluster|B
 nickel incorporation into nickel-iron-sulfur cluster via pentakis-L-cysteinyl L-histidino nickel tetrairon pentasulfide|B
 nickel-tetrapyrrole coenzyme metabolic process|B
-nickel-transporting ATPase activity|Y
 nicotianamine aminotransferase activity|Y
 nicotianamine biosynthetic process|B
 nicotianamine catabolic process|B
@@ -26930,7 +26879,6 @@ non-recombinational interstrand cross-link repair|B
 non-recombinational repair|B
 non-replicative transposition, DNA-mediated|B
 non-reproductive fruiting body development|B
-non-segmented viral genome|A
 non-sensory hair organization|B
 non-sequence-specific DNA binding, bending|Y
 non-tyrosine kinase fibroblast growth factor receptor activity|Y
@@ -26941,7 +26889,6 @@ noncyclic photosynthetic phosphorylation|B
 nonfunctional rRNA decay|B
 nonhomologous end joining complex|C
 nonphotochemical quenching|B
-nonpolar-amino acid-transporting ATPase activity|Y
 nonrepetitive DNA condensation|B
 nonribosomal peptide biosynthetic process|B
 nopaline catabolic process|B
@@ -27444,7 +27391,6 @@ oligodeoxyribonucleotidase activity|Y
 oligogalacturonide lyase activity|Y
 oligogalacturonide transmembrane transporter activity|Y
 oligogalacturonide transport|B
-oligogalacturonide-transporting ATPase activity|Y
 oligonucleotidase activity|Y
 oligopeptidase activity|Y
 oligopeptide binding|Y
@@ -27453,7 +27399,6 @@ oligopeptide import across plasma membrane|B
 oligopeptide transmembrane transport|B
 oligopeptide transmembrane transporter activity|Y
 oligopeptide transport|B
-oligopeptide-transporting ATPase activity|Y
 oligoribonucleotidase activity|Y
 oligosaccharide 4-alpha-D-glucosyltransferase activity|Y
 oligosaccharide binding|Y
@@ -27466,7 +27411,6 @@ oligosaccharide transport|B
 oligosaccharide transporting porin activity|Y
 oligosaccharide-diphosphodolichol diphosphatase activity|Y
 oligosaccharide-lipid intermediate biosynthetic process|B
-oligosaccharide-transporting ATPase activity|Y
 oligosaccharyl transferase activity|Y
 oligosaccharyltransferase I complex|C
 oligosaccharyltransferase II complex|C
@@ -27615,7 +27559,6 @@ organic acid phosphorylation|B
 organic acid transmembrane transport|B
 organic acid transmembrane transporter activity|Y
 organic acid transport|B
-organic acid-transporting ATPase activity|Y
 organic acid:sodium symporter activity|Y
 organic anion transmembrane transporter activity|Y
 organic anion transport|B
@@ -27733,14 +27676,9 @@ osteoclast differentiation|B
 osteoclast fusion|B
 osteoclast maturation|B
 osteoclast proliferation|B
-other organism|A
 other organism cell|A
 other organism cell membrane|A
-other organism cytoplasm|A
-other organism membrane|A
 other organism part|A
-other organism postsynaptic membrane|A
-other organism presynaptic membrane|A
 otic placode development|B
 otic placode formation|B
 otic vesicle development|B
@@ -27977,6 +27915,7 @@ oxylipin biosynthetic process|B
 oxylipin metabolic process|B
 oxysterol 7-alpha-hydroxylase activity|Y
 oxysterol binding|Y
+oxysterol transfer activity|Y
 oxytetracycline biosynthetic process|B
 oxytetracycline catabolic process|B
 oxytetracycline metabolic process|B
@@ -28127,10 +28066,6 @@ paspalicine synthase activity|Y
 paspalinine synthase activity|Y
 passive evasion of host immune response|B
 passive evasion of immune response of other organism involved in symbiotic interaction|B
-passive induction of host cell-mediated immune response by virus|B
-passive induction of host humoral immune response by virus|B
-passive induction of host immune response by virus|B
-passive induction of host innate immune response by virus|B
 passive spore dispersal on or near host|B
 passive transmembrane transporter activity|Y
 patched binding|Y
@@ -28138,10 +28073,6 @@ patched ligand maturation|B
 patchoulene synthase activity|Y
 patchoulol synthase activity|Y
 paternal behavior|B
-pathogen-associated molecular pattern dependent induction by organism of innate immune response of other organism involved in symbiotic interaction|B
-pathogen-associated molecular pattern dependent induction by symbiont of host innate immune response|B
-pathogen-associated molecular pattern dependent modulation by organism of innate immune response in other organism involved in symbiotic interaction|B
-pathogen-associated molecular pattern dependent modulation by symbiont of host innate immune response|B
 pathogen-containing vacuole|A
 pathogen-containing vacuole lumen|A
 pathogen-containing vacuole membrane|A
@@ -28257,7 +28188,6 @@ peptide antigen assembly with MHC protein complex|B
 peptide antigen binding|Y
 peptide antigen stabilization|B
 peptide antigen transport|B
-peptide antigen-transporting ATPase activity|Y
 peptide binding|Y
 peptide biosynthetic process|B
 peptide bond cleavage involved in epidermal growth factor receptor ligand maturation|B
@@ -28352,7 +28282,6 @@ peptide-lysine-N-succinyltransferase activity|Y
 peptide-methionine (R)-S-oxide reductase activity|Y
 peptide-methionine (S)-S-oxide reductase activity|Y
 peptide-serine-N-acetyltransferase activity|Y
-peptide-transporting ATPase activity|Y
 peptide-tryptophan 2,3-dioxygenase activity|Y
 peptide:proton symporter activity|Y
 peptidoglycan L,D-transpeptidase activity|Y
@@ -28869,6 +28798,7 @@ phenylglyoxylate dehydrogenase (acylating) activity|Y
 phenyllactate dehydrogenase activity|Y
 phenylmercury acetate catabolic process|B
 phenylmercury acetate metabolic process|B
+phenyloplast|A
 phenylphosphate carboxylase activity|Y
 phenylpropanoid biosynthetic process|B
 phenylpropanoid catabolic process|B
@@ -28934,7 +28864,7 @@ phosphatidate-sterol O-acyltransferase activity|Y
 phosphatidic acid binding|Y
 phosphatidic acid biosynthetic process|B
 phosphatidic acid metabolic process|B
-phosphatidic acid transporter activity|Y
+phosphatidic acid transfer activity|Y
 phosphatidyl phospholipase B activity|Y
 phosphatidyl-N-dimethylethanolamine N-methyltransferase activity|Y
 phosphatidyl-N-methylethanolamine N-methyltransferase activity|Y
@@ -28952,15 +28882,17 @@ phosphatidylcholine biosynthesis from sn-glycero-3-phosphocholine|B
 phosphatidylcholine biosynthetic process|B
 phosphatidylcholine catabolic process|B
 phosphatidylcholine desaturase activity|Y
+phosphatidylcholine flippase activity|Y
+phosphatidylcholine floppase activity|Y
 phosphatidylcholine metabolic process|B
 phosphatidylcholine phospholipase C activity|Y
 phosphatidylcholine synthase activity|Y
+phosphatidylcholine transfer activity|Y
 phosphatidylcholine transporter activity|Y
 phosphatidylcholine-dolichol O-acyltransferase activity|Y
 phosphatidylcholine-retinol O-acyltransferase activity|Y
 phosphatidylcholine-sterol O-acyltransferase activator activity|Y
 phosphatidylcholine-sterol O-acyltransferase activity|Y
-phosphatidylcholine-translocating ATPase activity|Y
 phosphatidylcholine:cardiolipin O-linoleoyltransferase activity|Y
 phosphatidylcholine:diacylglycerol cholinephosphotransferase activity|Y
 phosphatidylethanolamine N-methyltransferase activity|Y
@@ -28968,10 +28900,11 @@ phosphatidylethanolamine acyl-chain remodeling|B
 phosphatidylethanolamine binding|Y
 phosphatidylethanolamine biosynthetic process|B
 phosphatidylethanolamine catabolic process|B
+phosphatidylethanolamine flippase activity|Y
+phosphatidylethanolamine floppase activity|Y
 phosphatidylethanolamine metabolic process|B
-phosphatidylethanolamine transporter activity|Y
+phosphatidylethanolamine transfer activity|Y
 phosphatidylethanolamine-sterol O-acyltransferase activity|Y
-phosphatidylethanolamine-translocating ATPase activity|Y
 phosphatidylethanolamine:Kdo2-lipid A phosphoethanolamine transferase activity|Y
 phosphatidylglycerol acyl-chain remodeling|B
 phosphatidylglycerol binding|Y
@@ -28979,6 +28912,7 @@ phosphatidylglycerol biosynthetic process|B
 phosphatidylglycerol catabolic process|B
 phosphatidylglycerol metabolic process|B
 phosphatidylglycerol phospholipase C activity|Y
+phosphatidylglycerol transfer activity|Y
 phosphatidylglycerol-membrane-oligosaccharide glycerophosphotransferase activity|Y
 phosphatidylglycerol-phosphatidylethanolamine phosphatidyltransferase activity|Y
 phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity|Y
@@ -29022,7 +28956,7 @@ phosphatidylinositol phosphate phosphatase activity|Y
 phosphatidylinositol phosphate phosphatase complex|C
 phosphatidylinositol phospholipase C activity|Y
 phosphatidylinositol phosphorylation|B
-phosphatidylinositol transporter activity|Y
+phosphatidylinositol transfer activity|Y
 phosphatidylinositol transporter complex|C
 phosphatidylinositol trisphosphate phosphatase activity|Y
 phosphatidylinositol-1,4,5-trisphosphate 5-phosphatase activity|Y
@@ -29060,8 +28994,10 @@ phosphatidylserine decarboxylase activity|Y
 phosphatidylserine exposure on apoptotic cell surface|B
 phosphatidylserine exposure on blood platelet|B
 phosphatidylserine exposure on osteoblast involved in bone mineralization|B
+phosphatidylserine flippase activity|Y
+phosphatidylserine floppase activity|Y
 phosphatidylserine metabolic process|B
-phosphatidylserine-translocating ATPase activity|Y
+phosphatidylserine transfer activity|Y
 phosphatidyltransferase activity|Y
 phosphinothricin N-acetyltransferase activity|Y
 phosphinothricin biosynthetic process|B
@@ -29160,12 +29096,12 @@ phospholipid efflux|B
 phospholipid homeostasis|B
 phospholipid metabolic process|B
 phospholipid scramblase activity|Y
+phospholipid transfer activity|Y
 phospholipid transfer to membrane|B
 phospholipid translocation|B
 phospholipid transport|B
 phospholipid transporter activity|Y
 phospholipid-hydroperoxide glutathione peroxidase activity|Y
-phospholipid-translocating ATPase activity|Y
 phospholipid-translocating ATPase complex|C
 phospholipid:diacylglycerol acyltransferase activity|Y
 phosphomannan mannosephosphotransferase activity|Y
@@ -29267,10 +29203,12 @@ photoreceptor cell terminal bouton|A
 photoreceptor connecting cilium|A
 photoreceptor cyclic-nucleotide phosphodiesterase activity|Y
 photoreceptor disc membrane|A
+photoreceptor distal connecting cilium|A
 photoreceptor inner segment|A
 photoreceptor inner segment membrane|A
 photoreceptor outer segment|A
 photoreceptor outer segment membrane|A
+photoreceptor proximal connecting cilium|A
 photoreceptor ribbon synapse|A
 photorespiration|B
 photosynthesis|B
@@ -29346,7 +29284,6 @@ phytochelatin biosynthetic process|B
 phytochelatin import into vacuole|B
 phytochelatin metabolic process|B
 phytochelatin transmembrane transport|B
-phytochelatin transmembrane transporter ATPase activity|Y
 phytochelatin transport|B
 phytochelatin-metal complex formation|B
 phytochelatin-metal-sulfur complex formation|B
@@ -29681,7 +29618,6 @@ platelet-derived growth factor receptor-alpha signaling pathway|B
 platelet-derived growth factor receptor-beta signaling pathway|B
 platelet-derived growth factor receptor-ligand complex|C
 platelet-derived growth factor-activated receptor activity|Y
-platinum binding|Y
 pleated septate junction|A
 plus-end directed microfilament motor activity|Y
 plus-end directed microtubule sliding|B
@@ -29704,7 +29640,6 @@ polar nucleus|A
 polar nucleus fusion|B
 polar ring of apical complex|A
 polar tube|A
-polar-amino acid-transporting ATPase activity|Y
 polarisome|C
 polarity specification of adaxial/abaxial axis|B
 polarity specification of anterior/posterior axis|B
@@ -29817,7 +29752,6 @@ polyamine oxidase activity|Y
 polyamine transmembrane transport|B
 polyamine transmembrane transporter activity|Y
 polyamine transport|B
-polyamine-transporting ATPase activity|Y
 polyamine:proton antiporter activity|Y
 polychlorinated biphenyl binding|Y
 polycistronic mRNA processing|B
@@ -29876,7 +29810,6 @@ polyprenyltransferase activity|Y
 polyribonucleotide kinase activity|Y
 polyribonucleotide nucleotidyltransferase activity|Y
 polysaccharide O-methyltransferase activity|Y
-polysaccharide assembly with MHC class II protein complex|B
 polysaccharide binding|Y
 polysaccharide biosynthetic process|B
 polysaccharide catabolic process|B
@@ -30002,7 +29935,6 @@ positive regulation by organism of hormone or growth regulator levels in other o
 positive regulation by organism of immune response of other organism involved in symbiotic interaction|B
 positive regulation by organism of induced systemic resistance in other organism involved in symbiotic interaction|B
 positive regulation by organism of inflammatory response of other organism involved in symbiotic interaction|B
-positive regulation by organism of innate immune response in other organism involved in symbiotic interaction|B
 positive regulation by organism of jasmonic acid-mediated defense response of other organism involved in symbiotic interaction|B
 positive regulation by organism of nutrient release from other organism involved in symbiotic interaction|B
 positive regulation by organism of phagocytosis in other organism involved in symbiotic interaction|B
@@ -30034,6 +29966,7 @@ positive regulation by symbiont of host I-kappaB kinase/NF-kappaB cascade|B
 positive regulation by symbiont of host adenylate cyclase activity|B
 positive regulation by symbiont of host adenylate cyclase-mediated signal transduction|B
 positive regulation by symbiont of host apoptotic process|B
+positive regulation by symbiont of host autophagy|B
 positive regulation by symbiont of host cAMP-mediated signal transduction|B
 positive regulation by symbiont of host calcium or calmodulin-mediated signal transduction|B
 positive regulation by symbiont of host catalytic activity|B
@@ -30096,11 +30029,10 @@ positive regulation of ATF6-mediated unfolded protein response|B
 positive regulation of ATP biosynthetic process|B
 positive regulation of ATP citrate synthase activity|B
 positive regulation of ATP metabolic process|B
-positive regulation of ATP-dependent DNA helicase activity|B
 positive regulation of ATP-dependent microtubule motor activity, minus-end-directed|B
 positive regulation of ATP-dependent microtubule motor activity, plus-end-directed|B
 positive regulation of ATPase activity|B
-positive regulation of ATPase activity, uncoupled|B
+positive regulation of ATPase-coupled calcium transmembrane transporter activity|B
 positive regulation of AV node cell action potential|B
 positive regulation of Arp2/3 complex-mediated actin nucleation|B
 positive regulation of Atg1/ULK1 kinase complex assembly|B
@@ -30234,6 +30166,7 @@ positive regulation of L-arginine import across plasma membrane|B
 positive regulation of L-dopa biosynthetic process|B
 positive regulation of L-dopa decarboxylase activity|B
 positive regulation of L-glutamate import across plasma membrane|B
+positive regulation of L-glutamine biosynthetic process|B
 positive regulation of L-glutamine import across plasma membrane|B
 positive regulation of L-lysine import across plasma membrane|B
 positive regulation of L-methionine import across plasma membrane|B
@@ -30477,6 +30410,7 @@ positive regulation of anterior/posterior axon guidance|B
 positive regulation of anterograde axonal transport of mitochondrion|B
 positive regulation of anterograde dense core granule transport|B
 positive regulation of anterograde synaptic vesicle transport|B
+positive regulation of anther dehiscence|B
 positive regulation of anthocyanin biosynthetic process|B
 positive regulation of anthocyanin catabolic process|B
 positive regulation of anthocyanin metabolic process|B
@@ -30609,6 +30543,7 @@ positive regulation of binding|B
 positive regulation of biological process|B
 positive regulation of bioluminescence|B
 positive regulation of biomineral tissue development|B
+positive regulation of biomineralization|B
 positive regulation of biosynthetic process|B
 positive regulation of biosynthetic process of antibacterial peptides active against Gram-negative bacteria|B
 positive regulation of biosynthetic process of antibacterial peptides active against Gram-positive bacteria|B
@@ -30683,7 +30618,6 @@ positive regulation of calcium-independent cell-cell adhesion|B
 positive regulation of calcium-mediated signaling|B
 positive regulation of calcium-mediated signaling involved in cellular response to calcium ion|B
 positive regulation of calcium-mediated signaling involved in cellular response to salt stress|B
-positive regulation of calcium-transporting ATPase activity|B
 positive regulation of calcium:sodium antiporter activity|B
 positive regulation of camalexin biosynthetic process|B
 positive regulation of canonical Wnt signaling pathway|B
@@ -31063,7 +30997,6 @@ positive regulation of dauer entry|B
 positive regulation of dauer larval development|B
 positive regulation of deacetylase activity|B
 positive regulation of deadenylation-independent decapping of nuclear-transcribed mRNA|B
-positive regulation of decapentaplegic signaling pathway|B
 positive regulation of defecation|B
 positive regulation of defecation rhythm|B
 positive regulation of defense response|B
@@ -31128,7 +31061,6 @@ positive regulation of double-strand break repair|B
 positive regulation of double-strand break repair via homologous recombination|B
 positive regulation of double-strand break repair via nonhomologous end joining|B
 positive regulation of double-stranded telomeric DNA binding|B
-positive regulation of drug transmembrane export|B
 positive regulation of ductus arteriosus closure|B
 positive regulation of early endosome to late endosome transport|B
 positive regulation of early endosome to recycling endosome transport|B
@@ -31477,9 +31409,6 @@ positive regulation of growth factor dependent skeletal muscle satellite cell pr
 positive regulation of growth hormone activity|B
 positive regulation of growth hormone receptor signaling pathway|B
 positive regulation of growth hormone secretion|B
-positive regulation of growth of symbiont in host|B
-positive regulation of growth of symbiont involved in interaction with host|B
-positive regulation of growth of symbiont on or near host surface|B
 positive regulation of growth of unicellular organism as a thread of attached cells|B
 positive regulation of growth plate cartilage chondrocyte proliferation|B
 positive regulation of growth rate|B
@@ -31554,6 +31483,7 @@ positive regulation of hippo signaling|B
 positive regulation of hippocampal neuron apoptotic process|B
 positive regulation of histamine secretion by mast cell|B
 positive regulation of histamine uptake|B
+positive regulation of histidine biosynthetic process|B
 positive regulation of histone H2A K63-linked ubiquitination|B
 positive regulation of histone H2A-H2B dimer displacement|B
 positive regulation of histone H2B conserved C-terminal lysine ubiquitination|B
@@ -31616,6 +31546,7 @@ positive regulation of hypoxia-inducible factor-1alpha signaling pathway|B
 positive regulation of icosanoid secretion|B
 positive regulation of imaginal disc growth|B
 positive regulation of imaginal disc-derived leg joint morphogenesis|B
+positive regulation of imaginal disc-derived wing size|B
 positive regulation of imaginal disc-derived wing vein specification|B
 positive regulation of immature T cell proliferation|B
 positive regulation of immature T cell proliferation in thymus|B
@@ -31645,6 +31576,7 @@ positive regulation of inhibitory synapse assembly|B
 positive regulation of initiation of acetate catabolic process by acetate|B
 positive regulation of initiation of premeiotic DNA replication|B
 positive regulation of innate immune response|B
+positive regulation of innate immune response in other organism|B
 positive regulation of innate immunity memory response|B
 positive regulation of inner ear auditory receptor cell differentiation|B
 positive regulation of inner ear receptor cell differentiation|B
@@ -31798,10 +31730,10 @@ positive regulation of ion transmembrane transport|B
 positive regulation of ion transmembrane transporter activity|B
 positive regulation of ion transport|B
 positive regulation of iridophore differentiation|B
-positive regulation of iron channel activity|B
 positive regulation of iron export across plasma membrane|B
 positive regulation of iron ion import across plasma membrane|B
 positive regulation of iron ion transmembrane transport|B
+positive regulation of iron ion transmembrane transporter activity|B
 positive regulation of iron ion transport|B
 positive regulation of iron-sulfur cluster assembly|B
 positive regulation of iron-sulfur-molybdenum cofactor assembly|B
@@ -32260,6 +32192,7 @@ positive regulation of neosartoricin biosynthetic process|B
 positive regulation of nephron tubule epithelial cell differentiation|B
 positive regulation of nerve growth factor receptor activity|B
 positive regulation of nervous system development|B
+positive regulation of nervous system process|B
 positive regulation of netrin-activated signaling pathway|B
 positive regulation of neural crest cell differentiation|B
 positive regulation of neural crest cell fate specification|B
@@ -32272,7 +32205,6 @@ positive regulation of neuroepithelial cell differentiation|B
 positive regulation of neurofibrillary tangle assembly|B
 positive regulation of neurogenesis|B
 positive regulation of neuroinflammatory response|B
-positive regulation of neurological system process|B
 positive regulation of neuromuscular junction development|B
 positive regulation of neuromuscular synaptic transmission|B
 positive regulation of neuron apoptotic process|B
@@ -32650,6 +32582,7 @@ positive regulation of protein localization to cell periphery|B
 positive regulation of protein localization to cell surface|B
 positive regulation of protein localization to cell tip|B
 positive regulation of protein localization to cell-cell adherens junction|B
+positive regulation of protein localization to cell-cell junction|B
 positive regulation of protein localization to centrosome|B
 positive regulation of protein localization to chromatin|B
 positive regulation of protein localization to chromosome, telomeric region|B
@@ -33394,6 +33327,7 @@ positive regulation of very-low-density lipoprotein particle clearance|B
 positive regulation of very-low-density lipoprotein particle remodeling|B
 positive regulation of vesicle docking|B
 positive regulation of vesicle fusion|B
+positive regulation of vesicle fusion with Golgi apparatus|B
 positive regulation of vesicle transport along microtubule|B
 positive regulation of violaceol I biosynthetic process|B
 positive regulation of violaceol II biosynthetic process|B
@@ -33428,6 +33362,7 @@ positive regulation of wound healing|B
 positive regulation of wound healing, spreading of epidermal cells|B
 positive regulation of xanthone-containing compound biosynthetic process|B
 positive regulation of xanthophore differentiation|B
+positive regulation of xenobiotic detoxification by transmembrane export across the plasma membrane|B
 positive regulation of xenophagy|B
 positive regulation of xylan catabolic process|B
 positive regulation of xyloglucan catabolic process|B
@@ -33438,7 +33373,6 @@ positive regulation of zoospore formation|B
 positive regulation of zoospore movement on or near host|B
 positive regulation of zygosporangium development|B
 positive regulation of zygospore formation|B
-positive sense viral genome|A
 positive stranded viral RNA replication|B
 positive thymic T cell selection|B
 post-Golgi vesicle-mediated transport|B
@@ -33598,7 +33532,7 @@ potassium ion transmembrane transporter activity|Y
 potassium ion transport|B
 potassium ion uniporter activity|Y
 potassium ion-transporting ATPase complex|C
-potassium-transporting ATPase activity|Y
+potassium transmembrane transporter activity, phosphorylative mechanism|Y
 potassium:chloride symporter activity|Y
 potassium:proton antiporter activity|Y
 potassium:proton antiporter complex|C
@@ -33790,6 +33724,7 @@ pristanoyl-CoA oxidase activity|Y
 pro-B cell differentiation|B
 pro-T cell differentiation|B
 pro-T cell lineage commitment|B
+proacrosomal vesicle fusion|B
 proanthocyanidin biosynthetic process|B
 proboscis development|B
 proboscis extension reflex|B
@@ -34342,6 +34277,7 @@ protein localization to cell surface|B
 protein localization to cell tip|B
 protein localization to cell wall|B
 protein localization to cell-cell adherens junction|B
+protein localization to cell-cell junction|B
 protein localization to centrosome|B
 protein localization to chloroplast|B
 protein localization to chloroplast starch grain|B
@@ -34465,6 +34401,7 @@ protein maturation by [2Fe-2S] cluster transfer|B
 protein maturation by [4Fe-4S] cluster transfer|B
 protein maturation by copper ion transfer|B
 protein maturation by iron-sulfur cluster transfer|B
+protein maturation by nickel ion transfer|B
 protein maturation by protein folding|B
 protein membrane anchor|Y
 protein metabolic process|B
@@ -34536,6 +34473,7 @@ protein secretion by the type VI secretion system|B
 protein secretion by the type VII secretion system|B
 protein secretion by the type VIII secretion system|B
 protein self-association|Y
+protein sequestering activity|Y
 protein serine/threonine kinase activator activity|Y
 protein serine/threonine kinase activity|Y
 protein serine/threonine kinase inhibitor activity|Y
@@ -34621,7 +34559,6 @@ protein-DNA complex assembly|B
 protein-DNA complex disassembly|B
 protein-DNA complex remodeling|B
 protein-DNA complex subunit organization|B
-protein-DNA complex transmembrane transporter activity|Y
 protein-DNA complex transport|B
 protein-DNA covalent cross-linking|B
 protein-DNA covalent cross-linking via peptidyl-serine|B
@@ -34682,7 +34619,6 @@ protein-arginine omega-N monomethyltransferase activity|Y
 protein-arginine omega-N symmetric methyltransferase activity|Y
 protein-bilin linkage|B
 protein-carbohydrate complex|C
-protein-carbohydrate complex assembly|B
 protein-carbohydrate complex disassembly|B
 protein-carbohydrate complex subunit organization|B
 protein-chondroitin sulfate linkage via chondroitin sulfate D-glucuronyl-D-galactosyl-D-galactosyl-D-xylosyl-L-serine|B
@@ -34700,7 +34636,6 @@ protein-containing complex binding|Y
 protein-containing complex disassembly|B
 protein-containing complex localization|B
 protein-containing complex remodeling|B
-protein-containing complex scaffold activity|Y
 protein-containing complex subunit organization|B
 protein-cysteine S-acyltransferase activity|Y
 protein-cysteine S-myristoyltransferase activity|Y
@@ -34817,7 +34752,6 @@ protocatechuate catabolic process, ortho-cleavage|B
 protocatechuate decarboxylase activity|Y
 protochlorophyllide reductase activity|Y
 protoderm histogenesis|B
-protoheme IX ABC transporter activity|Y
 protoheme IX farnesyltransferase activity|Y
 proton binding|Y
 proton channel activity|Y
@@ -34827,7 +34761,6 @@ proton transmembrane transport|B
 proton transmembrane transporter activity|Y
 proton-dependent oligopeptide secondary active transmembrane transporter activity|Y
 proton-dependent peptide secondary active transmembrane transporter activity|Y
-proton-exporting ATPase activity|Y
 proton-exporting ATPase activity, phosphorylative mechanism|Y
 proton-transporting ATP synthase activity, rotational mechanism|Y
 proton-transporting ATP synthase complex|C
@@ -34855,7 +34788,6 @@ protoporphyrinogen IX biosynthetic process from glycine|B
 protoporphyrinogen IX metabolic process|B
 protoporphyrinogen oxidase activity|Y
 protoxylem development|B
-provirus|A
 provirus excision|B
 proximal convoluted tubule development|B
 proximal convoluted tubule segment 1 cell development|B
@@ -34933,7 +34865,6 @@ pupal development|B
 puparial adhesion|B
 pupariation|B
 pupation|B
-purine NTP-dependent helicase activity|Y
 purine alkaloid biosynthetic process|B
 purine alkaloid metabolic process|B
 purine deoxyribonucleoside binding|Y
@@ -35053,7 +34984,6 @@ putrescine metabolic process|B
 putrescine oxidase activity|Y
 putrescine transmembrane transporter activity|Y
 putrescine transport|B
-putrescine-importing ATPase activity|Y
 putrescine:ornithine antiporter activity|Y
 pyloric antrum smooth muscle contraction|B
 pyloric canal smooth muscle contraction|B
@@ -35229,6 +35159,7 @@ pyrogallol hydroxytransferase activity|Y
 pyroglutamyl-peptidase activity|Y
 pyrokinin receptor activity|Y
 pyrophosphatase activity|Y
+pyrophosphate hydrolysis-driven proton transmembrane transporter activity|Y
 pyrophosphate-dependent phosphofructokinase complex|C
 pyrophosphate-dependent phosphofructokinase complex, alpha-subunit complex|C
 pyrophosphate-dependent phosphofructokinase complex, beta-subunit complex|C
@@ -35282,12 +35213,10 @@ pyruvate, phosphate dikinase activity|Y
 pyruvate, water dikinase activity|Y
 pyruvate-flavodoxin oxidoreductase activity|Y
 pyruvyltransferase activity|Y
-quarternary amine transporter activity|Y
 quaternary ammonium group binding|Y
 quaternary ammonium group transmembrane transporter activity|Y
 quaternary ammonium group transport|B
 quaternary ammonium group:proton symporter activity|Y
-quaternary-ammonium-compound-transporting ATPase activity|Y
 quercetin 2,3-dioxygenase activity|Y
 quercetin 3'-O-glucosyltransferase activity|Y
 quercetin 3'-O-methyltransferase activity|Y
@@ -35435,18 +35364,19 @@ raps-insc complex|C
 raucaffricine beta-glucosidase activity|Y
 re-entry into mitotic cell cycle|B
 re-entry into mitotic cell cycle after pheromone arrest|B
+reactive gliosis|B
 reactive nitrogen species metabolic process|B
 reactive oxygen species biosynthetic process|B
 reactive oxygen species metabolic process|B
 reactive-black-5:hydrogen-peroxide oxidoreductase activity|Y
 rebaudioside B glucosyltransferase activity|Y
 reception of an inductive signal|B
-receptor activator activity|Y
 receptor antagonist activity|Y
 receptor biosynthetic process|B
 receptor catabolic process|B
 receptor clustering|B
 receptor complex|C
+receptor decoy activity|Y
 receptor diffusion trapping|B
 receptor guanylyl cyclase signaling pathway|B
 receptor inhibitor activity|Y
@@ -35459,7 +35389,7 @@ receptor metabolic process|B
 receptor recycling|B
 receptor regulator activity|Y
 receptor serine/threonine kinase binding|Y
-receptor signaling complex scaffold activity|Y
+receptor signaling complex adaptor activity|Y
 receptor signaling pathway via JAK-STAT|B
 receptor signaling pathway via STAT|B
 receptor signaling protein tyrosine kinase activator activity|Y
@@ -35555,13 +35485,11 @@ regulation of ATF6-mediated unfolded protein response|B
 regulation of ATP biosynthetic process|B
 regulation of ATP citrate synthase activity|B
 regulation of ATP metabolic process|B
-regulation of ATP-dependent DNA helicase activity|B
-regulation of ATP-dependent RNA helicase activity|B
 regulation of ATP-dependent microtubule motor activity, minus-end-directed|B
 regulation of ATP-dependent microtubule motor activity, plus-end-directed|B
 regulation of ATP:ADP antiporter activity|B
 regulation of ATPase activity|B
-regulation of ATPase activity, uncoupled|B
+regulation of ATPase-coupled calcium transmembrane transporter activity|B
 regulation of AV node cell action potential|B
 regulation of Arp2/3 complex-mediated actin nucleation|B
 regulation of Atg1/ULK1 kinase complex assembly|B
@@ -35707,6 +35635,7 @@ regulation of L-ascorbic acid biosynthetic process|B
 regulation of L-dopa biosynthetic process|B
 regulation of L-dopa decarboxylase activity|B
 regulation of L-glutamate import across plasma membrane|B
+regulation of L-glutamine biosynthetic process|B
 regulation of L-glutamine import across plasma membrane|B
 regulation of L-lysine import across plasma membrane|B
 regulation of L-methionine import across plasma membrane|B
@@ -35758,6 +35687,7 @@ regulation of RNA binding|B
 regulation of RNA binding transcription factor activity|B
 regulation of RNA biosynthetic process|B
 regulation of RNA export from nucleus|B
+regulation of RNA helicase activity|B
 regulation of RNA import into nucleus|B
 regulation of RNA interference|B
 regulation of RNA metabolic process|B
@@ -35994,6 +35924,7 @@ regulation of anterior/posterior axon guidance|B
 regulation of anterograde axonal transport of mitochondrion|B
 regulation of anterograde dense core granule transport|B
 regulation of anterograde synaptic vesicle transport|B
+regulation of anther dehiscence|B
 regulation of anthocyanin biosynthetic process|B
 regulation of anthocyanin catabolic process|B
 regulation of anthocyanin metabolic process|B
@@ -36142,6 +36073,7 @@ regulation of biological process|B
 regulation of biological quality|B
 regulation of bioluminescence|B
 regulation of biomineral tissue development|B
+regulation of biomineralization|B
 regulation of biosynthetic process|B
 regulation of biosynthetic process of antibacterial peptides active against Gram-negative bacteria|B
 regulation of biosynthetic process of antibacterial peptides active against Gram-positive bacteria|B
@@ -36162,7 +36094,6 @@ regulation of blood vessel endothelial cell differentiation|B
 regulation of blood vessel endothelial cell migration|B
 regulation of blood vessel endothelial cell proliferation involved in sprouting angiogenesis|B
 regulation of blood vessel remodeling|B
-regulation of blood vessel size|B
 regulation of blood volume by renal aldosterone|B
 regulation of blood volume by renin-angiotensin|B
 regulation of body fluid levels|B
@@ -36228,7 +36159,6 @@ regulation of calcium-dependent activation of synaptic vesicle fusion|B
 regulation of calcium-dependent cell-cell adhesion|B
 regulation of calcium-independent cell-cell adhesion|B
 regulation of calcium-mediated signaling|B
-regulation of calcium-transporting ATPase activity|B
 regulation of calcium:sodium antiporter activity|B
 regulation of camalexin biosynthetic process|B
 regulation of canonical Wnt signaling pathway|B
@@ -36693,7 +36623,6 @@ regulation of dauer larval development|B
 regulation of deacetylase activity|B
 regulation of deadenylation-independent decapping of nuclear-transcribed mRNA|B
 regulation of death-inducing signaling complex assembly|B
-regulation of decapentaplegic signaling pathway|B
 regulation of defecation|B
 regulation of defecation rhythm|B
 regulation of defense response|B
@@ -36765,7 +36694,6 @@ regulation of double-strand break repair via homologous recombination|B
 regulation of double-strand break repair via nonhomologous end joining|B
 regulation of double-strand break repair via single-strand annealing, removal of nonhomologous ends|B
 regulation of double-stranded telomeric DNA binding|B
-regulation of drug transmembrane export|B
 regulation of ductus arteriosus closure|B
 regulation of dynamin family protein polymerization involved in membrane fission|B
 regulation of eIF2 alpha phosphorylation by amino acid starvation|B
@@ -37158,7 +37086,6 @@ regulation of growth|B
 regulation of growth hormone activity|B
 regulation of growth hormone receptor signaling pathway|B
 regulation of growth hormone secretion|B
-regulation of growth of symbiont in host|B
 regulation of growth of unicellular organism as a thread of attached cells|B
 regulation of growth plate cartilage chondrocyte differentiation|B
 regulation of growth plate cartilage chondrocyte proliferation|B
@@ -37234,6 +37161,7 @@ regulation of hippo signaling|B
 regulation of hippocampal neuron apoptotic process|B
 regulation of histamine secretion by mast cell|B
 regulation of histamine uptake|B
+regulation of histidine biosynthetic process|B
 regulation of histone H2A K63-linked ubiquitination|B
 regulation of histone H2A-H2B dimer displacement|B
 regulation of histone H2B conserved C-terminal lysine ubiquitination|B
@@ -37487,11 +37415,11 @@ regulation of ion transmembrane transport|B
 regulation of ion transmembrane transporter activity|B
 regulation of ion transport|B
 regulation of iridophore differentiation|B
-regulation of iron channel activity|B
 regulation of iron export across plasma membrane|B
 regulation of iron ion import across plasma membrane|B
 regulation of iron ion import into cell by regulation of transcription from RNA polymerase II promoter|B
 regulation of iron ion transmembrane transport|B
+regulation of iron ion transmembrane transporter activity|B
 regulation of iron ion transport|B
 regulation of iron ion transport by transcription from RNA polymerase II promoter|B
 regulation of iron-sulfur cluster assembly|B
@@ -37580,6 +37508,7 @@ regulation of light-activated channel activity|B
 regulation of light-activated voltage-gated calcium channel activity|B
 regulation of lignin biosynthetic process|B
 regulation of linear element assembly|B
+regulation of linear element maturation|B
 regulation of lipase activity|B
 regulation of lipid binding|B
 regulation of lipid biosynthetic process|B
@@ -37847,6 +37776,7 @@ regulation of microglia differentiation|B
 regulation of microglial cell activation|B
 regulation of microglial cell mediated cytotoxicity|B
 regulation of microglial cell migration|B
+regulation of microtubule anchoring at centrosome|B
 regulation of microtubule binding|B
 regulation of microtubule cytoskeleton organization|B
 regulation of microtubule depolymerization|B
@@ -37875,6 +37805,7 @@ regulation of mitochondrial depolarization|B
 regulation of mitochondrial electron transport, NADH to ubiquinone|B
 regulation of mitochondrial fission|B
 regulation of mitochondrial fusion|B
+regulation of mitochondrial gene expression|B
 regulation of mitochondrial mRNA catabolic process|B
 regulation of mitochondrial mRNA stability|B
 regulation of mitochondrial membrane permeability|B
@@ -38028,6 +37959,7 @@ regulation of nephron tubule epithelial cell differentiation|B
 regulation of nerve growth factor production|B
 regulation of nerve growth factor receptor activity|B
 regulation of nervous system development|B
+regulation of nervous system process|B
 regulation of netrin-activated signaling pathway|B
 regulation of neural crest cell differentiation|B
 regulation of neural crest cell fate specification|B
@@ -38039,7 +37971,6 @@ regulation of neuroblast proliferation|B
 regulation of neurofibrillary tangle assembly|B
 regulation of neurogenesis|B
 regulation of neuroinflammatory response|B
-regulation of neurological system process|B
 regulation of neuromuscular junction development|B
 regulation of neuromuscular synaptic transmission|B
 regulation of neuron apoptotic process|B
@@ -38503,6 +38434,7 @@ regulation of protein localization to cell periphery|B
 regulation of protein localization to cell surface|B
 regulation of protein localization to cell tip|B
 regulation of protein localization to cell-cell adherens junction|B
+regulation of protein localization to cell-cell junction|B
 regulation of protein localization to centrosome|B
 regulation of protein localization to chromatin|B
 regulation of protein localization to chromosome, telomeric region|B
@@ -38644,7 +38576,7 @@ regulation of reproductive process|B
 regulation of respiratory burst|B
 regulation of respiratory burst involved in inflammatory response|B
 regulation of respiratory gaseous exchange|B
-regulation of respiratory gaseous exchange by neurological system process|B
+regulation of respiratory gaseous exchange by nervous system process|B
 regulation of respiratory system process|B
 regulation of response to DNA damage checkpoint signaling|B
 regulation of response to DNA damage stimulus|B
@@ -39371,6 +39303,7 @@ regulation of very-low-density lipoprotein particle clearance|B
 regulation of very-low-density lipoprotein particle remodeling|B
 regulation of vesicle docking|B
 regulation of vesicle fusion|B
+regulation of vesicle fusion with Golgi apparatus|B
 regulation of vesicle size|B
 regulation of vesicle targeting, to, from or within Golgi|B
 regulation of vesicle transport along microtubule|B
@@ -39410,6 +39343,7 @@ regulation of wound healing|B
 regulation of wound healing, spreading of epidermal cells|B
 regulation of xanthone-containing compound biosynthetic process|B
 regulation of xanthophore differentiation|B
+regulation of xenobiotic detoxification by transmembrane export across the plasma membrane|B
 regulation of xenophagy|B
 regulation of xylan catabolic process|B
 regulation of xyloglucan catabolic process|B
@@ -39567,7 +39501,7 @@ respiratory chain complex III assembly|B
 respiratory chain complex IV|C
 respiratory chain complex IV assembly|B
 respiratory electron transport chain|B
-respiratory gaseous exchange|B
+respiratory gaseous exchange by respiratory system|B
 respiratory system development|B
 respiratory system process|B
 respiratory tube development|B
@@ -40389,7 +40323,6 @@ rhamnose catabolic process|B
 rhamnose metabolic process|B
 rhamnose transmembrane transport|B
 rhamnose transmembrane transporter activity|Y
-rhamnose-transporting ATPase activity|Y
 rhamnose:proton symporter activity|Y
 rhamnulokinase activity|Y
 rhamnulose-1-phosphate aldolase activity|Y
@@ -40607,7 +40540,11 @@ ripoptosome assembly involved in extrinsic apoptotic signaling pathway|B
 ripoptosome assembly involved in necroptotic process|B
 rod bipolar cell differentiation|B
 rod bipolar cell terminal bouton|A
+rod photoreceptor disc lumen|A
+rod photoreceptor disc membrane|A
+rod photoreceptor outer segment|A
 rod spherule|A
+rod teleodendria|A
 rolling circle DNA replication|B
 rolling circle double-stranded viral DNA replication|B
 rolling circle single-stranded viral DNA replication|B
@@ -40763,7 +40700,6 @@ secondary active monocarboxylate transmembrane transporter activity|Y
 secondary active oligopeptide transmembrane transporter activity|Y
 secondary active organic cation transmembrane transporter activity|Y
 secondary active p-aminobenzoyl-glutamate transmembrane transporter activity|Y
-secondary active sterol transmembrane transporter activity|Y
 secondary active sulfate transmembrane transporter activity|Y
 secondary active transmembrane transporter activity|Y
 secondary alcohol biosynthetic process|B
@@ -40829,7 +40765,6 @@ seedling development|B
 segment polarity determination|B
 segment specification|B
 segmentation|B
-segmented viral genome|A
 selective angioblast sprouting|B
 selective autophagy|B
 selenate adenylyltransferase (ATP) activity|Y
@@ -41208,6 +41143,7 @@ signal transduction involved in spindle checkpoint|B
 signaling|B
 signaling adaptor activity|Y
 signaling pattern recognition receptor activity|Y
+signaling receptor activator activity|Y
 signaling receptor activity|Y
 signaling receptor binding|Y
 silicate metabolic process|B
@@ -41218,7 +41154,7 @@ silver ion transmembrane transport|B
 silver ion transmembrane transporter activity|Y
 silver ion transmembrane transporter complex|C
 silver ion transport|B
-silver-exporting ATPase activity|Y
+silver transmembrane transporter activity, phosphorylative mechanism|Y
 simple leaf morphogenesis|B
 simple sieve plate|A
 sinapaldehyde:NAD(P)+ oxidoreductase activity|Y
@@ -41252,17 +41188,16 @@ single-species surface biofilm formation|B
 single-strand break repair via homologous recombination|B
 single-strand break-containing DNA binding|Y
 single-strand selective uracil DNA N-glycosylase activity|Y
+single-stranded 3'-5' DNA helicase activity|Y
 single-stranded DNA 3'-5' exodeoxyribonuclease activity|Y
 single-stranded DNA 5'-3' exodeoxyribonuclease activity|Y
 single-stranded DNA binding|Y
 single-stranded DNA endodeoxyribonuclease activator activity|Y
 single-stranded DNA endodeoxyribonuclease activity|Y
 single-stranded DNA exodeoxyribonuclease activity|Y
+single-stranded DNA helicase activity|Y
 single-stranded DNA-binding protein complex|C
-single-stranded DNA-dependent ATP-dependent 3'-5' DNA helicase activity|Y
-single-stranded DNA-dependent ATP-dependent DNA helicase activity|Y
 single-stranded DNA-dependent ATP-dependent DNA helicase complex|C
-single-stranded DNA-dependent ATPase activity|Y
 single-stranded DNA-dependent CTPase activity|Y
 single-stranded DNA-dependent GTPase activity|Y
 single-stranded RNA binding|Y
@@ -41473,6 +41408,7 @@ sodium ion uniporter activity|Y
 sodium ion-transporting F-type ATPase complex|C
 sodium ion-transporting V-type ATPase complex|C
 sodium ion-transporting two-sector ATPase complex|C
+sodium transmembrane transporter activity, phosphorylative mechanism|Y
 sodium-dependent L-ascorbate transmembrane transporter activity|Y
 sodium-dependent multivitamin transmembrane transporter activity|Y
 sodium-dependent organic anion transmembrane transporter activity|Y
@@ -41481,7 +41417,6 @@ sodium-dependent organic cation transport|B
 sodium-dependent phosphate transmembrane transporter activity|Y
 sodium-dependent phosphate transport|B
 sodium-dependent self proteolysis|B
-sodium-exporting ATPase activity, phosphorylative mechanism|Y
 sodium-independent icosanoid transport|B
 sodium-independent leukotriene transport|B
 sodium-independent organic anion transmembrane transporter activity|Y
@@ -41513,6 +41448,7 @@ solanine UDP-galactose galactosyltransferase activity|Y
 solitary nucleus development|B
 soluble NSF attachment protein activity|Y
 soluble molecule recognition|B
+solute:anion antiporter activity|Y
 solute:cation antiporter activity|Y
 solute:cation symporter activity|Y
 solute:proton antiporter activity|Y
@@ -41595,8 +41531,8 @@ sorting endosome|A
 sour taste receptor activity|Y
 soyasapogenol B UDP-glucosyl transferase activity|Y
 soyasapogenol B glucuronide galactosyltransferase activity|Y
+soyasapogenol B glucuronosyltransferase activity|Y
 soyasapogenol E UDP-glucosyltransferase activity|Y
-soyasapogenol glucuronosyltransferase activity|Y
 soyasaponin III rhamnosyltransferase activity|Y
 spanning component of membrane|A
 spanning component of plasma membrane|A
@@ -41673,10 +41609,10 @@ sperm end piece|A
 sperm entry|B
 sperm fibrous sheath|A
 sperm flagellum|A
-sperm flagellum movement|B
 sperm flagellum movement involved in flagellated sperm motility|B
 sperm head|A
 sperm head plasma membrane|A
+sperm head-tail coupling apparatus|A
 sperm incapacitation|B
 sperm individualization|B
 sperm individualization complex|C
@@ -41716,7 +41652,6 @@ spermidine synthase activity|Y
 spermidine transmembrane transport|B
 spermidine transmembrane transporter activity|Y
 spermidine transport|B
-spermidine-importing ATPase activity|Y
 spermidine:caffeoyl CoA N-acyltransferase activity|Y
 spermidine:coumaroyl CoA N-acyltransferase activity|Y
 spermidine:feruloyl CoA N-acyltransferase activity|Y
@@ -41758,13 +41693,14 @@ sphingolipid biosynthetic process|B
 sphingolipid catabolic process|B
 sphingolipid delta-4 desaturase activity|Y
 sphingolipid delta-8 desaturase activity|Y
+sphingolipid floppase activity|Y
 sphingolipid long-chain base 4-hydroxylase activity|Y
 sphingolipid mediated signaling pathway|B
 sphingolipid metabolic process|B
+sphingolipid transfer activity|Y
 sphingolipid translocation|B
 sphingolipid transporter activity|Y
 sphingolipid very long chain fatty acid alpha-hydroxylase activity|Y
-sphingolipid-translocating ATPase activity|Y
 sphingomyelin biosynthetic process|B
 sphingomyelin catabolic process|B
 sphingomyelin metabolic process|B
@@ -41772,6 +41708,7 @@ sphingomyelin phosphodiesterase D activity|Y
 sphingomyelin phosphodiesterase activator activity|Y
 sphingomyelin phosphodiesterase activity|Y
 sphingomyelin synthase activity|Y
+sphingomyelin transfer activity|Y
 sphingosine N-acyltransferase activity|Y
 sphingosine beta-galactosyltransferase activity|Y
 sphingosine biosynthetic process|B
@@ -41779,7 +41716,6 @@ sphingosine catabolic process|B
 sphingosine cholinephosphotransferase activity|Y
 sphingosine hydroxylase activity|Y
 sphingosine metabolic process|B
-sphingosine transmembrane transporter activity|Y
 sphingosine-1-phosphate phosphatase activity|Y
 sphingosine-1-phosphate receptor activity|Y
 sphingosine-1-phosphate receptor signaling pathway|B
@@ -41864,7 +41800,6 @@ spontaneous synaptic transmission|B
 sporangiospore formation|B
 sporangium development|B
 sporangium germination on or near host|B
-spore autophagy involved in appressorium formation on or near host|B
 spore dispersal on or near host|B
 spore encystment on host|B
 spore germination|B
@@ -41894,7 +41829,6 @@ squalene monooxygenase activity|Y
 squalene synthase activity|Y
 squalene-hopene cyclase activity|Y
 squamous basal epithelial stem cell differentiation involved in prostate gland acinus development|B
-ssRNA viral genome|A
 stabilization of membrane potential|B
 stachydrine biosynthetic process|B
 stachydrine catabolic process|B
@@ -41975,6 +41909,7 @@ steroid delta-isomerase activity|Y
 steroid esterification|B
 steroid hormone aporeceptor complex|C
 steroid hormone binding|Y
+steroid hormone biosynthetic process|B
 steroid hormone mediated signaling pathway|B
 steroid hormone receptor activity|Y
 steroid hormone receptor binding|Y
@@ -42007,12 +41942,12 @@ sterol metabolic process|B
 sterol regulatory element binding protein cleavage|B
 sterol response element binding|Y
 sterol sensor activity|Y
+sterol transfer activity|Y
 sterol transmembrane transport|B
 sterol transport|B
 sterol transporter activity|Y
 sterol-4-alpha-carboxylate 3-dehydrogenase (decarboxylating) activity|Y
 sterol-dependent protein binding|Y
-sterol-transporting ATPase activity|Y
 steryl deacetylase activity|Y
 steryl-beta-glucosidase activity|Y
 steryl-sulfatase activity|Y
@@ -42279,7 +42214,6 @@ sulfate:bicarbonate antiporter activity|Y
 sulfate:proton symporter activity|Y
 sulfathiazole transmembrane transport|B
 sulfathiazole transmembrane transporter activity|Y
-sulfathiazole transport|B
 sulfatide binding|Y
 sulfation|B
 sulfide dehydrogenase activity|Y
@@ -42473,15 +42407,15 @@ swimming|B
 swimming behavior|B
 sym-norspermidine synthase activity|Y
 symbiont cell surface|A
-symbiont entry into host cell forming a symbiont-containing vacuole|B
 symbiont intracellular protein transport in host|B
-symbiont process|B
-symbiont process benefiting host|B
 symbiont-containing vacuolar membrane network|A
 symbiont-containing vacuolar space|A
 symbiont-containing vacuole|A
 symbiont-containing vacuole membrane|A
 symbiosome|A
+symbiotic process|B
+symbiotic process benefiting host|B
+symbiotic process mediated by secreted substance|B
 symmetric cell division|B
 symmetric division of skeletal muscle satellite stem cell|B
 symmetric neuroblast division|B
@@ -42801,7 +42735,6 @@ taurine transmembrane transporter activity|Y
 taurine transport|B
 taurine-2-oxoglutarate transaminase activity|Y
 taurine-pyruvate aminotransferase activity|Y
-taurine-transporting ATPase activity|Y
 taurine:sodium symporter activity|Y
 taurochenodeoxycholate 6alpha-hydroxylase activity|Y
 taurocyamine kinase activity|Y
@@ -42826,9 +42759,7 @@ teichoic acid D-alanylation|B
 teichoic acid biosynthetic process|B
 teichoic acid catabolic process|B
 teichoic acid metabolic process|B
-teichoic acid transmembrane transporter activity|Y
 teichoic acid transport|B
-teichoic-acid-transporting ATPase activity|Y
 teichuronic acid biosynthetic process|B
 teichuronic acid metabolic process|B
 telencephalon astrocyte cell migration|B
@@ -42844,6 +42775,7 @@ telium development|B
 tellurite methyltransferase activity|Y
 tellurite transmembrane transporter activity|Y
 tellurite transport|B
+telodendria|A
 telogen|B
 telomerase RNA binding|Y
 telomerase RNA localization|B
@@ -42964,7 +42896,6 @@ testosterone biosynthetic process|B
 testosterone dehydrogenase (NAD+) activity|Y
 testosterone dehydrogenase [NAD(P)] activity|Y
 testosterone secretion|B
-tethering complex|C
 tetraacyldisaccharide 4'-kinase activity|Y
 tetracenomycin B3 8-O-methyl transferase activity|Y
 tetracenomycin C biosynthetic process|B
@@ -42979,8 +42910,8 @@ tetracyclic triterpenoid biosynthetic process|B
 tetracyclic triterpenoid metabolic process|B
 tetracycline biosynthetic process|B
 tetracycline metabolic process|B
+tetracycline transmembrane transport|B
 tetracycline transmembrane transporter activity|Y
-tetracycline transport|B
 tetracycline:proton antiporter activity|Y
 tetrahydroberberine oxidase activity|Y
 tetrahydrobiopterin binding|Y
@@ -43068,7 +42999,6 @@ thiamine pyridinylase activity|Y
 thiamine pyrophosphate binding|Y
 thiamine pyrophosphate transmembrane transport|B
 thiamine pyrophosphate transmembrane transporter activity|Y
-thiamine pyrophosphate-transporting ATPase activity|Y
 thiamine salvage|B
 thiamine transmembrane transport|B
 thiamine transmembrane transporter activity|Y
@@ -43080,7 +43010,6 @@ thiamine-diphosphate kinase activity|Y
 thiamine-phosphate diphosphorylase activity|Y
 thiamine-phosphate kinase activity|Y
 thiamine-pyrophosphatase activity|Y
-thiamine-transporting ATPase activity|Y
 thiamine:proton symporter activity|Y
 thiazole biosynthetic process|B
 thiazole metabolic process|B
@@ -43515,7 +43444,6 @@ transferase complex|C
 transferase complex, transferring phosphorus-containing groups|C
 transferrin receptor activity|Y
 transferrin receptor binding|Y
-transferrin transmembrane transporter activity|Y
 transferrin transport|B
 transformation of host cell by virus|B
 transforming growth factor beta activated kinase 1 complex|C
@@ -43644,6 +43572,7 @@ transmitting tissue development|B
 transnitrosylase complex|C
 transpiration|B
 transport|B
+transport across blood-brain barrier|B
 transport along microtubule|B
 transport of viral material towards nucleus|B
 transport of virus|B
@@ -43762,6 +43691,7 @@ triglyceride homeostasis|B
 triglyceride lipase activity|Y
 triglyceride metabolic process|B
 triglyceride mobilization|B
+triglyceride transfer activity|Y
 triglyceride transport|B
 triglyceride-rich lipoprotein particle clearance|B
 triglyceride-rich lipoprotein particle remodeling|B
@@ -43808,7 +43738,6 @@ trioxoheptanoate hydrolase activity|Y
 tripartite ATP-independent periplasmic transporter complex|C
 tripartite attachment complex|A
 tripartite regional subdivision|B
-tripartite viral genome|A
 tripeptidase activity|Y
 tripeptide aminopeptidase activity|Y
 tripeptide import across plasma membrane|B
@@ -43926,7 +43855,6 @@ tumor necrosis factor-activated receptor activity|Y
 tumor necrosis factor-mediated signaling pathway|B
 tungstate binding|Y
 tungstate ion transport|B
-tungstate transmembrane transporter activity|Y
 tungsten incorporation into metallo-sulfur cluster|B
 tungsten incorporation into tungsten-molybdopterin complex|B
 tungsten incorporation via L-selenocysteinyl tungsten bis(molybdopterin guanine dinucleotide)|B
@@ -44109,6 +44037,7 @@ tyrosyl-tRNA aminoacylation|B
 ubiquinol-cytochrome-c reductase activity|Y
 ubiquinol:oxygen oxidoreductase activity|Y
 ubiquinone binding|Y
+ubiquinone biosynthesis complex|C
 ubiquinone biosynthetic process|B
 ubiquinone biosynthetic process from chorismate|B
 ubiquinone biosynthetic process from tyrosine|B
@@ -44158,9 +44087,6 @@ ubiquitin-protein transferase activator activity|Y
 ubiquitin-protein transferase activity|Y
 ubiquitin-protein transferase inhibitor activity|Y
 ubiquitin-protein transferase regulator activity|Y
-ubiquitin-specific protease activity involved in negative regulation of ERAD pathway|Y
-ubiquitin-specific protease activity involved in negative regulation of retrograde protein transport, ER to cytosol|Y
-ubiquitin-specific protease activity involved in positive regulation of ERAD pathway|Y
 ubiquitin-specific protease binding|Y
 ubiquitin-ubiquitin ligase activity|Y
 ubiquitination-like modification-dependent protein binding|Y
@@ -44236,7 +44162,6 @@ urea metabolic process|B
 urea transmembrane transport|B
 urea transmembrane transporter activity|Y
 urea transport|B
-urea-transporting ATPase activity|Y
 urea:sodium symporter activity|Y
 urease activator activity|Y
 urease activator complex|C
@@ -44561,6 +44486,7 @@ vesicle targeting, to, from or within Golgi|B
 vesicle targeting, trans-Golgi to endosome|B
 vesicle targeting, trans-Golgi to periciliary membrane compartment|B
 vesicle tethering|B
+vesicle tethering complex|C
 vesicle tethering involved in exocytosis|B
 vesicle tethering to Golgi|B
 vesicle tethering to endoplasmic reticulum|B
@@ -44658,7 +44584,6 @@ viral extrusion|B
 viral factory|A
 viral gene expression|B
 viral gene silencing in virus induced gene silencing|B
-viral genome|A
 viral genome circularization|B
 viral genome ejection through host cell envelope|B
 viral genome ejection through host cell envelope, contractile tail mechanism|B
@@ -44749,7 +44674,6 @@ vitamin A biosynthetic process|B
 vitamin A import|B
 vitamin A metabolic process|B
 vitamin A transport|B
-vitamin B12 ABC transporter activity|Y
 vitamin B6 binding|Y
 vitamin B6 biosynthetic process|B
 vitamin B6 catabolic process|B
@@ -44833,7 +44757,6 @@ voltage-gated sodium channel activity involved in SA node cell action potential|
 voltage-gated sodium channel activity involved in bundle of His cell action potential|Y
 voltage-gated sodium channel activity involved in cardiac muscle cell action potential|Y
 voltage-gated sodium channel complex|C
-voltage-gated sulfate antiporter activity|Y
 volume-sensitive anion channel activity|Y
 volume-sensitive chloride channel activity|Y
 voluntary musculoskeletal movement|B
@@ -44859,7 +44782,6 @@ water-soluble vitamin biosynthetic process|B
 water-soluble vitamin catabolic process|B
 water-soluble vitamin metabolic process|B
 wax biosynthetic process|B
-wax ester synthase activity|Y
 wax metabolic process|B
 wax-ester hydrolase activity|Y
 white fat cell differentiation|B
@@ -44920,12 +44842,14 @@ xanthosine transport|B
 xanthosine:proton symporter activity|Y
 xanthoxin dehydrogenase activity|Y
 xenobiotic catabolic process|B
+xenobiotic detoxification by transmembrane export across the cell outer membrane|B
+xenobiotic detoxification by transmembrane export across the plasma membrane|B
 xenobiotic glucuronidation|B
 xenobiotic metabolic process|B
 xenobiotic transmembrane transporter activity|Y
-xenobiotic transmembrane transporting ATPase activity|Y
 xenobiotic transport|B
-xenon atom binding|Y
+xenobiotic transport across blood-brain barrier|B
+xenobiotic transport across blood-nerve barrier|B
 xenophagy|B
 xylan 1,3-beta-xylosidase activity|Y
 xylan 1,4-beta-xylosidase activity|Y
@@ -45014,8 +44938,7 @@ zinc ion transmembrane transport|B
 zinc ion transmembrane transporter activity|Y
 zinc ion transport|B
 zinc potentiation of synaptic transmission, glycinergic|B
-zinc-exporting ATPase activity|Y
-zinc-transporting ATPase activity|Y
+zinc transmembrane transporter activity, phosphorylative mechanism|Y
 zona limitans intrathalamica formation|B
 zona pellucida receptor complex|C
 zonula adherens|A
@@ -45041,3 +44964,4 @@ zymogen granule membrane|A
 zymogen inhibition|B
 zymosterol biosynthetic process|B
 zymosterol metabolic process|B
+
