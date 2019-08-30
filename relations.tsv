@@ -5,15 +5,15 @@ CONSO	CONSO00003	tubulin-binding repeat 2	part_of	CONSO	CONSO00001	microtubule-b
 CONSO	CONSO00004	tubulin-binding repeat 3	part_of	CONSO	CONSO00001	microtubule-binding region
 CONSO	CONSO00005	tubulin-binding repeat 4	part_of	CONSO	CONSO00001	microtubule-binding region
 CONSO	CONSO00006	Tau aggregates	is_a	CONSO	CONSO00178	protein aggregates
-CONSO	CONSO00010	LY293002	inhibitor_of	FPLX	PI3K	PI3K
+CONSO	CONSO00010	LY293002	inhibitor	FPLX	PI3K	PI3K
 CONSO	CONSO00016	alpha-synuclein aggregates	is_a	CONSO	CONSO00178	protein aggregates
 CONSO	CONSO00017	huntingtin aggregates	is_a	CONSO	CONSO00178	protein aggregates
 CONSO	CONSO00018	amyloid-beta aggregates	is_a	CONSO	CONSO00178	protein aggregates
 CONSO	CONSO00019	SEN-1269	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00020	MLS000034832	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00021	caprospinol	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
-CONSO	CONSO00031	N-AcGIP	agonist_of	HGNC	HGNC:4270	GIP
-CONSO	CONSO00032	Pro3-GIP	agonist_of	HGNC	HGNC:4270	GIP
+CONSO	CONSO00031	N-AcGIP	agonist	HGNC	HGNC:4270	GIP
+CONSO	CONSO00032	Pro3-GIP	agonist	HGNC	HGNC:4270	GIP
 CONSO	CONSO00044	3R tau	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00045	4R tau	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00046	VQIINK motif	part_of	CONSO	CONSO00003	tubulin-binding repeat 2
@@ -40,7 +40,7 @@ CONSO	CONSO00097	TGM2 Isoform 3 (349 aa)	has_reference_protein	uniprot	P21980	TG
 CONSO	CONSO00099	Corticobasal Degeneration	is_a	CONSO	CONSO00233	4R tauopathy
 CONSO	CONSO00100	paired helical filaments	part_of	GO	GO:0097418	neurofibrillary tangle
 CONSO	CONSO00101	straight filaments	part_of	GO	GO:0097418	neurofibrillary tangle
-CONSO	CONSO00131	exotoxin A	inhibitor_of	HGNC	HGNC:3214	EEF2
+CONSO	CONSO00131	exotoxin A	inhibitor	HGNC	HGNC:3214	EEF2
 CONSO	CONSO00186	proline-rich region 1	part_of	CONSO	CONSO00050	projection domain
 CONSO	CONSO00186	proline-rich region 1	part_of	CONSO	CONSO00166	proline-rich domain
 CONSO	CONSO00187	proline-rich region 2	part_of	CONSO	CONSO00166	proline-rich domain
