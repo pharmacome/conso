@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:08:2019 12:21
+date: 03:09:2019 12:12
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -4235,3 +4235,12 @@ namespace: pathology
 def: "Multiplication or reproduction by cell division of a population of identical cells descended from a single progenitor. In immunology, may refer to the clonal proliferation of cells responsive to a specific antigen as part of an immune response." [pmid:27794524]
 xref: ncit:C20613
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+
+[Term]
+id: CONSO:CONSO00361
+name: CDR - Sum of Boxes
+namespace: clinical_measurement
+def: "Clinical Dementia Rating (CDR) Sum of Boxes" [pmid:25468261, pmid:23626081, pmid:27084223]
+xref: ncit:C113880
+xref: umls:C3827230
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
