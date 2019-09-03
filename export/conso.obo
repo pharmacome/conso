@@ -1,44 +1,65 @@
 format-version: 1.2
-date: 31:07:2019 14:09
+date: 03:09:2019 12:12
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
 [Typedef]
 id: bel
-name: BEL term
+name: term has BEL term
 comment: A formulation for a term in Biological Expression language
+is_transitive: false
 
 [Typedef]
 id: part_of
 name: part of
 namespace: external
+comment: One term is part of another
 xref: BFO:0000050
 is_transitive: true
 
 [Typedef]
 id: author
-name: Author ORCID Identifier
-namespace: external
-
+name: term has author
+comment: A term has an author with the given ORCID identifier
+is_transitive: false
 
 [Typedef]
 id: has_reference_protein
-name: Isoform has Reference Protein
+name: protein isoform term has reference protein
 comment: A link between a protein isoform and its reference protein
+is_transitive: false
 
 [Typedef]
 id: has_role
-name: Chemical Has Role
-is_transitive: true
-comment: Same as from ChEBI
+name: has role
+namespace: external
+comment: A link between a chemical and its role
+xref: RO:0000087
+is_transitive: false
+
+[Typedef]
+id: inhibitor
+name: inhibitor
+namespace: external
+comment: A substance that diminishes the rate of a chemical reaction.
+xref: CHEBI:35222
+is_transitive: false
+
+[Typedef]
+id: agonist
+name: agonist
+namespace: external
+comment: Substance which binds to cell receptors normally responding to naturally occurring substances and which produces a response of its own.
+xref: CHEBI:48705
+is_transitive: false
 
 [Term]
 id: CONSO:CONSO00001
 name: microtubule-binding region
 namespace: domain
 def: "The motif in the MAPT protein where microtubule binding repeats" [pmid:18500754, pmid:2516729]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: interpro:IPR001084
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 relationship: part_of CONSO:CONSO00188 ! assembly domain
 synonym: "MTBR" EXACT []
 
@@ -91,8 +112,8 @@ id: CONSO:CONSO00006
 name: Tau aggregates
 namespace: cellular_component
 def: "Tau (MAPT) in its aggregated form (as Paired Helical Filaments (PHFs) or Straight Filaments (SF)) contains 5–9 moles of phosphate/ mole of the protein, defining it as hyper phosphorylated" [pmc:PMC2633703]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 is_a: CONSO:CONSO00178 ! protein aggregates
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
 id: CONSO:CONSO00007
@@ -120,13 +141,14 @@ id: CONSO:CONSO00010
 name: LY293002
 namespace: chemical
 def: "a typo appearing in pmid:23950935 for the specific PI3-kinase inhibitor that is actually named LY294002" [pmid:23950935]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 xref: cas:154447-36-6
 xref: chebi:CHEBI\:65329
 xref: drugbank:DB02656
 xref: inchi:InChI=1S/C19H17NO3/c21-17-13-18\(20-9-11-22-12-10-20\)23-19-15\(7-4-8-16\(17\)19\)14-5-2-1-3-6-14/h1-8\,13H\,9-12H2
 xref: pubchem.compound:3973
 xref: smiles:C1COCCN1C2=CC\(=O\)C3=C\(O2\)C\(=CC=C3\)C4=CC=CC=C4
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
+relationship: inhibitor FPLX:PI3K ! PI3K
 synonym: "154447-36-6" EXACT [pubchem.compound:3973]
 synonym: "15447-36-6" EXACT [pubchem.compound:3973]
 synonym: "1yi3" EXACT [pubchem.compound:3973]
@@ -321,35 +343,35 @@ id: CONSO:CONSO00016
 name: alpha-synuclein aggregates
 namespace: cellular_component
 def: "alpha-synuclein (SNCA) aggregate in fibrillar or oligomeric forms, usually found in Lewy bodies" [pmid:23254192]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 is_a: CONSO:CONSO00178 ! protein aggregates
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
 id: CONSO:CONSO00017
 name: huntingtin aggregates
 namespace: cellular_component
 def: "huntingtin (HTT) protein fragments aggregations" [pmid:12747895]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 is_a: CONSO:CONSO00178 ! protein aggregates
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
 id: CONSO:CONSO00018
 name: amyloid-beta aggregates
 namespace: cellular_component
 def: "aggregation of amyloid-beta fragments of the APP protein" [pmid:23484434]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 is_a: CONSO:CONSO00178 ! protein aggregates
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
 id: CONSO:CONSO00019
 name: SEN-1269
 namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: chembl:CHEMBL2386874
 xref: inchi:InChI=1S/C18H18N4O2/c1-22\(2\)14-6-4-8-16\(10-14\)24-17-11-19-18\(20-12-17\)21-13-5-3-7-15\(23\)9-13/h3-12\,23H\,1-2H3\,\(H\,19\,20\,21\)
 xref: pubchem.compound:46835756
 xref: smiles:CN\(C\)C1=CC\(=CC=C1\)OC2=CN=C\(N=C2\)NC3=CC\(=CC=C3\)O
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "3-((5-(3-(Dimethylamino)phenoxy)pyrimidin-2-yl)amino)phenol" EXACT [pubchem.compound:46835756]
 synonym: "3-(5-(3-(dimethylamino)phenoxy)pyrimidin-2-ylamino)phenol" EXACT [pubchem.compound:46835756]
@@ -378,11 +400,11 @@ id: CONSO:CONSO00020
 name: MLS000034832
 namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: chembl:CHEMBL461431
 xref: inchi:InChI=1S/C15H13N3O3S/c1-2-21-15\(20\)12-10-8-22-13\(16\)11\(10\)14\(19\)18\(17-12\)9-6-4-3-5-7-9/h3-8H\,2\,16H2\,1H3
 xref: pubchem.compound:647821
 xref: smiles:CCOC\(=O\)C1=NN\(C\(=O\)C2=C\(SC=C21\)N\)C3=CC=CC=C3
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "123542-47-2" EXACT [pubchem.compound:647821]
 synonym: "3-Phenyl-4-oxo-5-amino-3,4-dihydrothieno[3,4-d]pyridazine-1-carboxylic acid ethyl ester" EXACT [pubchem.compound:647821]
@@ -417,11 +439,11 @@ id: CONSO:CONSO00021
 name: caprospinol
 namespace: chemical
 def: "A tau aggregation inhibitor" [pmid:23484434]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: drugbank:DB05263
 xref: inchi:InChI=1S/C33H52O4/c1-6-7-8-9-29\(34\)36-24-13-15-31\(4\)23\(18-24\)10-11-25-26\(31\)14-16-32\(5\)27\(25\)19-28-30\(32\)22\(3\)33\(37-28\)17-12-21\(2\)20-35-33/h10\,21-22\,24-28\,30H\,6-9\,11-20H2\,1-5H3/t21-\,22+\,24+\,25-\,26+\,27+\,28+\,30+\,31+\,32+\,33-/m1/s1
 xref: pubchem.compound:16394575
 xref: smiles:CCCCCC\(=O\)O\[C@H\]1CC\[C@\]2\(C\)\[C@H\]3CC\[C@@\]4\(C\)\[C@@H\]\(C\[C@@H\]5O\[C@\]6\(CC\[C@@H\]\(C\)CO6\)\[C@@H\]\(C\)\[C@H\]45\)\[C@@H\]3CC=C2C1
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "((20S,22R,25R)-Spirosta-5-ene-3beta-ol)hexanoate" EXACT [pubchem.compound:16394575]
 synonym: "(22R,25R)-20alpha-Spirost-5-en-3beta-yl hexanoate" EXACT [pubchem.compound:16394575]
@@ -475,16 +497,16 @@ id: CONSO:CONSO00026
 name: neutral sphingomyelinase
 namespace: enzyme_class
 def: "Sphingomyelin phosphodiesterase (EC 3.1.4.12, also known as neutral sphingomyelinase, sphingomyelinase, or SMase) is a hydrolase enzyme that is involved in sphingolipid metabolism reactions." [pmid:19519303]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: ec-code:3.1.4.12
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00027
 name: Neurodegeneration
 namespace: pathology
 def: "Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes." [pmid:20202123, pmid:12387894]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: hp:HP\:0002180
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00028
@@ -514,16 +536,18 @@ name: N-AcGIP
 namespace: chemical
 def: "N-AcGIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
+relationship: agonist HGNC:4270 ! GIP
 
 [Term]
 id: CONSO:CONSO00032
 name: Pro3-GIP
 namespace: chemical
 def: "Pro3-GIP is a rat hormone that is an agonist of GIP" [pmid:18234983]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: inchi:InChI=1S/C226H343N61O64S/c1-21-115\(12\)181\(285-216\(341\)165\(109-289\)279-201\(326\)151\(92-126-63-67-131\(293\)68-64-126\)266-210\(335\)163\(102-179\(309\)310\)276-215\(340\)164\(108-288\)280-221\(346\)183\(117\(14\)23-3\)284-214\(339\)153\(91-124-48-28-25-29-49-124\)277-222\(347\)184\(121\(18\)290\)281-175\(302\)107-247-217\(342\)166-60-45-84-287\(166\)224\(349\)120\(17\)251-188\(313\)134\(232\)89-125-61-65-130\(292\)66-62-125\)219\(344\)250-119\(16\)187\(312\)254-146\(77-85-352-20\)197\(322\)274-160\(99-176\(303\)304\)208\(333\)258-141\(58-38-43-82-231\)198\(323\)283-182\(116\(13\)22-2\)220\(345\)261-142\(59-44-83-243-226\(240\)241\)191\(316\)259-144\(70-74-168\(234\)295\)195\(320\)260-145\(71-75-169\(235\)296\)196\(321\)273-161\(100-177\(305\)306\)209\(334\)267-152\(90-123-46-26-24-27-47-123\)213\(338\)282-180\(114\(10\)11\)218\(343\)278-159\(98-173\(239\)300\)207\(332\)268-155\(94-128-104-245-136-53-33-31-51-133\(128\)136\)203\(328\)264-149\(87-112\(6\)7\)200\(325\)263-148\(86-111\(4\)5\)199\(324\)249-118\(15\)186\(311\)253-143\(69-73-167\(233\)294\)194\(319\)255-137\(54-34-39-78-227\)189\(314\)246-106-174\(301\)252-138\(55-35-40-79-228\)190\(315\)256-139\(56-36-41-80-229\)193\(318\)271-157\(96-171\(237\)298\)206\(331\)275-162\(101-178\(307\)308\)211\(336\)269-154\(93-127-103-244-135-52-32-30-50-132\(127\)135\)202\(327\)257-140\(57-37-42-81-230\)192\(317\)270-156\(95-129-105-242-110-248-129\)204\(329\)272-158\(97-172\(238\)299\)205\(330\)265-150\(88-113\(8\)9\)212\(337\)286-185\(122\(19\)291\)223\(348\)262-147\(225\(350\)351\)72-76-170\(236\)297/h24-33\,46-53\,61-68\,103-105\,110-122\,134\,137-166\,180-185\,244-245\,288-293H\,21-23\,34-45\,54-60\,69-102\,106-109\,227-232H2\,1-20H3\,\(H2\,233\,294\)\(H2\,234\,295\)\(H2\,235\,296\)\(H2\,236\,297\)\(H2\,237\,298\)\(H2\,238\,299\)\(H2\,239\,300\)\(H\,242\,248\)\(H\,246\,314\)\(H\,247\,342\)\(H\,249\,324\)\(H\,250\,344\)\(H\,251\,313\)\(H\,252\,301\)\(H\,253\,311\)\(H\,254\,312\)\(H\,255\,319\)\(H\,256\,315\)\(H\,257\,327\)\(H\,258\,333\)\(H\,259\,316\)\(H\,260\,320\)\(H\,261\,345\)\(H\,262\,348\)\(H\,263\,325\)\(H\,264\,328\)\(H\,265\,330\)\(H\,266\,335\)\(H\,267\,334\)\(H\,268\,332\)\(H\,269\,336\)\(H\,270\,317\)\(H\,271\,318\)\(H\,272\,329\)\(H\,273\,321\)\(H\,274\,322\)\(H\,275\,331\)\(H\,276\,340\)\(H\,277\,347\)\(H\,278\,343\)\(H\,279\,326\)\(H\,280\,346\)\(H\,281\,302\)\(H\,282\,338\)\(H\,283\,323\)\(H\,284\,339\)\(H\,285\,341\)\(H\,286\,337\)\(H\,303\,304\)\(H\,305\,306\)\(H\,307\,308\)\(H\,309\,310\)\(H\,350\,351\)\(H4\,240\,241\,243\)
 xref: pubchem.compound:131954578
 xref: smiles:CCC\(C\)C\(C\(=O\)NC\(CCCNC\(=N\)N\)C\(=O\)NC\(CCC\(=O\)N\)C\(=O\)NC\(CCC\(=O\)N\)C\(=O\)NC\(CC\(=O\)O\)C\(=O\)NC\(CC1=CC=CC=C1\)C\(=O\)NC\(C\(C\)C\)C\(=O\)NC\(CC\(=O\)N\)C\(=O\)NC\(CC2=CNC3=CC=CC=C32\)C\(=O\)NC\(CC\(C\)C\)C\(=O\)NC\(CC\(C\)C\)C\(=O\)NC\(C\)C\(=O\)NC\(CCC\(=O\)N\)C\(=O\)NC\(CCCCN\)C\(=O\)NCC\(=O\)NC\(CCCCN\)C\(=O\)NC\(CCCCN\)C\(=O\)NC\(CC\(=O\)N\)C\(=O\)NC\(CC\(=O\)O\)C\(=O\)NC\(CC4=CNC5=CC=CC=C54\)C\(=O\)NC\(CCCCN\)C\(=O\)NC\(CC6=CNC=N6\)C\(=O\)NC\(CC\(=O\)N\)C\(=O\)NC\(CC\(C\)C\)C\(=O\)NC\(C\(C\)O\)C\(=O\)NC\(CCC\(=O\)N\)C\(=O\)O\)NC\(=O\)C\(CCCCN\)NC\(=O\)C\(CC\(=O\)O\)NC\(=O\)C\(CCSC\)NC\(=O\)C\(C\)NC\(=O\)C\(C\(C\)CC\)NC\(=O\)C\(CO\)NC\(=O\)C\(CC7=CC=C\(C=C7\)O\)NC\(=O\)C\(CC\(=O\)O\)NC\(=O\)C\(CO\)NC\(=O\)C\(C\(C\)CC\)NC\(=O\)C\(CC8=CC=CC=C8\)NC\(=O\)C\(C\(C\)O\)NC\(=O\)CNC\(=O\)C9CCCN9C\(=O\)C\(C\)NC\(=O\)C\(CC1=CC=C\(C=C1\)O\)N
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
+relationship: agonist HGNC:4270 ! GIP
 synonym: "AKOS034831571" EXACT [pubchem.compound:131954578]
 synonym: "[Pro3]-GIP (Rat)" EXACT [pubchem.compound:131954578]
 
@@ -532,8 +556,8 @@ id: CONSO:CONSO00033
 name: PI3K-Akt signaling pathway
 namespace: pathway
 def: "PI3K-Akt signaling pathway is an intracellular signaling pathway important in regulating the cell cycle.It is described in KEGG." [pmid:22013558]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: kegg.pathway:hsa04151
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00035
@@ -548,8 +572,8 @@ id: CONSO:CONSO00036
 name: granulovacuolar degeneration
 namespace: pathology
 def: "Granulovacuolar degeneration (GVD) is one of the pathological hallmarks of Alzheimer's disease (AD), and it is defined as electron-dense granules within double membrane-bound cytoplasmic vacuoles." [pmid:17455299]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: hp:HP\:0002528
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 synonym: "GVD" EXACT []
 
 [Term]
@@ -601,9 +625,9 @@ synonym: "soluble amyloid precursor protein" EXACT []
 id: CONSO:CONSO00043
 name: growth factor
 def: "A growth factor is a naturally occurring substance capable of stimulating cellular growth, proliferation, healing, and cellular differentiation. Usually it is a protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes." [pmid:14678766]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: ncit:C20424
 xref: umls:C0018284
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00044
@@ -644,24 +668,24 @@ id: CONSO:CONSO00048
 name: ghost tangles
 namespace: cellular_component
 def: "Extracellular NFT remains after neuron death, considered to be the last stage of NFT-related pathological activity." [pmid:23407988, pmid:8431763]
+is_a: GO:0097418 ! neurofibrillary tangle
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: GO:GO\:0097418 ! neurofibrillary tangle
 
 [Term]
 id: CONSO:CONSO00049
 name: pretangles
 namespace: cellular_component
 def: "Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles." [pmid:23407988, pmid:24612177]
+is_a: GO:0097418 ! neurofibrillary tangle
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-is_a: GO:GO\:0097418 ! neurofibrillary tangle
 
 [Term]
 id: CONSO:CONSO00050
 name: projection domain
 namespace: domain
 def: "Corresponding roughly to the N-terminal part of the tau molecule, consisting mainly of acidic residues and containing two distinct alternatively spliced N-terminal inserts." [pmid:17493042, pmid:28386764]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: interpro:IPR013588
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "MAP2/Tau projection" EXACT []
 
 [Term]
@@ -669,8 +693,8 @@ id: CONSO:CONSO00051
 name: RAC1b
 namespace: isoform
 def: "A constitutively active splicing isoform of RAC1 (Ras-related C3 botulinum toxin substrate 1), first identified in breast and colon cancer." [pmid:22142809]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: uniprot.isoform:P63000-2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P63000 ! RAC1_HUMAN
 
 [Term]
@@ -678,18 +702,18 @@ id: CONSO:CONSO00052
 name: AP-2 complex
 namespace: protein_complex
 def: "A heterotetrameric adapter protein complex involved in cargo-internalization during clathrin-mediated endocytosis. Composed of alpha and beta subunits (large adaptins), mu and sigma subunits (minor adaptins)." [pmid:27260836]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: go:GO\:0030122
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00053
 name: Tau isoform F (441 aa)
 namespace: isoform
 def: "Longest tau isoform in human brain, most commonly used as the conventional tau." [pmid:17493042]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_005901
 xref: uniprot.isoform:P10636-8
 is_a: CONSO:CONSO00045 ! 4R tau
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "2N4R" EXACT []
 synonym: "htau40" EXACT [pmid:19226187]
@@ -700,9 +724,9 @@ id: CONSO:CONSO00054
 name: Tau isoform Fetal-tau (352 aa)
 namespace: isoform
 def: "Human fetal tau isoform." [pmid:17493042]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_058525
 xref: uniprot.isoform:P10636-2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "0N3R" EXACT []
 synonym: "htau23" EXACT [pmid:7667312]
@@ -713,10 +737,10 @@ id: CONSO:CONSO00055
 name: Tau isoform B (381 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_001190180
 xref: uniprot.isoform:P10636-4
 is_a: CONSO:CONSO00044 ! 3R tau
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "1N3R" EXACT []
 synonym: "htau37" EXACT [pmid:22762014]
@@ -727,10 +751,10 @@ id: CONSO:CONSO00056
 name: Tau isoform D (383 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_058518
 xref: uniprot.isoform:P10636-6
 is_a: CONSO:CONSO00045 ! 4R tau
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "0N4R" EXACT []
 synonym: "htau24" EXACT [pmid:22762014]
@@ -741,10 +765,10 @@ id: CONSO:CONSO00057
 name: Tau isoform C (410 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_001190181
 xref: uniprot.isoform:P10636-5
 is_a: CONSO:CONSO00044 ! 3R tau
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "2N3R" EXACT []
 synonym: "htau39" EXACT [pmid:22762014]
@@ -755,10 +779,10 @@ id: CONSO:CONSO00058
 name: Tau isoform E (412 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:17493042]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: ncbiprotein:NP_001116539
 xref: uniprot.isoform:P10636-7
 is_a: CONSO:CONSO00045 ! 4R tau
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 synonym: "1N4R" EXACT []
 synonym: "htau34" EXACT [pmid:22762014]
@@ -777,8 +801,8 @@ id: CONSO:CONSO00060
 name: neuroinflammation
 namespace: pathology
 def: "inflammatory response in the brain and nervous tissue." [pmid:26306439]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 xref: go:GO\:0150076
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00061
@@ -799,8 +823,8 @@ id: CONSO:CONSO00063
 name: APP695
 namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: uniprot.isoform:P05067-4
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 relationship: has_reference_protein uniprot:P05067 ! A4_HUMAN
 
 [Term]
@@ -808,8 +832,8 @@ id: CONSO:CONSO00064
 name: APP751
 namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: uniprot.isoform:P05067-8
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 relationship: has_reference_protein uniprot:P05067 ! A4_HUMAN
 
 [Term]
@@ -817,8 +841,8 @@ id: CONSO:CONSO00065
 name: APP770
 namespace: isoform
 def: "the APP gene is located on chromosome 21 in humans with three major isoforms arising from alternative splicing [3]. These are APP695, APP751 and APP770 (containing 695, 751, and 770 amino acids, respectively)" [pmid:21214928]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: uniprot.isoform:P05067-1
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 relationship: has_reference_protein uniprot:P05067 ! A4_HUMAN
 
 [Term]
@@ -826,8 +850,8 @@ id: CONSO:CONSO00066
 name: gamma-secretase
 namespace: protein_complex
 def: "gamma-secretase is a high molecular weight complex minimally composed of four components: presenilins (PS), nicastrin, anterior pharynx defective 1 (APH-1), and presenilin enhancer 2 (PEN-2)" [pmid:25565961]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: fplx:Gamma_secretase
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
 id: CONSO:CONSO00067
@@ -953,8 +977,8 @@ id: CONSO:CONSO00084
 name: Tau isoform A (316 aa)
 namespace: isoform
 def: "Human brain tau isoform, derived from alternative splicing." [pmid:18986241]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 xref: uniprot.isoform:P10636-3
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 relationship: has_reference_protein uniprot:P10636 ! TAU_HUMAN
 
 [Term]
@@ -1045,8 +1069,8 @@ id: CONSO:CONSO00097
 name: TGM2 Isoform 3 (349 aa)
 namespace: isoform
 def: "Short isoform of tissue transglutaminase" [pmid:12578227]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: uniprot.isoform:P21980-2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P21980 ! TGM2_HUMAN
 
 [Term]
@@ -1061,8 +1085,8 @@ id: CONSO:CONSO00099
 name: Corticobasal Degeneration
 namespace: pathology
 def: "CBD is a late-onset neurodegenerative disease involving the cerebral cortex and the basal ganglia, characterized by widespread deposition of hyperphosphorylated 4-repeat tau in neurons and glia, the latter as astrocytic plaques" [pmid:22057784]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00233 ! 4R tauopathy
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00100
@@ -1070,7 +1094,7 @@ name: paired helical filaments
 namespace: cellular_component
 def: "Component of NFT, consisting in a helical arrangement of tau protomers" [pmid:22496370, pmid:1706519]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: part_of GO:GO\:0097418 ! neurofibrillary tangle
+relationship: part_of GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: CONSO:CONSO00101
@@ -1078,7 +1102,7 @@ name: straight filaments
 namespace: cellular_component
 def: "Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers" [pmid:16566606, pmid:28678775]
 relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
-relationship: part_of GO:GO\:0097418 ! neurofibrillary tangle
+relationship: part_of GO:0097418 ! neurofibrillary tangle
 
 [Term]
 id: CONSO:CONSO00102
@@ -1239,9 +1263,9 @@ id: CONSO:CONSO00124
 name: PINK-1
 namespace: protein
 def: "the nematode homologs of PINK1" [pmid:26430570]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: ncbigene:173918
 xref: wb:WBGene00017137
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00125
@@ -1284,6 +1308,7 @@ name: exotoxin A
 namespace: protein
 def: "exotoxin A is an exotoxin produced by Pseudomonas aeruginosa.It inhibits elongation factor-2. It does so by ADP-ribosylation of EF2. This then causes the elongation of polypeptides to cease." [pmid:25274306]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
+relationship: inhibitor HGNC:3214 ! EEF2
 
 [Term]
 id: CONSO:CONSO00132
@@ -1296,8 +1321,8 @@ id: CONSO:CONSO00133
 name: IκB kinase
 namespace: protein_complex
 def: "The IκB kinase is an enzyme complex that is involved in propagating the cellular response to inflammation." [pmid:19880420]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: fplx:IKK_family
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00134
@@ -1317,8 +1342,8 @@ id: CONSO:CONSO00136
 name: heat shock proteins
 namespace: protein_family
 def: "Heat shock proteins (HSP) are a family of proteins that are produced by cells in response to exposure to stressful conditions. They were first described in relation to heat shock," [pmid:15280428]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D006360
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00137
@@ -1418,8 +1443,8 @@ id: CONSO:CONSO00151
 name: Neuroglia
 namespace: anatomy
 def: "MeSH Unique ID: D009457" [pmid:19248803]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D009457
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00152
@@ -1433,8 +1458,8 @@ id: CONSO:CONSO00153
 name: Motor Neurons
 namespace: anatomy
 def: "MeSH Unique ID: D009046" [pmid:10383122]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D009046
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00154
@@ -1455,8 +1480,8 @@ id: CONSO:CONSO00156
 name: Neurites
 namespace: anatomy
 def: "A neurite or neuronal process refers to any projection from the cell body of a neuron." [pmid:23872421]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D016501
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00157
@@ -1498,32 +1523,32 @@ id: CONSO:CONSO00162
 name: Muscles
 namespace: anatomy
 def: "MeSH Unique ID: D009132" [pmid:21151955]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D009132
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00163
 name: Neural Stem Cell
 namespace: anatomy
 def: "MeSH Unique ID: D058953" [pmid:22357600]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D058953
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00164
 name: Ventral Tegmental Area
 namespace: anatomy
 def: "MeSH Unique ID: D017557" [pmid:16190884]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D017557
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00165
 name: Pars Compacta
 namespace: anatomy
 def: "MeSH Unique ID: D065842" [pmid:16190884]
-relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 xref: mesh:D065842
+relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
 [Term]
 id: CONSO:CONSO00166
@@ -1617,9 +1642,9 @@ id: CONSO:CONSO00178
 name: protein aggregates
 namespace: cellular_component
 def: "Aggregates of proteins or fragments of proteins" [pmc:PMC2633703, pmid:23254192, pmid:12747895, pmid:23484434]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: mesh:D066329
 xref: sbo:SBO\:0000543
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
 id: CONSO:CONSO00179
@@ -1667,8 +1692,8 @@ relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 id: CONSO:CONSO00185
 name: long-term potentiation
 def: "A long lasting enhancement in synaptic transmission between two neurons, most commonly studied in the synapse between the Schaffer collateral axons of the CA3 neurons and the CA1 pyramidal neurons of the hippocampus. Alongside the LTD (long-term depression) represent the two mechanisms of memory formation and storage. Impairment of this process in AD is caused by soluble oligmoeric amyloid beta." [pmid:27041503]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D017774
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00186
@@ -1763,8 +1788,8 @@ id: CONSO:CONSO00198
 name: alpha-Bungarotoxin
 namespace: protein
 def: "Neurotoxic proteins from the venom of the banded or Formosan krait (Bungarus multicinctus, an elapid snake)." [pmid:21787755]
-relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: uniprot:P60616
+relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
 id: CONSO:CONSO00199
@@ -1778,19 +1803,19 @@ id: CONSO:CONSO00200
 name: kappa-Bungarotoxin
 namespace: protein
 def: "kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)" [pmid:21787755, pmid:3359187]
-relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: uniprot:P01398
+relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
 id: CONSO:CONSO00201
 name: VU10010
 namespace: chemical
 def: "highly selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-[(4-chlorophenyl)methyl]-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233, pmid:18059262]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: cas:633283-39-3
 xref: inchi:InChI=1S/C17H16ClN3OS/c1-9-7-10\(2\)21-17-13\(9\)14\(19\)15\(23-17\)16\(22\)20-8-11-3-5-12\(18\)6-4-11/h3-7H\,8\,19H2\,1-2H3\,\(H\,20\,22\)
 xref: pubchem.compound:714286
 xref: smiles:CC1=C2C\(SC\(C\(NCC3=CC=C\(Cl\)C=C3\)=O\)=C2N\)=NC\(C\)=C1
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "2-Fly" EXACT [pubchem.compound:714286]
 synonym: "2-Furoyl-LIGRLO-amide trifluoroacetate salt" EXACT [pubchem.compound:714286]
 synonym: "2-Furoyl-LIGRLO-amide trifluoroacetate salt, >=97% (HPLC)" EXACT [pubchem.compound:714286]
@@ -1836,10 +1861,10 @@ id: CONSO:CONSO00202
 name: VU0456940
 namespace: chemical
 def: "M1-selective PAM that potentiates M1 (mAChR). Chemical name:1-[4,6-difluoro-1-[6-(1-methylpyrazol-4-yl)pyridin-3-yl]indol-3-yl]sulfonyl-3-(5-methyl-1,2-oxazol-3-yl)propan-2-one" [pmid:24511233]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: inchi:InChI=1S/C24H19F2N5O4S/c1-14-5-17\(29-35-14\)8-19\(32\)13-36\(33\,34\)23-12-31\(22-7-16\(25\)6-20\(26\)24\(22\)23\)18-3-4-21\(27-10-18\)15-9-28-30\(2\)11-15/h3-7\,9-12H\,8\,13H2\,1-2H3
 xref: iupac:1-\[4\,6-difluoro-1-\[6-\(1-methylpyrazol-4-yl\)pyridin-3-yl\]indol-3-yl\]sulfonyl-3-\(5-methyl-1\,2-oxazol-3-yl\)propan-2-one
 xref: smiles:CN1N=CC\(C2=CC=C\(N3C=C\(S\(=O\)\(CC\(CC4=NOC\(C\)=C4\)=O\)=O\)C5=C3C=C\(F\)C=C5F\)C=N2\)=C1
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "VU 0456940" EXACT [https://medkoo.com/products/9998]
 synonym: "VU-0456940" EXACT [https://medkoo.com/products/9998]
 synonym: "VU0456940" EXACT [https://medkoo.com/products/9998]
@@ -1849,11 +1874,11 @@ id: CONSO:CONSO00203
 name: VU0152099
 namespace: chemical
 def: "selective M4 (mAChR) allosteric potentiator. Chemical name: 3-Amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" [pmid:24511233]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: inchi:InChI=1S/C18H17N3O3S/c1-9-5-10\(2\)21-18-14\(9\)15\(19\)16\(25-18\)17\(22\)20-7-11-3-4-12-13\(6-11\)24-8-23-12/h3-6H\,7-8\,19H2\,1-2H3\,\(H\,20\,22\)
 xref: pubchem.compound:1541501
 xref: smiles:CC1=CC\(=NC2=C1C\(=C\(S2\)C\(=O\)NCC3=CC4=C\(C=C3\)OCO4\)N\)C
 xref: wikidata:Q27089173
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "3-amino-4,6-dimethyl-N-piperonyl-thieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
 synonym: "3-amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethyl-2-thieno[2,3-b]pyridinecarboxamide" EXACT [pubchem.compound:1541501]
 synonym: "3-amino-N-(1,3-benzodioxol-5-ylmethyl)-4,6-dimethylthieno[2,3-b]pyridine-2-carboxamide" EXACT [pubchem.compound:1541501]
@@ -1885,10 +1910,10 @@ id: CONSO:CONSO00204
 name: VU0029767
 namespace: chemical
 def: "selective M1(mAChR)-PAM. Chemical name: 2-(4-Ethoxyanilino)-N'-[(Z)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" [pmid:24590577]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: inchi:InChI=1S/C21H21N3O3/c1-2-27-17-10-8-16\(9-11-17\)22-14-21\(26\)24-23-13-19-18-6-4-3-5-15\(18\)7-12-20\(19\)25/h3-13\,22-23H\,2\,14H2\,1H3\,\(H\,24\,26\)
 xref: pubchem.compound:6758210
 xref: smiles:CCOC1=CC=C\(C=C1\)NCC\(=O\)NNC=C2C\(=O\)C=CC3=CC=CC=C32
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "2-(4-ethoxyanilino)-N'-[(E)-(2-oxonaphthalen-1-ylidene)methyl]acetohydrazide" EXACT [pubchem.compound:6758210]
 synonym: "2-[(4-ethoxyphenyl)amino]-N'-[(2-hydroxy-1-naphthyl)methylene]acetohydrazide (non-preferred name)" EXACT [pubchem.compound:6758210]
 synonym: "326001-01-8" EXACT [pubchem.compound:6758210]
@@ -1905,10 +1930,10 @@ id: CONSO:CONSO00205
 name: VU0090157
 namespace: chemical
 def: "selective M1(mAChR)-PAM. Chemical name: Cyclopentyl 3,4-dimethyl-6-(6-nitro-1,3-benzodioxol-5-yl)-2-oxo-1,6-dihydropyrimidine-5-carboxylate" [pmid:24590577]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: inchi:InChI=1S/C19H21N3O7/c1-10-16\(18\(23\)29-11-5-3-4-6-11\)17\(20-19\(24\)21\(10\)2\)12-7-14-15\(28-9-27-14\)8-13\(12\)22\(25\)26/h7-8\,11\,17H\,3-6\,9H2\,1-2H3\,\(H\,20\,24\)
 xref: pubchem.compound:2882724
 xref: smiles:CC1=C\(C\(NC\(=O\)N1C\)C2=CC3=C\(C=C2\[N+\]\(=O\)\[O-\]\)OCO3\)C\(=O\)OC4CCCC4
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "AC1MER3E" EXACT [pubchem.compound:2882724]
 synonym: "AKOS001633711" EXACT [pubchem.compound:2882724]
 synonym: "AKOS022078796" EXACT [pubchem.compound:2882724]
@@ -1936,11 +1961,11 @@ id: CONSO:CONSO00206
 name: VU0184670
 namespace: chemical
 def: "M1(mAChR) allosteric agonists. Chemical name: Ethyl 4-(2-benzamidoethylamino)piperidine-1-carboxylate hydrochloride" [pmid:24590577]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: chembl:CHEMBL1535797
 xref: inchi:InChI=1S/C17H25N3O3.ClH/c1-2-23-17\(22\)20-12-8-15\(9-13-20\)18-10-11-19-16\(21\)14-6-4-3-5-7-14;/h3-7\,15\,18H\,2\,8-13H2\,1H3\,\(H\,19\,21\);1H
 xref: pubchem.compound:25010774
 xref: smiles:CCOC\(=O\)N1CCC\(CC1\)NCCNC\(=O\)C2=CC=CC=C2.Cl
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "1135241-95-0" EXACT [pubchem.compound:25010774]
 synonym: "CHEMBL1535797" EXACT [pubchem.compound:25010774]
 synonym: "MLS002279950" EXACT [pubchem.compound:25010774]
@@ -1953,11 +1978,11 @@ id: CONSO:CONSO00207
 name: 2-Bromohexadecanoic acid
 namespace: chemical
 def: "Inhibits Fyn localization in lipid rafts and subsequently inhibits the fyn-dependent Abeta redistribution and accumulation in lipid rafts, process linked with ADDL-induced cell death." [pmid:18096814]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:133152
 xref: inchi:InChI=1S/C16H31BrO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15\(17\)16\(18\)19/h15H\,2-14H2\,1H3\,\(H\,18\,19\)
 xref: pubchem.compound:82145
 xref: smiles:CCCCCCCCCCCCCCC\(C\(=O\)O\)Br
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: ".alpha.-Bromopalmitic acid" EXACT [pubchem.compound:82145]
 synonym: "18263-25-7" EXACT [pubchem.compound:82145]
 synonym: "2-Bromohexadecanoic acid" EXACT [pubchem.compound:82145]
@@ -2084,8 +2109,8 @@ id: CONSO:CONSO00217
 name: MARK4 isoform 2 (688 aa)
 namespace: isoform
 def: "Shortest isoform of Microtubule affinity regulating kinase 4 (MARK4) derived from alternatvie splicing. It is upregulated during the early stages of neuron differentiation." [pmid:16973293]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: uniprot.isoform:Q96L34-2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:Q96L34 ! MARK4_HUMAN
 
 [Term]
@@ -2121,16 +2146,16 @@ id: CONSO:CONSO00222
 name: Tau antibody, AGG5759
 namespace: antibody
 def: "Tau antibody with specificity for pSer262" [pmid:23666762]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00223
 name: Tau antibody, Tau-13
 namespace: antibody
 def: "Tau murine monoclonal antibody with specificity for pSer262" [pmid:23666762]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00224
@@ -2207,7 +2232,6 @@ id: CONSO:CONSO00234
 name: ACY-1215
 namespace: chemical
 def: "Ricolinostat is an orally bioavailable, specific inhibitor of histone deacetylase 6 (HDAC6) with potential antineoplastic activity. Ricolinostat selectively targets and binds to HDAC6, thereby disrupting the Hsp90 protein chaperone system through hyperacetylation of Hsp90 and preventing the subsequent aggresomal protein degradation. This leads to an accumulation of unfolded and misfolded ubiquitinated proteins and may eventually induce cancer cell apoptosis, and inhibition of cancer cell growth. HDAC6, a class II HDAC deacetylase located in the cytoplasm, appears to play a key role in the formation and activation of the aggresomes needed for degradation of misfolded proteins. Compared to non-selective HDAC inhibitor, ACY-1215 is able to reduce the toxic effects on normal, healthy cells." [pmid:24844691]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:1316214-52-4
 xref: chebi:CHEBI\:95073
 xref: drugbank:DB12376
@@ -2215,6 +2239,7 @@ xref: inchi:InChI=1S/C24H27N5O3/c30-22\(28-32\)15-9-1-2-10-16-25-23\(31\)19-17-2
 xref: mesh:C572255
 xref: pubchem.compound:53340666
 xref: smiles:C1=CC=C\(C=C1\)N\(C2=CC=CC=C2\)C3=NC=C\(C=N3\)C\(=O\)NCCCCCCC\(=O\)NO
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "1316214-52-4" EXACT [pubchem.compound:53340666]
 synonym: "2-(Diphenylamino)-N-(7-(hydroxyamino)-7-oxoheptyl)pyrimidine-5-carboxamide" EXACT [pubchem.compound:53340666]
 synonym: "2-(Diphenylamino)-N-[7-(hydroxyamino)-7-oxoheptyl]-5-pyrimidinecarboxamide" EXACT [pubchem.compound:53340666]
@@ -2289,7 +2314,6 @@ id: CONSO:CONSO00236
 name: BAY61-3606
 namespace: chemical
 def: "A cell-permeable imidazopyrimidine compound that acts a potent, ATP-competitive, reversible, and highly selective inhibitor of Syk tyrosine kinase activity (IC50 = 10 nM) with no inhibitory effect against Btk, Fyn, Itk, Lyn, and Src even at concentrations as high as 4.7 µM. Shown to inhibit Syk-mediated cellular functions in vitro and exhibit good oral bioavailability and in vivo effacacy in the treatment of various allgery and asthma conditions in rat models. Indirect inhibitory effect on GSK3B activity" [pmid:25331948]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:732983-37-8
 xref: chebi:CHEBI\:91426
 xref: inchi:InChI=1S/C20H18N6O3/c1-28-15-6-5-12\(10-16\(15\)29-2\)14-11-17-22-8-9-26\(17\)20\(24-14\)25-19-13\(18\(21\)27\)4-3-7-23-19/h3-11H\,1-2H3\,\(H2\,21\,27\)\(H\,23\,24\,25\)
@@ -2297,6 +2321,7 @@ xref: mesh:C477642
 xref: pubchem.compound:10200390
 xref: smiles:COC1=C\(C=C\(C=C1\)C2=CC3=NC=CN3C\(=N2\)NC4=C\(C=CC=N4\)C\(=O\)N\)OC
 xref: wikidata:Q27163275
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "2-((7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl)amino)nicotinamide" EXACT [pubchem.compound:10200390]
 synonym: "2-(7-(3,4-dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-ylamino)nicotinamide hydrochloride" EXACT [pubchem.compound:10200390]
 synonym: "2-[[7-(3,4-Dimethoxyphenyl)imidazo[1,2-c]pyrimidin-5-yl]amino]-3-pyridinecarboxamide" EXACT [pubchem.compound:10200390]
@@ -2357,19 +2382,19 @@ id: CONSO:CONSO00239
 name: C-30-27
 namespace: chemical
 def: "PCAF and NFkappaB inhibitor, showed anti-inflammatory properties and improved cognition" [pmid:25672970]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C20H26ClN3O3/c1-25-19-13-16\(14-22-6-7-24-8-10-26-11-9-24\)12-18\(21\)20\(19\)27-15-17-4-2-3-5-23-17/h2-5\,12-13\,22H\,6-11\,14-15H2\,1H3
 xref: smiles:C1COCCN1CCNCC2=CC\(=C\(C\(=C2\)Cl\)OCC3=CC=CC=N3\)OC
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00240
 name: C646
 namespace: chemical
 def: "Inhibitor of EP300 acetylase" [pmid:20869593]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C24H19N3O6/c1-13-10-20\(21\(27\(31\)32\)11-14\(13\)2\)22-9-8-18\(33-22\)12-19-15\(3\)25-26\(23\(19\)28\)17-6-4-16\(5-7-17\)24\(29\)30/h4-12H\,1-3H3\,\(H\,29\,30\)/b19-12+
 xref: pubchem.compound:1285940
 xref: smiles:CC1=C\(C=C\(C\(=C1\)C2=CC=C\(O2\)C=C3C\(=NN\(C3=O\)C4=CC=C\(C=C4\)C\(=O\)O\)C\)\[N+\]\(=O\)\[O-\]\)C
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(E)-4-(4-((5-(4,5-diMethyl-2-nitrophenyl)furan-2-yl)Methylene)-3-Methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl)benzoic acid" EXACT [pubchem.compound:1285940]
 synonym: "328968-36-1" EXACT [pubchem.compound:1285940]
 synonym: "4-(4-((5-(4,5-Dimethyl-2-nitrophenyl)furan-2-yl)methylene)-3-methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl)benzoic acid" EXACT [pubchem.compound:1285940]
@@ -2398,24 +2423,24 @@ id: CONSO:CONSO00241
 name: CA1 field of hippocampus
 namespace: anatomy
 def: "Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals." [pmid:23407988]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D056547
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00242
 name: CA2 field of hippocampus
 namespace: anatomy
 def: "Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus" [pmid:23407988]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D056651
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00243
 name: CA3 field of hippocampus
 namespace: anatomy
 def: "Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers." [pmid:23407988]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D056654
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00244
@@ -2429,7 +2454,6 @@ id: CONSO:CONSO00245
 name: CGP3466B
 namespace: chemical
 def: "Inhibitor of GAPDH nitrosylation, abrogated Abeta induced tau acetylation and subsequent pathological impairments related to AD" [pmid:29559585]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:35364
 xref: chebi:CHEBI\:41778
 xref: chembl:CHEMBL1232111
@@ -2438,6 +2462,7 @@ xref: drugbank:DB12879
 xref: inchi:InChI=1S/C19H17NO/c1-3-12-20\(2\)14-16-13-15-8-4-6-10-18\(15\)21-19-11-7-5-9-17\(16\)19/h1\,4-11\,13H\,12\,14H2\,2H3
 xref: pubchem.compound:6419718
 xref: smiles:CN\(CC#C\)CC1=CC2=CC=CC=C2OC3=CC=CC=C31
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(Dibenzo(b,f)oxepin-5-ylmethyl)(methyl)prop-2-yn-1-amine" EXACT [pubchem.compound:6419718]
 synonym: "181296-84-4" EXACT [pubchem.compound:6419718]
 synonym: "5V14HD0N4Q" EXACT [pubchem.compound:6419718]
@@ -2480,11 +2505,11 @@ id: CONSO:CONSO00246
 name: CM-414
 namespace: chemical
 def: "A dual inhibitor of PDE5 and HDACs, chronic treatment of Tg2576 mice, a well characterized AD mouse model, showed decreased Ab and Tau phsophorylation and inhibition of GSK3B activity." [pmid:27550730]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:4432-44-4
 xref: inchi:InChI=1S/C8H13NO3/c1-7\(8\(10\)11\)6-9-2-4-12-5-3-9/h1-6H2\,\(H\,10\,11\)
 xref: pubchem.compound:10397232
 xref: smiles:C=C\(CN1CCOCC1\)C\(=O\)O
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "2-(4-morpholinylmethyl)-2-propenoic acid" EXACT [pubchem.compound:10397232]
 synonym: "2-(Morpholinomethyl)acrylic acid" EXACT [pubchem.compound:10397232]
 synonym: "2-(Morpholinomethyl)propenoic acid" EXACT [pubchem.compound:10397232]
@@ -2529,8 +2554,8 @@ id: CONSO:CONSO00248
 name: Histone H3
 namespace: protein
 def: "One of the five main histone proteins of chromatin structure, acetylation at Lys 9 was positively linked with the transcriptional activation of various genes involved in neuro-regeneration following peripheral axonal injury, among which BDNF." [pmid:24686445]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: fplx:Histone_H3
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00249
@@ -2544,12 +2569,12 @@ id: CONSO:CONSO00250
 name: LDN-193594
 namespace: chemical
 def: "A synthetic derviative of 2,4-diaminothiazole serving as an inhibitor of CDK5 kinase acitivty and of tau PHF1 epitope phosphorylation" [pmid:23737518]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chembl:CHEMBL1761791
 xref: inchi:InChI=1S/C15H11FN4OS/c16-11-6-2-1-5-10\(11\)12\(21\)13-14\(17\)20-15\(22-13\)19-9-4-3-7-18-8-9/h1-8H\,17H2\,\(H\,19\,20\)
 xref: pubchem.compound:54581340
 xref: smiles:C1=CC=C\(C\(=C1\)C\(=O\)C2=C\(N=C\(S2\)NC3=CN=CC=C3\)N\)F
 is_a: CONSO:CONSO00276 ! diaminothiazole
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(4-amino-2-(pyridin-3-ylamino)thiazol-5-yl)(2-fluorophenyl)methanone" EXACT [pubchem.compound:54581340]
 synonym: "1289638-15-8" EXACT [pubchem.compound:54581340]
 synonym: "BDBM50340902" EXACT [pubchem.compound:54581340]
@@ -2566,21 +2591,21 @@ id: CONSO:CONSO00251
 name: LDN-193665
 namespace: chemical
 def: "A synthetic derviative of 2,4-diaminothiazole with a lesser powerful inhibitory effect on CDK5, but a potent inhibitor of Gsk3b" [pmid:23737518]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:1289638-16-9
 xref: inchi:\WInChI=1S/C15H11FN4OS/c16-10-4-1-3-9\(7-10\)12\(21\)13-14\(17\)20-15\(22-13\)19-11-5-2-6-18-8-11/h1-8H\,17H2\,\(H\,19\,20\)
 xref: smiles:FC1=CC=CC\(C\(C2=C\(N\)N=C\(NC3=CN=CC=C3\)S2\)=O\)=C1
 is_a: CONSO:CONSO00277 ! diaminothiazole
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00252
 name: LDN-213843
 namespace: chemical
 def: "Small molecule of the diaminothiazole class, acting as inhibitor of CDK5 and GSK3Beta kinases" [pmid:23737518]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C19H19FN6OS/c20-14-4-2-1-3-13\(14\)16\(27\)17-18\(21\)25-19\(28-17\)24-12-5-6-15\(23-11-12\)26-9-7-22-8-10-26/h1-6\,11\,22H\,7-10\,21H2\,\(H\,24\,25\)
 xref: smiles:C1\(=CC=CC=C1C\(C4=C\(N\)N=C\(NC2=CN=C\(C=C2\)N3CCNCC3\)S4\)=O\)F
 is_a: CONSO:CONSO00278 ! diaminothiazole
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00253
@@ -2601,9 +2626,9 @@ id: CONSO:CONSO00255
 name: PrPSc
 namespace: isoform
 def: "PrPSc (scrapie isoform of the prion protein) prions are the infectious agent behind diseases such as Creutzfeldt-Jakob disease in humans, bovine spongiform encephalopathy in cattle, chronic wasting disease in cervids (deer, elk, moose, and reindeer), as well as goat and sheep scrapie. PrPSc is an alternatively folded variant of the cellular prion protein, PrPC, which is a regular, GPI-anchored protein that is present on the cell surface of neurons and other cell types." [pmid:22692785, pmid:29414853]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: uniprot:F7VJQ1
 xref: uniprot.isoform:F7VJQ1-1
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_reference_protein uniprot:P04156 ! PRIO_HUMAN
 
 [Term]
@@ -2617,19 +2642,19 @@ id: CONSO:CONSO00257
 name: Tau antibody, RG7345
 namespace: antibody
 def: "RG7345 is a humanized monoclonal antibody targeting the tau phosphoepitope pS422. Tau phosphorylated at this site is considered a pathological form that has been linked to the relocalization of tau away from microtubules and toward the somato-dendritic compartment of the neuron." [pmid:26751493, pmid:10967355]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00258
 name: RGFP966
 namespace: chemical
 def: "Selective inhibitor of HDAC3" [pmid:28771976]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:131163
 xref: inchi:InChI=1S/C21H19FN4O/c22-18-9-10-20\(19\(23\)13-18\)25-21\(27\)11-8-17-14-24-26\(15-17\)12-4-7-16-5-2-1-3-6-16/h1-11\,13-15H\,12\,23H2\,\(H\,25\,27\)/b7-4+\,11-8+
 xref: pubchem.compound:56650312
 xref: smiles:C1=CC=C\(C=C1\)C=CCN2C=C\(C=N2\)C=CC\(=O\)NC3=C\(C=C\(C=C3\)F\)N
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(2E)-N-(2-amino-4-fluorophenyl)-3-{1-[(2E)-3-phenylprop-2-en-1-yl]-1H-pyrazol-4-yl}prop-2-enamide" EXACT [pubchem.compound:56650312]
 synonym: "(E)-N-(2-amino-4-fluorophenyl)-3-(1-cinnamyl-1H-pyrazol-4-yl)acrylamide" EXACT [pubchem.compound:56650312]
 synonym: "1357389-11-7" EXACT [pubchem.compound:56650312]
@@ -2672,12 +2697,12 @@ id: CONSO:CONSO00259
 name: SL-327
 namespace: chemical
 def: "Inhibitor of MAP2K1/2 kinases activity in murine neuroblastoma cell line N2A" [pmid:24401760]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:305350-87-2
 xref: chebi:CHEBI\:92211
 xref: inchi:InChI=1S/C16H12F3N3S/c17-16\(18\,19\)14-4-2-1-3-12\(14\)13\(9-20\)15\(22\)23-11-7-5-10\(21\)6-8-11/h1-8H\,21-22H2/b15-13+
 xref: pubchem.compound:9549284
 xref: smiles:C1=CC=C\(C\(=C1\)C\(=C\(N\)SC2=CC=C\(C=C2\)N\)C#N\)C\(F\)\(F\)F
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(2Z)-3-amino-3-[(4-aminophenyl)sulfanyl]-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile" EXACT [pubchem.compound:9549284]
 synonym: "(Z)-3-amino-3-(4-aminophenylthio)-2-(2-(trifluoromethyl)phenyl)acrylonitrile" EXACT [pubchem.compound:9549284]
 synonym: "3-amino-3-(4-aminophenyl)sulfanyl-2-[2-(trifluoromethyl)phenyl]prop-2-enenitrile" EXACT [pubchem.compound:9549284]
@@ -2742,11 +2767,11 @@ id: CONSO:CONSO00261
 name: ST7612AA1
 namespace: chemical
 def: "A thiol derivative, pan-HDAC inhibitor" [pmid:27917100]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chembl:CHEMBL3353926
 xref: inchi:InChI=1S/C20H27N3O4S/c1-14\(24\)28-13-7-3-6-10-16\(19\(26\)21-15-8-4-2-5-9-15\)23-20\(27\)17-11-12-18\(25\)22-17/h2\,4-5\,8-9\,16-17H\,3\,6-7\,10-13H2\,1H3\,\(H\,21\,26\)\(H\,22\,25\)\(H\,23\,27\)/t16-\,17+/m0/s1
 xref: pubchem.compound:71538210
 xref: smiles:CC\(=O\)SCCCCC\[C@H\]\(NC\(=O\)\[C@H\]1CCC\(=O\)N1\)C\(=O\)Nc2ccccc2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "1428535-92-5" EXACT [pubchem.compound:71538210]
 synonym: "A14418" EXACT [pubchem.compound:71538210]
 synonym: "BDBM50027652" EXACT [pubchem.compound:71538210]
@@ -2761,51 +2786,51 @@ id: CONSO:CONSO00262
 name: Tau antibody, AGG5759
 namespace: antibody
 def: "Rabbit polyclonal antibody against tau pSer262, AstraZeneca" [pmid:23666762]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00263
 name: Tau epitope, AD2
 namespace: epitope
 def: "Tau epitope consisting of pThr396 and pSer404" [pmid:11943212]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau epitope
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00264
 name: Tau epitope, AP422
 namespace: epitope
 def: "Tau epitope consisting of pSer422" [pmid:11943212]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau epitope
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00265
 name: Tau epitope, AT100
 namespace: epitope
 def: "Tau epitope consisting of pSer212 and pThr214" [pmid:22833681]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau epitope
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00266
 name: Tau epitope, AT270
 namespace: epitope
 def: "Tau epitope consisting of pThr181" [pmid:11943212]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau epitope
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00267
 name: Thiamet G
 namespace: chemical
 def: "Inhibitor of O-GlcNAcase (OGA)" [pmid:22833681]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chembl:CHEMBL1213603
 xref: inchi:InChI=1S/C9H16N2O4S/c1-2-10-9-11-5-7\(14\)6\(13\)4\(3-12\)15-8\(5\)16-9/h4-8\,12-14H\,2-3H2\,1H3\,\(H\,10\,11\)/t4-\,5-\,6-\,7-\,8-/m1/s1
 xref: pubchem.compound:24808478
 xref: smiles:CCNC1=NC2C\(C\(C\(OC2S1\)CO\)O\)O
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(3aR)-2-(Ethylamino)-6beta,7alpha-dihydroxy-3aalpha,6,7,7aalpha-tetrahydro-5H-pyrano[3,2-d]thiazole-5alpha-methanol" EXACT [pubchem.compound:24808478]
 synonym: "(3aR,5R,6S,7R,7aR)-2-(Ethylamino)-3a,6,7,7a-tetrahydro-5-(hydroxymethyl)-5H-pyrano[3,2-d]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
 synonym: "(3aR,5R,6S,7R,7aR)-2-(ethylamino)-5-(hydroxymethyl)-3a,6,7,7a-tetrahydro-5H-pyrano[3,2-d]thiazole-6,7-diol" EXACT [pubchem.compound:24808478]
@@ -2855,23 +2880,23 @@ id: CONSO:CONSO00270
 name: Tubacin
 namespace: chemical
 def: "Inhibitor of HDAC6" [pmid:23487739]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:537049-40-4
 xref: chebi:CHEBI\:94166
 xref: inchi:InChI=1S/C41H43N3O7S/c45-26-28-17-19-29\(20-18-28\)35-25-34\(27-52-41-43-38\(30-11-5-3-6-12-30\)39\(51-41\)31-13-7-4-8-14-31\)49-40\(50-35\)32-21-23-33\(24-22-32\)42-36\(46\)15-9-1-2-10-16-37\(47\)44-48/h3-8\,11-14\,17-24\,34-35\,40\,45\,48H\,1-2\,9-10\,15-16\,25-27H2\,\(H\,42\,4
 xref: iupac:N1-\[4-\[\(2R\,4R\,6S\)-4-\[\[\(4\,5-diphenyl-2-oxazolyl\)thio\]methyl\]-6-\[4-\(hydroxymethyl\)phenyl\]-1\,3-dioxan-2-yl\]phenyl\]-N8-hydroxy-octanediamide
 xref: smiles:O=C\(CCCCCCC\(NO\)=O\)NC\(C=C1\)=CC=C1\[C@@H\]2O\[C@H\]\(C3=CC=C\(CO\)C=C3\)C\[C@H\]\(CSC4=NC\(C5=CC=CC=C5\)=C\(C6=CC=CC=C6\)O4\)O2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00271
 name: Tubastatin A
 namespace: chemical
 def: "Inhibitor of HDAC6 shown to also decrease tau hyperphosphorylation and Ab load" [pmid:24844691]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:1252003-15-8
 xref: chebi:CHEBI\:94186
 xref: inchi:InChI=1S/C20H21N3O2/c1-22-11-10-19-17\(13-22\)16-4-2-3-5-18\(16\)23\(19\)12-14-6-8-15\(9-7-14\)20\(24\)21-25/h2-9\,25H\,10-13H2\,1H3\,\(H\,21\,24\)
 xref: smiles:ONC\(C1=CC=C\(CN2C\(CCN\(C\)C3\)=C3C4=C2C=CC=C4\)C=C1\)=O
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00272
@@ -2885,26 +2910,26 @@ id: CONSO:CONSO00273
 name: cholinergic neuron
 namespace: anatomy
 def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." [pmid:29221819]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D059329
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00274
 name: cerebral cortex
 namespace: anatomy
 def: "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex." [pmid:29221819]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: mesh:D002540
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00275
 name: crebinostat
 namespace: chemical
 def: "Inhibitor of HDAC6" [pmid:25546293]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:1092061-61-4
 xref: inchi:InChI=1S/C20H23N3O3/c24-19\(9-5-2-6-10-20\(25\)23-26\)22-21-15-16-11-13-18\(14-12-16\)17-7-3-1-4-8-17/h1\,3-4\,7-8\,11-15\,26H\,2\,5-6\,9-10H2\,\(H\,22\,24\)\(H\,23\,25\)/b21-15+
 xref: smiles:C1=CC=CC\(=C1\)C2=CC=C\(C=C2\)C=NNC\(CCCCCC\(=O\)NO\)=O
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00276
@@ -2932,24 +2957,24 @@ id: CONSO:CONSO00279
 name: indirubin
 namespace: chemical
 def: "A powerful inhibitor of GSK3B" [pmid:11013232]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:479-41-4
 xref: chemspider:4477010
 xref: inchi:nChI=1S/C16H10N2O2/c19-15-10-6-2-4-8-12\(10\)17-14\(15\)13-9-5-1-3-7-11\(9\)18-16\(13\)20/h1-8\,17H\,\(H\,18\,20\)/b14-13-
 xref: smiles:c1ccc2c\(c1\)/C\(=C/3\\C\(=O\)c4ccccc4N3\)/C\(=O\)N2
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00280
 name: isocarboxazide
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:93635
 xref: chembl:CHEMBL1201168
 xref: drugbank:DB01247
 xref: inchi:InChI=1S/C12H13N3O2/c1-9-7-11\(15-17-9\)12\(16\)14-13-8-10-5-3-2-4-6-10/h2-7\,13H\,8H2\,1H3\,\(H\,14\,16\)
 xref: pubchem.compound:3759
 xref: smiles:CC1=CC\(=NO1\)C\(=O\)NNCC1=CC=CC=C1
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "1-Benzyl-2-(5-methyl-3-isoxazolyl-carbonyl)hydrazine" EXACT [pubchem.compound:3759]
 synonym: "1-Benzyl-2-(5-methyl-3-isoxazolylcarbonyl)hydrazine" EXACT [pubchem.compound:3759]
@@ -3067,12 +3092,12 @@ id: CONSO:CONSO00281
 name: isopentanyladenine
 namespace: chemical
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:17660
 xref: drugbank:DB08768
 xref: inchi:InChI=1S/C10H13N5/c1-7\(2\)3-4-11-9-8-10\(13-5-12-8\)15-6-14-9/h3\,5-6H\,4H2\,1-2H3\,\(H2\,11\,12\,13\,14\,15\)
 xref: pubchem.compound:92180
 xref: smiles:CC\(=CCNC1=NC=NC2=C1NC=N2\)C
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "(3-methyl-but-2-enyl)-(7(9)H-purin-6-yl)-amine" EXACT [pubchem.compound:92180]
 synonym: "(3-methylbut-2-enyl)purin-6-ylamine" EXACT [pubchem.compound:92180]
 synonym: "13255-47-5" EXACT [pubchem.compound:92180]
@@ -3202,13 +3227,13 @@ id: CONSO:CONSO00282
 name: maitotoxin
 namespace: chemical
 def: "Increases intracellular calcium levels, and induces the association of TGM2 with tau, positively affecting the activity of the former" [pmid:10537045]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:59392-53-9
 xref: chembl:ChEMBL2152261
 xref: chemspider:25991548
 xref: inchi:InChI=1S/C164H258O68S2.2Na/c1-24-26-65\(2\)68\(5\)41-74\(168\)117\(179\)85-33-36-152\(11\)106\(203-85\)55-109-162\(21\,231-152\)64-161\(20\)105\(210-109\)51-89-83\(220-161\)28-25-27-82-99\(199-89\)59-157\(16\)108\(202-82\)56-107-153\(12\,230-157\)39-38-151\(10\)112\(211-107\)61-158\(17\)111\(224-151\)54-101\(176\)163\(22\,232-158\)103-32-31-84-90\(204-103\)53-110-156\(15\,219-84\)62-113-150\(9\,223-110\)37-34-102-155\(14\,225-113\)63-114-164\(23\,227-102\)147\(192\)149-159\(18\,226-114\)58-81\(175\)134\(218-149\)133-79\(173\)47-93-136\(216-133\)120\(182\)119\(181\)92\(200-93\)44-72\(166\)43-76\(170\)131-77\(171\)46-94-137\(214-131\)122\(184\)124\(186\)143\(207-94\)145-126\(188\)125\(187\)144-146\(217-145\)128\(190\)139-97\(208-144\)50-88-87\(206-139\)49-96-138\(205-88\)127\(189\)141\(229-234\(196\,197\)198\)95\(201-96\)45-75\(169\)118\(180\)132-78\(172\)48-98-140\(215-132\)129\(191\)148-160\(19\,221-98\)60-100-91\(209-148\)52-104-154\(13\,222-100\)57-80\(174\)135-142\(212-104\)123\(185\)121\(183\)130\(213-135\)71\(8\)115\(177\)67\(4\)29-30-86\(228-233\(193\,194\)195\)116\(178\)69\(6\)42-73\(167\)70\(7\)66\(3\)35-40-165;;/h24-25\,28\,35\,65\,67-69\,71-149\,165-192H\,1\,7\,26-27\,29-34\,36-64H2\,2-6\,8-23H3\,\(H\,193\,194\,195\)\(H\,196\,197\,198\);;/q;2*+1/p-2/b28-25-\,66-35+;;/t65-\,67+\,68+\,69+\,71+\,72+\,73+\,74+\,75-\,76+\,77+\,78+\,79+\,80+\,81+\,82+\,83-\,84+\,85-\,86-\,87-\,88+\,89+\,90-\,91-\,92-\,93-\,94-\,95-\,96+\,97-\,98+\,99-\,100+\,101+\,102+\,103-\,104+\,105-\,106-\,107+\,108-\,109+\,110+\,111-\,112-\,113+\,114+\,115+\,116+\,117-\,118+\,119-\,120+\,121+\,122+\,123-\,124+\,125+\,126+\,127+\,128+\,129-\,130-\,131-\,132-\,133+\,134+\,135+\,136+\,137+\,138+\,139-\,140+\,141-\,142-\,143+\,144-\,145+\,146+\,147-\,148+\,149+\,150-\,151+\,152+\,153-\,154-\,155-\,156-\,157+\,158+\,159-\,160-\,161+\,162-\,163+\,164+;;/m0../s1
 xref: pubchem.compound:71460273
 xref: smiles:C\[C@H\]\(CC\[C@@H\]\(\[C@@H\]\(\[C@H\]\(C\)C\[C@H\]\(C\(=C\)/C\(=C/CO\)/C\)O\)O\)OS\(=O\)\(=O\)\[O-\]\)\[C@H\]\(\[C@@H\]\(C\)\[C@H\]1\[C@@H\]\(\[C@@H\]\(\[C@H\]2\[C@H\]\(O1\)\[C@@H\]\(C\[C@\]3\(\[C@H\]\(O2\)C\[C@H\]4\[C@H\]\(O3\)C\[C@\]5\(\[C@H\]\(O4\)\[C@H\]\(\[C@H\]6\[C@H\]\(O5\)C\[C@H\]\(\[C@H\]\(O6\)\[C@@H\]\(\[C@H\]\(C\[C@H\]7\[C@@H\]\(\[C@@H\]\(\[C@H\]8\[C@H\]\(O7\)C\[C@H\]9\[C@H\]\(O8\)C\[C@H\]1\[C@H\]\(O9\)\[C@H\]\(\[C@@H\]2\[C@@H\]\(O1\)\[C@@H\]\(\[C@H\]\(\[C@@H\]\(O2\)\[C@H\]1\[C@@H\]\(\[C@H\]\(\[C@H\]2\[C@@H\]\(O1\)C\[C@H\]\(\[C@@H\]\(O2\)\[C@@H\]\(C\[C@H\]\(C\[C@H\]1\[C@@H\]\(\[C@H\]\(\[C@H\]2\[C@@H\]\(O1\)C\[C@H\]\(\[C@@H\]\(O2\)\[C@H\]1\[C@@H\]\(C\[C@\]2\(\[C@H\]\(O1\)\[C@@H\]\(\[C@\]1\(\[C@H\]\(O2\)C\[C@\]2\(\[C@H\]\(O1\)CC\[C@\]1\(\[C@H\]\(O2\)C\[C@\]2\(\[C@H\]\(O1\)C\[C@H\]1\[C@H\]\(O2\)CC\[C@H\]\(O1\)\[C@\]1\(\[C@@H\]\(C\[C@H\]2\[C@\]\(O1\)\(C\[C@H\]1\[C@\]\(O2\)\(CC\[C@\]2\(\[C@H\]\(O1\)C\[C@H\]1\[C@\]\(O2\)\(C\[C@H\]2\[C@H\]\(O1\)C/C=C\\\[C@H\]1\[C@H\]\(O2\)C\[C@H\]2\[C@\]\(O1\)\(C\[C@\]1\(\[C@H\]\(O2\)C\[C@H\]2\[C@\]\(O1\)\(CC\[C@H\]\(O2\)\[C@H\]\(\[C@@H\]\(C\[C@@H\]\(C\)\[C@@H\]\(C\)CC=C\)O\)O\)C\)C\)C\)C\)C\)C\)C\)O\)C\)C\)C\)C\)C\)O\)C\)O\)O\)O\)O\)O\)O\)O\)O\)O\)O\)O\)O\)O\)OS\(=O\)\(=O\)\[O-\]\)O\)O\)O\)O\)C\)C\)O\)O\)O\)O.\[Na+\].\[Na+\]
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "9P59GES78D" EXACT [pubchem.compound:71460273]
 synonym: "CHEMBL2152261" EXACT [pubchem.compound:71460273]
 synonym: "HSDB 7753" EXACT [pubchem.compound:71460273]
@@ -3221,12 +3246,12 @@ id: CONSO:CONSO00283
 name: olomoucine
 namespace: chemical
 def: "Inhibitor of CKD5 activity" [pmid:8726973]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:44661
 xref: drugbank:DB02116
 xref: inchi:InChI=1S/C15H18N6O/c1-21-10-18-12-13\(17-9-11-5-3-2-4-6-11\)19-15\(16-7-8-22\)20-14\(12\)21/h2-6\,10\,22H\,7-9H2\,1H3\,\(H2\,16\,17\,19\,20\)
 xref: pubchem.compound:4592
 xref: smiles:CN1C=NC2=C1N=C\(NCCO\)N=C2NCC1=CC=CC=C1
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "101622-51-9" EXACT [pubchem.compound:4592]
 synonym: "1966AH" EXACT [pubchem.compound:4592]
 synonym: "1w0x" EXACT [pubchem.compound:4592]
@@ -3362,10 +3387,10 @@ id: CONSO:CONSO00284
 name: oxazolidinedione
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C3H3NO3/c5-2-1-7-3\(6\)4-2/h1H2\,\(H\,4\,5\,6\)
 xref: pubchem.compound:97389
 xref: smiles:C1C\(=O\)NC\(=O\)O1
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "1,3-oxazolidin-2,4-dione" EXACT [pubchem.compound:97389]
 synonym: "1,3-oxazolidine-2,4-dione" EXACT [pubchem.compound:97389]
@@ -3417,11 +3442,11 @@ id: CONSO:CONSO00285
 name: sudoxicam
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:34042-85-8
 xref: inchi:InChI=1S/C13H11N3O4S2/c1-16-10\(12\(18\)15-13-14-6-7-21-13\)11\(17\)8-4-2-3-5-9\(8\)22\(16\,19\)20/h2-7\,17H\,1H3\,\(H\,14\,15\,18\)
 xref: pubchem.compound:54682951
 xref: smiles:CN1C\(=C\(C2=CC=CC=C2S1\(=O\)=O\)O\)C\(=O\)NC3=NC=CS3
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 synonym: "(3E)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
 synonym: "(3Z)-3-[hydroxy-(1,3-thiazol-2-ylamino)methylidene]-2-methyl-1,1-dioxo-1" EXACT [pubchem.compound:54682951]
@@ -3475,11 +3500,11 @@ id: CONSO:CONSO00286
 name: thiohydantoin
 namespace: chemical
 def: "Inhibitor of tau aggregation" [pmid:26751493]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chembl:CHEMBL1958109
 xref: chemspider:1069421
 xref: inchi:InChI=1S/C3H4N2OS/c6-2-1-4-3\(7\)5-2/h1H2\,\(H2\,4\,5\,6\,7\)
 xref: smiles:O=C1CNC\(=S\)N1
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 relationship: has_role CONSO:CONSO00321 ! Tau aggregation inhibitor
 
 [Term]
@@ -3495,10 +3520,10 @@ id: CONSO:CONSO00288
 name: tideglusib
 namespace: chemical
 def: "Irreversibly inhibits GSK3B activity" [pmid:22102280]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: inchi:InChI=1S/C19H14N2O2S/c22-18-20\(13-14-7-2-1-3-8-14\)19\(23\)24-21\(18\)17-12-6-10-15-9-4-5-11-16\(15\)17/h1-12H\,13H2
 xref: pubchem.compound:11313622
 xref: smiles:O=C3SN\(c1cccc2c1cccc2\)C\(=O\)N3Cc4ccccc4
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 synonym: "1,2,4-Thiadiazolidine-3,5-dione, 2-(1-naphthalenyl)-4-(phenylmethyl)-" EXACT [pubchem.compound:11313622]
 synonym: "4-Benzyl-2-(naphthalen-1-yl)-1,2,4-thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
 synonym: "4-Benzyl-2-(naphthalen-1-yl)-[1,2,4]thiadiazolidine-3,5-dione" EXACT [pubchem.compound:11313622]
@@ -3553,16 +3578,16 @@ id: CONSO:CONSO00289
 name: Tau antibody, 6C5
 namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 125-131" [pmid:28408124]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00290
 name: Tau antibody, HT7
 namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 159-163" [pmid:28408124]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00291
@@ -3588,32 +3613,32 @@ id: CONSO:CONSO00294
 name: Tau antibody, 40E8
 namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 195-212 (pS202 and pT205)" [pmid:28408124]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00295
 name: Tau antibody, pS396
 namespace: antibody
 def: "rabbit polyclonal antibody that targets tau pS396" [pmid:28408124]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00296
 name: Tau antibody, 4E4
 namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 385-395" [pmid:28408124]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00297
 name: Tau antibody, Tau46
 namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 404-441" [pmid:28408124]
-relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
 
 [Term]
 id: CONSO:CONSO00298
@@ -3627,10 +3652,10 @@ id: CONSO:CONSO00299
 name: MPT0G211
 namespace: chemical
 def: "MPT0G211 is a novel potent, selective HDAC6 inhibitor with IC50 of 0.291 nM, displays >1,000-fold selectivity over other HDAC isoforms; significantly inhibits tau phosphorylation on Ser396, Ser404, and phosphorylated tau (p-tau) aggregation, significantly attenuates apoptosis induced by p-tau, inhibits HDAC6/Hsp90 binding and causes subsequent proteasomal degradation of polyubiquitinated proteins; ameliorates learning and memory impairment in animal models of Alzheimer's disease, reduces the amount of phosphorylated tau in the hippocampal CA1 region; also demonstrates antiproliferative activity against human multiple myeloma RPMI 8226, U266, and NCI-H929 cells with no effect on normal bone marrow cells." [pmid:29844403]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: cas:2151853-97-1
 xref: inchi:InChI=1S/C17H15N3O2/c21-17\(20-22\)14-8-6-12\(7-9-14\)11-19-15-5-1-3-13-4-2-10-18-16\(13\)15/h1-10\,19\,22H\,11H2\,\(H\,20\,21\)
 xref: smiles:C1=CC\(=CC=C1CNC2=CC=CC3=C2N=CC=C3\)C\(=O\)NC
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00300
@@ -3644,26 +3669,26 @@ id: CONSO:CONSO00301
 name: Tau antibody, TNT1
 namespace: antibody
 def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00302
 name: Tau antibody, TNT2
 namespace: antibody
 def: "Murine monoclonal IgG recognizing the phosphatase-activating domain (PAD) of tau" [pmid:27260838]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 is_a: CONSO:CONSO00307 ! Tau antibody
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00303
 name: 8-nitro-cGMP
 namespace: chemical
 def: "One of the major endogenus cGMP derivatives, a class of second messengers in the nitric oxide signalling pathway. It modifies the target protein's cysteine residues via a stable sulfide bond through the NO group of the guanine base, in a post translational modification also known as S-guanylation, a process involved in the regulation of the physiological roles of several important proteins. The S-guanylation of tau was shown to block the aggregation process and the subsequent formation of tau oligomers." [pmid:28213625, pmid:27601475]
-relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 xref: chebi:CHEBI\:136665
 xref: inchi:InChI=1S/C10H11N6O9P/c11-9-13-6-3\(7\(18\)14-9\)12-10\(16\(19\)20\)15\(6\)8-4\(17\)5-2\(24-8\)1-23-26\(21\,22\)25-5/h2\,4-5\,8\,17H\,1H2\,\(H\,21\,22\)\(H3\,11\,13\,14\,18\)/t2-\,4-\,5-\,8-/m1/s1
 xref: smiles:N1C\(=NC2=C\(N=C\(N2\[C@@H\]3O\[C@@H\]4COP\(O\[C@H\]4\[C@H\]3O\)\(=O\)O\)\[N+\]\(\[O-\]\)=O\)C1=O\)N
+relationship: author orcid:0000-0001-9661-5277 ! Kristian Kolpeja
 
 [Term]
 id: CONSO:CONSO00304
@@ -3705,11 +3730,11 @@ id: CONSO:CONSO00309
 name: S 24795
 namespace: chemical
 def: "A partial agonist at α7 nAChR" [pmid:18187166, pmid:18265960, pmid:18034231]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: chemspider:8063920
 xref: inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13\(16\)10-14\(17\)11-5-7-12\(15\)8-6-11;/h2-9H\,10H2\,1H3;1H/q+1;/p-1
 xref: pubchem.compound:9888248
 xref: smiles:C\[N+\]1=CC=CC=C1CC\(=O\)C2=CC=C\(C=C2\)Br.\[I-\]
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT []
 synonym: "2-[2-(4-Bromophenyl)-2-oxoethyl]-1-methylpyridinium iodide" EXACT [pubchem.compound:9888248]
 synonym: "2-[2-(4-bromophenyl)-2-oxoethyl]-1-methylpyridiniumiodide" EXACT [pubchem.compound:9888248]
@@ -3728,12 +3753,12 @@ id: CONSO:CONSO00310
 name: GTS-21
 namespace: chemical
 def: "GTS-21 is a derivative of the natural product anabaseine that acts as a partial agonist at neural nicotinic acetylcholine receptors. It binds to both the α4β2 and α7 subtypes, but activates only the α7 to any significant extent." [pmid:25514383]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: chemspider:4470526
 xref: drugbank:DB05708
 xref: inchi:InChI=1S/C19H20N2O2/c1-22-17-8-7-14\(18\(12-17\)23-2\)11-15-5-4-10-21-19\(15\)16-6-3-9-20-13-16/h3\,6-9\,11-13H\,4-5\,10H2\,1-2H3/b15-11+
 xref: pubchem.compound:5310985
 xref: smiles:\[H\]\\C\(=C1\\CCCN=C1C1=CN=CC=C1\)C1=C\(OC\)C=C\(OC\)C=C1
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 synonym: "(3E)-3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine" EXACT [pubchem.compound:5310985]
 synonym: "(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-3,4,5,6-TETRAHYDRO-2,3''-BIPYRIDINE" EXACT [pubchem.compound:5310985]
 synonym: "(3e)-3-[(2,4-Dimethoxyphenyl)methylidene]-3,4,5,6-Tetrahydro-2,3'-Bipyridine" EXACT [pubchem.compound:5310985]
@@ -3848,10 +3873,10 @@ id: CONSO:CONSO00319
 name: 4-OH-GTS-21
 namespace: chemical
 def: "A metabolic product of GTS-21 (HBP:CONSO00310) in which the methoxy at the 4-position has been cleaved to leave a hydroxyl" [pmid:25514383]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: inchi:InChI=1S/C18H18N2O2/c1-22-17-11-16\(21\)7-6-13\(17\)10-14-4-3-9-20-18\(14\)15-5-2-8-19-12-15/h2\,5-8\,10-12\,21H\,3-4\,9H2\,1H3/b14-10+
 xref: mesh:C116666
 xref: smiles:COC1=C\(C=CC\(=C1\)O\)C=C2CCCN=C2C3=CC=CN=C3
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 synonym: "3-(4-hydroxy-2-methoxybenzylidene) anabaseine" EXACT [pmid:25514383]
 synonym: "3-(4-hydroxy-2-methoxybenzylidene)anabaseine" EXACT [pmid:25514383]
 synonym: "4OH-GTS-21" EXACT [mesh:C116666]
@@ -3868,18 +3893,18 @@ id: CONSO:CONSO00321
 name: Tau aggregation inhibitor
 namespace: chemical_role
 def: "A chemical that inhibits the aggregation of the Tau protein (HGNC:MAPT) as form paired helical fragments (PHFs), straight filaments (SFs), oligomers, and larger aggregates" [pmid:23484434]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: chebi:CHEBI\:142738
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 
 [Term]
 id: CONSO:CONSO00322
 name: 1,3-Thiazole-2,4-diamine
 namespace: chemical
 def: "A thiazole with two amino substituents" [pmid:21353545, pmid:20524425, pmid:11148059]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: inchi:InChI=1S/C3H5N3S/c4-2-1-7-3\(5\)6-2/h1H\,4H2\,\(H2\,5\,6\)
 xref: pubchem.compound:118995
 xref: smiles:C1=C\(N=C\(S1\)N\)N
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 synonym: "1,3-thiazole-2,4-diamine" EXACT [pubchem.compound:118995]
 synonym: "2,4-thiazolediamine" EXACT [pubchem.compound:118995]
 synonym: "67355-26-4" EXACT [pubchem.compound:118995]
@@ -3913,9 +3938,9 @@ id: CONSO:CONSO00323
 name: Autosomal Dominant Nocturnal Frontal Lobe Epilepsy
 namespace: pathology
 def: "Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE) is a genetic form of epilepsy that is caused by mutations in several genes, including genes encoding for the α4 and β2 subunits of the nicotinic acetylcholine (nACh) receptor" [pmid:30472464]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: doid:DOID\:0060681
 xref: mesh:C579932
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
 id: CONSO:CONSO00324
@@ -3936,9 +3961,9 @@ id: CONSO:CONSO00326
 name: B-973
 namespace: chemical
 def: "Here we report the discovery and characterization of 3-(3,4-difluorophenyl)-N-(1-(6-(4-(pyridin-2-yl)piperazin-1-yl)pyrazin-2-yl)ethyl)propanamide (B-973), a piperazine containing α7 type II PAM" [pmid:28132910]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: inchi:InChI=1S/C24H26F2N6O/c1-17\(29-24\(33\)8-6-18-5-7-19\(25\)20\(26\)14-18\)21-15-27-16-23\(30-21\)32-12-10-31\(11-13-32\)22-4-2-3-9-28-22/h2-5\,7\,9\,14-17H\,6\,8\,10-13H2\,1H3\,\(H\,29\,33\)/t17-/m0/s1
 xref: smiles:C1=C\(C\(=CC=C1CCC\(N\[C@H\]\(C2=CN=CC\(=N2\)N3CCN\(CC3\)C4=NC=CC=C4\)C\)=O\)F\)F
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 
 [Term]
 id: CONSO:CONSO00327
@@ -3973,12 +3998,12 @@ id: CONSO:CONSO00331
 name: OSW-1
 namespace: chemical
 def: "A novel cholestane glycoside called OSW-1 (3b, 16b, 17a-trihydroxycholest-5-en-22-one 16-O-(2-O-4-methoxybenzoyl-bD-xylopyranosyl) - (1?3) -(2-O-acetyl-a-L-arabinopyranoside)) was recently isolated from Ornithogalum saundersiae (Kubo et al., 1992) and has been found to have a potent growth inhibitory activity on a human tumour cell line" [pmid:9283720]
-relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 xref: chebml:CHEMBL375269
 xref: inchi:InChI=1S/C47H68O15/c1-24\(2\)8-15-34\(50\)25\(3\)47\(55\)37\(21-33-31-14-11-28-20-29\(49\)16-18-45\(28\,5\)32\(31\)17-19-46\(33\,47\)6\)60-44-41\(59-26\(4\)48\)39\(36\(52\)23-58-44\)62-43-40\(38\(53\)35\(51\)22-57-43\)61-42\(54\)27-9-12-30\(56-7\)13-10-27/h9-13\,24-25\,29\,31-33\,35-41\,43-44\,49\,51-53\,55H\,8\,14-23H2\,1-7H3/t25-\,29+\,31-\,32+\,33+\,35-\,36+\,37+\,38+\,39+\,40-\,41-\,43+\,44+\,45+\,46+\,47-/m1/s1
 xref: mesh:C106408
 xref: pubchem.compound:9854230
 xref: smiles:COc1ccc\(cc1\)C\(=O\)O\[C@@H\]2\[C@@H\]\(O\)\[C@H\]\(O\)CO\[C@H\]2O\[C@H\]3\[C@@H\]\(O\)CO\[C@@H\]\(O\[C@H\]4C\[C@H\]5\[C@@H\]6CC=C7C\[C@@H\]\(O\)CC\[C@\]7\(C\)\[C@H\]6CC\[C@\]5\(C\)\[C@@\]4\(O\)\[C@H\]\(C\)C\(=O\)CCC\(C\)C\)\[C@@H\]3OC\(=O\)C
+relationship: author orcid:0000-0002-6117-4413 ! Sandra Spalek
 synonym: "145075-81-6" EXACT [pubchem.compound:9854230]
 synonym: "CHEMBL375269" EXACT [pubchem.compound:9854230]
 synonym: "CS-0020992" EXACT [pubchem.compound:9854230]
@@ -4055,8 +4080,8 @@ id: CONSO:CONSO00341
 name: Proteostasis
 namespace: biological_process
 def: "Regulation of the concentration, folding, interactions, and cellular localization of each of the proteins that comprise the proteome" [pmid:29127110]
-relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: mesh:D000074702
+relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
 id: CONSO:CONSO00342
@@ -4113,18 +4138,18 @@ id: CONSO:CONSO00349
 name: AG18051
 namespace: chemical
 def: "ABAD inhibitor" [pmid:22174920]
-relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: inchi:InChI=1S/C19H21N5OS/c25-18\(23-10-6-1-2-7-11-23\)16\(14-8-4-3-5-9-14\)24-13-20-17-15\(19\(24\)26\)12-21-22-17/h3-5\,8-9\,12-13\,16H\,1-2\,6-7\,10-11H2\,\(H\,21\,22\)
 xref: smiles:C1=N\[N\]C2=C1C\(=S\)N\(C=N2\)C\(C\(=O\)C3CCCCCC3\)C4=CC=CC=C4
+relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
 id: CONSO:CONSO00350
 name: RM-532-46
 namespace: chemical
 def: "ABAD inhibitor" [pmid:22674910]
-relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: inchi:InChI=1S/C30H44N2O3/c1-35-23-4-2-3-21\(17-23\)19-31-13-15-32\(16-14-31\)20-30\(34\)12-11-24-22\(18-30\)5-6-26-25\(24\)7-8-28-27\(26\)9-10-29\(28\)33/h2-4\,17\,22\,24-28\,34H\,5-16\,18-20H2\,1H3/t22-\,24-\,25+\,26+\,27-\,28-\,30+/m0/s1
 xref: smiles:C1\[C@H\]4\[C@H\]\(C\[C@\]\(C1\)\(CN2CCN\(CC2\)CC3=CC\(=CC=C3\)OC\)O\)CC\[C@@H\]5\[C@@H\]4CC\[C@H\]6\[C@H\]5CCC6=O
+relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 
 [Term]
 id: CONSO:CONSO00351
@@ -4138,9 +4163,9 @@ id: CONSO:CONSO00352
 name: Mini-Mental Status Exam
 namespace: clinical_measurement
 def: "A standardized and structured interview originally developed by Marshal Folstein, Susan Folstein and Paul McHugh (Journal of Psychiatric Research, 1975), which is used to evaluate an individual's cognitive function." [ncit:C74982]
-relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 xref: ncit:C74982
 xref: umls:C0451306
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
 synonym: "Folstein Mini-Mental Status Exam" EXACT [ncit:C74982]
 synonym: "MMS1" EXACT [ncit:C74982]
 synonym: "MMSE" EXACT [ncit:C74982]
@@ -4152,9 +4177,9 @@ id: CONSO:CONSO00353
 name: GLAP
 namespace: chemical
 def: "glyceraldehyde-derived pyridinium-type advanced glycation end product (AGE), formed by glyceraldehyde-related glycation" [pmid:25582325, pmid:17284838]
-relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 xref: inchi:InChI=1S/C12H18N2O4/c13-4-2-1-3-11\(12\(17\)18\)14-6-9\(8-15\)5-10\(16\)7-14/h5-7\,11\,15H\,1-4\,8\,13H2\,\(H-\,16\,17\,18\)/t11-/m0/s1
 xref: smiles:NCCCC\[C@@H\]\(C\(=O\)O\)\[N+\]1=CC\(=CC\(=C1\)\[O-\]\)CO
+relationship: author orcid:0000-0002-7128-929X ! Esther Wollert
 synonym: "1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium" EXACT [pmid:12784645]
 synonym: "Glyceraldehyde derived Pyridinium compound" EXACT [pmid:12784645]
 synonym: "Glyceraldehyde-derived Pyridinium compound" EXACT [pmid:12784645]
@@ -4208,6 +4233,14 @@ id: CONSO:CONSO00360
 name: Clonal Expansion
 namespace: pathology
 def: "Multiplication or reproduction by cell division of a population of identical cells descended from a single progenitor. In immunology, may refer to the clonal proliferation of cells responsive to a specific antigen as part of an immune response." [pmid:27794524]
-relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 xref: ncit:C20613
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 
+[Term]
+id: CONSO:CONSO00361
+name: CDR - Sum of Boxes
+namespace: clinical_measurement
+def: "Clinical Dementia Rating (CDR) Sum of Boxes" [pmid:25468261, pmid:23626081, pmid:27084223]
+xref: ncit:C113880
+xref: umls:C3827230
+relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt

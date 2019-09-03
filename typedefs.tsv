@@ -1,0 +1,8 @@
+Identifier	Name	Namespace	Xrefs	Transitive	Comment
+bel	term has BEL term			false	A formulation for a term in Biological Expression language
+part_of	part of	external	BFO:0000050	true	One term is part of another
+author	term has author			false	A term has an author with the given ORCID identifier
+has_reference_protein	protein isoform term has reference protein			false	A link between a protein isoform and its reference protein
+has_role	has role	external	RO:0000087	false	A link between a chemical and its role
+inhibitor	inhibitor	external	CHEBI:35222	false	A substance that diminishes the rate of a chemical reaction.
+agonist	agonist	external	CHEBI:48705	false	Substance which binds to cell receptors normally responding to naturally occurring substances and which produces a response of its own.

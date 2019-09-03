@@ -2,8 +2,8 @@
 Keyword=CONSO
 NameString=Curation of Neurodegeneration Supporting Ontology
 DomainString=Other
-VersionString=20190801
-CreatedDateTime=2019-08-01T14:42:19
+VersionString=20190903
+CreatedDateTime=2019-09-03T12:09:30
 DescriptionString=The Curation of Neurodegeneration Supporting Ontology (CONSO) contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at least has a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -71,6 +71,7 @@ CA3 field of hippocampus|A
 CA4 field of hippocampus|A
 CAG repeats|P
 CDK5R1 p25|PRG
+CDR - Sum of Boxes|A
 CGP3466B|A
 CK1 superfamily|P
 CLR01|PRG

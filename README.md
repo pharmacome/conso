@@ -31,6 +31,18 @@ classes of entities in CONSO:
 1. Class
 2. BEL Encodings
 
+### typedefs.tsv
+
+This tab-separated values file contains a six columns describing
+relationships used in CONSO:
+
+1. Identifier
+2. Name
+3. Namespace (optional)
+4. Xrefs (namespace prefixed, comma separated)
+5. Transitive (true or false)
+6. Comment
+
 ### terms.tsv
 
 This tab-separated values file contains four columns describing
