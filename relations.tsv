@@ -65,6 +65,7 @@ CONSO	CONSO00285	sudoxicam	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00286	thiohydantoin	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00287	thioxooxazolidine	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00289	Tau antibody, 6C5	is_a	CONSO	CONSO00307	Tau antibody
+CONSO	CONSO00289	Tau antibody, 6C5	antibody_has_target	HGNC	6893	MAPT
 CONSO	CONSO00290	Tau antibody, HT7	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00294	Tau antibody, 40E8	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00295	Tau antibody, pS396	is_a	CONSO	CONSO00307	Tau antibody
