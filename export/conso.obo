@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:09:2019 14:21
+date: 25:09:2019 15:37
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -4261,4 +4261,13 @@ namespace: antibody
 def: "recombinant mouse antibody specifc to MAPT" [pmid:4255369, pmid:25478017]
 xref: pdb:4OZ4
 xref: url:https\://www.creativebiolabs.net/Anti-Tau-Antibody-24886.htm
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+
+[Term]
+id: CONSO:CONSO00364
+name: MN423
+namespace: antibody
+def: "recombinant mouse antibody binding to PHF core of MAPT" [pmid:4255369, pmid:25478017]
+xref: pdb:2V17
+xref: url:https\://www.creativebiolabs.net/Anti-PHF-core-Antibody-24396.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
