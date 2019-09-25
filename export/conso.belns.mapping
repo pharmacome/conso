@@ -357,5 +357,7 @@
   "CONSO00358": "TDP-43 oligomers",
   "CONSO00359": "TDP-43 aggregates",
   "CONSO00360": "Clonal Expansion",
-  "CONSO00361": "CDR - Sum of Boxes"
+  "CONSO00361": "CDR - Sum of Boxes",
+  "CONSO00362": "Tau antibody, MC1",
+  "CONSO00363": "DC8E8"
 }
