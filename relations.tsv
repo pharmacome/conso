@@ -76,4 +76,5 @@ CONSO	CONSO00319	4-OH-GTS-21	metabolite_of	CONSO	CONSO00310	GTS-21
 CONSO	CONSO00321	Tau aggregation inhibitor	decreases	CONSO	CONSO00006	Tau aggregates
 CONSO	CONSO00354	Tau 6D	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00355	Tau 6P	has_reference_protein	uniprot	P10636	TAU_HUMAN
+CONSO	CONSO00363	DC8E8	has_antibody_target	MGI	MGI:97180	Mapt
 MESH	D000544	Alzheimer Disease	is_a	CONSO	CONSO00234	4R tauopathy
