@@ -77,3 +77,4 @@ CONSO	CONSO00321	Tau aggregation inhibitor	decreases	CONSO	CONSO00006	Tau aggreg
 CONSO	CONSO00354	Tau 6D	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00355	Tau 6P	has_reference_protein	uniprot	P10636	TAU_HUMAN
 MESH	D000544	Alzheimer Disease	is_a	CONSO	CONSO00234	4R tauopathy
+CONSO	CONSO00363	DC8E8	antibody_has_target	CONSO	CONSO00307	Tau antibody
