@@ -2,8 +2,8 @@
 Keyword=CONSO
 NameString=Curation of Neurodegeneration Supporting Ontology
 DomainString=Other
-VersionString=20190925
-CreatedDateTime=2019-09-25T15:37:50
+VersionString=20190927
+CreatedDateTime=2019-09-27T14:42:30
 DescriptionString=The Curation of Neurodegeneration Supporting Ontology (CONSO) contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at least has a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -84,6 +84,7 @@ Corticobasal Degeneration|O
 D6S253|A
 D6S305|A
 DAPK, basic loop (BL) motif|P
+DC11|A
 DC8E8|A
 Dopaminergic cell groups|A
 E1 domain|P
