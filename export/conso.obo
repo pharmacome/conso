@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:09:2019 12:12
+date: 27:09:2019 12:50
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -1327,6 +1327,7 @@ relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 [Term]
 id: CONSO:CONSO00134
 name: non-shivering thermogenesis
+namespace: biological_process
 def: "Nonshivering thermogenesis was originally defined as a cold-induced increase in heat production not associated with the muscle activity of shivering. Recent research shows it to be a metabolic process located primarily in brown adipose tissue and controlled by the activity of the sympathetic nervous supply of this tissue.PMID: 6722594" [pmid:16224498]
 relationship: author orcid:0000-0002-0303-8616 ! Lingling Xu
 
@@ -4244,3 +4245,32 @@ def: "Clinical Dementia Rating (CDR) Sum of Boxes" [pmid:25468261, pmid:23626081
 xref: ncit:C113880
 xref: umls:C3827230
 relationship: author orcid:0000-0003-4423-4370 ! Charles Tapley Hoyt
+
+[Term]
+id: CONSO:CONSO00362
+name: Tau antibody, MC1
+namespace: antibody
+def: "mouse monoclonal antibody specific to tau epitopes within 312 to 322 amino acid" [pmid:28148553, pmid:23638068, pmid:21841002]
+xref: antibodyregistry:AB_2314773
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+
+[Term]
+id: CONSO:CONSO00363
+name: RGFP136
+namespace: chemical
+def: "HDAC3 inhibitor" [pmid:23356410, pmid:21228185]
+xref: inchi:InChI=1S/C20H24FN3O2/c1-14-6-8-15\(9-7-14\)20\(26\)23-12-4-2-3-5-19\(25\)24-18-11-10-16\(21\)13-17\(18\)22/h6-11\,13H\,2-5\,12\,22H2\,1H3\,\(H\,23\,26\)\(H\,24\,25\)
+xref: mesh:C556032
+xref: smiles:NC1=C\(C=CC\(=C1\)F\)NC\(CCCCCNC\(C1=CC=C\(C=C1\)C\)=O\)=O
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+relationship: has_role CONSO:CONSO00364 ! HDAC-3 inhibitor
+synonym: "N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide" EXACT [mesh:C556032]
+synonym: "RGFP 136" EXACT [mesh:C556032]
+synonym: "RGFP-136" EXACT [mesh:C556032]
+
+[Term]
+id: CONSO:CONSO00364
+name: HDAC3 inhibitor
+namespace: chemical_role
+def: "Compounds that inhibit Histone Deactelylase 3(HDAC-3)" [pmid:23356410, pmid:21228185]
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
