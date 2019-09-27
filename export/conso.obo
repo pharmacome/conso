@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:09:2019 15:37
+date: 27:09:2019 14:42
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -51,6 +51,12 @@ name: agonist
 namespace: external
 comment: Substance which binds to cell receptors normally responding to naturally occurring substances and which produces a response of its own.
 xref: CHEBI:48705
+is_transitive: false
+
+[Typedef]
+id: has_antibody_target
+name: Antibody has target protein
+comment: Links an antibody to its target.
 is_transitive: false
 
 [Term]
@@ -3581,6 +3587,7 @@ namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 125-131" [pmid:28408124]
 is_a: CONSO:CONSO00307 ! Tau antibody
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
+relationship: has_antibody_target HGNC:6893 ! MAPT
 
 [Term]
 id: CONSO:CONSO00290
@@ -3632,6 +3639,7 @@ namespace: antibody
 def: "human monoclonal antibody that targets tau epitope 385-395" [pmid:28408124]
 is_a: CONSO:CONSO00307 ! Tau antibody
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
+relationship: has_antibody_target HGNC:6893 ! MAPT
 
 [Term]
 id: CONSO:CONSO00297
@@ -3640,6 +3648,7 @@ namespace: antibody
 def: "mouse monoclonal antibody that targets tau epitope 404-441" [pmid:28408124]
 is_a: CONSO:CONSO00307 ! Tau antibody
 relationship: author orcid:0000-0002-3034-9970 ! Rana Aldisi
+relationship: has_antibody_target MGI:97180 ! Mapt
 
 [Term]
 id: CONSO:CONSO00298
@@ -4262,12 +4271,21 @@ def: "recombinant mouse antibody specifc to MAPT" [pmid:4255369, pmid:25478017]
 xref: pdb:4OZ4
 xref: url:https\://www.creativebiolabs.net/Anti-Tau-Antibody-24886.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+relationship: has_antibody_target MGI:97180 ! Mapt
 
 [Term]
 id: CONSO:CONSO00364
+name: DC11
+namespace: antibody
+def: "monoclonal mouse antibody specifc to MAPT" [pmid:4255369, pmid:12544837]
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+
+[Term]
+id: CONSO:CONSO00365
 name: MN423
 namespace: antibody
 def: "recombinant mouse antibody binding to PHF core of MAPT" [pmid:4255369, pmid:25478017]
 xref: pdb:2V17
 xref: url:https\://www.creativebiolabs.net/Anti-PHF-core-Antibody-24396.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+relationship: has_antibody_target MGI:97180 ! Mapt
