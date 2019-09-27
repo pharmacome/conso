@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:09:2019 14:28
+date: 27:09:2019 14:44
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -4272,3 +4272,10 @@ xref: pdb:4OZ4
 xref: url:https\://www.creativebiolabs.net/Anti-Tau-Antibody-24886.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 relationship: has_antibody_target MGI:97180 ! Mapt
+
+[Term]
+id: CONSO:CONSO00364
+name: DC11
+namespace: antibody
+def: "monoclonal mouse antibody specifc to MAPT" [pmid:4255369, pmid:12544837]
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
