@@ -633,8 +633,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC20"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurodegeneration is the progressive loss of structure or function of neurons, including death of neurons. Many neurodegenerative diseases – including amyotrophic lateral sclerosis, Parkinson's disease, Alzheimer's disease, and Huntington's disease – occur as a result of neurodegenerative processes.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurodegeneration</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12387894</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20202123</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12387894</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hp:HP:0002180</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-0303-8616</author>
 </owl:Class>
@@ -821,8 +821,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pretangles are cytoplasmic tau immunoreactivity in neurons without apparent formation of fibrillary structures. In Alzheimer disease, such tau deposition is considered to represent a premature state prior to fibril formation (AD-pretangles), later to form neurofibrillary tangles and finally ghost tangles.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pretangles</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24612177</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23407988</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:24612177</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -1259,8 +1259,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC19"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conserved Tau phosphorylation motif. Part of the microtubule-binding region, phosphorylation of the serine in these motifs disrupts tau binding to the MT and serves to regulate tau-mediated MT assembly</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KXGS motif</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17304350</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21215781</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17304350</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -1276,8 +1276,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Component of NFT, consisting in a helical arrangement of tau protomers</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired helical filaments</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22496370</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:1706519</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22496370</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -1285,8 +1285,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Component of NFT and ultrastructural polymorph of PHFs, with an assymetrical arrangement of the tau protomers</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straight filaments</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28678775</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:16566606</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -1871,8 +1871,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC7"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125 is a proprietary small molecule that preferentially binds altered FLNA and restores its native conformation, restoring receptor and synaptic activities and reducing its alpha7nAChR/TLR4 associations and downstream pathologies</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTI-125</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28438486</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:22815492</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28438486</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-6117-4413</author>
 </owl:Class>
 
@@ -1912,10 +1912,10 @@
   <rdfs:subClassOf rdf:resource="#CONSOC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregates of proteins or fragments of proteins</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein aggregates</rdfs:label>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23484434</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12747895</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23254192</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D066329</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sbo:SBO:0000543</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0003-4423-4370</author>
@@ -1951,8 +1951,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC4"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autocatalytic cysteine-mediated acetylation of Lys residues in the MTBR upon incubation of tau proteins with acetyl-CoA, possible even in absence of enzymatic activity.This activity may be suppressed when tau is bound to tubulin or MTs, but activated upon tau dissociation during pathological conditions that abrogate tau-MT interactions, thus allowing acetyl-CoA accessibility to free tau cysteines.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystein-dependent auto-acetylation</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27383765</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28002468</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27383765</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -2098,8 +2098,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC24"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kappa-Bungarotoxin, a snake venom kappa-neurotoxin, is a potent neuronal nicotinic receptor antagonist (pmid:3359187)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kappa-Bungarotoxin</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:3359187</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21787755</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:3359187</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:P01398</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7128-929X</author>
 </owl:Class>
@@ -2358,8 +2358,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC25"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The catalytic core of the 26 S proteasome system, responsible for tau degradation</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 S Proteasome</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17954934</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19145068</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17954934</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -2427,8 +2427,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC22"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A peptide with sequence:GFPLKRHDGVDDLSKVG, originally synthesized by Helicobacter Pylori acting as a specific MARK kinase inhibitor, decreasing tau phosphorylation</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CagA peptide</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19966800</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:19966800</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -4034,8 +4034,8 @@
   <rdfs:subClassOf rdf:resource="#CONSOC24"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cis conformation of phosphorylated tau is considered to be the main pathogenic tau agent associated with AD neurological impairments. PIN1, a peptidyl-prolyl-cis-transe isomerase, catalizes the rotation of the peptidic bond directly before proline residues inducing a conversion toward the trans conformation, therefore reducing the presence of the pathogenic cis tau isomers.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cis p-tau</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23157676</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25628064</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23157676</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -4115,10 +4115,10 @@
   <rdfs:subClassOf rdf:resource="#CONSOC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0003-4423-4370</author>
 </owl:Class>
 
@@ -4126,10 +4126,10 @@
   <rdfs:subClassOf rdf:resource="#CONSOC14"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0003-4423-4370</author>
 </owl:Class>
 
@@ -4349,9 +4349,9 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z5019</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC15863137</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaminothiazole</skos:altLabel>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21353545</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:11148059</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20524425</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21353545</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C3H5N3S/c4-2-1-7-3(5)6-2/h1H,4H2,(H2,5,6)</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:118995</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:C1=C(N=C(S1)N)N</skos:related>
@@ -4635,8 +4635,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde derived Pyridinium compound</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-derived Pyridinium compound</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25582325</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:17284838</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25582325</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C12H18N2O4/c13-4-2-1-3-11(12(17)18)14-6-9(8-15)5-10(16)7-14/h5-7,11,15H,1-4,8,13H2,(H-,16,17,18)/t11-/m0/s1</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:NCCCC[C@@H](C(=O)O)[N+]1=CC(=CC(=C1)[O-])CO</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7128-929X</author>
@@ -4705,9 +4705,9 @@
   <rdfs:subClassOf rdf:resource="#CONSOC11"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Dementia Rating (CDR) Sum of Boxes</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR - Sum of Boxes</rdfs:label>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25468261</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23626081</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27084223</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25468261</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncit:C113880</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">umls:C3827230</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0003-4423-4370</author>
@@ -4752,6 +4752,15 @@
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25478017</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pdb:2V17</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.creativebiolabs.net/Anti-PHF-core-Antibody-24396.htm</skos:related>
+  <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
+</owl:Class>
+
+<owl:Class rdf:about="#CONSO00366">
+  <rdfs:subClassOf rdf:resource="#CONSOC2"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active vaccine eliciting an immune response against pathologically modified forms of tau protein</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AADvac1</rdfs:label>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25478017</skos:related>
+  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.alzforum.org/therapeutics/aadvac1</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
 </owl:Class>
 
