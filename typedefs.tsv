@@ -6,3 +6,4 @@ has_reference_protein	protein isoform term has reference protein			false	A link 
 has_role	has role	external	RO:0000087	false	A link between a chemical and its role
 inhibitor	inhibitor	external	CHEBI:35222	false	A substance that diminishes the rate of a chemical reaction.
 agonist	agonist	external	CHEBI:48705	false	Substance which binds to cell receptors normally responding to naturally occurring substances and which produces a response of its own.
+has_antibody_target	Antibody has target protein			false	Links an antibody to its target.

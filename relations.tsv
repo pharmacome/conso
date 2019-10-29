@@ -64,11 +64,14 @@ CONSO	CONSO00284	oxazolidinedione	has_role	CONSO	CONSO00321	Tau aggregation inhi
 CONSO	CONSO00285	sudoxicam	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00286	thiohydantoin	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
 CONSO	CONSO00287	thioxooxazolidine	has_role	CONSO	CONSO00321	Tau aggregation inhibitor
+CONSO	CONSO00289	Tau antibody, 6C5	has_antibody_target	HGNC	6893	MAPT
 CONSO	CONSO00289	Tau antibody, 6C5	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00290	Tau antibody, HT7	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00294	Tau antibody, 40E8	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00295	Tau antibody, pS396	is_a	CONSO	CONSO00307	Tau antibody
+CONSO	CONSO00296	Tau antibody, 4E4	has_antibody_target	HGNC	6893	MAPT
 CONSO	CONSO00296	Tau antibody, 4E4	is_a	CONSO	CONSO00307	Tau antibody
+CONSO	CONSO00297	Tau antibody, Tau46	has_antibody_target	MGI	MGI:97180	Mapt
 CONSO	CONSO00297	Tau antibody, Tau46	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00301	Tau antibody, TNT1	is_a	CONSO	CONSO00307	Tau antibody
 CONSO	CONSO00302	Tau antibody, TNT2	is_a	CONSO	CONSO00307	Tau antibody
@@ -76,5 +79,12 @@ CONSO	CONSO00319	4-OH-GTS-21	metabolite_of	CONSO	CONSO00310	GTS-21
 CONSO	CONSO00321	Tau aggregation inhibitor	decreases	CONSO	CONSO00006	Tau aggregates
 CONSO	CONSO00354	Tau 6D	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00355	Tau 6P	has_reference_protein	uniprot	P10636	TAU_HUMAN
+<<<<<<< HEAD
 CONSO	CONSO00363	 RGFP136	has_role	CONSO	CONSO00364	HDAC-3 inhibitor
 MESH	D000544	Alzheimer Disease	is_a	CONSO	CONSO00234	4R tauopathy
+=======
+CONSO	CONSO00363	DC8E8	has_antibody_target	MGI	MGI:97180	Mapt
+CONSO	CONSO00365	MN423	has_antibody_target	MGI	MGI:97180	Mapt
+MESH	D000544	Alzheimer Disease	is_a	CONSO	CONSO00234	4R tauopathy
+CONSO	CONSO00366	 RGFP136	has_role	CONSO	CONSO00367	HDAC-3 inhibitor
+>>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f

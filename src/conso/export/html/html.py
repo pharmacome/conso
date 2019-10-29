@@ -11,13 +11,14 @@ from jinja2 import Environment, FileSystemLoader
 
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
-ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir, os.pardir)
+ROOT = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, os.pardir, os.pardir))
 
-CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
-TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
-SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
-XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
-RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
+AUTHORS_PATH = os.path.join(ROOT, 'authors.tsv')
+CLASSES_PATH = os.path.join(ROOT, 'classes.tsv')
+TERMS_PATH = os.path.join(ROOT, 'terms.tsv')
+SYNONYMS_PATH = os.path.join(ROOT, 'synonyms.tsv')
+XREFS_PATH = os.path.join(ROOT, 'xrefs.tsv')
+RELATIONS_PATH = os.path.join(ROOT, 'relations.tsv')
 
 OUTPUT_DIRECTORY = os.path.join(ROOT, 'docs')
 
@@ -34,8 +35,16 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     :param directory: The output directory where the html goes.
     :param debug_links: If true, uses links directly to index files instead of by folder.
     """
+    authors_to_name, author_to_orcid = {}, {}
+    for key, author, orcid in pd.read_csv(AUTHORS_PATH, sep='\t').values:
+        authors_to_name[key] = author
+        author_to_orcid[key] = orcid
+
     terms_df = pd.read_csv(TERMS_PATH, sep='\t')
     terms_df = terms_df[terms_df.Name != 'WITHDRAWN']
+
+    terms_df['author_name'] = terms_df['Author'].map(authors_to_name.get)
+    terms_df['author_orcid'] = terms_df['Author'].map(author_to_orcid.get)
 
     synonyms = defaultdict(list)
     for _, row in pd.read_csv(SYNONYMS_PATH, sep='\t').iterrows():

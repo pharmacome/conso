@@ -23,7 +23,21 @@
             <dt>Type</dt>
             <dd>{{ row.Type }}</dd>
             <dt>Author</dt>
-            <dd>{{ row.Author }}</dd>
+            <dd>
+                {{ row.author_name }}
+                <div itemscope itemtype="https://schema.org/Person">
+                    <a itemprop="sameAs"
+                       content="https://orcid.org/{{ row.author_orcid }}"
+                       href="https://orcid.org/{{ row.author_orcid }}"
+                       target="orcid.widget"
+                       rel="noopener noreferrer"
+                       style="vertical-align:top;">
+                        <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+                             style="width:1em;margin-right:.5em;"
+                             alt="ORCID iD icon">https://orcid.org/{{ row.author_orcid }}
+                    </a>
+                </div>
+            </dd>
         </dl>
 
         <h2>References</h2>
@@ -38,9 +52,15 @@
             <ul>
                 {% for database, database_identifier in xrefs %}
                     <li>
-                        <a href="https://identifiers.org/{{ database }}:{{ database_identifier }}">
-                            {{ database }}:{{ database_identifier }}
-                        </a>
+                        {% if database == 'url' %}
+                            <a href="{{ database_identifier }}">
+                                {{ database_identifier }}
+                            </a>
+                        {% else %}
+                            <a href="https://identifiers.org/{{ database }}:{{ database_identifier }}">
+                                {{ database }}:{{ database_identifier }}
+                            </a>
+                        {% endif %}
                     </li>
                 {% endfor %}
             </ul>
