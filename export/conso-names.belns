@@ -2,8 +2,8 @@
 Keyword=CONSO
 NameString=Curation of Neurodegeneration Supporting Ontology
 DomainString=Other
-VersionString=20190927
-CreatedDateTime=2019-09-27T14:45:27
+VersionString=20191029
+CreatedDateTime=2019-10-29T12:06:06
 DescriptionString=The Curation of Neurodegeneration Supporting Ontology (CONSO) contains terms related to neurodegenerative disease and curation of related material. It is not disease-specific, but at least has a focus on Alzheimer's disease.
 [Author]
 NameString=Charles Tapley Hoyt
@@ -28,6 +28,7 @@ CacheableFlag=yes
 6-O-sulfated heparin|A
 8-nitro-cGMP|A
 A2B5 antigen|P
+AADvac1|A
 AAV-FKBP1B|PRG
 ACY-1215|A
 AG18051|A

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:09:2019 14:45
+date: 29:10:2019 12:06
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -4289,3 +4289,11 @@ xref: pdb:2V17
 xref: url:https\://www.creativebiolabs.net/Anti-PHF-core-Antibody-24396.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 relationship: has_antibody_target MGI:97180 ! Mapt
+
+[Term]
+id: CONSO:CONSO00366
+name: AADvac1
+namespace: antibody
+def: "active vaccine eliciting an immune response against pathologically modified forms of tau protein" [pmid:25478017]
+xref: url:https\://www.alzforum.org/therapeutics/aadvac1
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
