@@ -1,9 +1,5 @@
 format-version: 1.2
-<<<<<<< HEAD
 date: 27:09:2019 12:50
-=======
-date: 27:09:2019 14:45
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -4267,28 +4263,9 @@ def: "mouse monoclonal antibody specific to tau epitopes within 312 to 322 amino
 xref: antibodyregistry:AB_2314773
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 
-[Term]
-id: CONSO:CONSO00363
-<<<<<<< HEAD
-name: RGFP136
-namespace: chemical
-def: "HDAC3 inhibitor" [pmid:23356410, pmid:21228185]
-xref: inchi:InChI=1S/C20H24FN3O2/c1-14-6-8-15\(9-7-14\)20\(26\)23-12-4-2-3-5-19\(25\)24-18-11-10-16\(21\)13-17\(18\)22/h6-11\,13H\,2-5\,12\,22H2\,1H3\,\(H\,23\,26\)\(H\,24\,25\)
-xref: mesh:C556032
-xref: smiles:NC1=C\(C=CC\(=C1\)F\)NC\(CCCCCNC\(C1=CC=C\(C=C1\)C\)=O\)=O
-relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
-relationship: has_role CONSO:CONSO00364 ! HDAC-3 inhibitor
-synonym: "N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide" EXACT [mesh:C556032]
-synonym: "RGFP 136" EXACT [mesh:C556032]
-synonym: "RGFP-136" EXACT [mesh:C556032]
 
 [Term]
-id: CONSO:CONSO00364
-name: HDAC3 inhibitor
-namespace: chemical_role
-def: "Compounds that inhibit Histone Deactelylase 3(HDAC-3)" [pmid:23356410, pmid:21228185]
-relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
-=======
+id: CONSO:CONSO00363
 name: DC8E8
 namespace: antibody
 def: "recombinant mouse antibody specifc to MAPT" [pmid:4255369, pmid:25478017]
@@ -4313,4 +4290,25 @@ xref: pdb:2V17
 xref: url:https\://www.creativebiolabs.net/Anti-PHF-core-Antibody-24396.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 relationship: has_antibody_target MGI:97180 ! Mapt
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
+
+[Term]
+id: CONSO:CONSO00366
+<<<<<<< HEAD
+name: RGFP136
+namespace: chemical
+def: "HDAC3 inhibitor" [pmid:23356410, pmid:21228185]
+xref: inchi:InChI=1S/C20H24FN3O2/c1-14-6-8-15\(9-7-14\)20\(26\)23-12-4-2-3-5-19\(25\)24-18-11-10-16\(21\)13-17\(18\)22/h6-11\,13H\,2-5\,12\,22H2\,1H3\,\(H\,23\,26\)\(H\,24\,25\)
+xref: mesh:C556032
+xref: smiles:NC1=C\(C=CC\(=C1\)F\)NC\(CCCCCNC\(C1=CC=C\(C=C1\)C\)=O\)=O
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+relationship: has_role CONSO:CONSO00364 ! HDAC-3 inhibitor
+synonym: "N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide" EXACT [mesh:C556032]
+synonym: "RGFP 136" EXACT [mesh:C556032]
+synonym: "RGFP-136" EXACT [mesh:C556032]
+
+[Term]
+id: CONSO:CONSO00367
+name: HDAC3 inhibitor
+namespace: chemical_role
+def: "Compounds that inhibit Histone Deactelylase 3(HDAC-3)" [pmid:23356410, pmid:21228185]
+relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya

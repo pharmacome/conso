@@ -1813,13 +1813,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P domain</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRD</skos:altLabel>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:8068626</skos:related>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25974414</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:9190213</skos:related>
-=======
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:9190213</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25974414</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0001-9661-5277</author>
 </owl:Class>
 
@@ -1917,15 +1912,9 @@
   <rdfs:subClassOf rdf:resource="#CONSOC5"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregates of proteins or fragments of proteins</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein aggregates</rdfs:label>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23254192</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23484434</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12747895</skos:related>
-=======
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23484434</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:12747895</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23254192</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:PMC2633703</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D066329</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sbo:SBO:0000543</skos:related>
@@ -4126,13 +4115,9 @@
   <rdfs:subClassOf rdf:resource="#CONSOC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody</rdfs:label>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
-=======
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
@@ -4143,13 +4128,9 @@
   <rdfs:subClassOf rdf:resource="#CONSOC14"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epitopes targed by antibodies for the Tau protein (HGNC:MAPT)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau epitope</rdfs:label>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
-=======
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:27260838</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:26751493</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23666762</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28408124</skos:related>
@@ -4172,13 +4153,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S 24795, &gt;=98% (HPLC)</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCHEMBL5948853</skos:altLabel>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18034231</skos:related>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18265960</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18187166</skos:related>
-=======
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18187166</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:18265960</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:8063920</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C14H13BrNO.HI/c1-16-9-3-2-4-13(16)10-14(17)11-5-7-12(15)8-6-11;/h2-9H,10H2,1H3;1H/q+1;/p-1</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubchem.compound:9888248</skos:related>
@@ -4377,11 +4353,8 @@
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z5019</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZINC15863137</skos:altLabel>
   <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaminothiazole</skos:altLabel>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20524425</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21353545</skos:related>
-=======
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:11148059</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:20524425</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21353545</skos:related>
@@ -4750,20 +4723,14 @@
   <rdfs:subClassOf rdf:resource="#CONSOC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse monoclonal antibody specific to tau epitopes within 312 to 322 amino acid</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tau antibody, MC1</rdfs:label>
-<<<<<<< HEAD
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28148553</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21841002</skos:related>
-=======
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21841002</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:28148553</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23638068</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibodyregistry:AB_2314773</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
 </owl:Class>
 
-<owl:Class rdf:about="#CONSO00363">
-<<<<<<< HEAD
+<owl:Class rdf:about="#CONSO00366">
   <rdfs:subClassOf rdf:resource="#CONSOC6"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDAC3 inhibitor</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP136</rdfs:label>
@@ -4775,7 +4742,10 @@
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C20H24FN3O2/c1-14-6-8-15(9-7-14)20(26)23-12-4-2-3-5-19(25)24-18-11-10-16(21)13-17(18)22/h6-11,13H,2-5,12,22H2,1H3,(H,23,26)(H,24,25)</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:NC1=C(C=CC(=C1)F)NC(CCCCCNC(C1=CC=C(C=C1)C)=O)=O</skos:related>
-=======
+  <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
+</owl:Class>
+
+<owl:Class rdf:about="#CONSO00363">
   <rdfs:subClassOf rdf:resource="#CONSOC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recombinant mouse antibody specifc to MAPT</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC8E8</rdfs:label>
@@ -4783,12 +4753,10 @@
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:25478017</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pdb:4OZ4</skos:related>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.creativebiolabs.net/Anti-Tau-Antibody-24886.htm</skos:related>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
 </owl:Class>
 
-<owl:Class rdf:about="#CONSO00364">
-<<<<<<< HEAD
+<owl:Class rdf:about="#CONSO00367">
   <rdfs:subClassOf rdf:resource="#CONSOC10"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that inhibit Histone Deactelylase 3(HDAC-3)</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDAC3 inhibitor</rdfs:label>
@@ -4798,26 +4766,27 @@
 </owl:Class>
 
 <owl:Axiom>
-  <owl:annotatedSource rdf:resource="#CONSO00363"/>
+  <owl:annotatedSource rdf:resource="#CONSO00366"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP-136</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
 </owl:Axiom>
 
 <owl:Axiom>
-  <owl:annotatedSource rdf:resource="#CONSO00363"/>
+  <owl:annotatedSource rdf:resource="#CONSO00366"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP 136</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
 </owl:Axiom>
 
 <owl:Axiom>
-  <owl:annotatedSource rdf:resource="#CONSO00363"/>
+  <owl:annotatedSource rdf:resource="#CONSO00366"/>
   <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide</owl:annotatedTarget>
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
 </owl:Axiom>
-=======
+
+<owl:Class rdf:about="#CONSO00364">
   <rdfs:subClassOf rdf:resource="#CONSOC2"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoclonal mouse antibody specifc to MAPT</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC11</rdfs:label>
@@ -4836,7 +4805,6 @@
   <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.creativebiolabs.net/Anti-PHF-core-Antibody-24396.htm</skos:related>
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
 </owl:Class>
->>>>>>> a5216b46d28a2523d5864b8d545ea43f32adba6f
 
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#CONSO00353"/>
