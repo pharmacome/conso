@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:09:2019 12:50
+date: 31:10:2019 11:15
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -4263,7 +4263,6 @@ def: "mouse monoclonal antibody specific to tau epitopes within 312 to 322 amino
 xref: antibodyregistry:AB_2314773
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
 
-
 [Term]
 id: CONSO:CONSO00363
 name: DC8E8
@@ -4272,6 +4271,7 @@ def: "recombinant mouse antibody specifc to MAPT" [pmid:4255369, pmid:25478017]
 xref: pdb:4OZ4
 xref: url:https\://www.creativebiolabs.net/Anti-Tau-Antibody-24886.htm
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
+relationship: has_role CONSO:CONSO00364 ! HDAC-3 inhibitor
 relationship: has_antibody_target MGI:97180 ! Mapt
 
 [Term]
@@ -4293,7 +4293,6 @@ relationship: has_antibody_target MGI:97180 ! Mapt
 
 [Term]
 id: CONSO:CONSO00366
-<<<<<<< HEAD
 name: RGFP136
 namespace: chemical
 def: "HDAC3 inhibitor" [pmid:23356410, pmid:21228185]
@@ -4301,10 +4300,9 @@ xref: inchi:InChI=1S/C20H24FN3O2/c1-14-6-8-15\(9-7-14\)20\(26\)23-12-4-2-3-5-19\
 xref: mesh:C556032
 xref: smiles:NC1=C\(C=CC\(=C1\)F\)NC\(CCCCCNC\(C1=CC=C\(C=C1\)C\)=O\)=O
 relationship: author orcid:0000-0002-7683-0452 ! Yojana Gadiya
-relationship: has_role CONSO:CONSO00364 ! HDAC-3 inhibitor
+relationship: has_role CONSO:CONSO00367 ! HDAC-3 inhibitor
 synonym: "N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide" EXACT [mesh:C556032]
 synonym: "RGFP 136" EXACT [mesh:C556032]
-synonym: "RGFP-136" EXACT [mesh:C556032]
 
 [Term]
 id: CONSO:CONSO00367
