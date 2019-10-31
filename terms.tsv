@@ -364,5 +364,6 @@ CONSO00362	Yojana	Tau antibody, MC1	antibody	pmid:28148553, pmid:23638068, pmid:
 CONSO00363	Yojana	DC8E8	antibody	pmid:4255369, pmid:25478017	recombinant mouse antibody specifc to MAPT
 CONSO00364	Yojana	DC11	antibody	pmid:4255369, pmid:12544837	monoclonal mouse antibody specifc to MAPT
 CONSO00365	Yojana	MN423	antibody	pmid:4255369, pmid:25478017	recombinant mouse antibody binding to PHF core of MAPT
-CONSO00366	Yojana	RGFP136	chemical	pmid:23356410, pmid:21228185	HDAC3 inhibitor
-CONSO00367	Yojana	HDAC3 inhibitor	chemical role	pmid:23356410, pmid:21228185	Compounds that inhibit Histone Deactelylase 3(HDAC-3)
+CONSO00366	Yojana	AADvac1	antibody	pmid:25478017	active vaccine eliciting an immune response against pathologically modified forms of tau protein
+CONSO00367	Yojana	RGFP136	chemical	pmid:23356410, pmid:21228185	HDAC3 inhibitor
+CONSO00368	Yojana	HDAC3 inhibitor	chemical role	pmid:23356410, pmid:21228185	Compounds that inhibit Histone Deactelylase 3(HDAC-3)

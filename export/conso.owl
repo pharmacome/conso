@@ -4755,42 +4755,7 @@
   <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
 </owl:Class>
 
-<owl:Class rdf:about="#CONSO00366">
-  <rdfs:subClassOf rdf:resource="#CONSOC6"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDAC3 inhibitor</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP136</rdfs:label>
-  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide</skos:altLabel>
-  <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP 136</skos:altLabel>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21228185</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23356410</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchi:InChI=1S/C20H24FN3O2/c1-14-6-8-15(9-7-14)20(26)23-12-4-2-3-5-19(25)24-18-11-10-16(21)13-17(18)22/h6-11,13H,2-5,12,22H2,1H3,(H,23,26)(H,24,25)</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smiles:NC1=C(C=CC(=C1)F)NC(CCCCCNC(C1=CC=C(C=C1)C)=O)=O</skos:related>
-  <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
-</owl:Class>
-
-<owl:Class rdf:about="#CONSO00367">
-  <rdfs:subClassOf rdf:resource="#CONSOC10"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds that inhibit Histone Deactelylase 3(HDAC-3)</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HDAC3 inhibitor</rdfs:label>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21228185</skos:related>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:23356410</skos:related>
-  <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orcid:0000-0002-7683-0452</author>
-</owl:Class>
-
-<owl:Axiom>
-  <owl:annotatedSource rdf:resource="#CONSO00366"/>
-  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
-  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGFP 136</owl:annotatedTarget>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
-</owl:Axiom>
-
-<owl:Axiom>
-  <owl:annotatedSource rdf:resource="#CONSO00366"/>
-  <owl:annotatedProperty rdf:resource="http://www.w3.org/2008/05/skos#altLabel"/>
-  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide</owl:annotatedTarget>
-  <skos:related rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:C556032</skos:related>
-</owl:Axiom>
+<owl:Class rdf:about="#CONSO00366">iom>
 
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="#CONSO00353"/>
