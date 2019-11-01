@@ -81,4 +81,5 @@ CONSO	CONSO00354	Tau 6D	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00355	Tau 6P	has_reference_protein	uniprot	P10636	TAU_HUMAN
 CONSO	CONSO00363	DC8E8	has_antibody_target	MGI	MGI:97180	Mapt
 CONSO	CONSO00365	MN423	has_antibody_target	MGI	MGI:97180	Mapt
+CONSO	CONSO00367	 RGFP136	has_role	CONSO	CONSO00368	HDAC-3 inhibitor
 MESH	D000544	Alzheimer Disease	is_a	CONSO	CONSO00234	4R tauopathy
