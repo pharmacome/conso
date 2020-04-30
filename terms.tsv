@@ -367,4 +367,4 @@ CONSO00365	Yojana	MN423	antibody	pmid:4255369, pmid:25478017	recombinant mouse a
 CONSO00366	Yojana	AADvac1	antibody	pmid:25478017	active vaccine eliciting an immune response against pathologically modified forms of tau protein
 CONSO00367	Yojana	RGFP136	chemical	pmid:23356410, pmid:21228185	HDAC3 inhibitor
 CONSO00368	Yojana	HDAC3 inhibitor	chemical role	pmid:23356410, pmid:21228185	Compounds that inhibit Histone Deactelylase 3(HDAC-3)
-CONSO00369	Charlie	Chemofog	pathology	pmid:30112764, pmid:30382534, pmid:28916767	Long-term chemotherapy-induced cognitive decline in cancer survivors
+CONSO00369	Charlie	chemofog	pathology	pmid:30112764, pmid:30382534, pmid:28916767	Long-term chemotherapy-induced cognitive decline in cancer survivors
