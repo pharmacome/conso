@@ -227,37 +227,37 @@ CONSO00021	SP-233	pubchem.compound:16394575	EXACT
 CONSO00021	Spirost-5-en-3-ol, 3-hexanoate, (3beta,25R)-	pubchem.compound:16394575	EXACT
 CONSO00021	UNII-9BU4T267E4	pubchem.compound:16394575	EXACT
 CONSO00021	ZINC97971833	pubchem.compound:16394575	EXACT
-CONSO00028	ADDL	pmid:16712494	?
+CONSO00028	ADDL	pubmed:16712494	?
 CONSO00032	AKOS034831571	pubchem.compound:131954578	EXACT
 CONSO00032	[Pro3]-GIP (Rat)	pubchem.compound:131954578	EXACT
 CONSO00035	AGD	?	?
 CONSO00036	GVD	?	?
 CONSO00041	YENPTY	?	?
 CONSO00042	soluble amyloid precursor protein	?	?
-CONSO00046	PHF6* 	pmid:25775228	?
-CONSO00047	PHF6	pmid:25775228	?
+CONSO00046	PHF6* 	pubmed:25775228	?
+CONSO00047	PHF6	pubmed:25775228	?
 CONSO00050	MAP2/Tau projection	?	?
 CONSO00053	2N4R	?	?
-CONSO00053	htau40	pmid:19226187	?
+CONSO00053	htau40	pubmed:19226187	?
 CONSO00053	microtubule-associated protein tau isoform 2	?	?
 CONSO00054	0N3R	?	?
-CONSO00054	htau23	pmid:7667312	?
+CONSO00054	htau23	pubmed:7667312	?
 CONSO00054	microtubule-associated protein tau isoform 4	?	?
 CONSO00055	1N3R	?	?
-CONSO00055	htau37	pmid:22762014	?
+CONSO00055	htau37	pubmed:22762014	?
 CONSO00055	microtubule-associated protein tau isoform 7	?	?
 CONSO00056	0N4R	?	?
-CONSO00056	htau24	pmid:22762014	?
+CONSO00056	htau24	pubmed:22762014	?
 CONSO00056	microtubule-associated protein tau isoform 3	?	?
 CONSO00057	2N3R	?	?
-CONSO00057	htau39	pmid:22762014	?
+CONSO00057	htau39	pubmed:22762014	?
 CONSO00057	microtubule-associated protein tau isoform 8	?	?
 CONSO00058	1N4R	?	?
-CONSO00058	htau34	pmid:22762014	?
+CONSO00058	htau34	pubmed:22762014	?
 CONSO00058	microtubule-associated protein tau isoform 5	?	?
 CONSO00059	SEC-R	?	?
-CONSO00166	P domain	pmid:8068626	?
-CONSO00166	PRD	pmid:26789759	?
+CONSO00166	P domain	pubmed:8068626	?
+CONSO00166	PRD	pubmed:26789759	?
 CONSO00201	2-Fly	pubchem.compound:714286	EXACT
 CONSO00201	2-Furoyl-LIGRLO-amide trifluoroacetate salt	pubchem.compound:714286	EXACT
 CONSO00201	2-Furoyl-LIGRLO-amide trifluoroacetate salt, >=97% (HPLC)	pubchem.compound:714286	EXACT
@@ -1282,7 +1282,7 @@ CONSO00310	3-(2,4-Dimethoxy-benzylidene)-3,4,5,6-tetrahydro-[2,3']bipyridinyl	pu
 CONSO00310	3-(2,4-Dimethoxybenzylidene)-3,4,5,6-tetrahydro-2,3'-bipyridine	pubchem.compound:5310985	EXACT
 CONSO00310	3-(2,4-dimethoxybenzylidene)anabaseine	pubchem.compound:5310985	EXACT
 CONSO00310	3-(3-(2,4-dimethoxybenzylidene)-3,4,5,6-tetrahydropyridin-2-yl)pyridine	pubchem.compound:5310985	EXACT
-CONSO00310	3-(4-hydroxy-2-methoxybenzylidene)anabaseine	pmid:25514383	?
+CONSO00310	3-(4-hydroxy-2-methoxybenzylidene)anabaseine	pubmed:25514383	?
 CONSO00310	3-[(2,4-dimethoxy)benzylidene]-anabaseine	pubchem.compound:5310985	EXACT
 CONSO00310	3-[(2,4-dimethoxyphenyl)methylene]-3,4,5,6-tetrahydro-2,3'-Bipyridine	pubchem.compound:5310985	EXACT
 CONSO00310	3-[(3E)-3-[(2,4-DIMETHOXYPHENYL)METHYLIDENE]-5,6-DIHYDRO-4H-PYRIDIN-2-YL]PYRIDINE	pubchem.compound:5310985	EXACT
@@ -1305,7 +1305,7 @@ CONSO00310	CHEMBL134713	pubchem.compound:5310985	EXACT
 CONSO00310	DB05708	pubchem.compound:5310985	EXACT
 CONSO00310	DMXB-A	pubchem.compound:5310985	EXACT
 CONSO00310	Dimethoxybenzylidene anabaseine	pubchem.compound:5310985	EXACT
-CONSO00310	GTS 21	pmid:25514383	?
+CONSO00310	GTS 21	pubmed:25514383	?
 CONSO00310	GTS-21	drugbank:DB05708	?
 CONSO00310	Gts-21	pubchem.compound:5310985	EXACT
 CONSO00310	KB-77635	pubchem.compound:5310985	EXACT
@@ -1318,8 +1318,8 @@ CONSO00310	UNII-8S399XDN2K	pubchem.compound:5310985	EXACT
 CONSO00310	X5074	pubchem.compound:5310985	EXACT
 CONSO00310	X5075	pubchem.compound:5310985	EXACT
 CONSO00310	ZINC860	pubchem.compound:5310985	EXACT
-CONSO00319	3-(4-hydroxy-2-methoxybenzylidene) anabaseine	pmid:25514383	?
-CONSO00319	3-(4-hydroxy-2-methoxybenzylidene)anabaseine	pmid:25514383	?
+CONSO00319	3-(4-hydroxy-2-methoxybenzylidene) anabaseine	pubmed:25514383	?
+CONSO00319	3-(4-hydroxy-2-methoxybenzylidene)anabaseine	pubmed:25514383	?
 CONSO00319	4OH-GTS-21	mesh:C116666	?
 CONSO00322	1,3-thiazole-2,4-diamine	pubchem.compound:118995	EXACT
 CONSO00322	2,4-thiazolediamine	pubchem.compound:118995	EXACT
@@ -1360,9 +1360,9 @@ CONSO00352	MMS1	ncit:C74982	EXACT
 CONSO00352	MMSE	ncit:C74982	EXACT
 CONSO00352	Mini-Mental State Examination Questionnaire	ncit:C74982	EXACT
 CONSO00352	Mini-Mental_Status_Exam	ncit:C74982	EXACT
-CONSO00353	1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium	pmid:12784645	EXACT
-CONSO00353	Glyceraldehyde derived Pyridinium compound	pmid:12784645	EXACT
-CONSO00353	Glyceraldehyde-derived Pyridinium compound	pmid:12784645	EXACT
+CONSO00353	1-(5-acetylamino-5-carboxypentyl)-3-hydroxy-5-hydroxymethyl-pyridinium	pubmed:12784645	EXACT
+CONSO00353	Glyceraldehyde derived Pyridinium compound	pubmed:12784645	EXACT
+CONSO00353	Glyceraldehyde-derived Pyridinium compound	pubmed:12784645	EXACT
 CONSO00367	N-(6-(2-amino-4-fluorophenylamino)-6-oxohexyl)-4-methylbenzamide	mesh:C556032	EXACT
 CONSO00367	RGFP 136	mesh:C556032	EXACT
 CONSO00369	CICI	pubmed:20832978	EXACT

@@ -31,7 +31,7 @@ REFERENCES_COLUMN = 4
 DESCRIPTION_COLUMN = 5
 NUMBER_TERM_COLUMNS = 6
 
-VALID_SOURCES = {'pmc', 'pmid', 'doi', 'pubchem.compound', 'ncit'}
+VALID_SOURCES = {'pmc', 'pubmed', 'doi', 'pubchem.compound', 'ncit'}
 VALID_SYNONYM_TYPES = {'EXACT', 'BROAD', 'NARROW', 'RELATED', '?'}
 
 
@@ -132,7 +132,7 @@ def _get_terms_helper(
         if any(source not in VALID_SOURCES for source, reference in references_split):
             _print_fail(
                 f'{TERMS_PATH}, line {i} : invalid reference type '
-                f'(note: always use lowercase pmid, pmc, etc.): {references_split}'
+                f'(note: always use lowercase pubmed, pmc, etc.): {references_split}'
             )
             continue
 
