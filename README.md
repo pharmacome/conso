@@ -27,7 +27,7 @@ disease.
 
 ## Contents
 
-### classes.tsv
+### [classes.tsv](classes.tsv)
 
 This tab-separated values file contains a two columns describing
 classes of entities in CONSO:
@@ -35,7 +35,7 @@ classes of entities in CONSO:
 1. Class
 2. BEL Encodings
 
-### typedefs.tsv
+### [typedefs.tsv](typedefs.tsv)
 
 This tab-separated values file contains a six columns describing
 relationships used in CONSO:
@@ -47,7 +47,7 @@ relationships used in CONSO:
 5. Transitive (true or false)
 6. Comment
 
-### terms.tsv
+### [terms.tsv](terms.tsv)
 
 This tab-separated values file contains four columns describing
 entities in CONSO:
@@ -59,7 +59,7 @@ entities in CONSO:
 5. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
 6. Description (no double quote characters allowed)
 
-### synonyms.tsv
+### [synonyms.tsv](synonyms.tsv)
 
 This tab-separated values contains four columns describing synonyms
 for terms in CONSO:
@@ -70,7 +70,7 @@ for terms in CONSO:
 4. Specificity (one of ``EXACT``, ``BROAD``, ``NARROW``, or ``RELATED``.
    See: https://owlcollab.github.io/oboformat/doc/GO.format.obo-1_4.html)
 
-### xrefs.tsv
+### [xrefs.tsv](xrefs.tsv)
 
 This tab-separated values file contains three columns describing
 other databases that have listed this equivalent entity:
@@ -79,7 +79,7 @@ other databases that have listed this equivalent entity:
 2. Database (preferred using identifiers.org)
 3. Identifier
 
-### relations.tsv
+### [relations.tsv](relations.tsv)
 
 This tab-separated values file describes
 relations between terms in CONSO:
