@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://docs.google.com/drawings/d/e/2PACX-1vTXUpnVo_W6vJOv2nx894YkZ8XAra1SksAgsWDgg2gya9sIldRaZd7JrXNFamZp2kCWQhYEM8S5fBvS/pub?w=434&amp;h=433">
+</p>
+
 <h1 align="center">
   <br>
   Curation of Neurodegeneration Supporting Ontology (CONSO)
@@ -124,3 +128,9 @@ Finally, the results need to be `git push`ed back to GitHub.
 
 - BEL scripts in this repository are licensed under the CC BY 4.0 license.
 - Python source code in this repository is licensed under the MIT license.
+
+## Acknowledgements
+
+### Logo
+
+Logo designed by Daniel Domingo-Fernández
