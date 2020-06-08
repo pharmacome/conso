@@ -56,27 +56,22 @@ def make_ontology() -> Ontology:
     classes_df = pd.read_csv(CLASSES_PATH, sep='\t')
     super_classes = {}
     with ontology:
-        for i, (name, encoding) in classes_df.iterrows():
+        for i, (name, _encoding) in classes_df.iterrows():
             super_classes[name] = cls = types.new_class(
                 name=f'{CONSO}C{i}',
                 bases=(Thing,),
             )
             cls.label = name
 
-    with open(AUTHORS_PATH) as file:
-        reader = csv.reader(file, delimiter='\t')
-        _ = next(reader)  # skip the header
-        authors = {
-            author_name: orcid_identifier
-            for author_name, _, orcid_identifier in reader
-        }
+    # authors_df = pd.read_csv(AUTHORS_PATH, sep='\t')
+    # authors = dict(authors_df[['ORCID', 'Name']].values)
 
     with open(TERMS_PATH) as file, ontology:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
         classes: Dict[str, Type[Thing]] = {}
-        for conso_id, author_name, name, super_cls_name, references, definition in reader:
+        for conso_id, orcid, name, super_cls_name, references, definition in reader:
             if name == 'WITHDRAWN':
                 continue
 
@@ -86,7 +81,7 @@ def make_ontology() -> Ontology:
             )
             cls.label = name
             cls.comment = definition
-            cls.author = f'orcid:{authors[author_name]}'
+            cls.author = f'orcid:{orcid}'
             cls.related = [reference.strip() for reference in references.split(',')]
             classes[conso_id] = cls
 

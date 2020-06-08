@@ -115,7 +115,7 @@ def get_content():
         reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
         _ = next(reader)  # skip the header
         handled_relations = {'is_a'} | {typedef.identifier for typedef in typedefs}
-        for line, (source_ns, source_id, source_name, relation, target_ns, target_id, target_name) in reader:
+        for line, (source_ns, source_id, _source_name, relation, target_ns, target_id, target_name) in reader:
             if relation not in handled_relations:
                 print(f'{RELATIONS_PATH} can not handle line {line} because unhandled relation: {relation}')
                 continue

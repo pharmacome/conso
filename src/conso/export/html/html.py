@@ -35,16 +35,13 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     :param directory: The output directory where the html goes.
     :param debug_links: If true, uses links directly to index files instead of by folder.
     """
-    authors_to_name, author_to_orcid = {}, {}
-    for key, author, orcid in pd.read_csv(AUTHORS_PATH, sep='\t').values:
-        authors_to_name[key] = author
-        author_to_orcid[key] = orcid
+    authors_df = pd.read_csv(AUTHORS_PATH, sep='\t')
+    authors = dict(authors_df[['ORCID', 'Name']].values)
 
     terms_df = pd.read_csv(TERMS_PATH, sep='\t')
     terms_df = terms_df[terms_df.Name != 'WITHDRAWN']
 
-    terms_df['author_name'] = terms_df['Author'].map(authors_to_name.get)
-    terms_df['author_orcid'] = terms_df['Author'].map(author_to_orcid.get)
+    terms_df['author_name'] = terms_df['Author'].map(authors.get)
 
     synonyms = defaultdict(list)
     for _, row in pd.read_csv(SYNONYMS_PATH, sep='\t').iterrows():

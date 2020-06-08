@@ -9,6 +9,8 @@ import sys
 from collections import defaultdict
 from typing import Iterable, Mapping, Optional, Set, Tuple
 
+import pandas as pd
+
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
 ROOT = os.path.join(HERE, os.pardir, os.pardir)
@@ -41,9 +43,9 @@ def is_ascii(s: str) -> bool:
 
 
 def get_identifier_to_name(
-        *,
-        classes: Set[str],
-        authors: Mapping[str, Tuple[str, str]],
+    *,
+    classes: Set[str],
+    authors: Mapping[str, Tuple[str, str]],
 ) -> Mapping[str, str]:
     """Generate a mapping from terms' identifiers to their names."""
     with open(TERMS_PATH) as file:
@@ -53,9 +55,9 @@ def get_identifier_to_name(
 
 
 def _get_terms_helper(
-        reader,
-        classes: Set[str],
-        authors: Mapping[str, Tuple[str, str]],
+    reader,
+    classes: Set[str],
+    authors: Mapping[str, Tuple[str, str]],
 ) -> Iterable[Tuple[str, str]]:
     errors = 0
 
@@ -132,7 +134,7 @@ def _get_terms_helper(
         if any(source not in VALID_SOURCES for source, reference in references_split):
             _print_fail(
                 f'{TERMS_PATH}, line {i} : invalid reference type '
-                f'(note: always use lowercase pubmed, pmc, etc.): {references_split}'
+                f'(note: always use lowercase pubmed, pmc, etc.): {references_split}',
             )
             continue
 
@@ -143,7 +145,7 @@ def _get_terms_helper(
         yield identifier, line[NAME_COLUMN]
 
     if errors:
-        print(f'Found {errors} errors. Exiting with code: 1')
+        print(f'Found {errors} errors. Exiting with code: 1')  # noqa:T001
         sys.exit(1)
 
 
@@ -160,10 +162,8 @@ def get_types() -> Set[str]:
 
 def get_authors() -> Mapping[str, Tuple[str, str]]:
     """Get the mapping from curator names to ORCID identifiers."""
-    with open(AUTHORS_PATH) as file:
-        reader = csv.reader(file, delimiter='\t')
-        _ = next(reader)  # skip the header
-        return {key: (author, orcid) for key, author, orcid in reader}
+    authors_df = pd.read_csv(AUTHORS_PATH, sep='\t')
+    return dict(authors_df[['ORCID', 'Name']].values)
 
 
 def _get_types_helper(lines: Iterable[Tuple[str, ...]]):
@@ -305,9 +305,9 @@ def check_class_has_xref(cls, xrefs) -> None:
 
 
 def check_class_has_relation(
-        cls: str,
-        relation: str,
-        object_namespace: Optional[str] = None
+    cls: str,
+    relation: str,
+    object_namespace: Optional[str] = None,
 ) -> None:
     """Check that members of the given class have a given relation with a cardinality of 1."""
     with open(TERMS_PATH) as file:
@@ -392,10 +392,10 @@ def check_chemical_structures() -> None:
 
 
 def _check_missing_xref(
-        cls: str,
-        entries: Mapping[str, Tuple[str, str, str]],
-        db_map: Mapping[str, Mapping[str, str]],
-        db: str,
+    cls: str,
+    entries: Mapping[str, Tuple[str, str, str]],
+    db_map: Mapping[str, Mapping[str, str]],
+    db: str,
 ) -> None:
     missing_entries = {
         entry
