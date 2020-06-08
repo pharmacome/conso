@@ -66,7 +66,7 @@ for terms in CONSO:
 
 1. Identifier
 2. Synonym
-3. References (namespace prefixed, comma separated. Example: `pmid:1234, pmid:1245, pmc:PMC1234`)
+3. References (namespace prefixed, comma separated. Example: `pubmed:1234, pubmed:1245, pmc:PMC1234`)
 4. Specificity (one of ``EXACT``, ``BROAD``, ``NARROW``, or ``RELATED``.
    See: https://owlcollab.github.io/oboformat/doc/GO.format.obo-1_4.html)
 
@@ -103,7 +103,7 @@ Tips:
 - Only capitalize proper nouns in term labels (e.g., *Tau* is a named protein, so it is capitalized but 
   *hyperphosphorylation* is not)
 - Normalize greek letters to full english names, then add synonyms with the greek letter.
-- References should follow the https://identifiers.org semantic web style (e.g., `pmid:1234`, `pmid:1245`, 
+- References should be written as compact URIs (CURIEs) (e.g., `pubmed:1234`, `pubmed:1245`, 
   `pmc:PMC1234`, etc.)
 
 ## Build
@@ -112,7 +112,7 @@ All build operations are handled by `tox`, which can be installed from the comma
 with:
 
 ```bash
-$ pip3 install tox
+$ pip install tox
 ```
 
 First, `cd` into the folder for this repository, then `tox` can be directly run as a command. It takes care of 
