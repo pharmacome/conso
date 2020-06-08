@@ -24,6 +24,7 @@ OUTPUT_DIRECTORY = os.path.join(ROOT, 'docs')
 
 environment = Environment(autoescape=True, loader=FileSystemLoader(HERE), trim_blocks=False)
 index_template = environment.get_template('index.html')
+summary_template = environment.get_template('summary.html')
 term_template = environment.get_template('term.html')
 
 CONSO = 'CONSO'
@@ -84,6 +85,12 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     )
     with open(os.path.join(directory, 'index.html'), 'w') as file:
         print(index_html, file=file)
+
+    summary_html = summary_template.render(
+        terms_df=terms_df,
+    )
+    with open(os.path.join(directory, 'summary.html'), 'w') as file:
+        print(summary_html, file=file)
 
     for _, row in terms_df.iterrows():
         subdirectory = os.path.join(directory, row.Identifier)
