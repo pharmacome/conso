@@ -100,13 +100,13 @@ relations between terms in CONSO:
 
 CONSO is automatically exported to several formats on each build in the `export/` directory:
 
-### Open Biomedical Ontology (OBO)
+### Open Biomedical Ontology
 
 The latest OBO file can be found at https://raw.githubusercontent.com/pharmacome/conso/master/export/conso.obo.
 
 This file can be regenerated with ``tox -e obo``.
 
-### Web Ontology Language (OWL)
+### Web Ontology Language
 
 The latest OWL file can be found at https://raw.githubusercontent.com/pharmacome/conso/master/export/conso.owl.
 
