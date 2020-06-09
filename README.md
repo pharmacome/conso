@@ -96,9 +96,9 @@ relations between terms in CONSO:
 6. Target Identifier
 7. Target Name
 
-## [Exports](exports/)
+## [Exports](export/)
 
-CONSO is automatically exported to several formats on each build in the `exports/` directory:
+CONSO is automatically exported to several formats on each build in the `export/` directory:
 
 ### Open Biomedical Ontology (OBO)
 
@@ -120,7 +120,7 @@ ensure semantic alignment.
 
 A BEL namespace file for CONSO can be generated with ``tox -e belns``, then commit to GitHub and use
 the commit hash to build a new URL for BEL documents following the form of:
-https://raw.githubusercontent.com/pharmacome/conso/{HASH GOES HERE}/export/conso.belns
+`https://raw.githubusercontent.com/pharmacome/conso/{HASH GOES HERE}/export/conso.belns`
 
 The latest BEL namespace can be found at:
 
