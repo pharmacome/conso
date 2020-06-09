@@ -23,6 +23,7 @@ disease.
 
 <p align="center">
   <a href="#contents">Contents</a> •
+  <a href="#exports">Exports</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#build">Build</a> •
   <a href="#license">License</a>
