@@ -9,6 +9,9 @@
     <img src="https://travis-ci.com/pharmacome/conso.svg?branch=master"
          alt="Travis CI">
   </a>
+  <a href="https://zenodo.org/badge/latestdoi/142866236">
+    <img src="https://zenodo.org/badge/142866236.svg" alt="DOI">
+  </a>
   <br>
 </h1>
 
