@@ -18,7 +18,7 @@
 <p align="center">
 This ontology, developed during the <a href="https://pharmacome.github.io">Human Brain Pharmacome project</a>, 
 contains terms representing chemistry, molecular biology, epidemiology, and pathology relevant to neurodegenerative 
-disease.
+disease. A web site listing the contents is hosted by GitHub Pages at https://pharmacome.github.io/conso/.
 </p>
 
 <p align="center">
