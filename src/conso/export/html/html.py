@@ -3,10 +3,12 @@
 """Export CONSO to HTML."""
 
 import os
-from collections import defaultdict
+from collections import Counter, defaultdict
 from typing import Optional
 
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 from jinja2 import Environment, FileSystemLoader
 
 #: Path to this directory
@@ -44,17 +46,20 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
 
     terms_df['author_name'] = terms_df['Author'].map(authors.get)
 
+    synonyms_df = pd.read_csv(SYNONYMS_PATH, sep='\t')
     synonyms = defaultdict(list)
-    for _, row in pd.read_csv(SYNONYMS_PATH, sep='\t').iterrows():
+    for _, row in synonyms_df.iterrows():
         synonyms[row.identifier].append((row.synonym, row.reference, row.specificity))
 
+    xrefs_df = pd.read_csv(XREFS_PATH, sep='\t')
     xrefs = defaultdict(list)
-    for _, row in pd.read_csv(XREFS_PATH, sep='\t').iterrows():
+    for _, row in xrefs_df.iterrows():
         xrefs[row.identifier].append((row.database, row.database_identifier))
 
+    relations_df = pd.read_csv(RELATIONS_PATH, sep='\t')
     incoming_relations = defaultdict(list)
     outgoing_relations = defaultdict(list)
-    for _, row in pd.read_csv(RELATIONS_PATH, sep='\t').iterrows():
+    for _, row in relations_df.iterrows():
         if row['Source Namespace'] == CONSO:
             outgoing_relations[row['Source Identifier']].append((
                 row['Relation'],
@@ -86,8 +91,11 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     with open(os.path.join(directory, 'index.html'), 'w') as file:
         print(index_html, file=file)
 
+    summary_df = terms_df.groupby('Type').count().sort_values('Identifier', ascending=False)['Identifier'].reset_index()
+    summary_df['Type'] = summary_df['Type'].map(str.title)
+    summary_df = summary_df[summary_df['Type'] != '?']
     summary_html = summary_template.render(
-        terms_df=terms_df,
+        summary_df=summary_df,
     )
     with open(os.path.join(directory, 'summary.html'), 'w') as file:
         print(summary_html, file=file)
@@ -105,6 +113,24 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
         )
         with open(os.path.join(subdirectory, 'index.html'), 'w') as file:
             print(html, file=file)
+
+    # Make some plots
+    fig, (lax, rax) = plt.subplots(ncols=2, figsize=(12, 5))
+    sns.barplot(data=summary_df, y='Type', x='Identifier', ax=lax)
+    lax.set_xlabel('Count')
+    lax.set_ylabel('')
+    lax.set_title(f'Entries ({len(terms_df.index)})')
+
+    relations = Counter(relations_df['Relation'].map(lambda s: s.replace('_', ' ').title()))
+    relations['Has Synonym'] = len(synonyms_df.index)
+    relations['Has Xref'] = len(xrefs_df.index)
+    relations_summary_df = pd.DataFrame(relations.most_common(), columns=['Type', 'Count'])
+    sns.barplot(data=relations_summary_df, x='Count', y='Type', ax=rax)
+    rax.set_xscale('log')
+    rax.set_ylabel('')
+    rax.set_title(f'Relations ({sum(relations.values())})')
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIRECTORY, 'summary.png'), dpi=300)
 
 
 if __name__ == '__main__':

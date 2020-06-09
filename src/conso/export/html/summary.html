@@ -18,11 +18,10 @@
                 </tr>
                 </thead>
                 <tbody>
-                {% for idx, row in terms_df.groupby('Type').count().sort_values('Identifier',
-                ascending=False).iterrows() %}
+                {% for idx, count in summary_df.values %}
                 <tr>
-                    <td>{{ idx.title() }}</td>
-                    <td>{{ row['Identifier'] }}</td>
+                    <td>{{ idx }}</td>
+                    <td>{{ count }}</td>
                 </tr>
                 {% endfor %}
                 </tbody>
