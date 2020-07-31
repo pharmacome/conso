@@ -368,3 +368,4 @@ CONSO00366	0000-0002-7683-0452	AADvac1	antibody	pubmed:25478017	active vaccine e
 CONSO00367	0000-0002-7683-0452	RGFP136	chemical	pubmed:23356410, pubmed:21228185	HDAC3 inhibitor
 CONSO00368	0000-0002-7683-0452	HDAC3 inhibitor	chemical role	pubmed:23356410, pubmed:21228185	Compounds that inhibit Histone Deactelylase 3(HDAC-3)
 CONSO00369	0000-0003-4423-4370	chemofog	pathology	pubmed:30112764, pubmed:30382534, pubmed:28916767	Long-term chemotherapy-induced cognitive decline in cancer survivors
+CONSO00370	0000-0003-4423-4370	Chemotherapy-induced peripheral neuropathy	pathology	pubmed:31363906, pubmed:30244980, pubmed:25256375, pubmed:31783290, pubmed:24830939	neuropathy caused by chemotherapy
