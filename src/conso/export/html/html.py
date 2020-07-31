@@ -119,7 +119,7 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
     sns.barplot(data=summary_df, y='Type', x='Identifier', ax=lax)
     lax.set_xlabel('Count')
     lax.set_ylabel('')
-    lax.set_title(f'Entries ({len(terms_df.index)})')
+    lax.set_title(f'Entries ({len(terms_df.index)} in {summary_df["Type"].nunique()} classes)')
 
     relations = Counter(relations_df['Relation'].map(lambda s: s.replace('_', ' ').title()))
     relations['Has Synonym'] = len(synonyms_df.index)
