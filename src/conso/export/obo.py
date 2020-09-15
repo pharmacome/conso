@@ -4,7 +4,7 @@
 
 import csv
 import os
-from typing import Mapping, Optional
+from typing import Dict, Mapping, Optional
 
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
 
@@ -42,8 +42,8 @@ def get_content():
     with open(TYPEDEF_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
-        typedefs = [
-            TypeDef(
+        typedefs: Dict[str, TypeDef] = {
+            identifier: TypeDef(
                 reference=Reference(prefix=CONSO, identifier=identifier, name=name),
                 namespace=namespace,
                 xrefs=Reference.from_curies(xrefs),
@@ -51,25 +51,25 @@ def get_content():
                 comment=comment,
             )
             for identifier, name, namespace, xrefs, transitive, comment in reader
-        ]
+        }
 
     with open(AUTHORS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
         authors: Mapping[str, Reference] = {
-            key: Reference(
+            orcid_identifier: Reference(
                 prefix='orcid',
                 identifier=orcid_identifier,
                 name=author,
             )
-            for key, author, orcid_identifier in reader
+            for orcid_identifier, author in reader
         }
 
     with open(TERMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
         _ = next(reader)  # skip the header
 
-        terms = {}
+        terms: Dict[str, Term] = {}
         for conso_id, author_key, name, namespace, references, description in reader:
             if name == 'WITHDRAWN':
                 continue
@@ -86,7 +86,7 @@ def get_content():
                 namespace=namespace,
                 definition=description,
             )
-            terms[conso_id].relationships['author'].append(authors[author_key])
+            terms[conso_id].relationships[typedefs['author']].append(authors[author_key])
 
     with open(SYNONYMS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -107,14 +107,14 @@ def get_content():
         _ = next(reader)  # skip the header
         for conso_id, database, identifier in reader:
             if database.lower() == 'bel':
-                terms[conso_id].relationships['bel'] = [Reference(prefix='bel', identifier=identifier)]
+                terms[conso_id].relationships[typedefs['bel']] = [Reference(prefix='bel', identifier=identifier)]
             else:
                 terms[conso_id].xrefs.append(Reference(prefix=database, identifier=identifier))
 
     with open(RELATIONS_PATH) as file:
         reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
         _ = next(reader)  # skip the header
-        handled_relations = {'is_a'} | {typedef.identifier for typedef in typedefs}
+        handled_relations = {'is_a'} | set(typedefs)
         for line, (source_ns, source_id, _source_name, relation, target_ns, target_id, target_name) in reader:
             if relation not in handled_relations:
                 print(f'{RELATIONS_PATH} can not handle line {line} because unhandled relation: {relation}')
@@ -133,9 +133,9 @@ def get_content():
             if relation == 'is_a':
                 terms[source_id].parents.append(target)
             else:
-                terms[source_id].relationships[relation].append(target)
+                terms[source_id].relationships[typedefs[relation]].append(target)
 
-    return terms.values(), typedefs
+    return terms.values(), typedefs.values()
 
 
 def main(path: Optional[str] = None) -> None:
