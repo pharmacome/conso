@@ -4,7 +4,7 @@
 
 import csv
 import os
-from typing import Mapping, Optional
+from typing import Dict, Mapping, Optional
 
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
 
