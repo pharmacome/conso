@@ -3,25 +3,14 @@
 """Export CONSO to OWL."""
 
 import csv
-import os
 import types
-from typing import Dict, Optional, Type
+from typing import Dict, Type
 
 import click
 import pandas as pd
 from owlready2 import AnnotationProperty, Namespace, Ontology, Thing, get_ontology
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
-
-AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
-CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
-TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
-SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
-XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
-RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
-
-OUTPUT_PATH = os.path.join(ROOT, 'export', 'conso.owl')
+from ..resources import CLASSES_PATH, SYNONYMS_PATH, TERMS_PATH, XREFS_PATH
 
 CONSO = 'CONSO'
 URL = 'https://raw.githubusercontent.com/pharmacome/conso/master/export/conso.owl'
@@ -104,10 +93,10 @@ def get_owl() -> Ontology:
 
 
 @click.command()
-@click.option('--path')
-def owl(path: Optional[str]):
+@click.argument('path')
+def owl(path: str):
     """Export CONSO as OWL."""
-    get_owl().save(path or OUTPUT_PATH)
+    get_owl().save(path)
 
 
 if __name__ == '__main__':
