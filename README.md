@@ -5,9 +5,9 @@
 <h1 align="center">
   <br>
   Curation of Neurodegeneration Supporting Ontology (CONSO)
-  <a href="https://travis-ci.com/pharmacome/conso">
-    <img src="https://travis-ci.com/pharmacome/conso.svg?branch=master"
-         alt="Travis CI">
+  <a href="https://github.com/pharmacome/conso/actions?query=workflow%3ATests">
+    <img src="https://github.com/pharmacome/conso/workflows/Tests/badge.svg"
+         alt="GitHub Actions">
   </a>
   <a href="https://zenodo.org/badge/latestdoi/142866236">
     <img src="https://zenodo.org/badge/142866236.svg" alt="DOI">
