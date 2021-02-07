@@ -9,6 +9,7 @@ import sys
 from collections import defaultdict
 from typing import Iterable, Mapping, Optional, Set, Tuple
 
+import click
 import pandas as pd
 
 #: Path to this directory
@@ -410,7 +411,8 @@ def _check_missing_xref(
             print(*entries[entry][1:], db, '?', sep='\t')
 
 
-def main():
+@click.command()
+def check():
     """Run the check on the terms, synonyms, and xrefs."""
     classes = get_types()
     authors = get_authors()
@@ -427,8 +429,6 @@ def main():
     check_chemical_roles()
     check_class_has_relation('antibody', 'has_antibody_target')
 
-    sys.exit(0)
-
 
 if __name__ == '__main__':
-    main()
+    check()

@@ -7,6 +7,7 @@ import os
 import types
 from typing import Dict, Optional, Type
 
+import click
 import pandas as pd
 from owlready2 import AnnotationProperty, Namespace, Ontology, Thing, get_ontology
 
@@ -30,7 +31,7 @@ URL = 'https://raw.githubusercontent.com/pharmacome/conso/master/export/conso.ow
 # DC_SHORT = 'CONSO'
 
 
-def make_ontology() -> Ontology:
+def get_owl() -> Ontology:
     """Get classes."""
     ontology = get_ontology(URL)
 
@@ -102,11 +103,12 @@ def make_ontology() -> Ontology:
     return ontology
 
 
-def main(path: Optional[str] = None) -> None:
+@click.command()
+@click.option('--path')
+def owl(path: Optional[str]):
     """Export CONSO as OWL."""
-    ontology = make_ontology()
-    ontology.save(path or OUTPUT_PATH)
+    get_owl().save(path or OUTPUT_PATH)
 
 
 if __name__ == '__main__':
-    main()
+    owl()

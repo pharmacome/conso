@@ -2,12 +2,12 @@
 
 """Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to BELNS."""
 
-import argparse
 import csv
 import json
 import os
 from typing import List, Mapping, Optional
 
+import click
 from bel_resources import write_namespace
 from bel_resources.constants import NAMESPACE_DOMAIN_OTHER
 
@@ -91,19 +91,22 @@ def _write_mapping(path: str) -> None:
         json.dump(_get_mapping(), file, indent=2, sort_keys=True)
 
 
-def main(identifiers_path: Optional[str] = None,
-         names_path: Optional[str] = None,
-         mapping_path: Optional[str] = None,
-         ) -> None:
+@click.command()
+@click.option('--version')
+@click.option('--identifiers-path')
+@click.option('--names-path')
+@click.option('--mapping-path')
+def belns(
+    version,
+    identifiers_path: Optional[str],
+    names_path: Optional[str],
+    mapping_path: Optional[str],
+):
     """Export CONSO as BELNS."""
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--version')
-    args = parser.parse_args()
-
-    _write_namespace(identifiers_path or OUTPUT_FILE_PATH, _get_terms(), namespace_version=args.version)
-    _write_namespace(names_path or OUTPUT_NAME_FILE_PATH, _get_labels(), namespace_version=args.version)
+    _write_namespace(identifiers_path or OUTPUT_FILE_PATH, _get_terms(), namespace_version=version)
+    _write_namespace(names_path or OUTPUT_NAME_FILE_PATH, _get_labels(), namespace_version=version)
     _write_mapping(mapping_path or OUTPUT_MAPPING_PATH)
 
 
 if __name__ == '__main__':
-    main()
+    belns()

@@ -6,6 +6,7 @@ import json
 import os
 from typing import Mapping, Optional
 
+import click
 import pandas as pd
 from tqdm import tqdm
 
@@ -119,6 +120,12 @@ def enrich_chebi_xrefs():
     )
 
 
-if __name__ == '__main__':
+@click.command()
+def enrich():
+    """Enrich the ontology."""
     enrich_pubchem_synonyms()
     enrich_chebi_xrefs()
+
+
+if __name__ == '__main__':
+    enrich()

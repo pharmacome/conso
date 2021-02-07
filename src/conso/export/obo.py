@@ -4,8 +4,9 @@
 
 import csv
 import os
-from typing import Dict, Mapping, Optional
+from typing import Dict, Iterable, List, Mapping, Tuple
 
+import click
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -37,7 +38,14 @@ def get_obo() -> Obo:
     )
 
 
-def get_content():
+def _extract_references(s: str) -> Iterable[Reference]:
+    for curie in s.split(','):
+        reference = Reference.from_curie(curie)
+        if reference is not None:
+            yield reference
+
+
+def get_content() -> Tuple[List[Term], List[TypeDef]]:
     """Iterate CONSO terms."""
     with open(TYPEDEF_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -46,7 +54,7 @@ def get_content():
             identifier: TypeDef(
                 reference=Reference(prefix=CONSO, identifier=identifier, name=name),
                 namespace=namespace,
-                xrefs=Reference.from_curies(xrefs),
+                xrefs=list(_extract_references(xrefs)),
                 is_transitive=transitive == 'true',
                 comment=comment,
             )
@@ -79,10 +87,7 @@ def get_content():
                     identifier=conso_id,
                     name=name,
                 ),
-                provenance=[
-                    Reference.from_curie(pmid_curie)
-                    for pmid_curie in references.split(',')
-                ],
+                provenance=list(_extract_references(references)),
                 namespace=namespace,
                 definition=description,
             )
@@ -135,15 +140,15 @@ def get_content():
             else:
                 terms[source_id].relationships[typedefs[relation]].append(target)
 
-    return terms.values(), typedefs.values()
+    return list(terms.values()), list(typedefs.values())
 
 
-def main(path: Optional[str] = None) -> None:
+@click.command()
+@click.option('--path')
+def obo(path) -> None:
     """Export CONSO as OBO."""
-    obo = get_obo()
-    with open(path or OUTPUT_PATH, 'w') as file:
-        obo.write(file)
+    get_obo().write_obo(path or OUTPUT_PATH)
 
 
 if __name__ == '__main__':
-    main()
+    obo()
