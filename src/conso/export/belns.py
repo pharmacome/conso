@@ -85,9 +85,6 @@ def _write_mapping(path: str) -> None:
 @click.command()
 @click.argument('directory')
 @click.option('--version')
-@click.option('--identifiers-path')
-@click.option('--names-path')
-@click.option('--mapping-path')
 def belns(directory: str, version):
     """Export CONSO as BELNS."""
     identifiers_path = os.path.join(directory, 'conso.belns')
