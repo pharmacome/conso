@@ -6,10 +6,8 @@ import os
 from collections import Counter, defaultdict
 from typing import Optional
 
-import matplotlib.pyplot as plt
+import click
 import pandas as pd
-import seaborn as sns
-from jinja2 import Environment, FileSystemLoader
 
 #: Path to this directory
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -24,20 +22,27 @@ RELATIONS_PATH = os.path.join(ROOT, 'relations.tsv')
 
 OUTPUT_DIRECTORY = os.path.join(ROOT, 'docs')
 
-environment = Environment(autoescape=True, loader=FileSystemLoader(HERE), trim_blocks=False)
-index_template = environment.get_template('index.html')
-summary_template = environment.get_template('summary.html')
-term_template = environment.get_template('term.html')
-
 CONSO = 'CONSO'
 
 
-def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
+@click.command()
+@click.option('--directory')
+@click.option('--debug-links', is_flag=True)
+def html(directory: Optional[str], debug_links: bool) -> None:
     """Export CONSO as HTML.
 
     :param directory: The output directory where the html goes.
     :param debug_links: If true, uses links directly to index files instead of by folder.
     """
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    from jinja2 import Environment, FileSystemLoader
+
+    environment = Environment(autoescape=True, loader=FileSystemLoader(HERE), trim_blocks=False)
+    index_template = environment.get_template('index.html')
+    summary_template = environment.get_template('summary.html')
+    term_template = environment.get_template('term.html')
+
     authors_df = pd.read_csv(AUTHORS_PATH, sep='\t')
     authors = dict(authors_df[['ORCID', 'Name']].values)
 
@@ -134,4 +139,4 @@ def main(directory: Optional[str] = None, debug_links: bool = False) -> None:
 
 
 if __name__ == '__main__':
-    main()
+    html()

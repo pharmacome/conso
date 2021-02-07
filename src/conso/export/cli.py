@@ -2,19 +2,23 @@
 
 """Command line interface for exporting the Curation of Neurodegeneration Supporting Ontology (CONSO)."""
 
-from conso.export.belns import main as export_belns
-from conso.export.html import main as export_html
-from conso.export.obo import main as export_obo
-from conso.export.owl import main as export_owl
+import click
+
+from .belns import belns
+from .html import html
+from .obo import obo
+from .owl import owl
 
 
-def main() -> None:
-    """Make all exports."""
-    export_belns()
-    export_obo()
-    export_html()
-    export_owl()
+@click.group()
+def export():
+    """Export CONSO."""
 
+
+export.add_command(belns)
+export.add_command(html)
+export.add_command(obo)
+export.add_command(owl)
 
 if __name__ == '__main__':
-    main()
+    export()

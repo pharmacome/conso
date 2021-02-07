@@ -2,7 +2,7 @@
 
 """Export CONSO to HTML."""
 
-from .html import main
+from .html import html
 
 if __name__ == '__main__':
-    main()
+    html()

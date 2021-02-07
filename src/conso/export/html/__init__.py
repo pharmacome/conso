@@ -2,8 +2,8 @@
 
 """Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to HTML."""
 
-from .html import main
+from .html import html
 
 __all__ = [
-    'main',
+    'html',
 ]

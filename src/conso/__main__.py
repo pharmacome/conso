@@ -2,7 +2,7 @@
 
 """CLI for CONSO."""
 
-from .cli import main
+from .cli import enrich
 
 if __name__ == '__main__':
-    main()
+    enrich()
