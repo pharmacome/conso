@@ -1,0 +1,11 @@
+graft src
+graft tests
+prune docs
+prune external
+prune export
+prune notebooks
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib .DS_Store *.gpickle
+
+exclude .bumpversion.cfg Dockerfile docker-compose.yml
+include *.rst *.tsv *.txt *.yml LICENSE tox.ini .flake8 doc8.ini .coveragerc
