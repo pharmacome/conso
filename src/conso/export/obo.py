@@ -4,7 +4,7 @@
 
 import csv
 import os
-from typing import Dict, List, Mapping, Tuple
+from typing import Dict, Iterable, List, Mapping, Tuple
 
 import click
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
@@ -38,6 +38,13 @@ def get_obo() -> Obo:
     )
 
 
+def _extract_xrefs(s: str) -> Iterable[Reference]:
+    for xref in s.split(','):
+        reference = Reference.from_curie(xref)
+        if reference is not None:
+            yield reference
+
+
 def get_content() -> Tuple[List[Term], List[TypeDef]]:
     """Iterate CONSO terms."""
     with open(TYPEDEF_PATH) as file:
@@ -47,7 +54,7 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
             identifier: TypeDef(
                 reference=Reference(prefix=CONSO, identifier=identifier, name=name),
                 namespace=namespace,
-                xrefs=Reference.from_curies(xrefs),
+                xrefs=list(_extract_xrefs(xrefs)),
                 is_transitive=transitive == 'true',
                 comment=comment,
             )
