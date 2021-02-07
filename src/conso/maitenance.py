@@ -8,7 +8,7 @@ from collections import defaultdict
 import pandas as pd
 import requests
 
-from conso.check import TERMS_PATH, XREFS_PATH
+from .resources import TERMS_PATH, XREFS_PATH
 
 GILDA_URL = 'http://34.201.164.108:8001'
 

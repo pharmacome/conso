@@ -3,24 +3,12 @@
 """Export the Curation of Neurodegeneration Supporting Ontology (CONSO) to OBO."""
 
 import csv
-import os
 from typing import Dict, Iterable, List, Mapping, Tuple
 
 import click
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
-
-TYPEDEF_PATH = os.path.abspath(os.path.join(ROOT, 'typedefs.tsv'))
-AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
-CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
-TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
-SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
-XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
-RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
-
-OUTPUT_PATH = os.path.join(ROOT, 'export', 'conso.obo')
+from ..resources import AUTHORS_PATH, RELATIONS_PATH, SYNONYMS_PATH, TERMS_PATH, TYPEDEF_PATH, XREFS_PATH
 
 CONSO = 'CONSO'
 
@@ -144,10 +132,10 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
 
 
 @click.command()
-@click.option('--path')
-def obo(path) -> None:
+@click.argument('path')
+def obo(path):
     """Export CONSO as OBO."""
-    get_obo().write_obo(path or OUTPUT_PATH)
+    get_obo().write_obo(path)
 
 
 if __name__ == '__main__':

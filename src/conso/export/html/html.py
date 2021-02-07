@@ -4,31 +4,21 @@
 
 import os
 from collections import Counter, defaultdict
-from typing import Optional
 
 import click
 import pandas as pd
 
-#: Path to this directory
+from ...resources import AUTHORS_PATH, RELATIONS_PATH, SYNONYMS_PATH, TERMS_PATH, XREFS_PATH
+
 HERE = os.path.abspath(os.path.dirname(__file__))
-ROOT = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, os.pardir, os.pardir))
-
-AUTHORS_PATH = os.path.join(ROOT, 'authors.tsv')
-CLASSES_PATH = os.path.join(ROOT, 'classes.tsv')
-TERMS_PATH = os.path.join(ROOT, 'terms.tsv')
-SYNONYMS_PATH = os.path.join(ROOT, 'synonyms.tsv')
-XREFS_PATH = os.path.join(ROOT, 'xrefs.tsv')
-RELATIONS_PATH = os.path.join(ROOT, 'relations.tsv')
-
-OUTPUT_DIRECTORY = os.path.join(ROOT, 'docs')
 
 CONSO = 'CONSO'
 
 
 @click.command()
-@click.option('--directory')
+@click.argument('directory')
 @click.option('--debug-links', is_flag=True)
-def html(directory: Optional[str], debug_links: bool) -> None:
+def html(directory: str, debug_links: bool) -> None:
     """Export CONSO as HTML.
 
     :param directory: The output directory where the html goes.
@@ -37,6 +27,8 @@ def html(directory: Optional[str], debug_links: bool) -> None:
     import matplotlib.pyplot as plt
     import seaborn as sns
     from jinja2 import Environment, FileSystemLoader
+
+    os.makedirs(directory, exist_ok=True)
 
     environment = Environment(autoescape=True, loader=FileSystemLoader(HERE), trim_blocks=False)
     index_template = environment.get_template('index.html')
@@ -79,11 +71,6 @@ def html(directory: Optional[str], debug_links: bool) -> None:
                 row['Source Name'],
                 row['Relation'],
             ))
-
-    if directory is None:
-        directory = OUTPUT_DIRECTORY
-
-    os.makedirs(directory, exist_ok=True)
 
     index_html = index_template.render(
         terms_df=terms_df,
@@ -135,7 +122,7 @@ def html(directory: Optional[str], debug_links: bool) -> None:
     rax.set_ylabel('')
     rax.set_title(f'Relations ({sum(relations.values())})')
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIRECTORY, 'summary.png'), dpi=300)
+    plt.savefig(os.path.join(directory, 'summary.png'), dpi=300)
 
 
 if __name__ == '__main__':

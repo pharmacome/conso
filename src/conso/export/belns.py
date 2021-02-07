@@ -11,16 +11,7 @@ import click
 from bel_resources import write_namespace
 from bel_resources.constants import NAMESPACE_DOMAIN_OTHER
 
-#: Path to this directory
-HERE = os.path.abspath(os.path.dirname(__file__))
-ROOT = os.path.join(HERE, os.pardir, os.pardir, os.pardir)
-
-TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
-CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
-
-OUTPUT_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'conso.belns'))
-OUTPUT_NAME_FILE_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'conso-names.belns'))
-OUTPUT_MAPPING_PATH = os.path.abspath(os.path.join(ROOT, 'export', 'conso.belns.mapping'))
+from ..resources import CLASSES_PATH, TERMS_PATH
 
 
 def _get_classes() -> Mapping[str, str]:
@@ -92,20 +83,17 @@ def _write_mapping(path: str) -> None:
 
 
 @click.command()
+@click.argument('directory')
 @click.option('--version')
-@click.option('--identifiers-path')
-@click.option('--names-path')
-@click.option('--mapping-path')
-def belns(
-    version,
-    identifiers_path: Optional[str],
-    names_path: Optional[str],
-    mapping_path: Optional[str],
-):
+def belns(directory: str, version):
     """Export CONSO as BELNS."""
-    _write_namespace(identifiers_path or OUTPUT_FILE_PATH, _get_terms(), namespace_version=version)
-    _write_namespace(names_path or OUTPUT_NAME_FILE_PATH, _get_labels(), namespace_version=version)
-    _write_mapping(mapping_path or OUTPUT_MAPPING_PATH)
+    identifiers_path = os.path.join(directory, 'conso.belns')
+    names_path = os.path.join(directory, 'conso-names.belns')
+    mapping_path = os.path.join(directory, 'conso.belns.mapping')
+
+    _write_namespace(identifiers_path, _get_terms(), namespace_version=version)
+    _write_namespace(names_path, _get_labels(), namespace_version=version)
+    _write_mapping(mapping_path)
 
 
 if __name__ == '__main__':
