@@ -3,18 +3,13 @@
 """A script for enriching the CONSO with external information."""
 
 import json
-import os
 from typing import Mapping, Optional
 
 import click
 import pandas as pd
 from tqdm import tqdm
 
-HERE = os.path.abspath(os.path.dirname(__file__))
-ROOT = os.path.join(HERE, os.pardir, os.pardir)
-
-SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
-XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
+from .resources import SYNONYMS_PATH, XREFS_PATH
 
 SYNONYM_HEADER = ['identifier', 'synonym', 'reference', 'specificity']
 XREFS_HEADER = ['identifier', 'database', 'database_identifier']

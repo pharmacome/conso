@@ -3,7 +3,6 @@
 """A script to check the sanctity of the CONSO resources."""
 
 import csv
-import os
 import re
 import sys
 from collections import defaultdict
@@ -12,16 +11,7 @@ from typing import Iterable, Mapping, Optional, Set, Tuple
 import click
 import pandas as pd
 
-#: Path to this directory
-HERE = os.path.abspath(os.path.dirname(__file__))
-ROOT = os.path.join(HERE, os.pardir, os.pardir)
-
-AUTHORS_PATH = os.path.abspath(os.path.join(ROOT, 'authors.tsv'))
-CLASSES_PATH = os.path.abspath(os.path.join(ROOT, 'classes.tsv'))
-TERMS_PATH = os.path.abspath(os.path.join(ROOT, 'terms.tsv'))
-SYNONYMS_PATH = os.path.abspath(os.path.join(ROOT, 'synonyms.tsv'))
-XREFS_PATH = os.path.abspath(os.path.join(ROOT, 'xrefs.tsv'))
-RELATIONS_PATH = os.path.abspath(os.path.join(ROOT, 'relations.tsv'))
+from .resources import AUTHORS_PATH, CLASSES_PATH, RELATIONS_PATH, SYNONYMS_PATH, TERMS_PATH, XREFS_PATH
 
 CONSO = 'CONSO'
 CONSO_IDENTIFIER = re.compile(r'^CONSO(?P<number>\d{5})$')
