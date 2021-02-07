@@ -38,9 +38,9 @@ def get_obo() -> Obo:
     )
 
 
-def _extract_xrefs(s: str) -> Iterable[Reference]:
-    for xref in s.split(','):
-        reference = Reference.from_curie(xref)
+def _extract_references(s: str) -> Iterable[Reference]:
+    for curie in s.split(','):
+        reference = Reference.from_curie(curie)
         if reference is not None:
             yield reference
 
@@ -54,7 +54,7 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
             identifier: TypeDef(
                 reference=Reference(prefix=CONSO, identifier=identifier, name=name),
                 namespace=namespace,
-                xrefs=list(_extract_xrefs(xrefs)),
+                xrefs=list(_extract_references(xrefs)),
                 is_transitive=transitive == 'true',
                 comment=comment,
             )
@@ -87,10 +87,7 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
                     identifier=conso_id,
                     name=name,
                 ),
-                provenance=[
-                    Reference.from_curie(pmid_curie)
-                    for pmid_curie in references.split(',')
-                ],
+                provenance=list(_extract_references(references)),
                 namespace=namespace,
                 definition=description,
             )
