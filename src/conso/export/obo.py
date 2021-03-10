@@ -6,8 +6,9 @@ import csv
 from typing import Dict, Iterable, List, Mapping, Tuple
 
 import click
-from pyobo import Obo, Reference, Synonym, Term, TypeDef
 
+from pyobo import Obo, Reference, Synonym, Term, TypeDef
+from pyobo.struct.typedef import part_of, has_role
 from ..resources import AUTHORS_PATH, RELATIONS_PATH, SYNONYMS_PATH, TERMS_PATH, TYPEDEF_PATH, XREFS_PATH
 
 CONSO = 'CONSO'
@@ -48,6 +49,8 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
             )
             for identifier, name, namespace, xrefs, transitive, comment in reader
         }
+        typedefs.update(part_of=part_of, has_role=has_role)
+        del typedefs['bel']
 
     with open(AUTHORS_PATH) as file:
         reader = csv.reader(file, delimiter='\t')
@@ -100,9 +103,9 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
         _ = next(reader)  # skip the header
         for conso_id, database, identifier in reader:
             if database.lower() == 'bel':
-                terms[conso_id].relationships[typedefs['bel']] = [Reference(prefix='bel', identifier=identifier)]
+                terms[conso_id].append_property('bel', identifier)
             else:
-                terms[conso_id].xrefs.append(Reference(prefix=database, identifier=identifier))
+                terms[conso_id].append_xref(Reference(prefix=database, identifier=identifier))
 
     with open(RELATIONS_PATH) as file:
         reader = enumerate(csv.reader(file, delimiter='\t'), start=1)
@@ -124,9 +127,9 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
 
             target = Reference(prefix=target_ns, identifier=target_id, name=target_name)
             if relation == 'is_a':
-                terms[source_id].parents.append(target)
+                terms[source_id].append_parent(target)
             else:
-                terms[source_id].relationships[typedefs[relation]].append(target)
+                terms[source_id].append_relationship(typedefs[relation], target)
 
     return list(terms.values()), list(typedefs.values())
 
