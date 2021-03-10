@@ -8,7 +8,7 @@ from typing import Dict, Iterable, List, Mapping, Tuple
 import click
 
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
-from pyobo.struct.typedef import part_of, has_role
+from pyobo.struct.typedef import has_role, part_of
 from ..resources import AUTHORS_PATH, RELATIONS_PATH, SYNONYMS_PATH, TERMS_PATH, TYPEDEF_PATH, XREFS_PATH
 
 CONSO = 'CONSO'
@@ -136,9 +136,14 @@ def get_content() -> Tuple[List[Term], List[TypeDef]]:
 
 @click.command()
 @click.argument('path')
-def obo(path):
+@click.option('--check', is_flag=True)
+def obo(path: str, check: bool):
     """Export CONSO as OBO."""
     get_obo().write_obo(path)
+
+    if check:
+        import obonet
+        obonet.read_obo(path)
 
 
 if __name__ == '__main__':
