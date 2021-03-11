@@ -6,9 +6,9 @@ import csv
 from typing import Dict, Iterable, List, Mapping, Tuple
 
 import click
-
 from pyobo import Obo, Reference, Synonym, Term, TypeDef
 from pyobo.struct.typedef import has_role, part_of
+
 from ..resources import AUTHORS_PATH, RELATIONS_PATH, SYNONYMS_PATH, TERMS_PATH, TYPEDEF_PATH, XREFS_PATH
 
 CONSO = 'CONSO'

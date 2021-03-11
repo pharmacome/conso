@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:03:2021 19:10
+date: 11:03:2021 18:56
 auto-generated-by: https://github.com/pharmacome/conso/blob/master/src/conso/export/obo.py
 ontology: conso
 
@@ -2727,7 +2727,7 @@ synonym: "JLOXTZFYJNCPIS-FYWRMAATSA-N" EXACT [pubchem.compound:9549284]
 synonym: "K00090" EXACT [pubchem.compound:9549284]
 synonym: "KB-80585" EXACT [pubchem.compound:9549284]
 synonym: "LS-193345" EXACT [pubchem.compound:9549284]
-synonym: "MEK1/2 Inhibitor" EXACT [pubchem.compound:9549284]
+synonym: "MEK1/2 Inhibitor" BROAD [orcid:0000-0001-9439-5346]
 synonym: "MFCD06411432" EXACT [pubchem.compound:9549284]
 synonym: "MolPort-006-069-021" EXACT [pubchem.compound:9549284]
 synonym: "NCGC00092290-01" EXACT [pubchem.compound:9549284]
